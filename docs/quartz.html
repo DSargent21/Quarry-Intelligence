@@ -558,7 +558,11 @@
                 let source = "NONE";
                 let v = null;
                 
-                if (typeof DATA !== 'undefined' && DATA.stats) {
+                // [BILLION DOLLAR HYDRATION]: Always prefer the live stats.js object if it exists
+                if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.quartz) {
+                    source = "GLOBAL_CONTEXT (stats.js)";
+                    v = window.QUARRY_STATS.models.quartz;
+                } else if (typeof DATA !== 'undefined' && DATA.stats) {
                     source = "INJECTED_DATA";
                     v = {
                         ...DATA.stats,
@@ -568,18 +572,12 @@
                     };
                 } else {
                     console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO CLOUD LINK.");
-                    let stats = window.QUARRY_STATS;
-                    if (!stats) {
-                        try {
-                            const response = await fetch(`stats.json?t=${Date.now()}`);
-                            stats = await response.json();
-                            source = "CLOUD_LINK (stats.json)";
-                        } catch(e) { source = "ERROR"; }
-                    } else { source = "GLOBAL_CONTEXT"; }
-                    
-                    if (stats) {
+                    try {
+                        const response = await fetch(`stats.json?t=${Date.now()}`);
+                        const stats = await response.json();
                         v = stats.models ? stats.models.quartz : stats.stats;
-                    }
+                        source = "CLOUD_LINK (stats.json)";
+                    } catch(e) { source = "ERROR"; }
                 }
 
                 console.log(`📡 HYDRATION_SOURCE: ${source}`);
