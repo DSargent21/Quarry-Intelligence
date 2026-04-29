@@ -1,66 +1,66 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-04-29 15:20 UTC",
+        "last_update": "2026-04-29 15:23 UTC",
         "status": "NOMINAL"
     },
     "models": {
         "pyrite": {
-            "roi": -6.7,
-            "net": -101.2,
-            "wins": 2800,
-            "losses": 3301,
+            "roi": -9.1,
+            "net": -135.1,
+            "wins": 2204,
+            "losses": 2713,
             "pushes": 0,
-            "record": "2800-3301-0",
-            "win_rate": 45.9,
-            "sample": 6101,
-            "bets_day": 38.4,
+            "record": "2204-2713-0",
+            "win_rate": 44.8,
+            "sample": 4917,
+            "bets_day": 30.9,
             "status": "LEGACY",
             "yesterday": {
                 "date": "Apr 28, 2026",
-                "record": "20-22-0",
-                "win_rate": 47.6,
-                "net": 1.33,
-                "roi": 13.3,
+                "record": "32-30-0",
+                "win_rate": 51.6,
+                "net": 1.75,
+                "roi": 17.5,
                 "ledger": [
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
-                        "league_name": "Tennis",
-                        "decimal_odds": 2.45,
-                        "pick_norm": "jiri lehecka v. lorenzo musetti",
-                        "wager_unit": 0.3888349589594411,
-                        "profit_actual": 0.5638106904911897,
-                        "edge": 0.04299561588131656
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "Tennis",
-                        "decimal_odds": 2.45,
-                        "pick_norm": "jiri lehecka v. lorenzo musetti",
-                        "wager_unit": 0.3888349589594411,
-                        "profit_actual": 0.5638106904911897,
-                        "edge": 0.04299561588131656
+                        "league_name": "MLB",
+                        "decimal_odds": 2.15,
+                        "pick_norm": "chicago white sox ml vs los angeles angels",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.26883895453606327,
+                        "edge": 0.043869717176570455
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "MLB",
                         "decimal_odds": 2.15,
-                        "pick_norm": "chicago white sox 115 jose soriano rhp davis martin rhp must start",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.49241454764636317,
-                        "edge": 0.05294285541356997
+                        "pick_norm": "houston astros ml vs baltimore orioles",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.26883895453606327,
+                        "edge": 0.09399239545644716
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "MLB",
                         "decimal_odds": 2.15,
-                        "pick_norm": "chicago white sox 115 jose soriano rhp davis martin rhp must start",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.49241454764636317,
-                        "edge": 0.05294285541356997
+                        "pick_norm": "chicago white sox ml vs los angeles angels",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.26883895453606327,
+                        "edge": 0.043869717176570455
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.15,
+                        "pick_norm": "houston astros ml vs baltimore orioles",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.26883895453606327,
+                        "edge": 0.08896086936773256
                     },
                     {
                         "pick_date": "04/28",
@@ -68,9 +68,9 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 2.09,
                         "pick_norm": "og anunoby over 6.5 total reb",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.4667233538561181,
-                        "edge": 0.1006107284691915
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2548125742993991,
+                        "edge": 0.054915781226454685
                     },
                     {
                         "pick_date": "04/28",
@@ -78,138 +78,128 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 2.09,
                         "pick_norm": "og anunoby over 6.5 total reb",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.4667233538561181,
-                        "edge": 0.1006107284691915
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2548125742993991,
+                        "edge": 0.054915781226454685
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.06,
+                        "pick_norm": "detroit tigers ml vs atlanta braves",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.24779938418106703,
+                        "edge": 0.04894264867004838
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.06,
+                        "pick_norm": "detroit tigers ml vs atlanta braves",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.24779938418106703,
+                        "edge": 0.04894264867004838
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.01,
+                        "pick_norm": "arizona diamondbacks ml vs milwaukee brewers",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.23611073398384683,
+                        "edge": 0.04588147212023752
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.01,
+                        "pick_norm": "arizona diamondbacks ml vs milwaukee brewers",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.23611073398384683,
+                        "edge": 0.04588147212023752
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.99009900990099,
+                        "pick_norm": "boston red sox ml vs toronto blue jays",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2314584197469335,
+                        "edge": 0.04090634774212809
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.99009900990099,
+                        "pick_norm": "boston red sox ml vs toronto blue jays",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2314584197469335,
+                        "edge": 0.04090634774212809
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "NBA",
                         "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "philadelphia 76ers 11.5 vs boston celtics",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.40779672682928625,
-                        "edge": 0.0950324419068127
+                        "pick_norm": "philadelphia 76ers vs boston celtics under 214.5",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2226409561375265,
+                        "edge": 0.05946342974174312
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "NBA",
                         "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "philadelphia 76ers 11.5 vs boston celtics",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.40779672682928625,
-                        "edge": 0.0950324419068127
+                        "pick_norm": "new york knicks -6.5 vs atlanta hawks",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2226409561375265,
+                        "edge": 0.05172179966438106
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "NBA",
                         "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "philadelphia 76ers 11.5 vs boston celtics",
-                        "wager_unit": 0.4281865631707506,
-                        "profit_actual": 0.40779672682928625,
-                        "edge": 0.0950324419068127
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "Soccer",
-                        "decimal_odds": 2.52,
-                        "pick_norm": "bayern munich v. paris saint-germain",
-                        "wager_unit": 0.19287057408443395,
-                        "profit_actual": 0.29316327260833963,
-                        "edge": 0.02173531670418999
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "Soccer",
-                        "decimal_odds": 2.52,
-                        "pick_norm": "bayern munich v. paris saint-germain",
-                        "wager_unit": 0.19287057408443395,
-                        "profit_actual": 0.29316327260833963,
-                        "edge": 0.02173531670418999
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "minnesota wild 110",
-                        "wager_unit": 0.26521041389721506,
-                        "profit_actual": 0.2917314552869366,
-                        "edge": 0.02595499299821402
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "minnesota wild 110",
-                        "wager_unit": 0.26521041389721506,
-                        "profit_actual": 0.2917314552869366,
-                        "edge": 0.02595499299821402
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "minnesota wild 110",
-                        "wager_unit": 0.12643969402028565,
-                        "profit_actual": 0.13908366342231424,
-                        "edge": 0.012374104488463655
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "minnesota wild 110",
-                        "wager_unit": 0.12643969402028565,
-                        "profit_actual": 0.13908366342231424,
-                        "edge": 0.012374104488463655
+                        "pick_norm": "philadelphia 76ers vs boston celtics under 214.5",
+                        "wager_unit": 0.23377300394440284,
+                        "profit_actual": 0.2226409561375265,
+                        "edge": 0.05946342974174312
                     }
                 ]
             }
         },
         "diamond": {
-            "roi": -1.5,
-            "net": -18.5,
-            "wins": 1531,
-            "losses": 1459,
+            "roi": 5.0,
+            "net": 61.0,
+            "wins": 1185,
+            "losses": 982,
             "pushes": 0,
-            "record": "1531-1459-0",
-            "win_rate": 51.2,
-            "sample": 2990,
-            "bets_day": 20.1,
+            "record": "1185-982-0",
+            "win_rate": 54.7,
+            "sample": 2167,
+            "bets_day": 14.5,
             "status": "STABLE",
             "yesterday": {
                 "date": "Apr 28, 2026",
-                "record": "7-6-0",
-                "win_rate": 53.8,
-                "net": 0.93,
-                "roi": 9.3,
+                "record": "6-8-0",
+                "win_rate": 42.9,
+                "net": -2.29,
+                "roi": -22.9,
                 "ledger": [
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "atlanta hawks 6.5 vs new york knicks",
-                        "edge": 0.051735648087092745,
-                        "wager_unit": 0.9,
-                        "profit_actual": 0.8181818181818182
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "WIN",
-                        "league_name": "NBA",
                         "decimal_odds": 1.9523809523809523,
                         "pick_norm": "atlanta hawks +6.5 vs new york knicks",
-                        "edge": 0.04440429637102572,
+                        "edge": 0.04954493869610921,
                         "wager_unit": 0.8,
                         "profit_actual": 0.7619047619047619
                     },
@@ -219,7 +209,7 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 1.9523809523809523,
                         "pick_norm": "atlanta hawks +6.5 vs new york knicks",
-                        "edge": 0.04440429637102572,
+                        "edge": 0.04954493869610921,
                         "wager_unit": 0.8,
                         "profit_actual": 0.7619047619047619
                     },
@@ -229,9 +219,9 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 1.9090909090909092,
                         "pick_norm": "atlanta hawks 6.5 vs new york knicks",
-                        "edge": 0.041948585283188566,
-                        "wager_unit": 0.8,
-                        "profit_actual": 0.7272727272727274
+                        "edge": 0.0435182139987037,
+                        "wager_unit": 0.7,
+                        "profit_actual": 0.6363636363636364
                     },
                     {
                         "pick_date": "04/28",
@@ -239,49 +229,29 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 1.9090909090909092,
                         "pick_norm": "atlanta hawks 6.5 vs new york knicks",
-                        "edge": 0.041948585283188566,
-                        "wager_unit": 0.8,
-                        "profit_actual": 0.7272727272727274
+                        "edge": 0.0435182139987037,
+                        "wager_unit": 0.7,
+                        "profit_actual": 0.6363636363636364
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "NBA",
-                        "decimal_odds": 1.8928571428571428,
-                        "pick_norm": "og anunoby over 23.5 total pts +reb",
-                        "edge": 0.043070403659868584,
-                        "wager_unit": 0.8,
-                        "profit_actual": 0.7142857142857143
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "new york knicks -6.5 vs atlanta hawks",
+                        "edge": 0.030640392076401457,
+                        "wager_unit": 0.5,
+                        "profit_actual": 0.4545454545454546
                     },
                     {
                         "pick_date": "04/28",
                         "result": "WIN",
                         "league_name": "NBA",
-                        "decimal_odds": 1.8928571428571428,
-                        "pick_norm": "og anunoby over 23.5 total pts +reb",
-                        "edge": 0.043070403659868584,
-                        "wager_unit": 0.8,
-                        "profit_actual": 0.7142857142857143
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "LOSS",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.0,
-                        "pick_norm": "31 minnesota wild at 32 dallas stars total total under 5.5",
-                        "edge": 0.05388730764389038,
-                        "wager_unit": 0.6,
-                        "profit_actual": -0.6
-                    },
-                    {
-                        "pick_date": "04/28",
-                        "result": "LOSS",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.0,
-                        "pick_norm": "31 minnesota wild at 32 dallas stars total total under 5.5",
-                        "edge": 0.05388730764389038,
-                        "wager_unit": 0.6,
-                        "profit_actual": -0.6
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "new york knicks -6.5 vs atlanta hawks",
+                        "edge": 0.030640392076401457,
+                        "wager_unit": 0.5,
+                        "profit_actual": 0.4545454545454546
                     },
                     {
                         "pick_date": "04/28",
@@ -289,9 +259,9 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 1.9090909090909092,
                         "pick_norm": "boston celtics -11 vs philadelphia 76ers",
-                        "edge": 0.03420469022932504,
-                        "wager_unit": 0.6,
-                        "profit_actual": -0.6
+                        "edge": 0.03278989451272141,
+                        "wager_unit": 0.5,
+                        "profit_actual": -0.5
                     },
                     {
                         "pick_date": "04/28",
@@ -299,9 +269,9 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 1.9090909090909092,
                         "pick_norm": "boston celtics -11 vs philadelphia 76ers",
-                        "edge": 0.03420469022932504,
-                        "wager_unit": 0.6,
-                        "profit_actual": -0.6
+                        "edge": 0.03278989451272141,
+                        "wager_unit": 0.5,
+                        "profit_actual": -0.5
                     },
                     {
                         "pick_date": "04/28",
@@ -309,33 +279,73 @@ window.QUARRY_STATS = {
                         "league_name": "NHL",
                         "decimal_odds": 2.1,
                         "pick_norm": "minnesota wild ml vs dallas stars",
-                        "edge": 0.07825943969544913,
+                        "edge": 0.07602394762493314,
+                        "wager_unit": 0.8,
+                        "profit_actual": -0.8
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "LOSS",
+                        "league_name": "NHL",
+                        "decimal_odds": 2.1,
+                        "pick_norm": "minnesota wild ml vs dallas stars",
+                        "edge": 0.07602394762493314,
+                        "wager_unit": 0.8,
+                        "profit_actual": -0.8
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9523809523809523,
+                        "pick_norm": "philadelphia 76ers vs boston celtics over 214.5",
+                        "edge": 0.04954493869610921,
+                        "wager_unit": 0.8,
+                        "profit_actual": -0.8
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9523809523809523,
+                        "pick_norm": "philadelphia 76ers vs boston celtics over 214.5",
+                        "edge": 0.04954493869610921,
+                        "wager_unit": 0.8,
+                        "profit_actual": -0.8
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.8928571428571428,
+                        "pick_norm": "atlanta hawks 6.5 vs new york knicks",
+                        "edge": 0.051780648951260555,
                         "wager_unit": 0.9,
                         "profit_actual": -0.9
                     },
                     {
                         "pick_date": "04/28",
                         "result": "LOSS",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "minnesota wild ml vs dallas stars",
-                        "edge": 0.08554958445685257,
-                        "wager_unit": 1.0,
-                        "profit_actual": -1.0
+                        "league_name": "NBA",
+                        "decimal_odds": 1.8928571428571428,
+                        "pick_norm": "atlanta hawks 6.5 vs new york knicks",
+                        "edge": 0.051780648951260555,
+                        "wager_unit": 0.9,
+                        "profit_actual": -0.9
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": 8.6,
-            "net": 52.8,
-            "wins": 690,
-            "losses": 766,
+            "roi": 7.1,
+            "net": 43.9,
+            "wins": 686,
+            "losses": 776,
             "pushes": 0,
-            "record": "690-766-0",
-            "win_rate": 47.4,
-            "sample": 1456,
-            "bets_day": 11.9,
+            "record": "686-776-0",
+            "win_rate": 46.9,
+            "sample": 1462,
+            "bets_day": 12.0,
             "status": "ADVANCED",
             "yesterday": {
                 "date": "Apr 28, 2026",
@@ -468,61 +478,81 @@ window.QUARRY_STATS = {
             }
         },
         "quartz": {
-            "roi": 7.3,
-            "net": 14.9,
-            "wins": 89,
-            "losses": 81,
+            "roi": -10.0,
+            "net": -17.7,
+            "wins": 62,
+            "losses": 89,
             "pushes": 0,
-            "record": "89-81-0",
-            "win_rate": 52.4,
-            "sample": 170,
-            "bets_day": 7.7,
+            "record": "62-89-0",
+            "win_rate": 41.1,
+            "sample": 151,
+            "bets_day": 6.9,
             "status": "FLAGSHIP",
             "yesterday": {
                 "date": "Apr 28, 2026",
-                "record": "2-2-0",
-                "win_rate": 50.0,
-                "net": 0.41,
-                "roi": 4.1,
+                "record": "2-4-0",
+                "win_rate": 33.3,
+                "net": -1.85,
+                "roi": -18.5,
                 "ledger": [
                     {
                         "pick_date": "04/28",
-                        "league_name": "NHL",
-                        "pick_norm": "boston bruins 142",
-                        "decimal_odds": 2.42,
-                        "edge": 0.06699164570629951,
-                        "wager_unit": 2.23,
-                        "profit_actual": 3.1666,
+                        "league_name": "MLB",
+                        "pick_norm": "arizona diamondbacks -1.5 vs milwaukee brewers",
+                        "decimal_odds": 2.7,
+                        "edge": 0.07063044395262469,
+                        "wager_unit": 1.69,
+                        "profit_actual": 2.873,
                         "result": "WIN"
                     },
                     {
                         "pick_date": "04/28",
-                        "league_name": "NBA",
-                        "pick_norm": "atlanta hawks vs new york knicks under 214.5",
-                        "decimal_odds": 1.9090909090909092,
-                        "edge": 0.05556112651668932,
-                        "wager_unit": 2.62,
-                        "profit_actual": 2.3818181818181823,
+                        "league_name": "MLB",
+                        "pick_norm": "detroit tigers -1.5 vs atlanta braves",
+                        "decimal_odds": 2.6,
+                        "edge": 0.05638542970761046,
+                        "wager_unit": 1.38,
+                        "profit_actual": 2.2079999999999997,
                         "result": "WIN"
                     },
                     {
                         "pick_date": "04/28",
                         "league_name": "NHL",
-                        "pick_norm": "buffalo sabres -1.5 vs boston bruins",
-                        "decimal_odds": 2.5,
-                        "edge": 0.06773354461707082,
-                        "wager_unit": 2.21,
-                        "profit_actual": -2.21,
+                        "pick_norm": "anaheim ducks 135",
+                        "decimal_odds": 2.35,
+                        "edge": 0.056446711235923264,
+                        "wager_unit": 1.48,
+                        "profit_actual": -1.48,
                         "result": "LOSS"
                     },
                     {
                         "pick_date": "04/28",
                         "league_name": "NBA",
-                        "pick_norm": "buf owen power over 0.5 assist",
-                        "decimal_odds": 3.15,
-                        "edge": 0.10343158374495653,
-                        "wager_unit": 2.93,
-                        "profit_actual": -2.93,
+                        "pick_norm": "philadelphia 76ers +10.5 vs boston celtics",
+                        "decimal_odds": 1.9090909090909092,
+                        "edge": 0.05375025893187313,
+                        "wager_unit": 1.7,
+                        "profit_actual": -1.7,
+                        "result": "LOSS"
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "league_name": "Tennis",
+                        "pick_norm": "tomas barrios vera ast under",
+                        "decimal_odds": 1.9090909090909092,
+                        "edge": 0.055840614680045086,
+                        "wager_unit": 1.77,
+                        "profit_actual": -1.77,
+                        "result": "LOSS"
+                    },
+                    {
+                        "pick_date": "04/28",
+                        "league_name": "NHL",
+                        "pick_norm": "montreal canadiens",
+                        "decimal_odds": 2.6,
+                        "edge": 0.08077083226545417,
+                        "wager_unit": 1.98,
+                        "profit_actual": -1.98,
                         "result": "LOSS"
                     }
                 ]
