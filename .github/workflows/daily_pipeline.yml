@@ -2,7 +2,7 @@ name: Daily Quarry Pipeline
 
 on:
   schedule:
-    - cron: '30 13 * * *' # 9:30 AM ET Daily (After Morning Rush Scrape)
+    - cron: '0 11 * * *' # 7:00 AM ET Daily
   workflow_dispatch:
     inputs:
       clear_cache:
