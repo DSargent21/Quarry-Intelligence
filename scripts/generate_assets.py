@@ -204,7 +204,8 @@ def generate_live_assets(since_days=None):
     d1, d2, d3, d4 = get_cum(v1), get_cum(v2), get_cum(v3), get_cum(v4)
     
     # Combined Curve
-    plt.figure(figsize=(16, 10), facecolor=COLORS['void'])
+    # [BILLION DOLLAR SYNC]: Aspect Ratio must match dashboard container (16/8)
+    plt.figure(figsize=(16, 8), facecolor=COLORS['void'])
     ax = plt.gca()
     ax.set_facecolor(COLORS['void'])
     # Hide spines
@@ -256,7 +257,7 @@ def generate_live_assets(since_days=None):
     plt.close()
 
     # Pyrite Solo Curve
-    plt.figure(figsize=(16, 10), facecolor=COLORS['void'])
+    plt.figure(figsize=(16, 8), facecolor=COLORS['void'])
     ax = plt.gca()
     ax.set_facecolor(COLORS['void'])
     for spine in ax.spines.values(): spine.set_visible(False)
