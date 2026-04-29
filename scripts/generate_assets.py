@@ -9,6 +9,13 @@ import re
 import matplotlib.dates as mdates
 import sys
 
+# [BILLION DOLLAR STABILITY]: Prevent Segfaults (Exit Code 139) on resource-constrained runners
+os.environ['OMP_NUM_THREADS'] = '1'
+os.environ['MKL_NUM_THREADS'] = '1'
+os.environ['OPENBLAS_NUM_THREADS'] = '1'
+os.environ['VECLIB_MAXIMUM_THREADS'] = '1'
+os.environ['NUMEXPR_NUM_THREADS'] = '1'
+
 # Add project root to sys.path
 script_dir = os.path.dirname(os.path.abspath(__file__))
 root_dir = os.path.abspath(os.path.join(script_dir, ".."))
@@ -235,6 +242,12 @@ def generate_live_assets(since_days=None):
     plt.savefig("docs/assets/obsidian_curve.png", bbox_inches='tight', dpi=300) # Legacy
     plt.savefig("docs/assets/quarry_performance.png", bbox_inches='tight', dpi=300)
     plt.savefig("docs/assets/live_curve.png", bbox_inches='tight', dpi=300)
+    
+    # [BILLION DOLLAR SYNC]: Direct mapping for dashboard pages
+    plt.savefig("docs/comparison_quartz.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_obsidian.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_diamond.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_pyrite.png", bbox_inches='tight', dpi=300)
     plt.close()
 
     # Pyrite Solo Curve

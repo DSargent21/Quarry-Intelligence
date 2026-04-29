@@ -5,6 +5,13 @@ import joblib
 from datetime import datetime
 import sys
 
+# [BILLION DOLLAR STABILITY]: Prevent Segfaults (Exit Code 139) on resource-constrained runners
+os.environ['OMP_NUM_THREADS'] = '1'
+os.environ['MKL_NUM_THREADS'] = '1'
+os.environ['OPENBLAS_NUM_THREADS'] = '1'
+os.environ['VECLIB_MAXIMUM_THREADS'] = '1'
+os.environ['NUMEXPR_NUM_THREADS'] = '1'
+
 # Path setup
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.join(BASE_DIR, 'src'))
@@ -298,6 +305,12 @@ def run_daily_update():
         
     with open(os.path.join(docs_dir, 'stats.js'), 'w') as f:
         f.write(f"window.QUARRY_STATS = {json.dumps(stats, indent=4)};")
+        
+    # [BILLION DOLLAR OPTIMIZATION]: Cache results so generate_assets doesn't re-run simulations
+    cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
+    import joblib
+    joblib.dump(models, cache_path)
+    print(f"📦 Simulation results cached to {cache_path}")
         
     # 4c. Export Machine-Readable Summary for GHA
     summary = {

@@ -175,7 +175,9 @@ class ModelSimulator:
                 'acc_7d_v3': 'acc_7d', 'roi_7d_v3': 'roi_7d', 'vol_7d_v3': 'vol_7d',
                 'acc_30d_v3': 'acc_30d', 'roi_30d_v3': 'roi_30d', 'vol_30d_v3': 'vol_30d'
             })
-            temp['consensus_count'] = temp['consensus_count_leaked'] # Calibration
+            # Use the stabilized consensus metric from the pipeline
+            consensus_col = 'v4_consensus_count_lag1' if 'v4_consensus_count_lag1' in temp.columns else ('consensus_count_leaked' if 'consensus_count_leaked' in temp.columns else 'consensus_count')
+            temp['consensus_count'] = temp[consensus_col] 
             
             # Predict
             if temp.empty: 
