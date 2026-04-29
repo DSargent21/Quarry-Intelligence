@@ -255,8 +255,7 @@ class FeatureEngineer:
         df = df.merge(daily_features[feat_cols], on=['capper_id', 'pick_date'], how='left')
         
         # 5. Consensus & Aux Features
-        df['consensus_count'] = df.groupby(['pick_date', 'pick_norm'])['id'].transform('count')
-        df['v4_consensus_count_lag1'] = df['consensus_count'] # Simplified for now
+        df['consensus_count_raw'] = df.groupby(['pick_date', 'pick_norm'])['id'].transform('count')
         df['bet_type_code'] = 0 # Default placeholder
         df['days_since_prev'] = 1 # Default placeholder
         df['capper_league_acc'] = df['acc_30d'] # Approximation
@@ -268,21 +267,22 @@ class FeatureEngineer:
         df['fade_score'] = 0
         df['is_momentum_sport'] = 0
         df['x_valid_hotness'] = df['roi_30d']
+        
+        # Consensus Lagging Logic
         cons = df.groupby(['league_name', 'pick_norm', 'pick_date']).size().reset_index(name='count')
-        
-        # Leaked Version (for v3 calibration)
-        df = df.merge(cons.rename(columns={'count': 'consensus_count_leaked'}), on=['league_name', 'pick_norm', 'pick_date'], how='left')
-        
         cons['known_date'] = cons['pick_date'] + pd.Timedelta(days=1)
-        cons_roll = cons.sort_values(['league_name', 'pick_norm', 'known_date']).set_index('known_date')
-        # Use transform/rolling and drop original to avoid collision
-        cons_roll['v4_consensus_count_lag1'] = cons_roll.groupby(['league_name', 'pick_norm'])['count'].transform(lambda x: x.rolling('7D', min_periods=1).mean())
+        cons_roll = cons.sort_values(['league_name', 'pick_norm', 'known_date'])
         
-        cons_final = cons_roll.reset_index()[['league_name', 'pick_norm', 'known_date', 'v4_consensus_count_lag1']].rename(columns={'known_date': 'pick_date'})
+        # Proper rolling consensus
+        cons_roll['v4_consensus_count_lag1'] = cons_roll.groupby(['league_name', 'pick_norm'])['count'].transform(
+            lambda x: x.shift(1).rolling(7, min_periods=1).mean()
+        ).fillna(1)
+        
+        cons_final = cons_roll[['league_name', 'pick_norm', 'known_date', 'v4_consensus_count_lag1']].rename(columns={'known_date': 'pick_date'})
         df = df.merge(cons_final, on=['league_name', 'pick_norm', 'pick_date'], how='left')
+        df['v4_consensus_count_lag1'] = df['v4_consensus_count_lag1'].fillna(1)
 
         # 5b. Market Drift (Institutional CLV Proxy)
-        # Calculate the deviation of the pick's odds from the average consensus odds for that game
         game_odds = df.groupby(['league_name', 'pick_norm', 'pick_date'])['decimal_odds'].transform('mean')
         df['market_drift'] = (df['decimal_odds'] - game_odds) / (game_odds + 1e-6)
 
@@ -295,21 +295,22 @@ class FeatureEngineer:
         
         # V1-V3 Aliases
         for s in ['7d', '30d']:
-            # For honest comparison, v1-v3 still used these names. 
-            # We map the non-lagged versions to these for the 'Official v3' benchmark
-            df[f'roll_acc_{s}'] = df[f'acc_{s}_non_lagged'].fillna(df[f'acc_{s}'])
-            df[f'roll_roi_{s}'] = df[f'roi_{s}_non_lagged'].fillna(df[f'roi_{s}'])
-            df[f'roll_vol_{s}'] = df[f'vol_{s}_non_lagged'].fillna(df[f'vol_{s}'])
+            if f'roll_acc_{s}' not in df.columns:
+                df[f'roll_acc_{s}'] = df[f'acc_{s}']
+                df[f'roll_roi_{s}'] = df[f'roi_{s}']
+                df[f'roll_vol_{s}'] = df[f'vol_{s}']
             
-            # Legacy names (as seen in v3_obsidian feature_names_in_)
             df[f'acc_{s}_v3'] = df[f'roll_acc_{s}']
             df[f'roi_{s}_v3'] = df[f'roll_roi_{s}']
             df[f'vol_{s}_v3'] = df[f'roll_vol_{s}']
         
-        df['roll_sharpe_30d'] = df['roll_roi_30d'] / (df['roll_vol_30d'] + 0.01)
+        if 'roll_sharpe_30d' not in df.columns:
+            df['roll_sharpe_30d'] = df['roll_roi_30d'] / (df['roll_vol_30d'] + 0.01)
+            
         df['days_since_prev'] = df.groupby('capper_id')['pick_date'].diff().dt.days.fillna(0)
         df['capper_league_acc'] = 0.5 # Default
-        df['consensus_count'] = df['v4_consensus_count_lag1'] # Honest proxy
+        df['consensus_count'] = df['v4_consensus_count_lag1']
+        df['consensus_count'] = df['consensus_count'].fillna(1)
         
         # Null values for missing features
         for c in ['streak_entering_game', 'bet_type_code', 'league_rolling_roi', 'fade_score', 'market_volume', 'consensus_pct']:
