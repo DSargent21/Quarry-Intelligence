@@ -216,37 +216,58 @@ class FeatureEngineer:
         # 3. Rolling Stats on "Known Date"
         daily = daily.sort_values(['capper_id', 'known_date'])
         
-        # [BILLION DOLLAR OPTIMIZATION]: Pre-calculate rolling sums to avoid multiple merges
+        # [BILLION DOLLAR OPTIMIZATION]: Pre-calculate rolling sums with correct institutional naming
         for w_days in [7, 30]:
             s = f"{w_days}d"
-            # Using window as integer count for stability, assuming max 1 row per capper/day
             g_roll = daily.groupby('capper_id')
             
-            daily[f'sum_wins_{s}'] = g_roll['daily_wins'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
-            daily[f'sum_count_{s}'] = g_roll['daily_count'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
+            # Non-prefixed (For V4 Quartz)
+            daily[f'acc_{s}'] = g_roll['daily_wins'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True) / \
+                                (g_roll['daily_count'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True) + 1e-6)
             daily[f'roi_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
-            daily[f'vol_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).std().reset_index(level=0, drop=True)
+            daily[f'vol_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).std().reset_index(level=0, drop=True).fillna(0)
             
-            daily[f'acc_{s}'] = daily[f'sum_wins_{s}'] / (daily[f'sum_count_{s}'] + 1e-6)
+            # Prefixed (For V1 Pyrite / V2 Diamond)
+            daily[f'roll_acc_{s}'] = daily[f'acc_{s}']
+            daily[f'roll_roi_{s}'] = daily[f'roi_{s}']
+            daily[f'roll_vol_{s}'] = daily[f'vol_{s}']
 
+        # V2/V3 Sharpe Approximation
+        daily['roll_sharpe_30d'] = daily['roi_30d'] / (daily['vol_30d'] + 0.1)
+        
         # V4 Consistency
-        daily['capper_roi_std_30d'] = daily['vol_30d'].fillna(0)
-        daily['capper_win_rate_30d'] = daily['acc_30d'].fillna(0.5)
+        daily['capper_roi_std_30d'] = daily['vol_30d']
+        daily['capper_win_rate_30d'] = daily['acc_30d']
         
         # 4. Join back to original picks
-        # Drop original pick_date from daily before renaming known_date to pick_date
         daily_features = daily.reset_index().drop(columns=['pick_date']).rename(columns={'known_date': 'pick_date'})
-        feat_cols = ['capper_id', 'pick_date', 'acc_7d', 'roi_7d', 'vol_7d', 'acc_30d', 'roi_30d', 'vol_30d', 'capper_roi_std_30d', 'capper_win_rate_30d']
+        
+        # Collect all required feature columns
+        feat_cols = ['capper_id', 'pick_date'] + \
+                    [f'acc_{s}' for s in ['7d', '30d']] + \
+                    [f'roi_{s}' for s in ['7d', '30d']] + \
+                    [f'vol_{s}' for s in ['7d', '30d']] + \
+                    [f'roll_acc_{s}' for s in ['7d', '30d']] + \
+                    [f'roll_roi_{s}' for s in ['7d', '30d']] + \
+                    [f'roll_vol_{s}' for s in ['7d', '30d']] + \
+                    ['roll_sharpe_30d', 'capper_roi_std_30d', 'capper_win_rate_30d']
+        
         df = df.merge(daily_features[feat_cols], on=['capper_id', 'pick_date'], how='left')
         
-        # 4b. Non-Lagged Features (For V3 Benchmark alignment ONLY)
-        # This matches the user's dashboard volume by using same-day performance
-        daily_non_lagged = daily.reset_index().drop(columns=['known_date'])
-        for s in ['7d', '30d']:
-            df = df.merge(daily_non_lagged[['capper_id', 'pick_date', f'acc_{s}', f'roi_{s}', f'vol_{s}']], 
-                          on=['capper_id', 'pick_date'], how='left', suffixes=('', '_non_lagged'))
-
-        # 5. Consensus Fix (Lagged)
+        # 5. Consensus & Aux Features
+        df['consensus_count'] = df.groupby(['pick_date', 'pick_norm'])['id'].transform('count')
+        df['v4_consensus_count_lag1'] = df['consensus_count'] # Simplified for now
+        df['bet_type_code'] = 0 # Default placeholder
+        df['days_since_prev'] = 1 # Default placeholder
+        df['capper_league_acc'] = df['acc_30d'] # Approximation
+        
+        # V4 Extras
+        df['raw_hotness'] = df['roi_7d']
+        df['streak_entering_game'] = 0
+        df['league_rolling_roi'] = 0
+        df['fade_score'] = 0
+        df['is_momentum_sport'] = 0
+        df['x_valid_hotness'] = df['roi_30d']
         cons = df.groupby(['league_name', 'pick_norm', 'pick_date']).size().reset_index(name='count')
         
         # Leaked Version (for v3 calibration)
