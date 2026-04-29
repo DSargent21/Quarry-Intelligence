@@ -429,19 +429,19 @@
         const DATA = {
             "models": {
                         "pyrite": {
-                                    "roi": -5.7,
+                                    "roi": -4.1,
                                     "status": "AGGRESSIVE"
                         },
                         "diamond": {
-                                    "roi": 7.6,
-                                    "status": "AGGRESSIVE"
+                                    "roi": 7.3,
+                                    "status": "BALANCED"
                         },
                         "obsidian": {
                                     "roi": 6.5,
                                     "status": "BALANCED"
                         },
                         "quartz": {
-                                    "roi": -0.9,
+                                    "roi": 17.8,
                                     "status": "BALANCED"
                         }
             }
@@ -605,21 +605,21 @@
                 let source = "NONE";
                 let modelsData = null;
                 
-                if (typeof DATA !== 'undefined' && DATA.models) {
+                // [BILLION DOLLAR HYDRATION]: Always prefer the live stats.js object if it exists
+                if (window.QUARRY_STATS && window.QUARRY_STATS.models) {
+                    source = "GLOBAL_CONTEXT (stats.js)";
+                    modelsData = window.QUARRY_STATS.models;
+                } else if (typeof DATA !== 'undefined' && DATA.models) {
                     source = "INJECTED_DATA";
                     modelsData = DATA.models;
                 } else {
-                    console.warn("⚠️ INJECTED SELECTOR DATA MISSING. FALLING BACK.");
-                    let stats = window.QUARRY_STATS;
-                    if (!stats) {
-                        try {
-                            const response = await fetch('stats.json');
-                            stats = await response.json();
-                            source = "CLOUD_LINK (stats.json)";
-                        } catch(e) { source = "ERROR"; }
-                    } else { source = "GLOBAL_CONTEXT"; }
-                    
-                    if (stats) modelsData = stats.models;
+                    console.warn("⚠️ INJECTED SELECTOR DATA MISSING. FALLING BACK TO JSON.");
+                    try {
+                        const response = await fetch('stats.json');
+                        const stats = await response.json();
+                        modelsData = stats.models;
+                        source = "CLOUD_LINK (stats.json)";
+                    } catch(e) { source = "ERROR"; }
                 }
 
                 console.log(`📡 HYDRATION_SOURCE: ${source}`);
