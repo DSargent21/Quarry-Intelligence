@@ -2,105 +2,113 @@ name: Daily Quarry Pipeline
 
 on:
   schedule:
-    - cron: '0 9 * * *' # 9:00 AM UTC daily
+    - cron: '30 13 * * *' # 9:30 AM ET Daily (After Morning Rush Scrape)
   workflow_dispatch:
     inputs:
-      full_run:
-        description: 'Run full historical simulation'
-        required: false
-        default: false
+      clear_cache:
+        description: 'Bypass data cache and perform FULL refresh from Supabase'
         type: boolean
+        default: false
   repository_dispatch:
-    types: [trigger-pipeline] # 👈 Best Practice: Allows Scrapper to trigger this via API
+    types: [trigger-pipeline] # Allows Scrapper to trigger this via API
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
-          submodules: false # 👈 We handle this manually to prevent auth overrides
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
 
-      - name: Submodule Force-Auth
-        run: |
-          # [BILLION DOLLAR BEST PRACTICE]
-          # Use 'insteadOf' to inject the PAT globally for this run.
-          # This avoids modifying tracked files (like .gitmodules) and prevents secret leaks.
-          git config --global url."https://x-access-token:${{ secrets.GH_PAT }}@github.com/".insteadOf "https://github.com/"
-          git submodule update --init --recursive
-          echo "✅ Submodules authenticated and updated via global config."
-
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip' # 👈 Billion Dollar Tip: Caches pip dependencies automatically
+          cache: 'pip'
 
-      - name: Install System Dependencies
+      - name: Sync Submodule (Models)
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libfreetype6-dev libpng-dev
+          # [BILLION DOLLAR SECURITY]: In-memory auth injection (No tracked file leakage)
+          git config --global url."https://${GH_PAT}@github.com/".insteadOf "https://github.com/"
+          git submodule update --init --recursive
 
-      - name: Install Python Dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install pandas supabase joblib lightgbm xgboost scikit-learn python-dotenv
 
-      - name: Cache Data Lake
+      - name: Restore/Clear Data Lake Cache
+        if: github.event.inputs.clear_cache != 'true'
         uses: actions/cache@v4
         with:
           path: data/
-          # 👈 Best Practice: Key includes Run ID to ensure updated parquet is ALWAYS saved back
           key: ${{ runner.os }}-quarry-data-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-quarry-data-
 
       - name: Run Unified Daily Update
-        id: run_pipeline
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: |
-          # Run the update and capture output for summary
-          python3 scripts/daily_update.py | tee pipeline_output.log
-          
-          # Generate a beautiful Job Summary for the GitHub UI
-          echo "## 📊 Quarry Pipeline Summary [$(date +'%Y-%m-%d')]" >> $GITHUB_STEP_SUMMARY
-          echo "### Model Identifications" >> $GITHUB_STEP_SUMMARY
-          grep "picks identified" pipeline_output.log | sed 's/^/ - /' >> $GITHUB_STEP_SUMMARY
-          echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "✅ **Status: NOMINAL**" >> $GITHUB_STEP_SUMMARY
+          mkdir -p data docs
+          python3 scripts/daily_update.py 2>&1 | tee pipeline_output.log
 
-      - name: Commit and Push Changes
+      - name: Generate Executive Job Summary
+        if: always()
         run: |
-          git config --global user.name "QuarryBot"
-          git config --global user.email "bot@quarry.institutional"
+          echo "## 📊 Quarry Pipeline Summary [$(date +'%Y-%m-%d')]" >> $GITHUB_STEP_SUMMARY
           
-          # [BILLION DOLLAR BEST PRACTICE]
-          # Stage EVERYTHING that changed (docs, assets, reports)
-          # git add -A ensures we don't miss new files or deletions
-          git add -A
-          
-          if [[ -z $(git status -s) ]]; then
-            echo "No changes to commit."
-          else
-            git commit -m "📈 Auto-Update: Daily Pipeline Sync [$(date +'%Y-%m-%d')]"
-
-            # [BILLION DOLLAR BEST PRACTICE]
-            # Use GH_PAT to ensure this push triggers the 'Deploy Website' workflow
-            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
-
-            # [BILLION DOLLAR BEST PRACTICE]
-            # --autostash: Handles unstaged changes gracefully
-            # --rebase: Keeps history clean and handles race conditions with manual pushes
-            git pull --rebase --autostash origin main
+          if [ -f "docs/pipeline_summary.json" ]; then
+            # Parse metrics from the JSON produced by the script
+            RANGE=$(jq -r '.data_range' docs/pipeline_summary.json)
+            ROWS=$(jq -r '.total_rows' docs/pipeline_summary.json)
+            TIMESTAMP=$(jq -r '.last_update' docs/pipeline_summary.json)
             
-            git push
+            echo "### 📡 Data Integrity" >> $GITHUB_STEP_SUMMARY
+            echo "| Metric | Status |" >> $GITHUB_STEP_SUMMARY
+            echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+            echo "| **Last Update** | $TIMESTAMP |" >> $GITHUB_STEP_SUMMARY
+            echo "| **Date Range** | $RANGE |" >> $GITHUB_STEP_SUMMARY
+            echo "| **Total Rows Fetched** | $ROWS |" >> $GITHUB_STEP_SUMMARY
+            
+            echo "### 🤖 Model Identifications" >> $GITHUB_STEP_SUMMARY
+            echo "| Model | Picks Found |" >> $GITHUB_STEP_SUMMARY
+            echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+            jq -r '.picks_identified | to_entries[] | "| \(.key) | \(.value) |"' docs/pipeline_summary.json >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ Pipeline failed to produce a summary. Check logs." >> $GITHUB_STEP_SUMMARY
           fi
 
-
+      - name: 🛡️ Indestructible Git Sync & Deploy
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          # 1. Update heartbeat to ensure we ALWAYS have a change to push (Force-trigger website update)
+          echo "Last successful run: $(date)" > docs/last_run.txt
+          
+          # 2. Institutional Commit Logic
+          git config --global user.email "bot@quarry.institutional"
+          git config --global user.name "QuarryBot"
+          
+          git add -A
+          
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "No changes to commit (Unexpected but safe)."
+          else
+            git commit -m "📈 Auto-Update: Daily Pipeline Sync [$(date +'%Y-%m-%d')]"
+            
+            # [BILLION DOLLAR SYNC]: Rebase with autostash handles concurrent manual pushes
+            # We use the PAT-authenticated remote to ensure the push triggers 'Deploy Website'
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+            git pull --rebase --autostash origin main
+            git push origin main
+          fi

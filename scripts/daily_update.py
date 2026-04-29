@@ -183,6 +183,11 @@ def run_daily_update():
     pipeline = SportsDataPipeline()
     raw_df = pipeline.fetch_data_cached() # Incremental update
     
+    if not raw_df.empty:
+        print(f"📊 Pipeline Data Range: {raw_df['pick_date'].min().date()} to {raw_df['pick_date'].max().date()}")
+    else:
+        print("⚠️ Pipeline Data is EMPTY!")
+
     fe = FeatureEngineer(raw_df)
     df = fe.process()
     
@@ -294,14 +299,15 @@ def run_daily_update():
     with open(os.path.join(docs_dir, 'stats.js'), 'w') as f:
         f.write(f"window.QUARRY_STATS = {json.dumps(stats, indent=4)};")
         
-    # 4b. Export Raw Results for Asset Sync
-    # This prevents generate_assets.py from having to re-simulate with potentially different data
-    cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
-    try:
-        joblib.dump(models, cache_path)
-        print(f"📦 Simulation results cached to {cache_path}")
-    except Exception as e:
-        print(f"⚠️ Failed to cache simulation results: {e}")
+    # 4c. Export Machine-Readable Summary for GHA
+    summary = {
+        "last_update": stats['meta']['last_update'],
+        "data_range": f"{raw_df['pick_date'].min().date()} to {raw_df['pick_date'].max().date()}" if not raw_df.empty else "N/A",
+        "total_rows": len(raw_df),
+        "picks_identified": {m: len(models[m]) for m in models}
+    }
+    with open('docs/pipeline_summary.json', 'w') as f:
+        json.dump(summary, f, indent=4)
         
     # 5. Update Markdown Reports
     update_markdown_reports(models)

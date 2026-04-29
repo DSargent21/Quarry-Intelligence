@@ -44,10 +44,9 @@ class SportsDataPipeline:
                 if len(data) < batch_size: break
                 start += batch_size
             except Exception as e:
-                print(f"\n⚠️ Warning: Batch error in '{table_name}' at {start}: {e}")
-                # Simple retry logic: just break and return what we have if it's a partial fetch
-                # or we could implement actual retries here.
-                break
+                print(f"\n❌ CRITICAL: Batch error in '{table_name}' at {start}: {e}")
+                traceback.print_exc()
+                raise e # [BILLION DOLLAR BEST PRACTICE] Fail fast on data integrity issues
                 
         print(f"Done ({len(all_rows)} rows).")
         return all_rows
@@ -215,21 +214,20 @@ class FeatureEngineer:
         daily['known_date'] = daily['pick_date'] + pd.Timedelta(days=1)
         
         # 3. Rolling Stats on "Known Date"
-        daily = daily.sort_values(['capper_id', 'known_date']).set_index('known_date')
-        g = daily.groupby('capper_id')
+        daily = daily.sort_values(['capper_id', 'known_date'])
         
-        for w in ['7D', '30D']:
-            s = w.lower()
-            roll = g[['daily_wins', 'daily_count', 'daily_profit']].rolling(w, min_periods=1).sum().reset_index()
-            roll = roll.rename(columns={'daily_wins': f'sum_wins_{s}', 'daily_count': f'sum_count_{s}', 'daily_profit': f'roi_{s}'})
+        # [BILLION DOLLAR OPTIMIZATION]: Pre-calculate rolling sums to avoid multiple merges
+        for w_days in [7, 30]:
+            s = f"{w_days}d"
+            # Using window as integer count for stability, assuming max 1 row per capper/day
+            g_roll = daily.groupby('capper_id')
             
-            # Merit
-            daily = daily.reset_index().merge(roll, on=['capper_id', 'known_date'], how='left').set_index('known_date')
+            daily[f'sum_wins_{s}'] = g_roll['daily_wins'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
+            daily[f'sum_count_{s}'] = g_roll['daily_count'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
+            daily[f'roi_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
+            daily[f'vol_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).std().reset_index(level=0, drop=True)
+            
             daily[f'acc_{s}'] = daily[f'sum_wins_{s}'] / (daily[f'sum_count_{s}'] + 1e-6)
-            
-            # Vol (Std of daily profit)
-            vol = g['daily_profit'].rolling(w, min_periods=1).std().reset_index(name=f'vol_{s}')
-            daily = daily.reset_index().merge(vol, on=['capper_id', 'known_date'], how='left').set_index('known_date')
 
         # V4 Consistency
         daily['capper_roi_std_30d'] = daily['vol_30d'].fillna(0)
