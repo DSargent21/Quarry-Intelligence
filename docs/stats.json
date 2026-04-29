@@ -1,6 +1,6 @@
 {
     "meta": {
-        "last_update": "2026-04-29 10:47 UTC",
+        "last_update": "2026-04-29 10:54 UTC",
         "status": "NOMINAL"
     },
     "models": {
@@ -106,14 +106,14 @@
             }
         },
         "diamond": {
-            "roi": 7.8,
-            "net": 107.6,
-            "wins": 1744,
-            "losses": 1409,
+            "roi": 7.6,
+            "net": 105.1,
+            "wins": 1743,
+            "losses": 1411,
             "pushes": 0,
-            "record": "1744-1409-0",
+            "record": "1743-1411-0",
             "win_rate": 55.3,
-            "sample": 3153,
+            "sample": 3154,
             "bets_day": 21.2,
             "status": "STABLE",
             "yesterday": {
@@ -297,9 +297,9 @@
                     {
                         "pick_date": "04/28",
                         "result": "LOSS",
-                        "league_name": "NBA",
+                        "league_name": "NHL",
                         "decimal_odds": 2.25,
-                        "pick_norm": "min mats zuccarello over 0.5 assist",
+                        "pick_norm": "dallas jason robertson anytime goal",
                         "edge": 0.0805555555555556,
                         "wager_unit": 0.42,
                         "profit_actual": -0.42

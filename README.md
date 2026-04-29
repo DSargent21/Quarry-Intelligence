@@ -6,7 +6,7 @@
   <br />
 
   [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry-Intelligence/selector.html)
-  [![Series 2 ROI](https://img.shields.io/badge/SERIES_2_ROI-+107.6u-00E0FF?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/diamond.html)
+  [![Series 2 ROI](https://img.shields.io/badge/SERIES_2_ROI-+105.1u-00E0FF?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/diamond.html)
   [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI--1.8u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/quartz.html)
 
   <br />
@@ -25,7 +25,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | High (~20 bets/day) | **3256** | **-5.7%** |
-| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | High (~21 bets/day) | **3153** | **+7.8%** |
+| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | High (~21 bets/day) | **3154** | **+7.6%** |
 | **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | Medium (~11 bets/day) | **1460** | **+6.5%** |
 | **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | Low (~6 bets/day) | **146** | **-0.9%** |
 
