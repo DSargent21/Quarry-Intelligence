@@ -225,7 +225,7 @@ def generate_live_assets(since_days=None):
     
     # [BILLION DOLLAR ACCURACY]: Bold Baseline
     plt.axhline(0, color='#ffffff', linestyle='-', alpha=0.15, linewidth=1.5, zorder=5)
-    plt.text(d1['pick_date'].min(), 0.5, '0.0u BASELINE', color='white', alpha=0.15, fontsize=8, fontname='monospace')
+    plt.text(d1['pick_date'].min(), 0.5, 'STABILIZED 0.0u BASELINE', color='white', alpha=0.15, fontsize=8, fontname='monospace')
     
     plt.title("QUANTITATIVE PERFORMANCE // MULTI-GENERATIONAL", color='white', fontweight='bold', pad=20)
     plt.legend(frameon=False, loc='upper right')

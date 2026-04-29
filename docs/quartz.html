@@ -356,7 +356,7 @@
         // --- DATA INJECTION POINT (AUTOMATED) ---
         const DATA = {
             "meta": {
-                        "last_update": "2026-04-29 17:58 UTC",
+                        "last_update": "2026-04-29 18:16 UTC",
                         "status": "FLAGSHIP"
             },
             "stats": {
@@ -663,8 +663,14 @@
                     }
                 }
                 console.log("✨ HYDRATION COMPLETE.");
+                // [BILLION DOLLAR CACHE BUSTER]: Force fresh image load
+                const chart = document.getElementById('chart-main');
+                if (chart) {
+                    const baseUrl = chart.src.split('?')[0];
+                    chart.src = `${baseUrl}?v=${Date.now()}`;
+                }
             } catch (e) {
-                console.error("❌ CRITICAL HYDRATION ENGINE FAILURE:", e);
+                console.error("❌ HYDRATION ERROR:", e);
             }
         }
 
