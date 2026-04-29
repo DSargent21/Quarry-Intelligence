@@ -223,7 +223,10 @@ def generate_live_assets(since_days=None):
         # Aura for Flagship V4 (Anchored to baseline)
         plt.fill_between(d4['pick_date'], d4['profit'], 0, color=COLORS['quartz'], alpha=0.04, zorder=90)
     
-    plt.axhline(0, color='#333333', linestyle='--', alpha=0.3)
+    # [BILLION DOLLAR ACCURACY]: Bold Baseline
+    plt.axhline(0, color='#ffffff', linestyle='-', alpha=0.15, linewidth=1.5, zorder=5)
+    plt.text(d1['pick_date'].min(), 0.5, '0.0u BASELINE', color='white', alpha=0.15, fontsize=8, fontname='monospace')
+    
     plt.title("QUANTITATIVE PERFORMANCE // MULTI-GENERATIONAL", color='white', fontweight='bold', pad=20)
     plt.legend(frameon=False, loc='upper right')
     plt.grid(color='#1A1A1A', alpha=0.3)
