@@ -28,10 +28,12 @@ jobs:
 
       - name: Submodule Force-Auth
         run: |
-          git submodule set-url models https://x-access-token:${{ secrets.GH_PAT }}@github.com/Ducky705/XGBoost-Sniper-Models.git
-          git submodule sync
+          # [BILLION DOLLAR BEST PRACTICE]
+          # Use 'insteadOf' to inject the PAT globally for this run.
+          # This avoids modifying tracked files (like .gitmodules) and prevents secret leaks.
+          git config --global url."https://x-access-token:${{ secrets.GH_PAT }}@github.com/".insteadOf "https://github.com/"
           git submodule update --init --recursive
-          echo "✅ Submodules force-authenticated and updated."
+          echo "✅ Submodules authenticated and updated via global config."
 
       - name: Setup Python
         uses: actions/setup-python@v5
