@@ -37,6 +37,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          cache: 'pip' # 👈 Billion Dollar Tip: Caches pip dependencies automatically
 
       - name: Install System Dependencies
         run: |
@@ -58,32 +59,44 @@ jobs:
             ${{ runner.os }}-quarry-data-
 
       - name: Run Unified Daily Update
+        id: run_pipeline
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: |
-          # The script handles days logic internally or via cached fetch
-          python3 scripts/daily_update.py
+          # Run the update and capture output for summary
+          python3 scripts/daily_update.py | tee pipeline_output.log
+          
+          # Generate a beautiful Job Summary for the GitHub UI
+          echo "## 📊 Quarry Pipeline Summary [$(date +'%Y-%m-%d')]" >> $GITHUB_STEP_SUMMARY
+          echo "### Model Identifications" >> $GITHUB_STEP_SUMMARY
+          grep "picks identified" pipeline_output.log | sed 's/^/ - /' >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "✅ **Status: NOMINAL**" >> $GITHUB_STEP_SUMMARY
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "QuarryBot"
           git config --global user.email "bot@quarry.institutional"
           
-          # Add all modified files: docs, reports, assets
-          git add docs/ README.md LATEST_ACTION.md assets/
+          # [BILLION DOLLAR BEST PRACTICE]
+          # Stage EVERYTHING that changed (docs, assets, reports)
+          # git add -A ensures we don't miss new files or deletions
+          git add -A
           
           if [[ -z $(git status -s) ]]; then
             echo "No changes to commit."
           else
             git commit -m "📈 Auto-Update: Daily Pipeline Sync [$(date +'%Y-%m-%d')]"
 
-            # Use GH_PAT for push authentication (and rebase) to trigger subsequent workflows
+            # [BILLION DOLLAR BEST PRACTICE]
+            # Use GH_PAT to ensure this push triggers the 'Deploy Website' workflow
             git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
 
-            
-            # 👈 Best Practice: Pull rebase to handle race conditions with manual pushes
-            git pull --rebase origin main
+            # [BILLION DOLLAR BEST PRACTICE]
+            # --autostash: Handles unstaged changes gracefully
+            # --rebase: Keeps history clean and handles race conditions with manual pushes
+            git pull --rebase --autostash origin main
             
             git push
           fi
