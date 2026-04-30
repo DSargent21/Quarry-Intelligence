@@ -2,7 +2,7 @@ name: Daily Quarry Pipeline
 
 on:
   schedule:
-    - cron: '0 11 * * *' # 7:00 AM ET Daily
+    - cron: '0 10 * * *' # 6:00 AM ET Daily (Standardized Institutional Cron)
   workflow_dispatch:
     inputs:
       clear_cache:
@@ -15,9 +15,11 @@ on:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30 # [BILLION DOLLAR SCALING]: Increased for large data fetches
     permissions:
       contents: write
+      pages: write
+      id-token: write
     
     steps:
       - name: Checkout Repository
@@ -112,3 +114,17 @@ jobs:
             git pull --rebase --autostash origin main
             git push origin main
           fi
+
+      - name: 🚀 Atomic Website Deploy
+        if: success() || github.event_name == 'workflow_dispatch'
+        uses: actions/configure-pages@v4
+        
+      - name: Upload artifact
+        if: success() || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs'
+
+      - name: Deploy to GitHub Pages
+        if: success() || github.event_name == 'workflow_dispatch'
+        uses: actions/deploy-pages@v4

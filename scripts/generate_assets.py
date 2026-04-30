@@ -149,14 +149,9 @@ def generate_live_assets(since_days=None):
     if os.path.basename(os.getcwd()) == 'scripts':
         os.chdir('..')
 
-    pipeline = SportsDataPipeline()
-    raw_df = pipeline.fetch_data(since_days=since_days)
-    if raw_df.empty:
-        print("❌ No data found.")
-        return
-
     # --- CENTRALIZED DATA LOADING ---
     cache_path = os.path.join('docs', 'sim_results_cache.pkl')
+    cached_models = None
     if os.path.exists(cache_path):
         try:
             print(f"📦 Loading cached simulation results from {cache_path}...")
@@ -172,7 +167,15 @@ def generate_live_assets(since_days=None):
     else:
         v1, v2, v3, v4 = None, None, None, None
 
-    if v1 is None or v1.empty: # Fallback if cache missing or failed
+    # [BILLION DOLLAR OPTIMIZATION]: Only fetch from Supabase if cache is missing/corrupt
+    if v1 is None or v1.empty:
+        print("📥 Cache empty or missing. Fetching from Supabase...")
+        pipeline = SportsDataPipeline()
+        raw_df = pipeline.fetch_data(since_days=since_days)
+        if raw_df.empty:
+            print("❌ No data found in Supabase.")
+            return
+            
         eng = FeatureEngineer(raw_df)
         df = eng.process()
         sim = ModelSimulator(df)
@@ -180,6 +183,10 @@ def generate_live_assets(since_days=None):
         v2 = sim.run_v2_diamond()
         v3 = sim.run_v3_obsidian()
         v4 = sim.run_v4_quartz()
+    else:
+        # We still need the original pipeline to calculate stats if they aren't in the cache
+        # but for performance curves, we can often rely on the cached dataframes.
+        pass
 
     # Ensure edge calculations are consistent
     if not v1.empty and 'edge' not in v1.columns: v1['edge'] = v1['prob'] - v1['implied_prob']
