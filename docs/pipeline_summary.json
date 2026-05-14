@@ -1,12 +1,12 @@
 {
-    "last_update": "2026-05-14 19:30 UTC",
+    "last_update": "2026-05-14 19:32 UTC",
     "data_range": "2016-08-05 to 2026-05-13",
     "total_rows": 228351,
     "picks_identified": {
-        "pyrite": 8209,
-        "diamond": 3446,
+        "pyrite": 8109,
+        "diamond": 3189,
         "obsidian": 1644,
-        "quartz": 364,
-        "sapphire": 11
+        "quartz": 350,
+        "sapphire": 18
     }
 }
