@@ -43,6 +43,8 @@ COLORS = {
     'pyrite': '#FFC125', # Fool's Gold
     'quartz': '#bae6fd', # Ice Blue
     'quartz_neg': '#334155', # Shadow Blue
+    'sapphire': '#2563EB',
+    'sapphire_gold': '#D4AF37',
     'ghost': '#444444',
     'text': '#E5E7EB',
     'grid': '#1A1A1A',
@@ -149,158 +151,9 @@ def generate_live_assets(since_days=None):
     if os.path.basename(os.getcwd()) == 'scripts':
         os.chdir('..')
 
-    # --- CENTRALIZED DATA LOADING ---
-    cache_path = os.path.join('docs', 'sim_results_cache.pkl')
-    cached_models = None
-    if os.path.exists(cache_path):
-        try:
-            print(f"📦 Loading cached simulation results from {cache_path}...")
-            cached_models = joblib.load(cache_path)
-            v1 = cached_models.get('pyrite', pd.DataFrame())
-            v2 = cached_models.get('diamond', pd.DataFrame())
-            v3 = cached_models.get('obsidian', pd.DataFrame())
-            v4 = cached_models.get('quartz', pd.DataFrame())
-            print("✅ Cache loaded successfully.")
-        except Exception as e:
-            print(f"⚠️ Failed to load cache: {e}. Falling back to live simulation.")
-            v1, v2, v3, v4 = None, None, None, None
-    else:
-        v1, v2, v3, v4 = None, None, None, None
-
-    # [BILLION DOLLAR OPTIMIZATION]: Only fetch from Supabase if cache is missing/corrupt
-    if v1 is None or v1.empty:
-        print("📥 Cache empty or missing. Fetching from Supabase...")
-        pipeline = SportsDataPipeline()
-        raw_df = pipeline.fetch_data(since_days=since_days)
-        if raw_df.empty:
-            print("❌ No data found in Supabase.")
-            return
-            
-        eng = FeatureEngineer(raw_df)
-        df = eng.process()
-        sim = ModelSimulator(df)
-        v1 = sim.run_v1_pyrite()
-        v2 = sim.run_v2_diamond()
-        v3 = sim.run_v3_obsidian()
-        v4 = sim.run_v4_quartz()
-    else:
-        # We still need the original pipeline to calculate stats if they aren't in the cache
-        # but for performance curves, we can often rely on the cached dataframes.
-        pass
-
-    # Ensure edge calculations are consistent
-    if not v1.empty and 'edge' not in v1.columns: v1['edge'] = v1['prob'] - v1['implied_prob']
-    if not v4.empty and 'edge' not in v4.columns: v4['edge'] = (v4['prob'] if 'prob' in v4.columns else 0.5) - (v4['implied_prob'] if 'implied_prob' in v4.columns else 0.5)
-    
-    # --- 1. PLOTS ---
-    # cumulative profit
-    def get_cum(d):
-        if d.empty: return pd.DataFrame({'pick_date':[], 'profit':[]})
-        
-        # Raw Sequential Profit (Institutional Best Practice)
-        d = d.sort_values('pick_date').copy()
-        d['profit'] = d['profit_actual'].cumsum()
-        
-        # Zero-Origin sync
-        min_date = d['pick_date'].min()
-        if pd.isna(min_date): return pd.DataFrame({'pick_date':[], 'profit':[]})
-        
-        start_node = pd.DataFrame({'pick_date': [min_date - pd.Timedelta(seconds=1)], 'profit': [0.0]})
-        return pd.concat([start_node, d[['pick_date', 'profit']]]).sort_values('pick_date')
-
-    d1, d2, d3, d4 = get_cum(v1), get_cum(v2), get_cum(v3), get_cum(v4)
-    
-    # Combined Curve
-    # [BILLION DOLLAR SYNC]: Aspect Ratio must match dashboard container (16/8)
-    plt.figure(figsize=(16, 8), facecolor=COLORS['void'])
-    ax = plt.gca()
-    ax.set_facecolor(COLORS['void'])
-    # Hide spines
-    for spine in ax.spines.values(): spine.set_visible(False)
-    
-    # Grid
-    ax.grid(True, linestyle=':', color='#222222', alpha=0.3, zorder=0)
-    if not d1.empty: 
-        plt.plot(d1['pick_date'], d1['profit'], color=COLORS['pyrite'], label='V1 Pyrite', alpha=0.35, linewidth=1)
-    if not d2.empty: 
-        plt.plot(d2['pick_date'], d2['profit'], color=COLORS['diamond'], label='V2 Diamond', alpha=0.5, linewidth=2)
-    if not d3.empty: 
-        plt.plot(d3['pick_date'], d3['profit'], color=COLORS['obsidian'], label='V3 Obsidian', alpha=0.9, linewidth=2.5)
-    if not d4.empty: 
-        plt.plot(d4['pick_date'], d4['profit'], color=COLORS['quartz'], label='V4 Quartz', linewidth=3.5, zorder=100)
-        # Aura for Flagship V4 (Anchored to baseline)
-        plt.fill_between(d4['pick_date'], d4['profit'], 0, color=COLORS['quartz'], alpha=0.04, zorder=90)
-    
-    # [BILLION DOLLAR ACCURACY]: Bold Baseline
-    plt.axhline(0, color='#ffffff', linestyle='-', alpha=0.15, linewidth=1.5, zorder=5)
-    plt.text(d1['pick_date'].min(), 0.5, 'STABILIZED 0.0u BASELINE', color='white', alpha=0.15, fontsize=8, fontname='monospace')
-    
-    plt.title("QUANTITATIVE PERFORMANCE // MULTI-GENERATIONAL", color='white', fontweight='bold', pad=20)
-    plt.legend(frameon=False, loc='upper right')
-    plt.grid(color='#1A1A1A', alpha=0.3)
-    
-    # Dynamic Headroom (25% padding at top for 16x7)
-    all_series = []
-    if not d1.empty: all_series.append(d1['profit'])
-    if not d2.empty: all_series.append(d2['profit'])
-    if not d3.empty: all_series.append(d3['profit'])
-    if not d4.empty: all_series.append(d4['profit'])
-    
-    if all_series:
-        all_vals = pd.concat(all_series)
-        p_min, p_max = all_vals.min(), all_vals.max()
-        delta = p_max - p_min if p_max > p_min else 10
-        ax.set_ylim(p_min - delta*0.1, p_max + delta*0.25)
-
-    plt.savefig("docs/assets/obsidian_curve.png", bbox_inches='tight', dpi=300) # Legacy
-    plt.savefig("docs/assets/quarry_performance.png", bbox_inches='tight', dpi=300)
-    plt.savefig("docs/assets/live_curve.png", bbox_inches='tight', dpi=300)
-    
-    # [BILLION DOLLAR SYNC]: Direct mapping for dashboard pages
-    plt.savefig("docs/comparison_quartz.png", bbox_inches='tight', dpi=300)
-    plt.savefig("docs/comparison_obsidian.png", bbox_inches='tight', dpi=300)
-    plt.savefig("docs/comparison_diamond.png", bbox_inches='tight', dpi=300)
-    plt.savefig("docs/comparison_pyrite.png", bbox_inches='tight', dpi=300)
-    plt.close()
-
-    # Pyrite Solo Curve
-    plt.figure(figsize=(16, 8), facecolor=COLORS['void'])
-    ax = plt.gca()
-    ax.set_facecolor(COLORS['void'])
-    for spine in ax.spines.values(): spine.set_visible(False)
-    if not d1.empty: 
-        plt.plot(d1['pick_date'], d1['profit'], color=COLORS['pyrite'], label='V1 Pyrite', linewidth=2)
-    
-    # Market Baseline (if available)
-    if not d1.empty and 'cum_market' in v1.columns:
-        plt.plot(v1['pick_date'], v1['cum_market'], color='gray', linestyle='--', label='Market Baseline', alpha=0.5)
-    
-    plt.axhline(0, color='#333333', linestyle='--', alpha=0.3)
-    plt.title("V1 PYRITE PERFORMANCE // CUMULATIVE PROFIT", color='white', fontweight='bold', pad=20)
-    plt.legend(frameon=False, loc='upper right')
-    ax.grid(True, linestyle=':', color='#222222', alpha=0.3, zorder=0)
-
-    # Aura and Termination Orb for Solo Focus
-    if not d1.empty:
-        plt.fill_between(d1['pick_date'], d1['profit'], 0, color=COLORS['pyrite'], alpha=0.03)
-        plt.scatter(d1['pick_date'].iloc[-1], d1['profit'].iloc[-1], color='#ffffff', s=100, zorder=110, edgecolors=COLORS['pyrite'], linewidths=2.5)
-        plt.scatter(d1['pick_date'].iloc[-1], d1['profit'].iloc[-1], color=COLORS['pyrite'], s=350, zorder=105, alpha=0.3)
-    
-    # Fix x-axis overlap
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%m/%d'))
-    plt.xticks(rotation=45)
-    
-    if not d1.empty:
-        p_min, p_max = d1['profit'].min(), d1['profit'].max()
-        delta = p_max - p_min if p_max > p_min else 10
-        ax.set_ylim(p_min - delta*0.1, p_max + delta*0.25)
-
-    plt.savefig("assets/pyrite_live_curve.png", bbox_inches='tight', dpi=300)
-    plt.savefig("docs/assets/pyrite_live_curve.png", bbox_inches='tight', dpi=300)
-    plt.close()
-
+    # --- HELPERS ---
     def plot_sport_roi(data, filename, title, color_pos, color_neg=None):
-        if data.empty: return
+        if data is None or data.empty: return
         if color_neg is None: color_neg = COLORS['loss']
         
         s = data.groupby('league_name').agg({'profit_actual':'sum', 'wager_unit':'sum'})
@@ -326,16 +179,12 @@ def generate_live_assets(since_days=None):
         plt.savefig(f"docs/{filename}", dpi=150, facecolor=COLORS['void'])
         plt.close()
 
-    plot_sport_roi(v1, "assets/pyrite_sport.png", "V1 PYRITE ROI BY SPORT", COLORS['pyrite'])
-    plot_sport_roi(v2, "assets/diamond_sport.png", "V2 DIAMOND ROI BY SPORT", COLORS['diamond'])
-    plot_sport_roi(v4, "assets/quartz_sport.png", "V4 QUARTZ ROI BY SPORT", COLORS['quartz'], color_neg=COLORS['quartz_neg'])
-
-    # Bet Sizing / Confidence Calibration
     def plot_sizing(data, filename, title, color_pos, color_neg=None):
-        if data.empty: return
+        if data is None or data.empty: return
         if color_neg is None: color_neg = COLORS['loss']
         
         # Bin by confidence
+        if 'prob' not in data.columns: return
         data['conf_bin'] = pd.cut(data['prob'], bins=[0.5, 0.55, 0.6, 0.65, 0.7, 1.0], labels=['50-55%', '55-60%', '60-65%', '65-70%', '70%+'])
         s = data.groupby('conf_bin').agg({'profit_actual':'sum', 'wager_unit':'sum'})
         s['roi'] = s['profit_actual'] / s['wager_unit']
@@ -359,9 +208,190 @@ def generate_live_assets(since_days=None):
         plt.savefig(f"docs/{filename}", dpi=150, facecolor=COLORS['void'])
         plt.close()
 
+    # --- CENTRALIZED DATA LOADING ---
+    cache_path = os.path.join('docs', 'sim_results_cache.pkl')
+    cached_models = None
+    if os.path.exists(cache_path):
+        try:
+            print(f"📦 Loading cached simulation results from {cache_path}...")
+            cached_models = joblib.load(cache_path)
+            v1 = cached_models.get('pyrite', pd.DataFrame())
+            v2 = cached_models.get('diamond', pd.DataFrame())
+            v3 = cached_models.get('obsidian', pd.DataFrame())
+            v4 = cached_models.get('quartz', pd.DataFrame())
+            v5 = cached_models.get('sapphire', pd.DataFrame())
+            print("✅ Cache loaded successfully.")
+        except Exception as e:
+            print(f"⚠️ Failed to load cache: {e}. Falling back to live simulation.")
+            v1, v2, v3, v4, v5 = None, None, None, None, None
+    else:
+        v1, v2, v3, v4, v5 = None, None, None, None, None
+
+    # [BILLION DOLLAR OPTIMIZATION]: Only fetch from Supabase if cache is missing/corrupt
+    if v1 is None or v1.empty:
+        print("📥 Cache empty or missing. Fetching from Supabase...")
+        pipeline = SportsDataPipeline()
+        raw_df = pipeline.fetch_data(since_days=since_days)
+        if raw_df.empty:
+            print("❌ No data found in Supabase.")
+            return
+            
+        eng = FeatureEngineer(raw_df)
+        df = eng.process()
+        sim = ModelSimulator(df)
+        v1 = sim.run_v1_pyrite()
+        v2 = sim.run_v2_diamond()
+        v3 = sim.run_v3_obsidian()
+        v4 = sim.run_v4_quartz()
+        v5 = sim.run_v5_sapphire()
+    else:
+        pass
+
+    # Ensure edge calculations are consistent
+    if not v1.empty and 'edge' not in v1.columns: v1['edge'] = v1['prob'] - v1['implied_prob']
+    if not v4.empty and 'edge' not in v4.columns: v4['edge'] = (v4['prob'] if 'prob' in v4.columns else 0.5) - (v4['implied_prob'] if 'implied_prob' in v4.columns else 0.5)
+    if v5 is not None and not v5.empty and 'edge' not in v5.columns: v5['edge'] = v5['prob'] - v5['implied_prob']
+    
+    # --- 1. PLOTS ---
+    # cumulative profit
+    def get_cum(d):
+        if d is None or d.empty: return pd.DataFrame({'pick_date':[], 'profit':[]})
+        
+        # Raw Sequential Profit (Institutional Best Practice)
+        d = d.sort_values('pick_date').copy()
+        d['profit'] = d['profit_actual'].cumsum()
+        
+        # Zero-Origin sync
+        min_date = d['pick_date'].min()
+        if pd.isna(min_date): return pd.DataFrame({'pick_date':[], 'profit':[]})
+        
+        start_node = pd.DataFrame({'pick_date': [min_date - pd.Timedelta(seconds=1)], 'profit': [0.0]})
+        return pd.concat([start_node, d[['pick_date', 'profit']]]).sort_values('pick_date')
+
+    d1, d2, d3, d4, d5 = get_cum(v1), get_cum(v2), get_cum(v3), get_cum(v4), get_cum(v5)
+    
+    # Combined Curve
+    # [BILLION DOLLAR SYNC]: Aspect Ratio must match dashboard container (16/8)
+    plt.figure(figsize=(16, 8), facecolor=COLORS['void'])
+    ax = plt.gca()
+    ax.set_facecolor(COLORS['void'])
+    # Hide spines
+    for spine in ax.spines.values(): spine.set_visible(False)
+    
+    # Grid
+    ax.grid(True, linestyle=':', color='#222222', alpha=0.3, zorder=0)
+    if not d1.empty: 
+        plt.plot(d1['pick_date'], d1['profit'], color=COLORS['pyrite'], label='V1 Pyrite', alpha=0.2, linewidth=1)
+    if not d2.empty: 
+        plt.plot(d2['pick_date'], d2['profit'], color=COLORS['diamond'], label='V2 Diamond', alpha=0.3, linewidth=2)
+    if not d3.empty: 
+        plt.plot(d3['pick_date'], d3['profit'], color=COLORS['obsidian'], label='V3 Obsidian', alpha=0.5, linewidth=2)
+    if not d4.empty: 
+        plt.plot(d4['pick_date'], d4['profit'], color=COLORS['quartz'], label='V4 Quartz', alpha=0.7, linewidth=3)
+    if not d5.empty: 
+        plt.plot(d5['pick_date'], d5['profit'], color=COLORS['sapphire'], label='V5 Sapphire', linewidth=4, zorder=110)
+        plt.fill_between(d5['pick_date'], d5['profit'], 0, color=COLORS['sapphire'], alpha=0.08, zorder=100)
+    
+    # [BILLION DOLLAR ACCURACY]: Bold Baseline
+    plt.axhline(0, color='#ffffff', linestyle='-', alpha=0.15, linewidth=1.5, zorder=5)
+    plt.text(d1['pick_date'].min() if not d1.empty else pd.Timestamp.now(), 0.5, 'STABILIZED 0.0u BASELINE', color='white', alpha=0.15, fontsize=8, fontname='monospace')
+    
+    plt.title("QUANTITATIVE PERFORMANCE // MULTI-GENERATIONAL", color='white', fontweight='bold', pad=20)
+    plt.legend(frameon=False, loc='upper left')
+    plt.grid(color='#1A1A1A', alpha=0.3)
+    
+    # Dynamic Headroom (25% padding at top for 16x7)
+    all_series = []
+    if not d1.empty: all_series.append(d1['profit'])
+    if not d2.empty: all_series.append(d2['profit'])
+    if not d3.empty: all_series.append(d3['profit'])
+    if not d4.empty: all_series.append(d4['profit'])
+    if not d5.empty: all_series.append(d5['profit'])
+    
+    if all_series:
+        all_vals = pd.concat(all_series)
+        p_min, p_max = all_vals.min(), all_vals.max()
+        delta = p_max - p_min if p_max > p_min else 10
+        ax.set_ylim(p_min - delta*0.1, p_max + delta*0.25)
+
+    plt.savefig("docs/assets/obsidian_curve.png", bbox_inches='tight', dpi=300) # Legacy
+    plt.savefig("docs/assets/quarry_performance.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/assets/live_curve.png", bbox_inches='tight', dpi=300)
+    
+    # [BILLION DOLLAR SYNC]: Direct mapping for dashboard pages
+    plt.savefig("docs/comparison_quartz.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_obsidian.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_diamond.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_pyrite.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/comparison_sapphire.png", bbox_inches='tight', dpi=300)
+    plt.close()
+
+    # --- SAPPHIRE SPECIFIC ASSETS ---
+    if v5 is not None and not v5.empty:
+        # Equity Curve
+        plt.figure(figsize=(15, 7), facecolor='#020617')
+        ax = plt.gca()
+        ax.set_facecolor('#020617')
+        plt.plot(d5['pick_date'], d5['profit'], linewidth=3, color=COLORS['sapphire'])
+        plt.fill_between(d5['pick_date'], d5['profit'], color=COLORS['sapphire'], alpha=0.15)
+        plt.title('SERIES 5: SAPPHIRE - CUMULATIVE ALPHA', color='white', fontsize=16, pad=20, fontname='serif')
+        plt.ylabel('Net Units Profit', color=COLORS['text'])
+        plt.axhline(0, color='white', linestyle='-', alpha=0.2)
+        plt.grid(True, linestyle=':', color='#1e293b', alpha=0.5)
+        plt.savefig('docs/assets/sapphire_equity.png', dpi=300, facecolor='#020617')
+        plt.close()
+
+        # Calibration (Reliability)
+        from sklearn.calibration import calibration_curve
+        probs = v5['prob']
+        y_true = v5['outcome']
+        if len(y_true.unique()) > 1:
+            fop, mpv = calibration_curve(y_true, probs, n_bins=8)
+            plt.figure(figsize=(8, 8), facecolor='#020617')
+            ax = plt.gca()
+            ax.set_facecolor('#020617')
+            plt.plot([0, 1], [0, 1], linestyle='--', color='#475569', label='Perfectly Calibrated')
+            plt.plot(mpv, fop, marker='o', markersize=8, linewidth=2, color=COLORS['sapphire'], label='Sapphire V5')
+            plt.title('CONFORMAL RELIABILITY DIAGRAM', color='white', fontsize=14, pad=20)
+            plt.xlabel('Predicted Probability', color=COLORS['text'])
+            plt.ylabel('Observed Win Rate', color=COLORS['text'])
+            plt.legend()
+            plt.grid(True, linestyle=':', color='#1e293b', alpha=0.5)
+            plt.savefig('docs/assets/sapphire_calibration.png', dpi=300, facecolor='#020617')
+            plt.close()
+
+        # Importance
+        try:
+            m_path = os.path.join('models', 'v5_conformal_sniper.json')
+            if os.path.exists(m_path):
+                import xgboost as xgb
+                booster = xgb.Booster()
+                booster.load_model(m_path)
+                imp = booster.get_score(importance_type='gain')
+                if imp:
+                    imp_df = pd.DataFrame({'Feature': list(imp.keys()), 'Gain': list(imp.values())}).sort_values('Gain', ascending=False).head(10)
+                    plt.figure(figsize=(10, 6), facecolor='#020617')
+                    ax = plt.gca()
+                    ax.set_facecolor('#020617')
+                    sns.barplot(x='Gain', y='Feature', data=imp_df, palette='Blues_r')
+                    plt.title('SAPPHIRE V5: FEATURE INTELLIGENCE', color='white', pad=20)
+                    plt.grid(True, axis='x', linestyle=':', color='#1e293b', alpha=0.5)
+                    plt.savefig('docs/assets/sapphire_importance.png', dpi=300, facecolor='#020617')
+                    plt.close()
+        except: pass
+    
+    # Reuse standard plots
+    plot_sport_roi(v1, "assets/pyrite_sport.png", "V1 PYRITE ROI BY SPORT", COLORS['pyrite'])
+    plot_sport_roi(v2, "assets/diamond_sport.png", "V2 DIAMOND ROI BY SPORT", COLORS['diamond'])
+    plot_sport_roi(v4, "assets/quartz_sport.png", "V4 QUARTZ ROI BY SPORT", COLORS['quartz'], color_neg=COLORS['quartz_neg'])
+    if v5 is not None and not v5.empty:
+        plot_sport_roi(v5, "assets/sapphire_sport.png", "V5 SAPPHIRE ROI BY SPORT", COLORS['sapphire'], color_neg='#ef4444')
+
     plot_sizing(v1, "assets/pyrite_size.png", "V1 PYRITE ROI BY CONFIDENCE", COLORS['pyrite'])
     plot_sizing(v2, "assets/diamond_size.png", "V2 DIAMOND ROI BY CONFIDENCE", COLORS['diamond'])
     plot_sizing(v4, "assets/quartz_size.png", "V4 QUARTZ ROI BY CONFIDENCE", COLORS['quartz'], color_neg=COLORS['quartz_neg'])
+    if v5 is not None and not v5.empty:
+        plot_sizing(v5, "assets/sapphire_size.png", "V5 SAPPHIRE ROI BY CONFIDENCE", COLORS['sapphire'], color_neg='#ef4444')
     
     if not v3.empty:
         v3_sports = v3.groupby('league_name')['profit_actual'].sum().sort_index()
@@ -515,7 +545,7 @@ def generate_live_assets(since_days=None):
              return
 
         replacement = f'const DATA = {json.dumps(data_object, indent=12)};'
-        new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+        new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL)
         
         with open(html_path, 'w') as f: f.write(new_content)
         print(f"✅ Injected data into {html_path}")
@@ -602,6 +632,28 @@ def generate_live_assets(since_days=None):
         "history": v4_yesterday['history'] if v4_yesterday else []
     }
     inject_json('docs/quartz.html', quartz_page_data)
+    # Sapphire (V5)
+    v5_yesterday = get_yesterday_stats(v5, sort_mode='diamond')
+    v5_stats = get_stats(v5)
+    sapphire_page_data = {
+        "meta": {"last_update": pd.Timestamp.now().strftime('%Y-%m-%d %H:%M UTC'), "status": "PREMIUM"},
+        "stats": {
+            "roi": v5_stats['roi'],
+            "net_units": v5_stats['net'],
+            "record": v5_stats['record'],
+            "win_rate": v5_stats['win_rate'],
+            "sample": v5_stats['sample']
+        },
+        "yesterday": {
+            "record": v5_yesterday['record'] if v5_yesterday else "0-0-0",
+            "win_pct": v5_yesterday['winrate'] if v5_yesterday else 0,
+            "roi": v5_yesterday['roi'] if v5_yesterday else 0,
+            "net": v5_yesterday['net'] if v5_yesterday else 0,
+            "date": v5_yesterday['date'] if v5_yesterday else "N/A"
+        },
+        "history": v5_yesterday['history'] if v5_yesterday else []
+    }
+    inject_json('docs/sapphire.html', sapphire_page_data)
 
     # Selector Page - Dynamic Risk Profiles
     def get_risk_profile(bets_per_day):
@@ -614,7 +666,8 @@ def generate_live_assets(since_days=None):
             "pyrite": {"roi": pyrite_page_data['stats']['roi'], "status": get_risk_profile(pyrite_page_data['volume']['v1_avg'])},
             "diamond": {"roi": diamond_page_data['stats']['roi'], "status": get_risk_profile(diamond_page_data['volume']['v2_avg'])},
             "obsidian": {"roi": obsidian_data['stats']['roi'], "status": get_risk_profile(obsidian_data['stats']['sample'] / 100)}, # Approx vol
-            "quartz": {"roi": quartz_page_data['stats']['roi'], "status": get_risk_profile(quartz_page_data['volume']['v4_avg'])}
+            "quartz": {"roi": quartz_page_data['stats']['roi'], "status": get_risk_profile(quartz_page_data['volume']['v4_avg'])},
+            "sapphire": {"roi": sapphire_page_data['stats']['roi'], "status": "PREMIUM"}
         }
     }
     

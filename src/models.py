@@ -4,6 +4,8 @@ import numpy as np
 import json
 import os
 import traceback
+import xgboost as xgb
+from v5_dynamic_features import calculate_dynamic_features
 
 # RISK CONTROLS
 DAILY_RISK_CAP = 10.0 # Standard Institutional Cap
@@ -54,12 +56,14 @@ class ModelSimulator:
         self.V2_RELEASE = '2025-11-30'
         self.V3_RELEASE = '2025-12-27'
         self.V4_RELEASE = '2026-04-06'
+        self.V5_RELEASE = '2026-05-12'
         
         # ACTIVE TRACKING STARTS
         self.V1_START = (pd.to_datetime(self.V1_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         self.V2_START = (pd.to_datetime(self.V2_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         self.V3_START = (pd.to_datetime(self.V3_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         self.V4_START = (pd.to_datetime(self.V4_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+        self.V5_START = (pd.to_datetime(self.V5_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         
         self.V2_LEAGUES = {
             'NBA': {'stake': 1.2, 'min_edge': 0.03}, 'NCAAB': {'stake': 1.2, 'min_edge': 0.03},
@@ -121,6 +125,10 @@ class ModelSimulator:
                 return group
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
             
+            # [STABILITY FIX]: Ensure pick_date is preserved
+            if 'pick_date' not in final.columns:
+                final['pick_date'] = active.loc[final.index, 'pick_date']
+                
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             final['edge'] = final['prob'] - final['implied_prob']
             return final
@@ -151,6 +159,11 @@ class ModelSimulator:
                 return group[group['wager_unit'] > 0]
             
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
+            
+            # [STABILITY FIX]: Ensure pick_date is preserved
+            if 'pick_date' not in final.columns:
+                final['pick_date'] = active.loc[final.index, 'pick_date']
+                
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             return final
         except Exception as e:
@@ -236,6 +249,10 @@ class ModelSimulator:
                 
             final = final.groupby('pick_date', group_keys=False).apply(cap_daily_risk)
             
+            # [STABILITY FIX]: Ensure pick_date is preserved
+            if 'pick_date' not in final.columns:
+                final['pick_date'] = cand.loc[final.index, 'pick_date']
+                
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             return final
         except Exception as e:
@@ -341,6 +358,81 @@ class ModelSimulator:
             return final
         except Exception as e:
             print(f"Error V4 (Vectorized): {e}")
+            traceback.print_exc()
+            return pd.DataFrame()
+
+    def run_v5_sapphire(self):
+        """v5 Sapphire: Conformal Calibration Engine with Dynamic Momentum."""
+        try:
+            m_path = get_model_path('v5_conformal_sniper.json')
+            if not os.path.exists(m_path):
+                print(f"⚠️ V5 ERROR: Model file not found at {m_path}")
+                return pd.DataFrame()
+            
+            booster = xgb.Booster()
+            booster.load_model(m_path)
+            
+            c_path = get_model_path('v5_config.json')
+            if os.path.exists(c_path):
+                with open(c_path, 'r') as f:
+                    config = json.load(f)
+            else:
+                config = {"features": self._get_feature_list(booster), "conformal_threshold": 0.58, "Min_Edge": 0.02, "Kelly_Fraction": 0.15, "Max_Daily_Risk": 10.0}
+            
+            feats = config.get('features', self._get_feature_list(booster))
+            
+            # 1. Feature Engineering (Dynamic Momentum)
+            temp = self.df[self.df['pick_date'] >= pd.to_datetime(self.V5_START)].copy()
+            if temp.empty: return pd.DataFrame()
+            
+            # Preparation for dynamic features
+            temp['capper'] = temp['capper_id']
+            temp['capper_rolling_roi'] = temp['roi_30d']
+            temp['volatility'] = temp['vol_30d']
+            temp['market_consensus'] = temp['implied_prob']
+            if 'profit_units' in temp.columns:
+                temp['return'] = temp['profit_units']
+            
+            temp = calculate_dynamic_features(temp)
+            
+            # 2. Conformal Inference
+            dtest = xgb.DMatrix(temp[feats])
+            temp['prob'] = booster.predict(dtest)
+            temp['edge'] = temp['prob'] - temp['implied_prob']
+            
+            # 3. Precision Filtering
+            threshold = config.get('conformal_threshold', 0.58)
+            valid = (temp['prob'] >= threshold) & \
+                    (temp['edge'] >= float(config.get('Min_Edge', 0.02))) & \
+                    (temp['decimal_odds'] >= 1.70) & \
+                    (temp['decimal_odds'] <= 4.5)
+            
+            cand = temp[valid].copy()
+            if cand.empty: return cand
+            
+            # 4. Institutional Staking
+            kelly_frac = float(config.get('Kelly_Fraction', 0.15))
+            cand['b'] = cand['decimal_odds'] - 1
+            cand['kelly'] = ((cand['b'] * cand['prob']) - (1 - cand['prob'])) / cand['b']
+            
+            # Consensus multiplier (Shared with V4)
+            consensus_mult = np.where(cand['v4_consensus_count_lag1'] >= 3, 1.10, 1.0)
+            cand['wager_unit'] = (cand['kelly'] * kelly_frac * 100 * consensus_mult).clip(0, 3.0)
+            
+            # 5. Global Risk Control
+            daily_limit = float(config.get('Max_Daily_Risk', 10.0))
+            cand['daily_total_risk'] = cand.groupby('pick_date')['wager_unit'].transform('sum')
+            cand['risk_factor'] = (daily_limit / cand['daily_total_risk']).clip(upper=1.0)
+            cand['wager_unit'] = (cand['wager_unit'] * cand['risk_factor']).round(2)
+            
+            # 6. Performance Attribution
+            cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(cand['decimal_odds']-1), 
+                                             np.where(cand['outcome']==0, -cand['wager_unit'], 0))
+            
+            return cand[cand['wager_unit'] > 0]
+            
+        except Exception as e:
+            print(f"Error V5: {e}")
             traceback.print_exc()
             return pd.DataFrame()
 

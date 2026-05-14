@@ -221,11 +221,12 @@ class FeatureEngineer:
             s = f"{w_days}d"
             g_roll = daily.groupby('capper_id')
             
-            # Non-prefixed (For V4 Quartz)
-            daily[f'acc_{s}'] = g_roll['daily_wins'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True) / \
-                                (g_roll['daily_count'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True) + 1e-6)
-            daily[f'roi_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).sum().reset_index(level=0, drop=True)
-            daily[f'vol_{s}'] = g_roll['daily_profit'].rolling(w_days, min_periods=1).std().reset_index(level=0, drop=True).fillna(0)
+            # [STRICT T-1 INTEGRITY]: Joining on known_date (T+1) already isolates the past.
+            # We use rolling windows directly on the daily-aggregated history.
+            daily[f'acc_{s}'] = g_roll['daily_wins'].transform(lambda x: x.rolling(w_days, min_periods=1).sum()) / \
+                                (g_roll['daily_count'].transform(lambda x: x.rolling(w_days, min_periods=1).sum()) + 1e-6)
+            daily[f'roi_{s}'] = g_roll['daily_profit'].transform(lambda x: x.rolling(w_days, min_periods=1).sum())
+            daily[f'vol_{s}'] = g_roll['daily_profit'].transform(lambda x: x.rolling(w_days, min_periods=1).std()).fillna(0)
             
             # Prefixed (For V1 Pyrite / V2 Diamond)
             daily[f'roll_acc_{s}'] = daily[f'acc_{s}']
@@ -312,9 +313,8 @@ class FeatureEngineer:
         df['consensus_count'] = df['v4_consensus_count_lag1']
         df['consensus_count'] = df['consensus_count'].fillna(1)
         
-        # Null values for missing features
-        for c in ['streak_entering_game', 'bet_type_code', 'league_rolling_roi', 'fade_score', 'market_volume', 'consensus_pct']:
-            if c not in df.columns:
-                df[c] = 0
+        # Null values for missing features - only fill numeric columns with 0
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        df[numeric_cols] = df[numeric_cols].fillna(0)
             
-        return df.fillna(0)
+        return df
