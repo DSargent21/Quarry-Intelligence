@@ -1,86 +1,66 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-05-14 21:22 UTC",
+        "last_update": "2026-05-14 21:24 UTC",
         "status": "NOMINAL"
     },
     "models": {
         "pyrite": {
-            "roi": -11.6,
-            "net": -199.9,
-            "wins": 3159,
-            "losses": 4099,
+            "roi": -13.6,
+            "net": -234.1,
+            "wins": 3306,
+            "losses": 4375,
             "pushes": 0,
-            "record": "3159-4099-0",
-            "win_rate": 43.5,
-            "sample": 7258,
-            "bets_day": 41.7,
+            "record": "3306-4375-0",
+            "win_rate": 43.0,
+            "sample": 7681,
+            "bets_day": 44.1,
             "status": "LEGACY",
             "yesterday": {
                 "date": "May 13, 2026",
-                "record": "12-22-0",
-                "win_rate": 35.3,
-                "net": -3.96,
-                "roi": -39.6,
+                "record": "15-30-0",
+                "win_rate": 33.3,
+                "net": -3.61,
+                "roi": -36.1,
                 "ledger": [
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "colorado avalanche ml vs minnesota wild",
-                        "wager_unit": 0.3931009673785066,
-                        "profit_actual": 0.43241106411635727,
-                        "edge": 0.07453367255982901
+                        "league_name": "MLB",
+                        "decimal_odds": 2.63,
+                        "pick_norm": "rockies ml vs pirates",
+                        "wager_unit": 0.3335446105156495,
+                        "profit_actual": 0.5436777151405087,
+                        "edge": 0.05051034201687277
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "MLB",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "houston astros ml vs seattle mariners",
-                        "wager_unit": 0.3931009673785066,
-                        "profit_actual": 0.43241106411635727,
-                        "edge": 0.05526968978700186
+                        "decimal_odds": 2.63,
+                        "pick_norm": "rockies ml vs pirates",
+                        "wager_unit": 0.3335446105156495,
+                        "profit_actual": 0.5436777151405087,
+                        "edge": 0.05051034201687277
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "MLB",
-                        "decimal_odds": 1.9803921568627452,
-                        "pick_norm": "washington nationals vs cincinnati reds over 9.5",
-                        "wager_unit": 0.3931009673785066,
-                        "profit_actual": 0.3853931052730457,
-                        "edge": 0.040140120699854176
+                        "decimal_odds": 2.12,
+                        "pick_norm": "mariners ml vs astros",
+                        "wager_unit": 0.3335446105156495,
+                        "profit_actual": 0.37356996377752744,
+                        "edge": 0.04805826353576953
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 1.9803921568627452,
-                        "pick_norm": "event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5",
-                        "wager_unit": 0.3931009673785066,
-                        "profit_actual": 0.3853931052730457,
-                        "edge": 0.04768058510109929
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5",
-                        "wager_unit": 0.26956726922663443,
-                        "profit_actual": 0.2567307325967947,
-                        "edge": 0.02676080494392208
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "cleveland cavaliers +4 vs detroit pistons",
-                        "wager_unit": 0.25498390490150913,
-                        "profit_actual": 0.24284181419191345,
-                        "edge": 0.025313067726972616
+                        "league_name": "MLB",
+                        "decimal_odds": 2.12,
+                        "pick_norm": "mariners ml vs astros",
+                        "wager_unit": 0.3335446105156495,
+                        "profit_actual": 0.37356996377752744,
+                        "edge": 0.04805826353576953
                     },
                     {
                         "pick_date": "05/13",
@@ -88,192 +68,182 @@ window.QUARRY_STATS = {
                         "league_name": "NBA",
                         "decimal_odds": 1.9523809523809523,
                         "pick_norm": "cleveland cavaliers vs detroit pistons cleveland cavaliers +4",
-                        "wager_unit": 0.18978295527317193,
-                        "profit_actual": 0.18074567168873518,
-                        "edge": 0.018840360932233846
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers +4.5 vs detroit pistons",
-                        "wager_unit": 0.16955049208332768,
-                        "profit_actual": 0.15413681098484336,
-                        "edge": 0.01643106199446176
+                        "wager_unit": 0.24297035045156354,
+                        "profit_actual": 0.23140033376339383,
+                        "edge": 0.028427291207197225
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "NHL",
-                        "decimal_odds": 1.9523809523809523,
+                        "decimal_odds": 1.9615384615384617,
                         "pick_norm": "minnesota wild vs colorado avalanche over 6.5",
-                        "wager_unit": 0.1471502257548775,
-                        "profit_actual": 0.14014307214750235,
-                        "edge": 0.01460807352531246
+                        "wager_unit": 0.23065262178039445,
+                        "profit_actual": 0.22178136709653315,
+                        "edge": 0.027118414056067408
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "NHL",
-                        "decimal_odds": 1.9523809523809523,
+                        "decimal_odds": 1.9615384615384617,
                         "pick_norm": "minnesota wild vs colorado avalanche over 6.5",
-                        "wager_unit": 0.1471502257548775,
-                        "profit_actual": 0.14014307214750235,
-                        "edge": 0.01460807352531246
+                        "wager_unit": 0.23065262178039445,
+                        "profit_actual": 0.22178136709653315,
+                        "edge": 0.027118414056067408
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "minnesota wild vs colorado avalanche over 6.5",
-                        "wager_unit": 0.1471502257548775,
-                        "profit_actual": 0.14014307214750235,
-                        "edge": 0.01460807352531246
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers +4.5 vs detroit pistons",
-                        "wager_unit": 0.13386688139723588,
-                        "profit_actual": 0.12169716490657809,
-                        "edge": 0.012972979318527922
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "LOSS",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9523809523809523,
-                        "pick_norm": "evan mobley rebounds +assists over 11.5",
-                        "wager_unit": 0.016633047732078104,
-                        "profit_actual": -0.016633047732078104,
-                        "edge": 0.0016512158440380453
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "LOSS",
                         "league_name": "MLB",
-                        "decimal_odds": 2.35,
-                        "pick_norm": "tampa bay rays ml vs toronto blue jays tampa bay rays",
-                        "wager_unit": 0.17189501108792526,
-                        "profit_actual": -0.17189501108792526,
-                        "edge": 0.020096251305113444
+                        "decimal_odds": 1.99009900990099,
+                        "pick_norm": "royals ml vs white sox",
+                        "wager_unit": 0.22054139689436253,
+                        "profit_actual": 0.21835781870728962,
+                        "edge": 0.02631662081723185
                     },
                     {
                         "pick_date": "05/13",
-                        "result": "LOSS",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.99009900990099,
+                        "pick_norm": "royals ml vs white sox",
+                        "wager_unit": 0.22054139689436253,
+                        "profit_actual": 0.21835781870728962,
+                        "edge": 0.02631662081723185
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "WIN",
                         "league_name": "NHL",
-                        "decimal_odds": 2.26,
-                        "pick_norm": "minnesota wild vs colorado avalanche colorado avalanche -1.5",
-                        "wager_unit": 0.18537321448634855,
-                        "profit_actual": -0.18537321448634855,
-                        "edge": 0.021032696804114126
+                        "decimal_odds": 1.9803921568627452,
+                        "pick_norm": "event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5",
+                        "wager_unit": 0.16872975470551113,
+                        "profit_actual": 0.16542132814265798,
+                        "edge": 0.02003440113350896
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.37,
+                        "pick_norm": "padres ml vs brewers",
+                        "wager_unit": 0.06345319495736039,
+                        "profit_actual": 0.08693087709158374,
+                        "edge": 0.008797550628959927
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.37,
+                        "pick_norm": "padres ml vs brewers",
+                        "wager_unit": 0.06345319495736039,
+                        "profit_actual": 0.08693087709158374,
+                        "edge": 0.008797550628959927
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.0,
+                        "pick_norm": "chicago white sox 100 must start | rating 4.0% | odds 100 | analysis -kansas city starter seth lugo projects for 2.6 earned runs with a 4.18 era and 1.40 whip-righty projects to have a 6.3 strikeout rate over 9",
+                        "wager_unit": 0.05566278333288302,
+                        "profit_actual": 0.05566278333288302,
+                        "edge": 0.006675302982330322
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.0,
+                        "pick_norm": "chicago white sox 100 must start | rating 4.0% | odds 100 | analysis -kansas city starter seth lugo projects for 2.6 earned runs with a 4.18 era and 1.40 whip-righty projects to have a 6.3 strikeout rate over 9",
+                        "wager_unit": 0.05566278333288302,
+                        "profit_actual": 0.05566278333288302,
+                        "edge": 0.006675302982330322
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.0,
+                        "pick_norm": "chicago white sox 100 must start | rating 4.0% | odds 100 | analysis -kansas city starter seth lugo projects for 2.6 earned runs with a 4.18 era and 1.40 whip-righty projects to have a 6.3 strikeout rate over 9",
+                        "wager_unit": 0.05566278333288302,
+                        "profit_actual": 0.05566278333288302,
+                        "edge": 0.006675302982330322
                     }
                 ]
             }
         },
         "diamond": {
-            "roi": -5.4,
-            "net": -80.6,
-            "wins": 1524,
-            "losses": 1559,
+            "roi": -3.5,
+            "net": -48.7,
+            "wins": 1454,
+            "losses": 1368,
             "pushes": 0,
-            "record": "1524-1559-0",
-            "win_rate": 49.4,
-            "sample": 3083,
-            "bets_day": 18.8,
+            "record": "1454-1368-0",
+            "win_rate": 51.5,
+            "sample": 2822,
+            "bets_day": 17.2,
             "status": "STABLE",
             "yesterday": {
                 "date": "May 13, 2026",
-                "record": "3-4-0",
-                "win_rate": 42.9,
-                "net": -0.67,
-                "roi": -10.3,
+                "record": "2-2-0",
+                "win_rate": 50.0,
+                "net": -0.08,
+                "roi": -2.1,
                 "ledger": [
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "colorado avalanche ml vs minnesota wild",
-                        "edge": 0.07462003969010855,
-                        "wager_unit": 1.1,
-                        "profit_actual": 1.2100000000000002
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.0,
-                        "pick_norm": "minnesota wild vs colorado avalanche over 6.5",
-                        "edge": 0.05610615015029907,
-                        "wager_unit": 0.9,
-                        "profit_actual": 0.9
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "tobias harris points +assists +rebounds under 27.5",
+                        "edge": 0.03934533255440842,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "NBA",
                         "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers +4.5 vs detroit pistons",
-                        "edge": 0.03521842615944992,
+                        "pick_norm": "tobias harris points +assists +rebounds under 27.5",
+                        "edge": 0.03934533255440842,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under",
+                        "edge": 0.033731151194799525,
                         "wager_unit": 0.9,
-                        "profit_actual": 0.8181818181818182
+                        "profit_actual": -0.9
                     },
                     {
                         "pick_date": "05/13",
                         "result": "LOSS",
                         "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers vs detroit pistons under 212",
-                        "edge": 0.03278989451272141,
-                        "wager_unit": 0.8,
-                        "profit_actual": -0.8
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "LOSS",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers vs detroit pistons under 212",
-                        "edge": 0.03278989451272141,
-                        "wager_unit": 0.8,
-                        "profit_actual": -0.8
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "LOSS",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers vs detroit pistons under 212",
-                        "edge": 0.03278989451272141,
-                        "wager_unit": 0.8,
-                        "profit_actual": -0.8
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "LOSS",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.925925925925926,
+                        "decimal_odds": 1.9433962264150944,
                         "pick_norm": "event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5",
-                        "edge": 0.04666244372343409,
-                        "wager_unit": 1.2,
-                        "profit_actual": -1.2
+                        "edge": 0.03932420084777388,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": 4.1,
-            "net": 28.6,
-            "wins": 710,
-            "losses": 934,
+            "roi": 5.1,
+            "net": 35.2,
+            "wins": 731,
+            "losses": 913,
             "pushes": 0,
-            "record": "710-934-0",
-            "win_rate": 43.2,
+            "record": "731-913-0",
+            "win_rate": 44.5,
             "sample": 1644,
             "bets_day": 12.0,
             "status": "ADVANCED",
@@ -281,28 +251,18 @@ window.QUARRY_STATS = {
                 "date": "May 13, 2026",
                 "record": "3-9-0",
                 "win_rate": 25.0,
-                "net": -2.49,
-                "roi": -49.3,
+                "net": -2.43,
+                "roi": -48.2,
                 "ledger": [
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.1,
-                        "pick_norm": "colorado avalanche ml vs minnesota wild",
-                        "edge": 0.04880952380952386,
+                        "league_name": "NBA",
+                        "decimal_odds": 2.27,
+                        "pick_norm": "evan mobley assists over 3.5",
+                        "edge": 0.08447136563876656,
                         "wager_unit": 0.42,
-                        "profit_actual": 0.462
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.0,
-                        "pick_norm": "minnesota wild vs colorado avalanche over 6.5",
-                        "edge": 0.025000000000000022,
-                        "wager_unit": 0.42,
-                        "profit_actual": 0.42
+                        "profit_actual": 0.5334
                     },
                     {
                         "pick_date": "05/13",
@@ -316,11 +276,31 @@ window.QUARRY_STATS = {
                     },
                     {
                         "pick_date": "05/13",
+                        "result": "WIN",
+                        "league_name": "NHL",
+                        "decimal_odds": 1.9615384615384617,
+                        "pick_norm": "minnesota wild vs colorado avalanche over 6.5",
+                        "edge": 0.015196078431372606,
+                        "wager_unit": 0.42,
+                        "profit_actual": 0.4038461538461539
+                    },
+                    {
+                        "pick_date": "05/13",
                         "result": "LOSS",
                         "league_name": "NBA",
                         "decimal_odds": 17.0,
                         "pick_norm": "nba8 td over",
                         "edge": 0.4661764705882353,
+                        "wager_unit": 0.42,
+                        "profit_actual": -0.42
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 2.34,
+                        "pick_norm": "columbus ml vs new york red bulls",
+                        "edge": 0.09764957264957264,
                         "wager_unit": 0.42,
                         "profit_actual": -0.42
                     },
@@ -338,16 +318,6 @@ window.QUARRY_STATS = {
                         "pick_date": "05/13",
                         "result": "LOSS",
                         "league_name": "NHL",
-                        "decimal_odds": 2.8,
-                        "pick_norm": "minnesota wild ml vs colorado avalanche minnesota wild",
-                        "edge": 0.16785714285714287,
-                        "wager_unit": 0.42,
-                        "profit_actual": -0.42
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "LOSS",
-                        "league_name": "NHL",
                         "decimal_odds": 2.85,
                         "pick_norm": "avalanche -1.5 vs wild",
                         "edge": 0.1741228070175439,
@@ -357,10 +327,10 @@ window.QUARRY_STATS = {
                     {
                         "pick_date": "05/13",
                         "result": "LOSS",
-                        "league_name": "NBA",
-                        "decimal_odds": 2.34,
-                        "pick_norm": "columbus ml vs new york red bulls",
-                        "edge": 0.09764957264957264,
+                        "league_name": "NHL",
+                        "decimal_odds": 2.2,
+                        "pick_norm": "minnesota wild vs colorado avalanche colorado avalanche -1.5",
+                        "edge": 0.07045454545454549,
                         "wager_unit": 0.42,
                         "profit_actual": -0.42
                     },
@@ -388,19 +358,19 @@ window.QUARRY_STATS = {
                         "pick_date": "05/13",
                         "result": "LOSS",
                         "league_name": "NHL",
-                        "decimal_odds": 2.26,
-                        "pick_norm": "minnesota wild vs colorado avalanche colorado avalanche -1.5",
-                        "edge": 0.08252212389380531,
+                        "decimal_odds": 2.0,
+                        "pick_norm": "diamondbacks ml vs rangers",
+                        "edge": 0.025000000000000022,
                         "wager_unit": 0.42,
                         "profit_actual": -0.42
                     },
                     {
                         "pick_date": "05/13",
                         "result": "LOSS",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.0,
-                        "pick_norm": "diamondbacks ml vs rangers",
-                        "edge": 0.025000000000000022,
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9523809523809523,
+                        "pick_norm": "cavs vs pistons under 212.5",
+                        "edge": 0.0128048780487805,
                         "wager_unit": 0.42,
                         "profit_actual": -0.42
                     }
@@ -408,41 +378,41 @@ window.QUARRY_STATS = {
             }
         },
         "quartz": {
-            "roi": 3.5,
-            "net": 12.9,
-            "wins": 167,
-            "losses": 162,
+            "roi": -3.3,
+            "net": -11.9,
+            "wins": 139,
+            "losses": 159,
             "pushes": 0,
-            "record": "167-162-0",
-            "win_rate": 50.8,
-            "sample": 329,
-            "bets_day": 8.9,
+            "record": "139-159-0",
+            "win_rate": 46.6,
+            "sample": 298,
+            "bets_day": 8.1,
             "status": "FLAGSHIP",
             "yesterday": {
                 "date": "May 13, 2026",
                 "record": "4-6-0",
                 "win_rate": 40.0,
-                "net": -1.86,
-                "roi": -18.5,
+                "net": -2.34,
+                "roi": -23.5,
                 "ledger": [
                     {
                         "pick_date": "05/13",
-                        "league_name": "WNBA",
-                        "pick_norm": "event chicago sky vs golden state valkyries play chicago sky vs golden state valkyries under 166.5",
+                        "league_name": "MLB",
+                        "pick_norm": "white sox +1.5 vs royals",
                         "decimal_odds": 1.9090909090909092,
-                        "edge": 0.08317438357879736,
-                        "wager_unit": 1.13,
-                        "profit_actual": 1.0272727272727273,
+                        "edge": 0.08597681607587548,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092,
                         "result": "WIN"
                     },
                     {
                         "pick_date": "05/13",
-                        "league_name": "NBA",
-                        "pick_norm": "cavs +4.5 vs pistons",
+                        "league_name": "WNBA",
+                        "pick_norm": "toronto tempo -2.5 vs storm",
                         "decimal_odds": 1.9090909090909092,
-                        "edge": 0.08739317471408847,
-                        "wager_unit": 1.13,
-                        "profit_actual": 1.0272727272727273,
+                        "edge": 0.08447883714312165,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092,
                         "result": "WIN"
                     },
                     {
@@ -450,39 +420,49 @@ window.QUARRY_STATS = {
                         "league_name": "WNBA",
                         "pick_norm": "sky vs valkyries under 167",
                         "decimal_odds": 1.9090909090909092,
-                        "edge": 0.08317438357879736,
-                        "wager_unit": 1.13,
-                        "profit_actual": 1.0272727272727273,
+                        "edge": 0.08141706875749999,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092,
+                        "result": "WIN"
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "league_name": "WNBA",
+                        "pick_norm": "event chicago sky vs golden state valkyries play chicago sky vs golden state valkyries under 166.5",
+                        "decimal_odds": 1.9090909090909092,
+                        "edge": 0.08141706875749999,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092,
                         "result": "WIN"
                     },
                     {
                         "pick_date": "05/13",
                         "league_name": "MLB",
-                        "pick_norm": "miami marlins -1.5 vs minnesota twins",
-                        "decimal_odds": 2.3,
-                        "edge": 0.05607153751235222,
-                        "wager_unit": 0.74,
-                        "profit_actual": 0.9619999999999999,
-                        "result": "WIN"
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "league_name": "MLB",
-                        "pick_norm": "arizona diamondbacks -1.5 vs texas rangers",
-                        "decimal_odds": 2.5,
-                        "edge": 0.05808531992261384,
-                        "wager_unit": 0.73,
-                        "profit_actual": -0.73,
+                        "pick_norm": "philadelphia phillies ml",
+                        "decimal_odds": 2.15,
+                        "edge": 0.07844582536502326,
+                        "wager_unit": 0.98,
+                        "profit_actual": -0.98,
                         "result": "LOSS"
                     },
                     {
                         "pick_date": "05/13",
-                        "league_name": "Soccer",
-                        "pick_norm": "barcelona fc ml vs deportivo alaves 3-way barcelona fc",
-                        "decimal_odds": 2.0700000000000003,
-                        "edge": 0.06101673259994922,
-                        "wager_unit": 0.89,
-                        "profit_actual": -0.89,
+                        "league_name": "WNBA",
+                        "pick_norm": "fever vs sparks over 183.5",
+                        "decimal_odds": 1.9090909090909092,
+                        "edge": 0.08597681607587548,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0,
+                        "result": "LOSS"
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "league_name": "WNBA",
+                        "pick_norm": "valkyries -3.5 vs sky",
+                        "decimal_odds": 1.9090909090909092,
+                        "edge": 0.08447883714312165,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0,
                         "result": "LOSS"
                     },
                     {
@@ -490,19 +470,19 @@ window.QUARRY_STATS = {
                         "league_name": "Other",
                         "pick_norm": "barcelona fc 107 | rating 3.0% | odds 107 | analysis 3% barcelona 330 et barcelona have already been crowned champions of la liga for 2025-26 by virtue of sunday\u2019s 2-0 win ml vs second-place real madrid in the latest installment of \u201cel clasico.\u201d thus an argument could be made that barca might be pretty unmotivated these last three matchweeks of the season. there was a parade monday celebrating the club\u2019s 25th la liga title in front of an estimated 750000 supporters. however similar to what i said in the analysis for saturday\u2019s free bundesliga play on bayern munich who are champions elect themselves the price on the 3-way line is simply way too good to pass up here. no way barcelona should be priced this cheap against a relegation-threatened side. they\u2019ve won six straight matches overall and 11 in a row in la liga. manager hansi flick has already come out and said his goal is for the team to get to 100 points for the season. that would require winning each of these last three matches.just to bring everyone up to speed there\u2019s very little drama at the top of la liga. not only have barcelona already clinched the title but we also know who the other four champions league sides will be for next season real madrid villarreal atletico & real betis spain gained an extra ucl spot based on uefa coefficient. there\u2019s a bit of drama for the other european places but the real intrigue lies in the relegation race which alaves is a part of. only last place real oviedo is confirmed for relegation thus far. but incredibly there\u2019s only an eight-point gap between 8th and 19th place meaning no one in that group is officially safe. alaves now sit 19th two points clear from safety and thus are in desperate need for a win. but that\u2019s been \u201cbaked\u201d into the line here and as a result we can take the vastly superior side at a great price.barcelona have beaten alaves six straight times including 3-1 earlier this season at camp nou. all-time they\u2019ve won 36 of 50 head to head battles including 27 of the 39 in la liga. while alaves haven\u2019t always been in the spanish top flight the last time they defeated barcelona here at home was 2001 it was 3-0 in the corresponding fixture last season. we obviously need to avoid the draw here and alaves have avoided defeat in six of their last eight matches. but this is the top team in the league they\u2019re facing on wednesday. i come back to the price we\u2019re getting on barca here. had they not already clinched the league title we\u2019d be looking at a number closer to -200. 3% barcelona play to -125",
                         "decimal_odds": 2.0700000000000003,
-                        "edge": 0.06101673259994922,
-                        "wager_unit": 0.89,
-                        "profit_actual": -0.89,
+                        "edge": 0.07395365551829314,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0,
                         "result": "LOSS"
                     },
                     {
                         "pick_date": "05/13",
-                        "league_name": "MLB",
-                        "pick_norm": "cubs vs braves over 8.5",
-                        "decimal_odds": 1.9090909090909092,
-                        "edge": 0.09199246255809279,
-                        "wager_unit": 1.13,
-                        "profit_actual": -1.13,
+                        "league_name": "Soccer",
+                        "pick_norm": "barcelona fc ml vs deportivo alaves 3-way barcelona fc",
+                        "decimal_odds": 2.0700000000000003,
+                        "edge": 0.07395365551829314,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0,
                         "result": "LOSS"
                     },
                     {
@@ -510,41 +490,31 @@ window.QUARRY_STATS = {
                         "league_name": "WNBA",
                         "pick_norm": "los angeles sparks +1.5 vs indiana fever",
                         "decimal_odds": 1.9090909090909092,
-                        "edge": 0.09070890759091799,
-                        "wager_unit": 1.13,
-                        "profit_actual": -1.13,
-                        "result": "LOSS"
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "league_name": "NHL",
-                        "pick_norm": "diamondbacks ml vs rangers",
-                        "decimal_odds": 1.9587155963302751,
-                        "edge": 0.08302289332131085,
-                        "wager_unit": 1.13,
-                        "profit_actual": -1.13,
+                        "edge": 0.07271612816054474,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0,
                         "result": "LOSS"
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": -15.6,
-            "net": -1.5,
-            "wins": 14,
-            "losses": 19,
+            "roi": -48.9,
+            "net": -4.9,
+            "wins": 3,
+            "losses": 9,
             "pushes": 0,
-            "record": "14-19-0",
-            "win_rate": 42.4,
-            "sample": 33,
-            "bets_day": 33.0,
+            "record": "3-9-0",
+            "win_rate": 25.0,
+            "sample": 12,
+            "bets_day": 12.0,
             "status": "PREMIUM",
             "yesterday": {
                 "date": "May 13, 2026",
-                "record": "14-19-0",
-                "win_rate": 42.4,
-                "net": -1.55,
-                "roi": -15.6,
+                "record": "3-9-0",
+                "win_rate": 25.0,
+                "net": -4.87,
+                "roi": -48.9,
                 "ledger": [
                     {
                         "pick_date": "05/13",
@@ -552,149 +522,119 @@ window.QUARRY_STATS = {
                         "league_name": "MLB",
                         "decimal_odds": 2.48,
                         "pick_norm": "yankees ml vs orioles",
-                        "edge": 0.24443015744609214,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.444
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 2.46,
-                        "pick_norm": "nationals ml vs reds",
-                        "edge": 0.24115189885705468,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.438
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 1.9803921568627452,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.24897190780922918,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.29411764705882354
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "colorado avalanche ml vs minnesota wild",
-                        "edge": 0.29834541536512826,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
+                        "edge": 0.2528880565397201,
+                        "wager_unit": 0.83,
+                        "profit_actual": 1.2284
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "NBA",
                         "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers +4.5 vs detroit pistons",
-                        "edge": 0.13702484823408578,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.200310020219712,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.200310020219712,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.200310020219712,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "cleveland cavaliers +4.5 vs detroit pistons",
-                        "edge": 0.12980463958921884,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
+                        "pick_norm": "cavs vs pistons over 212",
+                        "edge": 0.1223025009745643,
+                        "wager_unit": 0.83,
+                        "profit_actual": 0.7545454545454546
                     },
                     {
                         "pick_date": "05/13",
                         "result": "WIN",
                         "league_name": "NHL",
-                        "decimal_odds": 1.9090909090909092,
+                        "decimal_odds": 1.7407407407407407,
                         "pick_norm": "colorado avalanche ml vs minnesota wild",
-                        "edge": 0.29834541536512826,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
+                        "edge": 0.15812753743313723,
+                        "wager_unit": 0.83,
+                        "profit_actual": 0.6148148148148147
                     },
                     {
                         "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "colorado avalanche ml vs minnesota wild",
-                        "edge": 0.2991651580447242,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.27272727272727276
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
+                        "result": "LOSS",
                         "league_name": "MLB",
-                        "decimal_odds": 1.8849557522123894,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.17192955196183612,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.26548672566371684
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 1.8849557522123894,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.17192955196183612,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.26548672566371684
-                    },
-                    {
-                        "pick_date": "05/13",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 1.8849557522123894,
-                        "pick_norm": "texas rangers ml vs arizona diamondbacks",
-                        "edge": 0.17484082162660053,
-                        "wager_unit": 0.3,
-                        "profit_actual": 0.26548672566371684
+                        "decimal_odds": 2.0,
+                        "pick_norm": "detroit tigers ml vs new york mets",
+                        "edge": 0.16981196403503418,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
                     },
                     {
                         "pick_date": "05/13",
                         "result": "LOSS",
                         "league_name": "MLB",
                         "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "arizona diamondbacks ml vs texas rangers",
-                        "edge": 0.124332396757035,
-                        "wager_unit": 0.3,
-                        "profit_actual": -0.3
+                        "pick_norm": "cubs vs braves over 8.5",
+                        "edge": 0.20627054430189584,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.7407407407407407,
+                        "pick_norm": "milwaukee brewers ml vs san diego padres",
+                        "edge": 0.09131990975521975,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "cubs vs braves over 8.5",
+                        "edge": 0.19724997736158822,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "yankees vs orioles over 8.5",
+                        "edge": 0.2066542790049598,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "yankees vs orioles over 8.5",
+                        "edge": 0.20467343784513925,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "yankees vs orioles over 8.5",
+                        "edge": 0.2066542790049598,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "pistons -4 vs cavs",
+                        "edge": 0.12479969717207406,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "pick_date": "05/13",
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.3200000000000003,
+                        "pick_norm": "tampa bay rays ml vs toronto blue jays",
+                        "edge": 0.2686217653340307,
+                        "wager_unit": 0.83,
+                        "profit_actual": -0.83
                     }
                 ]
             }
