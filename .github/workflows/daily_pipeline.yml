@@ -1,10 +1,8 @@
 name: Daily Quarry Pipeline
 
 on:
-  push:
-    branches: [ main ]
   schedule:
-    - cron: '0 10 * * *' # 6:00 AM ET Daily (Standardized Institutional Cron)
+    - cron: '0 9 * * *' # 10:00 AM CET/CEST (European Central Time)
   workflow_dispatch:
     inputs:
       clear_cache:
@@ -22,7 +20,7 @@ jobs:
       contents: write
       pages: write
       id-token: write
-    
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -41,7 +39,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           # [BILLION DOLLAR SECURITY]: In-memory auth injection (No tracked file leakage)
-          git config --global url."https://${GH_PAT}@github.com/".insteadOf "https://github.com/"
+          git config --global url.https://${GH_PAT}@github.com/.insteadOf https://github.com/
           git submodule update --init --recursive
 
       - name: Install Dependencies
@@ -69,27 +67,27 @@ jobs:
       - name: Generate Executive Job Summary
         if: always()
         run: |
-          echo "## 📊 Quarry Pipeline Summary [$(date +'%Y-%m-%d')]" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -f "docs/pipeline_summary.json" ]; then
+          echo '## 📊 Quarry Pipeline Summary [$(date +''%Y-%m-%d'')]' >> $GITHUB_STEP_SUMMARY
+
+          if [ -f docs/pipeline_summary.json ]; then
             # Parse metrics from the JSON produced by the script
             RANGE=$(jq -r '.data_range' docs/pipeline_summary.json)
             ROWS=$(jq -r '.total_rows' docs/pipeline_summary.json)
             TIMESTAMP=$(jq -r '.last_update' docs/pipeline_summary.json)
-            
-            echo "### 📡 Data Integrity" >> $GITHUB_STEP_SUMMARY
-            echo "| Metric | Status |" >> $GITHUB_STEP_SUMMARY
-            echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
-            echo "| **Last Update** | $TIMESTAMP |" >> $GITHUB_STEP_SUMMARY
-            echo "| **Date Range** | $RANGE |" >> $GITHUB_STEP_SUMMARY
-            echo "| **Total Rows Fetched** | $ROWS |" >> $GITHUB_STEP_SUMMARY
-            
-            echo "### 🤖 Model Identifications" >> $GITHUB_STEP_SUMMARY
-            echo "| Model | Picks Found |" >> $GITHUB_STEP_SUMMARY
-            echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+
+            echo '### 📡 Data Integrity' >> $GITHUB_STEP_SUMMARY
+            echo '| Metric | Status |' >> $GITHUB_STEP_SUMMARY
+            echo '| :--- | :--- |' >> $GITHUB_STEP_SUMMARY
+            echo '| **Last Update** | $TIMESTAMP |' >> $GITHUB_STEP_SUMMARY
+            echo '| **Date Range** | $RANGE |' >> $GITHUB_STEP_SUMMARY
+            echo '| **Total Rows Fetched** | $ROWS |' >> $GITHUB_STEP_SUMMARY
+
+            echo '### 🤖 Model Identifications' >> $GITHUB_STEP_SUMMARY
+            echo '| Model | Picks Found |' >> $GITHUB_STEP_SUMMARY
+            echo '| :--- | :--- |' >> $GITHUB_STEP_SUMMARY
             jq -r '.picks_identified | to_entries[] | "| \(.key) | \(.value) |"' docs/pipeline_summary.json >> $GITHUB_STEP_SUMMARY
           else
-            echo "⚠️ Pipeline failed to produce a summary. Check logs." >> $GITHUB_STEP_SUMMARY
+            echo '⚠️ Pipeline failed to produce a summary. Check logs.' >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: 🛡️ Indestructible Git Sync & Deploy
@@ -97,19 +95,19 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           # 1. Update heartbeat to ensure we ALWAYS have a change to push (Force-trigger website update)
-          echo "Last successful run: $(date)" > docs/last_run.txt
-          
+          echo 'Last successful run: $(date)' > docs/last_run.txt
+
           # 2. Institutional Commit Logic
-          git config --global user.email "bot@quarry.institutional"
-          git config --global user.name "QuarryBot"
-          
+          git config --global user.email bot@quarry.institutional
+          git config --global user.name QuarryBot
+
           git add -A
-          
+
           if [[ -z $(git status --porcelain) ]]; then
-            echo "No changes to commit (Unexpected but safe)."
+            echo 'No changes to commit (Unexpected but safe).'
           else
-            git commit -m "📈 Auto-Update: Daily Pipeline Sync [$(date +'%Y-%m-%d')]"
-            
+            git commit -m '📈 Auto-Update: Daily Pipeline Sync [$(date +''%Y-%m-%d'')]'
+
             # [BILLION DOLLAR SYNC]: Rebase with autostash handles concurrent manual pushes
             # We use the PAT-authenticated remote to ensure the push triggers 'Deploy Website'
             git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
@@ -120,7 +118,7 @@ jobs:
       - name: 🚀 Atomic Website Deploy
         if: success() || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v4
-        
+
       - name: Upload artifact
         if: success() || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v3
