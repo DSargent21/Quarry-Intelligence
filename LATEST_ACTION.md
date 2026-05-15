@@ -3,113 +3,89 @@
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | detroit tigers ml vs new york mets | +100 | 0.9 | ❌ | -0.91u |
-| MLB | detroit tigers ml vs new york mets | +100 | 0.9 | ❌ | -0.91u |
-| NBA | detroit pistons ml vs cleveland cavaliers | -110 | 0.9 | ❌ | -0.91u |
-| NBA | detroit pistons ml vs cleveland cavaliers | -110 | 0.9 | ❌ | -0.91u |
-| MLB | pittsburgh pirates -1.5 vs colorado rockies | +115 | 0.9 | ❌ | -0.91u |
-| MLB | pittsburgh pirates -1.5 vs colorado rockies | +115 | 0.9 | ❌ | -0.91u |
-| MLB | miami marlins ml vs minnesota twins | -122 | 0.9 | ✅ | +0.75u |
-| MLB | miami marlins ml vs minnesota twins | -117 | 0.9 | ✅ | +0.78u |
-| MLB | miami marlins ml vs minnesota twins | -117 | 0.9 | ✅ | +0.78u |
-| MLB | cincinnati reds ml vs washington nationals | -112 | 0.9 | ❌ | -0.91u |
-| MLB | cincinnati reds ml vs washington nationals | -112 | 0.9 | ❌ | -0.91u |
+| MLB | tampa bay rays ml vs toronto blue jays | +132 | 2.5 | ❌ | -2.50u |
+| NHL | diamondbacks ml vs rangers | -109 | 2.5 | ❌ | -2.50u |
+| NHL | diamondbacks ml vs rangers | -109 | 2.5 | ❌ | -2.50u |
+| Other | f5 kt wiz ml | -115 | 2.5 | ❌ | -2.50u |
 
-**Daily PnL (Settled): -4.98 Units**
+**Daily PnL (Settled): -10.00 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NBA | cavs vs pistons over 211.5 | 1.91 | 1.1 | ✅ | +1.04u |
-| WNBA | event chicago sky vs golden state valkyries play chicago sky vs golden state valkyries under 166.5 | 1.91 | 1.1 | ✅ | +1.04u |
-| WNBA | sky vs valkyries under 167 | 1.91 | 1.1 | ✅ | +1.04u |
-| NBA | cavs +4.5 vs pistons | 1.91 | 1.1 | ✅ | +1.04u |
-| WNBA | fever vs sparks under 185.5 | 1.91 | 1.1 | ✅ | +1.04u |
-| MLB | tampa bay rays ml vs toronto blue jays tampa bay rays | 2.35 | 0.9 | ❌ | -0.91u |
-| MLB | st. louis cardinals ml vs athletics | 2.27 | 0.8 | ❌ | -0.79u |
-| NBA | pistons -3 vs cavs | 1.91 | 0.9 | ❌ | -0.91u |
-| WNBA | sky vs valkyries under 167.5 | 1.91 | 0.8 | ✅ | +0.77u |
-| WNBA | toronto tempo -3.5 vs storm | 1.91 | 0.8 | ✅ | +0.77u |
+| NBA | pistons -3 vs cavs | 1.91 | 1.1 | ❌ | -1.12u |
+| MLB | tampa bay rays ml vs toronto blue jays | 2.32 | 1.1 | ❌ | -1.12u |
+| MLB | chicago white sox ml vs kansas city royals | 1.91 | 1.1 | ✅ | +1.02u |
+| WNBA | aces vs sun under 173.5 | 1.91 | 1.1 | ✅ | +1.02u |
+| NHL | minnesota wild ml vs colorado avalanche minnesota wild | 2.80 | 1.0 | ❌ | -1.04u |
+| MLB | cubs vs braves over 8.5 | 1.91 | 1.1 | ❌ | -1.12u |
+| NHL | avalanche -1.5 vs wild | 2.85 | 1.0 | ❌ | -0.96u |
+| MLB | milwaukee brewers -1.5 vs san diego padres | 2.60 | 0.9 | ❌ | -0.92u |
+| MLB | miami marlins -1.5 vs minnesota twins | 2.30 | 0.7 | ✅ | +0.96u |
+| MLB | pittsburgh pirates -1.5 vs colorado rockies | 2.15 | 0.8 | ❌ | -0.76u |
 
-**Daily PnL (Settled): +4.12 Units**
+**Daily PnL (Settled): -4.04 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NBA | nba8 td over | +1600 | 0.4 | ❌ | -0.42u |
 | NHL | avalanche -1.5 vs wild | +185 | 0.4 | ❌ | -0.42u |
 | NHL | minnesota wild ml vs colorado avalanche minnesota wild | +180 | 0.4 | ❌ | -0.42u |
 | NBA | evan mobley assists over 3.5 | +127 | 0.4 | ✅ | +0.53u |
-| NHL | minnesota wild vs colorado avalanche colorado avalanche -1.5 | +126 | 0.4 | ❌ | -0.42u |
-| NHL | colorado avalanche -1.5 vs minnesota wild | +112 | 0.4 | ❌ | -0.42u |
+| NHL | minnesota wild vs colorado avalanche colorado avalanche -1.5 | +120 | 0.4 | ❌ | -0.42u |
 | NHL | colorado avalanche ml vs minnesota wild | +110 | 0.4 | ✅ | +0.46u |
-| NHL | minnesota wild vs colorado avalanche over 6.5 | +100 | 0.4 | ✅ | +0.42u |
-| NHL | event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5 | -102 | 0.4 | ✅ | +0.41u |
-| NCAAF | wabash college little giants ml | -105 | 0.4 | ❌ | -0.42u |
+| NBA | evan mobley rebounds +assists over 11.5 | -105 | 0.4 | ❌ | -0.42u |
+| NBA | cavs vs pistons under 212.5 | -105 | 0.4 | ❌ | -0.42u |
+| NBA | cavs vs pistons under 213 | -105 | 0.4 | ❌ | -0.42u |
 | NHL | event minnesota wild vs colorado avalanche martin necas assists play martin necas over 0.5 | -105 | 0.4 | ❌ | -0.42u |
-| NBA | cleveland cavaliers +4 vs detroit pistons | -105 | 0.4 | ✅ | +0.40u |
+| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5 | -106 | 0.4 | ❌ | -0.42u |
+| NHL | diamondbacks ml vs rangers | -109 | 0.4 | ❌ | -0.42u |
+| NBA | detroit pistons -4 | -109 | 0.4 | ❌ | -0.42u |
 
-**Daily PnL (Settled): -0.71 Units**
+**Daily PnL (Settled): -3.20 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NBA | cleveland cavaliers vs detroit pistons under 212.5 | -108 | 1.1 | ❌ | -1.10u |
-| NBA | cleveland cavaliers vs detroit pistons under 212.5 | -108 | 1.1 | ❌ | -1.10u |
-| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 211.5 | -108 | 0.9 | ❌ | -0.90u |
-| NBA | cavs vs pistons over 211.5 | -110 | 0.8 | ✅ | +0.73u |
-| NBA | detroit pistons -4 vs cleveland cavaliers | -110 | 0.8 | ❌ | -0.80u |
+| NBA | detroit pistons ml vs cleveland cavaliers | -110 | 1.6 | ❌ | -1.60u |
+| NBA | cleveland cavaliers +2.5 vs detroit pistons | -110 | 1.0 | ✅ | +0.91u |
 
-**Daily PnL (Settled): -3.17 Units**
+**Daily PnL (Settled): -0.69 Units**
 
 
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5 | -102 | 0.3 | ✅ | +0.31u |
-| MLB | new york yankees vs baltimore orioles new york yankees -1.5 | +105 | 0.1 | ❌ | -0.10u |
-| NHL | minnesota wild vs colorado avalanche colorado avalanche -1.5 | +120 | 0.3 | ❌ | -0.32u |
-| MLB | washington nationals vs cincinnati reds under 9 | +100 | 0.2 | ❌ | -0.16u |
-| MLB | arizona diamondbacks ml | +113 | 0.3 | ❌ | -0.31u |
-| NBA | cleveland cavaliers vs detroit pistons under 212.5 | -108 | 0.3 | ❌ | -0.32u |
-| MLB | minnesota twins ml | +110 | 0.3 | ❌ | -0.26u |
-| MLB | philadelphia phillies ml | +115 | 0.3 | ❌ | -0.32u |
-| NHL | minnesota wild vs colorado avalanche colorado avalanche -1.5 | +126 | 0.1 | ❌ | -0.13u |
-| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5 | -106 | 0.3 | ❌ | -0.32u |
-| NHL | event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5 | -105 | 0.3 | ✅ | +0.26u |
-| MLB | washington nationals vs cincinnati reds under 9 | +100 | 0.2 | ❌ | -0.16u |
-| MLB | minnesota twins ml | +110 | 0.3 | ❌ | -0.26u |
-| NBA | cleveland cavaliers vs detroit pistons under 212.5 | -108 | 0.3 | ❌ | -0.32u |
-| MLB | arizona diamondbacks ml | +113 | 0.3 | ❌ | -0.31u |
-| MLB | philadelphia phillies ml | +115 | 0.3 | ❌ | -0.32u |
-| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5 | -106 | 0.3 | ❌ | -0.32u |
-| NHL | event minnesota wild vs colorado avalanche martin necas assists play martin necas over 0.5 | -105 | 0.3 | ❌ | -0.32u |
-| NHL | colorado avalanche ml vs minnesota wild | +110 | 0.3 | ✅ | +0.35u |
-| NHL | minnesota wild vs colorado avalanche over 6.5 | +100 | 0.3 | ✅ | +0.32u |
-| NHL | minnesota wild vs colorado avalanche colorado avalanche -1.5 | +120 | 0.3 | ❌ | -0.32u |
-| NBA | cleveland cavaliers +4.5 vs detroit pistons | -110 | 0.2 | ✅ | +0.18u |
-| MLB | royals ml vs white sox | +109 | 0.3 | ✅ | +0.34u |
-| NBA | cavs vs pistons under 213 | -105 | 0.3 | ❌ | -0.26u |
-| MLB | angels ml vs guardians | +143 | 0.0 | ❌ | -0.00u |
-| MLB | rockies ml vs pirates | +163 | 0.2 | ✅ | +0.33u |
-| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5 | -106 | 0.3 | ❌ | -0.32u |
-| NBA | cavs vs pistons under 212.5 | -105 | 0.3 | ❌ | -0.32u |
-| MLB | new york mets ml | -105 | 0.3 | ❌ | -0.32u |
-| NHL | minnesota wild vs colorado avalanche colorado avalanche -1.5 | +126 | 0.1 | ❌ | -0.13u |
-| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 211.5 | -108 | 0.3 | ❌ | -0.32u |
-| NHL | event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5 | -102 | 0.3 | ✅ | +0.31u |
-| MLB | new york yankees vs baltimore orioles new york yankees -1.5 | +105 | 0.1 | ❌ | -0.10u |
-| MLB | tigers vs mets over 8 | -108 | 0.0 | ❌ | -0.02u |
-| NHL | minnesota wild vs colorado avalanche over 6.5 | +100 | 0.3 | ✅ | +0.32u |
-| NHL | event minnesota wild vs colorado avalanche play minnesota wild vs colorado avalanche over 6.5 | -105 | 0.3 | ✅ | +0.26u |
-| MLB | tigers ml vs mets | -103 | 0.3 | ❌ | -0.32u |
-| MLB | yankees ml vs orioles | +148 | 0.1 | ✅ | +0.09u |
-| NBA | cleveland cavaliers +4.5 vs detroit pistons | -110 | 0.2 | ✅ | +0.18u |
-| NHL | colorado avalanche ml vs minnesota wild | +110 | 0.3 | ✅ | +0.35u |
+| MLB | new york mets ml | -105 | 0.5 | ❌ | -0.53u |
+| NBA | cavs vs pistons over 211.5 | -110 | 0.3 | ✅ | +0.29u |
+| MLB | tigers ml vs mets | -103 | 0.5 | ❌ | -0.53u |
+| NBA | cavs vs pistons under 212.5 | -105 | 0.5 | ❌ | -0.53u |
+| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5 | -106 | 0.5 | ❌ | -0.53u |
+| NHL | colorado avalanche ml vs minnesota wild | +110 | 0.5 | ✅ | +0.58u |
+| NBA | cavs vs pistons under 213 | -105 | 0.5 | ❌ | -0.53u |
+| MLB | pittsburgh pirates -1.5 vs colorado rockies | +115 | 0.2 | ❌ | -0.19u |
+| NBA | pistons -3.5 vs cavs | -118 | 0.1 | ❌ | -0.05u |
+| NHL | diamondbacks ml vs rangers | -109 | 0.5 | ❌ | -0.53u |
+| MLB | angels ml vs guardians | +143 | 0.1 | ❌ | -0.10u |
+| NBA | pistons -3 vs cavs | -110 | 0.3 | ❌ | -0.28u |
+| NHL | wild vs avalanche over 6.5 | -110 | 0.3 | ✅ | +0.26u |
+| MLB | tigers ml vs mets | -103 | 0.5 | ❌ | -0.53u |
+| MLB | new york mets ml | -105 | 0.5 | ❌ | -0.53u |
+| NBA | pistons -3 vs cavs | -110 | 0.3 | ❌ | -0.28u |
+| NHL | wild vs avalanche over 6.5 | -110 | 0.3 | ✅ | +0.26u |
+| NBA | cavs vs pistons under 212.5 | -105 | 0.5 | ❌ | -0.53u |
+| NBA | event cleveland cavaliers vs detroit pistons play cleveland cavaliers vs detroit pistons under 212.5 | -106 | 0.5 | ❌ | -0.53u |
+| MLB | rockies ml vs pirates | +163 | 0.4 | ✅ | +0.69u |
+| NBA | pistons -3.5 vs cavs | -118 | 0.1 | ❌ | -0.05u |
+| MLB | rockies ml vs pirates | +163 | 0.4 | ✅ | +0.69u |
+| NBA | cavs vs pistons under 213 | -105 | 0.5 | ❌ | -0.53u |
+| NBA | cavs vs pistons over 211.5 | -110 | 0.3 | ✅ | +0.29u |
+| NHL | diamondbacks ml vs rangers | -109 | 0.5 | ❌ | -0.53u |
+| MLB | angels ml vs guardians | +143 | 0.1 | ❌ | -0.10u |
 
-**Daily PnL (Settled): -3.03 Units**
+**Daily PnL (Settled): -4.34 Units**
 
 
