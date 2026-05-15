@@ -67,7 +67,7 @@ jobs:
       - name: Generate Executive Job Summary
         if: always()
         run: |
-          echo '## 📊 Quarry Pipeline Summary [$(date +''%Y-%m-%d'')]' >> $GITHUB_STEP_SUMMARY
+          echo '## 📊 Quarry Pipeline Summary ['$(date +'%Y-%m-%d')']' >> $GITHUB_STEP_SUMMARY
 
           if [ -f docs/pipeline_summary.json ]; then
             # Parse metrics from the JSON produced by the script
@@ -78,9 +78,9 @@ jobs:
             echo '### 📡 Data Integrity' >> $GITHUB_STEP_SUMMARY
             echo '| Metric | Status |' >> $GITHUB_STEP_SUMMARY
             echo '| :--- | :--- |' >> $GITHUB_STEP_SUMMARY
-            echo '| **Last Update** | $TIMESTAMP |' >> $GITHUB_STEP_SUMMARY
-            echo '| **Date Range** | $RANGE |' >> $GITHUB_STEP_SUMMARY
-            echo '| **Total Rows Fetched** | $ROWS |' >> $GITHUB_STEP_SUMMARY
+            echo '| **Last Update** | '$TIMESTAMP' |' >> $GITHUB_STEP_SUMMARY
+            echo '| **Date Range** | '$RANGE' |' >> $GITHUB_STEP_SUMMARY
+            echo '| **Total Rows Fetched** | '$ROWS' |' >> $GITHUB_STEP_SUMMARY
 
             echo '### 🤖 Model Identifications' >> $GITHUB_STEP_SUMMARY
             echo '| Model | Picks Found |' >> $GITHUB_STEP_SUMMARY
@@ -95,7 +95,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           # 1. Update heartbeat to ensure we ALWAYS have a change to push (Force-trigger website update)
-          echo 'Last successful run: $(date)' > docs/last_run.txt
+          echo 'Last successful run: '$(date) > docs/last_run.txt
 
           # 2. Institutional Commit Logic
           git config --global user.email bot@quarry.institutional
@@ -106,7 +106,7 @@ jobs:
           if [[ -z $(git status --porcelain) ]]; then
             echo 'No changes to commit (Unexpected but safe).'
           else
-            git commit -m '📈 Auto-Update: Daily Pipeline Sync [$(date +''%Y-%m-%d'')]'
+            git commit -m '📈 Auto-Update: Daily Pipeline Sync ['$(date +'%Y-%m-%d')']'
 
             # [BILLION DOLLAR SYNC]: Rebase with autostash handles concurrent manual pushes
             # We use the PAT-authenticated remote to ensure the push triggers 'Deploy Website'
