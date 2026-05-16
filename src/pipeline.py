@@ -44,8 +44,8 @@ class SportsDataPipeline:
         
         while True:
             retries = 0
-            success = False
-            while retries < max_retries and not success:
+            data = None
+            while retries < max_retries:
                 try:
                     query = self.supabase.table(table_name).select(select_query)
                     
@@ -57,12 +57,7 @@ class SportsDataPipeline:
                     
                     response = query.range(start, start+batch_size-1).execute()
                     data = response.data
-                    success = True
-                    if not data: break
-                    all_rows.extend(data)
-                    if len(all_rows) % 5000 == 0: logger.info(f"  {len(all_rows)} rows fetched...")
-                    if len(data) < batch_size: break
-                    start += batch_size
+                    break # Success
                 except Exception as e:
                     retries += 1
                     logger.warning(f"⚠️ Batch error in '{table_name}' at {start} (Attempt {retries}/{max_retries}): {e}")
@@ -71,7 +66,17 @@ class SportsDataPipeline:
                         raise e
                     time.sleep(2 ** retries) # Exponential backoff
             
-            if not success or not data: break
+            if not data:
+                break
+                
+            all_rows.extend(data)
+            if len(all_rows) % 5000 == 0: 
+                logger.info(f"  {len(all_rows)} rows fetched...")
+            
+            if len(data) < batch_size:
+                break
+                
+            start += batch_size
                 
         logger.info(f"✅ Done fetching '{table_name}' ({len(all_rows)} rows).")
         return all_rows

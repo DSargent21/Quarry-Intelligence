@@ -45,7 +45,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas supabase joblib lightgbm xgboost scikit-learn python-dotenv
+          pip install -r requirements.txt
 
       - name: Restore/Clear Data Lake Cache
         if: github.event.inputs.clear_cache != 'true'
