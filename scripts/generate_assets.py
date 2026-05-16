@@ -60,7 +60,7 @@ def generate_synthetic_assets():
     
     def generate_synthetic_data(n_rows=1000):
         np.random.seed(42)
-        dates = pd.date_range(start='2025-11-01', periods=n_rows, freq='H')
+        dates = pd.date_range(start='2025-11-01', periods=n_rows, freq='h')
         leagues = ['NBA', 'NCAAB', 'NFL', 'NCAAF', 'NHL', 'UFC', 'MLB', 'TENNIS']
         league_choices = np.random.choice(leagues, n_rows)
         base_probs = {'NBA': 0.55, 'NCAAB': 0.54, 'NFL': 0.48, 'NCAAF': 0.52, 'NHL': 0.53, 'UFC': 0.60, 'MLB': 0.45, 'TENNIS': 0.45}

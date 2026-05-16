@@ -13,42 +13,67 @@ pd.options.mode.chained_assignment = None
 
 load_dotenv()
 
+try:
+    from utils.logger import logger
+    from utils.validator import DataValidator
+except ImportError:
+    try:
+        from src.utils.logger import logger
+        from src.utils.validator import DataValidator
+    except ImportError:
+        # Fallback if utils not found
+        import logging
+        logger = logging.getLogger(__name__)
+        class DataValidator:
+            @staticmethod
+            def validate_raw_data(df): return True
+
 class SportsDataPipeline:
     def __init__(self):
         self.url = os.environ.get("SUPABASE_URL")
         self.key = os.environ.get("SUPABASE_KEY")
-        if not self.url: raise ValueError("Missing SUPABASE_URL")
+        if not self.url: 
+            logger.error("SUPABASE_URL not found in environment")
+            raise ValueError("Missing SUPABASE_URL")
         self.supabase = create_client(self.url, self.key)
     
-    def _fetch_all_batches(self, table_name, select_query="*", batch_size=1000, filters=None):
+    def _fetch_all_batches(self, table_name, select_query="*", batch_size=1000, filters=None, max_retries=3):
         all_rows = []
         start = 0
-        print(f"📥 Fetching '{table_name}'...", end=" ", flush=True)
+        logger.info(f"📥 Fetching '{table_name}' batches...")
         
         while True:
-            try:
-                query = self.supabase.table(table_name).select(select_query)
+            retries = 0
+            success = False
+            while retries < max_retries and not success:
+                try:
+                    query = self.supabase.table(table_name).select(select_query)
+                    
+                    if filters:
+                        for field, op, value in filters:
+                            if op == 'gte': query = query.gte(field, value)
+                            elif op == 'lte': query = query.lte(field, value)
+                            elif op == 'eq': query = query.eq(field, value)
+                    
+                    response = query.range(start, start+batch_size-1).execute()
+                    data = response.data
+                    success = True
+                    if not data: break
+                    all_rows.extend(data)
+                    if len(all_rows) % 5000 == 0: logger.info(f"  {len(all_rows)} rows fetched...")
+                    if len(data) < batch_size: break
+                    start += batch_size
+                except Exception as e:
+                    retries += 1
+                    logger.warning(f"⚠️ Batch error in '{table_name}' at {start} (Attempt {retries}/{max_retries}): {e}")
+                    if retries >= max_retries:
+                        logger.error(f"❌ CRITICAL: Max retries reached for '{table_name}'")
+                        raise e
+                    time.sleep(2 ** retries) # Exponential backoff
+            
+            if not success or not data: break
                 
-                # Apply custom filters (e.g. date ranges)
-                if filters:
-                    for field, op, value in filters:
-                        if op == 'gte': query = query.gte(field, value)
-                        elif op == 'lte': query = query.lte(field, value)
-                        elif op == 'eq': query = query.eq(field, value)
-                
-                response = query.range(start, start+batch_size-1).execute()
-                data = response.data
-                if not data: break
-                all_rows.extend(data)
-                if len(all_rows) % 5000 == 0: print(f"{len(all_rows)}...", end=" ", flush=True)
-                if len(data) < batch_size: break
-                start += batch_size
-            except Exception as e:
-                print(f"\n❌ CRITICAL: Batch error in '{table_name}' at {start}: {e}")
-                traceback.print_exc()
-                raise e # [BILLION DOLLAR BEST PRACTICE] Fail fast on data integrity issues
-                
-        print(f"Done ({len(all_rows)} rows).")
+        logger.info(f"✅ Done fetching '{table_name}' ({len(all_rows)} rows).")
         return all_rows
 
     def fetch_data(self, since_days=None):
@@ -56,34 +81,45 @@ class SportsDataPipeline:
         if since_days:
             cutoff = (pd.Timestamp.now() - pd.Timedelta(days=since_days)).strftime('%Y-%m-%d')
             filters.append(('pick_date', 'gte', cutoff))
-            print(f"⏱️ Incremental Mode: Fetching data since {cutoff}")
+            logger.info(f"⏱️ Incremental Mode: Fetching data since {cutoff}")
 
         pick_cols = "id, pick_date, pick_value, unit, odds_american, result, capper_id, league_id, bet_type_id"
-        picks_data = self._fetch_all_batches('picks', pick_cols, filters=filters)
-        df_picks = pd.DataFrame(picks_data)
-        if df_picks.empty: return pd.DataFrame()
+        try:
+            picks_data = self._fetch_all_batches('picks', pick_cols, filters=filters)
+            df_picks = pd.DataFrame(picks_data)
+            if df_picks.empty: 
+                logger.warning("⚠️ No picks found for the requested range.")
+                return pd.DataFrame()
 
-        cappers = pd.DataFrame(self._fetch_all_batches('capper_directory', "id, canonical_name"))
-        leagues = pd.DataFrame(self._fetch_all_batches('leagues', "id, name, sport"))
-        
-        df = df_picks.merge(cappers, left_on='capper_id', right_on='id', how='left', suffixes=('', '_capper'))
-        df = df.merge(leagues, left_on='league_id', right_on='id', how='left', suffixes=('', '_league'))
-        
-        df['pick_date'] = pd.to_datetime(df['pick_date'])
-        
-        if 'name' in df.columns: df.rename(columns={'name': 'league_name'}, inplace=True)
-        df['odds_american'] = pd.to_numeric(df['odds_american'], errors='coerce').fillna(-110)
-        
-        # Standardize League Names
-        league_map = {
-            'NBA': 'NBA', 'NCAAB': 'NCAAB', 'NFL': 'NFL', 'NCAAF': 'NCAAF',
-            'NHL': 'NHL', 'MLB': 'MLB', 'WNBA': 'WNBA',
-            'UFC': 'Combat', 'MMA': 'Combat',
-            'EPL': 'Soccer', 'UCL': 'Soccer', 'MLS': 'Soccer', 'SOCCER': 'Soccer',
-            'TENNIS': 'Tennis'
-        }
-        df['league_name'] = df['league_name'].map(league_map).fillna('Other')
-        return df.sort_values('pick_date')
+            cappers = pd.DataFrame(self._fetch_all_batches('capper_directory', "id, canonical_name"))
+            leagues = pd.DataFrame(self._fetch_all_batches('leagues', "id, name, sport"))
+            
+            df = df_picks.merge(cappers, left_on='capper_id', right_on='id', how='left', suffixes=('', '_capper'))
+            df = df.merge(leagues, left_on='league_id', right_on='id', how='left', suffixes=('', '_league'))
+            
+            df['pick_date'] = pd.to_datetime(df['pick_date'])
+            
+            if 'name' in df.columns: df.rename(columns={'name': 'league_name'}, inplace=True)
+            df['odds_american'] = pd.to_numeric(df['odds_american'], errors='coerce').fillna(-110)
+            
+            # Standardize League Names
+            league_map = {
+                'NBA': 'NBA', 'NCAAB': 'NCAAB', 'NFL': 'NFL', 'NCAAF': 'NCAAF',
+                'NHL': 'NHL', 'MLB': 'MLB', 'WNBA': 'WNBA',
+                'UFC': 'Combat', 'MMA': 'Combat',
+                'EPL': 'Soccer', 'UCL': 'Soccer', 'MLS': 'Soccer', 'SOCCER': 'Soccer',
+                'TENNIS': 'Tennis'
+            }
+            df['league_name'] = df['league_name'].map(league_map).fillna('Other')
+            
+            # Final Validation
+            if not DataValidator.validate_raw_data(df):
+                logger.error("❌ Data failed post-fetch validation.")
+                
+            return df.sort_values('pick_date')
+        except Exception as e:
+            logger.error(f"❌ Failed to fetch data: {e}")
+            return pd.DataFrame()
 
     def fetch_data_cached(self, cache_dir='data', max_age_hours=6):
         """Fetch incremental updates from supabase and cache as parquet."""

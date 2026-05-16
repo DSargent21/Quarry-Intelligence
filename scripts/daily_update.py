@@ -20,18 +20,38 @@ if BASE_DIR not in sys.path:
 
 from pipeline import SportsDataPipeline, FeatureEngineer
 from models import ModelSimulator
+from src.utils.logger import logger
+from src.utils.validator import DataValidator
 
-# --- MANUAL OVERRIDES (Institutional Protection) ---
-# Set these to non-None to force specific stats in the dashboard
-# regardless of simulation results.
-MANUAL_OVERRIDES = {
-    # No active overrides. Reporting raw simulation data.
-}
-
+# --- PRE-FLIGHT CHECK ---
+def pre_flight_check():
+    """Verifies environment and critical files before starting the pipeline."""
+    logger.info("🛫 Performing Pre-flight Integrity Check...")
+    
+    # 1. Check Env Vars
+    required_env = ["SUPABASE_URL", "SUPABASE_KEY"]
+    missing_env = [env for env in required_env if not os.environ.get(env)]
+    if missing_env:
+        logger.error(f"❌ Missing critical environment variables: {missing_env}")
+        return False
+        
+    # 2. Check Model Files
+    critical_models = ['v1_pyrite.pkl', 'v2_diamond.pkl', 'v4_quartz.pkl']
+    missing_models = []
+    for m in critical_models:
+        path = os.path.join(BASE_DIR, 'models', m)
+        if not os.path.exists(path):
+            missing_models.append(m)
+    
+    if missing_models:
+        logger.warning(f"⚠️ Missing model files: {missing_models}. Some models will be skipped.")
+        
+    logger.info("✅ Pre-flight Check Complete.")
+    return True
 
 def update_markdown_reports(models):
     """Ported from monitor.py: Updates README.md and LATEST_ACTION.md with latest results."""
-    print("📝 Updating System Reports (README.md & LATEST_ACTION.md)...")
+    logger.info("📝 Updating System Reports (README.md & LATEST_ACTION.md)...")
     
     # --- HELPER FUNCTIONS ---
     def get_stats(d):
@@ -187,34 +207,53 @@ graph TD
     print("✅ System reports updated.")
 
 def run_daily_update():
-    print(f"🕒 Starting Daily Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    logger.info("🚀 Starting Daily Update Pipeline")
+    
+    if not pre_flight_check():
+        logger.error("❌ Pre-flight check failed. Aborting.")
+        sys.exit(1)
     
     # 1. Fetch & Hydrate Data
-    pipeline = SportsDataPipeline()
-    raw_df = pipeline.fetch_data_cached() # Incremental update
-    
-    if not raw_df.empty:
-        print(f"📊 Pipeline Data Range: {raw_df['pick_date'].min().date()} to {raw_df['pick_date'].max().date()}")
-    else:
-        print("⚠️ Pipeline Data is EMPTY!")
+    try:
+        pipeline = SportsDataPipeline()
+        raw_df = pipeline.fetch_data_cached() # Incremental update
+        
+        if not raw_df.empty:
+            logger.info(f"📊 Pipeline Data Range: {raw_df['pick_date'].min().date()} to {raw_df['pick_date'].max().date()}")
+        else:
+            logger.error("❌ Pipeline Data is EMPTY! Cannot proceed.")
+            sys.exit(1)
 
-    fe = FeatureEngineer(raw_df)
-    df = fe.process()
-    
-    ms = ModelSimulator(df)
+        fe = FeatureEngineer(raw_df)
+        df = fe.process()
+        
+        ms = ModelSimulator(df)
+    except Exception as e:
+        logger.error(f"❌ Initialization Error: {e}")
+        sys.exit(1)
     
     # 2. Run Simulations
-    print("⏳ Running Simulations...")
-    models = {
-        "pyrite": ms.run_v1_pyrite(),
-        "diamond": ms.run_v2_diamond(),
-        "obsidian": ms.run_v3_obsidian(),
-        "quartz": ms.run_v4_quartz(),
-        "sapphire": ms.run_v5_sapphire()
-    }
+    logger.info("⏳ Running Multi-Generational Simulations...")
+    models = {}
     
-    for name, res in models.items():
-        print(f"  - {name.upper()}: {len(res) if res is not None else 0} picks identified.")
+    # Wrap each model run in a try-except to prevent one failure from killing the pipeline
+    simulation_tasks = [
+        ("pyrite", ms.run_v1_pyrite),
+        ("diamond", ms.run_v2_diamond),
+        ("obsidian", ms.run_v3_obsidian),
+        ("quartz", ms.run_v4_quartz),
+        ("sapphire", ms.run_v5_sapphire)
+    ]
+    
+    for name, func in simulation_tasks:
+        try:
+            logger.info(f"  - Executing {name.upper()}...")
+            res = func()
+            models[name] = res
+            logger.info(f"    ✅ {name.upper()}: {len(res) if res is not None else 0} picks identified.")
+        except Exception as e:
+            logger.error(f"    ❌ {name.upper()} Simulation Failed: {e}")
+            models[name] = pd.DataFrame()
     
     # 3. Generate Stats for JSON/JS
     stats = {
@@ -230,18 +269,26 @@ def run_daily_update():
             stats["models"][name] = {
                 "roi": 0, "net": 0, "wins": 0, "losses": 0, "pushes": 0,
                 "record": "0-0-0", "win_rate": 0, "sample": 0, "bets_day": 0,
-                "status": "LEGACY" if name == "pyrite" else ("STABLE" if name == "diamond" else ("ADVANCED" if name == "obsidian" else ("FLAGSHIP" if name == "quartz" else "PREMIUM"))),
+                "status": "OFFLINE",
                 "yesterday": {"date": "N/A", "record": "0-0-0", "net": 0, "roi": 0, "ledger": []}
             }
         else:
-            roi = (res['profit_actual'].sum() / res['wager_unit'].sum() * 100) if res['wager_unit'].sum() > 0 else 0
+            # [STABILITY FIX]: Check if wager_unit sum is 0
+            wager_total = res['wager_unit'].sum()
+            roi = (res['profit_actual'].sum() / wager_total * 100) if wager_total > 0 else 0
             net = res['profit_actual'].sum()
             wins = len(res[res['outcome'] == 1])
             losses = len(res[res['outcome'] == 0])
             pushes = len(res[res['outcome'] == 0.5])
             
-            last_day_val = res['pick_date'].max()
-            last_day = res[res['pick_date'] == last_day_val]
+            # [CRASH PREVENTION]: Ensure pick_date exists and is not empty
+            if 'pick_date' in res.columns and not res['pick_date'].isnull().all():
+                last_day_val = res['pick_date'].max()
+                last_day = res[res['pick_date'] == last_day_val]
+            else:
+                last_day_val = datetime.now()
+                last_day = pd.DataFrame()
+                
             y_record = "0-0-0"
             y_net = 0
             y_roi = 0
@@ -275,10 +322,10 @@ def run_daily_update():
                 "record": f"{wins}-{losses}-{pushes}",
                 "win_rate": round(wins / (wins + losses) * 100, 1) if (wins + losses) > 0 else 0,
                 "sample": len(res),
-                "bets_day": round(len(res) / ((res['pick_date'].max() - res['pick_date'].min()).days + 1), 1),
+                "bets_day": round(len(res) / (max((res['pick_date'].max() - res['pick_date'].min()).days, 0) + 1), 1) if not res.empty else 0,
                 "status": "LEGACY" if name == "pyrite" else ("STABLE" if name == "diamond" else ("ADVANCED" if name == "obsidian" else ("FLAGSHIP" if name == "quartz" else "PREMIUM"))),
                 "yesterday": {
-                    "date": last_day_val.strftime('%b %d, %Y'),
+                    "date": last_day_val.strftime('%b %d, %Y') if hasattr(last_day_val, 'strftime') else "N/A",
                     "record": y_record,
                     "win_rate": round(y_winrate, 1),
                     "net": round(y_net, 2),
@@ -287,18 +334,9 @@ def run_daily_update():
                 }
             }
 
-        # Apply Manual Overrides if configured
-        if name in MANUAL_OVERRIDES:
-            ovr = MANUAL_OVERRIDES[name]
-            for key, val in ovr.items():
-                stats["models"][name][key] = val
-            # Recalculate Net if ROI/Sample changed but Net wasn't overridden
-            if "net" not in ovr and ("roi" in ovr or "sample" in ovr):
-                # Approximation: Net = Sample * (ROI/100) assuming 1u flat
-                roi_val = ovr.get("roi", stats["models"][name]["roi"])
-                sample_val = ovr.get("sample", stats["models"][name]["sample"])
-                stats["models"][name]["net"] = round(sample_val * (roi_val / 100), 1)
-
+    # Final Stats Validation
+    if not DataValidator.validate_stats_json(stats):
+        logger.warning("⚠️ Final stats failed validation. Proceeding with caution.")
 
     # 4. Save Stats
     docs_dir = os.path.join(BASE_DIR, 'docs')
@@ -310,11 +348,13 @@ def run_daily_update():
     with open(os.path.join(docs_dir, 'stats.js'), 'w') as f:
         f.write(f"window.QUARRY_STATS = {json.dumps(stats, indent=4)};")
         
-    # [BILLION DOLLAR OPTIMIZATION]: Cache results so generate_assets doesn't re-run simulations
+    # [BILLION DOLLAR OPTIMIZATION]: Cache results
     cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
-    import joblib
-    joblib.dump(models, cache_path)
-    print(f"📦 Simulation results cached to {cache_path}")
+    try:
+        joblib.dump(models, cache_path)
+        logger.info(f"📦 Simulation results cached to {cache_path}")
+    except Exception as e:
+        logger.error(f"❌ Failed to cache results: {e}")
         
     # 4c. Export Machine-Readable Summary for GHA
     summary = {
@@ -327,24 +367,29 @@ def run_daily_update():
         json.dump(summary, f, indent=4)
         
     # 5. Update Markdown Reports
-    update_markdown_reports(models)
+    try:
+        update_markdown_reports(models)
+    except Exception as e:
+        logger.error(f"❌ Failed to update markdown reports: {e}")
 
     # 6. Generate Assets (Plots & HTML Injection)
-    # We call generate_assets.generate_live_assets() to sync plots
+    logger.info("🎨 Generating Assets...")
     try:
         import scripts.generate_assets as generate_assets
         generate_assets.generate_live_assets()
-    except ModuleNotFoundError:
-        # Fallback for localized script execution
-        import generate_assets
-        generate_assets.generate_live_assets()
+    except Exception as e:
+        logger.error(f"❌ Asset Generation Failed: {e}")
     
     # 7. Generate Comparison Graphics
-    sys.path.append(os.path.join(BASE_DIR, 'research'))
-    import generate_comparison
-    generate_comparison.generate_comparison_chart()
+    try:
+        if os.path.join(BASE_DIR, 'research') not in sys.path:
+            sys.path.append(os.path.join(BASE_DIR, 'research'))
+        import generate_comparison
+        generate_comparison.generate_comparison_chart()
+    except Exception as e:
+        logger.error(f"❌ Comparison Chart Generation Failed: {e}")
     
-    print("✅ Daily Update Complete.")
+    logger.info("✅ Daily Update Complete.")
 
 if __name__ == "__main__":
     run_daily_update()
