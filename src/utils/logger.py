@@ -3,7 +3,7 @@ import os
 import sys
 from datetime import datetime
 
-def setup_logger(name="QuarryPipeline"):
+def setup_logger(name="Quarry IntelligencePipeline"):
     """
     Sets up a professional logger that outputs to both console and a rolling log file.
     """

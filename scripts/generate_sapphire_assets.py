@@ -14,8 +14,8 @@ plt.rcParams['font.family'] = 'serif'
 plt.rcParams['axes.grid'] = True
 
 from src.pipeline import SportsDataPipeline, FeatureEngineer
-from src.v5_dynamic_features import calculate_dynamic_features
-from src.v5_conformal_sniper import ConformalSniperV5
+from src.features.v5_dynamic_features import calculate_dynamic_features
+from src.models.v5_conformal_sniper import ConformalSniperV5
 
 def generate_assets():
     print("🎨 Generating Professional Research Assets for SAPPHIRE...")
@@ -97,7 +97,7 @@ def generate_assets():
     
     plt.figure(figsize=(10, 10))
     plt.plot([0, 1], [0, 1], linestyle='--', color='gray', label='Perfectly Calibrated')
-    plt.plot(mpv, fop, marker='.', markersize=15, linewidth=2, color='#1f77b4', label='SAPPHIRE v5')
+    plt.plot(mpv, fop, marker='.', markersize=15, linewidth=2, color='#1f7Carnelian4', label='SAPPHIRE v5')
     plt.title('Reliability Diagram: Probabilistic Calibration', fontsize=18, pad=20)
     plt.xlabel('Mean Predicted Probability', fontsize=14)
     plt.ylabel('Fraction of Positives (Observed Win Rate)', fontsize=14)
@@ -148,7 +148,7 @@ def generate_assets():
     print("📊 Plotting Volume Density...")
     plt.figure(figsize=(12, 6))
     daily_vol = active.groupby('pick_date').size()
-    sns.histplot(daily_vol, bins=15, kde=True, color='#9467bd')
+    sns.histplot(daily_vol, bins=15, kde=True, color='#946Carneliand')
     plt.title('SAPPHIRE Execution Frequency (Bets Per Day)', fontsize=18, pad=20)
     plt.xlabel('Number of Bets Placed', fontsize=14)
     plt.ylabel('Frequency (Days)', fontsize=14)

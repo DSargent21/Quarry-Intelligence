@@ -19,7 +19,7 @@ if BASE_DIR not in sys.path:
     sys.path.append(BASE_DIR)
 
 from pipeline import SportsDataPipeline, FeatureEngineer
-from models import ModelSimulator
+from models_legacy import ModelSimulator
 from src.utils.logger import logger
 from src.utils.validator import DataValidator
 
@@ -76,22 +76,26 @@ def update_markdown_reports(models):
         return f"{cat} (~{int(avg)} bets/day)"
 
     # --- CALCULATE STATS ---
-    v1, v2, v3, v4, v5 = models.get("pyrite"), models.get("diamond"), models.get("obsidian"), models.get("quartz"), models.get("sapphire")
+    v1, v2, v3, v4, v5, Kyanite, Carnelian = models.get("pyrite"), models.get("diamond"), models.get("obsidian"), models.get("quartz"), models.get("sapphire"), models.get("kyanite"), models.get("carnelian")
     p1, r1, w1 = get_stats(v1)
     p2, r2, w2 = get_stats(v2)
     p3, r3, w3 = get_stats(v3)
     p4, r4, w4 = get_stats(v4)
     p5, r5, w5 = get_stats(v5)
+    pKyanite, rKyanite, wKyanite = get_stats(Kyanite)
+    pCarnelian, rCarnelian, wCarnelian = get_stats(Carnelian)
     
     vol_v1 = get_volume_text(v1)
     vol_v2 = get_volume_text(v2)
     vol_v3 = get_volume_text(v3)
     vol_v4 = get_volume_text(v4)
     vol_v5 = get_volume_text(v5)
+    vol_Kyanite = get_volume_text(Kyanite)
+    vol_Carnelian = get_volume_text(Carnelian)
 
     # --- 1. LATEST_ACTION.md ---
     dates = []
-    for d in [v1, v2, v3, v4, v5]:
+    for d in [v1, v2, v3, v4, v5, Kyanite, Carnelian]:
         if d is not None and not d.empty: dates.append(d['pick_date'].max())
     
     last_date = max(dates) if dates else datetime.now()
@@ -120,6 +124,8 @@ def update_markdown_reports(models):
         t += f"\n**Daily PnL (Settled): {daily_profit:+.2f} Units**\n\n"
         return t + "\n"
 
+    log_content += make_table(Kyanite, "Kyanite Kyanite Action")
+    log_content += make_table(Carnelian, "Carnelian Carnelian Action")
     log_content += make_table(v5, "V5 Sapphire Action")
     log_content += make_table(v4, "V4 Quartz Action")
     log_content += make_table(v3, "V3 Obsidian Action")
@@ -137,13 +143,14 @@ def update_markdown_reports(models):
   <p style="font-family: monospace; letter-spacing: 2px; color: #888;">INSTITUTIONAL ALGORITHMIC ANALYTICS</p>
   <br />
 
-  [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry-Intelligence/selector.html)
-  [![Series 5 ROI](https://img.shields.io/badge/SERIES_5_ROI-{p5:+.1f}u-2563EB?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/sapphire.html)
-  [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI-{p4:+.1f}u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/quartz.html)
+  [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry Intelligence-Intelligence/selector.html)
+  [![Quarry Intelligence ROI](https://img.shields.io/badge/SERIES_7_ROI-{pKyanite+pCarnelian:+.1f}u-D4AF37?style=for-the-badge)](https://ducky705.github.io/Quarry Intelligence-Intelligence/Quarry Intelligence_comparison.html)
+  [![Series 5 ROI](https://img.shields.io/badge/SERIES_5_ROI-{p5:+.1f}u-2563EB?style=for-the-badge)](https://ducky705.github.io/Quarry Intelligence-Intelligence/sapphire.html)
+  [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI-{p4:+.1f}u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry Intelligence-Intelligence/quartz.html)
 
   <br />
   <br />
-  <a href="https://ducky705.github.io/Quarry-Intelligence/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
+  <a href="https://ducky705.github.io/Quarry Intelligence-Intelligence/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
   <br />
   <br />
 </div>
@@ -156,14 +163,16 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | {vol_v1} | **{len(v1)}** | **{r1:+.1%}** |
-| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | {vol_v2} | **{len(v2)}** | **{r2:+.1%}** |
-| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | {vol_v3} | **{len(v3)}** | **{r3:+.1%}** |
-| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | {vol_v4} | **{len(v4)}** | **{r4:+.1%}** |
-| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | {vol_v5} | **{len(v5) if v5 is not None else 0}** | **{r5:+.1%}** |
+| **[SERIES 7: KYANITE](https://ducky705.github.io/Quarry Intelligence-Intelligence/Quarry Intelligence_comparison.html)** | `MAY 15, 2026` | `ABSOLUTE ALPHA` <br> Precision | 🔥 **NEW** | {vol_Kyanite} | **{len(Kyanite)}** | **{rKyanite:+.1%}** |
+| **[SERIES 7: CARNELIAN](https://ducky705.github.io/Quarry Intelligence-Intelligence/Quarry Intelligence_comparison.html)** | `MAY 15, 2026` | `CAPACITY` <br> Liquidity | 🔥 **NEW** | {vol_Carnelian} | **{len(Carnelian)}** | **{rCarnelian:+.1%}** |
+| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry Intelligence-Intelligence/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | {vol_v1} | **{len(v1)}** | **{r1:+.1%}** |
+| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry Intelligence-Intelligence/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | {vol_v2} | **{len(v2)}** | **{r2:+.1%}** |
+| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry Intelligence-Intelligence/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | {vol_v3} | **{len(v3)}** | **{r3:+.1%}** |
+| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry Intelligence-Intelligence/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | {vol_v4} | **{len(v4)}** | **{r4:+.1%}** |
+| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry Intelligence-Intelligence/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | {vol_v5} | **{len(v5) if v5 is not None else 0}** | **{r5:+.1%}** |
 
 > [!IMPORTANT]
-\> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/selector.html).
+> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry Intelligence-Intelligence/selector.html).
 
 ---
 
@@ -242,7 +251,9 @@ def run_daily_update():
         ("diamond", ms.run_v2_diamond),
         ("obsidian", ms.run_v3_obsidian),
         ("quartz", ms.run_v4_quartz),
-        ("sapphire", ms.run_v5_sapphire)
+        ("sapphire", ms.run_v5_sapphire),
+        ("kyanite", ms.run_Kyanite_kyanite),
+        ("carnelian", ms.run_Carnelian_carnelian)
     ]
     
     for name, func in simulation_tasks:
@@ -264,12 +275,23 @@ def run_daily_update():
         "models": {}
     }
     
+    status_map = {
+        "pyrite": "LEGACY",
+        "diamond": "STABLE",
+        "obsidian": "ADVANCED",
+        "quartz": "FLAGSHIP",
+        "sapphire": "PREMIUM",
+        "kyanite": "PRECISION",
+        "carnelian": "LIQUIDITY"
+    }
+    
     for name, res in models.items():
+        m_status = status_map.get(name, "ACTIVE")
         if res is None or res.empty or 'profit_actual' not in res.columns:
             stats["models"][name] = {
                 "roi": 0, "net": 0, "wins": 0, "losses": 0, "pushes": 0,
                 "record": "0-0-0", "win_rate": 0, "sample": 0, "bets_day": 0,
-                "status": "OFFLINE",
+                "status": m_status if name in ['kyanite', 'carnelian'] else "OFFLINE",
                 "yesterday": {"date": "N/A", "record": "0-0-0", "net": 0, "roi": 0, "ledger": []}
             }
         else:
@@ -323,7 +345,15 @@ def run_daily_update():
                 "win_rate": round(wins / (wins + losses) * 100, 1) if (wins + losses) > 0 else 0,
                 "sample": len(res),
                 "bets_day": round(len(res) / (max((res['pick_date'].max() - res['pick_date'].min()).days, 0) + 1), 1) if not res.empty else 0,
-                "status": "LEGACY" if name == "pyrite" else ("STABLE" if name == "diamond" else ("ADVANCED" if name == "obsidian" else ("FLAGSHIP" if name == "quartz" else "PREMIUM"))),
+                "status": {
+                    "pyrite": "LEGACY",
+                    "diamond": "STABLE",
+                    "obsidian": "ADVANCED",
+                    "quartz": "FLAGSHIP",
+                    "sapphire": "PREMIUM",
+                    "kyanite": "PRECISION",
+                    "carnelian": "LIQUIDITY"
+                }.get(name, "ACTIVE"),
                 "yesterday": {
                     "date": last_day_val.strftime('%b %d, %Y') if hasattr(last_day_val, 'strftime') else "N/A",
                     "record": y_record,

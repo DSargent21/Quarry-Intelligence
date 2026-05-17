@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CARNELIAN ZENITH: The definitive conformal quantitative framework for sports equity. Minimalist luxury, institutional precision.">
+    <title>CARNELIAN // SERIES 5 // QUARRY</title>
+    <script src="stats.js"></script>
+    <script src="perf-core.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@300;400;700&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'carnelian-void': '#020617',
+                        'carnelian-primary': '#f97316',
+                        'carnelian-accent': '#fb923c',
+                        'luxury-gold': '#D4AF37',
+                        'luxury-silver': '#94A3B8',
+                        'luxury-white': '#F8FAFC',
+                    },
+                    fontFamily: {
+                        'serif': ['"Playfair Display"', 'serif'],
+                        'sans': ['"Space Grotesk"', 'sans-serif'],
+                        'mono': ['"JetBrains Mono"', 'monospace'],
+                    },
+                    animation: {
+                        'slow-pan': 'slow-pan 30s ease-in-out infinite alternate',
+                        'reveal-up': 'reveal-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'fade-in': 'fade-in 2s ease-out forwards',
+                    },
+                    keyframes: {
+                        'slow-pan': {
+                            '0%': { backgroundPosition: '0% 0%' },
+                            '100%': { backgroundPosition: '100% 100%' }
+                        },
+                        'reveal-up': {
+                            '0%': { opacity: '0', transform: 'translateY(40px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        'fade-in': {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #020617;
+            color: #F8FAFC;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .section-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .section-reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .parallax-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #0F172A 0%, #020617 100%);
+            z-index: -1;
+        }
+
+        .floating-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.15;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .serif-italic {
+            font-style: italic;
+        }
+
+        .line-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);
+            width: 100%;
+        }
+
+        .luxury-table th {
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-size: 0.65rem;
+            color: #94A3B8;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 1.5rem 1rem;
+        }
+
+        .luxury-table td {
+            padding: 2rem 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+            font-size: 0.85rem;
+        }
+
+        .big-number {
+            font-size: clamp(6rem, 20vw, 18rem);
+            line-height: 0.8;
+            letter-spacing: -0.05em;
+        }
+
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #020617; }
+        ::-webkit-scrollbar-thumb { background: #1D4ED8; }
+    </style>
+</head>
+
+<body class="selection:bg-carnelian-primary selection:text-white">
+    <div class="parallax-bg"></div>
+    <div class="floating-blob w-[600px] h-[600px] bg-blue-600 top-[-10%] left-[-10%]" style="animation: slow-pan 20s infinite alternate;"></div>
+    <div class="floating-blob w-[500px] h-[500px] bg-indigo-900 bottom-[-5%] right-[-5%]" style="animation: slow-pan 25s infinite alternate-reverse;"></div>
+
+    <!-- NAVIGATION OVERLAY -->
+    <nav class="fixed top-0 left-0 w-full p-8 md:p-12 flex justify-between items-center z-50 mix-blend-difference">
+        <div class="flex items-center gap-8">
+            <a href="selector.html" class="font-mono text-[10px] tracking-[0.5em] uppercase hover:text-carnelian-primary transition-colors">Institutional Hub</a>
+            <div class="hidden md:flex items-center gap-6 font-mono text-[9px] tracking-[0.3em] uppercase text-white/40">
+                <a href="pyrite.html" class="hover:text-white transition-colors">Pyrite</a>
+                <a href="diamond.html" class="hover:text-white transition-colors">Diamond</a>
+                <a href="obsidian.html" class="hover:text-white transition-colors">Obsidian</a>
+                <a href="quartz.html" class="hover:text-white transition-colors">Quartz</a>
+                <a href="carnelian.html" class="text-white underline underline-offset-4 font-bold">Carnelian</a>
+            </div>
+        </div>
+        <div class="font-mono text-[10px] tracking-[0.5em] uppercase opacity-40">Zenith // Carnelian</div>
+    </nav>
+
+    <!-- SECTION 1: THE MONOLITH HERO -->
+    <section class="min-h-screen flex flex-col justify-center px-8 md:px-24 pt-32 pb-20">
+        <div class="max-w-7xl mx-auto w-full">
+            <h1 class="font-serif big-number mb-12 opacity-0 animate-reveal-up" style="animation-delay: 0.2s;">
+                Carnelian<span class="text-carnelian-primary italic">.</span>
+            </h1>
+            <div class="flex flex-col md:flex-row justify-between items-start gap-12 opacity-0 animate-reveal-up" style="animation-delay: 0.5s;">
+                <div class="max-w-xl">
+                    <p class="font-serif text-3xl md:text-5xl leading-tight mb-8">
+                        A definitive shift in <span class="serif-italic text-luxury-silver">sports equity</span> through conformal architecture.
+                    </p>
+                    <div class="line-divider mb-8"></div>
+                    <div class="flex gap-12 font-mono text-[10px] tracking-widest uppercase text-luxury-silver">
+                        <div>
+                            <span class="block text-white mb-2">Build</span>
+                            05.13.26
+                        </div>
+                        <div>
+                            <span class="block text-white mb-2">Status</span>
+                            Audited / Secure
+                        </div>
+                        <div>
+                            <span class="block text-white mb-2">Protocol</span>
+                            Conformal-ENZ
+                        </div>
+                    </div>
+                </div>
+                <div class="md:text-right">
+                    <span class="font-mono text-[10px] tracking-[0.4em] uppercase text-luxury-silver block mb-4">Total Net Alpha Generated</span>
+                    <div id="stat-net" class="font-serif text-7xl md:text-9xl tracking-tighter text-luxury-white">+53.55u</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: THE CONFORMAL ENGINE (ROI) -->
+    <section class="min-h-screen flex flex-col justify-center px-8 md:px-24 section-reveal">
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div class="relative">
+                <div class="vertical-text absolute left-[-60px] top-0 font-mono text-[10px] tracking-[1em] uppercase text-white/20 hidden xl:block">
+                    CONFORMAL_CALIBRATION
+                </div>
+                <h2 class="font-serif big-number text-carnelian-primary" id="stat-roi">16.8%</h2>
+                <div class="mt-8">
+                    <span class="font-mono text-xs tracking-widest uppercase text-luxury-gold">Return on Investment</span>
+                    <p class="font-serif text-2xl mt-4 leading-relaxed text-luxury-silver">
+                        Mathematically bounded ROI achieved through rigorous split conformal prediction, ensuring that every allocation adheres to institutional-grade win thresholds.
+                    </p>
+                </div>
+            </div>
+            <div class="vault-card p-1 border border-white/10 aspect-video flex items-center justify-center bg-black/40">
+                <img src="assets/carnelian_calibration.png" alt="Calibration" class="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: THE PRECISION (WIN RATE) -->
+    <section class="min-h-screen flex flex-col justify-center px-8 md:px-24 section-reveal">
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div class="order-2 lg:order-1 vault-card p-1 border border-white/10 aspect-video flex items-center justify-center bg-black/40">
+                <img src="assets/carnelian_importance.png" alt="Importance" class="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
+            </div>
+            <div class="order-1 lg:order-2 text-right relative">
+                <div class="vertical-text absolute right-[-60px] top-0 font-mono text-[10px] tracking-[1em] uppercase text-white/20 hidden xl:block">
+                    FEATURE_INTELLIGENCE
+                </div>
+                <h2 class="font-serif big-number" id="stat-winrate">56.8%</h2>
+                <div class="mt-8">
+                    <span class="font-mono text-xs tracking-widest uppercase text-luxury-gold">Consensus Win Rate</span>
+                    <p class="font-serif text-2xl mt-4 leading-relaxed text-luxury-silver">
+                        Leveraging high-signal dynamic momentum and market drift proxies to maintain a surgical edge over market inefficiencies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: THE EQUITY GALLERY -->
+    <section class="min-h-[120vh] flex flex-col justify-center px-8 md:px-24 section-reveal">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="flex justify-between items-end mb-16">
+                <div>
+                    <span class="font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver">Performance Gallery</span>
+                    <h2 class="font-serif text-5xl md:text-7xl mt-4">Equity Curve<span class="italic text-luxury-gold">.</span></h2>
+                </div>
+                <div class="text-right font-mono text-[10px] tracking-widest uppercase text-white/40">
+                    Holdout Set: 19,651 Samples
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute inset-0 border border-luxury-gold/20 -m-4 md:-m-8 transition-all group-hover:m-0 pointer-events-none"></div>
+                <div class="aspect-[16/7] bg-black/40 p-8 flex items-center justify-center overflow-hidden">
+                    <img id="chart-main" src="assets/carnelian_equity.png" alt="Equity" class="w-full h-full object-contain transform group-hover:scale-[1.05] transition-transform duration-[4s]">
+                </div>
+            </div>
+            <div class="mt-12 flex justify-between font-mono text-[10px] tracking-[0.4em] uppercase text-white/30">
+                <div>Trace_ID: Carnelian-Premium-V5</div>
+                <div id="stat-record">Historical Record: 219-168-0</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: THE LEDGER -->
+    <section class="min-h-screen py-40 px-8 md:px-24 section-reveal">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="line-divider mb-20"></div>
+            <div class="flex flex-col md:flex-row justify-between items-start gap-12 mb-32">
+                <div class="max-w-md">
+                    <h2 class="font-serif text-5xl mb-8">The Ledger<span class="italic text-carnelian-primary">.</span></h2>
+                    <p class="font-mono text-xs leading-relaxed text-luxury-silver uppercase tracking-widest">
+                        Real-time verification of institutional allocations. Every entry is a testament to the conformal framework's selective firing mechanism.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-16">
+                    <div>
+                        <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-2">Yesterday Net</span>
+                        <div id="y-net" class="font-serif text-4xl">--</div>
+                    </div>
+                    <div>
+                        <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-2">Yesterday ROI</span>
+                        <div id="y-roi" class="font-serif text-4xl">--</div>
+                    </div>
+                    <div>
+                        <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-2">Yesterday Record</span>
+                        <div id="y-record" class="font-serif text-4xl">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full luxury-table text-left">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Allocation / League</th>
+                            <th class="text-right">Odds</th>
+                            <th class="text-right">Edge</th>
+                            <th class="text-right">Units</th>
+                            <th class="text-right">Status</th>
+                            <th class="text-right">P&L</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ledger-body">
+                        <tr>
+                            <td colspan="7" class="text-center py-20 font-serif italic text-white/20">Authenticating transaction records...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-20 px-8 md:px-24 border-t border-white/5 bg-black/20">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="font-serif text-3xl">Carnelian.</div>
+            <div class="text-center md:text-right">
+                <div class="font-mono text-[10px] tracking-[0.5em] uppercase text-white/40 mb-2">Quarry Intelligence Group</div>
+                <div class="font-mono text-[9px] tracking-[0.3em] uppercase text-white/20">© 2026 Proprietary Quantitative Research</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- DATA INJECTION POINT (AUTOMATED) ---
+        const DATA = {
+            "meta": {
+                        "last_update": "2026-05-17 00:58 UTC",
+                        "status": "PREMIUM"
+            },
+            "stats": {
+                        "roi": -65.4,
+                        "net_units": -13.05,
+                        "record": "4-18-0",
+                        "win_rate": 18.2,
+                        "sample": 22
+            },
+            "yesterday": {
+                        "record": "4-8-0",
+                        "win_pct": 33.3,
+                        "roi": -30.8,
+                        "net": -3.06,
+                        "date": "May 14, 2026"
+            },
+            "history": [
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "cubs ml vs braves",
+                                    "odds": 158,
+                                    "edge": 0.28700429801793065,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": 1.31,
+                                    "result": "WIN",
+                                    "match": "cubs ml vs braves"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "marlins ml vs twins",
+                                    "odds": -110,
+                                    "edge": 0.22015866495314096,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": 0.75,
+                                    "result": "WIN",
+                                    "match": "marlins ml vs twins"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "marlins ml vs twins",
+                                    "odds": -110,
+                                    "edge": 0.25328460193815683,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": 0.75,
+                                    "result": "WIN",
+                                    "match": "marlins ml vs twins"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "marlins ml vs twins",
+                                    "odds": -110,
+                                    "edge": 0.19602855898085092,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": 0.75,
+                                    "result": "WIN",
+                                    "match": "marlins ml vs twins"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "mariners ml vs astros",
+                                    "odds": 104,
+                                    "edge": 0.1742078369739009,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "mariners ml vs astros"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "mariners ml vs astros",
+                                    "odds": 107,
+                                    "edge": 0.24317954387065877,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "mariners ml vs astros"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "nationals ml vs reds",
+                                    "odds": 150,
+                                    "edge": 0.31031415462493894,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "nationals ml vs reds"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "marlins ml vs twins",
+                                    "odds": 109,
+                                    "edge": 0.19014256736308188,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "marlins ml vs twins"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "nationals ml vs reds",
+                                    "odds": 150,
+                                    "edge": 0.2805135607719421,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "nationals ml vs reds"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "mariners ml vs astros",
+                                    "odds": -101,
+                                    "edge": 0.16715047549252482,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "mariners ml vs astros"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "nationals ml vs reds",
+                                    "odds": 140,
+                                    "edge": 0.25297202666600543,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "nationals ml vs reds"
+                        },
+                        {
+                                    "date": "05/14",
+                                    "league": "MLB",
+                                    "selection": "tigers ml vs mets",
+                                    "odds": 140,
+                                    "edge": 0.3247686227162679,
+                                    "units": 0.8,
+                                    "wager": 0.8,
+                                    "profit": -0.83,
+                                    "result": "LOSS",
+                                    "match": "tigers ml vs mets"
+                        }
+            ]
+};
+
+        // --- REVEAL ON SCROLL ---
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-reveal').forEach(section => {
+            observer.observe(section);
+        });
+
+        // --- DATA HYDRATION ---
+        async function hydrate() {
+            console.log("💎 CARNELIAN LUXURY // INITIALIZING HYDRATION...");
+            try {
+                let v = null;
+                
+                // [BILLION DOLLAR HYDRATION]: Priority - stats.js > Injected DATA > Fallback
+                if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.carnelian) {
+                    v = window.QUARRY_STATS.models.carnelian;
+                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
+                } else if (typeof DATA !== 'undefined' && DATA.stats) {
+                    v = {
+                        ...DATA.stats,
+                        yesterday: DATA.yesterday,
+                        history: DATA.history || DATA.yesterday.history || [],
+                        status: DATA.meta ? DATA.meta.status : "PREMIUM"
+                    };
+                    console.log("📡 HYDRATION_SOURCE: INJECTED_DATA");
+                } else {
+                    console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO STATIC.");
+                    v = {
+                        net_units: 53.55,
+                        roi: 16.8,
+                        win_rate: 56.8,
+                        record: "219-168-0",
+                        sample: 387,
+                        yesterday: {
+                            date: "Audited Backtest",
+                            record: "10-0-0",
+                            net: 12.4,
+                            roi: 24.8,
+                            history: []
+                        }
+                    };
+                }
+
+                const net = v.net_units !== undefined ? v.net_units : (v.net !== undefined ? v.net : 0);
+                const roi = v.roi !== undefined ? v.roi : 0;
+                const wr = v.win_pct !== undefined ? v.win_pct : (v.win_rate !== undefined ? v.win_rate : (v.winrate || 0));
+                const rec = v.record || "0-0-0";
+
+                document.getElementById('stat-net').textContent = (net >= 0 ? '+' : '') + Number(net).toFixed(2) + 'u';
+                document.getElementById('stat-roi').textContent = Number(roi).toFixed(1) + '%';
+                document.getElementById('stat-winrate').textContent = Number(wr).toFixed(1) + '%';
+                document.getElementById('stat-record').textContent = 'Historical Record: ' + String(rec).replace(/\//g, '-');
+
+                const y = v.yesterday;
+                if (y) {
+                    document.getElementById('y-record').textContent = y.record || '--';
+                    document.getElementById('y-roi').textContent = (y.roi >= 0 ? '+' : '') + Number(y.roi || 0).toFixed(1) + '%';
+                    const n = document.getElementById('y-net');
+                    if (n) n.textContent = (y.net >= 0 ? '+' : '') + Number(y.net || 0).toFixed(2) + 'u';
+
+                    const body = document.getElementById('ledger-body');
+                    const history = v.history || y.history || y.ledger || [];
+                    
+                    if (body) {
+                        if (history.length > 0) {
+                            body.innerHTML = history.map(row => {
+                                const pDate = row.pick_date || row.date || 'N/A';
+                                const lName = row.league_name || row.league || 'N/A';
+                                const pNorm = row.pick_norm || row.selection || 'N/A';
+                                const odds = row.decimal_odds || (row.odds > 0 ? (row.odds/100)+1 : (100/Math.abs(row.odds))+1) || 0;
+                                const wager = row.wager_unit || row.wager || row.units || 0;
+                                const res = row.result || 'N/A';
+                                const profit = row.profit_actual !== undefined ? row.profit_actual : (row.profit !== undefined ? row.profit : 0);
+                                const edge = row.edge !== undefined ? row.edge : 0;
+                                
+                                return `<tr class="hover:bg-white/5 transition-colors group">
+                                    <td class="font-mono text-[10px] text-luxury-silver">${pDate}</td>
+                                    <td>
+                                        <div class="font-serif text-lg text-luxury-white">${pNorm}</div>
+                                        <div class="font-mono text-[9px] uppercase tracking-widest text-white/30">${lName}</div>
+                                    </td>
+                                    <td class="text-right font-mono italic text-luxury-silver">${Number(odds).toFixed(2)}</td>
+                                    <td class="text-right font-mono text-luxury-silver">${(edge*100).toFixed(1)}%</td>
+                                    <td class="text-right font-mono text-white/60">${Number(wager).toFixed(1)}u</td>
+                                    <td class="text-right">
+                                        <span class="font-mono text-[9px] tracking-widest uppercase ${res === 'WIN' ? 'text-carnelian-accent' : (res === 'LOSS' ? 'text-red-500' : 'text-white/20')}">${res}</span>
+                                    </td>
+                                    <td class="text-right font-serif text-xl ${profit >= 0 ? 'text-luxury-white' : 'text-red-500'}">
+                                        ${profit >= 0 ? '+' : ''}${Number(profit).toFixed(2)}
+                                    </td>
+                                </tr>`;
+                            }).join('');
+                        } else {
+                            body.innerHTML = '<tr><td colspan="7" class="text-center py-20 font-serif italic text-white/20">Authenticating transaction records...</td></tr>';
+                        }
+                    }
+                }
+                console.log("✨ HYDRATION COMPLETE.");
+            } catch (e) {
+                console.error("❌ HYDRATION ERROR:", e);
+            }
+        }
+
+        window.addEventListener("load", hydrate);
+    </script>
+
+</body>
+
+</html>

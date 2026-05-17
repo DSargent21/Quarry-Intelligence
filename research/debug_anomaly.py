@@ -10,7 +10,7 @@ if root_dir not in sys.path:
     sys.path.append(root_dir)
 
 from src.pipeline import SportsDataPipeline, FeatureEngineer
-from src.models import ModelSimulator
+from src.models_legacy import ModelSimulator
 
 def main():
     print("🕵️ Debugging Obsidian V3 Anomaly...")

@@ -107,8 +107,15 @@ jspm_packages/
 *.h5
 *.pb
 *.onnx
+models/*.json
 models_backup/
 model_logs/
+
+# Virtual Environments & IDE
+.venv/
+.virtual_documents/
+.vscode/
+.idea/
  
 # Data Caches (Managed via CI caching or locally)
 data/

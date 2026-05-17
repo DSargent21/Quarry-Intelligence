@@ -296,26 +296,15 @@ class FeatureEngineer:
         
         df = df.merge(daily_features[feat_cols], on=['capper_id', 'pick_date'], how='left')
         
-        # 5. Consensus & Aux Features
-        df['consensus_count_raw'] = df.groupby(['pick_date', 'pick_norm'])['id'].transform('count')
-        df['bet_type_code'] = 0 # Default placeholder
-        df['days_since_prev'] = 1 # Default placeholder
-        df['capper_league_acc'] = df['acc_30d'] # Approximation
-        
-        # V4 Extras
-        df['raw_hotness'] = df['roi_7d']
-        df['streak_entering_game'] = 0
-        df['league_rolling_roi'] = 0
-        df['fade_score'] = 0
-        df['is_momentum_sport'] = 0
-        df['x_valid_hotness'] = df['roi_30d']
+        # 5. Consensus & Aux Features (Lagged Only)
+        # We rely on v4_consensus_count_lag1 which is already day-shifted below
         
         # Consensus Lagging Logic
         cons = df.groupby(['league_name', 'pick_norm', 'pick_date']).size().reset_index(name='count')
         cons['known_date'] = cons['pick_date'] + pd.Timedelta(days=1)
         cons_roll = cons.sort_values(['league_name', 'pick_norm', 'known_date'])
         
-        # Proper rolling consensus
+        # Proper rolling consensus (known only after T+1)
         cons_roll['v4_consensus_count_lag1'] = cons_roll.groupby(['league_name', 'pick_norm'])['count'].transform(
             lambda x: x.shift(1).rolling(7, min_periods=1).mean()
         ).fillna(1)
@@ -324,16 +313,15 @@ class FeatureEngineer:
         df = df.merge(cons_final, on=['league_name', 'pick_norm', 'pick_date'], how='left')
         df['v4_consensus_count_lag1'] = df['v4_consensus_count_lag1'].fillna(1)
 
-        # 5b. Market Drift (Institutional CLV Proxy)
-        game_odds = df.groupby(['league_name', 'pick_norm', 'pick_date'])['decimal_odds'].transform('mean')
-        df['market_drift'] = (df['decimal_odds'] - game_odds) / (game_odds + 1e-6)
-
-        # 6. Final Defaults & V1-V3 Compatibility
+        # 6. Final Defaults
         df['raw_hotness'] = df['roi_7d'].fillna(0)
         df['is_momentum_sport'] = df['league_name'].isin(['NBA', 'NCAAB', 'NHL', 'Combat']).astype(int)
         df['x_valid_hotness'] = df['raw_hotness'] * df['is_momentum_sport']
         df['capper_experience'] = df.groupby('capper_id').cumcount()
         df['implied_prob'] = 1 / df['decimal_odds']
+        
+        # Market Drift Placeholder (to avoid breaking Quarry Intelligence code, set to 0 as we removed same-day calculation)
+        df['market_drift'] = 0 
         
         # V1-V3 Aliases
         for s in ['7d', '30d']:
@@ -353,6 +341,16 @@ class FeatureEngineer:
         df['capper_league_acc'] = 0.5 # Default
         df['consensus_count'] = df['v4_consensus_count_lag1']
         df['consensus_count'] = df['consensus_count'].fillna(1)
+        
+        # [LEGACY SUPPORT]: Add missing features for V1/V2/V4 models to prevent KeyErrors
+        if 'bet_type_id' in df.columns:
+            df['bet_type_code'] = df['bet_type_id'].fillna(0)
+        else:
+            df['bet_type_code'] = 0
+            
+        df['streak_entering_game'] = 0 # Placeholder for capper streak
+        df['league_rolling_roi'] = 0   # Placeholder for league-specific ROI
+        df['fade_score'] = 0           # Placeholder for fade metric
         
         # Null values for missing features - only fill numeric columns with 0
         numeric_cols = df.select_dtypes(include=[np.number]).columns

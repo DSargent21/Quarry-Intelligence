@@ -11,7 +11,7 @@
 
   <br />
   <br />
-  <a href="https://ducky705.github.io/Quarry-Intelligence/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
+  <a href="https://ducky705.github.io/Quarry Intelligence-Intelligence/docs/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
   <br />
   <br />
 </div>
@@ -31,7 +31,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 | **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | Medium (~11 bets/day) | **45** | **-41.0%** |
 
 > [!IMPORTANT]
-\> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/selector.html).
+> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry Intelligence-Intelligence/docs/web/selector.html).
 
 ---
 
@@ -44,6 +44,30 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 ### V4 QUARTZ // THE PRISM
 *The flagship standard.* Utilizes **Correct Shift** logic to identify opening line inefficiencies.
+
+---
+
+## 📚 KNOWLEDGE BASE
+
+### 🔬 DEEP INTELLIGENCE REPORTS
+Comprehensive technical audits and strategy profiles for the current model lineup.
+
+*   **[SERIES 6: KYANITE Audit](docs/reports/KYANITE_REPORT.md)** - Absolute Alpha & Precision
+*   **[SERIES 7: CARNELIAN Audit](docs/reports/CARNELIAN_REPORT.md)** - Capacity & Liquidity Optimization
+*   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
+*   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
+*   **[SERIES 3: OBSIDIAN Audit](docs/reports/OBSIDIAN_REPORT.md)** - Advanced Non-Linear Ensembles
+*   **[SERIES 2: DIAMOND Audit](docs/reports/DIAMOND_REPORT.md)** - Precision Core & Refined Filtering
+*   **[SERIES 1: PYRITE Audit](docs/reports/PYRITE_REPORT.md)** - Legacy High-Frequency Core
+
+### 🏛️ LEGACY ARCHIVES
+Historical research, methodology versions, and experimental results.
+
+*   **[Deep Mining Report](docs/archive/DEEP_MINING_REPORT.md)** - Foundational research on market inefficiencies.
+*   **[Momentum Physics](docs/archive/MOMENTUM_PHYSICS.md)** - Theoretical basis for V5 velocity engines.
+*   **[Quantum Results](docs/archive/QUANTUM_RESULTS.md)** - Experimental V4 quantum-enhanced backtests.
+*   **[Stress Test Results](docs/archive/STRESS_TEST_RESULTS.md)** - Robustness analysis under extreme market drift.
+*   **[Methodology V2](docs/archive/methodology_v2.md)** | **[Methodology V1](docs/archive/methodology_v1.md)**
 
 ---
 
