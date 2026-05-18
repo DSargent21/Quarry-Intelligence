@@ -272,12 +272,12 @@ tr:nth-child(even) {
 
 <header>
     <h1>The Obsidian Refinement Audit</h1>
-    <div class="subtitle">A Technical Synthesis of High-Purity Alpha Extraction, Calibration Stability, and the Systematic Resolution of Signal-to-Noise Disparity in Predictive Intelligence</div>
+    <div class="subtitle">A Technical Synthesis of High-Purity Alpha Extraction, Calibration Stability, and the Systematic Resolution of Signal-to-Noise Disparity in Predictive Intelligence
     <div class="meta-info">
         <span>REPORT-ID: SNIPER-OBSIDIAN-2026-EN-V3</span>
         <span>CLASSIFICATION: INSTITUTIONAL LEVEL 3 (PROPRIETARY)</span>
         <span>DATE: MAY 17, 2026</span>
-    </div>
+    
 </header>
 
 <div class="abstract-container">
@@ -286,9 +286,9 @@ tr:nth-child(even) {
      
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 1. Introduction: The Crisis of Signal Overload</h2>
 <p>
     In the modern era of quantitative finance, the primary bottleneck is no longer data acquisition, but signal distillation. As our predictive engines (V1-V5) increased in complexity, we observed a parallel increase in "Informational Noise"—low-value trades that, while technically meeting win-probability thresholds, exhibited poor long-term calibration. This noise is the result of model over-fitting to transient market anomalies or following agents whose success is driven by variance rather than skill. Obsidian was engineered as the solution to this <b>Signal-to-Noise Disparity</b>.
@@ -298,16 +298,12 @@ tr:nth-child(even) {
 <div class="sidebar-callout">
     <b>THE OBSIDIAN DOCTRINE:</b><br><br>
     "We do not seek more trades; we seek better trades. Obsidian is the razor that carves the alpha from the stone of market variance."
-</div>
-<div class="figure-container">
-    <img src="../assets/obsidian_sport.png" alt="Obsidian Market Coverage">
-    <div class="figure-caption">Figure 1.1: Obsidian Purity across Markets. The engine maintains high-fidelity extraction across all liquid sport segments, validating the Bayesian refinery's robustness.</div>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_signature.png" alt="Obsidian Signature Graphic">
-    <div class="figure-caption">Figure 1.2: The Obsidian Signature Graphic. This visualization represents the process of Bayesian Shrinkage and Signal Purity—the engine's method for distilling high-fidelity alpha from noisy institutional data.</div>
-</div>
+![Obsidian Market Coverage](../assets/obsidian_sport.png)
+*Figure 1.1: Obsidian Purity across Markets. The engine maintains high-fidelity extraction across all liquid sport segments, validating the Bayesian refinery's robustness.*
+
+![Obsidian Signature Graphic](../assets/obsidian_signature.png)
+*Figure 1.2: The Obsidian Signature Graphic. This visualization represents the process of Bayesian Shrinkage and Signal Purity—the engine's method for distilling high-fidelity alpha from noisy institutional data.*
 
 <p>
     The Obsidian Signature Graphic represents the process of Bayesian Shrinkage and Signal Purity—the engine's method for distilling high-fidelity alpha from noisy institutional data. The visualization depicts the "Obsidian Funnel," where raw feature inputs are subjected to a rigorous hierarchical shrinkage process. By applying a prior distribution that favors conservative, high-persistence outcomes, the model "shrinks" volatile estimates toward the global mean, effectively neutralizing the "Gamble-Heavy" variance that decimate retail strategies. The resulting purity map shows the concentration of high-signal nodes that have survived this mathematical gauntlet.
@@ -326,9 +322,9 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 2. Foundational Research: The Failure of Classical Theories</h2>
 <p>
     The development of Obsidian was preceded by an intensive audit of existing predictive models. We sought to understand why traditional "Sharp" models frequently experienced "Calibration Drift"—the phenomenon where realized win rates decouple from predicted probabilities over time.
@@ -343,14 +339,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/obsidian_rho.png" alt="Autocorrelation Formula">
-</div>
+![Autocorrelation Formula](../assets/obsidian_rho.png)
 
-<div class="figure-container">
-    <img src="../assets/obsidian_transition.png" alt="State Transition Mapping">
-    <div class="figure-caption">Figure 2.1: Performance State Transitions. Success in predictive markets exhibits non-random clustering, a property Obsidian leverages to isolate peak flow states.</div>
-</div>
+![State Transition Mapping](../assets/obsidian_transition.png)
+*Figure 2.1: Performance State Transitions. Success in predictive markets exhibits non-random clustering, a property Obsidian leverages to isolate peak flow states.*
 
 <p>
     With a measured <b>Rho (ρ)</b> that deviates significantly from the null hypothesis, we prove that predictive success is "sticky." This discovery forms the bedrock of Momentum Physics, allowing Obsidian to weight signals based on the agent's current "Flow State." By isolating this signal, we move from betting on *who* is good to betting on *when* they are in a state of peak accuracy.
@@ -365,18 +357,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/obsidian_ruin.png" alt="Ruin Probability Formula">
-</div>
+![Ruin Probability Formula](../assets/obsidian_ruin.png)
 
 <p>
     The findings were catastrophic for classical theory. Even with a theoretical 55% win rate, the probability of hitting a terminal loss cycle within a 1,000-trade sequence is over 98%. This discovery forced us to abandon all linear and exponential staking models in favor of the **Obsidian Flat-Betting Standard (1.0u)**, which relies on high-purity signal selection to achieve yield.
  
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 3. Architecture: The Alpha Purity Index</h2>
 <p>
     The core innovation of Obsidian is the **Alpha Purity Index (API)**. This metric treats every incoming signal as a potential source of alpha that must be refined before capital allocation.
@@ -391,14 +381,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/academic_obsidian_purity.png" alt="Purity Formula">
-</div>
+![Purity Formula](../assets/academic_obsidian_purity.png)
 
-<div class="figure-container">
-    <img src="../assets/obsidian_volume.png" alt="Obsidian Processing Volume">
-    <div class="figure-caption">Figure 3.1: Signal Throughput vs. Refinement Purity. Obsidian processes millions of data points to isolate the highest-fidelity alpha clusters.</div>
-</div>
+![Obsidian Processing Volume](../assets/obsidian_volume.png)
+*Figure 3.1: Signal Throughput vs. Refinement Purity. Obsidian processes millions of data points to isolate the highest-fidelity alpha clusters.*
 
 <p>
     This adjustment ensures that the engine's "Confidence" is always backed by a statistically significant sample size. Signals with high optical win-rates but low Bayesian confidence are automatically discarded, resulting in the characteristic "Obsidian Purity."
@@ -413,19 +399,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_matrix.png" alt="Obsidian Performance Matrix">
-    <div class="figure-caption">Figure 3.2: The Obsidian Performance Matrix. Note the balanced scores across all categories, reflecting its advanced ensemble architecture.</div>
-</div>
+![Obsidian Performance Matrix](../assets/obsidian_matrix.png)
+*Figure 3.2: The Obsidian Performance Matrix. Note the balanced scores across all categories, reflecting its advanced ensemble architecture.*
 
 <p>
     By prioritizing stability over raw win-rate, Obsidian provides a much smoother equity curve, allowing for higher leverage without increasing the risk of catastrophic drawdown. The CSF ensures that the model "knows what it knows," a critical requirement for institutional trust.
  
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 4. Feature Engineering: The Purity Features</h2>
 <p>
     Obsidian's refinery is powered by a specialized set of features designed to detect informational noise and hidden market friction.
@@ -440,15 +424,11 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_alpha.png" alt="Alpha Math Formula">
-    <div class="figure-caption">Figure 4.1: The Alpha Signal. Obsidian's purity logic is optimized for the isolation of long-range predictive consistency.</div>
-</div>
+![Alpha Math Formula](../assets/obsidian_alpha.png)
+*Figure 4.1: The Alpha Signal. Obsidian's purity logic is optimized for the isolation of long-range predictive consistency.*
 
-<div class="figure-container">
-    <img src="../assets/obsidian_decay.png" alt="Momentum Decay Curve">
-    <div class="figure-caption">Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency re-evaluation. Obsidian enforces a strict 48-hour freshness protocol.</div>
-</div>
+![Momentum Decay Curve](../assets/obsidian_decay.png)
+*Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency re-evaluation. Obsidian enforces a strict 48-hour freshness protocol.*
 
 <h3>SUBSYSTEM ANALYSIS: 4.2 Cross-Sport Synergy Matrices</h3>
 <p>
@@ -457,18 +437,14 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_synergy.png" alt="Synergy Heatmap">
-    <div class="figure-caption">Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Obsidian builds "Confidence Clusters" to isolate the smartest money.</div>
-</div>
+![Synergy Heatmap](../assets/obsidian_synergy.png)
+*Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Obsidian builds "Confidence Clusters" to isolate the smartest money.*
 
-<div class="figure-container">
-    <img src="../assets/obsidian_importance.png" alt="Obsidian Feature Importance">
-    <div class="figure-caption">Figure 4.4: SHAP Value Distribution. API and historical consistency dominate the refinery hierarchy, ensuring only high-purity signals are promoted.</div>
-</div>
-</div>
+![Obsidian Feature Importance](../assets/obsidian_importance.png)
+*Figure 4.4: SHAP Value Distribution. API and historical consistency dominate the refinery hierarchy, ensuring only high-purity signals are promoted.*
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 5. Validation: The Purity Performance Audit</h2>
 <p>
     To validate the Obsidian architecture, we executed a multi-threshold audit across the 2026 refinement cycle. This audit established the <b>Efficient Frontier</b> for high-purity capital deployment.
@@ -511,24 +487,20 @@ tr:nth-child(even) {
     </tbody>
 </table>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_calibration.png" alt="Obsidian Calibration Curve">
-    <div class="figure-caption">Figure 5.1: Model Calibration Audit. Obsidian maintains near-perfect alignment between predicted certainty and realized win rates.</div>
-</div>
+![Obsidian Calibration Curve](../assets/obsidian_calibration.png)
+*Figure 5.1: Model Calibration Audit. Obsidian maintains near-perfect alignment between predicted certainty and realized win rates.*
 
 <p>
     <b>The Strategic Conclusion:</b> The 450 basis point increase in ROI is the direct result of the "Noise Removal" process. By discarding 40% of the baseline signals that fell below the 0.85 API threshold, Obsidian significantly increased the "Alpha Density" of the remaining trades.
  
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_equity.png" alt="Obsidian Equity Curve">
-    <div class="figure-caption">Figure 5.2: Obsidian Institutional Performance (N=500). The near-linear drift with almost zero "Stair-Step" variance demonstrates Obsidian's potential as a primary growth driver.</div>
-</div>
 
-<div class="text-content">
+![Obsidian Equity Curve](../assets/obsidian_equity.png)
+*Figure 5.2: Obsidian Institutional Performance (N=500). The near-linear drift with almost zero "Stair-Step" variance demonstrates Obsidian's potential as a primary growth driver.*
+
+
 <h2>TECHNICAL DISCLOSURE: 6. Informational Friction: Fatigue and Entropy</h2>
 <p>
     The Obsidian engine accounts for the biological and systemic limits that degrade signal quality over time and volume.
@@ -543,10 +515,8 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_fatigue.png" alt="Fatigue Decay Curve">
-    <div class="figure-caption">Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.</div>
-</div>
+![Fatigue Decay Curve](../assets/obsidian_fatigue.png)
+*Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.*
 
 <h3>SUBSYSTEM ANALYSIS: 6.2 The "Neutral Trap" Persistence</h3>
 <p>
@@ -554,13 +524,13 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="insight-panel">
+
+
     <strong>THE OBSIDIAN PURITY RULE:</strong> Every signal must pass a **99% Bayesian Significance Test** before it is allowed to enter the production environment. This "Zero-Tolerance" approach to noise ensures that Obsidian remains the most trusted engine in the portfolio.
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 7. Resolution: The CLV Paradox in Refined Markets</h2>
 <p>
     The most controversial finding of the Obsidian audit is the disproval of the <b>Closing Line Value (CLV) Paradox</b> for high-purity signals.
@@ -568,19 +538,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_clv.png" alt="CLV Paradox Chart">
-    <div class="figure-caption">Figure 7.1: Realized WR vs. Market Drift. Obsidian signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha is an independent variable that overrides Price Alpha.</div>
-</div>
+![CLV Paradox Chart](../assets/obsidian_clv.png)
+*Figure 7.1: Realized WR vs. Market Drift. Obsidian signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha is an independent variable that overrides Price Alpha.*
 
 <p>
     <b>The Proof:</b> High-purity signals realized staggering win rates even when buying at a worse price than the close. This proves that <b>Momentum Alpha</b> is an independent variable that overrides Price Alpha in high-certainty events. We are not merely beating the price; we are beating the *event certainty*.
  
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 8. Operational Guardrails: Production Integrity</h2>
 <p>
     To ensure the long-term stability of the Obsidian engines, we have implemented several institutional guardrails.
@@ -588,19 +556,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_size.png" alt="Obsidian Sizing Profile">
-    <div class="figure-caption">Figure 8.1: Position Sizing Hierarchy. Obsidian utilizes conservative fractional sizing based on Bayesian purity scores to ensure survival across high-volatility events.</div>
-</div>
+![Obsidian Sizing Profile](../assets/obsidian_size.png)
+*Figure 8.1: Position Sizing Hierarchy. Obsidian utilizes conservative fractional sizing based on Bayesian purity scores to ensure survival across high-volatility events.*
 
 <ol>
     <li><b>Institutional Deduplication:</b> Prevents "Correlated Exposure" during a market anomaly.</li>
     <li><b>The Positive Alpha Filter:</b> Rejects any pick where the predicted probability is less than the market's implied probability.</li>
     <li><b>Dynamic Fatigue Blocker:</b> Protects the bankroll from agents entering the entropy zone.</li>
 </ol>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 9. Final Validation: Multi-Path Portfolio Simulation</h2>
 <p>
     The ultimate validation of the Obsidian architecture is its resilience under high-volume stress. We conducted a 2,500-signal Monte Carlo simulation to project the long-term equity curve.
@@ -608,18 +574,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Obsidian purity scores are derived from a multi-agent ensemble consensus, filtering out idiosyncratic noise to isolate institutional-grade signal resonance.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/obsidian_simulation.png" alt="Obsidian Final Simulation">
-    <div class="figure-caption">Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Obsidian architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for capital deployment.</div>
-</div>
-</div>
+![Obsidian Final Simulation](../assets/obsidian_simulation.png)
+*Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Obsidian architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for capital deployment.*
 
-<div class="quote-block">
+
+
     "The future of predictive intelligence is not found in the static analysis of the past, but in the dynamic management of the present momentum."
-</div>
+
 
 <div class="footer">
     &copy; 2026 Quarry Intelligence Research Division • Obsidian Institutional Release • Strictly Confidential • Printed on High-Purity Alpha
-</div>
 
-</div>
+
+

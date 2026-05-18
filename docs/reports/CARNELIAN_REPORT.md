@@ -272,12 +272,12 @@ tr:nth-child(even) {
 
 <header>
     <h1>The Carnelian Bayesian Value Audit</h1>
-    <div class="subtitle">A Technical Synthesis of Multi-Dimensional Expected Value Optimization, Underdog Capture Mechanics, and the Systematic Extraction of Institutional Yield in Sports Equity Markets</div>
+    <div class="subtitle">A Technical Synthesis of Multi-Dimensional Expected Value Optimization, Underdog Capture Mechanics, and the Systematic Extraction of Institutional Yield in Sports Equity Markets
     <div class="meta-info">
         <span>REPORT-ID: SNIPER-CARNELIAN-2026-EN-V7</span>
         <span>CLASSIFICATION: INSTITUTIONAL LEVEL 4 (PROPRIETARY)</span>
         <span>DATE: MAY 17, 2026</span>
-    </div>
+    
 </header>
 
 <div class="abstract-container">
@@ -286,9 +286,9 @@ tr:nth-child(even) {
      
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 1. Introduction: The Paradigm of Pure Value</h2>
 <p>
     In the world of institutional predictive intelligence, the most significant edges are often hidden within high-variance events that retail participants avoid. While models like Kyanite focus on the optical certainty of favorites, Carnelian was engineered to exploit the <b>Bayesian Inefficiency</b> of the underdog market. We posit that the true measure of a model's superiority is not its ability to pick winners, but its ability to identify mispriced risk. Underdogs are systematically undervalued by retail capital due to psychological "Loss Aversion," creating a permanent structural inefficiency that Carnelian is designed to harvest.
@@ -298,18 +298,14 @@ tr:nth-child(even) {
 <div class="sidebar-callout">
     <b>THE CARNELIAN DOCTRINE:</b><br><br>
     "We do not bet on the outcome; we bet on the price of the outcome. Carnelian is the engine of pure math, designed to harvest every basis point of mispriced value in the global ecosystem."
-</div>
-<div class="figure-container">
-    <img src="../assets/carnelian_sport.png" alt="Carnelian Market Coverage">
-    <div class="figure-caption">Figure 1.1: Carnelian Value Deployment. The engine targets high-edge windows in diverse sport segments.</div>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_signature.png" alt="Carnelian Signature Graphic">
-    <div class="figure-caption">Figure 1.2: The Carnelian Signature Graphic. This visualization represents the 'Bayesian DNA' of the engine—the systematic mapping of expected value across the institutional spectrum, with high-alpha underdogs forming the foundation of yield.</div>
-</div>
+![Carnelian Market Coverage](../assets/carnelian_sport.png)
+*Figure 1.1: Carnelian Value Deployment. The engine targets high-edge windows in diverse sport segments.*
 
-<div class="text-content">
+![Carnelian Signature Graphic](../assets/carnelian_signature.png)
+*Figure 1.2: The Carnelian Signature Graphic. This visualization represents the 'Bayesian DNA' of the engine—the systematic mapping of expected value across the institutional spectrum, with high-alpha underdogs forming the foundation of yield.*
+
+
 <p>
     The **Carnelian Signature Graphic** (Figure 1.2) illustrates the engine's primary cognitive function: the identification of high-density alpha clusters in the underdog quadrant. While traditional retail strategies prioritize win frequency, Carnelian prioritizes <b>Bayesian Geometric Yield</b>. By mapping every signal as a particle within a multi-dimensional expected value field, the engine can identify the exact point where the market's implied probability is most misaligned with the model's high-fidelity prediction.
  
@@ -320,10 +316,10 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
-</div>
 
-<div class="text-content">
+
+
+
 <h2>TECHNICAL DISCLOSURE: 2. Foundational Research: The Failure of Classical Theories</h2>
 <p>
     The development of Carnelian was preceded by an intensive audit of existing value strategies. We sought to understand why traditional "Dog-Bettors" frequently experienced ruinous drawdowns, identifying the core failure of the sample-stability axiom.
@@ -338,14 +334,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/carnelian_rho.png" alt="Autocorrelation Formula">
-</div>
+![Autocorrelation Formula](../assets/carnelian_rho.png)
 
-<div class="figure-container">
-    <img src="../assets/carnelian_transition.png" alt="State Transition Matrix">
-    <div class="figure-caption">Figure 2.1: Value State Transitions. Success in underdog markets exhibits non-random clustering, which Carnelian leverages for yield optimization.</div>
-</div>
+![State Transition Matrix](../assets/carnelian_transition.png)
+*Figure 2.1: Value State Transitions. Success in underdog markets exhibits non-random clustering, which Carnelian leverages for yield optimization.*
 
 <p>
     With a measured <b>Rho (ρ)</b> that deviates significantly from the null hypothesis, we prove that predictive success is "sticky." This discovery forms the bedrock of Momentum Physics, allowing Carnelian to identify value windows where an agent's edge is most persistent.
@@ -360,18 +352,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/carnelian_ruin.png" alt="Ruin Probability Formula">
-</div>
+![Ruin Probability Formula](../assets/carnelian_ruin.png)
 
 <p>
     The findings were catastrophic for classical theory. Even with a theoretical 55% win rate, the probability of hitting a terminal loss cycle within a 1,000-trade sequence is over 98%. This discovery forced us to abandon all linear and exponential staking models in favor of the **Carnelian Flat-Betting Standard**, which relies on pure EV capture.
  
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 3. Architecture: The Bayesian Yield Engine</h2>
 <p>
     The core innovation of Carnelian is the **Bayesian Yield Score**. This metric weights the model's certainty against the market's implied probability, identifying the exact point of maximum expected value.
@@ -386,14 +376,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/academic_carnelian_yield.png" alt="Yield Formula">
-</div>
+![Yield Formula](../assets/academic_carnelian_yield.png)
 
-<div class="figure-container">
-    <img src="../assets/carnelian_volume.png" alt="Carnelian Data Volume">
-    <div class="figure-caption">Figure 3.1: Value Ingestion Density. High data volume is required to accurately model mispriced risk in underdog markets.</div>
-</div>
+![Carnelian Data Volume](../assets/carnelian_volume.png)
+*Figure 3.1: Value Ingestion Density. High data volume is required to accurately model mispriced risk in underdog markets.*
 
 <p>
     By focusing on the "Bayesian Score," Carnelian identifies high-value underdog entries that traditional precision models ignore. This tier allows Carnelian to maintain high institutional yield even in high-variance markets. The result is a selection of signals that exhibit high-expected-value and high-capacity, the hallmark of the Carnelian protocol.
@@ -408,19 +394,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_matrix.png" alt="Carnelian Alpha Matrix">
-    <div class="figure-caption">Figure 3.2: Alpha Generation Matrix. Carnelian's edge is heavily derived from 'Market Inefficiency' and 'Price Velocity' features.</div>
-</div>
+![Carnelian Alpha Matrix](../assets/carnelian_matrix.png)
+*Figure 3.2: Alpha Generation Matrix. Carnelian's edge is heavily derived from 'Market Inefficiency' and 'Price Velocity' features.*
 
 <p>
     Through an audit of over 200,000 trades, we identified that Carnelian captures over **70% of its total alpha** from these high-value underdog entries. This ensures that the realized ROI remains decoupled from win-rate fluctuations, providing a stable path to institutional growth.
  
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 4. Feature Engineering: The Value Alpha Tiers</h2>
 <p>
     Carnelian's value engine is powered by a specialized set of features designed to detect mispriced risk and informational friction.
@@ -435,15 +419,11 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_alpha.png" alt="Alpha Math Formula">
-    <div class="figure-caption">Figure 4.1: The Alpha Signal. Carnelian's feature hierarchy is optimized for maximum expected value capture.</div>
-</div>
+![Alpha Math Formula](../assets/carnelian_alpha.png)
+*Figure 4.1: The Alpha Signal. Carnelian's feature hierarchy is optimized for maximum expected value capture.*
 
-<div class="figure-container">
-    <img src="../assets/carnelian_decay.png" alt="Momentum Decay Curve">
-    <div class="figure-caption">Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency monitoring. Carnelian enforces a strict 48-hour freshness protocol.</div>
-</div>
+![Momentum Decay Curve](../assets/carnelian_decay.png)
+*Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency monitoring. Carnelian enforces a strict 48-hour freshness protocol.*
 
 <h3>SUBSYSTEM ANALYSIS: 4.2 Cross-Sport Synergy Matrices</h3>
 <p>
@@ -452,18 +432,14 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_synergy.png" alt="Synergy Heatmap">
-    <div class="figure-caption">Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Carnelian builds "Confidence Clusters" to isolate the smartest money.</div>
-</div>
+![Synergy Heatmap](../assets/carnelian_synergy.png)
+*Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Carnelian builds "Confidence Clusters" to isolate the smartest money.*
 
-<div class="figure-container">
-    <img src="../assets/carnelian_importance.png" alt="Carnelian Feature Importance">
-    <div class="figure-caption">Figure 4.4: SHAP Value Distribution. Bayesian edge floors and historical value consistency dominate the predictive hierarchy.</div>
-</div>
-</div>
+![Carnelian Feature Importance](../assets/carnelian_importance.png)
+*Figure 4.4: SHAP Value Distribution. Bayesian edge floors and historical value consistency dominate the predictive hierarchy.*
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 5. Validation: The Bayesian Performance Audit</h2>
 <p>
     To validate the Carnelian architecture, we executed a multi-threshold audit across the 2026 value cycle. This audit established the <b>Efficient Frontier</b> for value-based capital deployment.
@@ -499,24 +475,20 @@ tr:nth-child(even) {
     </tbody>
 </table>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_calibration.png" alt="Carnelian Calibration Curve">
-    <div class="figure-caption">Figure 5.1: Model Calibration Audit. Carnelian maintains high alignment between predicted expected value and realized yield.</div>
-</div>
+![Carnelian Calibration Curve](../assets/carnelian_calibration.png)
+*Figure 5.1: Model Calibration Audit. Carnelian maintains high alignment between predicted expected value and realized yield.*
 
 <p>
     <b>The Quantitative Conclusion:</b> While Carnelian has a lower absolute win-rate than Kyanite, its realized ROI is superior due to the capture of high-odds underdog alpha. This validates the "Value Priority" hypothesis and establishes Carnelian as the premier yield-generator.
  
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_equity.png" alt="Carnelian Equity Curve">
-    <div class="figure-caption">Figure 5.2: Carnelian Institutional Performance (N=500). The aggressive upward drift with zero catastrophic variance validates Carnelian's architecture as a primary growth driver.</div>
-</div>
 
-<div class="text-content">
+![Carnelian Equity Curve](../assets/carnelian_equity.png)
+*Figure 5.2: Carnelian Institutional Performance (N=500). The aggressive upward drift with zero catastrophic variance validates Carnelian's architecture as a primary growth driver.*
+
+
 <h2>TECHNICAL DISCLOSURE: 6. Informational Friction: Fatigue and Entropy</h2>
 <p>
     The Carnelian engine accounts for the biological and systemic limits that degrade signal quality over time and volume.
@@ -531,10 +503,8 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_fatigue.png" alt="Fatigue Decay Curve">
-    <div class="figure-caption">Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.</div>
-</div>
+![Fatigue Decay Curve](../assets/carnelian_fatigue.png)
+*Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.*
 
 <h3>SUBSYSTEM ANALYSIS: 6.2 The "Neutral Trap" (81.9% persistence)</h3>
 <p>
@@ -542,13 +512,13 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
 
-<div class="insight-panel">
+
+
     <strong>THE CARNELIAN VALUE RULE:</strong> Position sizes are strictly limited to **1.0u** during the initial capture phase. This "Flat-Betting" standard ensures that the portfolio remains resilient against the natural variance of underdog markets.
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 7. Resolution: The CLV Paradox in Value Markets</h2>
 <p>
     The most controversial finding of the Carnelian audit is the disproval of the <b>Closing Line Value (CLV) Paradox</b> for value-heavy signals.
@@ -556,19 +526,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_clv.png" alt="CLV Paradox Chart">
-    <div class="figure-caption">Figure 7.1: Realized WR vs. Market Drift. Carnelian signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha overrides Price Alpha.</div>
-</div>
+![CLV Paradox Chart](../assets/carnelian_clv.png)
+*Figure 7.1: Realized WR vs. Market Drift. Carnelian signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha overrides Price Alpha.*
 
 <p>
     <b>The Proof:</b> Value signals realized staggering win rates even when buying at a worse price than the close. This proves that <b>Momentum Alpha</b> is an independent variable that overrides Price Alpha in high-certainty events. We are not merely beating the price; we are beating the *event certainty*.
  
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 8. Operational Guardrails: Production Integrity</h2>
 <p>
     To ensure the long-term stability of the Carnelian engines, we have implemented several institutional guardrails.
@@ -576,19 +544,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_size.png" alt="Carnelian Sizing Profile">
-    <div class="figure-caption">Figure 8.1: Position Sizing vs. Yield. Sizing is scaled according to Bayesian yield scores, maximizing returns during peak windows.</div>
-</div>
+![Carnelian Sizing Profile](../assets/carnelian_size.png)
+*Figure 8.1: Position Sizing vs. Yield. Sizing is scaled according to Bayesian yield scores, maximizing returns during peak windows.*
 
 <ol>
     <li><b>Institutional Deduplication:</b> Prevents "Correlated Exposure" during a market anomaly.</li>
     <li><b>The Positive Alpha Filter:</b> Rejects any pick where the predicted probability is less than the market's implied probability.</li>
     <li><b>Dynamic Fatigue Blocker:</b> Protects the bankroll from agents entering the entropy zone.</li>
 </ol>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 9. Final Validation: Multi-Path Portfolio Simulation</h2>
 <p>
     The ultimate validation of the Carnelian architecture is its resilience under high-volume stress. We conducted a 2,500-signal Monte Carlo simulation to project the long-term equity curve.
@@ -596,18 +562,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Carnelian yield triggers are subjected to a secondary liquidity-depth audit, ensuring that underdog alpha remains harvestable even at institutional scale.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/carnelian_simulation.png" alt="Carnelian Final Simulation">
-    <div class="figure-caption">Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Carnelian architecture demonstrates consistent positive drift with zero catastrophic variance.</div>
-</div>
-</div>
+![Carnelian Final Simulation](../assets/carnelian_simulation.png)
+*Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Carnelian architecture demonstrates consistent positive drift with zero catastrophic variance.*
 
-<div class="quote-block">
+
+
     "The future of predictive intelligence is not found in the static analysis of the past, but in the dynamic management of the present momentum."
-</div>
+
 
 <div class="footer">
     &copy; 2026 Quarry Intelligence Research Division • Carnelian Institutional Release • Strictly Confidential • Printed on Bayesian Grade Alpha
-</div>
 
-</div>
+
+

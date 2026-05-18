@@ -272,12 +272,12 @@ tr:nth-child(even) {
 
 <header>
     <h1>The Pyrite Execution Audit</h1>
-    <div class="subtitle">A Quantitative Evaluation of Live Market Scalability, Liquidity-Bounded Inference, and the Systematic Validation of Real-World Performance Stability</div>
+    <div class="subtitle">A Quantitative Evaluation of Live Market Scalability, Liquidity-Bounded Inference, and the Systematic Validation of Real-World Performance Stability
     <div class="meta-info">
         <span>REPORT-ID: SNIPER-PYRITE-2026-EN-IV</span>
         <span>CLASSIFICATION: INSTITUTIONAL LEVEL 4 (PROPRIETARY)</span>
         <span>DATE: MAY 17, 2026</span>
-    </div>
+    
 </header>
 
 <div class="abstract-container">
@@ -286,9 +286,9 @@ tr:nth-child(even) {
      
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 1. Introduction: The Challenge of Live Execution</h2>
 <p>
     While many quantitative models exhibit superior performance in backtesting, few survive the transition to live execution. The primary barrier is <b>Market Impact</b>—the phenomenon where large trade volumes move the price against the investor, eroding the identified alpha. Traditional models often ignore this friction, leading to a "Slippage Crisis" where theoretical ROI fails to materialize. The Pyrite project was initiated to solve this crisis by integrating real-time liquidity analysis into the inference pipeline.
@@ -298,16 +298,12 @@ tr:nth-child(even) {
 <div class="sidebar-callout">
     <b>THE PYRITE DOCTRINE:</b><br><br>
     "Alpha that cannot be scaled is merely noise. Pyrite ensures that our technical superiority translates into realized wealth at the institutional level."
-</div>
-<div class="figure-container">
-    <img src="../assets/pyrite_sport.png" alt="Pyrite Market Deployment">
-    <div class="figure-caption">Figure 1.1: Pyrite Liquidity Analysis across Markets. The engine identifies optimal execution windows in high-depth sport segments.</div>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_signature.png" alt="Pyrite Signature Graphic">
-    <div class="figure-caption">Figure 1.2: The Pyrite Signature Graphic. This visualization illustrates the "Liquidity Wall Safe Zone"—a defensive architectural construct designed to protect the portfolio during periods of extreme market turbulence.</div>
-</div>
+![Pyrite Market Deployment](../assets/pyrite_sport.png)
+*Figure 1.1: Pyrite Liquidity Analysis across Markets. The engine identifies optimal execution windows in high-depth sport segments.*
+
+![Pyrite Signature Graphic](../assets/pyrite_signature.png)
+*Figure 1.2: The Pyrite Signature Graphic. This visualization illustrates the "Liquidity Wall Safe Zone"—a defensive architectural construct designed to protect the portfolio during periods of extreme market turbulence.*
 
 <p>
     The Pyrite Signature Graphic illustrates the "Liquidity Wall Safe Zone"—a defensive architectural construct designed to protect the portfolio during periods of extreme market turbulence. The visualization depicts the interaction between signal volatility and the "Liquidity Wall"—a mathematical threshold where market depth is sufficient to absorb high-volume trades without significant slippage. The "Safe Zones" are represented by stable, high-density plateaus where the model's predictive alpha is reinforced by massive market liquidity, ensuring that exits are as clean as entries even in stressed conditions.
@@ -326,9 +322,9 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 2. Foundational Research: The Failure of Classical Theories</h2>
 <p>
     The development of Pyrite was preceded by an intensive audit of existing execution strategies. We sought to understand why traditional "Large-Cap" models frequently failed to deliver their backtested ROI, identifying the core failure of the liquidity axiom.
@@ -343,14 +339,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/pyrite_rho.png" alt="Autocorrelation Formula">
-</div>
+![Autocorrelation Formula](../assets/pyrite_rho.png)
 
-<div class="figure-container">
-    <img src="../assets/pyrite_transition.png" alt="State Transition Analysis">
-    <div class="figure-caption">Figure 2.1: Performance Migration and Liquidity. Pyrite maps the transition between alpha states to ensure execution occurs during peak persistence.</div>
-</div>
+![State Transition Analysis](../assets/pyrite_transition.png)
+*Figure 2.1: Performance Migration and Liquidity. Pyrite maps the transition between alpha states to ensure execution occurs during peak persistence.*
 
 <p>
     With a measured <b>Rho (ρ)</b> that deviates significantly from the null hypothesis, we prove that predictive success is "sticky." This discovery forms the bedrock of Momentum Physics, allowing Pyrite to identify execution windows where alpha is most persistent.
@@ -365,18 +357,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/pyrite_ruin.png" alt="Ruin Probability Formula">
-</div>
+![Ruin Probability Formula](../assets/pyrite_ruin.png)
 
 <p>
     The findings were catastrophic for classical theory. Even with a theoretical 55% win rate, the probability of hitting a terminal loss cycle within a 1,000-trade sequence is over 98%. This discovery forced us to abandon all linear and exponential staking models in favor of the **Pyrite Liquidity-Adjusted Standard**, which relies on real-time depth analysis.
  
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 3. Architecture: Liquidity-Bounded Inference</h2>
 <p>
     The core innovation of Pyrite is the **Liquidity-Bounded Inference Engine**. This layer calculates the "Maximum Scalable Unit" for every triggered signal based on real-time market depth and historical slippage data.
@@ -391,14 +381,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/academic_pyrite_liquidity.png" alt="Liquidity Formula">
-</div>
+![Liquidity Formula](../assets/academic_pyrite_liquidity.png)
 
-<div class="figure-container">
-    <img src="../assets/pyrite_volume.png" alt="Pyrite Data Ingestion">
-    <div class="figure-caption">Figure 3.1: Market Depth Ingestion Velocity. Real-time liquidity monitoring is critical for large-scale institutional entries.</div>
-</div>
+![Pyrite Data Ingestion](../assets/pyrite_volume.png)
+*Figure 3.1: Market Depth Ingestion Velocity. Real-time liquidity monitoring is critical for large-scale institutional entries.*
 
 <p>
     Our audit shows that **63.2% of DNA signals** occur in markets with sufficient depth to handle $100k+ entries with less than 1 basis point of slippage. Pyrite's ability to identify these "Deep Alpha" pockets is the primary driver of its institutional success. This ensures that the engine's "Optical ROI" matches its "Realized ROI," a critical requirement for large-scale funds.
@@ -413,19 +399,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_matrix.png" alt="Pyrite Performance Matrix">
-    <div class="figure-caption">Figure 3.2: The Pyrite Performance Matrix. Note the extreme liquidity and capacity scores, reflecting its design for high-volume institutional execution.</div>
-</div>
+![Pyrite Performance Matrix](../assets/pyrite_matrix.png)
+*Figure 3.2: The Pyrite Performance Matrix. Note the extreme liquidity and capacity scores, reflecting its design for high-volume institutional execution.*
 
 <p>
     By enforcing a strict **Slippage Ceiling**, Pyrite prevents the portfolio from chasing low-liquidity alpha that would be eroded by market friction. This result is a significantly more stable performance curve, allowing for higher leverage without increasing the risk of catastrophic drawdown.
  
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 4. Feature Engineering: The Execution Features</h2>
 <p>
     Pyrite's execution layer is powered by a specialized set of features designed to detect informational leakage and market impact.
@@ -440,15 +424,11 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_alpha.png" alt="Alpha Math Formula">
-    <div class="figure-caption">Figure 4.1: The Alpha Execution Logic. Pyrite's feature hierarchy is optimized for low-latency market capture.</div>
-</div>
+![Alpha Math Formula](../assets/pyrite_alpha.png)
+*Figure 4.1: The Alpha Execution Logic. Pyrite's feature hierarchy is optimized for low-latency market capture.*
 
-<div class="figure-container">
-    <img src="../assets/pyrite_decay.png" alt="Momentum Decay Curve">
-    <div class="figure-caption">Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency execution. Pyrite enforces a strict 30-second execution window.</div>
-</div>
+![Momentum Decay Curve](../assets/pyrite_decay.png)
+*Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency execution. Pyrite enforces a strict 30-second execution window.*
 
 <h3>SUBSYSTEM ANALYSIS: 4.2 Cross-Sport Synergy Matrices</h3>
 <p>
@@ -457,18 +437,14 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_synergy.png" alt="Synergy Heatmap">
-    <div class="figure-caption">Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Pyrite builds "Confidence Clusters" to isolate the smartest execution windows.</div>
-</div>
+![Synergy Heatmap](../assets/pyrite_synergy.png)
+*Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Pyrite builds "Confidence Clusters" to isolate the smartest execution windows.*
 
-<div class="figure-container">
-    <img src="../assets/pyrite_importance.png" alt="Pyrite Feature Importance">
-    <div class="figure-caption">Figure 4.4: SHAP Value Distribution. Market depth and execution velocity are the dominant predictors in the Pyrite Series 1 engine.</div>
-</div>
-</div>
+![Pyrite Feature Importance](../assets/pyrite_importance.png)
+*Figure 4.4: SHAP Value Distribution. Market depth and execution velocity are the dominant predictors in the Pyrite Series 1 engine.*
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 5. Validation: The Scalability Performance Audit</h2>
 <p>
     To validate the Pyrite architecture, we executed a multi-threshold audit across the 2026 live cycle. This audit established the <b>Efficient Frontier</b> for high-volume capital deployment.
@@ -511,24 +487,20 @@ tr:nth-child(even) {
     </tbody>
 </table>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_calibration.png" alt="Pyrite Calibration Curve">
-    <div class="figure-caption">Figure 5.1: Execution Calibration Audit. Pyrite maintain high fidelity between predicted slippage and realized price impact.</div>
-</div>
+![Pyrite Calibration Curve](../assets/pyrite_calibration.png)
+*Figure 5.1: Execution Calibration Audit. Pyrite maintain high fidelity between predicted slippage and realized price impact.*
 
 <p>
     <b>The Quantitative Proof:</b> The minimal decay in ROI between retail and sovereign volume levels is a historic achievement. It proves that Pyrite's liquidity-bounded inference logic successfully protects alpha even at the highest levels of capital deployment.
  
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_equity.png" alt="Pyrite Equity Curve">
-    <div class="figure-caption">Figure 5.2: Pyrite Institutional Performance (N=500). The steady upward drift even at sovereign volume levels demonstrates Pyrite's potential as the ultimate scaler.</div>
-</div>
 
-<div class="text-content">
+![Pyrite Equity Curve](../assets/pyrite_equity.png)
+*Figure 5.2: Pyrite Institutional Performance (N=500). The steady upward drift even at sovereign volume levels demonstrates Pyrite's potential as the ultimate scaler.*
+
+
 <h2>TECHNICAL DISCLOSURE: 6. Informational Friction: Fatigue and Entropy</h2>
 <p>
     The Pyrite engine accounts for the biological and systemic limits that degrade signal quality over time and volume.
@@ -543,10 +515,8 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_fatigue.png" alt="Fatigue Decay Curve">
-    <div class="figure-caption">Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.</div>
-</div>
+![Fatigue Decay Curve](../assets/pyrite_fatigue.png)
+*Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.*
 
 <h3>SUBSYSTEM ANALYSIS: 6.2 The "Neutral Trap" (81.9% persistence)</h3>
 <p>
@@ -554,13 +524,13 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="insight-panel">
+
+
     <strong>THE PYRITE EXECUTION RULE:</strong> Every trade must be executed within **30 seconds** of the inference trigger. If the execution window closes, the trade is automatically cancelled, ensuring that the engine never chases a "Stale Line."
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 7. Resolution: The CLV Paradox in Scalable Markets</h2>
 <p>
     The most controversial finding of the Pyrite audit is the disproval of the <b>Closing Line Value (CLV) Paradox</b> for high-volume signals.
@@ -568,19 +538,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_clv.png" alt="CLV Paradox Chart">
-    <div class="figure-caption">Figure 7.1: Realized WR vs. Market Drift. Pyrite signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha is an independent variable that overrides Price Alpha.</div>
-</div>
+![CLV Paradox Chart](../assets/pyrite_clv.png)
+*Figure 7.1: Realized WR vs. Market Drift. Pyrite signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha is an independent variable that overrides Price Alpha.*
 
 <p>
     <b>The Proof:</b> Scalable signals realized staggering win rates even when buying at a worse price than the close. This proves that <b>Momentum Alpha</b> is an independent variable that overrides Price Alpha in high-certainty events. We are not merely beating the price; we are beating the *event certainty*.
  
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 8. Operational Guardrails: Production Integrity</h2>
 <p>
     To ensure the long-term stability of the Pyrite engines, we have implemented several institutional guardrails.
@@ -588,19 +556,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_size.png" alt="Pyrite Sizing Profile">
-    <div class="figure-caption">Figure 8.1: Position Sizing Hierarchy. Pyrite utilizes liquidity-bounded sizing to prevent market impact from eroding alpha.</div>
-</div>
+![Pyrite Sizing Profile](../assets/pyrite_size.png)
+*Figure 8.1: Position Sizing Hierarchy. Pyrite utilizes liquidity-bounded sizing to prevent market impact from eroding alpha.*
 
 <ol>
     <li><b>Institutional Deduplication:</b> Prevents "Correlated Exposure" during a market anomaly.</li>
     <li><b>The Positive Alpha Filter:</b> Rejects any pick where the predicted probability is less than the market's implied probability.</li>
     <li><b>Dynamic Fatigue Blocker:</b> Protects the bankroll from agents entering the entropy zone.</li>
 </ol>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 9. Final Validation: Multi-Path Portfolio Simulation</h2>
 <p>
     The ultimate validation of the Pyrite architecture is its resilience under high-volume stress. We conducted a 2,500-signal Monte Carlo simulation to project the long-term equity curve.
@@ -608,18 +574,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Pyrite liquidity bounds are refreshed on a 1-minute cycle, ensuring that legacy alpha remains executable in high-frequency retail environments.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/pyrite_simulation.png" alt="Pyrite Final Simulation">
-    <div class="figure-caption">Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Pyrite architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for capital deployment.</div>
-</div>
-</div>
+![Pyrite Final Simulation](../assets/pyrite_simulation.png)
+*Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Pyrite architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for capital deployment.*
 
-<div class="quote-block">
+
+
     "The future of predictive intelligence is not found in the static analysis of the past, but in the dynamic management of the present momentum."
-</div>
+
 
 <div class="footer">
     &copy; 2026 Quarry Intelligence Research Division • Pyrite Institutional Release • Strictly Confidential • Printed on Scalable Grade Alpha
-</div>
 
-</div>
+
+

@@ -272,12 +272,12 @@ tr:nth-child(even) {
 
 <header>
     <h1>The Quartz Institutional Framework</h1>
-    <div class="subtitle">A Comprehensive Technical Audit of Systematic Drift Analysis, Multi-Source Consensus Filtering, and the Extraction of Liquidity-Bounded Alpha in Global Markets</div>
+    <div class="subtitle">A Comprehensive Technical Audit of Systematic Drift Analysis, Multi-Source Consensus Filtering, and the Extraction of Liquidity-Bounded Alpha in Global Markets
     <div class="meta-info">
         <span>REPORT-ID: SNIPER-QUARTZ-2026-EN-IV</span>
         <span>CLASSIFICATION: INSTITUTIONAL LEVEL 4 (PROPRIETARY)</span>
         <span>DATE: MAY 17, 2026</span>
-    </div>
+    
 </header>
 
 <div class="abstract-container">
@@ -286,9 +286,9 @@ tr:nth-child(even) {
      
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 1. Introduction: The Mandate for Institutional Stability</h2>
 <p>
     In the hyper-competitive landscape of global predictive markets, the primary challenge for institutional capital is not merely finding alpha, but finding *scalable* alpha. Many high-yield retail strategies collapse when subjected to professional-level trade volumes due to market impact and informational slippage. The Quartz project was initiated to solve this "Liquidity Paradox." Quartz shifts the analytical focus from individual event prediction to the broader <b>Consensus Microstructure</b>.
@@ -298,16 +298,12 @@ tr:nth-child(even) {
 <div class="sidebar-callout">
     <b>THE QUARTZ DOCTRINE:</b><br><br>
     "Scale is the ultimate filter. We do not chase the outlier; we harvest the consensus drift when the market is slow to react to institutional movement."
-</div>
-<div class="figure-container">
-    <img src="../assets/quartz_sport.png" alt="Quartz Market Coverage">
-    <div class="figure-caption">Figure 1.1: Quartz Systematic Deployment. The engine targets high-liquidity market segments where consensus drift is most pronounced.</div>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/quartz_signature.png" alt="Quartz Signature Graphic">
-    <div class="figure-caption">Figure 1.2: The Quartz Signature Graphic. This visualization illustrates the "Consensus Drift Pocket"—the micro-structural gap between opening lines and institutional consensus.</div>
-</div>
+![Quartz Market Coverage](../assets/quartz_sport.png)
+*Figure 1.1: Quartz Systematic Deployment. The engine targets high-liquidity market segments where consensus drift is most pronounced.*
+
+![Quartz Signature Graphic](../assets/quartz_signature.png)
+*Figure 1.2: The Quartz Signature Graphic. This visualization illustrates the "Consensus Drift Pocket"—the micro-structural gap between opening lines and institutional consensus.*
 
 <p>
     The Quartz Signature Graphic visualizes the "Consensus Drift Pocket"—the micro-structural gap between opening lines and institutional consensus. This graphic maps the multi-dimensional drift vectors of "Smart Money" movements as they propagate through the market's liquidity layers. The "Pockets" are represented by localized gravitational wells where the delta between the model's internal probability and the closing line value (CLV) is maximized. These regions represent the highest-value opportunities for Quartz, as they capture informational edges that are actively being priced in by the world's most sophisticated actors.
@@ -326,9 +322,9 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 2. Foundational Research: The Failure of Classical Theories</h2>
 <p>
     The development of Quartz was preceded by an intensive audit of existing consensus strategies. We sought to understand why traditional "Public-Follower" models frequently failed to deliver consistent ROI, identifying the core failure of the independence axiom.
@@ -343,14 +339,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/quartz_rho.png" alt="Autocorrelation Formula">
-</div>
+![Autocorrelation Formula](../assets/quartz_rho.png)
 
-<div class="figure-container">
-    <img src="../assets/quartz_transition.png" alt="State Transition Matrix">
-    <div class="figure-caption">Figure 2.1: Institutional Performance Transitions. Quartz identifies the persistence of high-fidelity signal clusters, moving beyond the random walk hypothesis.</div>
-</div>
+![State Transition Matrix](../assets/quartz_transition.png)
+*Figure 2.1: Institutional Performance Transitions. Quartz identifies the persistence of high-fidelity signal clusters, moving beyond the random walk hypothesis.*
 
 <p>
     With a measured <b>Rho (ρ)</b> that deviates significantly from the null hypothesis, we prove that predictive success is "sticky." This discovery forms the bedrock of Momentum Physics, allowing Quartz to identify clusters of "Smart Money" that are currently in a state of peak accuracy.
@@ -365,18 +357,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/quartz_ruin.png" alt="Ruin Probability Formula">
-</div>
+![Ruin Probability Formula](../assets/quartz_ruin.png)
 
 <p>
     The findings were catastrophic for classical theory. Even with a theoretical 55% win rate, the probability of hitting a terminal loss cycle within a 1,000-trade sequence is over 98%. This discovery forced us to abandon all linear and exponential staking models in favor of the **Quartz Dynamic Kelly Standard**, which relies on consensus volatility weighting.
  
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 3. Architecture: Systematic Drift Analysis</h2>
 <p>
     The core innovation of Quartz is the **Systematic Drift Engine**. Unlike traditional models that treat the current market price as a static variable, Quartz views price movement as a vector with both velocity and informational density.
@@ -391,14 +381,10 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="math-image-container">
-    <img src="../assets/academic_quartz_drift.png" alt="Drift Formula">
-</div>
+![Drift Formula](../assets/academic_quartz_drift.png)
 
-<div class="figure-container">
-    <img src="../assets/quartz_volume.png" alt="Quartz Data Volume">
-    <div class="figure-caption">Figure 3.1: Consensus Data Density. High-volume ingestion is required to accurately model the drift vector across global markets.</div>
-</div>
+![Quartz Data Volume](../assets/quartz_volume.png)
+*Figure 3.1: Consensus Data Density. High-volume ingestion is required to accurately model the drift vector across global markets.*
 
 <p>
     Any deviation between the consensus price and the market price is flagged as **Drift Alpha**. Quartz only triggers when this drift exceeds a strict 5.0% hurdle, ensuring that every trade is backed by significant institutional weight. This filter removes 90% of retail noise, resulting in a much cleaner predictive signal.
@@ -413,19 +399,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_matrix.png" alt="Quartz Performance Matrix">
-    <div class="figure-caption">Figure 3.2: The Quartz Performance Matrix. Note the dominant scores in ROI and Sharpe Ratio, reflecting its status as the flagship institutional engine.</div>
-</div>
+![Quartz Performance Matrix](../assets/quartz_matrix.png)
+*Figure 3.2: The Quartz Performance Matrix. Note the dominant scores in ROI and Sharpe Ratio, reflecting its status as the flagship institutional engine.*
 
 <p>
     By enforcing this barrier, Quartz provides a realistic expectation of live performance, avoiding the "Hindsight Bias" that plagues many backtested strategies. The ESF ensures that the engine's "Optical ROI" matches its "Realized ROI," a critical requirement for multi-million dollar portfolios.
  
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 4. Feature Engineering: The Institutional Alpha Tiers</h2>
 <p>
     Quartz's predictive power is derived from a specialized set of features designed to detect informational drift and market liquidity.
@@ -440,15 +424,11 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_alpha.png" alt="Alpha Math Formula">
-    <div class="figure-caption">Figure 4.1: The Alpha Generation Engine. Quartz's feature hierarchy is optimized to detect early-stage institutional drift.</div>
-</div>
+![Alpha Math Formula](../assets/quartz_alpha.png)
+*Figure 4.1: The Alpha Generation Engine. Quartz's feature hierarchy is optimized to detect early-stage institutional drift.*
 
-<div class="figure-container">
-    <img src="../assets/quartz_decay.png" alt="Momentum Decay Curve">
-    <div class="figure-caption">Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency re-evaluation. Quartz enforces a strict 48-hour freshness protocol.</div>
-</div>
+![Momentum Decay Curve](../assets/quartz_decay.png)
+*Figure 4.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency re-evaluation. Quartz enforces a strict 48-hour freshness protocol.*
 
 <h3>SUBSYSTEM ANALYSIS: 4.2 Cross-Sport Synergy Matrices</h3>
 <p>
@@ -457,18 +437,14 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_synergy.png" alt="Synergy Heatmap">
-    <div class="figure-caption">Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Quartz builds "Confidence Clusters" to isolate the smartest money.</div>
-</div>
+![Synergy Heatmap](../assets/quartz_synergy.png)
+*Figure 4.3: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Quartz builds "Confidence Clusters" to isolate the smartest money.*
 
-<div class="figure-container">
-    <img src="../assets/quartz_importance.png" alt="Quartz Feature Importance">
-    <div class="figure-caption">Figure 4.4: SHAP Value Distribution. Market drift and consensus alignment are the dominant predictors in the Quartz Series 4 engine.</div>
-</div>
-</div>
+![Quartz Feature Importance](../assets/quartz_importance.png)
+*Figure 4.4: SHAP Value Distribution. Market drift and consensus alignment are the dominant predictors in the Quartz Series 4 engine.*
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 5. Validation: The Institutional Performance Audit</h2>
 <p>
     To validate the Quartz architecture, we executed a multi-threshold audit across the 2025-2026 cycle. This audit established the <b>Efficient Frontier</b> for consensus-based capital deployment.
@@ -513,24 +489,20 @@ tr:nth-child(even) {
     </tbody>
 </table>
 
-<div class="figure-container">
-    <img src="../assets/quartz_calibration.png" alt="Quartz Calibration Curve">
-    <div class="figure-caption">Figure 5.1: Model Calibration Audit. Quartz maintains high alignment between consensus intensity and realized win probability.</div>
-</div>
+![Quartz Calibration Curve](../assets/quartz_calibration.png)
+*Figure 5.1: Model Calibration Audit. Quartz maintains high alignment between consensus intensity and realized win probability.*
 
 <p>
     <b>The Strategic Conclusion:</b> While the sample size in the high-selectivity phase is small, the consistency of the 63.6% win rate validates the Quartz drift-detection hypothesis. The model demonstrates a clear ability to filter out low-value noise and focus exclusively on high-certainty institutional moves.
  
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="figure-container">
-    <img src="../assets/quartz_equity.png" alt="Quartz Equity Curve">
-    <div class="figure-caption">Figure 5.2: Quartz Institutional Performance (N=500). The steady upward drift demonstrates Quartz's potential as a primary growth driver for institutional portfolios.</div>
-</div>
 
-<div class="text-content">
+![Quartz Equity Curve](../assets/quartz_equity.png)
+*Figure 5.2: Quartz Institutional Performance (N=500). The steady upward drift demonstrates Quartz's potential as a primary growth driver for institutional portfolios.*
+
+
 <h2>TECHNICAL DISCLOSURE: 6. Informational Friction: Fatigue and Entropy</h2>
 <p>
     The Quartz engine accounts for the biological and systemic limits that degrade signal quality over time and volume.
@@ -545,10 +517,8 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_fatigue.png" alt="Fatigue Decay Curve">
-    <div class="figure-caption">Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.</div>
-</div>
+![Fatigue Decay Curve](../assets/quartz_fatigue.png)
+*Figure 6.1: Win Rate vs. Volume. The catastrophic collapse after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy," mandating a hard filter in the production engine.*
 
 <h3>SUBSYSTEM ANALYSIS: 6.2 The "Neutral Trap" (81.9% persistence)</h3>
 <p>
@@ -556,13 +526,13 @@ tr:nth-child(even) {
  
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="insight-panel">
+
+
     <strong>THE QUARTZ CONSENSUS RULE:</strong> Quartz will automatically veto any signal that is not supported by at least **three independent institutional feeds**. This "Triple-Verification" protocol eliminates the risk of single-source errors or manipulation.
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 7. Resolution: The CLV Paradox in Consensus Markets</h2>
 <p>
     The most controversial finding of the Quartz audit is the disproval of the <b>Closing Line Value (CLV) Paradox</b> for drift-heavy signals.
@@ -570,19 +540,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_clv.png" alt="CLV Paradox Chart">
-    <div class="figure-caption">Figure 7.1: Realized WR vs. Market Drift. Quartz signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha is an independent variable that overrides Price Alpha.</div>
-</div>
+![CLV Paradox Chart](../assets/quartz_clv.png)
+*Figure 7.1: Realized WR vs. Market Drift. Quartz signals thrive in the "Negative Drift" quadrant, proving that Momentum Alpha is an independent variable that overrides Price Alpha.*
 
 <p>
     <b>The Proof:</b> Quartz DNA signals exhibited a negative market drift (Δ = -0.0181) but realized a staggering **80.6% win rate**. This proves that we are not merely beating the price; we are beating the *event certainty* through the physics of success.
  
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 8. Operational Guardrails: Production Integrity</h2>
 <p>
     To ensure the long-term stability of the Quartz engines, we have implemented several institutional guardrails.
@@ -590,19 +558,17 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_size.png" alt="Quartz Sizing Profile">
-    <div class="figure-caption">Figure 8.1: Position Sizing vs. Consensus. Sizing is dynamically scaled based on the intensity of institutional drift and consensus alignment.</div>
-</div>
+![Quartz Sizing Profile](../assets/quartz_size.png)
+*Figure 8.1: Position Sizing vs. Consensus. Sizing is dynamically scaled based on the intensity of institutional drift and consensus alignment.*
 
 <ol>
     <li><b>Institutional Deduplication:</b> Prevents "Correlated Exposure" during a market anomaly.</li>
     <li><b>The Positive Alpha Filter:</b> Rejects any pick where the predicted probability is less than the market's implied probability.</li>
     <li><b>Dynamic Fatigue Blocker:</b> Protects the bankroll from agents entering the entropy zone.</li>
 </ol>
-</div>
 
-<div class="text-content">
+
+
 <h2>TECHNICAL DISCLOSURE: 9. Final Validation: Multi-Path Portfolio Simulation</h2>
 <p>
     The ultimate validation of the Quartz architecture is its resilience under high-volume stress. We conducted a 2,500-signal Monte Carlo simulation to project the long-term equity curve.
@@ -610,18 +576,16 @@ tr:nth-child(even) {
 
 <em>ADDENDUM: Quartz drift analysis incorporates a second-order momentum pass to identify the exact inflection point where informational friction transitions into realized alpha.</em></p>
 
-<div class="figure-container">
-    <img src="../assets/quartz_simulation.png" alt="Quartz Final Simulation">
-    <div class="figure-caption">Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Quartz architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for capital deployment.</div>
-</div>
-</div>
+![Quartz Final Simulation](../assets/quartz_simulation.png)
+*Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Quartz architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for capital deployment.*
 
-<div class="quote-block">
+
+
     "The future of predictive intelligence is not found in the static analysis of the past, but in the dynamic management of the present momentum."
-</div>
+
 
 <div class="footer">
     &copy; 2026 Quarry Intelligence Research Division • Quartz Institutional Release • Strictly Confidential • Printed on Institutional Grade Alpha
-</div>
 
-</div>
+
+
