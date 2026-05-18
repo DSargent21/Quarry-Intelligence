@@ -29,6 +29,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 | **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | Medium (~11 bets/day) | **1676** | **+5.5%** |
 | **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | Low (~7 bets/day) | **304** | **-6.6%** |
 | **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | Medium (~11 bets/day) | **45** | **-41.0%** |
+| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Medium (~10 bets/day) | **10** | **+45.2%** |
 
 > [!IMPORTANT]
 > **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry Intelligence-Intelligence/docs/web/selector.html).
@@ -36,6 +37,11 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 ---
 
 ## 🛰 SYSTEMS OVERVIEW
+
+### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
+*The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
+*   **Mechanism**: Leverages "Surgical DNA" sequencing to isolate institutional-grade win thresholds and high-edge underdog windows.
+*   **Performance**: Optimized for both optical consistency and pure mathematical alpha.
 
 ### V5 SAPPHIRE // THE CONFORMAL ENGINE
 *The definitive shift.* Employs **Split Conformal Prediction** and **Dynamic Momentum** to bound risk and capture institutional-grade win thresholds.
@@ -52,8 +58,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 ### 🔬 DEEP INTELLIGENCE REPORTS
 Comprehensive technical audits and strategy profiles for the current model lineup.
 
-*   **[SERIES 6: KYANITE Audit](docs/reports/KYANITE_REPORT.md)** - Absolute Alpha & Precision
-*   **[SERIES 7: CARNELIAN Audit](docs/reports/CARNELIAN_REPORT.md)** - Capacity & Liquidity Optimization
+*   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
 *   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
 *   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
 *   **[SERIES 3: OBSIDIAN Audit](docs/reports/OBSIDIAN_REPORT.md)** - Advanced Non-Linear Ensembles
@@ -82,7 +87,8 @@ graph TD
     C -->|Advanced| F[V3 OBSIDIAN]
     C -->|Flagship| G[V4 QUARTZ]
     C -->|Premium| J[V5 SAPPHIRE]
-    D & E & F & G & J -->|Simulate| H[DECISION SUPPORT]
+    C -->|Surgical| K[V6 KYANITE & CARNELIAN]
+    D & E & F & G & J & K -->|Simulate| H[DECISION SUPPORT]
     H -->|Render| I[DASHBOARD SUITE]
 ```
 
