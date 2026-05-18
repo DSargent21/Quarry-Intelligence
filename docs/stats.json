@@ -1,6 +1,6 @@
 {
     "meta": {
-        "last_update": "2026-05-18 17:56 UTC",
+        "last_update": "2026-05-18 17:57 UTC",
         "status": "NOMINAL"
     },
     "models": {
@@ -261,15 +261,15 @@
             }
         },
         "carnelian": {
-            "roi": -21.3,
-            "net": -3.0,
-            "wins": 5,
+            "roi": -29.9,
+            "net": -3.9,
+            "wins": 4,
             "losses": 9,
             "pushes": 0,
-            "record": "5-9-0",
-            "win_rate": 35.7,
-            "sample": 14,
-            "bets_day": 7.0,
+            "record": "4-9-0",
+            "win_rate": 30.8,
+            "sample": 13,
+            "bets_day": 6.5,
             "status": "LIQUIDITY",
             "yesterday": {
                 "date": "May 17, 2026",
