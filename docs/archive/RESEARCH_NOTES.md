@@ -281,7 +281,7 @@ We audited the **Billion Dollar DNA** (Hot + Favorites) against the broader mark
 - **Conclusion:** Momentum wave mechanics are **Season-Agnostic**. The "Flow State" of a capper exists independently of the game's stakes, allowing for consistent year-round yield.
 
 #### 📊 Seasonality Stability
-![Seasonality Stability](seasonality_stability.png)
+![Seasonality Stability](../assets/seasonality_stability.png)
 *Figure 14.2: Performance consistency across regular and post-season windows.*
 
 ---

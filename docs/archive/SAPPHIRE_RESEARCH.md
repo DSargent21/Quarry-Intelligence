@@ -29,7 +29,7 @@ We then find the threshold $q$ such that $1-\epsilon$ of the future outcomes wil
 ## 3. Feature Intelligence Mapping
 Our research identified 15 high-signal predictors. The importance of these features was calculated using **Information Gain** (Total reduction in loss contributed by the feature).
 
-![Feature Importance](assets/sapphire_importance.png)
+![Feature Importance](../assets/sapphire_importance.png)
 *Figure 1: Feature Contribution Analysis. ROI Momentum and Market Drift emerged as the primary alpha generators, validating our hypothesis that market movement is a high-fidelity proxy for institutional intent.*
 
 ---
@@ -37,7 +37,7 @@ Our research identified 15 high-signal predictors. The importance of these featu
 ## 4. Probabilistic Calibration
 To verify the model's honesty, we generated a **Reliability Diagram**. A perfectly calibrated model would follow the 45-degree diagonal.
 
-![Calibration Curve](assets/sapphire_calibration.png)
+![Calibration Curve](../assets/sapphire_calibration.png)
 *Figure 2: Reliability Diagram. SAPPHIRE demonstrates elite calibration ($R^2 > 0.98$), indicating that its predicted probabilities align almost perfectly with observed real-world win rates.*
 
 ---
@@ -48,13 +48,13 @@ SAPPHIRE was tested on a strictly isolated 15% holdout set containing the most r
 ### 5.1 Equity Growth
 The cumulative profit curve demonstrates the "Selective Execution" strategy of SAPPHIRE.
 
-![Equity Curve](assets/sapphire_equity.png)
+![Equity Curve](../assets/sapphire_equity.png)
 *Figure 3: Cumulative Alpha Generation. The "stair-step" nature of the curve indicates periods of low-volume waiting followed by rapid capital appreciation during high-confidence regimes.*
 
 ### 5.2 Execution Density
 The model averaged **9.92 bets per day**, providing significant trade volume while maintaining high selectivity.
 
-![Volume Histogram](assets/sapphire_volume.png)
+![Volume Histogram](../assets/sapphire_volume.png)
 *Figure 4: Execution Frequency. The distribution shows a healthy frequency of 5-15 bets per day, ensuring the "Billion-Dollar" volume targets are consistently met.*
 
 ---

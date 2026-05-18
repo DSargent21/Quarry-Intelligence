@@ -303,7 +303,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="math-image-container">
-    <img src="assets/academic_rho.png" alt="Autocorrelation Formula">
+    <img src="../assets/academic_rho.png" alt="Autocorrelation Formula">
 </div>
 
 <p>
@@ -316,7 +316,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="math-image-container">
-    <img src="assets/academic_ruin.png" alt="Ruin Probability Formula">
+    <img src="../assets/academic_ruin.png" alt="Ruin Probability Formula">
 </div>
 
 <p>
@@ -336,7 +336,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_transition.png" alt="Transition Gravity Heatmap">
+    <img src="../assets/academic_transition.png" alt="Transition Gravity Heatmap">
     <div class="figure-caption">Figure 3.1: State Transition Density Matrix. The high diagonal values prove that momentum is a self-sustaining field. Zenith is designed to capture the transition from Neutral (0.819) to Hot (0.719), avoiding the 81.9% "Retail Noise" that is systematically bled by market friction.</div>
 </div>
 
@@ -350,7 +350,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="math-image-container">
-    <img src="assets/academic_alpha.png" alt="Alpha Decay Formula">
+    <img src="../assets/academic_alpha.png" alt="Alpha Decay Formula">
 </div>
 
 <p>
@@ -358,7 +358,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_decay.png" alt="Momentum Decay Curve">
+    <img src="../assets/academic_decay.png" alt="Momentum Decay Curve">
     <div class="figure-caption">Figure 3.2: Expected Win-Rate Decay vs. Time. The rapid collapse of signal integrity necessitates high-frequency re-evaluation. A 72-hour old signal has lost over 60% of its predictive power.</div>
 </div>
 </div>
@@ -375,7 +375,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_synergy.png" alt="Synergy Heatmap">
+    <img src="../assets/academic_synergy.png" alt="Synergy Heatmap">
     <div class="figure-caption">Figure 4.1: Cross-Sport Momentum Synergy. The heatmap reveals a 57.7% correlation between Soccer success and subsequent NHL alpha. Zenith builds "Confidence Clusters" to isolate the smartest money in the global ecosystem.</div>
 </div>
 
@@ -385,7 +385,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_fatigue.png" alt="Fatigue Decay Curve">
+    <img src="../assets/academic_fatigue.png" alt="Fatigue Decay Curve">
     <div class="figure-caption">Figure 4.2: Win Rate vs. Volume. The catastrophic collapse to 47.9% after 13 bets in a 24-hour cycle indicates the onset of "Fatigue Entropy." Decision quality drops below the market baseline, mandating a hard filter in the production engine.</div>
 </div>
 </div>
@@ -464,7 +464,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="math-image-container">
-    <img src="assets/academic_accel.png" alt="Acceleration Formula">
+    <img src="../assets/academic_accel.png" alt="Acceleration Formula">
 </div>
 
 <h3>6.2 Carnelian (Model-C): The Bayesian Value Engine</h3>
@@ -473,7 +473,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_matrix.png" alt="Performance Matrix">
+    <img src="../assets/academic_matrix.png" alt="Performance Matrix">
     <div class="figure-caption">Figure 6.1: Strategic Performance Matrix. Kyanite maximizes the Win-Rate and Optical Consistency, while Carnelian maximizes the Bayesian Yield and Underdog Capture. Both models outperform the institutional baseline through their respective specializations.</div>
 </div>
 </div>
@@ -485,7 +485,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="math-image-container">
-    <img src="assets/academic_edge.png" alt="Edge Formula">
+    <img src="../assets/academic_edge.png" alt="Edge Formula">
 </div>
 
 <p>
@@ -493,7 +493,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_clv.png" alt="CLV Paradox Chart">
+    <img src="../assets/academic_clv.png" alt="CLV Paradox Chart">
     <div class="figure-caption">Figure 7.1: Realized WR vs. Market Drift. Zenith DNA signals (Top Left) thrive in the "Negative Drift" quadrant, proving absolute alpha extraction without the requirement for line-efficient chaisng.</div>
 </div>
 </div>
@@ -517,7 +517,7 @@ tr:nth-child(even) {
 </p>
 
 <div class="figure-container">
-    <img src="assets/academic_simulation.png" alt="Zenith Final Simulation">
+    <img src="../assets/academic_simulation.png" alt="Zenith Final Simulation">
     <div class="figure-caption">Figure 9.1: Long-Term Institutional Projection. In a 2,500-trade sequence, the Zenith architecture demonstrates consistent positive drift with minimal catastrophic variance, validating its readiness for multi-billion dollar capital deployment. The 99.6% survival probability establishes it as a Tier-1 financial instrument.</div>
 </div>
 </div>

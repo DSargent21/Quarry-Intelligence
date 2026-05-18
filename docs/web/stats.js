@@ -1,6 +1,6 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-05-17 14:43 UTC",
+        "last_update": "2026-05-18 10:48 UTC",
         "status": "NOMINAL"
     },
     "models": {
@@ -81,42 +81,32 @@ window.QUARRY_STATS = {
             }
         },
         "sapphire": {
-            "roi": -34.7,
-            "net": -9.0,
-            "wins": 6,
-            "losses": 15,
+            "roi": -41.7,
+            "net": -9.6,
+            "wins": 9,
+            "losses": 20,
             "pushes": 0,
-            "record": "6-15-0",
-            "win_rate": 28.6,
-            "sample": 21,
-            "bets_day": 7.0,
+            "record": "9-20-0",
+            "win_rate": 31.0,
+            "sample": 29,
+            "bets_day": 4.8,
             "status": "PREMIUM",
             "yesterday": {
-                "date": "May 15, 2026",
-                "record": "2-0-0",
-                "win_rate": 100.0,
-                "net": 5.45,
-                "roi": 90.9,
+                "date": "May 16, 2026",
+                "record": "0-1-0",
+                "win_rate": 0.0,
+                "net": -1.0,
+                "roi": -100.0,
                 "ledger": [
                     {
-                        "pick_date": "05/15",
-                        "result": "WIN",
-                        "league_name": "WNBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "sun +15.5 vs aces",
-                        "edge": 0.12044688917341684,
-                        "wager_unit": 3.0,
-                        "profit_actual": 2.7272727272727275
-                    },
-                    {
-                        "pick_date": "05/15",
-                        "result": "WIN",
+                        "pick_date": "05/16",
+                        "result": "LOSS",
                         "league_name": "NBA",
-                        "decimal_odds": 1.9090909090909092,
-                        "pick_norm": "pistons +4.5 vs cavs",
-                        "edge": 0.12044688917341684,
-                        "wager_unit": 3.0,
-                        "profit_actual": 2.7272727272727275
+                        "decimal_odds": 2.63,
+                        "pick_norm": "new york city fc ml vs new york red bulls",
+                        "edge": 0.07252493013447225,
+                        "wager_unit": 1.0,
+                        "profit_actual": -1.0
                     }
                 ]
             }
@@ -141,43 +131,23 @@ window.QUARRY_STATS = {
             }
         },
         "carnelian": {
-            "roi": 45.2,
-            "net": 4.5,
-            "wins": 6,
+            "roi": 7.1,
+            "net": 0.6,
+            "wins": 4,
             "losses": 4,
             "pushes": 0,
-            "record": "6-4-0",
-            "win_rate": 60.0,
-            "sample": 10,
-            "bets_day": 10.0,
+            "record": "4-4-0",
+            "win_rate": 50.0,
+            "sample": 8,
+            "bets_day": 8.0,
             "status": "LIQUIDITY",
             "yesterday": {
                 "date": "May 16, 2026",
-                "record": "6-4-0",
-                "win_rate": 60.0,
-                "net": 4.52,
-                "roi": 45.2,
+                "record": "4-4-0",
+                "win_rate": 50.0,
+                "net": 0.57,
+                "roi": 7.1,
                 "ledger": [
-                    {
-                        "pick_date": "05/16",
-                        "result": "WIN",
-                        "league_name": "MLB",
-                        "decimal_odds": 2.6100000000000003,
-                        "pick_norm": "padres ml vs mariners",
-                        "edge": 0.06945317344190521,
-                        "wager_unit": 1.0,
-                        "profit_actual": 1.6100000000000003
-                    },
-                    {
-                        "pick_date": "05/16",
-                        "result": "WIN",
-                        "league_name": "Other",
-                        "decimal_odds": 2.6,
-                        "pick_norm": "alianza atletico ml vs juan pablo ii college",
-                        "edge": 0.06996468397287225,
-                        "wager_unit": 1.0,
-                        "profit_actual": 1.6
-                    },
                     {
                         "pick_date": "05/16",
                         "result": "WIN",
@@ -186,27 +156,17 @@ window.QUARRY_STATS = {
                         "pick_norm": "buffalo sabres ml vs montreal canadiens buffalo sabres",
                         "edge": 0.08286312865275958,
                         "wager_unit": 1.0,
-                        "profit_actual": 1.5499999999999998
+                        "profit_actual": 1.55
                     },
                     {
                         "pick_date": "05/16",
                         "result": "WIN",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.49,
-                        "pick_norm": "sabres ml vs canadiens",
-                        "edge": 0.0651284902689448,
+                        "league_name": "MLB",
+                        "decimal_odds": 2.2,
+                        "pick_norm": "san francisco giants ml vs oakland athletics san francisco giants",
+                        "edge": 0.06325984628652737,
                         "wager_unit": 1.0,
-                        "profit_actual": 1.4900000000000002
-                    },
-                    {
-                        "pick_date": "05/16",
-                        "result": "WIN",
-                        "league_name": "Combat",
-                        "decimal_odds": 2.3600000000000003,
-                        "pick_norm": "andre petroski ml vs cody brundage",
-                        "edge": 0.0623199146682934,
-                        "wager_unit": 1.0,
-                        "profit_actual": 1.3600000000000003
+                        "profit_actual": 1.2
                     },
                     {
                         "pick_date": "05/16",
@@ -220,11 +180,21 @@ window.QUARRY_STATS = {
                     },
                     {
                         "pick_date": "05/16",
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "red sox vs braves under 8",
+                        "edge": 0.06020580447330444,
+                        "wager_unit": 1.0,
+                        "profit_actual": 0.9090909090909092
+                    },
+                    {
+                        "pick_date": "05/16",
                         "result": "LOSS",
-                        "league_name": "NHL",
-                        "decimal_odds": 2.5300000000000002,
-                        "pick_norm": "buffalo sabres vs montreal canadiens montreal canadiens -1.5",
-                        "edge": 0.07151966262240661,
+                        "league_name": "Combat",
+                        "decimal_odds": 2.45,
+                        "pick_norm": "benardo sopaj ml vs timothy cuamba",
+                        "edge": 0.07662095941913735,
                         "wager_unit": 1.0,
                         "profit_actual": -1.0
                     },
@@ -241,20 +211,20 @@ window.QUARRY_STATS = {
                     {
                         "pick_date": "05/16",
                         "result": "LOSS",
-                        "league_name": "Other",
-                        "decimal_odds": 3.46,
-                        "pick_norm": "borussia dortmund ml vs sv werder bremen",
-                        "edge": 0.18117139587512593,
+                        "league_name": "NHL",
+                        "decimal_odds": 2.53,
+                        "pick_norm": "buffalo sabres vs montreal canadiens montreal canadiens -1.5",
+                        "edge": 0.07151966262240661,
                         "wager_unit": 1.0,
                         "profit_actual": -1.0
                     },
                     {
                         "pick_date": "05/16",
                         "result": "LOSS",
-                        "league_name": "NCAAB",
-                        "decimal_odds": 2.8,
-                        "pick_norm": "mike perry ml vs nate diaz",
-                        "edge": 0.09944949405533926,
+                        "league_name": "NBA",
+                        "decimal_odds": 2.63,
+                        "pick_norm": "new york city fc ml vs new york red bulls",
+                        "edge": 0.07252493013447225,
                         "wager_unit": 1.0,
                         "profit_actual": -1.0
                     }
