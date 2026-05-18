@@ -5,13 +5,14 @@
   <p style="font-family: monospace; letter-spacing: 2px; color: #888;">INSTITUTIONAL ALGORITHMIC ANALYTICS</p>
   <br />
 
-  [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry-Intelligence/web/selector.html)
-  [![Series 5 ROI](https://img.shields.io/badge/SERIES_5_ROI--16.4u-2563EB?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)
-  [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI--24.5u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)
+  [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry Intelligence-Intelligence/selector.html)
+  [![Quarry Intelligence ROI](https://img.shields.io/badge/SERIES_7_ROI-+0.6u-D4AF37?style=for-the-badge)](https://ducky705.github.io/Quarry Intelligence-Intelligence/Quarry Intelligence_comparison.html)
+  [![Series 5 ROI](https://img.shields.io/badge/SERIES_5_ROI--9.6u-2563EB?style=for-the-badge)](https://ducky705.github.io/Quarry Intelligence-Intelligence/sapphire.html)
+  [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI-+0.0u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry Intelligence-Intelligence/quartz.html)
 
   <br />
   <br />
-  <a href="https://ducky705.github.io/Quarry-Intelligence/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
+  <a href="https://ducky705.github.io/Quarry Intelligence-Intelligence/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
   <br />
   <br />
 </div>
@@ -24,24 +25,20 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | High (~24 bets/day) | **4330** | **-6.5%** |
-| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | Medium (~14 bets/day) | **2347** | **+1.0%** |
-| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | Medium (~11 bets/day) | **1676** | **+5.5%** |
-| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | Low (~7 bets/day) | **304** | **-6.6%** |
-| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | Medium (~11 bets/day) | **45** | **-41.0%** |
-| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Medium (~10 bets/day) | **10** | **+45.2%** |
+| **[SERIES 7: KYANITE](https://ducky705.github.io/Quarry Intelligence-Intelligence/Quarry Intelligence_comparison.html)** | `MAY 15, 2026` | `ABSOLUTE ALPHA` <br> Precision | 🔥 **NEW** | None (0 bets/day) | **0** | **+0.0%** |
+| **[SERIES 7: CARNELIAN](https://ducky705.github.io/Quarry Intelligence-Intelligence/Quarry Intelligence_comparison.html)** | `MAY 15, 2026` | `CAPACITY` <br> Liquidity | 🔥 **NEW** | Low (~8 bets/day) | **8** | **+7.1%** |
+| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry Intelligence-Intelligence/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | None (0 bets/day) | **0** | **+0.0%** |
+| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry Intelligence-Intelligence/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | None (0 bets/day) | **0** | **+0.0%** |
+| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry Intelligence-Intelligence/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | None (0 bets/day) | **0** | **+0.0%** |
+| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry Intelligence-Intelligence/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | None (0 bets/day) | **0** | **+0.0%** |
+| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry Intelligence-Intelligence/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | Low (~9 bets/day) | **29** | **-41.7%** |
 
 > [!IMPORTANT]
-> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/web/selector.html).
+> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry Intelligence-Intelligence/selector.html).
 
 ---
 
 ## 🛰 SYSTEMS OVERVIEW
-
-### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
-*The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
-*   **Mechanism**: Leverages "Surgical DNA" sequencing to isolate institutional-grade win thresholds and high-edge underdog windows.
-*   **Performance**: Optimized for both optical consistency and pure mathematical alpha.
 
 ### V5 SAPPHIRE // THE CONFORMAL ENGINE
 *The definitive shift.* Employs **Split Conformal Prediction** and **Dynamic Momentum** to bound risk and capture institutional-grade win thresholds.
@@ -50,29 +47,6 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 ### V4 QUARTZ // THE PRISM
 *The flagship standard.* Utilizes **Correct Shift** logic to identify opening line inefficiencies.
-
----
-
-## 📚 KNOWLEDGE BASE
-
-### 🔬 DEEP INTELLIGENCE REPORTS
-Comprehensive technical audits and strategy profiles for the current model lineup.
-
-*   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
-*   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
-*   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
-*   **[SERIES 3: OBSIDIAN Audit](docs/reports/OBSIDIAN_REPORT.md)** - Advanced Non-Linear Ensembles
-*   **[SERIES 2: DIAMOND Audit](docs/reports/DIAMOND_REPORT.md)** - Precision Core & Refined Filtering
-*   **[SERIES 1: PYRITE Audit](docs/reports/PYRITE_REPORT.md)** - Legacy High-Frequency Core
-
-### 🏛️ LEGACY ARCHIVES
-Historical research, methodology versions, and experimental results.
-
-*   **[Deep Mining Report](docs/archive/DEEP_MINING_REPORT.md)** - Foundational research on market inefficiencies.
-*   **[Momentum Physics](docs/archive/MOMENTUM_PHYSICS.md)** - Theoretical basis for V5 velocity engines.
-*   **[Quantum Results](docs/archive/QUANTUM_RESULTS.md)** - Experimental V4 quantum-enhanced backtests.
-*   **[Stress Test Results](docs/archive/STRESS_TEST_RESULTS.md)** - Robustness analysis under extreme market drift.
-*   **[Methodology V2](docs/archive/methodology_v2.md)** | **[Methodology V1](docs/archive/methodology_v1.md)**
 
 ---
 
@@ -87,8 +61,7 @@ graph TD
     C -->|Advanced| F[V3 OBSIDIAN]
     C -->|Flagship| G[V4 QUARTZ]
     C -->|Premium| J[V5 SAPPHIRE]
-    C -->|Surgical| K[V6 KYANITE & CARNELIAN]
-    D & E & F & G & J & K -->|Simulate| H[DECISION SUPPORT]
+    D & E & F & G & J -->|Simulate| H[DECISION SUPPORT]
     H -->|Render| I[DASHBOARD SUITE]
 ```
 
