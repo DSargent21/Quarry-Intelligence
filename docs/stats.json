@@ -1,6 +1,6 @@
 {
     "meta": {
-        "last_update": "2026-05-18 11:58 UTC",
+        "last_update": "2026-05-18 11:59 UTC",
         "status": "NOMINAL"
     },
     "models": {
@@ -81,15 +81,15 @@
             }
         },
         "sapphire": {
-            "roi": -41.2,
-            "net": -13.6,
+            "roi": -40.1,
+            "net": -13.2,
             "wins": 11,
-            "losses": 32,
+            "losses": 31,
             "pushes": 0,
-            "record": "11-32-0",
-            "win_rate": 25.6,
-            "sample": 43,
-            "bets_day": 8.6,
+            "record": "11-31-0",
+            "win_rate": 26.2,
+            "sample": 42,
+            "bets_day": 8.4,
             "status": "PREMIUM",
             "yesterday": {
                 "date": "May 17, 2026",
