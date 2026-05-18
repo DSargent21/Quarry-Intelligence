@@ -1,6 +1,9 @@
 name: Daily Quarry Pipeline
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 9 * * *' # 10:00 AM CET/CEST (European Central Time)
   workflow_dispatch:

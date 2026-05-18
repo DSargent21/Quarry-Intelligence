@@ -5,13 +5,13 @@
   <p style="font-family: monospace; letter-spacing: 2px; color: #888;">INSTITUTIONAL ALGORITHMIC ANALYTICS</p>
   <br />
 
-  [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry-Intelligence/selector.html)
-  [![Series 5 ROI](https://img.shields.io/badge/SERIES_5_ROI--16.4u-2563EB?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/sapphire.html)
-  [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI--24.5u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/quartz.html)
+  [![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white)](https://ducky705.github.io/Quarry-Intelligence/web/selector.html)
+  [![Series 5 ROI](https://img.shields.io/badge/SERIES_5_ROI--16.4u-2563EB?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)
+  [![Series 4 ROI](https://img.shields.io/badge/SERIES_4_ROI--24.5u-f8fafc?style=for-the-badge)](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)
 
   <br />
   <br />
-  <a href="https://ducky705.github.io/Quarry Intelligence-Intelligence/docs/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
+  <a href="https://ducky705.github.io/Quarry-Intelligence/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
   <br />
   <br />
 </div>
@@ -24,15 +24,15 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | High (~24 bets/day) | **4330** | **-6.5%** |
-| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | Medium (~14 bets/day) | **2347** | **+1.0%** |
-| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | Medium (~11 bets/day) | **1676** | **+5.5%** |
-| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | Low (~7 bets/day) | **304** | **-6.6%** |
-| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | Medium (~11 bets/day) | **45** | **-41.0%** |
-| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Medium (~10 bets/day) | **10** | **+45.2%** |
+| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | High (~24 bets/day) | **4330** | **-6.5%** |
+| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | Medium (~14 bets/day) | **2347** | **+1.0%** |
+| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | Medium (~11 bets/day) | **1676** | **+5.5%** |
+| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | Low (~7 bets/day) | **304** | **-6.6%** |
+| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | Medium (~11 bets/day) | **45** | **-41.0%** |
+| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Medium (~10 bets/day) | **10** | **+45.2%** |
 
 > [!IMPORTANT]
-> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry Intelligence-Intelligence/docs/web/selector.html).
+> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/web/selector.html).
 
 ---
 
