@@ -1,6 +1,6 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-05-18 17:54 UTC",
+        "last_update": "2026-05-18 17:56 UTC",
         "status": "NOMINAL"
     },
     "models": {
@@ -124,7 +124,7 @@ window.QUARRY_STATS = {
                         "league_name": "MLB",
                         "decimal_odds": 2.15,
                         "pick_norm": "phillies ml vs pirates",
-                        "edge": 0.264883978422298,
+                        "edge": 0.26318047767461733,
                         "wager_unit": 0.71,
                         "profit_actual": 0.8164999999999999
                     },
