@@ -1,6 +1,6 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-05-19 14:37 UTC",
+        "last_update": "2026-05-19 14:40 UTC",
         "status": "NOMINAL"
     },
     "models": {
