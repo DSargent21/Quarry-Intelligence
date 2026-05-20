@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from pipeline import SportsDataPipeline, FeatureEngineer
-from models import ModelSimulator
+from models_legacy import ModelSimulator
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
