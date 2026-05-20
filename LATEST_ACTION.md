@@ -1,234 +1,119 @@
-# 📝 Daily Action Log (2026-05-17)
+# 📝 Daily Action Log (2026-05-19)
 
 ### Kyanite Kyanite Action
-*No action found.*
+| LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| NBA | knicks -7 vs cavs | -110 | 1.0 | ✅ | +0.91u |
+| NBA | knicks -6.5 vs cavs | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cavs vs knicks under 218 | -110 | 1.0 | ❌ | -1.00u |
+| WNBA | toronto tempo vs mercury over 171 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cavs vs knicks over 217.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | brewers vs cubs under 8 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | knicks -6 vs cavs | -110 | 1.0 | ✅ | +0.91u |
+| MLB | orioles vs rays under 8 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | giants vs diamondbacks over 8 | -110 | 1.0 | ❌ | -1.00u |
+| MLB | guardians vs tigers under 8 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cavs vs knicks over 216 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | as vs angels over 9 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | blue jays vs yankees over 8.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | blue jays vs yankees under 9 | -110 | 1.0 | ❌ | -1.00u |
+| WNBA | toronto tempo +8 vs mercury | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cleveland cavaliers vs new york knicks new york knicks -7 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | over 217.5 | -110 | 1.0 | ✅ | +0.91u |
+| Soccer | manchester city -1 vs afc bournemouth | -110 | 1.0 | ❌ | -1.00u |
+| MLB | braves vs marlins over 8 | -110 | 1.0 | ✅ | +0.91u |
+| Other | mets vs nationals over 8.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | braves vs marlins under 8.5 | -110 | 1.0 | ❌ | -1.00u |
+
+**Daily PnL (Settled): +10.45 Units**
+
 
 ### Carnelian Carnelian Action
-*No action found.*
+| LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| NBA | knicks -7 vs cavs | -110 | 1.0 | ✅ | +0.91u |
+| NBA | knicks -6.5 vs cavs | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cavs vs knicks under 218 | -110 | 1.0 | ❌ | -1.00u |
+| WNBA | toronto tempo vs mercury over 171 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cavs vs knicks over 217.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | brewers vs cubs under 8 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | knicks -6 vs cavs | -110 | 1.0 | ✅ | +0.91u |
+| MLB | orioles vs rays under 8 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | giants vs diamondbacks over 8 | -110 | 1.0 | ❌ | -1.00u |
+| MLB | guardians vs tigers under 8 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cavs vs knicks over 216 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | as vs angels over 9 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | blue jays vs yankees over 8.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | blue jays vs yankees under 9 | -110 | 1.0 | ❌ | -1.00u |
+| WNBA | toronto tempo +8 vs mercury | -110 | 1.0 | ✅ | +0.91u |
+| NBA | cleveland cavaliers vs new york knicks new york knicks -7 | -110 | 1.0 | ✅ | +0.91u |
+| NBA | over 217.5 | -110 | 1.0 | ✅ | +0.91u |
+| Soccer | manchester city -1 vs afc bournemouth | -110 | 1.0 | ❌ | -1.00u |
+| MLB | braves vs marlins over 8 | -110 | 1.0 | ✅ | +0.91u |
+| Other | mets vs nationals over 8.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | braves vs marlins under 8.5 | -110 | 1.0 | ❌ | -1.00u |
+| MLB | padres +1.5 vs dodgers | -110 | 1.0 | ✅ | +0.91u |
+| WNBA | mercury -8 vs toronto tempo | -110 | 1.0 | ❌ | -1.00u |
+| Other | reds vs phillies over 8.5 | -110 | 1.0 | ❌ | -1.00u |
+| MLB | astros vs twins under 8.5 | -110 | 1.0 | ✅ | +0.91u |
+| MLB | giants vs diamondbacks over 8.5 | +100 | 1.0 | ❌ | -1.00u |
+| MLB | orioles ml vs rays | +109 | 1.0 | ❌ | -1.00u |
+| MLB | atlanta braves ml vs miami marlins miami marlins | +126 | 1.0 | ❌ | -1.00u |
+| MLB | astros ml vs twins | +127 | 1.0 | ✅ | +1.27u |
+| MLB | giants ml vs diamondbacks | +111 | 1.0 | ❌ | -1.00u |
+
+**Daily PnL (Settled): +7.54 Units**
+
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | sky +4.5 vs lynx | -110 | 0.1 | ✅ | +0.05u |
-| WNBA | dream +3 vs aces | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs vs pistons under 206.5 | -110 | 0.1 | ❌ | -0.06u |
-| WNBA | dream +3 vs aces | -110 | 0.1 | ✅ | +0.05u |
-| WNBA | sky +4.5 vs lynx | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs vs pistons under 206.5 | -110 | 0.1 | ❌ | -0.06u |
-| NBA | cavs vs pistons under 206.5 | -110 | 0.1 | ❌ | -0.06u |
-| WNBA | dream +3 vs aces | -110 | 0.1 | ✅ | +0.05u |
-| WNBA | sky +4.5 vs lynx | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| NBA | detroit pistons -4 | -110 | 0.1 | ❌ | -0.05u |
-| NBA | cleveland cavaliers vs detroit pistons detroit pistons -4 | -110 | 0.1 | ❌ | -0.05u |
-| NBA | detroit pistons -4 | -110 | 0.1 | ❌ | -0.05u |
-| NBA | cleveland cavaliers vs detroit pistons detroit pistons -4 | -110 | 0.1 | ❌ | -0.05u |
-| NBA | detroit pistons -4 | -110 | 0.1 | ❌ | -0.05u |
-| NBA | cleveland cavaliers vs detroit pistons detroit pistons -4 | -110 | 0.1 | ❌ | -0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| WNBA | lynx -4.5 vs sky | -110 | 0.0 | ❌ | -0.04u |
-| WNBA | lynx -4.5 vs sky | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| WNBA | lynx -4.5 vs sky | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| MLB | baltimore orioles ml vs washington nationals baltimore orioles | -129 | 0.1 | ✅ | +0.05u |
-| MLB | baltimore orioles ml vs washington nationals baltimore orioles | -129 | 0.1 | ✅ | +0.05u |
-| NBA | cavs vs pistons under 205.5 | -110 | 0.0 | ❌ | -0.04u |
-| NBA | event cleveland cavaliers ml vs detroit pistons | -110 | 0.0 | ❌ | -0.04u |
-| NBA | cavs vs pistons under 205.5 | -110 | 0.0 | ❌ | -0.04u |
-| NBA | event cleveland cavaliers ml vs detroit pistons | -110 | 0.0 | ❌ | -0.04u |
-| NBA | event cleveland cavaliers ml vs detroit pistons | -110 | 0.0 | ❌ | -0.04u |
-| NBA | cavs vs pistons under 205.5 | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| MLB | blue jays ml vs tigers | +117 | 0.1 | ❌ | -0.06u |
-| NBA | cleveland cavaliers vs detroit pistons detroit pistons -4.5 | -110 | 0.0 | ❌ | -0.04u |
-| NBA | cleveland cavaliers vs detroit pistons detroit pistons -4.5 | -110 | 0.0 | ❌ | -0.04u |
-| MLB | blue jays ml vs tigers | +117 | 0.1 | ❌ | -0.06u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| MLB | blue jays ml vs tigers | +117 | 0.1 | ❌ | -0.06u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| NBA | cleveland cavaliers vs detroit pistons detroit pistons -4.5 | -110 | 0.0 | ❌ | -0.04u |
-| MLB | marlins vs rays over 7 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | marlins ml vs rays | +138 | 0.1 | ❌ | -0.06u |
-| MLB | marlins vs rays over 7 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | marlins ml vs rays | +138 | 0.1 | ❌ | -0.06u |
-| MLB | marlins vs rays over 7 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | marlins ml vs rays | +138 | 0.1 | ❌ | -0.06u |
-| WNBA | aces -2.5 vs dream | -110 | 0.0 | ❌ | -0.04u |
-| WNBA | aces -2.5 vs dream | -110 | 0.0 | ❌ | -0.04u |
-| MLB | yankees ml vs mets | +115 | 0.1 | ✅ | +0.07u |
-| Other | sam burns ml vs christopher gotterup | -110 | 0.0 | ✅ | +0.03u |
-| MLB | dodgers ml vs angels | +136 | 0.1 | ❌ | -0.06u |
-| WNBA | dream -1.5 vs aces | -110 | 0.0 | ❌ | -0.03u |
-| Other | sam burns ml vs christopher gotterup | -110 | 0.0 | ✅ | +0.03u |
-| WNBA | dream -1.5 vs aces | -110 | 0.0 | ❌ | -0.03u |
-| MLB | yankees ml vs mets | +115 | 0.1 | ✅ | +0.07u |
-| MLB | dodgers ml vs angels | +136 | 0.1 | ❌ | -0.06u |
-| MLB | dodgers ml vs angels | +136 | 0.1 | ❌ | -0.06u |
-| Other | sam burns ml vs christopher gotterup | -110 | 0.0 | ✅ | +0.03u |
-| MLB | yankees ml vs mets | +115 | 0.1 | ✅ | +0.07u |
-| WNBA | dream -1.5 vs aces | -110 | 0.0 | ❌ | -0.03u |
-| MLB | diamondbacks ml vs rockies | +130 | 0.1 | ❌ | -0.06u |
-| MLB | orioles ml vs nationals | +110 | 0.1 | ❌ | -0.06u |
-| MLB | yankees ml vs mets | -106 | 0.1 | ✅ | +0.05u |
-| MLB | yankees ml vs mets | -106 | 0.1 | ✅ | +0.06u |
-| WNBA | aces -3 vs dream | -110 | 0.1 | ❌ | -0.06u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.1 | ✅ | +0.05u |
-| WNBA | aces -3 vs dream | -110 | 0.1 | ❌ | -0.06u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.1 | ✅ | +0.05u |
-| WNBA | aces -3 vs dream | -110 | 0.1 | ❌ | -0.06u |
-| MLB | cubs ml vs white sox | +121 | 0.1 | ✅ | +0.07u |
-| MLB | cubs ml vs white sox | +121 | 0.1 | ✅ | +0.07u |
-| MLB | cubs ml vs white sox | +121 | 0.1 | ✅ | +0.07u |
-| MLB | yankees ml vs mets | -106 | 0.1 | ✅ | +0.05u |
-| WNBA | aces -3 vs dream | -110 | 0.0 | ❌ | -0.03u |
-| MLB | marlins ml vs rays | +138 | 0.1 | ❌ | -0.06u |
-| WNBA | aces -3 vs dream | -110 | 0.0 | ❌ | -0.03u |
-| MLB | marlins ml vs rays | +138 | 0.1 | ❌ | -0.06u |
-| MLB | yankees ml vs mets | -106 | 0.1 | ✅ | +0.05u |
-| MLB | yankees ml vs mets | -106 | 0.1 | ✅ | +0.05u |
-| WNBA | aces -3 vs dream | -110 | 0.0 | ❌ | -0.03u |
-| MLB | marlins ml vs rays | +138 | 0.1 | ❌ | -0.06u |
-| MLB | diamondbacks vs rockies over 11 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | dodgers ml vs angels | +136 | 0.1 | ❌ | -0.06u |
-| MLB | dodgers ml vs angels | +136 | 0.1 | ❌ | -0.06u |
-| NBA | cavs vs pistons under 207 | -110 | 0.0 | ❌ | -0.04u |
-| MLB | yankees ml vs mets | +115 | 0.1 | ✅ | +0.07u |
-| Other | joaquin niemann ml vs kristoffer reitan | -110 | 0.0 | ✅ | +0.04u |
-| MLB | cubs ml vs white sox | +123 | 0.1 | ✅ | +0.07u |
-| MLB | cubs ml vs white sox | +123 | 0.1 | ✅ | +0.07u |
-| MLB | yankees ml vs mets | +115 | 0.1 | ✅ | +0.07u |
-| Other | joaquin niemann ml vs kristoffer reitan | -110 | 0.0 | ✅ | +0.04u |
-| NBA | cavs vs pistons under 207 | -110 | 0.0 | ❌ | -0.04u |
-| Other | joaquin niemann ml vs kristoffer reitan | -110 | 0.0 | ✅ | +0.04u |
-| MLB | yankees ml vs mets | +115 | 0.1 | ✅ | +0.07u |
-| MLB | cubs ml vs white sox | +123 | 0.1 | ✅ | +0.07u |
-| NBA | cavs vs pistons under 207 | -110 | 0.0 | ❌ | -0.04u |
-| WNBA | sky vs lynx under 170.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | cubs ml vs white sox | +123 | 0.1 | ✅ | +0.07u |
-| WNBA | sky vs lynx under 170.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | cubs ml vs white sox | +123 | 0.1 | ✅ | +0.07u |
-| MLB | diamondbacks ml vs rockies | +130 | 0.1 | ❌ | -0.06u |
-| MLB | diamondbacks ml vs rockies | +130 | 0.1 | ❌ | -0.06u |
-| MLB | diamondbacks ml vs rockies | +130 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| WNBA | sky vs lynx under 170.5 | -110 | 0.0 | ✅ | +0.03u |
-| WNBA | sky vs lynx under 170.5 | -110 | 0.0 | ✅ | +0.03u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.0 | ✅ | +0.03u |
-| WNBA | sky +5 vs lynx | -110 | 0.0 | ✅ | +0.03u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.0 | ✅ | +0.03u |
-| WNBA | event seattle storm ml vs indiana fever | -110 | 0.1 | ❌ | -0.05u |
-| WNBA | event seattle storm ml vs indiana fever | -110 | 0.1 | ❌ | -0.05u |
-| Other | phillies ml vs pirates | -132 | 0.1 | ❌ | -0.06u |
-| Other | phillies ml vs pirates | -132 | 0.1 | ❌ | -0.06u |
-| Other | phillies ml vs pirates | -132 | 0.1 | ❌ | -0.06u |
-| MLB | brewers ml vs twins | +108 | 0.1 | ✅ | +0.06u |
-| MLB | dodgers vs angels over 9.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | giants vs as over 9.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | reds vs guardians over 8.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | reds vs guardians over 8.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | giants vs as over 9.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | dodgers vs angels over 9.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | brewers ml vs twins | +108 | 0.1 | ✅ | +0.06u |
-| MLB | dodgers vs angels over 9.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | brewers ml vs twins | +108 | 0.1 | ✅ | +0.06u |
-| MLB | reds vs guardians over 8.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | giants vs as over 9.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | phillies ml vs pirates | +115 | 0.1 | ✅ | +0.07u |
-| MLB | phillies ml vs pirates | +115 | 0.1 | ✅ | +0.07u |
-| MLB | phillies ml vs pirates | +115 | 0.1 | ✅ | +0.07u |
-| MLB | blue jays ml vs tigers | +110 | 0.1 | ❌ | -0.06u |
-| MLB | blue jays ml vs tigers | +110 | 0.1 | ❌ | -0.06u |
-| MLB | blue jays ml vs tigers | +110 | 0.1 | ❌ | -0.06u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| MLB | royals ml vs cardinals | -103 | 0.1 | ✅ | +0.06u |
-| MLB | royals ml vs cardinals | -103 | 0.1 | ✅ | +0.06u |
-| MLB | royals ml vs cardinals | -103 | 0.1 | ✅ | +0.06u |
-| MLB | yankees ml vs mets | -110 | 0.1 | ✅ | +0.05u |
-| WNBA | aces -3 vs dream | -110 | 0.0 | ❌ | -0.03u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.0 | ✅ | +0.03u |
-| MLB | orioles ml vs nationals | +110 | 0.1 | ❌ | -0.06u |
-| MLB | yankees ml vs mets | -110 | 0.1 | ✅ | +0.05u |
-| MLB | orioles ml vs nationals | +110 | 0.1 | ❌ | -0.06u |
-| WNBA | aces -3 vs dream | -110 | 0.0 | ❌ | -0.03u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.0 | ✅ | +0.03u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.0 | ✅ | +0.03u |
-| WNBA | aces -3 vs dream | -110 | 0.0 | ❌ | -0.03u |
-| MLB | orioles ml vs nationals | +110 | 0.1 | ❌ | -0.06u |
-| MLB | yankees ml vs mets | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| NBA | cavs +4.5 vs pistons | -110 | 0.1 | ✅ | +0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| MLB | phillies vs pirates under 7 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | phillies vs pirates under 7 | -110 | 0.1 | ✅ | +0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| MLB | phillies vs pirates under 7 | -110 | 0.1 | ✅ | +0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | cubs vs white sox over 8.5 | -110 | 0.1 | ✅ | +0.05u |
-| MLB | royals ml vs cardinals | +100 | 0.1 | ✅ | +0.06u |
-| MLB | reds ml vs guardians | +149 | 0.1 | ❌ | -0.06u |
-| WNBA | sky +5 vs lynx | -110 | 0.0 | ✅ | +0.04u |
-| WNBA | sky +5 vs lynx | -110 | 0.0 | ✅ | +0.04u |
-| MLB | reds ml vs guardians | +149 | 0.1 | ❌ | -0.06u |
-| MLB | royals ml vs cardinals | +100 | 0.1 | ✅ | +0.06u |
-| MLB | royals ml vs cardinals | +100 | 0.1 | ✅ | +0.06u |
-| MLB | reds ml vs guardians | +149 | 0.1 | ❌ | -0.06u |
-| WNBA | sky +5 vs lynx | -110 | 0.0 | ✅ | +0.04u |
-| MLB | orioles vs nationals under 10 | -110 | 0.0 | ❌ | -0.04u |
-| MLB | blue jays vs tigers under 8 | -110 | 0.0 | ✅ | +0.04u |
-| NBA | cavs vs pistons over 205.5 | -110 | 0.0 | ✅ | +0.04u |
-| NBA | cavs vs pistons over 205.5 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | blue jays vs tigers under 8 | -110 | 0.0 | ✅ | +0.04u |
-| MLB | orioles vs nationals under 10 | -110 | 0.0 | ❌ | -0.04u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| NBA | pistons -4.5 vs cavs | -110 | 0.1 | ❌ | -0.05u |
-| MLB | new york mets ml | -110 | 0.0 | ✅ | +0.04u |
-| MLB | new york mets ml | -110 | 0.0 | ✅ | +0.04u |
-| MLB | event baltimore orioles ml vs washington nationals | -117 | 0.1 | ❌ | -0.06u |
-| MLB | event baltimore orioles ml vs washington nationals | -117 | 0.1 | ❌ | -0.06u |
-| MLB | event baltimore orioles ml vs washington nationals | -117 | 0.1 | ❌ | -0.06u |
-| NBA | event cleveland cavaliers ml vs detroit pistons | -110 | 0.1 | ❌ | -0.05u |
-| NBA | event cleveland cavaliers ml vs detroit pistons | -110 | 0.1 | ❌ | -0.05u |
-| NBA | event cleveland cavaliers ml vs detroit pistons | -110 | 0.1 | ❌ | -0.05u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -108 | 0.1 | ✅ | +0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -108 | 0.1 | ✅ | +0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event san diego padres ml vs seattle mariners | -110 | 0.1 | ❌ | -0.06u |
-| MLB | event arizona diamondbacks ml vs colorado rockies | +102 | 0.1 | ❌ | -0.06u |
-| MLB | event arizona diamondbacks ml vs colorado rockies | +102 | 0.1 | ❌ | -0.06u |
+| NBA | knicks -7 vs cavs | -110 | 0.3 | ✅ | +0.29u |
+| MLB | braves ml vs marlins | -133 | 0.1 | ✅ | +0.08u |
+| MLB | braves vs marlins over 8 | -110 | 0.3 | ✅ | +0.31u |
+| Other | mets vs nationals over 8.5 | -110 | 0.3 | ✅ | +0.31u |
+| MLB | blue jays vs yankees over 8.5 | -110 | 0.3 | ✅ | +0.31u |
+| MLB | giants vs diamondbacks over 8 | -110 | 0.3 | ❌ | -0.33u |
+| MLB | orioles vs rays under 8 | -110 | 0.3 | ✅ | +0.30u |
+| NBA | knicks -7 vs cavs | -110 | 0.4 | ✅ | +0.34u |
+| NBA | cleveland cavaliers vs new york knicks new york knicks -7 | -110 | 0.4 | ✅ | +0.34u |
+| MLB | guardians vs tigers under 8 | -110 | 0.3 | ✅ | +0.29u |
+| NBA | knicks -6 vs cavs | -110 | 0.3 | ✅ | +0.28u |
+| MLB | orioles vs rays under 8 | -110 | 0.3 | ✅ | +0.28u |
+| MLB | giants vs diamondbacks over 8 | -110 | 0.3 | ❌ | -0.31u |
+| NBA | knicks -6.5 vs cavs | -110 | 0.4 | ✅ | +0.33u |
+| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 0.3 | ✅ | +0.25u |
+| NBA | cavs vs knicks over 216 | -110 | 0.3 | ✅ | +0.25u |
+| NBA | knicks -6.5 vs cavs | -110 | 0.3 | ✅ | +0.30u |
+| NBA | knicks -6.5 vs cavs | -110 | 0.4 | ✅ | +0.38u |
+| NBA | cavs vs knicks under 218 | -110 | 0.3 | ❌ | -0.30u |
+| NBA | knicks -6.5 vs cavs | -110 | 0.3 | ✅ | +0.26u |
+| MLB | braves ml vs marlins | -136 | 0.2 | ✅ | +0.18u |
+| MLB | brewers vs cubs under 8 | -110 | 0.3 | ✅ | +0.25u |
+| MLB | braves vs marlins under 8.5 | -110 | 0.3 | ❌ | -0.27u |
+| WNBA | toronto tempo +8 vs mercury | -110 | 0.3 | ✅ | +0.25u |
+| MLB | brewers vs cubs under 7.5 | -110 | 0.3 | ✅ | +0.25u |
+| WNBA | toronto tempo vs mercury over 171 | -110 | 0.4 | ✅ | +0.34u |
+| NBA | knicks -7 vs cavs | -110 | 0.4 | ✅ | +0.34u |
+| NBA | cavs vs knicks over 217.5 | -110 | 0.4 | ✅ | +0.34u |
+| NBA | knicks -7 vs cavs | -110 | 0.3 | ✅ | +0.28u |
+| MLB | blue jays vs yankees over 8.5 | -110 | 0.3 | ✅ | +0.28u |
+| NBA | knicks -7 vs cavs | -110 | 0.3 | ✅ | +0.29u |
+| MLB | blue jays vs yankees under 9 | -110 | 0.2 | ❌ | -0.25u |
 
-**Daily PnL (Settled): -0.62 Units**
+**Daily PnL (Settled): +6.23 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | dream +3 vs aces | 1.91 | 2.2 | ✅ | +1.97u |
-| MLB | blue jays ml vs tigers | 2.14 | 2.1 | ❌ | -2.12u |
-| Other | rc lens ml vs olympique lyonnais | 1.72 | 1.9 | ❌ | -1.95u |
-| MLB | dodgers vs angels over 9.5 | 1.91 | 1.9 | ✅ | +1.75u |
-| MLB | reds vs guardians over 8.5 | 1.91 | 1.8 | ✅ | +1.66u |
+| Other | henan songshan longmen ml vs tianjin jinmen tiger | 2.60 | 3.0 | ✅ | +4.80u |
+| MLB | as vs angels over 9 | 1.91 | 3.0 | ✅ | +2.73u |
+| MLB | guardians vs tigers under 8 | 1.91 | 2.4 | ✅ | +2.22u |
 
-**Daily PnL (Settled): +1.32 Units**
+**Daily PnL (Settled): +9.75 Units**
 
 
 ### V3 Obsidian Action
