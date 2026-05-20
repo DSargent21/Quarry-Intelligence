@@ -173,6 +173,8 @@ class ModelSimulator:
                 if risk > 10.0: group['wager_unit'] *= (10.0 / risk)
                 return group
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
+            if 'pick_date' not in final.columns:
+                final['pick_date'] = active.loc[final.index, 'pick_date']
             
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             final['edge'] = final['prob'] - final['implied_prob']
@@ -212,6 +214,9 @@ class ModelSimulator:
                 return group[group['wager_unit'] > 0]
             
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
+            if 'pick_date' not in final.columns:
+                final['pick_date'] = active.loc[final.index, 'pick_date']
+
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             return final
         except Exception as e:
@@ -261,15 +266,8 @@ class ModelSimulator:
                 return group
                 
             final = final.groupby('pick_date', group_keys=False).apply(cap_daily_risk)
-            # If pick_date is lost from columns but exists in index, bring it back
             if 'pick_date' not in final.columns:
-                if final.index.name == 'pick_date':
-                    final = final.reset_index()
-                elif 'pick_date' in cand.columns:
-                    # Final fallback: merge back the date from candidate pool
-                    final = final.join(cand[['pick_date']], how='left', rsuffix='_ref')
-                    if 'pick_date' not in final.columns and 'pick_date_ref' in final.columns:
-                        final = final.rename(columns={'pick_date_ref': 'pick_date'})
+                final['pick_date'] = cand.loc[final.index, 'pick_date']
 
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             return final

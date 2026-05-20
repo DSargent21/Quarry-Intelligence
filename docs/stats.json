@@ -1,6 +1,6 @@
 {
     "meta": {
-        "last_update": "2026-05-20 22:04 UTC",
+        "last_update": "2026-05-20 22:49 UTC",
         "status": "NOMINAL"
     },
     "models": {
@@ -13,15 +13,166 @@
             "record": "22838-23709-0",
             "win_rate": 49.1,
             "sample": 46547,
-            "bets_day": 0,
+            "bets_day": 258.6,
             "status": "LEGACY",
             "yesterday": {
-                "date": "May 21, 2026",
-                "record": "0-0-0",
-                "win_rate": 0,
-                "net": 0,
-                "roi": 0,
-                "ledger": []
+                "date": "May 19, 2026",
+                "record": "123-104-0",
+                "win_rate": 54.2,
+                "net": 0.31,
+                "roi": 3.1,
+                "ledger": [
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.35,
+                        "pick_norm": "white sox ml vs mariners",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.0659290197956817,
+                        "edge": 0.3736248226947328
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.35,
+                        "pick_norm": "reds ml vs phillies",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.0659290197956817,
+                        "edge": 0.3736248226947328
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.27,
+                        "pick_norm": "astros ml vs twins",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.06202211491890057,
+                        "edge": 0.2519549872609036
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.27,
+                        "pick_norm": "astros ml vs twins",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.06202211491890057,
+                        "edge": 0.2253557874870994
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.25,
+                        "pick_norm": "reds ml vs phillies",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.061045388699705286,
+                        "edge": 0.3437930298858074
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.17,
+                        "pick_norm": "astros ml vs twins",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.05713848382292414,
+                        "edge": 0.12985249274128774
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "Soccer",
+                        "decimal_odds": 2.05,
+                        "pick_norm": "bournemouth +0.75",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.05127812650775243,
+                        "edge": 0.05542625014590291
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.0,
+                        "pick_norm": "event san francisco giants ml vs arizona diamondbacks",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.04883631095976423,
+                        "edge": 0.07014311474118218
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NHL",
+                        "decimal_odds": 1.9803921568627452,
+                        "pick_norm": "rangers ml vs rockies",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.047878736235062974,
+                        "edge": 0.2208533685352979
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9615384615384617,
+                        "pick_norm": "pirates ml vs cardinals",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.04695799130746561,
+                        "edge": 0.22535578748709928
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9615384615384617,
+                        "pick_norm": "karl-anthony towns assists over 4.5",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.04695799130746561,
+                        "edge": 0.08575499441131973
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9615384615384617,
+                        "pick_norm": "event milwaukee brewers ml vs chicago cubs",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.04695799130746561,
+                        "edge": 0.05735804678527423
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9523809523809523,
+                        "pick_norm": "event milwaukee brewers ml vs chicago cubs",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.046510772342632595,
+                        "edge": 0.09684671604691686
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9523809523809523,
+                        "pick_norm": "pirates ml vs cardinals",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.046510772342632595,
+                        "edge": 0.2519549872609036
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9433962264150944,
+                        "pick_norm": "event cleveland guardians ml vs detroit tigers",
+                        "wager_unit": 0.04883631095976423,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.046071991471475685,
+                        "edge": 0.07014311474118218
+                    }
+                ]
             }
         },
         "diamond": {
@@ -33,15 +184,166 @@
             "record": "7852-7459-0",
             "win_rate": 51.3,
             "sample": 15311,
-            "bets_day": 0,
+            "bets_day": 90.1,
             "status": "STABLE",
             "yesterday": {
-                "date": "May 21, 2026",
-                "record": "0-0-0",
-                "win_rate": 0,
-                "net": 0,
-                "roi": 0,
-                "ledger": []
+                "date": "May 19, 2026",
+                "record": "28-15-0",
+                "win_rate": 65.1,
+                "net": 2.07,
+                "roi": 24.7,
+                "ledger": [
+                    {
+                        "result": "WIN",
+                        "league_name": "NHL",
+                        "decimal_odds": 1.9803921568627452,
+                        "pick_norm": "rangers ml vs rockies",
+                        "edge": 0.445049504950495,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.19607843137254904
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9615384615384617,
+                        "pick_norm": "karl-anthony towns assists over 4.5",
+                        "edge": 0.14482227383548263,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.19230769230769235
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -6.5 vs cavs",
+                        "edge": 0.4261904761904761,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "cleveland cavaliers vs new york knicks new york knicks -7",
+                        "edge": 0.4261904761904761,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -7 vs cavs",
+                        "edge": 0.4261904761904761,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -7 vs cavs",
+                        "edge": 0.4261904761904761,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -7 vs cavs",
+                        "edge": 0.4261904761904761,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -6 vs cavs",
+                        "edge": 0.37937590048183056,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "cavs vs knicks over 217.5",
+                        "edge": 0.32433404711819147,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -6.5 vs cavs",
+                        "edge": 0.3745198981887664,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -7 vs cavs",
+                        "edge": 0.4261904761904761,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -7 vs cavs",
+                        "edge": 0.08469946951517038,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "cleveland cavaliers vs new york knicks new york knicks -7",
+                        "edge": 0.08469946951517038,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -6.5 vs cavs",
+                        "edge": 0.06931851054795102,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.9090909090909092,
+                        "pick_norm": "knicks -6.5 vs cavs",
+                        "edge": 0.0544141919240374,
+                        "wager_unit": 0.2,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.18181818181818185
+                    }
+                ]
             }
         },
         "obsidian": {
@@ -53,15 +355,136 @@
             "record": "811-905-0",
             "win_rate": 47.3,
             "sample": 1716,
-            "bets_day": 0,
+            "bets_day": 12.0,
             "status": "ADVANCED",
             "yesterday": {
-                "date": "May 21, 2026",
-                "record": "0-0-0",
-                "win_rate": 0,
-                "net": 0,
-                "roi": 0,
-                "ledger": []
+                "date": "May 19, 2026",
+                "record": "4-8-0",
+                "win_rate": 33.3,
+                "net": -3.01,
+                "roi": -30.2,
+                "ledger": [
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.35,
+                        "pick_norm": "white sox ml vs mariners",
+                        "edge": 0.10000000000000003,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": 1.1205
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.35,
+                        "pick_norm": "reds ml vs phillies",
+                        "edge": 0.10000000000000003,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": 1.1205
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.8771929824561404,
+                        "pick_norm": "new york knicks -6.5",
+                        "edge": 0.11499999999999999,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.7280701754385965
+                    },
+                    {
+                        "result": "WIN",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.8,
+                        "pick_norm": "boston red sox ml",
+                        "edge": 0.11142857142857143,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": 0.664
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "NBA",
+                        "decimal_odds": 1.99009900990099,
+                        "pick_norm": "new york knicks ml",
+                        "edge": 0.12571428571428567,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9433962264150944,
+                        "pick_norm": "tampa bay rays ml",
+                        "edge": 0.1171428571428571,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.6896551724137931,
+                        "pick_norm": "cincinnati reds ml",
+                        "edge": 0.10571428571428565,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 1.9803921568627452,
+                        "pick_norm": "milwaukee brewers ml",
+                        "edge": 0.10285714285714287,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.23,
+                        "pick_norm": "braves ml vs marlins",
+                        "edge": 0.10000000000000003,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.1799999999999997,
+                        "pick_norm": "red sox ml vs royals",
+                        "edge": 0.10000000000000003,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.1100000000000003,
+                        "pick_norm": "giants ml vs diamondbacks",
+                        "edge": 0.10000000000000003,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    },
+                    {
+                        "result": "LOSS",
+                        "league_name": "MLB",
+                        "decimal_odds": 2.38,
+                        "pick_norm": "c.j. abrams over 1.5",
+                        "edge": 0.10000000000000003,
+                        "wager_unit": 0.83,
+                        "pick_date": "05/19",
+                        "profit_actual": -0.83
+                    }
+                ]
             }
         },
         "quartz": {
