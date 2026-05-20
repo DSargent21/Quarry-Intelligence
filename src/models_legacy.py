@@ -450,7 +450,7 @@ class ModelSimulator:
             cand = cand.sort_values(['pick_date', 'prob'], ascending=[True, False])
             cand = cand.drop_duplicates(subset=['pick_date', 'pick_norm'], keep='first')
             cand['wager_unit'] = 1.0
-            cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(temp['decimal_odds']-1), 
+            cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(cand['decimal_odds']-1), 
                                              np.where(cand['outcome']==0, -cand['wager_unit'], 0))
             return cand
         except Exception as e:
