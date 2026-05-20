@@ -267,15 +267,14 @@ def run_daily_update():
     
     # [BILLION DOLLAR GUARD]: Ensure script only runs once per day
     last_run_file = os.path.join(BASE_DIR, 'docs', 'last_run.txt')
-    if os.path.exists(last_run_file):
+    force_update = os.environ.get('FORCE_UPDATE') == 'true'
+    
+    if os.path.exists(last_run_file) and not force_update:
         try:
             with open(last_run_file, 'r') as f:
                 content = f.read()
                 if "Last successful run:" in content:
                     date_str = content.split("Last successful run:")[1].strip()
-                    # Parse the date. Format: "Mon May 18 11:19:38 UTC 2026"
-                    # We only care about the date part.
-                    # A robust way is to just check if the current date (UTC) is in the string.
                     today_utc = datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%b %d')
                     year_utc = datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%Y')
                     
@@ -463,6 +462,10 @@ def run_daily_update():
     with open('docs/pipeline_summary.json', 'w') as f:
         json.dump(summary, f, indent=4)
         
+    # [HEARTBEAT]: Update heartbeat file ONLY on successful data processing
+    with open(last_run_file, 'w') as f:
+        f.write(f"Last successful run: {datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%a %b %d %H:%M:%S UTC %Y')}")
+
     # 5. Update Markdown Reports
     try:
         update_markdown_reports(models)
@@ -487,6 +490,7 @@ def run_daily_update():
         logger.error(f"❌ Comparison Chart Generation Failed: {e}")
     
     logger.info("✅ Daily Update Complete.")
+
 
 if __name__ == "__main__":
     run_daily_update()

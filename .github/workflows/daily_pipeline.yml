@@ -112,19 +112,16 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          # 1. Update heartbeat to ensure we ALWAYS have a change to push (Force-trigger website update)
-          echo 'Last successful run: '$(date) > docs/last_run.txt
-
-          # 2. Institutional Commit Logic
+          # 1. Institutional Commit Logic
           git config --global user.email bot@quarry.institutional
           git config --global user.name QuarryBot
 
           git add -A
 
           if [[ -z $(git status --porcelain) ]]; then
-            echo 'No changes to commit (Unexpected but safe).'
+            echo 'No changes to commit (Pipeline skipped or no new data).'
           else
-            git commit -m '📈 Auto-Update: Daily Pipeline Sync ['$(date +'%Y-%m-%d')']'
+            git commit -m '📈 Auto-Update: Daily Pipeline Sync ['$(date +'%Y-%m-%d')'] [skip ci]'
 
             # [BILLION DOLLAR SYNC]: Rebase with autostash handles concurrent manual pushes
             # We use the PAT-authenticated remote to ensure the push triggers 'Deploy Website'
