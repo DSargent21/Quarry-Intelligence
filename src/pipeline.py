@@ -282,35 +282,48 @@ class FeatureEngineer:
         daily['capper_win_rate_30d'] = daily['acc_30d']
         
         # 4. Join back to original picks
-        daily_features = daily.reset_index().drop(columns=['pick_date']).rename(columns={'known_date': 'pick_date'})
-        
-        # Collect all required feature columns
-        feat_cols = ['capper_id', 'pick_date'] + \
-                    [f'acc_{s}' for s in ['7d', '30d']] + \
+        # [BILLION DOLLAR ROBUSTNESS]: Use merge_asof to ensure cappers who don't bet daily 
+        # still have their most recent stats associated with their next picks.
+        feat_cols = [f'acc_{s}' for s in ['7d', '30d']] + \
                     [f'roi_{s}' for s in ['7d', '30d']] + \
                     [f'vol_{s}' for s in ['7d', '30d']] + \
                     [f'roll_acc_{s}' for s in ['7d', '30d']] + \
                     [f'roll_roi_{s}' for s in ['7d', '30d']] + \
                     [f'roll_vol_{s}' for s in ['7d', '30d']] + \
                     ['roll_sharpe_30d', 'capper_roi_std_30d', 'capper_win_rate_30d']
+
+        daily_features = daily.rename(columns={'known_date': 'feat_date'}).sort_values('feat_date')
+        df = df.sort_values('pick_date')
         
-        df = df.merge(daily_features[feat_cols], on=['capper_id', 'pick_date'], how='left')
+        df = pd.merge_asof(
+            df, 
+            daily_features[['capper_id', 'feat_date'] + feat_cols],
+            left_on='pick_date', 
+            right_on='feat_date', 
+            by='capper_id', 
+            direction='backward'
+        )
         
         # 5. Consensus & Aux Features (Lagged Only)
-        # We rely on v4_consensus_count_lag1 which is already day-shifted below
-        
-        # Consensus Lagging Logic
-        cons = df.groupby(['league_name', 'pick_norm', 'pick_date']).size().reset_index(name='count')
-        cons['known_date'] = cons['pick_date'] + pd.Timedelta(days=1)
-        cons_roll = cons.sort_values(['league_name', 'pick_norm', 'known_date'])
-        
         # Proper rolling consensus (known only after T+1)
-        cons_roll['v4_consensus_count_lag1'] = cons_roll.groupby(['league_name', 'pick_norm'])['count'].transform(
+        cons = df.groupby(['league_name', 'pick_norm', 'pick_date']).size().reset_index(name='count')
+        cons['feat_date'] = cons['pick_date'] + pd.Timedelta(days=1)
+        cons = cons.sort_values('feat_date')
+        
+        # For consensus, we can't easily merge_asof because it's by (league, pick)
+        # But we can forward fill the consensus counts too
+        cons['v4_consensus_count_lag1'] = cons.groupby(['league_name', 'pick_norm'])['count'].transform(
             lambda x: x.shift(1).rolling(7, min_periods=1).mean()
         ).fillna(1)
         
-        cons_final = cons_roll[['league_name', 'pick_norm', 'known_date', 'v4_consensus_count_lag1']].rename(columns={'known_date': 'pick_date'})
-        df = df.merge(cons_final, on=['league_name', 'pick_norm', 'pick_date'], how='left')
+        df = pd.merge_asof(
+            df,
+            cons[['league_name', 'pick_norm', 'feat_date', 'v4_consensus_count_lag1']],
+            left_on='pick_date',
+            right_on='feat_date',
+            by=['league_name', 'pick_norm'],
+            direction='backward'
+        )
         df['v4_consensus_count_lag1'] = df['v4_consensus_count_lag1'].fillna(1)
 
         # 6. Final Defaults

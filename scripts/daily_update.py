@@ -65,9 +65,13 @@ def update_markdown_reports(models):
         return p, roi, wr
 
     def get_volume_text(d):
-        if d is None or d.empty: return "None (0 bets/day)"
-        days = (d['pick_date'].max() - d['pick_date'].min()).days + 1
-        avg = len(d) / max(days, 1)
+        if d is None or d.empty or 'pick_date' not in d.columns: return "None (0 bets/day)"
+        try:
+            days = (d['pick_date'].max() - d['pick_date'].min()).days + 1
+            avg = len(d) / max(days, 1)
+        except:
+            return "None (0 bets/day)"
+            
         if avg > 50: cat = "Very High"
         elif avg > 20: cat = "High"
         elif avg > 10: cat = "Medium"
@@ -102,14 +106,15 @@ def update_markdown_reports(models):
     # --- 1. LATEST_ACTION.md ---
     dates = []
     for d in [v1, v2, v3, v4, v5, Kyanite, Carnelian]:
-        if d is not None and not d.empty: dates.append(d['pick_date'].max())
+        if d is not None and not d.empty and 'pick_date' in d.columns: 
+            dates.append(d['pick_date'].max())
     
     last_date = max(dates) if dates else datetime.now()
     
-    log_content = f"# 📝 Daily Action Log ({last_date.date()})\n\n"
+    log_content = f"# 📝 Daily Action Log ({last_date.date() if hasattr(last_date, 'date') else last_date})\n\n"
     
     def make_table(df, title):
-        if df is None or df.empty: return ""
+        if df is None or df.empty or 'pick_date' not in df.columns: return f"### {title}\n*No action found.*\n\n"
         t = f"### {title}\n"
         t += "| LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |\n"
         t += "| :--- | :--- | :--- | :--- | :--- | :--- |\n"
@@ -260,6 +265,26 @@ graph TD
 def run_daily_update():
     logger.info("🚀 Starting Daily Update Pipeline")
     
+    # [BILLION DOLLAR GUARD]: Ensure script only runs once per day
+    last_run_file = os.path.join(BASE_DIR, 'docs', 'last_run.txt')
+    if os.path.exists(last_run_file):
+        try:
+            with open(last_run_file, 'r') as f:
+                content = f.read()
+                if "Last successful run:" in content:
+                    date_str = content.split("Last successful run:")[1].strip()
+                    # Parse the date. Format: "Mon May 18 11:19:38 UTC 2026"
+                    # We only care about the date part.
+                    # A robust way is to just check if the current date (UTC) is in the string.
+                    today_utc = datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%b %d')
+                    year_utc = datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%Y')
+                    
+                    if today_utc in date_str and year_utc in date_str:
+                        logger.info(f"🛑 Pipeline already completed successfully today ({date_str}). Skipping run.")
+                        return
+        except Exception as e:
+            logger.warning(f"⚠️ Could not verify last run date: {e}. Proceeding anyway.")
+
     if not pre_flight_check():
         logger.error("❌ Pre-flight check failed. Aborting.")
         sys.exit(1)
@@ -386,7 +411,7 @@ def run_daily_update():
                 "record": f"{wins}-{losses}-{pushes}",
                 "win_rate": round(wins / (wins + losses) * 100, 1) if (wins + losses) > 0 else 0,
                 "sample": len(res),
-                "bets_day": round(len(res) / (max((res['pick_date'].max() - res['pick_date'].min()).days, 0) + 1), 1) if not res.empty else 0,
+                "bets_day": round(len(res) / (max((res['pick_date'].max() - res['pick_date'].min()).days, 0) + 1), 1) if not res.empty and 'pick_date' in res.columns else 0,
                 "status": {
                     "pyrite": "LEGACY",
                     "diamond": "STABLE",

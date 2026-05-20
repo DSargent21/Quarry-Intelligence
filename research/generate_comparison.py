@@ -9,7 +9,7 @@ from datetime import datetime
 # Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 from pipeline import SportsDataPipeline, FeatureEngineer
-from models import ModelSimulator
+from models_legacy import ModelSimulator
 
 def generate_comparison_chart(models=None):
     print("🚀 Generating Comparative Alpha Graphs...")
@@ -47,7 +47,8 @@ def generate_comparison_chart(models=None):
 
     # Extract Cumulative Series
     def get_series(res_df, label):
-        if res_df.empty: return pd.Series(dtype=float)
+        if res_df is None or res_df.empty or 'pick_date' not in res_df.columns: 
+            return pd.Series(dtype=float, name=label)
         
         # Chronological Sort
         res_df = res_df.sort_values('pick_date').copy()
