@@ -331,25 +331,10 @@ def run_daily_update():
         except:
              stats_output["models"][name]["bets_day"] = 0.0
 
-    # 4. Save Stats
+    # 4. Save Cache (Machine-Readable Summary)
     docs_dir = os.path.abspath(os.path.join(BASE_DIR, 'docs'))
-    web_dir = os.path.abspath(os.path.join(docs_dir, 'web'))
-    os.makedirs(web_dir, exist_ok=True)
+    os.makedirs(docs_dir, exist_ok=True)
     
-    logger.info(f"📊 Saving stats to: {docs_dir} and {web_dir}")
-    
-    for target_dir in [docs_dir, web_dir]:
-        json_path = os.path.join(target_dir, 'stats.json')
-        js_path = os.path.join(target_dir, 'stats.js')
-        
-        with open(json_path, 'w') as f:
-            json.dump(stats_output, f, indent=4)
-            
-        with open(js_path, 'w') as f:
-            f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
-            
-        logger.info(f"✅ Saved stats to {os.path.basename(target_dir) if os.path.basename(target_dir) else 'docs'}")
-        
     # [BILLION DOLLAR OPTIMIZATION]: Cache results
     cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
     try:
@@ -360,16 +345,16 @@ def run_daily_update():
         
     # 4c. Export Machine-Readable Summary for GHA
     summary = {
-        "last_update": stats_output['meta']['last_update'],
+        "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
         "data_range": f"{raw_df['pick_date'].min().date()} to {raw_df['pick_date'].max().date()}" if not raw_df.empty else "N/A",
         "total_rows": len(raw_df),
         "picks_identified": {m: len(models[m]) for m in models}
     }
-    with open('docs/pipeline_summary.json', 'w') as f:
+    with open(os.path.join(docs_dir, 'pipeline_summary.json'), 'w') as f:
         json.dump(summary, f, indent=4)
         
     # [HEARTBEAT]: Update heartbeat file ONLY on successful data processing
-    with open(last_run_file, 'w') as f:
+    with open(os.path.join(docs_dir, 'last_run.txt'), 'w') as f:
         f.write(f"Last successful run: {et_now.strftime('%a %b %d %H:%M:%S ET %Y')}")
 
     # 5. Update Markdown Reports
@@ -378,8 +363,8 @@ def run_daily_update():
     except Exception as e:
         logger.error(f"❌ Failed to update markdown reports: {e}")
 
-    # 6. Generate Assets (Plots & HTML Injection)
-    logger.info("🎨 Generating Assets...")
+    # 6. Generate Assets (Plots, JSON, & HTML Injection)
+    logger.info("🎨 Generating Dashboard Assets...")
     try:
         import scripts.generate_assets as generate_assets
         generate_assets.generate_live_assets(models=models)

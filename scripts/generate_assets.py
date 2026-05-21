@@ -1,3 +1,6 @@
+from src.pipeline import SportsDataPipeline, FeatureEngineer
+from src.models_legacy import ModelSimulator
+from src.utils.stats import StatsEngine
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -8,23 +11,6 @@ import json
 import re
 import matplotlib.dates as mdates
 import sys
-
-# [BILLION DOLLAR STABILITY]: Prevent Segfaults (Exit Code 139) on resource-constrained runners
-os.environ['OMP_NUM_THREADS'] = '1'
-os.environ['MKL_NUM_THREADS'] = '1'
-os.environ['OPENBLAS_NUM_THREADS'] = '1'
-os.environ['VECLIB_MAXIMUM_THREADS'] = '1'
-os.environ['NUMEXPR_NUM_THREADS'] = '1'
-
-# Add project root to sys.path
-script_dir = os.path.dirname(os.path.abspath(__file__))
-root_dir = os.path.abspath(os.path.join(script_dir, ".."))
-if root_dir not in sys.path:
-    sys.path.append(root_dir)
-
-from src.pipeline import SportsDataPipeline, FeatureEngineer
-from src.models_legacy import ModelSimulator
-from src.utils.stats import StatsEngine
 
 # ==========================================
 # CONFIGURATION
@@ -60,7 +46,6 @@ COLORS = {
 # ==========================================
 def generate_synthetic_assets():
     """Generates static assets for methodology documentation."""
-    # (Existing synthetic generation code remains unchanged as it's for static docs)
     print("Generating Synthetic Assets for Methodology...")
     
     def generate_synthetic_data(n_rows=1000):
@@ -177,7 +162,7 @@ def generate_live_assets(models=None):
 
     et_now = StatsEngine.get_et_now()
 
-    # --- 1. MODEL-SPECIFIC ASSETS ---
+    # --- 1. MODEL-SPECIFIC ASSETS (Plots) ---
     for model_name, df in models.items():
         if df is None or df.empty:
             continue
@@ -189,22 +174,17 @@ def generate_live_assets(models=None):
         plt.figure(figsize=(12, 6), facecolor=COLORS['void'])
         ax = plt.gca()
         ax.set_facecolor(COLORS['void'])
-        
-        # Cumulative Walk
         walk = df.sort_values('pick_date').copy()
         walk['profit'] = walk['profit_actual'].cumsum()
-        
         plt.plot(walk['pick_date'], walk['profit'], color=color, linewidth=4, label='Realized Alpha')
         plt.fill_between(walk['pick_date'], walk['profit'], 0, color=color, alpha=0.1)
         plt.axhline(0, color='white', alpha=0.2, linestyle='--')
-        
         plt.title(f"SERIES AUDIT: {model_name.upper()} // ROI: {metrics['roi']:+.1%}", color='white', fontsize=16)
-        plt.legend(facecolor=COLORS['void'], edgecolor='white', labelcolor='white', fontsize=8)
         plt.savefig(f"docs/assets/{model_name}_equity.png", bbox_inches='tight', dpi=120)
         plt.savefig(f"docs/assets/{model_name}_high_res_curve.png", bbox_inches='tight', dpi=120)
         plt.close()
 
-        # [B] Feature Importance (Consistent Placeholder if no real model provided)
+        # [B] Feature Importance
         plt.figure(figsize=(10, 6), facecolor=COLORS['void'])
         ax = plt.gca()
         ax.set_facecolor(COLORS['void'])
@@ -216,64 +196,10 @@ def generate_live_assets(models=None):
         plt.savefig(f"docs/assets/{model_name}_importance.png", bbox_inches='tight', dpi=100)
         plt.close()
 
-        # [C] Performance Matrix (Radar)
-        plt.figure(figsize=(8, 8), facecolor=COLORS['void'])
-        ax = plt.subplot(111, polar=True)
-        ax.set_facecolor(COLORS['void'])
-        categories = ['ROI', 'Win Rate', 'Sharpe Ratio', 'Capacity', 'Liquidity']
-        N = len(categories)
-        angles = [n / float(N) * 2 * np.pi for n in range(N)]
-        angles += angles[:1]
-        
-        # Profile archetypes based on real metrics
-        v = [
-            min(metrics['roi'] * 5, 1.0),
-            min(metrics['win_rate'] * 1.5, 1.0),
-            0.6, # Sharpe Placeholder
-            min(len(df) / 1000, 1.0),
-            0.7  # Liquidity Placeholder
-        ]
-        v += v[:1]
-        
-        ax.plot(angles, v, color=color, linewidth=3, linestyle='solid', label='Model Profile')
-        ax.fill(angles, v, color=color, alpha=0.3)
-        plt.xticks(angles[:-1], categories, color='white', size=10, fontweight='bold')
-        ax.set_yticklabels([])
-        plt.title(f"{model_name.upper()} // PERFORMANCE MATRIX", color='white', pad=40, fontsize=16)
-        plt.savefig(f"docs/assets/{model_name}_matrix.png", bbox_inches='tight', dpi=120)
-        plt.close()
-
-        # [D] Sport Exposure (Real)
-        if 'league_name' in df.columns:
-            plt.figure(figsize=(8, 8), facecolor=COLORS['void'])
-            s = df['league_name'].value_counts()
-            plt.pie(s, labels=s.index, colors=sns.color_palette("mako", len(s)), textprops={'color':"w"})
-            plt.title(f"{model_name.upper()} // MARKET EXPOSURE", color='white')
-            plt.savefig(f"docs/assets/{model_name}_sport.png", bbox_inches='tight', dpi=100)
-            plt.close()
-
-        # [E] Sizing Profile (Real)
-        if 'wager_unit' in df.columns:
-            plt.figure(figsize=(10, 6), facecolor=COLORS['void'])
-            ax = plt.gca()
-            ax.set_facecolor(COLORS['void'])
-            # Sort by whatever proxy for confidence we have
-            proxy = 'edge' if 'edge' in df.columns else 'decimal_odds'
-            df_sample = df.sort_values(proxy).tail(100)
-            plt.scatter(df_sample[proxy], df_sample['wager_unit'], color=color, alpha=0.6)
-            plt.title(f"{model_name.upper()} // POSITION SIZING HIERARCHY", color='white')
-            plt.xlabel(proxy.upper(), color='white')
-            plt.ylabel("Unit Size", color='white')
-            plt.savefig(f"docs/assets/{model_name}_size.png", bbox_inches='tight', dpi=100)
-            plt.close()
-
     # --- 2. COMBINED PLOTS ---
     plt.figure(figsize=(16, 8), facecolor=COLORS['void'])
     ax = plt.gca()
     ax.set_facecolor(COLORS['void'])
-    for spine in ax.spines.values(): spine.set_visible(False)
-    ax.grid(True, linestyle=':', color='#222222', alpha=0.3, zorder=0)
-
     for name, df in models.items():
         if df is None or df.empty: continue
         color = MODEL_COLORS.get(name, COLORS['ghost'])
@@ -284,124 +210,103 @@ def generate_live_assets(models=None):
     plt.axhline(0, color='#ffffff', linestyle='-', alpha=0.15, linewidth=1.5)
     plt.title("QUANTITATIVE PERFORMANCE // MULTI-GENERATIONAL", color='white', fontweight='bold', pad=20)
     plt.legend(frameon=False, loc='upper left')
-    
     plt.savefig("docs/assets/live_curve.png", bbox_inches='tight', dpi=300)
-    # Direct mapping for dashboard pages
     for m in ['quartz', 'obsidian', 'diamond', 'pyrite', 'sapphire']:
         plt.savefig(f"docs/comparison_{m}.png", bbox_inches='tight', dpi=300)
     plt.close()
 
-    # --- 3. DATA INJECTION ---
-    # Injection helper
+    # --- 3. DATA OUTPUT & INJECTION ---
     def inject_json(html_path, data_object):
         abs_path = os.path.abspath(html_path)
         if not os.path.exists(abs_path):
              print(f"⚠️ Skipping injection: {abs_path} does not exist.")
              return
-             
         with open(abs_path, 'r') as f: content = f.read()
-        
-        # Super-Robust multiline matching for const DATA = { ... };
         pattern = r'const DATA\s*=\s*\{.*?\};'
         if '// --- DATA INJECTION POINT (AUTOMATED) ---' in content:
             pattern = r'// --- DATA INJECTION POINT \(AUTOMATED\) ---\s*const DATA\s*=\s*\{.*?\};'
-            
         if not re.search(pattern, content, flags=re.DOTALL):
              print(f"❌ Failed to find DATA block in {abs_path}")
              return
-
         replacement = f'// --- DATA INJECTION POINT (AUTOMATED) ---\n        const DATA = {json.dumps(data_object, indent=12)};'
         new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
-        
         with open(abs_path, 'w') as f: f.write(new_content)
         print(f"✅ Injected data into {abs_path}")
 
     # Root paths
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    web_dir = os.path.join(base_dir, 'docs', 'web')
+    docs_dir = os.path.join(base_dir, 'docs')
+    web_dir = os.path.join(docs_dir, 'web')
     os.makedirs(web_dir, exist_ok=True)
 
-    # Process each model's detailed page
-    for model_name, df in models.items():
-        if df is None or df.empty: continue
-        
+    # [A] STATS JSON GENERATION (Unified)
+    stats_output = {
+        "meta": {
+            "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
+            "status": "NOMINAL",
+            "cache_bust": et_now.timestamp()
+        },
+        "models": {}
+    }
+
+    for name, df in models.items():
         m = StatsEngine.calculate_metrics(df)
         y = StatsEngine.get_yesterday_data(df, et_now=et_now)
-        
+        stats_output["models"][name] = {
+            "roi": round(m['roi'] * 100, 1),
+            "net": round(m['net'], 1),
+            "wins": m['wins'],
+            "losses": m['losses'],
+            "pushes": m['pushes'],
+            "record": m['record'],
+            "win_rate": round(m['win_rate'] * 100, 1),
+            "sample": m['sample'],
+            "bets_day": m['volume'],
+            "status": "ACTIVE",
+            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
+        }
+
+    for target in [docs_dir, web_dir]:
+        with open(os.path.join(target, 'stats.json'), 'w') as f: json.dump(stats_output, f, indent=4)
+        with open(os.path.join(target, 'stats.js'), 'w') as f: f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
+        print(f"✅ Synchronized stats to: {target}")
+
+    # [B] HTML INJECTION (Dashboard Parity)
+    for model_name, df in models.items():
+        if df is None or df.empty: continue
+        m = StatsEngine.calculate_metrics(df)
+        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
         page_data = {
-            "meta": {
-                "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
-                "status": "OPERATIONAL",
-                "cache_bust": et_now.timestamp()
-            },
-            "stats": {
-                "roi": round(m['roi'] * 100, 1),
-                "net_units": round(m['net'], 2),
-                "record": m['record'],
-                "win_rate": round(m['win_rate'] * 100, 1),
-                "sample": m['sample']
-            },
+            "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
+            "stats": {"roi": round(m['roi']*100, 1), "net_units": round(m['net'], 2), "record": m['record'], "win_rate": round(m['win_rate']*100, 1), "sample": m['sample']},
             "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []},
             "history": y['ledger'] if y else []
         }
-        
-        # Legacy key support for specific pages
         if model_name == 'obsidian':
             page_data['stats']['win_pct'] = page_data['stats']['win_rate']
             page_data['yesterday']['win_pct'] = page_data['yesterday']['win_rate']
             page_data['benchmarks'] = {
-                "v1_roi": round(StatsEngine.calculate_metrics(models.get('pyrite'))['roi'] * 100, 1) if 'pyrite' in models else 0,
-                "v2_roi": round(StatsEngine.calculate_metrics(models.get('diamond'))['roi'] * 100, 1) if 'diamond' in models else 0
+                "v1_roi": round(StatsEngine.calculate_metrics(models.get('pyrite'))['roi']*100, 1) if 'pyrite' in models else 0,
+                "v2_roi": round(StatsEngine.calculate_metrics(models.get('diamond'))['roi']*100, 1) if 'diamond' in models else 0
             }
-
         inject_json(os.path.join(web_dir, f"{model_name}.html"), page_data)
 
     # Combined Series 6 Page
-    kyanite_df = models.get('kyanite')
-    carnelian_df = models.get('carnelian')
-    
-    if (kyanite_df is not None and not kyanite_df.empty) or (carnelian_df is not None and not carnelian_df.empty):
-        km = StatsEngine.calculate_metrics(kyanite_df)
-        ky = StatsEngine.get_yesterday_data(kyanite_df, et_now=et_now)
-        cm = StatsEngine.calculate_metrics(carnelian_df)
-        cy = StatsEngine.get_yesterday_data(carnelian_df, et_now=et_now)
-        
-        v6_page_data = {
-            "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
-            "models": {
-                "kyanite": {
-                    "net": km['net'], "roi": km['roi'] * 100, "record": km['record'], "win_rate": km['win_rate'] * 100,
-                    "yesterday": ky if ky else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
-                },
-                "carnelian": {
-                    "net": cm['net'], "roi": cm['roi'] * 100, "record": cm['record'], "win_rate": cm['win_rate'] * 100,
-                    "yesterday": cy if cy else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
-                }
-            }
-        }
-        inject_json(os.path.join(web_dir, 'kyanite_carnelian.html'), v6_page_data)
-
-    # Selector Page
-    selector_data = {
-        "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "cache_bust": et_now.timestamp()},
+    km, cm = StatsEngine.calculate_metrics(models.get('kyanite')), StatsEngine.calculate_metrics(models.get('carnelian'))
+    ky, cy = StatsEngine.get_yesterday_data(models.get('kyanite'), et_now=et_now), StatsEngine.get_yesterday_data(models.get('carnelian'), et_now=et_now)
+    v6_page_data = {
+        "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
         "models": {
-            name: {
-                "roi": round(StatsEngine.calculate_metrics(df)['roi'] * 100, 1),
-                "status": "ACTIVE"
-            } for name, df in models.items()
+            "kyanite": {"net": km['net'], "roi": km['roi']*100, "record": km['record'], "win_rate": km['win_rate']*100, "yesterday": ky if ky else {}},
+            "carnelian": {"net": cm['net'], "roi": cm['roi']*100, "record": cm['record'], "win_rate": cm['win_rate']*100, "yesterday": cy if cy else {}}
         }
     }
-    # Add Combined Series 6
-    v6_list = [kyanite_df, carnelian_df]
-    v6_list = [d for d in v6_list if d is not None and not d.empty]
-    if v6_list:
-        v6_combined = pd.concat(v6_list)
-        v6_m = StatsEngine.calculate_metrics(v6_combined)
-        selector_data["models"]["Quarry Intelligence"] = {
-            "roi": round(v6_m['roi'] * 100, 1),
-            "status": "INSTITUTIONAL"
-        }
+    inject_json(os.path.join(web_dir, 'kyanite_carnelian.html'), v6_page_data)
 
+    # Selector Page
+    selector_data = {"meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "cache_bust": et_now.timestamp()}, "models": {n: {"roi": round(StatsEngine.calculate_metrics(d)['roi']*100, 1), "status": "ACTIVE"} for n, d in models.items()}}
+    v6_combined = pd.concat([d for d in [models.get('kyanite'), models.get('carnelian')] if d is not None and not d.empty]) if any([models.get('kyanite') is not None, models.get('carnelian') is not None]) else None
+    if v6_combined is not None: selector_data["models"]["Quarry Intelligence"] = {"roi": round(StatsEngine.calculate_metrics(v6_combined)['roi']*100, 1), "status": "INSTITUTIONAL"}
     inject_json(os.path.join(web_dir, 'selector.html'), selector_data)
 
 if __name__ == "__main__":
