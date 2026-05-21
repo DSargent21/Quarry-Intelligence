@@ -254,7 +254,7 @@ def generate_live_assets(models=None):
         y = StatsEngine.get_yesterday_data(df, et_now=et_now)
         stats_output["models"][name] = {
             "roi": round(m['roi'] * 100, 1),
-            "net": round(m['net'], 1),
+            "net": round(m['net'], 2),
             "wins": m['wins'],
             "losses": m['losses'],
             "pushes": m['pushes'],

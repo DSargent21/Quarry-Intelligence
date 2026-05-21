@@ -87,7 +87,7 @@ def update_markdown_reports(models):
         for row in y['ledger']:
             res = "✅" if row['result'] == "WIN" else "❌" if row['result'] == "LOSS" else "⏳"
             odds_text = f"+{row['odds']}" if row['odds'] > 0 else f"{row['odds']}"
-            t += f"| {row['league']} | {row['selection']} | {odds_text} | {row['wager']:.1f} | {res} | {row['profit']:+.2f}u |\n"
+            t += f"| {row['league']} | {row['selection']} | {odds_text} | {row['wager']:.2f} | {res} | {row['profit']:+.2f}u |\n"
         
         t += f"\n**Daily PnL: {y['net']:+.2f} Units**\n\n"
         return t + "\n"
@@ -312,7 +312,7 @@ def run_daily_update():
         
         stats_output["models"][name] = {
             "roi": round(m['roi'] * 100, 1),
-            "net": round(m['net'], 1),
+            "net": round(m['net'], 2),
             "wins": m['wins'],
             "losses": m['losses'],
             "pushes": m['pushes'],

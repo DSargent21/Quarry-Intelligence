@@ -117,7 +117,7 @@ class StatsEngine:
                 "league": r.get('league_name', 'N/A'),
                 "selection": r.get('pick_norm', r.get('pick_value', 'N/A')),
                 "odds": odds,
-                "wager": round(r['wager_unit'], 1),
+                "wager": round(r['wager_unit'], 2),
                 "profit": round(r['profit_actual'], 2),
                 "result": "WIN" if r['outcome']==1.0 else "LOSS" if r['outcome']==0.0 else "PUSH",
                 "edge": float(r.get('edge', 0.0))

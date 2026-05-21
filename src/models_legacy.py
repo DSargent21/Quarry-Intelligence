@@ -171,7 +171,8 @@ class ModelSimulator:
             def cap_daily(group):
                 risk = group['wager_unit'].sum()
                 if risk > 10.0: group['wager_unit'] *= (10.0 / risk)
-                return group
+                group['wager_unit'] = group['wager_unit'].apply(lambda x: round(x, 2))
+                return group[group['wager_unit'] > 0]
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
             if 'pick_date' not in final.columns:
                 final['pick_date'] = active.loc[final.index, 'pick_date']
@@ -210,7 +211,7 @@ class ModelSimulator:
             def cap_daily(group):
                 risk = group['wager_unit'].sum()
                 if risk > DAILY_RISK_CAP: group['wager_unit'] *= (DAILY_RISK_CAP / risk)
-                group['wager_unit'] = group['wager_unit'].apply(lambda x: round(x, 1))
+                group['wager_unit'] = group['wager_unit'].apply(lambda x: round(x, 2))
                 return group[group['wager_unit'] > 0]
             
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
@@ -373,7 +374,7 @@ class ModelSimulator:
             if cand.empty: return cand
             
             # 4. Institutional Staking
-            kelly_frac = 0.15
+            kelly_frac = 0.25
             cand['b'] = cand['decimal_odds'] - 1
             cand['kelly'] = ((cand['b'] * cand['prob']) - (1 - cand['prob'])) / cand['b']
             
@@ -457,7 +458,20 @@ class ModelSimulator:
                 
             cand = cand.sort_values(['pick_date', 'prob'], ascending=[True, False])
             cand = cand.drop_duplicates(subset=['pick_date', 'pick_norm'], keep='first')
-            cand['wager_unit'] = 1.0
+            
+            # [SURGICAL UPGRADE]: Kelly Staking for Zenith to capture 'Best Values'
+            kelly_frac = 0.20 # Conservative Quarter Kelly
+            cand['b'] = cand['decimal_odds'] - 1
+            cand['kelly'] = ((cand['b'] * cand['prob']) - (1 - cand['prob'])) / cand['b']
+            cand['wager_unit'] = (cand['kelly'] * kelly_frac * 100).clip(0, 2.0).round(2)
+            
+            # Global Risk Control (Daily 10u Cap)
+            cand['daily_total_risk'] = cand.groupby('pick_date')['wager_unit'].transform('sum')
+            cand['risk_factor'] = (10.0 / cand['daily_total_risk']).clip(upper=1.0)
+            cand['wager_unit'] = (cand['wager_unit'] * cand['risk_factor']).round(2)
+            
+            cand = cand[cand['wager_unit'] > 0]
+            
             cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(cand['decimal_odds']-1), 
                                              np.where(cand['outcome']==0, -cand['wager_unit'], 0))
             return cand
