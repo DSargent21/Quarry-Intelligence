@@ -1,8 +1,8 @@
 {
     "meta": {
-        "last_update": "2026-05-21 17:47 ET",
+        "last_update": "2026-05-21 17:57 ET",
         "status": "NOMINAL",
-        "cache_bust": 1779400025.013464
+        "cache_bust": 1779400655.540887
     },
     "models": {
         "pyrite": {
@@ -26,16 +26,6 @@
                     {
                         "date": "03/16",
                         "league": "Other",
-                        "selection": "draw 1% none ml",
-                        "odds": 180,
-                        "wager": 0.1,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.05298523041695469
-                    },
-                    {
-                        "date": "03/16",
-                        "league": "Other",
                         "selection": "draw ml",
                         "odds": 180,
                         "wager": 0.1,
@@ -45,8 +35,18 @@
                     },
                     {
                         "date": "03/16",
+                        "league": "Other",
+                        "selection": "draw 1% none ml",
+                        "odds": 180,
+                        "wager": 0.1,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.05298523041695469
+                    },
+                    {
+                        "date": "03/16",
                         "league": "MLB",
-                        "selection": "guardians ml vs athletics",
+                        "selection": "cubs ml vs los angeles dodgers",
                         "odds": 110,
                         "wager": 0.1,
                         "profit": 0.11,
@@ -56,7 +56,7 @@
                     {
                         "date": "03/16",
                         "league": "MLB",
-                        "selection": "cubs ml vs los angeles dodgers",
+                        "selection": "guardians ml vs athletics",
                         "odds": 110,
                         "wager": 0.1,
                         "profit": 0.11,
@@ -125,18 +125,8 @@
                     },
                     {
                         "date": "03/16",
-                        "league": "NCAAB",
-                        "selection": "virginia cavaliers -3 vs manhattan jaspers",
-                        "odds": -110,
-                        "wager": 0.1,
-                        "profit": 0.09,
-                        "result": "WIN",
-                        "edge": 0.4261904761904761
-                    },
-                    {
-                        "date": "03/16",
-                        "league": "NCAAB",
-                        "selection": "seattle u redhawks -3 vs furman paladins",
+                        "league": "NHL",
+                        "selection": "san antonio spurs vs la clippers over 6.5",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -155,8 +145,18 @@
                     },
                     {
                         "date": "03/16",
-                        "league": "NHL",
-                        "selection": "san antonio spurs vs la clippers over 6.5",
+                        "league": "NCAAB",
+                        "selection": "virginia cavaliers -3 vs manhattan jaspers",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": 0.09,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NCAAB",
+                        "selection": "seattle u redhawks -3 vs furman paladins",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -206,7 +206,7 @@
                     {
                         "date": "03/16",
                         "league": "NBA",
-                        "selection": "golden state warriors -7.5",
+                        "selection": "1h portland trail blazers vs brooklyn nets under 114.5",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -216,7 +216,7 @@
                     {
                         "date": "03/16",
                         "league": "NBA",
-                        "selection": "1h portland trail blazers vs brooklyn nets under 114.5",
+                        "selection": "golden state warriors -7.5",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -228,7 +228,7 @@
         },
         "diamond": {
             "roi": -5.0,
-            "net": -45.9,
+            "net": -45.86,
             "wins": 2852,
             "losses": 2879,
             "pushes": 0,
@@ -307,7 +307,7 @@
                     {
                         "date": "05/20",
                         "league": "NBA",
-                        "selection": "event san antonio spurs vs oklahoma city th under",
+                        "selection": "oklahoma city thunder +7.5 vs san antonio spurs",
                         "odds": -110,
                         "wager": 0.15,
                         "profit": 0.14,
@@ -317,7 +317,7 @@
                     {
                         "date": "05/20",
                         "league": "NBA",
-                        "selection": "oklahoma city thunder +7.5 vs san antonio spurs",
+                        "selection": "event san antonio spurs vs oklahoma city th under",
                         "odds": -110,
                         "wager": 0.15,
                         "profit": 0.14,
@@ -362,7 +362,7 @@
                         "wager": 0.15,
                         "profit": 0.14,
                         "result": "WIN",
-                        "edge": 0.14679827771850584
+                        "edge": 0.14679827771850595
                     },
                     {
                         "date": "05/20",
@@ -448,30 +448,30 @@
             }
         },
         "obsidian": {
-            "roi": 3.4,
-            "net": 49.3,
-            "wins": 862,
-            "losses": 866,
+            "roi": -0.5,
+            "net": -7.0,
+            "wins": 827,
+            "losses": 901,
             "pushes": 0,
-            "record": "862-866-0",
-            "win_rate": 49.9,
+            "record": "827-901-0",
+            "win_rate": 47.9,
             "sample": 1728,
             "bets_day": "Medium (~12 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
                 "date": "May 20, 2026",
-                "record": "4-8-0",
-                "win_rate": 33.3,
-                "net": -3.3,
-                "roi": -33.1,
+                "record": "5-7-0",
+                "win_rate": 41.7,
+                "net": -1.88,
+                "roi": -18.9,
                 "ledger": [
                     {
                         "date": "05/20",
                         "league": "MLB",
                         "selection": "blue jays ml vs yankees",
-                        "odds": 160,
+                        "odds": 159,
                         "wager": 0.83,
-                        "profit": 1.33,
+                        "profit": 1.32,
                         "result": "WIN",
                         "edge": 0.14
                     },
@@ -494,6 +494,16 @@
                         "profit": 0.72,
                         "result": "WIN",
                         "edge": 0.13428571428571423
+                    },
+                    {
+                        "date": "05/20",
+                        "league": "MLB",
+                        "selection": "white sox ml vs mariners",
+                        "odds": -140,
+                        "wager": 0.83,
+                        "profit": 0.59,
+                        "result": "WIN",
+                        "edge": 0.15999999999999992
                     },
                     {
                         "date": "05/20",
@@ -538,22 +548,12 @@
                     {
                         "date": "05/20",
                         "league": "MLB",
-                        "selection": "white sox ml vs mariners",
-                        "odds": 126,
+                        "selection": "orioles ml vs rays",
+                        "odds": 118,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.15999999999999992
-                    },
-                    {
-                        "date": "05/20",
-                        "league": "NHL",
-                        "selection": "rangers ml vs rockies",
-                        "odds": 119,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.13999999999999996
+                        "edge": 0.34
                     },
                     {
                         "date": "05/20",
@@ -567,13 +567,13 @@
                     },
                     {
                         "date": "05/20",
-                        "league": "MLB",
-                        "selection": "orioles ml vs rays",
+                        "league": "NHL",
+                        "selection": "rangers ml vs rockies",
                         "odds": 111,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.34
+                        "edge": 0.13999999999999996
                     },
                     {
                         "date": "05/20",
@@ -589,14 +589,14 @@
             }
         },
         "quartz": {
-            "roi": 13.9,
-            "net": 59.23,
-            "wins": 200,
-            "losses": 167,
+            "roi": 14.6,
+            "net": 62.55,
+            "wins": 202,
+            "losses": 166,
             "pushes": 0,
-            "record": "200-167-0",
-            "win_rate": 54.5,
-            "sample": 367,
+            "record": "202-166-0",
+            "win_rate": 54.9,
+            "sample": 368,
             "bets_day": "Low (~8 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
@@ -634,7 +634,7 @@
                         "wager": 1.3,
                         "profit": 1.76,
                         "result": "WIN",
-                        "edge": 0.06019190374607508
+                        "edge": 0.06021353710288474
                     },
                     {
                         "date": "05/20",
@@ -644,7 +644,7 @@
                         "wager": 1.63,
                         "profit": 1.48,
                         "result": "WIN",
-                        "edge": 0.07292135270850908
+                        "edge": 0.07211705955283887
                     },
                     {
                         "date": "05/20",
@@ -680,14 +680,14 @@
             }
         },
         "sapphire": {
-            "roi": 24.3,
-            "net": 19.66,
-            "wins": 188,
-            "losses": 118,
+            "roi": 24.6,
+            "net": 19.8,
+            "wins": 187,
+            "losses": 117,
             "pushes": 0,
-            "record": "188-118-0",
-            "win_rate": 61.4,
-            "sample": 306,
+            "record": "187-117-0",
+            "win_rate": 61.5,
+            "sample": 304,
             "bets_day": "High (~38 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
@@ -735,7 +735,7 @@
                         "wager": 0.12,
                         "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.3480870454542098
+                        "edge": 0.34329179217738487
                     },
                     {
                         "date": "05/20",
@@ -785,7 +785,7 @@
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.2486220286006019
+                        "edge": 0.24325945831480478
                     },
                     {
                         "date": "05/20",
@@ -805,7 +805,7 @@
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.2190797612780616
+                        "edge": 0.21805664755049203
                     },
                     {
                         "date": "05/20",
@@ -815,7 +815,7 @@
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.21536567665281747
+                        "edge": 0.21308240152540658
                     },
                     {
                         "date": "05/20",
@@ -901,22 +901,22 @@
             }
         },
         "kyanite": {
-            "roi": 24.3,
-            "net": 12.18,
-            "wins": 75,
+            "roi": 24.6,
+            "net": 12.31,
+            "wins": 76,
             "losses": 43,
             "pushes": 0,
-            "record": "75-43-0",
-            "win_rate": 63.6,
-            "sample": 118,
+            "record": "76-43-0",
+            "win_rate": 63.9,
+            "sample": 119,
             "bets_day": "High (~23 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
                 "date": "May 20, 2026",
                 "record": "15-9-0",
                 "win_rate": 62.5,
-                "net": 1.91,
-                "roi": 19.0,
+                "net": 1.88,
+                "roi": 18.8,
                 "ledger": [
                     {
                         "date": "05/20",
@@ -951,22 +951,22 @@
                     {
                         "date": "05/20",
                         "league": "NBA",
-                        "selection": "oklahoma city thunder +7.5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.48,
-                        "profit": 0.44,
-                        "result": "WIN",
-                        "edge": 0.04573055959883188
-                    },
-                    {
-                        "date": "05/20",
-                        "league": "NBA",
                         "selection": "thunder -7 vs spurs",
                         "odds": -110,
                         "wager": 0.47,
                         "profit": 0.43,
                         "result": "WIN",
                         "edge": 0.04538538910093759
+                    },
+                    {
+                        "date": "05/20",
+                        "league": "NBA",
+                        "selection": "oklahoma city thunder +7.5 vs san antonio spurs",
+                        "odds": -110,
+                        "wager": 0.46,
+                        "profit": 0.42,
+                        "result": "WIN",
+                        "edge": 0.044099299680618986
                     },
                     {
                         "date": "05/20",
@@ -1073,8 +1073,8 @@
                         "league": "WNBA",
                         "selection": "sun vs storm over 168",
                         "odds": -110,
-                        "wager": 0.3,
-                        "profit": -0.3,
+                        "wager": 0.31,
+                        "profit": -0.31,
                         "result": "LOSS",
                         "edge": 0.02932640768232797
                     },
@@ -1122,30 +1122,30 @@
             }
         },
         "carnelian": {
-            "roi": 13.5,
-            "net": 6.75,
-            "wins": 112,
-            "losses": 83,
+            "roi": 14.8,
+            "net": 7.39,
+            "wins": 114,
+            "losses": 81,
             "pushes": 0,
-            "record": "112-83-0",
-            "win_rate": 57.4,
+            "record": "114-81-0",
+            "win_rate": 58.5,
             "sample": 195,
             "bets_day": "High (~39 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
                 "date": "May 20, 2026",
-                "record": "28-26-0",
-                "win_rate": 51.9,
-                "net": 0.03,
-                "roi": 0.3,
+                "record": "30-25-0",
+                "win_rate": 54.5,
+                "net": 0.32,
+                "roi": 3.2,
                 "ledger": [
                     {
                         "date": "05/20",
                         "league": "MLB",
                         "selection": "blue jays ml vs yankees",
                         "odds": 148,
-                        "wager": 0.25,
-                        "profit": 0.37,
+                        "wager": 0.24,
+                        "profit": 0.36,
                         "result": "WIN",
                         "edge": 0.12181243588847496
                     },
@@ -1154,18 +1154,18 @@
                         "league": "MLB",
                         "selection": "toronto blue jays ml vs new york yankees",
                         "odds": 145,
-                        "wager": 0.25,
-                        "profit": 0.36,
+                        "wager": 0.24,
+                        "profit": 0.35,
                         "result": "WIN",
-                        "edge": 0.10109619705044498
+                        "edge": 0.11000595895611515
                     },
                     {
                         "date": "05/20",
                         "league": "MLB",
                         "selection": "reds ml vs phillies",
                         "odds": 129,
-                        "wager": 0.25,
-                        "profit": 0.32,
+                        "wager": 0.24,
+                        "profit": 0.31,
                         "result": "WIN",
                         "edge": 0.09278141280969676
                     },
@@ -1174,8 +1174,8 @@
                         "league": "NBA",
                         "selection": "event san antonio spurs vs oklahoma city th under",
                         "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
+                        "wager": 0.24,
+                        "profit": 0.22,
                         "result": "WIN",
                         "edge": 0.0844158814066932
                     },
@@ -1184,8 +1184,8 @@
                         "league": "WNBA",
                         "selection": "sun +1.5 vs storm",
                         "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
+                        "wager": 0.24,
+                        "profit": 0.22,
                         "result": "WIN",
                         "edge": 0.07382353998365854
                     },
@@ -1202,16 +1202,6 @@
                     {
                         "date": "05/20",
                         "league": "NBA",
-                        "selection": "oklahoma city thunder +7.5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.24,
-                        "profit": 0.22,
-                        "result": "WIN",
-                        "edge": 0.04573055959883188
-                    },
-                    {
-                        "date": "05/20",
-                        "league": "NBA",
                         "selection": "thunder -7 vs spurs",
                         "odds": -110,
                         "wager": 0.23,
@@ -1221,11 +1211,21 @@
                     },
                     {
                         "date": "05/20",
+                        "league": "NBA",
+                        "selection": "oklahoma city thunder +7.5 vs san antonio spurs",
+                        "odds": -110,
+                        "wager": 0.22,
+                        "profit": 0.2,
+                        "result": "WIN",
+                        "edge": 0.044099299680618986
+                    },
+                    {
+                        "date": "05/20",
                         "league": "WNBA",
                         "selection": "dallas wings -2.5 vs chicago sky",
                         "odds": -110,
-                        "wager": 0.23,
-                        "profit": 0.21,
+                        "wager": 0.22,
+                        "profit": 0.2,
                         "result": "WIN",
                         "edge": 0.044099299680618986
                     },
@@ -1234,8 +1234,8 @@
                         "league": "WNBA",
                         "selection": "connecticut sun +1.5 vs seattle storm",
                         "odds": -110,
-                        "wager": 0.23,
-                        "profit": 0.21,
+                        "wager": 0.22,
+                        "profit": 0.2,
                         "result": "WIN",
                         "edge": 0.044099299680618986
                     },
@@ -1254,8 +1254,8 @@
                         "league": "MLB",
                         "selection": "red sox vs royals under 8",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.2,
+                        "profit": 0.18,
                         "result": "WIN",
                         "edge": 0.039685635339646086
                     },
@@ -1272,10 +1272,20 @@
                     {
                         "date": "05/20",
                         "league": "WNBA",
+                        "selection": "connecticut sun ml vs seattle storm",
+                        "odds": 110,
+                        "wager": 0.15,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.03174159072694327
+                    },
+                    {
+                        "date": "05/20",
+                        "league": "WNBA",
                         "selection": "wings -2.5 vs sky",
                         "odds": -110,
-                        "wager": 0.18,
-                        "profit": 0.16,
+                        "wager": 0.17,
+                        "profit": 0.15,
                         "result": "WIN",
                         "edge": 0.03435507274809335
                     },
@@ -1292,22 +1302,22 @@
                     {
                         "date": "05/20",
                         "league": "MLB",
-                        "selection": "reds vs phillies over 10",
-                        "odds": -110,
-                        "wager": 0.16,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.030403284799484953
-                    },
-                    {
-                        "date": "05/20",
-                        "league": "MLB",
                         "selection": "brewers ml vs cubs",
                         "odds": 105,
                         "wager": 0.13,
                         "profit": 0.14,
                         "result": "WIN",
                         "edge": 0.027335595793840317
+                    },
+                    {
+                        "date": "05/20",
+                        "league": "MLB",
+                        "selection": "reds vs phillies over 10",
+                        "odds": -110,
+                        "wager": 0.15,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.030403284799484953
                     },
                     {
                         "date": "05/20",
@@ -1328,16 +1338,6 @@
                         "profit": 0.14,
                         "result": "WIN",
                         "edge": 0.029780654680161223
-                    },
-                    {
-                        "date": "05/20",
-                        "league": "MLB",
-                        "selection": "mets vs nationals over 9.5",
-                        "odds": 105,
-                        "wager": 0.12,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.02428598374855223
                     }
                 ]
             }

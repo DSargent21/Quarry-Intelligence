@@ -179,7 +179,7 @@ class ModelSimulator:
             
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
             final['edge'] = final['prob'] - final['implied_prob']
-            return final
+            return final[final['wager_unit'] >= 0.10]
         except Exception as e:
             print(f"Error V1: {e}")
             traceback.print_exc()
@@ -219,7 +219,7 @@ class ModelSimulator:
                 final['pick_date'] = active.loc[final.index, 'pick_date']
 
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
-            return final
+            return final[final['wager_unit'] >= 0.10]
         except Exception as e:
             print(f"Error V2: {e}")
             traceback.print_exc()
@@ -271,7 +271,7 @@ class ModelSimulator:
                 final['pick_date'] = cand.loc[final.index, 'pick_date']
 
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['decimal_odds']-1), np.where(final['outcome']==0, -final['wager_unit'], 0))
-            return final
+            return final[final['wager_unit'] >= 0.10]
         except Exception as e:
             print(f"Error V3: {e}")
             traceback.print_exc()
@@ -328,7 +328,7 @@ class ModelSimulator:
             final['profit_actual'] = np.where(final['outcome']==1, final['wager_unit']*(final['odds_mean']-1), 
                                               np.where(final['outcome']==0, -final['wager_unit'], 0))
             final = final.rename(columns={'odds_mean': 'decimal_odds'})
-            return final
+            return final[final['wager_unit'] >= 0.10]
         except Exception as e:
             print(f"Error V4 (Vectorized): {e}")
             traceback.print_exc()
