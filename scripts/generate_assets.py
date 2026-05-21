@@ -296,12 +296,21 @@ def generate_live_assets(models=None):
     def inject_json(html_path, data_object):
         if not os.path.exists(html_path): return
         with open(html_path, 'r') as f: content = f.read()
-        pattern = r'const DATA\s*=\s*\{.*?\};'
+        
+        # Robust regex: Find 'const DATA = {' and match until '};' followed by newline or script end
+        # This handles nested objects better by looking for the specific terminator
+        pattern = r'const DATA\s*=\s*\{.*?\n\s*\};'
+        
         if not re.search(pattern, content, flags=re.DOTALL):
-             print(f"❌ Failed to find DATA block in {html_path}")
-             return
+             # Fallback to a simpler pattern if the formatting is different
+             pattern = r'const DATA\s*=\s*\{.*?\};'
+             if not re.search(pattern, content, flags=re.DOTALL):
+                  print(f"❌ Failed to find DATA block in {html_path}")
+                  return
+
         replacement = f'const DATA = {json.dumps(data_object, indent=12)};'
-        new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL)
+        new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
+        
         with open(html_path, 'w') as f: f.write(new_content)
         print(f"✅ Injected data into {html_path}")
 
@@ -339,24 +348,30 @@ def generate_live_assets(models=None):
 
         inject_json(f'docs/web/{model_name}.html', page_data)
 
-    # Combined Series 6 Page
-    v6_list = [models.get('kyanite'), models.get('carnelian')]
-    v6_list = [d for d in v6_list if d is not None and not d.empty]
-    if v6_list:
-        v6_combined = pd.concat(v6_list)
-        m = StatsEngine.calculate_metrics(v6_combined)
-        y = StatsEngine.get_yesterday_data(v6_combined, et_now=et_now)
+    # Combined Series 6 Page (Needs dual stats)
+    kyanite_df = models.get('kyanite')
+    carnelian_df = models.get('carnelian')
+    
+    if (kyanite_df is not None and not kyanite_df.empty) or (carnelian_df is not None and not carnelian_df.empty):
+        # We inject a different structure for the dual page
+        km = StatsEngine.calculate_metrics(kyanite_df)
+        ky = StatsEngine.get_yesterday_data(kyanite_df, et_now=et_now)
+        
+        cm = StatsEngine.calculate_metrics(carnelian_df)
+        cy = StatsEngine.get_yesterday_data(carnelian_df, et_now=et_now)
+        
         v6_page_data = {
             "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL"},
-            "stats": {
-                "roi": round(m['roi'] * 100, 1),
-                "net_units": round(m['net'], 2),
-                "record": m['record'],
-                "win_rate": round(m['win_rate'] * 100, 1),
-                "sample": m['sample']
-            },
-            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []},
-            "history": y['ledger'] if y else []
+            "models": {
+                "kyanite": {
+                    "net": km['net'], "roi": km['roi'] * 100, "record": km['record'], "win_rate": km['win_rate'] * 100,
+                    "yesterday": ky if ky else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
+                },
+                "carnelian": {
+                    "net": cm['net'], "roi": cm['roi'] * 100, "record": cm['record'], "win_rate": cm['win_rate'] * 100,
+                    "yesterday": cy if cy else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
+                }
+            }
         }
         inject_json('docs/web/kyanite_carnelian.html', v6_page_data)
 

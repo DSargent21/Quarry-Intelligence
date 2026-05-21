@@ -501,6 +501,14 @@
     </footer>
 
     <script>
+        // --- DATA INJECTION POINT (AUTOMATED) ---
+        const DATA = {
+            "meta": {"last_update": "N/A", "status": "INITIALIZING"},
+            "stats": {"roi": 0, "net_units": 0, "record": "0-0-0", "win_rate": 0, "sample": 0},
+            "yesterday": {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []},
+            "history": []
+        };
+
         /**
          * Institutional-grade Data Hydration Layer
          * Optimized for minimal layout thrashing and responsive feedback.
@@ -522,13 +530,19 @@
             },
 
             async resolveDataSource() {
-                // Priority 1: In-memory QUARRY_STATS (stats.js)
+                // Priority 1: In-memory DATA (Injected by pipeline)
+                if (typeof DATA !== 'undefined' && DATA.models) {
+                    console.log("📍 Using INJECTED DATA block...");
+                    return DATA.models;
+                }
+
+                // Priority 2: In-memory QUARRY_STATS (stats.js)
                 if (window.QUARRY_STATS && window.QUARRY_STATS.models) {
                     return window.QUARRY_STATS.models;
                 }
                 
-                // Priority 2: Fetched stats.json
-                console.warn("⚠️ QUARRY_STATS not found, attempting fetch...");
+                // Priority 3: Fetched stats.json
+                console.warn("⚠️ DATA block and QUARRY_STATS not found, attempting fetch...");
                 try {
                     const resp = await fetch('stats.json');
                     if (!resp.ok) throw new Error('Network offline');
