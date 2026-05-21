@@ -228,7 +228,7 @@ def run_daily_update():
     
     # [BILLION DOLLAR GUARD]: Ensure script only runs once per day
     last_run_file = os.path.join(BASE_DIR, 'docs', 'last_run.txt')
-    force_update = os.environ.get('FORCE_UPDATE') == 'true'
+    force_update = os.environ.get('FORCE_UPDATE') == 'true' or '--force' in sys.argv
     et_now = StatsEngine.get_et_now()
     
     if os.path.exists(last_run_file) and not force_update:

@@ -111,16 +111,10 @@ jobs:
             echo '⚠️ Pipeline failed to produce a summary. Check logs.' >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: ✅ Verify Deployment Artifacts
+      - name: 🔬 Comprehensive Deployment Audit
         run: |
-          echo "🔍 Verifying data synchronization..."
-          # Check for ET today or Yesterday (relative to execution)
-          if grep -q "$(date +'%Y-%m-%d')" docs/web/stats.json || grep -q "$(date -d 'yesterday' +'%Y-%m-%d')" docs/web/stats.json; then
-            echo "✅ docs/web/stats.json is UP TO DATE."
-          else
-            echo "⚠️ docs/web/stats.json might be stale. Current content date:"
-            grep "last_update" docs/web/stats.json | head -n 1
-          fi
+          python3 scripts/debug_deployment.py
+          ls -R docs/
 
       - name: 🛡️ Indestructible Git Sync & Deploy
         env:
