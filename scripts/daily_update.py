@@ -330,16 +330,23 @@ def run_daily_update():
              stats_output["models"][name]["bets_day"] = 0.0
 
     # 4. Save Stats
-    docs_dir = os.path.join(BASE_DIR, 'docs')
-    web_dir = os.path.join(docs_dir, 'web')
+    docs_dir = os.path.abspath(os.path.join(BASE_DIR, 'docs'))
+    web_dir = os.path.abspath(os.path.join(docs_dir, 'web'))
     os.makedirs(web_dir, exist_ok=True)
     
+    logger.info(f"📊 Saving stats to: {docs_dir} and {web_dir}")
+    
     for target_dir in [docs_dir, web_dir]:
-        with open(os.path.join(target_dir, 'stats.json'), 'w') as f:
+        json_path = os.path.join(target_dir, 'stats.json')
+        js_path = os.path.join(target_dir, 'stats.js')
+        
+        with open(json_path, 'w') as f:
             json.dump(stats_output, f, indent=4)
             
-        with open(os.path.join(target_dir, 'stats.js'), 'w') as f:
+        with open(js_path, 'w') as f:
             f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
+            
+        logger.info(f"✅ Saved stats to {os.path.basename(target_dir) if os.path.basename(target_dir) else 'docs'}")
         
     # [BILLION DOLLAR OPTIMIZATION]: Cache results
     cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')

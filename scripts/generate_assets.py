@@ -316,10 +316,12 @@ def generate_live_assets(models=None):
         with open(abs_path, 'w') as f: f.write(new_content)
         print(f"✅ Injected data into {abs_path}")
 
-    # Process each model's detailed page
-    web_dir = 'docs/web'
+    # Root paths
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    web_dir = os.path.join(base_dir, 'docs', 'web')
     os.makedirs(web_dir, exist_ok=True)
-    
+
+    # Process each model's detailed page
     for model_name, df in models.items():
         if df is None or df.empty: continue
         
@@ -354,7 +356,7 @@ def generate_live_assets(models=None):
 
         inject_json(os.path.join(web_dir, f"{model_name}.html"), page_data)
 
-    # Combined Series 6 Page (Needs dual stats)
+    # Combined Series 6 Page
     kyanite_df = models.get('kyanite')
     carnelian_df = models.get('carnelian')
     
@@ -381,6 +383,7 @@ def generate_live_assets(models=None):
 
     # Selector Page
     selector_data = {
+        "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "cache_bust": et_now.timestamp()},
         "models": {
             name: {
                 "roi": round(StatsEngine.calculate_metrics(df)['roi'] * 100, 1),
