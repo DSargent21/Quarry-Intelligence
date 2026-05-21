@@ -298,7 +298,8 @@ def run_daily_update():
     stats_output = {
         "meta": {
             "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
-            "status": "NOMINAL"
+            "status": "NOMINAL",
+            "cache_bust": et_now.timestamp()
         },
         "models": {}
     }

@@ -297,18 +297,22 @@ def generate_live_assets(models=None):
         if not os.path.exists(html_path): return
         with open(html_path, 'r') as f: content = f.read()
         
-        # Robust regex: Find 'const DATA = {' and match until '};' followed by newline or script end
-        # This handles nested objects better by looking for the specific terminator
-        pattern = r'const DATA\s*=\s*\{.*?\n\s*\};'
+        # Super-Robust multiline matching for const DATA = { ... };
+        # This matches the declaration and continues until it finds the closing block with semicolon
+        # The key is to find the LAST }; in the file before the script tag ends, or more precisely
+        # matching the pattern from declaration to its primary closing brace.
+        pattern = r'const DATA\s*=\s*\{.*?\};'
         
+        # We try to find the specific block starting with the comment if it exists
+        if '// --- DATA INJECTION POINT (AUTOMATED) ---' in content:
+            # Match from the comment down to the first }; that is followed by a newline or script tag
+            pattern = r'// --- DATA INJECTION POINT \(AUTOMATED\) ---\s*const DATA\s*=\s*\{.*?\};'
+            
         if not re.search(pattern, content, flags=re.DOTALL):
-             # Fallback to a simpler pattern if the formatting is different
-             pattern = r'const DATA\s*=\s*\{.*?\};'
-             if not re.search(pattern, content, flags=re.DOTALL):
-                  print(f"❌ Failed to find DATA block in {html_path}")
-                  return
+             print(f"❌ Failed to find DATA block in {html_path}")
+             return
 
-        replacement = f'const DATA = {json.dumps(data_object, indent=12)};'
+        replacement = f'// --- DATA INJECTION POINT (AUTOMATED) ---\n        const DATA = {json.dumps(data_object, indent=12)};'
         new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
         
         with open(html_path, 'w') as f: f.write(new_content)
@@ -324,7 +328,8 @@ def generate_live_assets(models=None):
         page_data = {
             "meta": {
                 "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
-                "status": "OPERATIONAL"
+                "status": "OPERATIONAL",
+                "cache_bust": et_now.timestamp()
             },
             "stats": {
                 "roi": round(m['roi'] * 100, 1),
