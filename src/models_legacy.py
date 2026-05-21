@@ -172,7 +172,7 @@ class ModelSimulator:
                 risk = group['wager_unit'].sum()
                 if risk > 10.0: group['wager_unit'] *= (10.0 / risk)
                 group['wager_unit'] = group['wager_unit'].apply(lambda x: round(x, 2))
-                return group[group['wager_unit'] > 0]
+                return group[group['wager_unit'] >= 0.10]
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
             if 'pick_date' not in final.columns:
                 final['pick_date'] = active.loc[final.index, 'pick_date']
@@ -212,7 +212,7 @@ class ModelSimulator:
                 risk = group['wager_unit'].sum()
                 if risk > DAILY_RISK_CAP: group['wager_unit'] *= (DAILY_RISK_CAP / risk)
                 group['wager_unit'] = group['wager_unit'].apply(lambda x: round(x, 2))
-                return group[group['wager_unit'] > 0]
+                return group[group['wager_unit'] >= 0.10]
             
             final = active.groupby('pick_date', group_keys=False).apply(cap_daily)
             if 'pick_date' not in final.columns:
@@ -390,7 +390,7 @@ class ModelSimulator:
             cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(cand['decimal_odds']-1), 
                                              np.where(cand['outcome']==0, -cand['wager_unit'], 0))
             
-            return cand[cand['wager_unit'] > 0]
+            return cand[cand['wager_unit'] >= 0.10]
             
         except Exception as e:
             print(f"Error V5: {e}")
@@ -470,7 +470,7 @@ class ModelSimulator:
             cand['risk_factor'] = (10.0 / cand['daily_total_risk']).clip(upper=1.0)
             cand['wager_unit'] = (cand['wager_unit'] * cand['risk_factor']).round(2)
             
-            cand = cand[cand['wager_unit'] > 0]
+            cand = cand[cand['wager_unit'] >= 0.10]
             
             cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(cand['decimal_odds']-1), 
                                              np.where(cand['outcome']==0, -cand['wager_unit'], 0))
