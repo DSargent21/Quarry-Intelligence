@@ -114,7 +114,10 @@ jobs:
       - name: 🔬 Comprehensive Deployment Audit
         run: |
           python3 scripts/debug_deployment.py
-          ls -R docs/
+
+      - name: 📡 Sync Sentinel (Live Probe)
+        run: |
+          python3 scripts/sync_sentinel.py
 
       - name: 🛡️ Indestructible Git Sync & Deploy
         env:
