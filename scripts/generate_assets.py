@@ -294,31 +294,32 @@ def generate_live_assets(models=None):
     # --- 3. DATA INJECTION ---
     # Injection helper
     def inject_json(html_path, data_object):
-        if not os.path.exists(html_path): return
-        with open(html_path, 'r') as f: content = f.read()
+        abs_path = os.path.abspath(html_path)
+        if not os.path.exists(abs_path):
+             print(f"⚠️ Skipping injection: {abs_path} does not exist.")
+             return
+             
+        with open(abs_path, 'r') as f: content = f.read()
         
         # Super-Robust multiline matching for const DATA = { ... };
-        # This matches the declaration and continues until it finds the closing block with semicolon
-        # The key is to find the LAST }; in the file before the script tag ends, or more precisely
-        # matching the pattern from declaration to its primary closing brace.
         pattern = r'const DATA\s*=\s*\{.*?\};'
-        
-        # We try to find the specific block starting with the comment if it exists
         if '// --- DATA INJECTION POINT (AUTOMATED) ---' in content:
-            # Match from the comment down to the first }; that is followed by a newline or script tag
             pattern = r'// --- DATA INJECTION POINT \(AUTOMATED\) ---\s*const DATA\s*=\s*\{.*?\};'
             
         if not re.search(pattern, content, flags=re.DOTALL):
-             print(f"❌ Failed to find DATA block in {html_path}")
+             print(f"❌ Failed to find DATA block in {abs_path}")
              return
 
         replacement = f'// --- DATA INJECTION POINT (AUTOMATED) ---\n        const DATA = {json.dumps(data_object, indent=12)};'
         new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
         
-        with open(html_path, 'w') as f: f.write(new_content)
-        print(f"✅ Injected data into {html_path}")
+        with open(abs_path, 'w') as f: f.write(new_content)
+        print(f"✅ Injected data into {abs_path}")
 
     # Process each model's detailed page
+    web_dir = 'docs/web'
+    os.makedirs(web_dir, exist_ok=True)
+    
     for model_name, df in models.items():
         if df is None or df.empty: continue
         
@@ -351,22 +352,20 @@ def generate_live_assets(models=None):
                 "v2_roi": round(StatsEngine.calculate_metrics(models.get('diamond'))['roi'] * 100, 1) if 'diamond' in models else 0
             }
 
-        inject_json(f'docs/web/{model_name}.html', page_data)
+        inject_json(os.path.join(web_dir, f"{model_name}.html"), page_data)
 
     # Combined Series 6 Page (Needs dual stats)
     kyanite_df = models.get('kyanite')
     carnelian_df = models.get('carnelian')
     
     if (kyanite_df is not None and not kyanite_df.empty) or (carnelian_df is not None and not carnelian_df.empty):
-        # We inject a different structure for the dual page
         km = StatsEngine.calculate_metrics(kyanite_df)
         ky = StatsEngine.get_yesterday_data(kyanite_df, et_now=et_now)
-        
         cm = StatsEngine.calculate_metrics(carnelian_df)
         cy = StatsEngine.get_yesterday_data(carnelian_df, et_now=et_now)
         
         v6_page_data = {
-            "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL"},
+            "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
             "models": {
                 "kyanite": {
                     "net": km['net'], "roi": km['roi'] * 100, "record": km['record'], "win_rate": km['win_rate'] * 100,
@@ -378,7 +377,7 @@ def generate_live_assets(models=None):
                 }
             }
         }
-        inject_json('docs/web/kyanite_carnelian.html', v6_page_data)
+        inject_json(os.path.join(web_dir, 'kyanite_carnelian.html'), v6_page_data)
 
     # Selector Page
     selector_data = {
@@ -390,7 +389,7 @@ def generate_live_assets(models=None):
         }
     }
     # Add Combined Series 6
-    v6_list = [models.get('kyanite'), models.get('carnelian')]
+    v6_list = [kyanite_df, carnelian_df]
     v6_list = [d for d in v6_list if d is not None and not d.empty]
     if v6_list:
         v6_combined = pd.concat(v6_list)
@@ -400,7 +399,7 @@ def generate_live_assets(models=None):
             "status": "INSTITUTIONAL"
         }
 
-    inject_json('docs/web/selector.html', selector_data)
+    inject_json(os.path.join(web_dir, 'selector.html'), selector_data)
 
 if __name__ == "__main__":
     generate_synthetic_assets()
