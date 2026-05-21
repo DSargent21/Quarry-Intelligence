@@ -100,7 +100,9 @@ def update_markdown_reports(models):
     log_content += make_table(models.get("diamond"), "V2 Diamond Action")
     log_content += make_table(models.get("pyrite"), "V1 Pyrite Action")
     
-    with open(os.path.join(BASE_DIR, "LATEST_ACTION.md"), "w", encoding="utf-8") as f:
+    log_path = os.path.abspath(os.path.join(BASE_DIR, "docs", "reports", "LATEST_ACTION.md"))
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+    with open(log_path, "w", encoding="utf-8") as f:
         f.write(log_content)
 
     # --- 2. README.md ---
