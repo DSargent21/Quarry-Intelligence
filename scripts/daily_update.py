@@ -22,6 +22,7 @@ from pipeline import SportsDataPipeline, FeatureEngineer
 from models_legacy import ModelSimulator
 from src.utils.logger import logger
 from src.utils.validator import DataValidator
+from src.utils.stats import StatsEngine
 
 # --- PRE-FLIGHT CHECK ---
 def pre_flight_check():
@@ -50,103 +51,63 @@ def pre_flight_check():
     return True
 
 def update_markdown_reports(models):
-    """Ported from monitor.py: Updates README.md and LATEST_ACTION.md with latest results."""
+    """Updates README.md and LATEST_ACTION.md with latest results using StatsEngine."""
     logger.info("📝 Updating System Reports (README.md & LATEST_ACTION.md)...")
     
-    # --- HELPER FUNCTIONS ---
-    def get_stats(d):
-        if d is None or d.empty: return 0.0, 0.0, 0.0
-        settled = d[d['outcome'].isin([0.0, 1.0])]
-        if settled.empty: return 0.0, 0.0, 0.0
-        p = settled['profit_actual'].sum()
-        r = settled['wager_unit'].sum()
-        roi = p/r if r>0 else 0.0
-        wr = len(settled[settled['outcome']==1]) / len(settled)
-        return p, roi, wr
-
-    def get_volume_text(d):
-        if d is None or d.empty or 'pick_date' not in d.columns: return "None (0 bets/day)"
-        try:
-            days = (d['pick_date'].max() - d['pick_date'].min()).days + 1
-            avg = len(d) / max(days, 1)
-        except:
-            return "None (0 bets/day)"
-            
-        if avg > 50: cat = "Very High"
-        elif avg > 20: cat = "High"
-        elif avg > 10: cat = "Medium"
-        elif avg > 5: cat = "Low"
-        else: cat = "Very Low"
-        return f"{cat} (~{int(avg)} bets/day)"
-
-    # --- CALCULATE STATS ---
-    v1, v2, v3, v4, v5, Kyanite, Carnelian = models.get("pyrite"), models.get("diamond"), models.get("obsidian"), models.get("quartz"), models.get("sapphire"), models.get("kyanite"), models.get("carnelian")
-    p1, r1, w1 = get_stats(v1)
-    p2, r2, w2 = get_stats(v2)
-    p3, r3, w3 = get_stats(v3)
-    p4, r4, w4 = get_stats(v4)
-    p5, r5, w5 = get_stats(v5)
-    pKyanite, rKyanite, wKyanite = get_stats(Kyanite)
-    pCarnelian, rCarnelian, wCarnelian = get_stats(Carnelian)
+    # --- CALCULATE STATS USING StatsEngine ---
+    stats = {}
+    for name, df in models.items():
+        stats[name] = StatsEngine.calculate_metrics(df)
 
     # [SURGICAL DNA]: Combined Series 6 Stats
-    v6_list = [d for d in [Kyanite, Carnelian] if d is not None and not d.empty]
-    v6 = pd.concat(v6_list) if v6_list else None
-    p6, r6, w6 = get_stats(v6)
-    vol_v6 = get_volume_text(v6)
-    
-    vol_v1 = get_volume_text(v1)
-    vol_v2 = get_volume_text(v2)
-    vol_v3 = get_volume_text(v3)
-    vol_v4 = get_volume_text(v4)
-    vol_v5 = get_volume_text(v5)
-    vol_Kyanite = get_volume_text(Kyanite)
-    vol_Carnelian = get_volume_text(Carnelian)
+    v6_list = [models.get('kyanite'), models.get('carnelian')]
+    v6_list = [d for d in v6_list if d is not None and not d.empty]
+    v6_df = pd.concat(v6_list) if v6_list else pd.DataFrame()
+    stats_v6 = StatsEngine.calculate_metrics(v6_df)
 
     # --- 1. LATEST_ACTION.md ---
-    dates = []
-    for d in [v1, v2, v3, v4, v5, Kyanite, Carnelian]:
-        if d is not None and not d.empty and 'pick_date' in d.columns: 
-            dates.append(d['pick_date'].max())
+    et_now = StatsEngine.get_et_now()
+    yesterday_data = StatsEngine.get_yesterday_data(v6_df, et_now=et_now) # Use V6 as primary for date
+    display_date = yesterday_data['date'] if yesterday_data else (et_now - pd.Timedelta(days=1)).strftime('%b %d, %Y')
     
-    last_date = max(dates) if dates else datetime.now()
-    
-    log_content = f"# 📝 Daily Action Log ({last_date.date() if hasattr(last_date, 'date') else last_date})\n\n"
+    log_content = f"# 📝 Daily Action Log ({display_date})\n\n"
     
     def make_table(df, title):
-        if df is None or df.empty or 'pick_date' not in df.columns: return f"### {title}\n*No action found.*\n\n"
+        if df is None or df.empty: return f"### {title}\n*No action found.*\n\n"
+        
+        # Use yesterday's data specifically if possible
+        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
+        if not y or not y['ledger']:
+             return f"### {title}\n*No action for this date.*\n\n"
+
         t = f"### {title}\n"
         t += "| LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |\n"
         t += "| :--- | :--- | :--- | :--- | :--- | :--- |\n"
-        day_df = df[df['pick_date'] == last_date]
-        if day_df.empty: return f"### {title}\n*No action for this date.*\n\n"
         
-        for _, row in day_df.iterrows():
-            res = "✅" if row['outcome'] == 1.0 else "❌" if row['outcome'] == 0.0 else "⏳"
-            odds = row.get('decimal_odds', row.get('odds_american', 0))
-            if 'odds_american' in row and row['odds_american'] != 0:
-                odds_text = f"+{int(row['odds_american'])}" if row['odds_american'] > 0 else f"{int(row['odds_american'])}"
-            else:
-                odds_text = f"{odds:.2f}"
-                
-            t += f"| {row['league_name']} | {row.get('pick_norm', row.get('pick_value', 'N/A'))} | {odds_text} | {row['wager_unit']:.1f} | {res} | {row['profit_actual']:+.2f}u |\n"
+        for row in y['ledger']:
+            res = "✅" if row['result'] == "WIN" else "❌" if row['result'] == "LOSS" else "⏳"
+            odds_text = f"+{row['odds']}" if row['odds'] > 0 else f"{row['odds']}"
+            t += f"| {row['league']} | {row['selection']} | {odds_text} | {row['wager']:.1f} | {res} | {row['profit']:+.2f}u |\n"
         
-        daily_profit = day_df[day_df['outcome'].isin([0.0, 1.0])]['profit_actual'].sum()
-        t += f"\n**Daily PnL (Settled): {daily_profit:+.2f} Units**\n\n"
+        t += f"\n**Daily PnL: {y['net']:+.2f} Units**\n\n"
         return t + "\n"
 
-    log_content += make_table(Kyanite, "Kyanite Kyanite Action")
-    log_content += make_table(Carnelian, "Carnelian Carnelian Action")
-    log_content += make_table(v5, "V5 Sapphire Action")
-    log_content += make_table(v4, "V4 Quartz Action")
-    log_content += make_table(v3, "V3 Obsidian Action")
-    log_content += make_table(v2, "V2 Diamond Action")
-    log_content += make_table(v1, "V1 Pyrite Action")
+    log_content += make_table(models.get("kyanite"), "Kyanite Action")
+    log_content += make_table(models.get("carnelian"), "Carnelian Action")
+    log_content += make_table(models.get("sapphire"), "V5 Sapphire Action")
+    log_content += make_table(models.get("quartz"), "V4 Quartz Action")
+    log_content += make_table(models.get("obsidian"), "V3 Obsidian Action")
+    log_content += make_table(models.get("diamond"), "V2 Diamond Action")
+    log_content += make_table(models.get("pyrite"), "V1 Pyrite Action")
     
     with open(os.path.join(BASE_DIR, "LATEST_ACTION.md"), "w", encoding="utf-8") as f:
         f.write(log_content)
 
     # --- 2. README.md ---
+    def get_row(name, label, released, profile, color_emoji):
+        m = stats.get(name, StatsEngine.calculate_metrics(None))
+        return f"| **[{label}](https://ducky705.github.io/Quarry-Intelligence/web/{name if name != 'pyrite' else 'pyrite'}.html)** | `{released}` | `{profile}` | {color_emoji} **ACTIVE** | {m['volume']} | **{m['sample']}** | **{m['roi']:+.1%}** |"
+
     readme_text = f"""
 <div align="center">
   <br />
@@ -158,13 +119,13 @@ def update_markdown_reports(models):
     <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
   <a href="https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
-    <img src="https://img.shields.io/badge/SERIES%206%20ROI-{p6:+.1f}u-D4AF37?style=for-the-badge" alt="Series 6 ROI" />
+    <img src="https://img.shields.io/badge/SERIES%206%20NET-{stats_v6['net']:+.1f}u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
   <a href="https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html">
-    <img src="https://img.shields.io/badge/SERIES%205%20ROI-{p5:+.1f}u-2563EB?style=for-the-badge" alt="Series 5 ROI" />
+    <img src="https://img.shields.io/badge/SERIES%205%20NET-{stats.get('sapphire', {'net':0})['net']:+.1f}u-2563EB?style=for-the-badge" alt="Series 5 Net" />
   </a>
   <a href="https://ducky705.github.io/Quarry-Intelligence/web/quartz.html">
-    <img src="https://img.shields.io/badge/SERIES%204%20ROI-{p4:+.1f}u-f8fafc?style=for-the-badge" alt="Series 4 ROI" />
+    <img src="https://img.shields.io/badge/SERIES%204%20NET-{stats.get('quartz', {'net':0})['net']:+.1f}u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
   </a>
 
   <br />
@@ -182,12 +143,12 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | {vol_v6} | **{len(v6) if v6 is not None else 0}** | **{r6:+.1%}** |
-| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL` <br> Momentum | 🔵 **PREMIUM** | {vol_v5} | **{len(v5) if v5 is not None else 0}** | **{r5:+.1%}** |
-| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL` <br> Drift Proxy | ⚪ **FLAGSHIP** | {vol_v4} | **{len(v4)}** | **{r4:+.1%}** |
-| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE` <br> Non-Linear | 🟣 **ADVANCED** | {vol_v3} | **{len(v3)}** | **{r3:+.1%}** |
-| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE` <br> Refined | 🟢 **STABLE** | {vol_v2} | **{len(v2)}** | **{r2:+.1%}** |
-| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE` <br> High-Freq | 🟡 **LEGACY** | {vol_v1} | **{len(v1)}** | **{r1:+.1%}** |
+| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | {stats_v6['volume']} | **{stats_v6['sample']}** | **{stats_v6['roi']:+.1%}** |
+{get_row('sapphire', 'SERIES 5: SAPPHIRE', 'MAY 13, 2026', 'CONFORMAL <br> Momentum', '🔵')}
+{get_row('quartz', 'SERIES 4: QUARTZ', 'APR 06, 2026', 'INSTITUTIONAL <br> Drift Proxy', '⚪')}
+{get_row('obsidian', 'SERIES 3: OBSIDIAN', 'DEC 27, 2025', 'ADVANCED ENSEMBLE <br> Non-Linear', '🟣')}
+{get_row('diamond', 'SERIES 2: DIAMOND', 'NOV 30, 2025', 'PRECISION CORE <br> Refined', '🟢')}
+{get_row('pyrite', 'SERIES 1: PYRITE', 'NOV 20, 2025', 'LEGACY CORE <br> High-Freq', '🟡')}
 
 > [!IMPORTANT]
 > **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/web/selector.html).
@@ -268,6 +229,7 @@ def run_daily_update():
     # [BILLION DOLLAR GUARD]: Ensure script only runs once per day
     last_run_file = os.path.join(BASE_DIR, 'docs', 'last_run.txt')
     force_update = os.environ.get('FORCE_UPDATE') == 'true'
+    et_now = StatsEngine.get_et_now()
     
     if os.path.exists(last_run_file) and not force_update:
         try:
@@ -275,10 +237,10 @@ def run_daily_update():
                 content = f.read()
                 if "Last successful run:" in content:
                     date_str = content.split("Last successful run:")[1].strip()
-                    today_utc = datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%b %d')
-                    year_utc = datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%Y')
+                    today_et = et_now.strftime('%b %d')
+                    year_et = et_now.strftime('%Y')
                     
-                    if today_utc in date_str and year_utc in date_str:
+                    if today_et in date_str and year_et in date_str:
                         logger.info(f"🛑 Pipeline already completed successfully today ({date_str}). Skipping run.")
                         return
         except Exception as e:
@@ -311,7 +273,6 @@ def run_daily_update():
     logger.info("⏳ Running Multi-Generational Simulations...")
     models = {}
     
-    # Wrap each model run in a try-except to prevent one failure from killing the pipeline
     simulation_tasks = [
         ("pyrite", ms.run_v1_pyrite),
         ("diamond", ms.run_v2_diamond),
@@ -333,116 +294,49 @@ def run_daily_update():
             models[name] = pd.DataFrame()
     
     # 3. Generate Stats for JSON/JS
-    stats = {
+    et_now = StatsEngine.get_et_now()
+    stats_output = {
         "meta": {
-            "last_update": datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%Y-%m-%d %H:%M UTC'),
+            "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
             "status": "NOMINAL"
         },
         "models": {}
     }
     
-    status_map = {
-        "pyrite": "LEGACY",
-        "diamond": "STABLE",
-        "obsidian": "ADVANCED",
-        "quartz": "FLAGSHIP",
-        "sapphire": "PREMIUM",
-        "kyanite": "PRECISION",
-        "carnelian": "LIQUIDITY"
-    }
-    
     for name, res in models.items():
-        m_status = status_map.get(name, "ACTIVE")
-        if res is None or res.empty or 'profit_actual' not in res.columns:
-            stats["models"][name] = {
-                "roi": 0, "net": 0, "wins": 0, "losses": 0, "pushes": 0,
-                "record": "0-0-0", "win_rate": 0, "sample": 0, "bets_day": 0,
-                "status": m_status if name in ['kyanite', 'carnelian'] else "OFFLINE",
-                "yesterday": {"date": "N/A", "record": "0-0-0", "net": 0, "roi": 0, "ledger": []}
-            }
-        else:
-            # [STABILITY FIX]: Check if wager_unit sum is 0
-            wager_total = res['wager_unit'].sum()
-            roi = (res['profit_actual'].sum() / wager_total * 100) if wager_total > 0 else 0
-            net = res['profit_actual'].sum()
-            wins = len(res[res['outcome'] == 1])
-            losses = len(res[res['outcome'] == 0])
-            pushes = len(res[res['outcome'] == 0.5])
-            
-            # [CRASH PREVENTION]: Ensure pick_date exists and is not empty
-            if 'pick_date' in res.columns and not res['pick_date'].isnull().all():
-                last_day_val = res['pick_date'].max()
-                last_day = res[res['pick_date'] == last_day_val]
-            else:
-                last_day_val = datetime.now()
-                last_day = pd.DataFrame()
-                
-            y_record = "0-0-0"
-            y_net = 0
-            y_roi = 0
-            y_winrate = 0
-            y_list = []
-            
-            if not last_day.empty:
-                y_wins = len(last_day[last_day['outcome'] == 1])
-                y_losses = len(last_day[last_day['outcome'] == 0])
-                y_record = f"{y_wins}-{y_losses}-{len(last_day) - y_wins - y_losses}"
-                y_net = last_day['profit_actual'].sum()
-                y_roi = (y_net / last_day['wager_unit'].sum() * 100) if last_day['wager_unit'].sum() > 0 else 0
-                y_winrate = (y_wins / (y_wins + y_losses) * 100) if (y_wins + y_losses) > 0 else 0
-                
-                # Ensure columns are unique before converting to dict (Prevents UserWarning & data loss)
-                last_day_unique = last_day.loc[:, ~last_day.columns.duplicated()]
-                y_list = last_day_unique.sort_values('profit_actual', ascending=False).head(15).to_dict('records')
-                for item in y_list:
-                    item['pick_date'] = item['pick_date'].strftime('%m/%d')
-                    item['result'] = 'WIN' if item['outcome'] == 1 else ('LOSS' if item['outcome'] == 0 else 'PUSH')
-                    for k in list(item.keys()):
-                        if k not in ['pick_date', 'league_name', 'pick_norm', 'decimal_odds', 'wager_unit', 'result', 'profit_actual', 'edge']:
-                            del item[k]
-
-            stats["models"][name] = {
-                "roi": round(roi, 1),
-                "net": round(net, 1),
-                "wins": wins,
-                "losses": losses,
-                "pushes": pushes,
-                "record": f"{wins}-{losses}-{pushes}",
-                "win_rate": round(wins / (wins + losses) * 100, 1) if (wins + losses) > 0 else 0,
-                "sample": len(res),
-                "bets_day": round(len(res) / (max((res['pick_date'].max() - res['pick_date'].min()).days, 0) + 1), 1) if not res.empty and 'pick_date' in res.columns else 0,
-                "status": {
-                    "pyrite": "LEGACY",
-                    "diamond": "STABLE",
-                    "obsidian": "ADVANCED",
-                    "quartz": "FLAGSHIP",
-                    "sapphire": "PREMIUM",
-                    "kyanite": "PRECISION",
-                    "carnelian": "LIQUIDITY"
-                }.get(name, "ACTIVE"),
-                "yesterday": {
-                    "date": last_day_val.strftime('%b %d, %Y') if hasattr(last_day_val, 'strftime') else "N/A",
-                    "record": y_record,
-                    "win_rate": round(y_winrate, 1),
-                    "net": round(y_net, 2),
-                    "roi": round(y_roi, 1),
-                    "ledger": y_list
-                }
-            }
-
-    # Final Stats Validation
-    if not DataValidator.validate_stats_json(stats):
-        logger.warning("⚠️ Final stats failed validation. Proceeding with caution.")
+        m = StatsEngine.calculate_metrics(res)
+        y = StatsEngine.get_yesterday_data(res, et_now=et_now)
+        
+        stats_output["models"][name] = {
+            "roi": round(m['roi'] * 100, 1),
+            "net": round(m['net'], 1),
+            "wins": m['wins'],
+            "losses": m['losses'],
+            "pushes": m['pushes'],
+            "record": m['record'],
+            "win_rate": round(m['win_rate'] * 100, 1),
+            "sample": m['sample'],
+            "bets_day": 0.0, # Placeholder, filled below
+            "status": "ACTIVE",
+            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
+        }
+        # Parse volume for bets_day float
+        try:
+             import re
+             avg_match = re.search(r'~?(\d+)', m['volume'])
+             stats_output["models"][name]["bets_day"] = float(avg_match.group(1)) if avg_match else 0.0
+        except:
+             stats_output["models"][name]["bets_day"] = 0.0
 
     # 4. Save Stats
     docs_dir = os.path.join(BASE_DIR, 'docs')
     os.makedirs(docs_dir, exist_ok=True)
     
     with open(os.path.join(docs_dir, 'stats.json'), 'w') as f:
-        json.dump(stats, f, indent=4)
+        json.dump(stats_output, f, indent=4)
         
     with open(os.path.join(docs_dir, 'stats.js'), 'w') as f:
-        f.write(f"window.QUARRY_STATS = {json.dumps(stats, indent=4)};")
+        f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
         
     # [BILLION DOLLAR OPTIMIZATION]: Cache results
     cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
@@ -454,7 +348,7 @@ def run_daily_update():
         
     # 4c. Export Machine-Readable Summary for GHA
     summary = {
-        "last_update": stats['meta']['last_update'],
+        "last_update": stats_output['meta']['last_update'],
         "data_range": f"{raw_df['pick_date'].min().date()} to {raw_df['pick_date'].max().date()}" if not raw_df.empty else "N/A",
         "total_rows": len(raw_df),
         "picks_identified": {m: len(models[m]) for m in models}
@@ -464,7 +358,7 @@ def run_daily_update():
         
     # [HEARTBEAT]: Update heartbeat file ONLY on successful data processing
     with open(last_run_file, 'w') as f:
-        f.write(f"Last successful run: {datetime.now(pd.Timestamp.now(tz='UTC').tz).strftime('%a %b %d %H:%M:%S UTC %Y')}")
+        f.write(f"Last successful run: {et_now.strftime('%a %b %d %H:%M:%S ET %Y')}")
 
     # 5. Update Markdown Reports
     try:
@@ -476,7 +370,7 @@ def run_daily_update():
     logger.info("🎨 Generating Assets...")
     try:
         import scripts.generate_assets as generate_assets
-        generate_assets.generate_live_assets()
+        generate_assets.generate_live_assets(models=models)
     except Exception as e:
         logger.error(f"❌ Asset Generation Failed: {e}")
     
@@ -490,7 +384,6 @@ def run_daily_update():
         logger.error(f"❌ Comparison Chart Generation Failed: {e}")
     
     logger.info("✅ Daily Update Complete.")
-
 
 if __name__ == "__main__":
     run_daily_update()
