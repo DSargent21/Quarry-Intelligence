@@ -1,147 +1,147 @@
-# 📝 Daily Action Log (May 21, 2026)
+# 📝 Daily Action Log (May 22, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NBA | knicks -6.5 vs cavs | -110 | 0.44 | ✅ | +0.40u |
-| MLB | mets ml vs nationals | -110 | 0.44 | ✅ | +0.40u |
-| Soccer | ajax amsterdam -0.5 vs groningen | -110 | 0.42 | ✅ | +0.38u |
-| MLB | pirates vs cardinals over 7.5 | -110 | 0.41 | ✅ | +0.37u |
-| WNBA | sparks +3.5 vs mercury | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | valkyries +8 vs liberty | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | valkyries +7.5 vs liberty | -110 | 0.35 | ✅ | +0.32u |
-| WNBA | sparks vs mercury over 177.5 | -110 | 0.35 | ✅ | +0.32u |
-| Other | lynx -6.5 vs toronto tempo | -110 | 0.35 | ✅ | +0.32u |
-| Other | toronto tempo vs lynx under 173 | -110 | 0.34 | ✅ | +0.31u |
-| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 0.31 | ✅ | +0.28u |
-| MLB | pirates vs cardinals over 7 | -110 | 0.31 | ✅ | +0.28u |
-| MLB | braves vs marlins over 7.5 | -110 | 0.31 | ✅ | +0.28u |
-| WNBA | valkyries vs liberty under 171 | -110 | 0.25 | ✅ | +0.23u |
-| NBA | knicks -5 vs cavs | -110 | 0.24 | ✅ | +0.22u |
-| MLB | pirates vs cardinals under 7 | -110 | 0.25 | ❌ | -0.25u |
-| NBA | new york knicks -5.5 vs cleveland cavaliers | -110 | 0.27 | ❌ | -0.27u |
-| WNBA | sparks vs mercury under 178.5 | -110 | 0.31 | ❌ | -0.31u |
-| MLB | los angeles angels ml | -110 | 0.32 | ❌ | -0.32u |
-| MLB | event toronto blue jays vs new york yankees f over 5 | -110 | 0.34 | ❌ | -0.34u |
+| WNBA | event dc defenders ml vs orlando storm | -110 | 0.34 | ✅ | +0.31u |
+| MLB | as vs padres over 8 | -110 | 0.34 | ✅ | +0.31u |
+| NHL | golden knights vs avalanche under 6.5 | -110 | 0.34 | ✅ | +0.31u |
+| MLB | guardians vs phillies under 7 | -110 | 0.32 | ✅ | +0.29u |
+| WNBA | sun vs storm under 166.5 | -110 | 0.29 | ✅ | +0.26u |
+| MLB | milwaukee brewers ml vs los angeles dodgers | -110 | 0.28 | ✅ | +0.25u |
+| WNBA | atlanta dream -5.5 vs dallas wings | -110 | 0.28 | ✅ | +0.25u |
+| WNBA | fever -5.5 vs valkyries | -110 | 0.27 | ✅ | +0.25u |
+| NBA | thunder vs spurs over 217.5 | -110 | 0.26 | ✅ | +0.24u |
+| MLB | miami marlins ml | -110 | 0.25 | ✅ | +0.23u |
+| WNBA | dallas wings vs atlanta dream atlanta dream -5.5 | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | dream -5.5 vs wings | -110 | 0.20 | ✅ | +0.18u |
+| MLB | twins vs red sox over 7.5 | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | valkyries +6.5 vs fever | -110 | 0.19 | ❌ | -0.19u |
+| MLB | los angeles dodgers ml vs milwaukee brewers | -110 | 0.23 | ❌ | -0.23u |
+| Other | spurs -1.5 vs thunder | -110 | 0.24 | ❌ | -0.24u |
+| MLB | mets vs marlins over 7.5 | -110 | 0.24 | ❌ | -0.24u |
+| MLB | white sox vs giants under 7 | -110 | 0.26 | ❌ | -0.26u |
+| NBA | san antonio spurs -1.5 vs oklahoma city thunder | -110 | 0.28 | ❌ | -0.28u |
+| NBA | san antonio spurs ml vs oklahoma city thunder | -110 | 0.28 | ❌ | -0.28u |
 
-**Daily PnL: +0.05 Units**
+**Daily PnL: -3.18 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | blue jays ml vs yankees | +154 | 0.26 | ✅ | +0.40u |
-| NHL | montreal canadiens ml | +135 | 0.26 | ✅ | +0.35u |
-| NBA | knicks -6.5 vs cavs | -110 | 0.26 | ✅ | +0.24u |
-| MLB | mets ml vs nationals | -110 | 0.26 | ✅ | +0.24u |
-| Soccer | ajax amsterdam -0.5 vs groningen | -110 | 0.25 | ✅ | +0.23u |
-| MLB | pirates vs cardinals over 7.5 | -110 | 0.24 | ✅ | +0.22u |
-| WNBA | sparks +3.5 vs mercury | -110 | 0.22 | ✅ | +0.20u |
-| WNBA | valkyries +8 vs liberty | -110 | 0.22 | ✅ | +0.20u |
-| Other | haotong li ml vs rasmus neergaard petersen | +105 | 0.19 | ✅ | +0.20u |
-| WNBA | valkyries +7.5 vs liberty | -110 | 0.21 | ✅ | +0.19u |
-| WNBA | sparks vs mercury over 177.5 | -110 | 0.21 | ✅ | +0.19u |
-| Other | lynx -6.5 vs toronto tempo | -110 | 0.21 | ✅ | +0.19u |
-| Other | toronto tempo vs lynx under 173 | -110 | 0.20 | ✅ | +0.18u |
-| MLB | guardians ml vs tigers | +105 | 0.16 | ✅ | +0.17u |
-| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 0.18 | ✅ | +0.16u |
-| MLB | pirates vs cardinals over 7 | -110 | 0.18 | ✅ | +0.16u |
-| MLB | braves vs marlins over 7.5 | -110 | 0.18 | ✅ | +0.16u |
-| WNBA | valkyries vs liberty under 171 | -110 | 0.14 | ✅ | +0.13u |
-| NBA | knicks -5 vs cavs | -110 | 0.14 | ✅ | +0.13u |
-| WNBA | toronto tempo vs minnesota lynx minnesota lynx -6.5 | -110 | 0.14 | ✅ | +0.13u |
+| NBA | oklahoma city thunder ml vs san antonio spurs | +105 | 0.24 | ✅ | +0.25u |
+| WNBA | event dc defenders ml vs orlando storm | -110 | 0.25 | ✅ | +0.23u |
+| MLB | as vs padres over 8 | -110 | 0.25 | ✅ | +0.23u |
+| NHL | golden knights vs avalanche under 6.5 | -110 | 0.25 | ✅ | +0.23u |
+| MLB | guardians vs phillies under 7 | -110 | 0.23 | ✅ | +0.21u |
+| NHL | vegas golden knights vs colorado avalanche under 6.5 | +110 | 0.19 | ✅ | +0.21u |
+| WNBA | sun vs storm under 166.5 | -110 | 0.21 | ✅ | +0.19u |
+| MLB | mets ml vs marlins | +114 | 0.16 | ✅ | +0.18u |
+| MLB | milwaukee brewers ml vs los angeles dodgers | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | atlanta dream -5.5 vs dallas wings | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | fever -5.5 vs valkyries | -110 | 0.20 | ✅ | +0.18u |
+| NBA | thunder vs spurs over 217.5 | -110 | 0.19 | ✅ | +0.17u |
+| MLB | miami marlins ml | -110 | 0.18 | ✅ | +0.16u |
+| WNBA | dallas wings vs atlanta dream atlanta dream -5.5 | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | dream -5.5 vs wings | -110 | 0.15 | ✅ | +0.14u |
+| MLB | twins vs red sox over 7.5 | -110 | 0.15 | ✅ | +0.14u |
+| MLB | dodgers vs brewers under 8.5 | -110 | 0.14 | ✅ | +0.13u |
+| WNBA | indiana fever -5 vs golden state valkyries | -110 | 0.13 | ✅ | +0.12u |
+| WNBA | valkyries vs fever over 168 | -110 | 0.13 | ✅ | +0.12u |
+| MLB | astros vs cubs under 7 | -110 | 0.12 | ✅ | +0.11u |
 
-**Daily PnL: -1.03 Units**
+**Daily PnL: -2.10 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | montreal canadiens ml | +135 | 0.17 | ✅ | +0.23u |
-| MLB | guardians ml vs tigers | +105 | 0.17 | ✅ | +0.18u |
-| MLB | guardians ml vs tigers | -103 | 0.17 | ✅ | +0.17u |
-| Other | toronto tempo vs lynx under 173 | -110 | 0.17 | ✅ | +0.15u |
-| NBA | knicks -6.5 vs cavs | -110 | 0.17 | ✅ | +0.15u |
-| Soccer | ajax amsterdam -0.5 vs groningen | -110 | 0.17 | ✅ | +0.15u |
-| NBA | knicks -6.5 vs cavs | -110 | 0.17 | ✅ | +0.15u |
-| NBA | knicks -6.5 vs cavs | -110 | 0.17 | ✅ | +0.15u |
-| WNBA | valkyries +7.5 vs liberty | -110 | 0.17 | ✅ | +0.15u |
-| MLB | mets ml vs nationals | -110 | 0.17 | ✅ | +0.15u |
-| MLB | pirates vs cardinals over 7.5 | -110 | 0.17 | ✅ | +0.15u |
-| WNBA | valkyries +7.5 vs liberty | -110 | 0.17 | ✅ | +0.15u |
-| WNBA | sparks vs mercury over 177.5 | -110 | 0.17 | ✅ | +0.15u |
-| Other | lynx -6.5 vs toronto tempo | -110 | 0.17 | ✅ | +0.15u |
-| Other | lynx -6.5 vs toronto tempo | -110 | 0.17 | ✅ | +0.15u |
-| Other | lynx -6.5 vs toronto tempo | -110 | 0.17 | ✅ | +0.15u |
-| WNBA | valkyries +7.5 vs liberty | -110 | 0.17 | ✅ | +0.15u |
-| NHL | canadiens vs hurricanes over 5.5 | -110 | 0.17 | ✅ | +0.15u |
-| MLB | braves vs marlins over 7.5 | -110 | 0.17 | ✅ | +0.15u |
-| MLB | mets vs nationals under 8 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | miami marlins ml | +100 | 0.21 | ✅ | +0.21u |
+| MLB | miami marlins ml | -108 | 0.21 | ✅ | +0.19u |
+| MLB | miami marlins ml | -110 | 0.21 | ✅ | +0.19u |
+| MLB | miami marlins ml | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | fever -5.5 vs valkyries | -110 | 0.21 | ✅ | +0.19u |
+| NHL | golden knights vs avalanche under 6.5 | -110 | 0.21 | ✅ | +0.19u |
+| MLB | guardians vs phillies under 7 | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | event dc defenders ml vs orlando storm | -110 | 0.21 | ✅ | +0.19u |
+| NHL | golden knights vs avalanche under 6.5 | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | sun vs storm under 166.5 | -110 | 0.21 | ✅ | +0.19u |
+| MLB | as vs padres over 8 | -110 | 0.21 | ✅ | +0.19u |
+| MLB | dodgers vs brewers under 8.5 | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | fever -5.5 vs valkyries | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | fever -5.5 vs valkyries | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | indiana fever -5 vs golden state valkyries | -110 | 0.21 | ✅ | +0.19u |
+| NBA | oklahoma city thunder +2 vs san antonio spurs | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | event golden state valkyries ml vs indiana fever | -110 | 0.21 | ✅ | +0.19u |
+| MLB | miami marlins ml | -112 | 0.21 | ✅ | +0.19u |
+| MLB | miami marlins ml | -115 | 0.21 | ✅ | +0.18u |
+| MLB | seattle mariners ml vs kansas city royals | -119 | 0.21 | ✅ | +0.18u |
 
-**Daily PnL: -0.32 Units**
+**Daily PnL: -0.91 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | montreal canadiens ml vs carolina hurricanes montreal canadiens | +167 | 0.94 | ✅ | +1.57u |
-| WNBA | sparks vs mercury over 177.5 | -109 | 1.15 | ✅ | +1.05u |
-| WNBA | valkyries +7.5 vs liberty | -109 | 1.15 | ✅ | +1.05u |
-| MLB | pirates vs cardinals over 7 | -109 | 1.14 | ✅ | +1.04u |
-| WNBA | valkyries +8 vs liberty | -109 | 1.14 | ✅ | +1.04u |
-| MLB | braves vs marlins over 7.5 | -109 | 0.84 | ✅ | +0.76u |
-| Soccer | ajax amsterdam -0.5 vs groningen | -109 | 0.84 | ✅ | +0.76u |
-| NHL | carolina alves ml | +168 | 0.70 | ❌ | -0.70u |
-| WNBA | valkyries vs liberty over 169.5 | -109 | 0.98 | ❌ | -0.98u |
-| MLB | cleveland guardians ml | +241 | 1.12 | ❌ | -1.12u |
+| Other | kr reykjavik ml vs breidablik | +185 | 0.73 | ✅ | +1.35u |
+| NHL | vegas golden knights ml vs colorado avalanche vegas golden knights | +154 | 0.71 | ✅ | +1.10u |
+| WNBA | fever -5.5 vs valkyries | -109 | 1.02 | ✅ | +0.93u |
+| MLB | nationals ml vs braves | +138 | 0.85 | ❌ | -0.85u |
+| NBA | thunder vs spurs under 218 | -109 | 0.91 | ❌ | -0.91u |
+| WNBA | sun +2.5 vs storm | -109 | 1.03 | ❌ | -1.03u |
+| Other | brommapojkarna vs djurgardens over 3 | -109 | 1.08 | ❌ | -1.08u |
+| WNBA | connecticut sun vs seattle storm connecticut sun +2.5 | -109 | 1.18 | ❌ | -1.18u |
+| WNBA | wings vs dream over 172.5 | -109 | 1.25 | ❌ | -1.25u |
+| MLB | diamondbacks -1.5 vs rockies | -109 | 1.25 | ❌ | -1.25u |
 
-**Daily PnL: +4.46 Units**
+**Daily PnL: -4.17 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | blue jays ml vs yankees | +133 | 0.83 | ✅ | +1.10u |
-| MLB | as ml vs angels | -105 | 0.83 | ✅ | +0.79u |
-| MLB | new york mets ml | -112 | 0.83 | ✅ | +0.74u |
-| MLB | pirates ml vs cardinals | -114 | 0.83 | ✅ | +0.73u |
-| MLB | braves ml vs marlins | -132 | 0.83 | ✅ | +0.63u |
-| MLB | miami marlins ml | +178 | 0.83 | ❌ | -0.83u |
-| MLB | athletics ml | +105 | 0.83 | ❌ | -0.83u |
-| MLB | guardians ml vs tigers | -114 | 0.83 | ❌ | -0.83u |
-| MLB | cleveland guardians ml | -115 | 0.83 | ❌ | -0.83u |
-| MLB | pittsburgh pirates ml vs st. louis cardinals | -130 | 0.83 | ❌ | -0.83u |
-| MLB | atlanta braves ml | -142 | 0.83 | ❌ | -0.83u |
-| MLB | arizona diamondbacks ml | -216 | 0.83 | ❌ | -0.83u |
+| NBA | oklahoma city thunder ml vs san antonio spurs | +105 | 0.83 | ✅ | +0.87u |
+| MLB | chicago white sox ml | -108 | 0.83 | ✅ | +0.77u |
+| MLB | toronto blue jays -1 | -110 | 0.83 | ✅ | +0.75u |
+| MLB | miami marlins ml | -112 | 0.83 | ✅ | +0.74u |
+| MLB | seattle mariners ml vs kansas city royals | -119 | 0.83 | ✅ | +0.70u |
+| MLB | toronto blue jays ml | -163 | 0.83 | ✅ | +0.51u |
+| MLB | athletics -1.5 | +190 | 0.83 | ❌ | -0.83u |
+| MLB | new york yankees -1.5 | +150 | 0.83 | ❌ | -0.83u |
+| MLB | athletics ml | +108 | 0.83 | ❌ | -0.83u |
+| MLB | st. louis cardinals ml | +100 | 0.83 | ❌ | -0.83u |
+| MLB | new york yankees ml | -153 | 0.83 | ❌ | -0.83u |
+| MLB | texas rangers ml | -154 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -1.82 Units**
+**Daily PnL: -0.64 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | canadiens ml vs hurricanes | +173 | 0.13 | ✅ | +0.22u |
-| NHL | canadiens ml vs hurricanes | +171 | 0.13 | ✅ | +0.22u |
-| NHL | montreal canadiens ml vs carolina hurricanes montreal canadiens | +165 | 0.13 | ✅ | +0.21u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | cavs vs knicks under 216.5 | -104 | 0.13 | ✅ | +0.13u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | knicks -6 vs cavs | -104 | 0.13 | ✅ | +0.13u |
-| NBA | cleveland cavaliers vs new york knicks new york knicks -6.5 | -105 | 0.13 | ✅ | +0.12u |
-| NBA | new york knicks -6.5 | -105 | 0.13 | ✅ | +0.12u |
-| NBA | cleveland cavaliers vs new york knicks new york knicks -6.5 | -105 | 0.13 | ✅ | +0.12u |
-| NBA | cleveland cavaliers vs new york knicks new york knicks -6.5 | -106 | 0.13 | ✅ | +0.12u |
-| NBA | cleveland cavaliers vs new york knicks new york knicks -6.5 | -108 | 0.13 | ✅ | +0.12u |
-| NBA | cleveland cavaliers vs new york knicks new york knicks -5.5 | -108 | 0.13 | ✅ | +0.12u |
-| NBA | new york knicks -5.5 | -108 | 0.13 | ✅ | +0.12u |
-| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 0.13 | ✅ | +0.12u |
-| NBA | event cleveland cavaliers ml vs new york knicks | -110 | 0.13 | ✅ | +0.12u |
+| NHL | golden knights ml vs avalanche | +166 | 0.14 | ✅ | +0.23u |
+| NHL | golden knights ml vs avalanche | +155 | 0.14 | ✅ | +0.22u |
+| NHL | vegas golden knights ml vs colorado avalanche vegas golden knights | +140 | 0.14 | ✅ | +0.20u |
+| NHL | vegas golden knights vs colorado avalanche under 6.5 | +110 | 0.14 | ✅ | +0.15u |
+| NBA | oklahoma city thunder ml vs san antonio spurs | +105 | 0.14 | ✅ | +0.15u |
+| NBA | oklahoma city thunder +1.5 vs san antonio spurs | -105 | 0.14 | ✅ | +0.13u |
+| NHL | golden knights vs avalanche under 6.5 | -110 | 0.14 | ✅ | +0.13u |
+| NHL | golden knights vs avalanche under 6.5 | -110 | 0.14 | ✅ | +0.13u |
+| NBA | oklahoma city thunder +2.5 vs san antonio spurs | -110 | 0.14 | ✅ | +0.13u |
+| NBA | oklahoma city thunder +2.5 vs san antonio spurs | -110 | 0.14 | ✅ | +0.13u |
+| NBA | thunder +2.5 vs spurs | -110 | 0.14 | ✅ | +0.13u |
+| NBA | event oklahoma city th under | -115 | 0.14 | ✅ | +0.12u |
+| NBA | thunder +2 vs spurs | -117 | 0.14 | ✅ | +0.12u |
+| NBA | thunder +2 vs spurs | -117 | 0.14 | ✅ | +0.12u |
+| NBA | thunder +2 vs spurs | -117 | 0.14 | ✅ | +0.12u |
+| NBA | event oklahoma city th under | -118 | 0.14 | ✅ | +0.12u |
+| NBA | event oklahoma city th under | -118 | 0.14 | ✅ | +0.12u |
+| NBA | nba chet holmgren pts over 13.5 / nba stephon castle pts under 18.5 / nba okc thunder +7.5 / nba victor wembanyama reb under 14.5 | -110 | 0.12 | ✅ | +0.11u |
+| NHL | event vegas golden knights ml vs colorado avalanche | -130 | 0.14 | ✅ | +0.11u |
+| NHL | event vegas golden knights ml vs colorado avalanche | -130 | 0.14 | ✅ | +0.11u |
 
-**Daily PnL: -1.30 Units**
+**Daily PnL: -3.56 Units**
 
 
 ### V1 Pyrite Action
