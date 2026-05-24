@@ -351,6 +351,13 @@ class FeatureEngineer:
             df['roll_sharpe_30d'] = df['roll_roi_30d'] / (df['roll_vol_30d'] + 0.01)
             
         df['days_since_prev'] = df.groupby('capper_id')['pick_date'].diff().dt.days.fillna(0)
+        
+        def _calc_rolling_30d(group):
+            # Efficiently calculate rolling 30d count excluding current pick
+            tmp = pd.DataFrame({'date': group, 'v': 1})
+            return tmp.rolling('30D', on='date', closed='left').count()['v']
+
+        df['picks_last_30d'] = df.groupby('capper_id')['pick_date'].transform(_calc_rolling_30d).fillna(0)
         df['capper_league_acc'] = 0.5 # Default
         df['consensus_count'] = df['v4_consensus_count_lag1']
         df['consensus_count'] = df['consensus_count'].fillna(1)

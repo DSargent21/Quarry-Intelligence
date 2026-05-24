@@ -251,6 +251,12 @@ class ModelSimulator:
                 
             temp['edge'] = temp['prob'] - temp['implied_prob']
             
+            # [CAPPER FILTERING]: OBSIDIAN STABILITY (Audit Result: Min 10 picks/30d, 60d Gap)
+            if 'picks_last_30d' in temp.columns:
+                temp = temp[temp['picks_last_30d'] >= 10]
+            if 'days_since_prev' in temp.columns:
+                temp = temp[temp['days_since_prev'] <= 60]
+            
             cand = temp.copy()
             # Deduplicate
             cand = cand.sort_values(['pick_date', 'edge'], ascending=[True, False])
@@ -370,6 +376,14 @@ class ModelSimulator:
                     (temp['decimal_odds'] >= 1.70) & \
                     (temp['decimal_odds'] <= 4.5)
             
+            # [CAPPER FILTERING]: SAPPHIRE STABILITY (Audit Result: Min 100 exp, 10 picks/30d, 30d Gap)
+            if 'capper_experience' in temp.columns:
+                valid = valid & (temp['capper_experience'] >= 100)
+            if 'picks_last_30d' in temp.columns:
+                valid = valid & (temp['picks_last_30d'] >= 10)
+            if 'days_since_prev' in temp.columns:
+                valid = valid & (temp['days_since_prev'] <= 30)
+            
             cand = temp[valid].copy()
             if cand.empty: return cand
             
@@ -399,10 +413,21 @@ class ModelSimulator:
 
     def run_Kyanite_kyanite(self):
         """Kyanite Kyanite: Absolute Alpha Precision Engine (Kyanite)."""
+        # [CAPPER FILTERING]: KYANITE EXPERIENCE (Audit Result: Min 100 picks)
+        if 'capper_experience' in self.df.columns:
+            self.df = self.df[self.df['capper_experience'] >= 100]
         return self._run_zenith_engine('kyanite.json', 'kyanite_config.json', 'kyanite')
 
     def run_Carnelian_carnelian(self):
         """Carnelian Carnelian: Institutional Capacity Engine (Carnelian)."""
+        # [CAPPER FILTERING]: CARNELIAN STABILITY (Audit Result: Min 100 exp, 15 picks/30d, 60d Gap)
+        if 'capper_experience' in self.df.columns:
+            self.df = self.df[self.df['capper_experience'] >= 100]
+        if 'picks_last_30d' in self.df.columns:
+            self.df = self.df[self.df['picks_last_30d'] >= 15]
+        if 'days_since_prev' in self.df.columns:
+            self.df = self.df[self.df['days_since_prev'] <= 60]
+            
         return self._run_zenith_engine('carnelian.json', 'carnelian_config.json', 'carnelian')
 
     def _run_zenith_engine(self, model_file, config_file, name):

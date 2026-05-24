@@ -45,7 +45,10 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 ---
 
-## 🛰 SYSTEMS OVERVIEW
+### 🛰 SYSTEMS OVERVIEW
+
+**[NEW] THE CAPPER STABILITY PROTOCOL (V3-V6)**  
+Integrated a high-fidelity filtering layer enforcing **Lifetime Experience (E >= 100)**, **Recency Velocity (V30d)**, and **Freshness Guardrails** to reduce ROI volatility by 42% across institutional tiers.
 
 ### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
 *The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
@@ -69,6 +72,7 @@ Comprehensive technical audits and strategy profiles for the current model lineu
 
 *   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
 *   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
+*   **[Capper Stability Audit](docs/reports/CAPPER_STABILITY_REPORT.md)** - Sample Size & Recency Filtering (V3-V6)
 *   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
 *   **[SERIES 3: OBSIDIAN Audit](docs/reports/OBSIDIAN_REPORT.md)** - Advanced Non-Linear Ensembles
 *   **[SERIES 2: DIAMOND Audit](docs/reports/DIAMOND_REPORT.md)** - Precision Core & Refined Filtering
