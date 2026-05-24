@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-05-23 06:26 ET",
+        "last_update": "2026-05-24 06:30 ET",
         "status": "NOMINAL",
-        "cache_bust": 1779531961.508912
+        "cache_bust": 1779618623.167251
     },
     "models": {
         "pyrite": {
@@ -227,1147 +227,1147 @@ window.QUARRY_STATS = {
             }
         },
         "diamond": {
-            "roi": -5.4,
-            "net": -54.59,
-            "wins": 3003,
-            "losses": 2937,
+            "roi": -5.6,
+            "net": -56.76,
+            "wins": 3032,
+            "losses": 2986,
             "pushes": 0,
-            "record": "3003-2937-0",
-            "win_rate": 50.6,
-            "sample": 5940,
+            "record": "3032-2986-0",
+            "win_rate": 50.4,
+            "sample": 6018,
             "bets_day": "High (~34 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "May 22, 2026",
-                "record": "22-48-0",
-                "win_rate": 31.4,
-                "net": -3.56,
-                "roi": -37.3,
+                "date": "May 23, 2026",
+                "record": "25-39-0",
+                "win_rate": 39.1,
+                "net": -2.54,
+                "roi": -25.5,
                 "ledger": [
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "NHL",
-                        "selection": "golden knights ml vs avalanche",
-                        "odds": 166,
-                        "wager": 0.14,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.32950521967036916
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "golden knights ml vs avalanche",
-                        "odds": 155,
-                        "wager": 0.14,
-                        "profit": 0.22,
-                        "result": "WIN",
-                        "edge": 0.5578431372549019
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "vegas golden knights ml vs colorado avalanche vegas golden knights",
-                        "odds": 140,
-                        "wager": 0.14,
+                        "selection": "rangers ml vs angels",
+                        "odds": 126,
+                        "wager": 0.16,
                         "profit": 0.2,
                         "result": "WIN",
-                        "edge": 0.1664072103755942
+                        "edge": 0.5075221238938052
                     },
                     {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "vegas golden knights vs colorado avalanche under 6.5",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york red bulls ml vs sporting kc",
                         "odds": 110,
-                        "wager": 0.14,
-                        "profit": 0.15,
+                        "wager": 0.16,
+                        "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.16344887961198384
+                        "edge": 0.4738095238095238
                     },
                     {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "oklahoma city thunder ml vs san antonio spurs",
-                        "odds": 105,
-                        "wager": 0.14,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.1634488796119839
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "oklahoma city thunder +1.5 vs san antonio spurs",
-                        "odds": -105,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.13429893301393547
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "NHL",
-                        "selection": "golden knights vs avalanche under 6.5",
+                        "selection": "event montreal canadiens ml vs carolina hurricanes",
+                        "odds": -105,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.1463710457012144
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
                         "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
+                        "wager": 0.16,
+                        "profit": 0.15,
                         "result": "WIN",
                         "edge": 0.4261904761904761
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "event new york knicks ml vs cleveland cavaliers",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.24641535446186758
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.24641535446186758
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "1q new york knicks +1.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.1463710457012144
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "event new york knicks ml vs cleveland cavaliers team",
+                        "odds": -112,
+                        "wager": 0.16,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.4048410624733315
+                    },
+                    {
+                        "date": "05/23",
                         "league": "NHL",
-                        "selection": "golden knights vs avalanche under 6.5",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.3929772545311069
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "oklahoma city thunder +2.5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.2613140814642748
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "oklahoma city thunder +2.5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.16344887961198384
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "thunder +2.5 vs spurs",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.07867448578113367
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "event oklahoma city th under",
+                        "selection": "event montreal canadiens ml vs carolina hurricanes",
                         "odds": -115,
-                        "wager": 0.14,
-                        "profit": 0.12,
+                        "wager": 0.16,
+                        "profit": 0.14,
                         "result": "WIN",
-                        "edge": 0.16618089843463424
+                        "edge": 0.41511627906976734
                     },
                     {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "thunder +2 vs spurs",
-                        "odds": -117,
-                        "wager": 0.14,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.41082949308755756
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "thunder +2 vs spurs",
-                        "odds": -117,
-                        "wager": 0.14,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.17595180665592935
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "thunder +2 vs spurs",
-                        "odds": -117,
-                        "wager": 0.14,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.07730765426630382
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "event oklahoma city th under",
-                        "odds": -118,
-                        "wager": 0.14,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.4087155963302752
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "event oklahoma city th under",
-                        "odds": -118,
-                        "wager": 0.14,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.2521181036221526
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "nba chet holmgren pts over 13.5 / nba stephon castle pts under 18.5 / nba okc thunder +7.5 / nba victor wembanyama reb under 14.5",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.06709520384849077
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "NHL",
-                        "selection": "event vegas golden knights ml vs colorado avalanche",
-                        "odds": -130,
-                        "wager": 0.14,
-                        "profit": 0.11,
+                        "selection": "canadiens vs hurricanes under 6",
+                        "odds": -115,
+                        "wager": 0.16,
+                        "profit": 0.14,
                         "result": "WIN",
-                        "edge": 0.38478260869565206
+                        "edge": 0.41511627906976734
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "NHL",
-                        "selection": "event vegas golden knights ml vs colorado avalanche",
-                        "odds": -130,
-                        "wager": 0.14,
-                        "profit": 0.11,
+                        "selection": "canadiens vs hurricanes under 6",
+                        "odds": -115,
+                        "wager": 0.16,
+                        "profit": 0.14,
                         "result": "WIN",
-                        "edge": 0.38478260869565206
+                        "edge": 0.41511627906976734
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "event montreal canadiens ml vs carolina hurricanes",
+                        "odds": -115,
+                        "wager": 0.16,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.3432827959800805
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "event new york knicks ml vs cleveland cavaliers",
+                        "odds": -115,
+                        "wager": 0.16,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.18058801305914018
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": -3.9,
-            "net": -56.82,
-            "wins": 868,
-            "losses": 884,
+            "roi": -3.7,
+            "net": -54.86,
+            "wins": 876,
+            "losses": 888,
             "pushes": 0,
-            "record": "868-884-0",
-            "win_rate": 49.5,
-            "sample": 1752,
+            "record": "876-888-0",
+            "win_rate": 49.7,
+            "sample": 1764,
             "bets_day": "Medium (~12 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "May 22, 2026",
-                "record": "6-6-0",
-                "win_rate": 50.0,
-                "net": -0.64,
-                "roi": -6.4,
+                "date": "May 23, 2026",
+                "record": "3-9-0",
+                "win_rate": 25.0,
+                "net": -5.55,
+                "roi": -55.7,
                 "ledger": [
                     {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "oklahoma city thunder ml vs san antonio spurs",
-                        "odds": 105,
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "event colorado rockies ml vs arizona diamondbacks",
+                        "odds": -120,
                         "wager": 0.83,
-                        "profit": 0.87,
+                        "profit": 0.69,
                         "result": "WIN",
-                        "edge": 0.11999999999999994
+                        "edge": 0.15999999999999992
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "chicago white sox ml",
-                        "odds": -108,
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "montreal canadiens +1.5",
+                        "odds": -135,
                         "wager": 0.83,
-                        "profit": 0.77,
+                        "profit": 0.61,
+                        "result": "WIN",
+                        "edge": 0.11499999999999999
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "toronto blue jays +1.5",
+                        "odds": -135,
+                        "wager": 0.83,
+                        "profit": 0.61,
                         "result": "WIN",
                         "edge": 0.11142857142857143
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "Tennis",
+                        "selection": "novak djokovic ml",
+                        "odds": 250,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10000000000000003
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "canadiens ml vs hurricanes",
+                        "odds": 182,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10000000000000003
+                    },
+                    {
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "toronto blue jays -1",
+                        "selection": "rockies ml vs diamondbacks",
+                        "odds": 165,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.14
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "kansas city royals ml vs seattle mariners",
+                        "odds": 122,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10999999999999999
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "san diego padres ml",
                         "odds": -110,
                         "wager": 0.83,
-                        "profit": 0.75,
-                        "result": "WIN",
-                        "edge": 0.10571428571428565
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.12857142857142856
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "miami marlins ml",
-                        "odds": -112,
-                        "wager": 0.83,
-                        "profit": 0.74,
-                        "result": "WIN",
-                        "edge": 0.14857142857142858
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
                         "selection": "seattle mariners ml vs kansas city royals",
-                        "odds": -119,
+                        "odds": -125,
                         "wager": 0.83,
-                        "profit": 0.7,
-                        "result": "WIN",
-                        "edge": 0.20666666666666655
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.20499999999999996
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "houston astros ml",
+                        "odds": -146,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.1171428571428571
+                    },
+                    {
+                        "date": "05/23",
                         "league": "MLB",
                         "selection": "toronto blue jays ml",
-                        "odds": -163,
-                        "wager": 0.83,
-                        "profit": 0.51,
-                        "result": "WIN",
-                        "edge": 0.10857142857142854
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "athletics -1.5",
-                        "odds": 190,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.10666666666666669
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "new york yankees -1.5",
-                        "odds": 150,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.11428571428571432
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "athletics ml",
-                        "odds": 108,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.12
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "st. louis cardinals ml",
-                        "odds": 100,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.11142857142857143
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "new york yankees ml",
-                        "odds": -153,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.11142857142857143
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "texas rangers ml",
                         "odds": -154,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.12571428571428567
+                        "edge": 0.11142857142857143
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Tennis",
+                        "selection": "mariano navone ml",
+                        "odds": -155,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.12
                     }
                 ]
             }
         },
         "quartz": {
-            "roi": 2.0,
-            "net": 8.5,
-            "wins": 182,
-            "losses": 196,
+            "roi": 1.6,
+            "net": 7.02,
+            "wins": 186,
+            "losses": 202,
             "pushes": 0,
-            "record": "182-196-0",
-            "win_rate": 48.1,
-            "sample": 378,
+            "record": "186-202-0",
+            "win_rate": 47.9,
+            "sample": 388,
             "bets_day": "Low (~8 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "May 22, 2026",
+                "date": "May 23, 2026",
                 "record": "3-7-0",
                 "win_rate": 30.0,
-                "net": -4.17,
-                "roi": -41.7,
+                "net": -3.85,
+                "roi": -38.5,
                 "ledger": [
                     {
-                        "date": "05/22",
-                        "league": "Other",
-                        "selection": "kr reykjavik ml vs breidablik",
-                        "odds": 185,
-                        "wager": 0.73,
-                        "profit": 1.35,
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214.5",
+                        "odds": -109,
+                        "wager": 1.11,
+                        "profit": 1.01,
                         "result": "WIN",
-                        "edge": 0.056908211181516566
+                        "edge": 0.06404473131362609
                     },
                     {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "vegas golden knights ml vs colorado avalanche vegas golden knights",
-                        "odds": 154,
-                        "wager": 0.71,
-                        "profit": 1.1,
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
+                        "odds": -109,
+                        "wager": 1.09,
+                        "profit": 0.99,
                         "result": "WIN",
-                        "edge": 0.0518053009732688
+                        "edge": 0.06320139708152295
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "fever -5.5 vs valkyries",
+                        "selection": "sparks +9 vs aces",
                         "odds": -109,
                         "wager": 1.02,
                         "profit": 0.93,
                         "result": "WIN",
-                        "edge": 0.050663988189916354
+                        "edge": 0.05932933326028089
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "nationals ml vs braves",
-                        "odds": 138,
-                        "wager": 0.85,
-                        "profit": -0.85,
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "montreal canadiens ml vs carolina hurricanes",
+                        "odds": 175,
+                        "wager": 0.71,
+                        "profit": -0.71,
                         "result": "LOSS",
-                        "edge": 0.05173964241783835
+                        "edge": 0.0548719420803776
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "Tennis",
+                        "selection": "coco gauff ml",
+                        "odds": 700,
+                        "wager": 0.72,
+                        "profit": -0.72,
+                        "result": "LOSS",
+                        "edge": 0.07644807908530374
+                    },
+                    {
+                        "date": "05/23",
                         "league": "NBA",
-                        "selection": "thunder vs spurs under 218",
-                        "odds": -109,
-                        "wager": 0.91,
-                        "profit": -0.91,
+                        "selection": "new york knicks ml vs cleveland cavaliers",
+                        "odds": 110,
+                        "wager": 0.92,
+                        "profit": -0.92,
                         "result": "LOSS",
-                        "edge": 0.0517904009261535
+                        "edge": 0.05856089775887485
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "sun +2.5 vs storm",
+                        "selection": "sky +2.5 vs lynx",
                         "odds": -109,
-                        "wager": 1.03,
-                        "profit": -1.03,
+                        "wager": 1.02,
+                        "profit": -1.02,
                         "result": "LOSS",
-                        "edge": 0.05879358703055282
+                        "edge": 0.05932933326028089
                     },
                     {
-                        "date": "05/22",
-                        "league": "Other",
-                        "selection": "brommapojkarna vs djurgardens over 3",
-                        "odds": -109,
-                        "wager": 1.08,
-                        "profit": -1.08,
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes ml / mlb arizona diamondbacks ml",
+                        "odds": 121,
+                        "wager": 1.07,
+                        "profit": -1.07,
                         "result": "LOSS",
-                        "edge": 0.061750477076175314
+                        "edge": 0.0715106735836969
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "connecticut sun vs seattle storm connecticut sun +2.5",
-                        "odds": -109,
-                        "wager": 1.18,
-                        "profit": -1.18,
-                        "result": "LOSS",
-                        "edge": 0.06763094707724215
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "wings vs dream over 172.5",
-                        "odds": -109,
-                        "wager": 1.25,
-                        "profit": -1.25,
-                        "result": "LOSS",
-                        "edge": 0.0817076014994127
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "diamondbacks -1.5 vs rockies",
+                        "selection": "nationals vs braves over 8.5",
                         "odds": -109,
-                        "wager": 1.25,
-                        "profit": -1.25,
+                        "wager": 1.11,
+                        "profit": -1.11,
                         "result": "LOSS",
-                        "edge": 0.0736296622138417
+                        "edge": 0.0559273366583265
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "portland fire vs toronto tempo under 175.5",
+                        "odds": -109,
+                        "wager": 1.23,
+                        "profit": -1.23,
+                        "result": "LOSS",
+                        "edge": 0.08291093627601409
                     }
                 ]
             }
         },
         "sapphire": {
             "roi": 10.8,
-            "net": 10.7,
-            "wins": 278,
-            "losses": 218,
+            "net": 11.76,
+            "wins": 315,
+            "losses": 247,
             "pushes": 0,
-            "record": "278-218-0",
+            "record": "315-247-0",
             "win_rate": 56.0,
-            "sample": 496,
-            "bets_day": "High (~49 bets/day)",
+            "sample": 562,
+            "bets_day": "Very High (~51 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "May 22, 2026",
-                "record": "23-25-0",
-                "win_rate": 47.9,
-                "net": -0.91,
-                "roi": -9.0,
+                "date": "May 23, 2026",
+                "record": "26-27-0",
+                "win_rate": 49.1,
+                "net": -0.48,
+                "roi": -5.1,
                 "ledger": [
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "miami marlins ml",
-                        "odds": 100,
-                        "wager": 0.21,
-                        "profit": 0.21,
+                        "selection": "rockies ml vs diamondbacks",
+                        "odds": 150,
+                        "wager": 0.18,
+                        "profit": 0.27,
                         "result": "WIN",
-                        "edge": 0.1023821234703064
+                        "edge": 0.24157909154891966
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "miami marlins ml",
-                        "odds": -108,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.1599622506361742
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "miami marlins ml",
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "osasuna ml vs getafe cf",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.22326549745741342
+                        "edge": 0.09712204195204233
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "miami marlins ml",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.20993885255995248
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "fever -5.5 vs valkyries",
+                        "selection": "lynx -2 vs sky",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.10124191499891733
+                        "edge": 0.09712204195204233
                     },
                     {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "golden knights vs avalanche under 6.5",
+                        "date": "05/23",
+                        "league": "WNBA",
+                        "selection": "sparks +9 vs aces",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.10062530494871591
+                        "edge": 0.09551623321714853
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "guardians vs phillies under 7",
+                        "selection": "mariners vs royals under 9",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.08835205293837045
+                        "edge": 0.08637174822035287
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "event dc defenders ml vs orlando storm",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.08656397319975351
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "golden knights vs avalanche under 6.5",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.07894584394636606
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "sun vs storm under 166.5",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.07894584394636606
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "as vs padres over 8",
+                        "selection": "cardinals vs reds under 9.5",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.07894584394636606
+                        "edge": 0.08372154689970468
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "dodgers vs brewers under 8.5",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.0659932181948707
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "fever -5.5 vs valkyries",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.059916584264664396
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "fever -5.5 vs valkyries",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.059512226354508146
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "indiana fever -5 vs golden state valkyries",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.057375221025376066
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "NBA",
-                        "selection": "oklahoma city thunder +2 vs san antonio spurs",
+                        "selection": "knicks +2.5 vs cavs",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.057375221025376066
+                        "edge": 0.08372154689970468
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.0800119326228187
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07970663763227914
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07443424917402719
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07414677597227548
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "osasuna ml vs getafe cf",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07110455490293954
+                    },
+                    {
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "event golden state valkyries ml vs indiana fever",
+                        "selection": "sparks +8.5 vs aces",
                         "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.05719569183531259
+                        "edge": 0.06960913397016977
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "miami marlins ml",
-                        "odds": -112,
-                        "wager": 0.21,
-                        "profit": 0.19,
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.1550682265803499
+                        "edge": 0.06765767790022348
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "miami marlins ml",
-                        "odds": -115,
-                        "wager": 0.21,
-                        "profit": 0.18,
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.06936033243356743
+                        "edge": 0.06765767790022348
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "seattle mariners ml vs kansas city royals",
-                        "odds": -119,
-                        "wager": 0.21,
-                        "profit": 0.18,
+                        "date": "05/23",
+                        "league": "WNBA",
+                        "selection": "sparks +9.5 vs aces",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.13080455206300579
+                        "edge": 0.06695696569624399
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.06507399536314462
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.0643198177928016
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "canadiens +1.5 vs hurricanes",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.0643198177928016
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.06399735666456674
                     }
                 ]
             }
         },
         "kyanite": {
-            "roi": 11.8,
-            "net": 8.3,
-            "wins": 117,
-            "losses": 86,
+            "roi": 10.4,
+            "net": 8.36,
+            "wins": 137,
+            "losses": 101,
             "pushes": 0,
-            "record": "117-86-0",
+            "record": "137-101-0",
             "win_rate": 57.6,
-            "sample": 203,
+            "sample": 238,
             "bets_day": "High (~29 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "May 22, 2026",
-                "record": "13-22-0",
-                "win_rate": 37.1,
-                "net": -3.18,
-                "roi": -31.7,
+                "date": "May 23, 2026",
+                "record": "20-15-0",
+                "win_rate": 57.1,
+                "net": 0.29,
+                "roi": 2.9,
                 "ledger": [
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "event dc defenders ml vs orlando storm",
-                        "odds": -110,
-                        "wager": 0.34,
-                        "profit": 0.31,
-                        "result": "WIN",
-                        "edge": 0.06394657350721811
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "as vs padres over 8",
+                        "selection": "mariners vs royals under 9",
                         "odds": -110,
-                        "wager": 0.34,
-                        "profit": 0.31,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.049729554426102385
+                        "edge": 0.06281110502424692
                     },
                     {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "golden knights vs avalanche under 6.5",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
                         "odds": -110,
-                        "wager": 0.34,
-                        "profit": 0.31,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.04751565910521005
+                        "edge": 0.06102999902906869
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.35,
+                        "profit": 0.32,
+                        "result": "WIN",
+                        "edge": 0.06102999902906869
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "osasuna ml vs getafe cf",
+                        "odds": -110,
+                        "wager": 0.35,
+                        "profit": 0.32,
+                        "result": "WIN",
+                        "edge": 0.0530663416499183
+                    },
+                    {
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "guardians vs phillies under 7",
+                        "selection": "cardinals vs reds under 9.5",
                         "odds": -110,
-                        "wager": 0.32,
-                        "profit": 0.29,
+                        "wager": 0.34,
+                        "profit": 0.31,
                         "result": "WIN",
-                        "edge": 0.0442382977122352
+                        "edge": 0.046548752557663664
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "sun vs storm under 166.5",
+                        "selection": "sparks +8.5 vs aces",
                         "odds": -110,
                         "wager": 0.29,
                         "profit": 0.26,
                         "result": "WIN",
-                        "edge": 0.04075947261991952
+                        "edge": 0.03949072815123056
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "milwaukee brewers ml vs los angeles dodgers",
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "portland fire +4.5 vs toronto tempo",
+                        "odds": -110,
+                        "wager": 0.29,
+                        "profit": 0.26,
+                        "result": "WIN",
+                        "edge": 0.039094834100632414
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "canadiens +1.5 vs hurricanes",
                         "odds": -110,
                         "wager": 0.28,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.03875669695082162
+                        "edge": 0.03891232467833017
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "atlanta dream -5.5 vs dallas wings",
-                        "odds": -110,
-                        "wager": 0.28,
-                        "profit": 0.25,
-                        "result": "WIN",
-                        "edge": 0.03875669695082162
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "fever -5.5 vs valkyries",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "1q new york knicks +1.5",
                         "odds": -110,
                         "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.03806194521131967
+                        "edge": 0.036385206949143156
                     },
                     {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "thunder vs spurs over 217.5",
-                        "odds": -110,
-                        "wager": 0.26,
-                        "profit": 0.24,
-                        "result": "WIN",
-                        "edge": 0.03567948795500253
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "miami marlins ml",
+                        "selection": "chicago white sox ml vs san francisco giants san francisco giants",
+                        "odds": -110,
+                        "wager": 0.27,
+                        "profit": 0.25,
+                        "result": "WIN",
+                        "edge": 0.036385206949143156
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Soccer",
+                        "selection": "event colegiales vs tristan suarez",
+                        "odds": -110,
+                        "wager": 0.27,
+                        "profit": 0.25,
+                        "result": "WIN",
+                        "edge": 0.036385206949143156
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "WNBA",
+                        "selection": "lynx -2 vs sky",
                         "odds": -110,
                         "wager": 0.25,
                         "profit": 0.23,
                         "result": "WIN",
-                        "edge": 0.03533437706175302
+                        "edge": 0.03383913494291757
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "dallas wings vs atlanta dream atlanta dream -5.5",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214",
+                        "odds": -110,
+                        "wager": 0.24,
+                        "profit": 0.22,
+                        "result": "WIN",
+                        "edge": 0.03234389282408212
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214.5",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.03149172521772836
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "mets vs marlins under 8",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.03115257478895639
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "event oakland athletics ml vs san diego padres",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.031002251874832853
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "portland fire vs toronto tempo over 173",
+                        "odds": -110,
+                        "wager": 0.22,
+                        "profit": 0.2,
+                        "result": "WIN",
+                        "edge": 0.02988377071562265
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "rockies vs diamondbacks under 9.5",
                         "odds": -110,
                         "wager": 0.21,
                         "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.029860763322739348
+                        "edge": 0.02905371643248056
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "dream -5.5 vs wings",
+                        "selection": "sparks +9.5 vs aces",
                         "odds": -110,
-                        "wager": 0.2,
-                        "profit": 0.18,
+                        "wager": 0.21,
+                        "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.028587488901047453
+                        "edge": 0.02845278240385507
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "twins vs red sox over 7.5",
-                        "odds": -110,
-                        "wager": 0.2,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.028587488901047453
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "valkyries +6.5 vs fever",
+                        "selection": "guardians vs phillies under 7",
                         "odds": -110,
                         "wager": 0.19,
-                        "profit": -0.19,
-                        "result": "LOSS",
-                        "edge": 0.026721744310288176
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers ml vs milwaukee brewers",
-                        "odds": -110,
-                        "wager": 0.23,
-                        "profit": -0.23,
-                        "result": "LOSS",
-                        "edge": 0.03252646185102914
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "Other",
-                        "selection": "spurs -1.5 vs thunder",
-                        "odds": -110,
-                        "wager": 0.24,
-                        "profit": -0.24,
-                        "result": "LOSS",
-                        "edge": 0.03423538662138437
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "mets vs marlins over 7.5",
-                        "odds": -110,
-                        "wager": 0.24,
-                        "profit": -0.24,
-                        "result": "LOSS",
-                        "edge": 0.033845929872421965
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "white sox vs giants under 7",
-                        "odds": -110,
-                        "wager": 0.26,
-                        "profit": -0.26,
-                        "result": "LOSS",
-                        "edge": 0.03567948795500253
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "san antonio spurs -1.5 vs oklahoma city thunder",
-                        "odds": -110,
-                        "wager": 0.28,
-                        "profit": -0.28,
-                        "result": "LOSS",
-                        "edge": 0.03875669695082162
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NBA",
-                        "selection": "san antonio spurs ml vs oklahoma city thunder",
-                        "odds": -110,
-                        "wager": 0.28,
-                        "profit": -0.28,
-                        "result": "LOSS",
-                        "edge": 0.03875669695082162
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.02639725662413095
                     }
                 ]
             }
         },
         "carnelian": {
-            "roi": 7.3,
-            "net": 5.09,
-            "wins": 167,
-            "losses": 147,
+            "roi": 6.4,
+            "net": 5.1,
+            "wins": 194,
+            "losses": 173,
             "pushes": 0,
-            "record": "167-147-0",
-            "win_rate": 53.2,
-            "sample": 314,
-            "bets_day": "High (~44 bets/day)",
+            "record": "194-173-0",
+            "win_rate": 52.9,
+            "sample": 367,
+            "bets_day": "High (~45 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "May 22, 2026",
-                "record": "23-29-0",
-                "win_rate": 44.2,
-                "net": -2.1,
-                "roi": -21.1,
+                "date": "May 23, 2026",
+                "record": "26-26-0",
+                "win_rate": 50.0,
+                "net": -0.61,
+                "roi": -6.1,
                 "ledger": [
                     {
-                        "date": "05/22",
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "rockies ml vs diamondbacks",
+                        "odds": 150,
+                        "wager": 0.25,
+                        "profit": 0.38,
+                        "result": "WIN",
+                        "edge": 0.13102648258209226
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "seattle mariners ml vs kansas city royals kansas city royals",
+                        "odds": 120,
+                        "wager": 0.22,
+                        "profit": 0.26,
+                        "result": "WIN",
+                        "edge": 0.04938559098677203
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "mariners vs royals under 9",
+                        "odds": -110,
+                        "wager": 0.25,
+                        "profit": 0.23,
+                        "result": "WIN",
+                        "edge": 0.06281110502424692
+                    },
+                    {
+                        "date": "05/23",
                         "league": "NBA",
-                        "selection": "oklahoma city thunder ml vs san antonio spurs",
-                        "odds": 105,
+                        "selection": "new york knicks vs cleveland cavaliers new york knicks +2.5",
+                        "odds": -110,
+                        "wager": 0.25,
+                        "profit": 0.23,
+                        "result": "WIN",
+                        "edge": 0.06102999902906869
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks +2.5 vs cavs",
+                        "odds": -110,
+                        "wager": 0.25,
+                        "profit": 0.23,
+                        "result": "WIN",
+                        "edge": 0.06102999902906869
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "osasuna ml vs getafe cf",
+                        "odds": -110,
+                        "wager": 0.25,
+                        "profit": 0.23,
+                        "result": "WIN",
+                        "edge": 0.0530663416499183
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "cardinals vs reds under 9.5",
+                        "odds": -110,
                         "wager": 0.24,
-                        "profit": 0.25,
+                        "profit": 0.22,
                         "result": "WIN",
-                        "edge": 0.04937429399025145
+                        "edge": 0.046548752557663664
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "WNBA",
-                        "selection": "event dc defenders ml vs orlando storm",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.06394657350721811
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "as vs padres over 8",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.049729554426102385
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "golden knights vs avalanche under 6.5",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.04751565910521005
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "guardians vs phillies under 7",
-                        "odds": -110,
-                        "wager": 0.23,
-                        "profit": 0.21,
-                        "result": "WIN",
-                        "edge": 0.0442382977122352
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "NHL",
-                        "selection": "vegas golden knights vs colorado avalanche under 6.5",
-                        "odds": 110,
-                        "wager": 0.19,
-                        "profit": 0.21,
-                        "result": "WIN",
-                        "edge": 0.039840967882247225
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "sun vs storm under 166.5",
+                        "selection": "sparks +8.5 vs aces",
                         "odds": -110,
                         "wager": 0.21,
                         "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.04075947261991952
+                        "edge": 0.03949072815123056
                     },
                     {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "mets ml vs marlins",
-                        "odds": 114,
-                        "wager": 0.16,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.03423991437270257
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "milwaukee brewers ml vs los angeles dodgers",
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "portland fire +4.5 vs toronto tempo",
                         "odds": -110,
                         "wager": 0.2,
                         "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.03875669695082162
+                        "edge": 0.039094834100632414
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "atlanta dream -5.5 vs dallas wings",
+                        "date": "05/23",
+                        "league": "NHL",
+                        "selection": "canadiens +1.5 vs hurricanes",
                         "odds": -110,
                         "wager": 0.2,
                         "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.03875669695082162
+                        "edge": 0.03891232467833017
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "fever -5.5 vs valkyries",
-                        "odds": -110,
-                        "wager": 0.2,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.03806194521131967
-                    },
-                    {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "NBA",
-                        "selection": "thunder vs spurs over 217.5",
+                        "selection": "1q new york knicks +1.5",
                         "odds": -110,
                         "wager": 0.19,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.03567948795500253
+                        "edge": 0.036385206949143156
                     },
                     {
-                        "date": "05/22",
+                        "date": "05/23",
                         "league": "MLB",
-                        "selection": "miami marlins ml",
+                        "selection": "chicago white sox ml vs san francisco giants san francisco giants",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.036385206949143156
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Soccer",
+                        "selection": "event colegiales vs tristan suarez",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.036385206949143156
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "WNBA",
+                        "selection": "lynx -2 vs sky",
                         "odds": -110,
                         "wager": 0.18,
                         "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.03533437706175302
+                        "edge": 0.03383913494291757
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "dallas wings vs atlanta dream atlanta dream -5.5",
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214",
+                        "odds": -110,
+                        "wager": 0.17,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.03234389282408212
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "NBA",
+                        "selection": "knicks vs cavs over 214.5",
                         "odds": -110,
                         "wager": 0.16,
                         "profit": 0.15,
                         "result": "WIN",
-                        "edge": 0.029860763322739348
+                        "edge": 0.03149172521772836
                     },
                     {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "dream -5.5 vs wings",
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "mets vs marlins under 8",
                         "odds": -110,
-                        "wager": 0.15,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.03115257478895639
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "event oakland athletics ml vs san diego padres",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.031002251874832853
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "Other",
+                        "selection": "portland fire vs toronto tempo over 173",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.02988377071562265
+                    },
+                    {
+                        "date": "05/23",
+                        "league": "MLB",
+                        "selection": "twins ml vs red sox",
+                        "odds": 105,
+                        "wager": 0.13,
                         "profit": 0.14,
                         "result": "WIN",
-                        "edge": 0.028587488901047453
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "twins vs red sox over 7.5",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.028587488901047453
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "dodgers vs brewers under 8.5",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.026083438169388518
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "indiana fever -5 vs golden state valkyries",
-                        "odds": -110,
-                        "wager": 0.13,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.02577462650480722
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "WNBA",
-                        "selection": "valkyries vs fever over 168",
-                        "odds": -110,
-                        "wager": 0.13,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.025537280809311613
-                    },
-                    {
-                        "date": "05/22",
-                        "league": "MLB",
-                        "selection": "astros vs cubs under 7",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.023383705388931975
+                        "edge": 0.025841307349321274
                     }
                 ]
             }
