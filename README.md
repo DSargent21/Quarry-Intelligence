@@ -9,13 +9,13 @@
     <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
   <a href="https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
-    <img src="https://img.shields.io/badge/SERIES%206%20NET-+13.5u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
+    <img src="https://img.shields.io/badge/SERIES%206%20NET-+12.8u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
   <a href="https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html">
-    <img src="https://img.shields.io/badge/SERIES%205%20NET-+11.8u-2563EB?style=for-the-badge" alt="Series 5 Net" />
+    <img src="https://img.shields.io/badge/SERIES%205%20NET-+11.6u-2563EB?style=for-the-badge" alt="Series 5 Net" />
   </a>
   <a href="https://ducky705.github.io/Quarry-Intelligence/web/quartz.html">
-    <img src="https://img.shields.io/badge/SERIES%204%20NET-+7.0u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
+    <img src="https://img.shields.io/badge/SERIES%204%20NET-+3.1u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
   </a>
 
   <br />
@@ -33,11 +33,11 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~75 bets/day) | **605** | **+8.4%** |
-| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | Very High (~51 bets/day) | **562** | **+10.8%** |
-| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~8 bets/day) | **388** | **+1.6%** |
-| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE <br> Non-Linear` | 🟣 **ACTIVE** | Medium (~12 bets/day) | **1764** | **-3.7%** |
-| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE <br> Refined` | 🟢 **ACTIVE** | High (~34 bets/day) | **6018** | **-5.6%** |
+| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~76 bets/day) | **687** | **+7.1%** |
+| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | Very High (~50 bets/day) | **605** | **+9.8%** |
+| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~8 bets/day) | **398** | **+0.7%** |
+| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE <br> Non-Linear` | 🟣 **ACTIVE** | Medium (~12 bets/day) | **1776** | **-5.3%** |
+| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE <br> Refined` | 🟢 **ACTIVE** | High (~34 bets/day) | **6076** | **-5.5%** |
 | **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE <br> High-Freq` | 🟡 **ACTIVE** | Medium (~13 bets/day) | **1804** | **-2.3%** |
 
 > [!IMPORTANT]
@@ -45,10 +45,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 ---
 
-### 🛰 SYSTEMS OVERVIEW
-
-**[NEW] THE CAPPER STABILITY PROTOCOL (V3-V6)**  
-Integrated a high-fidelity filtering layer enforcing **Lifetime Experience (E >= 100)**, **Recency Velocity (V30d)**, and **Freshness Guardrails** to reduce ROI volatility by 42% across institutional tiers.
+## 🛰 SYSTEMS OVERVIEW
 
 ### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
 *The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
@@ -72,7 +69,6 @@ Comprehensive technical audits and strategy profiles for the current model lineu
 
 *   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
 *   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
-*   **[Capper Stability Audit](docs/reports/CAPPER_STABILITY_REPORT.md)** - Sample Size & Recency Filtering (V3-V6)
 *   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
 *   **[SERIES 3: OBSIDIAN Audit](docs/reports/OBSIDIAN_REPORT.md)** - Advanced Non-Linear Ensembles
 *   **[SERIES 2: DIAMOND Audit](docs/reports/DIAMOND_REPORT.md)** - Precision Core & Refined Filtering
