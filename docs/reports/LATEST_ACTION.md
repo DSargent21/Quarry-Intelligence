@@ -1,139 +1,147 @@
-# 📝 Daily Action Log (May 29, 2026)
+# 📝 Daily Action Log (May 30, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | yankees vs as over 9.5 | -110 | 0.49 | ✅ | +0.45u |
-| MLB | toronto blue jays vs baltimore orioles over 8.5 | -110 | 0.47 | ✅ | +0.43u |
-| WNBA | atlanta dream -8.5 vs portland fire | -110 | 0.47 | ✅ | +0.43u |
-| MLB | minnesota twins vs pittsburgh pirates over 8 | -110 | 0.43 | ✅ | +0.39u |
-| WNBA | minnesota lynx -4.5 vs chicago sky | -110 | 0.43 | ✅ | +0.39u |
-| NHL | montreal canadiens vs carolina hurricanes over 5.5 | -110 | 0.40 | ✅ | +0.36u |
-| MLB | atlanta braves vs cincinnati reds over 9 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | chicago cubs vs st. louis cardinals over 7.5 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | arizona diamondbacks vs seattle mariners over 7 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | kansas city royals vs texas rangers over 921 | -110 | 0.34 | ✅ | +0.31u |
-| MLB | san francisco giants vs colorado rockies over 10.5 | -110 | 0.31 | ✅ | +0.28u |
-| WNBA | los angeles sparks +2.5 vs washington mystics | -110 | 0.30 | ✅ | +0.27u |
-| MLB | boston red sox ml vs cleveland guardians | -110 | 0.28 | ✅ | +0.25u |
-| WNBA | atlanta dream vs portland fire under 165 | -110 | 0.28 | ✅ | +0.25u |
-| WNBA | los angeles sparks vs washington mystics under 166 | -110 | 0.28 | ❌ | -0.28u |
-| MLB | new york yankees vs athletics over 923 | -110 | 0.29 | ❌ | -0.29u |
-| WNBA | minnesota lynx +5.5 vs chicago sky | -110 | 0.30 | ❌ | -0.30u |
-| WNBA | los angeles sparks vs washington mystics under 168 | -110 | 0.31 | ❌ | -0.31u |
-| WNBA | phoenix mercury vs new york liberty over 168 | -110 | 0.32 | ❌ | -0.32u |
-| MLB | yankees vs as under 10 | -110 | 0.33 | ❌ | -0.33u |
+| WNBA | los angeles sparks +4.5 vs connecticut sun | -110 | 0.33 | ✅ | +0.30u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.33 | ✅ | +0.30u |
+| NBA | san antonio spurs vs oklahoma city thunder under 567 | -110 | 0.33 | ✅ | +0.30u |
+| WNBA | seattle storm vs toronto tempo under 170 | -110 | 0.29 | ✅ | +0.26u |
+| NBA | san antonio spurs +4 vs oklahoma city thunder | -110 | 0.28 | ✅ | +0.25u |
+| Other | minnesota twins vs pittsburgh pirates over 8.5 | -110 | 0.28 | ✅ | +0.25u |
+| WNBA | los angeles sparks +5.5 vs connecticut sun | -110 | 0.28 | ✅ | +0.25u |
+| WNBA | los angeles sparks +6 vs connecticut sun | -110 | 0.27 | ✅ | +0.25u |
+| NBA | san antonio spurs vs oklahoma city thunder over 212.5 | -110 | 0.25 | ✅ | +0.23u |
+| WNBA | los angeles sparks +4 vs connecticut sun | -110 | 0.24 | ✅ | +0.22u |
+| MLB | los angeles angels vs tampa bay rays over 7 | -110 | 0.23 | ✅ | +0.21u |
+| MLB | san diego padres vs washington nationals over 7.5 | -110 | 0.23 | ✅ | +0.21u |
+| Combat | jaqualine amorim vs loma lookboonmee | -110 | 0.22 | ✅ | +0.20u |
+| MLB | toronto blue jays vs baltimore orioles over 7.5 | -110 | 0.22 | ✅ | +0.20u |
+| MLB | yankees vs as over 9.5 | -110 | 0.22 | ✅ | +0.20u |
+| Tennis | felix auger-aliassime vs brandon nakashima over 38.5 | -110 | 0.21 | ✅ | +0.19u |
+| WNBA | los angeles sparks +6.5 vs connecticut sun | -110 | 0.21 | ✅ | +0.19u |
+| Other | shandong taishan vs chengdu rongcheng | -110 | 0.20 | ✅ | +0.18u |
+| Soccer | arsenal vs paris saint-germain over 2.5 | -110 | 0.21 | ❌ | -0.21u |
+| NBA | san antonio spurs vs oklahoma city thunder under 213.5 | -110 | 0.22 | ❌ | -0.22u |
 
-**Daily PnL: +0.13 Units**
+**Daily PnL: -1.17 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | yankees vs as over 9.5 | -110 | 0.35 | ✅ | +0.32u |
-| MLB | toronto blue jays vs baltimore orioles over 8.5 | -110 | 0.34 | ✅ | +0.31u |
-| WNBA | atlanta dream -8.5 vs portland fire | -110 | 0.34 | ✅ | +0.31u |
-| MLB | miami marlins vs new york mets over 7.5 | +105 | 0.27 | ✅ | +0.28u |
-| MLB | minnesota twins vs pittsburgh pirates over 8 | -110 | 0.31 | ✅ | +0.28u |
-| WNBA | minnesota lynx -4.5 vs chicago sky | -110 | 0.31 | ✅ | +0.28u |
-| NHL | montreal canadiens vs carolina hurricanes over 5.5 | -110 | 0.29 | ✅ | +0.26u |
-| MLB | atlanta braves vs cincinnati reds over 9 | -110 | 0.27 | ✅ | +0.25u |
-| MLB | chicago cubs vs st. louis cardinals over 7.5 | -110 | 0.27 | ✅ | +0.25u |
-| MLB | arizona diamondbacks vs seattle mariners over 7 | -110 | 0.27 | ✅ | +0.25u |
-| NHL | montreal canadiens -1.5 vs carolina hurricanes | +112 | 0.21 | ✅ | +0.24u |
-| MLB | kansas city royals vs texas rangers over 921 | -110 | 0.25 | ✅ | +0.23u |
-| MLB | toronto blue jays ml vs baltimore orioles | +103 | 0.20 | ✅ | +0.21u |
-| MLB | san francisco giants vs colorado rockies over 10.5 | -110 | 0.22 | ✅ | +0.20u |
-| WNBA | los angeles sparks +2.5 vs washington mystics | -110 | 0.22 | ✅ | +0.20u |
-| MLB | boston red sox ml vs cleveland guardians | -110 | 0.20 | ✅ | +0.18u |
-| WNBA | atlanta dream vs portland fire under 165 | -110 | 0.20 | ✅ | +0.18u |
-| Other | madison keys ml | +100 | 0.18 | ❌ | -0.18u |
-| MLB | houston astros ml vs milwaukee brewers | +110 | 0.19 | ❌ | -0.19u |
-| MLB | new york yankees vs athletics over 923 | -110 | 0.21 | ❌ | -0.21u |
+| MLB | toronto blue jays ml vs baltimore orioles | +112 | 0.26 | ✅ | +0.29u |
+| WNBA | los angeles sparks +4.5 vs connecticut sun | -110 | 0.26 | ✅ | +0.24u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.26 | ✅ | +0.24u |
+| NBA | san antonio spurs vs oklahoma city thunder under 567 | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | seattle storm vs toronto tempo under 170 | -110 | 0.23 | ✅ | +0.21u |
+| NBA | san antonio spurs +4 vs oklahoma city thunder | -110 | 0.22 | ✅ | +0.20u |
+| Other | minnesota twins vs pittsburgh pirates over 8.5 | -110 | 0.22 | ✅ | +0.20u |
+| WNBA | los angeles sparks +5.5 vs connecticut sun | -110 | 0.22 | ✅ | +0.20u |
+| WNBA | los angeles sparks +6 vs connecticut sun | -110 | 0.21 | ✅ | +0.19u |
+| NBA | san antonio spurs vs oklahoma city thunder over 212.5 | -110 | 0.20 | ✅ | +0.18u |
+| MLB | san francisco giants ml vs colorado rockies | +102 | 0.17 | ✅ | +0.17u |
+| WNBA | los angeles sparks +4 vs connecticut sun | -110 | 0.19 | ✅ | +0.17u |
+| MLB | san diego padres ml vs washington nationals | +110 | 0.15 | ✅ | +0.17u |
+| MLB | los angeles angels vs tampa bay rays over 7 | -110 | 0.18 | ✅ | +0.16u |
+| MLB | san diego padres vs washington nationals over 7.5 | -110 | 0.18 | ✅ | +0.16u |
+| Combat | jaqualine amorim vs loma lookboonmee | -110 | 0.17 | ✅ | +0.15u |
+| MLB | toronto blue jays vs baltimore orioles over 7.5 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | yankees vs as over 9.5 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | detroit tigers ml vs chicago white sox | +101 | 0.15 | ✅ | +0.15u |
+| Tennis | felix auger-aliassime vs brandon nakashima over 38.5 | -110 | 0.16 | ✅ | +0.15u |
 
-**Daily PnL: -1.24 Units**
+**Daily PnL: -0.86 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | minnesota twins vs pittsburgh pirates over 8 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | toronto blue jays vs baltimore orioles over 8.5 | -110 | 0.39 | ✅ | +0.35u |
-| WNBA | atlanta dream -8.5 vs portland fire | -110 | 0.39 | ✅ | +0.35u |
-| WNBA | los angeles sparks +2.5 vs washington mystics | -110 | 0.39 | ✅ | +0.35u |
-| MLB | yankees vs as over 9.5 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | atlanta braves vs cincinnati reds over 9 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | san francisco giants vs colorado rockies over 10.5 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | yankees vs as over 9.5 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | toronto blue jays vs baltimore orioles over 8.5 | -110 | 0.39 | ✅ | +0.35u |
-| NHL | montreal canadiens vs carolina hurricanes over 5.5 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | atlanta braves vs cincinnati reds over 9 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | chicago cubs vs st. louis cardinals over 7.5 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | yankees vs as over 9.5 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | arizona diamondbacks vs seattle mariners over 7 | -110 | 0.39 | ✅ | +0.35u |
-| WNBA | atlanta dream -8.5 vs portland fire | -110 | 0.39 | ✅ | +0.35u |
-| WNBA | pablo carreno-busta +4.5 vs thiago agustin tirante | -110 | 0.39 | ✅ | +0.35u |
-| WNBA | atlanta dream -8 vs portland fire | -110 | 0.39 | ✅ | +0.35u |
-| MLB | boston red sox ml vs cleveland guardians | -110 | 0.39 | ✅ | +0.35u |
-| WNBA | minnesota lynx -4.5 vs chicago sky | -110 | 0.39 | ✅ | +0.35u |
-| MLB | chicago cubs ml vs st. louis cardinals | -137 | 0.25 | ❌ | -0.25u |
+| MLB | toronto blue jays ml vs baltimore orioles | +115 | 0.20 | ✅ | +0.23u |
+| MLB | toronto blue jays ml vs baltimore orioles | +115 | 0.20 | ✅ | +0.23u |
+| MLB | toronto blue jays ml vs baltimore orioles | +112 | 0.20 | ✅ | +0.22u |
+| WNBA | seattle storm vs toronto tempo under 170 | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | los angeles sparks +4.5 vs connecticut sun | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
+| Tennis | felix auger-aliassime vs brandon nakashima over 38.5 | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
+| Other | shandong taishan vs chengdu rongcheng | -110 | 0.20 | ✅ | +0.18u |
+| MLB | los angeles angels vs tampa bay rays over 7 | -110 | 0.20 | ✅ | +0.18u |
+| MLB | san diego padres vs washington nationals over 7.5 | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | los angeles sparks +6.5 vs connecticut sun | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +4 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
+| Other | minnesota twins vs pittsburgh pirates over 8.5 | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | los angeles sparks +5.5 vs connecticut sun | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | indiana fever vs portland fire over 173.5 | -110 | 0.20 | ✅ | +0.18u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.20 | ✅ | +0.18u |
 
-**Daily PnL: +4.15 Units**
+**Daily PnL: -1.20 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | montreal canadiens ml vs carolina hurricanes | +144 | 2.01 | ✅ | +2.91u |
-| Combat | angela hill ml | +170 | 2.23 | ❌ | -2.23u |
-| WNBA | los angeles sparks -2 vs washington mystics | -109 | 2.51 | ❌ | -2.51u |
-| MLB | chicago cubs vs st. louis cardinals under 8 | -109 | 2.74 | ❌ | -2.74u |
+| Other | jingnan xiong vs angela hill | +165 | 0.93 | ✅ | +1.53u |
+| NBA | jingnan xiong vs angela hill | +190 | 0.71 | ✅ | +1.35u |
+| WNBA | los angeles sparks +5.5 vs connecticut sun | -109 | 1.20 | ✅ | +1.09u |
+| Other | minnesota twins vs pittsburgh pirates over 8.5 | -109 | 1.12 | ✅ | +1.02u |
+| WNBA | los angeles sparks +4.5 vs connecticut sun | -109 | 1.05 | ✅ | +0.95u |
+| WNBA | los angeles sparks +6.5 vs connecticut sun | -109 | 1.03 | ✅ | +0.94u |
+| WNBA | los angeles sparks +6 vs connecticut sun | -109 | 0.97 | ✅ | +0.88u |
+| MLB | los angeles angels vs tampa bay rays over 7 | -109 | 0.87 | ✅ | +0.79u |
+| Soccer | paris saint-germain -0.25 vs arsenal | -109 | 0.93 | ❌ | -0.93u |
+| MLB | arizona diamondbacks vs seattle mariners under 1.5 | +125 | 1.20 | ❌ | -1.20u |
 
-**Daily PnL: -4.57 Units**
+**Daily PnL: +6.43 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | tampa bay rays ml vs los angeles angels | +143 | 0.83 | ✅ | +1.19u |
-| MLB | san francisco giants ml vs colorado rockies | +128 | 0.83 | ✅ | +1.06u |
-| MLB | chicago cubs ml vs st. louis cardinals | +118 | 0.83 | ✅ | +0.98u |
-| Other | solana sierra vs sorana cirstea | +290 | 0.83 | ❌ | -0.83u |
-| Other | austin smotherman vs karl vilips | +160 | 0.83 | ❌ | -0.83u |
-| MLB | los angeles angels ml vs tampa bay rays | +143 | 0.83 | ❌ | -0.83u |
-| MLB | el paso chihuahuas vs albuquerque isotopes el paso chihuahuas | +120 | 0.83 | ❌ | -0.83u |
-| MLB | chicago white sox ml | +100 | 0.83 | ❌ | -0.83u |
-| NHL | montreal canadiens vs carolina hurricanes under 5.5 | -108 | 0.83 | ❌ | -0.83u |
-| NHL | montreal canadiens +1.5 vs carolina hurricanes | -120 | 0.83 | ❌ | -0.83u |
-| MLB | atlanta braves ml | -130 | 0.83 | ❌ | -0.83u |
-| NHL | carolina hurricanes ml vs montreal canadiens | -250 | 0.83 | ❌ | -0.83u |
+| MLB | san diego padres ml vs washington nationals | +112 | 0.83 | ✅ | +0.93u |
+| MLB | san francisco giants ml vs colorado rockies | +111 | 0.83 | ✅ | +0.92u |
+| MLB | miami marlins ml vs new york mets | -123 | 0.83 | ✅ | +0.67u |
+| MLB | arizona diamondbacks ml vs seattle mariners | +138 | 0.83 | ❌ | -0.83u |
+| MLB | minnesota twins ml vs pittsburgh pirates | +128 | 0.83 | ❌ | -0.83u |
+| MLB | cincinnati reds ml vs atlanta braves | +115 | 0.83 | ❌ | -0.83u |
+| NCAAB | jaqualine amorim vs loma lookboonmee | +112 | 0.83 | ❌ | -0.83u |
+| MLB | new york mets ml vs miami marlins | -115 | 0.83 | ❌ | -0.83u |
+| MLB | toronto blue jays ml vs baltimore orioles | -122 | 0.83 | ❌ | -0.83u |
+| NBA | oklahoma city thunder ml vs san antonio spurs | -140 | 0.83 | ❌ | -0.83u |
+| NBA | san antonio spurs ml vs oklahoma city thunder | -150 | 0.83 | ❌ | -0.83u |
+| NHL | carolina hurricanes ml vs montreal canadiens | -150 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -4.24 Units**
+**Daily PnL: -4.94 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | montreal canadiens vs carolina hurricanes over 5.5 | -110 | 0.63 | ✅ | +0.57u |
-| NHL | montreal canadiens vs carolina hurricanes over 5.5 | -110 | 0.63 | ✅ | +0.57u |
-| NHL | royals vs rangers | -124 | 0.55 | ✅ | +0.44u |
-| NCAAB | event jacksonville st vs virginia | -110 | 0.26 | ❌ | -0.26u |
-| NCAAB | event va commonwealth vs north carolina | -135 | 0.29 | ❌ | -0.29u |
-| NHL | montreal canadiens vs carolina hurricanes under 1 | -110 | 0.31 | ❌ | -0.31u |
-| NHL | carolina hurricanes -1.5 vs montreal canadiens | -102 | 0.44 | ❌ | -0.44u |
-| NHL | carolina hurricanes -0.5 vs montreal canadiens | +130 | 0.63 | ❌ | -0.63u |
-| NHL | royals vs rangers under 7.5 | -105 | 0.63 | ❌ | -0.63u |
-| NHL | royals vs rangers under 7.5 | -105 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens vs carolina hurricanes under 5.5 | -108 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens vs carolina hurricanes under 5.5 | -108 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens vs carolina hurricanes under 5.5 | -108 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens vs carolina hurricanes under 5.5 | -110 | 0.63 | ❌ | -0.63u |
-| NHL | carolina hurricanes prop over 3.5 | -115 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens vs carolina hurricanes over 5.5 | -115 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens +1.5 vs carolina hurricanes | -118 | 0.63 | ❌ | -0.63u |
-| NHL | montreal canadiens +1.5 vs carolina hurricanes | -125 | 0.63 | ❌ | -0.63u |
+| Combat | jose henrique vs ding meng jose henrique | +104 | 0.17 | ✅ | +0.18u |
+| Combat | jose henrique vs ding meng jose henrique | +102 | 0.17 | ✅ | +0.17u |
+| Combat | rodrigo vera vs zhu kangjie rodrigo vera | -104 | 0.17 | ✅ | +0.16u |
+| Combat | cameron smotherman vs kai asakura <asakura> player wins inside distance yes | -105 | 0.17 | ✅ | +0.16u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +4 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs vs oklahoma city thunder over 212.5 | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs vs oklahoma city thunder under 567 | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| Combat | cody haddon vs aoriqileng <haddon> player wins inside distance yes | -110 | 0.17 | ✅ | +0.15u |
+| NBA | san antonio spurs +3.5 vs oklahoma city thunder | -110 | 0.17 | ✅ | +0.15u |
+| Combat | deiveson figueiredo vs song yadong goes to decision no | -116 | 0.17 | ✅ | +0.15u |
+| Combat | jaqueline amorim vs loma lookboonme jaqueline amorim | -125 | 0.17 | ✅ | +0.14u |
+| NBA | dylan harper points +rebounds over 13.5 | -132 | 0.13 | ✅ | +0.10u |
+| NBA | isaiah hartenstein assists over 2.5 | -105 | 0.11 | ❌ | -0.11u |
 
-**Daily PnL: -6.64 Units**
+**Daily PnL: -3.80 Units**
 
 
 ### V1 Pyrite Action
