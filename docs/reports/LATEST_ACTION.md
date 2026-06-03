@@ -1,130 +1,133 @@
-# 📝 Daily Action Log (Jun 01, 2026)
+# 📝 Daily Action Log (Jun 02, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | seattle storm -12 vs dallas wings | -110 | 0.55 | ✅ | +0.50u |
-| WNBA | minnesota lynx -3 vs phoenix mercury | -110 | 0.55 | ✅ | +0.50u |
-| MLB | miami marlins vs washington nationals over 8 | -110 | 0.55 | ✅ | +0.50u |
-| WNBA | storm vs wings under 168.5 | -110 | 0.55 | ✅ | +0.50u |
-| WNBA | minnesota lynx -2.5 vs phoenix mercury | -110 | 0.55 | ✅ | +0.50u |
-| Soccer | uzbekistan vs canada under 2.5 | -110 | 0.45 | ✅ | +0.41u |
-| MLB | detroit tigers vs tampa bay rays over 8 | -110 | 0.40 | ✅ | +0.36u |
-| MLB | kansas city royals vs texas rangers under 8 | -110 | 0.32 | ❌ | -0.32u |
-| MLB | miami marlins vs washington nationals under 8.5 | -110 | 0.34 | ❌ | -0.34u |
-| WNBA | seattle storm +12.5 vs dallas wings | -110 | 0.34 | ❌ | -0.34u |
-| WNBA | dallas wings -12 | -110 | 0.35 | ❌ | -0.35u |
-| WNBA | seattle storm +12.5 | -110 | 0.39 | ❌ | -0.39u |
-| MLB | los angeles dodgers -1.5 vs arizona diamondbacks | -110 | 0.40 | ❌ | -0.40u |
-| WNBA | minnesota lynx vs phoenix mercury under 168.5 | -110 | 0.41 | ❌ | -0.41u |
-| MLB | colorado rockies ml | +173 | 0.55 | ❌ | -0.55u |
-| MLB | detroit tigers ml | +144 | 0.55 | ❌ | -0.55u |
-| WNBA | seattle storm +13 vs dallas wings | -110 | 0.55 | ❌ | -0.55u |
-| Other | sweden vs norway under 2.5 | -110 | 0.55 | ❌ | -0.55u |
-| MLB | kansas city royals -1.5 vs cincinnati reds | -110 | 0.55 | ❌ | -0.55u |
-| MLB | detroit tigers -1.5 vs tampa bay rays | -110 | 0.55 | ❌ | -0.55u |
+| MLB | los angeles dodgers vs arizona diamondbacks over 9 | -110 | 0.55 | ✅ | +0.50u |
+| WNBA | las vegas aces -7.5 vs los angeles sparks | -110 | 0.54 | ✅ | +0.49u |
+| WNBA | chicago sky vs washington mystics over 160 | -110 | 0.47 | ✅ | +0.43u |
+| MLB | pittsburgh pirates vs houston astros over 9 | -110 | 0.43 | ✅ | +0.39u |
+| MLB | baltimore orioles vs boston red sox under 8.5 | -110 | 0.43 | ✅ | +0.39u |
+| WNBA | chicago sky -2 vs washington mystics | -110 | 0.38 | ✅ | +0.35u |
+| MLB | as vs cubs under 8 | -110 | 0.36 | ✅ | +0.33u |
+| WNBA | portland fire vs golden state valkyries over 159.5 | -110 | 0.35 | ✅ | +0.32u |
+| MLB | miami marlins vs washington nationals over 9 | -110 | 0.34 | ✅ | +0.31u |
+| MLB | chicago white sox ml vs minnesota twins | -120 | 0.25 | ❌ | -0.25u |
+| WNBA | chicago sky -1.5 | -110 | 0.31 | ❌ | -0.31u |
+| WNBA | portland fire vs golden state valkyries under 162 | -110 | 0.32 | ❌ | -0.32u |
+| MLB | as vs cubs over 7.5 | -110 | 0.34 | ❌ | -0.34u |
+| MLB | texas rangers vs st. louis cardinals under 921 | -110 | 0.35 | ❌ | -0.35u |
+| MLB | colorado rockies vs los angeles angels under 927 | -110 | 0.35 | ❌ | -0.35u |
+| MLB | san francisco giants +1.5 vs milwaukee brewers | -110 | 0.35 | ❌ | -0.35u |
+| WNBA | sky vs mystics under 161.5 | -110 | 0.35 | ❌ | -0.35u |
+| MLB | san diego padres vs philadelphia phillies over 8 | -110 | 0.35 | ❌ | -0.35u |
+| WNBA | connecticut sun +14 vs atlanta dream | -110 | 0.36 | ❌ | -0.36u |
+| Other | portland fire +9 vs golden state valkyries | -110 | 0.40 | ❌ | -0.40u |
 
-**Daily PnL: -3.13 Units**
+**Daily PnL: -2.63 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | minnesota twins ml vs chicago white sox | +150 | 0.35 | ✅ | +0.52u |
-| WNBA | seattle storm -12 vs dallas wings | -110 | 0.35 | ✅ | +0.32u |
-| WNBA | minnesota lynx -3 vs phoenix mercury | -110 | 0.35 | ✅ | +0.32u |
-| MLB | miami marlins vs washington nationals over 8 | -110 | 0.35 | ✅ | +0.32u |
-| WNBA | storm vs wings under 168.5 | -110 | 0.35 | ✅ | +0.32u |
-| WNBA | minnesota lynx -2.5 vs phoenix mercury | -110 | 0.35 | ✅ | +0.32u |
-| Soccer | uzbekistan vs canada under 2.5 | -110 | 0.28 | ✅ | +0.25u |
-| MLB | detroit tigers vs tampa bay rays over 8 | -110 | 0.25 | ✅ | +0.23u |
-| WNBA | minnesota lynx +3.5 vs phoenix mercury | -110 | 0.16 | ❌ | -0.16u |
-| NHL | rangers vs cardinals over 8 | -110 | 0.17 | ❌ | -0.17u |
-| MLB | kansas city royals vs texas rangers under 8 | -110 | 0.20 | ❌ | -0.20u |
-| MLB | miami marlins vs washington nationals under 8.5 | -110 | 0.21 | ❌ | -0.21u |
-| WNBA | seattle storm +12.5 vs dallas wings | -110 | 0.21 | ❌ | -0.21u |
-| WNBA | dallas wings -12 | -110 | 0.22 | ❌ | -0.22u |
-| MLB | new york mets ml vs seattle mariners | +114 | 0.23 | ❌ | -0.23u |
-| WNBA | seattle storm +12.5 | -110 | 0.24 | ❌ | -0.24u |
-| MLB | los angeles dodgers -1.5 vs arizona diamondbacks | -110 | 0.25 | ❌ | -0.25u |
-| WNBA | minnesota lynx vs phoenix mercury under 168.5 | -110 | 0.26 | ❌ | -0.26u |
-| MLB | colorado rockies ml | +173 | 0.35 | ❌ | -0.35u |
-| MLB | detroit tigers ml | +144 | 0.35 | ❌ | -0.35u |
+| MLB | los angeles dodgers vs arizona diamondbacks over 9 | -110 | 0.38 | ✅ | +0.35u |
+| WNBA | las vegas aces -7.5 vs los angeles sparks | -110 | 0.38 | ✅ | +0.35u |
+| WNBA | chicago sky vs washington mystics over 160 | -110 | 0.32 | ✅ | +0.29u |
+| MLB | pittsburgh pirates vs houston astros over 9 | -110 | 0.30 | ✅ | +0.27u |
+| MLB | baltimore orioles vs boston red sox under 8.5 | -110 | 0.30 | ✅ | +0.27u |
+| WNBA | chicago sky -2 vs washington mystics | -110 | 0.27 | ✅ | +0.25u |
+| MLB | as vs cubs under 8 | -110 | 0.25 | ✅ | +0.23u |
+| WNBA | portland fire vs golden state valkyries over 159.5 | -110 | 0.25 | ✅ | +0.23u |
+| MLB | miami marlins vs washington nationals over 9 | -110 | 0.24 | ✅ | +0.22u |
+| NHL | vegas golden knights vs carolina hurricanes over 1 | -110 | 0.19 | ✅ | +0.17u |
+| MLB | pittsburgh pirates ml vs houston astros | +101 | 0.15 | ✅ | +0.15u |
+| Other | golden state valkyries -8.5 vs portland fire | -110 | 0.16 | ✅ | +0.15u |
+| MLB | miami marlins vs washington nationals under 9 | +100 | 0.17 | ❌ | -0.17u |
+| MLB | chicago white sox ml vs minnesota twins | -120 | 0.17 | ❌ | -0.17u |
+| MLB | los angeles dodgers ml vs arizona diamondbacks | +106 | 0.18 | ❌ | -0.18u |
+| MLB | athletics ml vs chicago cubs | +111 | 0.20 | ❌ | -0.20u |
+| WNBA | chicago sky -1.5 | -110 | 0.22 | ❌ | -0.22u |
+| WNBA | portland fire vs golden state valkyries under 162 | -110 | 0.23 | ❌ | -0.23u |
+| WNBA | sky vs mystics under 161.5 | -110 | 0.24 | ❌ | -0.24u |
+| MLB | san diego padres vs philadelphia phillies over 8 | -110 | 0.24 | ❌ | -0.24u |
 
-**Daily PnL: -4.80 Units**
+**Daily PnL: -3.86 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | storm vs wings under 168.5 | -110 | 0.21 | ✅ | +0.19u |
-| WNBA | minnesota lynx -2.5 vs phoenix mercury | -110 | 0.21 | ✅ | +0.19u |
-| Soccer | uzbekistan vs canada under 2.5 | -110 | 0.21 | ✅ | +0.19u |
-| MLB | miami marlins vs washington nationals over 8 | -110 | 0.21 | ✅ | +0.19u |
-| WNBA | minnesota lynx -3 vs phoenix mercury | -110 | 0.21 | ✅ | +0.19u |
-| Soccer | uzbekistan vs canada under 2.5 | -110 | 0.21 | ✅ | +0.19u |
-| MLB | miami marlins vs washington nationals over 8 | -110 | 0.21 | ✅ | +0.19u |
-| WNBA | seattle storm -12 vs dallas wings | -110 | 0.20 | ✅ | +0.18u |
-| WNBA | minnesota lynx -3 vs phoenix mercury | -110 | 0.20 | ✅ | +0.18u |
-| MLB | chicago white sox ml vs minnesota twins | -139 | 0.12 | ✅ | +0.09u |
-| MLB | detroit tigers -1.5 vs tampa bay rays | -110 | 0.20 | ❌ | -0.20u |
-| MLB | colorado rockies ml | +173 | 0.21 | ❌ | -0.21u |
-| MLB | detroit tigers ml | +151 | 0.21 | ❌ | -0.21u |
-| MLB | detroit tigers ml | +144 | 0.21 | ❌ | -0.21u |
-| MLB | detroit tigers ml | +142 | 0.21 | ❌ | -0.21u |
-| MLB | detroit tigers ml | +135 | 0.21 | ❌ | -0.21u |
-| MLB | chicago white sox ml | +134 | 0.21 | ❌ | -0.21u |
-| MLB | san francisco giants ml | +130 | 0.21 | ❌ | -0.21u |
-| MLB | san francisco giants ml | +130 | 0.21 | ❌ | -0.21u |
-| MLB | san francisco giants ml | +130 | 0.21 | ❌ | -0.21u |
+| MLB | baltimore orioles ml vs boston red sox | +125 | 0.26 | ✅ | +0.33u |
+| MLB | baltimore orioles ml vs boston red sox | +125 | 0.26 | ✅ | +0.33u |
+| MLB | chicago white sox ml vs minnesota twins | +112 | 0.26 | ✅ | +0.29u |
+| MLB | chicago white sox ml vs minnesota twins | +112 | 0.26 | ✅ | +0.29u |
+| MLB | chicago white sox ml vs minnesota twins | +105 | 0.26 | ✅ | +0.27u |
+| MLB | los angeles dodgers vs arizona diamondbacks over 9 | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | chicago sky -2 vs washington mystics | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | las vegas aces -7.5 vs los angeles sparks | -110 | 0.26 | ✅ | +0.24u |
+| MLB | pittsburgh pirates vs houston astros over 9 | -110 | 0.26 | ✅ | +0.24u |
+| MLB | baltimore orioles vs boston red sox under 8.5 | -110 | 0.26 | ✅ | +0.24u |
+| Other | golden state valkyries -8.5 vs portland fire | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | aces vs sparks under 175.5 | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | aces vs sparks under 175.5 | -110 | 0.26 | ✅ | +0.24u |
+| MLB | miami marlins vs washington nationals over 9 | -110 | 0.26 | ✅ | +0.24u |
+| MLB | los angeles dodgers vs arizona diamondbacks over 9 | -110 | 0.26 | ✅ | +0.24u |
+| MLB | san diego padres ml vs philadelphia phillies | -135 | 0.16 | ✅ | +0.12u |
+| Other | tennis berrettini vs matteo arnaldi over 3.5 sets / tennis sabalenka ml | -138 | 0.12 | ❌ | -0.12u |
+| Other | jakub mensik vs titouan droguet over 35.5 | -136 | 0.13 | ❌ | -0.13u |
+| Other | tennis felix vs cobolli over 3.5 sets / tennis sabalenka ml | -136 | 0.13 | ❌ | -0.13u |
+| Other | doosan bears ml vs hanwha eagles | -135 | 0.14 | ❌ | -0.14u |
 
-**Daily PnL: -6.39 Units**
+**Daily PnL: -1.88 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | minnesota lynx -3 vs phoenix mercury | -109 | 1.14 | ✅ | +1.04u |
-| WNBA | minnesota lynx -2.5 vs phoenix mercury | -109 | 1.07 | ✅ | +0.97u |
-| WNBA | seattle storm -12 vs dallas wings | -109 | 0.94 | ✅ | +0.85u |
-| WNBA | storm vs wings under 168.5 | -109 | 0.92 | ✅ | +0.84u |
-| Soccer | uzbekistan vs canada under 2.5 | -109 | 0.90 | ✅ | +0.82u |
-| NHL | vegas golden knights ml vs carolina hurricanes | +129 | 0.83 | ❌ | -0.83u |
-| WNBA | minnesota lynx vs phoenix mercury under 168.5 | -109 | 0.87 | ❌ | -0.87u |
-| MLB | detroit tigers -1.5 vs tampa bay rays | -109 | 0.94 | ❌ | -0.94u |
-| Other | sweden vs norway under 2.5 | -109 | 1.16 | ❌ | -1.16u |
-| MLB | milwaukee brewers ml vs san francisco giants | +143 | 1.22 | ❌ | -1.22u |
+| Other | golden state valkyries -9 vs portland fire | -109 | 2.40 | ✅ | +2.18u |
+| Other | golden state valkyries -8.5 vs portland fire | -109 | 2.25 | ✅ | +2.05u |
+| MLB | daylen lile hr over 1 | +600 | 1.38 | ❌ | -1.38u |
+| WNBA | portland fire vs golden state valkyries under 161 | -109 | 2.87 | ❌ | -2.87u |
 
-**Daily PnL: -0.50 Units**
+**Daily PnL: -0.02 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | washington nationals ml vs miami marlins | -135 | 0.83 | ✅ | +0.61u |
-| MLB | kansas city royals -1.5 | +165 | 0.83 | ❌ | -0.83u |
-| MLB | detroit tigers ml | +144 | 0.83 | ❌ | -0.83u |
-| MLB | new york mets ml | +115 | 0.83 | ❌ | -0.83u |
-| MLB | st. louis cardinals ml | +110 | 0.83 | ❌ | -0.83u |
-| MLB | los angeles dodgers -1.5 | +100 | 0.83 | ❌ | -0.83u |
-| MLB | st. louis cardinals +1.5 | -110 | 0.83 | ❌ | -0.83u |
-| MLB | detroit tigers vs chicago white sox under 8 | -114 | 0.83 | ❌ | -0.83u |
-| MLB | detroit tigers ml vs chicago white sox | -130 | 0.83 | ❌ | -0.83u |
-| MLB | san francisco giants ml vs colorado rockies | -130 | 0.83 | ❌ | -0.83u |
-| MLB | minnesota twins ml vs chicago white sox | -139 | 0.83 | ❌ | -0.83u |
-| MLB | los angeles dodgers ml | -160 | 0.83 | ❌ | -0.83u |
+| NHL | vegas golden knights ml vs carolina hurricanes | +135 | 0.83 | ✅ | +1.12u |
+| MLB | miami marlins ml vs washington nationals | +108 | 0.83 | ✅ | +0.90u |
+| MLB | chicago white sox ml vs minnesota twins | +105 | 0.83 | ✅ | +0.87u |
+| MLB | san francisco giants ml vs milwaukee brewers | +182 | 0.83 | ❌ | -0.83u |
+| MLB | philadelphia phillies -1.5 vs san diego padres | +140 | 0.83 | ❌ | -0.83u |
+| Soccer | ghana vs wales | +119 | 0.83 | ❌ | -0.83u |
+| Other | elina svitolina vs m kostyuk | +115 | 0.83 | ❌ | -0.83u |
+| Other | kiwoom heroes ml | +100 | 0.83 | ❌ | -0.83u |
+| MLB | chicago cubs ml vs athletics | -120 | 0.83 | ❌ | -0.83u |
+| MLB | baltimore orioles ml vs boston red sox | -135 | 0.83 | ❌ | -0.83u |
+| MLB | boston red sox ml vs baltimore orioles | -140 | 0.83 | ❌ | -0.83u |
+| MLB | philadelphia phillies ml vs san diego padres | -154 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -8.52 Units**
+**Daily PnL: -4.58 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | rangers vs cardinals | -122 | 2.00 | ✅ | +1.64u |
-| NHL | rangers vs cardinals | -123 | 2.00 | ✅ | +1.63u |
-| NHL | rangers vs cardinals | +110 | 2.00 | ❌ | -2.00u |
+| NHL | vegas golden knights ml vs carolina hurricanes | +135 | 0.90 | ✅ | +1.22u |
+| NHL | rangers vs cardinals | -105 | 0.90 | ✅ | +0.86u |
+| NHL | vegas golden knights vs carolina hurricanes over 1 | -110 | 0.90 | ✅ | +0.82u |
+| NHL | vegas golden knights vs carolina hurricanes under 5.5 | +100 | 0.48 | ❌ | -0.48u |
+| NHL | rangers vs cardinals | -104 | 0.56 | ❌ | -0.56u |
+| NHL | vegas golden knights ml vs carolina hurricanes | +125 | 0.86 | ❌ | -0.86u |
+| NHL | event nhl game 1 win +series win parlay | +130 | 0.90 | ❌ | -0.90u |
+| NHL | vegas golden knights vs carolina hurricanes under 5.5 | +100 | 0.90 | ❌ | -0.90u |
+| NHL | vegas golden knights vs carolina hurricanes under 5.5 | +100 | 0.90 | ❌ | -0.90u |
+| NHL | vegas golden knights vs carolina hurricanes under 11 | -110 | 0.90 | ❌ | -0.90u |
+| NHL | vegas golden knights vs carolina hurricanes under 6 | -125 | 0.90 | ❌ | -0.90u |
+| NHL | vegas golden knights vs carolina hurricanes over 11 | -130 | 0.90 | ❌ | -0.90u |
 
-**Daily PnL: +1.27 Units**
+**Daily PnL: -4.41 Units**
 
 
 ### V1 Pyrite Action
