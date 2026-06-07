@@ -6,222 +6,222 @@ window.QUARRY_STATS = {
     },
     "models": {
         "pyrite": {
-            "roi": -2.3,
-            "net": -5.28,
-            "wins": 931,
-            "losses": 873,
+            "roi": -1.4,
+            "net": -0.76,
+            "wins": 224,
+            "losses": 191,
             "pushes": 0,
-            "record": "931-873-0",
-            "win_rate": 51.6,
-            "sample": 1804,
-            "bets_day": "Medium (~13 bets/day)",
+            "record": "224-191-0",
+            "win_rate": 54.0,
+            "sample": 415,
+            "bets_day": "Very Low (~4 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Apr 06, 2026",
-                "record": "32-34-0",
-                "win_rate": 48.5,
-                "net": -0.71,
-                "roi": -7.2,
+                "date": "Mar 16, 2026",
+                "record": "50-34-0",
+                "win_rate": 59.5,
+                "net": 1.18,
+                "roi": 14.0,
                 "ledger": [
                     {
-                        "date": "04/06",
+                        "date": "03/16",
                         "league": "Other",
-                        "selection": "connecticut vs michigan under 145",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "selection": "draw 1% none ml",
+                        "odds": 180,
+                        "wager": 0.1,
+                        "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.4261904761904761
+                        "edge": 0.05298523041695469
                     },
                     {
-                        "date": "04/06",
+                        "date": "03/16",
+                        "league": "Other",
+                        "selection": "draw ml",
+                        "odds": 180,
+                        "wager": 0.1,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.05298523041695469
+                    },
+                    {
+                        "date": "03/16",
                         "league": "MLB",
-                        "selection": "cubs vs rays over 7.5",
+                        "selection": "guardians ml vs athletics",
+                        "odds": 110,
+                        "wager": 0.1,
+                        "profit": 0.11,
+                        "result": "WIN",
+                        "edge": 0.0724617875375052
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "MLB",
+                        "selection": "cubs ml vs los angeles dodgers",
+                        "odds": 110,
+                        "wager": 0.1,
+                        "profit": 0.11,
+                        "result": "WIN",
+                        "edge": 0.0724617875375052
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "MLB",
+                        "selection": "toronto blue jays ml vs baltimore orioles",
+                        "odds": 105,
+                        "wager": 0.1,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.13471610376936155
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "MLB",
+                        "selection": "marlins ml vs houston astros",
+                        "odds": 105,
+                        "wager": 0.1,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.13471610376936155
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "Soccer",
+                        "selection": "independiente vs instituto total over 2",
+                        "odds": -101,
+                        "wager": 0.1,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.05298523041695469
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "Soccer",
+                        "selection": "independiente vs instituto over 2",
+                        "odds": -101,
+                        "wager": 0.1,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.05298523041695469
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NBA",
+                        "selection": "warriors -7.5",
+                        "odds": -104,
+                        "wager": 0.1,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.44019607843137254
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NBA",
+                        "selection": "washington wizards -7.5 vs chicago bulls",
+                        "odds": -104,
+                        "wager": 0.1,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.44019607843137254
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NCAAB",
+                        "selection": "virginia cavaliers -3 vs manhattan jaspers",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
                         "edge": 0.4261904761904761
                     },
                     {
-                        "date": "04/06",
+                        "date": "03/16",
+                        "league": "NCAAB",
+                        "selection": "seattle u redhawks -3 vs furman paladins",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": 0.09,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "03/16",
                         "league": "NHL",
-                        "selection": "sabres ml",
+                        "selection": "penguins vs avalanche over 6.5",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
-                        "edge": 0.4184988475899898
+                        "edge": 0.4261904761904761
                     },
                     {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "orioles vs white sox under 9",
+                        "date": "03/16",
+                        "league": "NHL",
+                        "selection": "san antonio spurs vs la clippers over 6.5",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
-                        "edge": 0.26686498903051636
+                        "edge": 0.4261904761904761
                     },
                     {
-                        "date": "04/06",
+                        "date": "03/16",
                         "league": "MLB",
-                        "selection": "cubs vs rays over 7.5",
+                        "selection": "phillies vs tigers over 13.5",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
-                        "edge": 0.26686498903051636
+                        "edge": 0.31501977991467767
                     },
                     {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "sharks ml",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.2146578429263163
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "twins ml",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.2146578429263163
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "connecticut +7",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.2146578429263163
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "winnipeg jets ml",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.21355243661063805
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "1h michigan -3.5",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.21355243661063805
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "jets ml",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.21355243661063805
-                    },
-                    {
-                        "date": "04/06",
+                        "date": "03/16",
                         "league": "NBA",
-                        "selection": "magic +3",
+                        "selection": "new orleans pelicans -8.5 vs houston rockets",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
-                        "edge": 0.19567763898006407
+                        "edge": 0.27990908429752137
                     },
                     {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "connecticut +7",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.1866320285095865
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "connecticut +7",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.16787941505471626
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "connecticut +7.5",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.16787941505471626
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "MLB",
-                        "selection": "cardinals vs nationals over 8",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.1388556254209118
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "connecticut +7",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.1388556254209118
-                    },
-                    {
-                        "date": "04/06",
-                        "league": "MLB",
-                        "selection": "cardinals vs nationals over 8",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.12745958091198673
-                    },
-                    {
-                        "date": "04/06",
+                        "date": "03/16",
                         "league": "NBA",
-                        "selection": "magic +2",
+                        "selection": "mavs vs pelicans over 238",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
-                        "edge": 0.12745958091198673
+                        "edge": 0.2462634239629803
                     },
                     {
-                        "date": "04/06",
-                        "league": "Other",
-                        "selection": "connecticut +7",
+                        "date": "03/16",
+                        "league": "NBA",
+                        "selection": "pelicans -8.5",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.1,
+                        "profit": 0.09,
                         "result": "WIN",
-                        "edge": 0.12745958091198673
+                        "edge": 0.1734865746186094
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NBA",
+                        "selection": "golden state warriors -7.5",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": 0.09,
+                        "result": "WIN",
+                        "edge": 0.14107779994537617
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NBA",
+                        "selection": "1h portland trail blazers vs brooklyn nets under 114.5",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": 0.09,
+                        "result": "WIN",
+                        "edge": 0.14107779994537617
                     }
                 ]
             }
@@ -523,7 +523,7 @@ window.QUARRY_STATS = {
                         "wager": 0.83,
                         "profit": 0.58,
                         "result": "WIN",
-                        "edge": 0.15999999999999992
+                        "edge": 0.12571428571428567
                     },
                     {
                         "date": "06/03",
@@ -563,7 +563,7 @@ window.QUARRY_STATS = {
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.14
+                        "edge": 0.11428571428571421
                     },
                     {
                         "date": "06/03",
@@ -1284,8 +1284,8 @@ window.QUARRY_STATS = {
                         "league": "MLB",
                         "selection": "san diego padres vs philadelphia phillies under 7.5",
                         "odds": -110,
-                        "wager": 0.19,
-                        "profit": 0.17,
+                        "wager": 0.2,
+                        "profit": 0.18,
                         "result": "WIN",
                         "edge": 0.029863028299240812
                     },
@@ -1294,7 +1294,37 @@ window.QUARRY_STATS = {
                         "league": "NBA",
                         "selection": "new york knicks +4.5 vs san antonio spurs",
                         "odds": -110,
-                        "wager": 0.18,
+                        "wager": 0.2,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.036036579381851896
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "pittsburgh pirates vs atlanta braves over 8.5",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.03422656513395761
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "baltimore orioles vs toronto blue jays over 8",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.03411510444822763
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "event edgar chairez vs bruno silva",
+                        "odds": 105,
+                        "wager": 0.15,
                         "profit": 0.16,
                         "result": "WIN",
                         "edge": 0.028419761430649504

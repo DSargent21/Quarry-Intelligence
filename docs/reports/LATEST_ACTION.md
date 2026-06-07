@@ -142,27 +142,27 @@
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | connecticut vs michigan under 145 | -110 | 0.15 | ✅ | +0.14u |
-| MLB | cubs vs rays over 7.5 | -110 | 0.15 | ✅ | +0.14u |
-| NHL | sabres ml | -110 | 0.15 | ✅ | +0.14u |
-| Other | orioles vs white sox under 9 | -110 | 0.15 | ✅ | +0.14u |
-| MLB | cubs vs rays over 7.5 | -110 | 0.15 | ✅ | +0.14u |
-| Other | sharks ml | -110 | 0.15 | ✅ | +0.14u |
-| Other | twins ml | -110 | 0.15 | ✅ | +0.14u |
-| Other | connecticut +7 | -110 | 0.15 | ✅ | +0.14u |
-| Other | winnipeg jets ml | -110 | 0.15 | ✅ | +0.14u |
-| Other | 1h michigan -3.5 | -110 | 0.15 | ✅ | +0.14u |
-| Other | jets ml | -110 | 0.15 | ✅ | +0.14u |
-| NBA | magic +3 | -110 | 0.15 | ✅ | +0.14u |
-| Other | connecticut +7 | -110 | 0.15 | ✅ | +0.14u |
-| Other | connecticut +7 | -110 | 0.15 | ✅ | +0.14u |
-| Other | connecticut +7.5 | -110 | 0.15 | ✅ | +0.14u |
-| MLB | cardinals vs nationals over 8 | -110 | 0.15 | ✅ | +0.14u |
-| Other | connecticut +7 | -110 | 0.15 | ✅ | +0.14u |
-| MLB | cardinals vs nationals over 8 | -110 | 0.15 | ✅ | +0.14u |
-| NBA | magic +2 | -110 | 0.15 | ✅ | +0.14u |
-| Other | connecticut +7 | -110 | 0.15 | ✅ | +0.14u |
+| Other | draw 1% none ml | +180 | 0.10 | ✅ | +0.18u |
+| Other | draw ml | +180 | 0.10 | ✅ | +0.18u |
+| MLB | guardians ml vs athletics | +110 | 0.10 | ✅ | +0.11u |
+| MLB | cubs ml vs los angeles dodgers | +110 | 0.10 | ✅ | +0.11u |
+| MLB | toronto blue jays ml vs baltimore orioles | +105 | 0.10 | ✅ | +0.10u |
+| MLB | marlins ml vs houston astros | +105 | 0.10 | ✅ | +0.10u |
+| Soccer | independiente vs instituto total over 2 | -101 | 0.10 | ✅ | +0.10u |
+| Soccer | independiente vs instituto over 2 | -101 | 0.10 | ✅ | +0.10u |
+| NBA | warriors -7.5 | -104 | 0.10 | ✅ | +0.10u |
+| NBA | washington wizards -7.5 vs chicago bulls | -104 | 0.10 | ✅ | +0.10u |
+| NCAAB | virginia cavaliers -3 vs manhattan jaspers | -110 | 0.10 | ✅ | +0.09u |
+| NCAAB | seattle u redhawks -3 vs furman paladins | -110 | 0.10 | ✅ | +0.09u |
+| NHL | penguins vs avalanche over 6.5 | -110 | 0.10 | ✅ | +0.09u |
+| NHL | san antonio spurs vs la clippers over 6.5 | -110 | 0.10 | ✅ | +0.09u |
+| MLB | phillies vs tigers over 13.5 | -110 | 0.10 | ✅ | +0.09u |
+| NBA | new orleans pelicans -8.5 vs houston rockets | -110 | 0.10 | ✅ | +0.09u |
+| NBA | mavs vs pelicans over 238 | -110 | 0.10 | ✅ | +0.09u |
+| NBA | pelicans -8.5 | -110 | 0.10 | ✅ | +0.09u |
+| NBA | golden state warriors -7.5 | -110 | 0.10 | ✅ | +0.09u |
+| NBA | 1h portland trail blazers vs brooklyn nets under 114.5 | -110 | 0.10 | ✅ | +0.09u |
 
-**Daily PnL: -0.71 Units**
+**Daily PnL: +1.18 Units**
 
 

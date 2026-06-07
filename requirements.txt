@@ -11,3 +11,4 @@ pyperclip
 lightgbm
 pyarrow
 fastparquet
+requests
