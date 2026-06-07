@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-06-07 14:29 ET",
+        "last_update": "2026-06-07 18:27 ET",
         "status": "NOMINAL",
-        "cache_bust": 1780856968.807051
+        "cache_bust": 1780871234.221327
     },
     "models": {
         "pyrite": {
@@ -789,16 +789,6 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "06/06",
-                        "league": "MLB",
-                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
-                        "odds": -110,
-                        "wager": 0.18,
-                        "profit": 0.16,
-                        "result": "WIN",
-                        "edge": 0.0842616245860145
-                    },
-                    {
-                        "date": "06/06",
                         "league": "WNBA",
                         "selection": "las vegas aces -3 vs golden state valkyries",
                         "odds": -110,
@@ -816,6 +806,16 @@ window.QUARRY_STATS = {
                         "profit": 0.16,
                         "result": "WIN",
                         "edge": 0.0841182158106849
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.08189108825865243
                     },
                     {
                         "date": "06/06",
@@ -911,8 +911,8 @@ window.QUARRY_STATS = {
             }
         },
         "kyanite": {
-            "roi": 7.5,
-            "net": 16.56,
+            "roi": 7.6,
+            "net": 16.62,
             "wins": 329,
             "losses": 270,
             "pushes": 0,
@@ -925,16 +925,16 @@ window.QUARRY_STATS = {
                 "date": "Jun 06, 2026",
                 "record": "21-15-0",
                 "win_rate": 58.3,
-                "net": 1.19,
-                "roi": 11.8,
+                "net": 1.25,
+                "roi": 12.5,
                 "ledger": [
                     {
                         "date": "06/06",
                         "league": "MLB",
                         "selection": "seattle mariners vs detroit tigers under 8.5",
                         "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
+                        "wager": 0.34,
+                        "profit": 0.31,
                         "result": "WIN",
                         "edge": 0.05664917684736703
                     },
@@ -943,8 +943,8 @@ window.QUARRY_STATS = {
                         "league": "WNBA",
                         "selection": "las vegas aces -2.5 vs golden state valkyries",
                         "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
+                        "wager": 0.34,
+                        "profit": 0.31,
                         "result": "WIN",
                         "edge": 0.05210724331083749
                     },
@@ -953,8 +953,8 @@ window.QUARRY_STATS = {
                         "league": "MLB",
                         "selection": "los angeles dodgers -1.5 vs los angeles angels",
                         "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
+                        "wager": 0.34,
+                        "profit": 0.31,
                         "result": "WIN",
                         "edge": 0.048803298246292814
                     },
@@ -963,10 +963,20 @@ window.QUARRY_STATS = {
                         "league": "WNBA",
                         "selection": "las vegas aces -3 vs golden state valkyries",
                         "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
+                        "wager": 0.34,
+                        "profit": 0.31,
                         "result": "WIN",
                         "edge": 0.04861405349913095
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "cincinnati reds vs st. louis cardinals over 9",
+                        "odds": -110,
+                        "wager": 0.33,
+                        "profit": 0.3,
+                        "result": "WIN",
+                        "edge": 0.04574408985319589
                     },
                     {
                         "date": "06/06",
@@ -1013,8 +1023,8 @@ window.QUARRY_STATS = {
                         "league": "WNBA",
                         "selection": "new york liberty -4 vs indiana fever",
                         "odds": -110,
-                        "wager": 0.3,
-                        "profit": 0.27,
+                        "wager": 0.29,
+                        "profit": 0.26,
                         "result": "WIN",
                         "edge": 0.04063412405195688
                     },
@@ -1033,8 +1043,8 @@ window.QUARRY_STATS = {
                         "league": "Other",
                         "selection": "scott vincent vs branden grace",
                         "odds": -110,
-                        "wager": 0.29,
-                        "profit": 0.26,
+                        "wager": 0.28,
+                        "profit": 0.25,
                         "result": "WIN",
                         "edge": 0.03962442136946176
                     },
@@ -1047,16 +1057,6 @@ window.QUARRY_STATS = {
                         "profit": 0.25,
                         "result": "WIN",
                         "edge": 0.03773000694456552
-                    },
-                    {
-                        "date": "06/06",
-                        "league": "MLB",
-                        "selection": "cincinnati reds vs st. louis cardinals over 9",
-                        "odds": -110,
-                        "wager": 0.27,
-                        "profit": 0.25,
-                        "result": "WIN",
-                        "edge": 0.037663488160996184
                     },
                     {
                         "date": "06/06",
@@ -1083,10 +1083,20 @@ window.QUARRY_STATS = {
                         "league": "MLB",
                         "selection": "baltimore orioles vs toronto blue jays over 8",
                         "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
+                        "wager": 0.24,
+                        "profit": 0.22,
                         "result": "WIN",
                         "edge": 0.03411510444822763
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
+                        "odds": -110,
+                        "wager": 0.24,
+                        "profit": 0.22,
+                        "result": "WIN",
+                        "edge": 0.03274533010664438
                     },
                     {
                         "date": "06/06",
@@ -1097,16 +1107,6 @@ window.QUARRY_STATS = {
                         "profit": 0.2,
                         "result": "WIN",
                         "edge": 0.031062392961411223
-                    },
-                    {
-                        "date": "06/06",
-                        "league": "MLB",
-                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.03091189123335336
                     },
                     {
                         "date": "06/06",
@@ -1132,22 +1132,22 @@ window.QUARRY_STATS = {
             }
         },
         "carnelian": {
-            "roi": -0.6,
-            "net": -1.25,
-            "wins": 503,
+            "roi": -0.5,
+            "net": -1.1,
+            "wins": 504,
             "losses": 491,
             "pushes": 0,
-            "record": "503-491-0",
-            "win_rate": 50.6,
-            "sample": 994,
+            "record": "504-491-0",
+            "win_rate": 50.7,
+            "sample": 995,
             "bets_day": "High (~45 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Jun 06, 2026",
                 "record": "25-25-0",
                 "win_rate": 50.0,
-                "net": -0.35,
-                "roi": -3.5,
+                "net": -0.26,
+                "roi": -2.6,
                 "ledger": [
                     {
                         "date": "06/06",
@@ -1188,6 +1188,16 @@ window.QUARRY_STATS = {
                         "profit": 0.25,
                         "result": "WIN",
                         "edge": 0.04861405349913095
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "cincinnati reds vs st. louis cardinals over 9",
+                        "odds": -110,
+                        "wager": 0.26,
+                        "profit": 0.24,
+                        "result": "WIN",
+                        "edge": 0.04574408985319589
                     },
                     {
                         "date": "06/06",
@@ -1268,16 +1278,6 @@ window.QUARRY_STATS = {
                         "profit": 0.19,
                         "result": "WIN",
                         "edge": 0.03773000694456552
-                    },
-                    {
-                        "date": "06/06",
-                        "league": "MLB",
-                        "selection": "cincinnati reds vs st. louis cardinals over 9",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.037663488160996184
                     },
                     {
                         "date": "06/06",
@@ -1311,6 +1311,16 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.03274533010664438
+                    },
+                    {
+                        "date": "06/06",
                         "league": "Combat",
                         "selection": "event edgar chairez vs bruno silva",
                         "odds": 105,
@@ -1331,16 +1341,6 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "06/06",
-                        "league": "MLB",
-                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
-                        "odds": -110,
-                        "wager": 0.17,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.03091189123335336
-                    },
-                    {
-                        "date": "06/06",
                         "league": "Other",
                         "selection": "los angeles angels vs los angeles dodgers over 8.5",
                         "odds": -110,
@@ -1350,6 +1350,26 @@ window.QUARRY_STATS = {
                         "edge": 0.028986780416397795
                     }
                 ]
+            }
+        },
+        "v6": {
+            "roi": 0.0,
+            "net": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "pushes": 0,
+            "record": "0-0-0",
+            "win_rate": 0.0,
+            "sample": 0,
+            "bets_day": "None (0 bets/day)",
+            "status": "ACTIVE",
+            "yesterday": {
+                "date": "N/A",
+                "record": "0-0-0",
+                "win_rate": 0,
+                "net": 0,
+                "roi": 0,
+                "ledger": []
             }
         }
     }

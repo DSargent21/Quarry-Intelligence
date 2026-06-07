@@ -37,7 +37,7 @@ def pre_flight_check():
         return False
         
     # 2. Check Model Files
-    critical_models = ['v1_pyrite.pkl', 'v2_diamond.pkl', 'v4_quartz.pkl']
+    critical_models = ['v1_pyrite.pkl', 'v2_diamond.pkl', 'v4_quartz.pkl', 'v6_micro_sniper.pkl']
     missing_models = []
     for m in critical_models:
         path = os.path.join(BASE_DIR, 'models', m)
@@ -282,7 +282,8 @@ def run_daily_update():
         ("quartz", ms.run_v4_quartz),
         ("sapphire", ms.run_v5_sapphire),
         ("kyanite", ms.run_Kyanite_kyanite),
-        ("carnelian", ms.run_Carnelian_carnelian)
+        ("carnelian", ms.run_Carnelian_carnelian),
+        ("v6", ms.run_v6_sniper)
     ]
     
     for name, func in simulation_tasks:

@@ -32,6 +32,7 @@ COLORS = {
     'quartz_neg': '#334155', # Shadow Blue
     'sapphire': '#2563EB',
     'sapphire_gold': '#D4AF37',
+    'ruby': '#E11D48',
     'carnelian': '#D4AF37', # Series 6 Gold
     'kyanite': '#60A5FA',    # Series 6 Blue
     'ghost': '#444444',
@@ -289,7 +290,10 @@ def generate_live_assets(models=None):
                 "v1_roi": round(StatsEngine.calculate_metrics(models.get('pyrite'))['roi']*100, 1) if 'pyrite' in models else 0,
                 "v2_roi": round(StatsEngine.calculate_metrics(models.get('diamond'))['roi']*100, 1) if 'diamond' in models else 0
             }
-        inject_json(os.path.join(web_dir, f"{model_name}.html"), page_data)
+        # Filename mapping: backend 'v6' -> frontend 'ruby.html'
+        fname = f"{model_name}.html"
+        if model_name == 'v6': fname = "ruby.html"
+        inject_json(os.path.join(web_dir, fname), page_data)
 
     # Combined Series 6 Page
     km, cm = StatsEngine.calculate_metrics(models.get('kyanite')), StatsEngine.calculate_metrics(models.get('carnelian'))

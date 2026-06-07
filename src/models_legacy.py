@@ -1,3 +1,4 @@
+from src.models.v6_micro_sniper import MicroSniperV6
 import joblib
 import pandas as pd
 import numpy as np
@@ -98,6 +99,8 @@ class ModelSimulator:
         self.V4_START = (pd.to_datetime(self.V4_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         self.V5_START = (pd.to_datetime(self.V5_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         self.ZENITH_START = (pd.to_datetime(self.ZENITH_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+        self.V6_RELEASE = '2026-06-07'
+        self.V6_START = (pd.to_datetime(self.V6_RELEASE) + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
         
         self.V2_LEAGUES = {
             'NBA': {'stake': 1.2, 'min_edge': 0.03}, 'NCAAB': {'stake': 1.2, 'min_edge': 0.03},
@@ -503,6 +506,30 @@ class ModelSimulator:
         except Exception as e:
             print(f"Error Zenith {name}: {e}")
             traceback.print_exc()
+            return pd.DataFrame()
+
+    def run_v6_sniper(self):
+        try:
+            model = load_resilient('v6_micro_sniper.pkl')
+            if not model:
+                return pd.DataFrame()
+            temp = self.df[self.df['pick_date'] >= pd.to_datetime(self.V6_START)].copy()
+            if temp.empty: return pd.DataFrame()
+            v6_eng = MicroSniperV6()
+            temp = v6_eng.engineer_v6(temp)
+            temp['prob'] = model.predict_proba(temp[v6_eng.features])[:, 1]
+            temp['edge'] = temp['prob'] - temp['implied_prob']
+            valid = (temp['edge'] > 0.02) & (temp['bets_last_24h'] <= 5)
+            cand = temp[valid].copy()
+            if cand.empty: return cand
+            cand['wager_unit'] = 1.0
+            cand['daily_total_risk'] = cand.groupby('pick_date')['wager_unit'].transform('sum')
+            cand['risk_factor'] = (10.0 / cand['daily_total_risk']).clip(upper=1.0)
+            cand['wager_unit'] = (cand['wager_unit'] * cand['risk_factor']).round(2)
+            cand['profit_actual'] = np.where(cand['outcome']==1, cand['wager_unit']*(cand['decimal_odds']-1), np.where(cand['outcome']==0, -cand['wager_unit'], 0))
+            return cand[cand['wager_unit'] >= 0.10]
+        except Exception as e:
+            print(f'Error V6: {e}')
             return pd.DataFrame()
 
     def run_backtest_all(self):
