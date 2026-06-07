@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-06-04 07:59 ET",
+        "last_update": "2026-06-07 14:29 ET",
         "status": "NOMINAL",
-        "cache_bust": 1780574384.834999
+        "cache_bust": 1780856968.807051
     },
     "models": {
         "pyrite": {
@@ -26,16 +26,6 @@ window.QUARRY_STATS = {
                     {
                         "date": "03/16",
                         "league": "Other",
-                        "selection": "draw 1% none ml",
-                        "odds": 180,
-                        "wager": 0.1,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.05298523041695469
-                    },
-                    {
-                        "date": "03/16",
-                        "league": "Other",
                         "selection": "draw ml",
                         "odds": 180,
                         "wager": 0.1,
@@ -45,8 +35,18 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "03/16",
+                        "league": "Other",
+                        "selection": "draw 1% none ml",
+                        "odds": 180,
+                        "wager": 0.1,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.05298523041695469
+                    },
+                    {
+                        "date": "03/16",
                         "league": "MLB",
-                        "selection": "guardians ml vs athletics",
+                        "selection": "cubs ml vs los angeles dodgers",
                         "odds": 110,
                         "wager": 0.1,
                         "profit": 0.11,
@@ -56,7 +56,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "03/16",
                         "league": "MLB",
-                        "selection": "cubs ml vs los angeles dodgers",
+                        "selection": "guardians ml vs athletics",
                         "odds": 110,
                         "wager": 0.1,
                         "profit": 0.11,
@@ -86,7 +86,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "03/16",
                         "league": "Soccer",
-                        "selection": "independiente vs instituto total over 2",
+                        "selection": "independiente vs instituto over 2",
                         "odds": -101,
                         "wager": 0.1,
                         "profit": 0.1,
@@ -96,7 +96,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "03/16",
                         "league": "Soccer",
-                        "selection": "independiente vs instituto over 2",
+                        "selection": "independiente vs instituto total over 2",
                         "odds": -101,
                         "wager": 0.1,
                         "profit": 0.1,
@@ -125,18 +125,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "03/16",
-                        "league": "NCAAB",
-                        "selection": "virginia cavaliers -3 vs manhattan jaspers",
-                        "odds": -110,
-                        "wager": 0.1,
-                        "profit": 0.09,
-                        "result": "WIN",
-                        "edge": 0.4261904761904761
-                    },
-                    {
-                        "date": "03/16",
-                        "league": "NCAAB",
-                        "selection": "seattle u redhawks -3 vs furman paladins",
+                        "league": "NHL",
+                        "selection": "san antonio spurs vs la clippers over 6.5",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -155,8 +145,18 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "03/16",
-                        "league": "NHL",
-                        "selection": "san antonio spurs vs la clippers over 6.5",
+                        "league": "NCAAB",
+                        "selection": "virginia cavaliers -3 vs manhattan jaspers",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": 0.09,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "03/16",
+                        "league": "NCAAB",
+                        "selection": "seattle u redhawks -3 vs furman paladins",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -206,7 +206,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "03/16",
                         "league": "NBA",
-                        "selection": "golden state warriors -7.5",
+                        "selection": "1h portland trail blazers vs brooklyn nets under 114.5",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -216,7 +216,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "03/16",
                         "league": "NBA",
-                        "selection": "1h portland trail blazers vs brooklyn nets under 114.5",
+                        "selection": "golden state warriors -7.5",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": 0.09,
@@ -227,1072 +227,1062 @@ window.QUARRY_STATS = {
             }
         },
         "diamond": {
-            "roi": -7.0,
-            "net": -77.71,
-            "wins": 3218,
-            "losses": 3222,
+            "roi": -8.9,
+            "net": -96.45,
+            "wins": 3093,
+            "losses": 3256,
             "pushes": 0,
-            "record": "3218-3222-0",
-            "win_rate": 50.0,
-            "sample": 6440,
-            "bets_day": "High (~34 bets/day)",
+            "record": "3093-3256-0",
+            "win_rate": 48.7,
+            "sample": 6349,
+            "bets_day": "High (~33 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jun 03, 2026",
-                "record": "18-30-0",
-                "win_rate": 37.5,
-                "net": -2.58,
-                "roi": -25.7,
+                "date": "Jun 06, 2026",
+                "record": "11-19-0",
+                "win_rate": 36.7,
+                "net": -2.74,
+                "roi": -27.2,
                 "ledger": [
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "edgar chairez vs bruno silva edgar chairez",
+                        "odds": 108,
+                        "wager": 0.35,
+                        "profit": 0.38,
                         "result": "WIN",
-                        "edge": 0.4261904761904761
+                        "edge": 0.23698316858521018
                     },
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "gabriel bonfim vs belal muhammad gabriel bonfim",
+                        "odds": -104,
+                        "wager": 0.35,
+                        "profit": 0.34,
                         "result": "WIN",
-                        "edge": 0.4261904761904761
+                        "edge": 0.23698316858521018
                     },
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.4261904761904761
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.4261904761904761
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.4261904761904761
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.37633554128520874
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.19139442706194754
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.1836116597963292
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.14882398101323635
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks vs san antonio spurs under 501",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.10099283275055182
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks vs san antonio spurs under 501",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.09848430225629867
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.22,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.08460977697556937
-                    },
-                    {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "NHL",
-                        "selection": "new york knicks vs san antonio spurs under 1",
-                        "odds": -115,
-                        "wager": 0.22,
-                        "profit": 0.19,
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -105,
+                        "wager": 0.35,
+                        "profit": 0.33,
                         "result": "WIN",
-                        "edge": 0.24201567406275326
+                        "edge": 0.25502615209285306
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "NHL",
-                        "selection": "new york knicks vs san antonio spurs under 1",
-                        "odds": -115,
-                        "wager": 0.22,
-                        "profit": 0.19,
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -106,
+                        "wager": 0.35,
+                        "profit": 0.33,
                         "result": "WIN",
-                        "edge": 0.20012124931954411
+                        "edge": 0.3235087955671587
                     },
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5.5 vs san antonio spurs",
-                        "odds": -118,
-                        "wager": 0.22,
-                        "profit": 0.19,
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -106,
+                        "wager": 0.35,
+                        "profit": 0.33,
                         "result": "WIN",
-                        "edge": 0.21203706771976172
+                        "edge": 0.1300642863732091
                     },
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +4.5 vs san antonio spurs",
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "bosnia and herzegovina vs panama under 2.25",
                         "odds": -110,
-                        "wager": 0.2,
-                        "profit": 0.18,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.0717258172738705
+                        "edge": 0.2554639017239486
                     },
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks vs san antonio spurs over 501",
-                        "odds": -121,
-                        "wager": 0.22,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.09319764958024512
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "julian champagnie points over 9.5",
-                        "odds": -128,
-                        "wager": 0.22,
-                        "profit": 0.17,
-                        "result": "WIN",
-                        "edge": 0.09676667551691809
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +4.5 vs san antonio spurs",
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "guardians vs rangers under 8",
                         "odds": -110,
-                        "wager": 0.1,
-                        "profit": -0.1,
-                        "result": "LOSS",
-                        "edge": 0.03733482263469179
+                        "wager": 0.35,
+                        "profit": 0.32,
+                        "result": "WIN",
+                        "edge": 0.25502615209285306
                     },
                     {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "anna kalinskaya vs maja chwalinska anna kalinskaya",
-                        "odds": -115,
-                        "wager": 0.12,
-                        "profit": -0.12,
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "chelsea chandler vs priscila cachoeira chelsea chandler",
+                        "odds": -120,
+                        "wager": 0.35,
+                        "profit": 0.29,
+                        "result": "WIN",
+                        "edge": 0.23698316858521018
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "santiago luna vs bryce mitchell bryce mitchell",
+                        "odds": -120,
+                        "wager": 0.35,
+                        "profit": 0.29,
+                        "result": "WIN",
+                        "edge": 0.23698316858521018
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "alessandro costa wins by tko/ko in rounds 1 or 2 ml",
+                        "odds": -120,
+                        "wager": 0.35,
+                        "profit": 0.29,
+                        "result": "WIN",
+                        "edge": 0.12425194237140746
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "santiago luna vs bryce mitchell bryce mitchell",
+                        "odds": -135,
+                        "wager": 0.35,
+                        "profit": 0.26,
+                        "result": "WIN",
+                        "edge": 0.12425194237140746
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes ml vs vegas golden knights",
+                        "odds": -108,
+                        "wager": 0.17,
+                        "profit": -0.17,
                         "result": "LOSS",
-                        "edge": 0.04264497715038773
+                        "edge": 0.05947101767091345
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes ml vs vegas golden knights",
+                        "odds": -110,
+                        "wager": 0.17,
+                        "profit": -0.17,
+                        "result": "LOSS",
+                        "edge": 0.05895289620527855
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes vs vegas golden knights under 6",
+                        "odds": -120,
+                        "wager": 0.3,
+                        "profit": -0.3,
+                        "result": "LOSS",
+                        "edge": 0.09795264305999418
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "guardians vs rangers over 8",
+                        "odds": -110,
+                        "wager": 0.33,
+                        "profit": -0.33,
+                        "result": "LOSS",
+                        "edge": 0.11469304149569959
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "edmen shahbazyan vs brendan allen <player> player wins inside distance yes",
+                        "odds": 165,
+                        "wager": 0.35,
+                        "profit": -0.35,
+                        "result": "LOSS",
+                        "edge": 0.23698316858521018
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "yuneisy duben vs jeisla chaves <chavez> player wins inside distance yes",
+                        "odds": 130,
+                        "wager": 0.35,
+                        "profit": -0.35,
+                        "result": "LOSS",
+                        "edge": 0.23698316858521018
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NCAAB",
+                        "selection": "santiago luna vs bryce mitchell",
+                        "odds": 120,
+                        "wager": 0.35,
+                        "profit": -0.35,
+                        "result": "LOSS",
+                        "edge": 0.4954545454545454
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes vs vegas golden knights under 5.5",
+                        "odds": 105,
+                        "wager": 0.35,
+                        "profit": -0.35,
+                        "result": "LOSS",
+                        "edge": 0.12846495780895356
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes ml vs vegas golden knights",
+                        "odds": -106,
+                        "wager": 0.35,
+                        "profit": -0.35,
+                        "result": "LOSS",
+                        "edge": 0.43543689320388346
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": -6.5,
-            "net": -101.64,
-            "wins": 913,
-            "losses": 983,
+            "roi": -4.2,
+            "net": -67.71,
+            "wins": 892,
+            "losses": 1040,
             "pushes": 0,
-            "record": "913-983-0",
-            "win_rate": 48.2,
-            "sample": 1896,
+            "record": "892-1040-0",
+            "win_rate": 46.2,
+            "sample": 1932,
             "bets_day": "Medium (~12 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jun 03, 2026",
-                "record": "8-4-0",
-                "win_rate": 66.7,
-                "net": 2.82,
-                "roi": 28.3,
+                "date": "Jun 06, 2026",
+                "record": "3-9-0",
+                "win_rate": 25.0,
+                "net": -5.24,
+                "roi": -52.6,
                 "ledger": [
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 136,
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -106,
                         "wager": 0.83,
-                        "profit": 1.13,
+                        "profit": 0.78,
                         "result": "WIN",
-                        "edge": 0.32
+                        "edge": 0.19999999999999996
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "chicago white sox ml vs minnesota twins",
-                        "odds": 131,
-                        "wager": 0.83,
-                        "profit": 1.09,
-                        "result": "WIN",
-                        "edge": 0.2899999999999999
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs seattle mariners",
-                        "odds": 129,
-                        "wager": 0.83,
-                        "profit": 1.07,
-                        "result": "WIN",
-                        "edge": 0.36
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers -1.5 vs arizona diamondbacks",
+                        "selection": "los angeles dodgers -1.5 vs los angeles angels",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": 0.75,
                         "result": "WIN",
-                        "edge": 0.12
+                        "edge": 0.10499999999999998
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "colorado rockies ml vs los angeles angels",
-                        "odds": -140,
+                        "selection": "st. louis cardinals ml vs cincinnati reds",
+                        "odds": -120,
                         "wager": 0.83,
-                        "profit": 0.59,
+                        "profit": 0.69,
                         "result": "WIN",
-                        "edge": 0.14
+                        "edge": 0.13714285714285712
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "baltimore orioles ml vs boston red sox",
-                        "odds": -142,
-                        "wager": 0.83,
-                        "profit": 0.58,
-                        "result": "WIN",
-                        "edge": 0.12571428571428567
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers ml vs arizona diamondbacks",
-                        "odds": -180,
-                        "wager": 0.83,
-                        "profit": 0.46,
-                        "result": "WIN",
-                        "edge": 0.2599999999999999
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san diego padres ml vs philadelphia phillies",
-                        "odds": -180,
-                        "wager": 0.83,
-                        "profit": 0.46,
-                        "result": "WIN",
-                        "edge": 0.12
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NHL",
-                        "selection": "rangers vs cardinals",
-                        "odds": 102,
+                        "selection": "athletics ml vs houston astros",
+                        "odds": 107,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.17999999999999994
+                        "edge": 0.12
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "carolina hurricanes ml vs vegas golden knights",
+                        "odds": -106,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.2599999999999999
+                    },
+                    {
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "detroit tigers ml vs tampa bay rays",
-                        "odds": -139,
+                        "selection": "toronto blue jays ml vs baltimore orioles",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.17142857142857137
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "washington nationals vs arizona diamondbacks over 9",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.12
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "baltimore orioles ml vs toronto blue jays",
+                        "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.11428571428571421
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
+                        "selection": "houston astros ml vs athletics",
+                        "odds": -125,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.12571428571428567
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "tampa bay rays ml vs miami marlins",
+                        "odds": -133,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10571428571428565
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "minnesota twins ml vs kansas city royals",
+                        "odds": -154,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.11142857142857143
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "arizona diamondbacks ml vs washington nationals",
                         "odds": -155,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.14
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "milwaukee brewers ml vs san francisco giants",
-                        "odds": -272,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.17999999999999994
+                        "edge": 0.10285714285714287
                     }
                 ]
             }
         },
         "quartz": {
-            "roi": 4.0,
-            "net": 21.64,
-            "wins": 231,
-            "losses": 237,
+            "roi": 12.4,
+            "net": 73.91,
+            "wins": 276,
+            "losses": 231,
             "pushes": 0,
-            "record": "231-237-0",
-            "win_rate": 49.4,
-            "sample": 468,
+            "record": "276-231-0",
+            "win_rate": 54.4,
+            "sample": 507,
             "bets_day": "Low (~8 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jun 03, 2026",
-                "record": "4-1-0",
-                "win_rate": 80.0,
-                "net": 5.27,
-                "roi": 52.7,
+                "date": "Jun 06, 2026",
+                "record": "5-3-0",
+                "win_rate": 62.5,
+                "net": 5.12,
+                "roi": 51.2,
                 "ledger": [
                     {
-                        "date": "06/03",
-                        "league": "Soccer",
-                        "selection": "italy vs luxembourg under 2.5",
-                        "odds": -109,
-                        "wager": 2.0,
-                        "profit": 1.82,
+                        "date": "06/06",
+                        "league": "Combat",
+                        "selection": "gabriel bonfim vs belal muhammad gabriel bonfim",
+                        "odds": 298,
+                        "wager": 1.51,
+                        "profit": 4.5,
                         "result": "WIN",
-                        "edge": 0.0930520982655405
+                        "edge": 0.11305100906697735
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers -1.5 vs arizona diamondbacks",
-                        "odds": -109,
-                        "wager": 2.0,
-                        "profit": 1.82,
-                        "result": "WIN",
-                        "edge": 0.0826612136605247
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NHL",
-                        "selection": "rangers vs cardinals over 7.5",
-                        "odds": -109,
-                        "wager": 2.0,
-                        "profit": 1.82,
-                        "result": "WIN",
-                        "edge": 0.07353495899530571
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers vs arizona diamondbacks under 9",
-                        "odds": -109,
-                        "wager": 2.0,
-                        "profit": 1.82,
-                        "result": "WIN",
-                        "edge": 0.0727309553621931
-                    },
-                    {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "WNBA",
-                        "selection": "toronto tempo +10 vs new york liberty",
+                        "selection": "las vegas aces -2.5 vs golden state valkyries",
                         "odds": -109,
-                        "wager": 2.0,
-                        "profit": -2.0,
+                        "wager": 1.4,
+                        "profit": 1.27,
+                        "result": "WIN",
+                        "edge": 0.057890192554346465
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "los angeles dodgers -1.5 vs los angeles angels",
+                        "odds": -109,
+                        "wager": 1.15,
+                        "profit": 1.05,
+                        "result": "WIN",
+                        "edge": 0.054489136183909825
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "edmonton elks +2.5 vs ottawa",
+                        "odds": -109,
+                        "wager": 1.15,
+                        "profit": 1.05,
+                        "result": "WIN",
+                        "edge": 0.054440669861027025
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "pittsburgh pirates vs atlanta braves over 8.5",
+                        "odds": -109,
+                        "wager": 1.07,
+                        "profit": 0.97,
+                        "result": "WIN",
+                        "edge": 0.05088100730527323
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "mlb white sox ml / mlb pirates ml",
+                        "odds": 330,
+                        "wager": 0.8,
+                        "profit": -0.8,
                         "result": "LOSS",
-                        "edge": 0.08212711938157691
+                        "edge": 0.06148923084257499
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "john yannis vs marcus mcghee under 2.5",
+                        "odds": -109,
+                        "wager": 1.41,
+                        "profit": -1.41,
+                        "result": "LOSS",
+                        "edge": 0.06659749760665767
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "seattle storm +14 vs minnesota lynx",
+                        "odds": -109,
+                        "wager": 1.51,
+                        "profit": -1.51,
+                        "result": "LOSS",
+                        "edge": 0.07245179522284839
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": 2.1,
-            "net": 4.69,
-            "wins": 602,
-            "losses": 569,
+            "roi": 1.5,
+            "net": 3.76,
+            "wins": 503,
+            "losses": 481,
             "pushes": 0,
-            "record": "602-569-0",
-            "win_rate": 51.4,
-            "sample": 1171,
-            "bets_day": "Very High (~53 bets/day)",
+            "record": "503-481-0",
+            "win_rate": 51.1,
+            "sample": 984,
+            "bets_day": "High (~39 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jun 03, 2026",
-                "record": "34-45-0",
-                "win_rate": 43.0,
-                "net": -0.88,
-                "roi": -8.6,
+                "date": "Jun 06, 2026",
+                "record": "23-33-0",
+                "win_rate": 41.1,
+                "net": -2.1,
+                "roi": -20.9,
                 "ledger": [
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 150,
-                        "wager": 0.13,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.33916679620742796
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 150,
-                        "wager": 0.13,
-                        "profit": 0.2,
-                        "result": "WIN",
-                        "edge": 0.20373151302337644
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 141,
-                        "wager": 0.13,
+                        "selection": "toronto blue jays ml vs baltimore orioles",
+                        "odds": 100,
+                        "wager": 0.18,
                         "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.3318039527572537
+                        "edge": 0.2192860245704651
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 141,
-                        "wager": 0.13,
+                        "selection": "toronto blue jays ml vs baltimore orioles",
+                        "odds": 100,
+                        "wager": 0.18,
                         "profit": 0.18,
                         "result": "WIN",
-                        "edge": 0.32860777289046295
+                        "edge": 0.15025073289871216
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 141,
-                        "wager": 0.13,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.21878102928771026
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 140,
-                        "wager": 0.13,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.18767138322194415
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 136,
-                        "wager": 0.13,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.28214729842493097
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 136,
-                        "wager": 0.13,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.16887123402902643
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "detroit tigers ml vs tampa bay rays",
-                        "odds": 135,
-                        "wager": 0.13,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.2054705708584887
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 132,
-                        "wager": 0.13,
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -105,
+                        "wager": 0.18,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.3040170895642248
+                        "edge": 0.10224406748283199
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "chicago white sox ml vs minnesota twins",
-                        "odds": 131,
-                        "wager": 0.13,
+                        "selection": "toronto blue jays ml vs baltimore orioles",
+                        "odds": -106,
+                        "wager": 0.18,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.3483437854490239
+                        "edge": 0.20323536465468917
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs seattle mariners",
-                        "odds": 130,
-                        "wager": 0.13,
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -106,
+                        "wager": 0.18,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.2925055182498434
+                        "edge": 0.19164083073440108
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs seattle mariners",
-                        "odds": 130,
-                        "wager": 0.13,
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -106,
+                        "wager": 0.18,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.26901705627856043
+                        "edge": 0.10202530691924605
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs seattle mariners",
-                        "odds": 129,
-                        "wager": 0.13,
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "vegas golden knights ml vs carolina hurricanes",
+                        "odds": -106,
+                        "wager": 0.18,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.2772092106040388
+                        "edge": 0.08192894528213057
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs seattle mariners",
-                        "odds": 125,
-                        "wager": 0.13,
-                        "profit": 0.16,
-                        "result": "WIN",
-                        "edge": 0.30766734811994767
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 124,
-                        "wager": 0.13,
-                        "profit": 0.16,
-                        "result": "WIN",
-                        "edge": 0.2676316755158561
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs seattle mariners",
-                        "odds": 122,
-                        "wager": 0.13,
-                        "profit": 0.16,
-                        "result": "WIN",
-                        "edge": 0.2194205221829113
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.13,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.09547772861662362
-                    },
-                    {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "WNBA",
-                        "selection": "toronto tempo vs new york liberty over 172.5",
+                        "selection": "indiana fever vs new york liberty under 176.5",
                         "odds": -110,
-                        "wager": 0.13,
-                        "profit": 0.12,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.09547772861662362
+                        "edge": 0.0889574573153541
                     },
                     {
-                        "date": "06/03",
-                        "league": "WNBA",
-                        "selection": "phoenix mercury vs seattle storm under 162.5",
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
                         "odds": -110,
-                        "wager": 0.13,
-                        "profit": 0.12,
+                        "wager": 0.18,
+                        "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.0833468124980018
+                        "edge": 0.0842616245860145
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "las vegas aces -3 vs golden state valkyries",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.0841182158106849
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "los angeles dodgers -1.5 vs los angeles angels",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.0841182158106849
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "new york liberty -4 vs indiana fever",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07886883474531625
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "seattle mariners vs detroit tigers under 8.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07691278911772226
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "storm vs lynx under 162.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07304993129911874
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers -1.5 vs colorado rockies",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07022937990370248
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "NHL",
+                        "selection": "bosnia and herzegovina vs panama under 2.25",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.07022937990370248
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "scott vincent vs branden grace",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.06826117492857431
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "baltimore orioles vs toronto blue jays over 8",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.06571933485212778
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "las vegas aces -2.5 vs golden state valkyries",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.0655485079402015
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers -1.5 vs colorado rockies",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.06554540849867319
                     }
                 ]
             }
         },
         "kyanite": {
-            "roi": 1.4,
-            "net": 2.68,
-            "wins": 295,
-            "losses": 268,
+            "roi": 7.5,
+            "net": 16.56,
+            "wins": 329,
+            "losses": 270,
             "pushes": 0,
-            "record": "295-268-0",
-            "win_rate": 52.4,
-            "sample": 563,
-            "bets_day": "High (~29 bets/day)",
+            "record": "329-270-0",
+            "win_rate": 54.9,
+            "sample": 599,
+            "bets_day": "High (~27 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jun 03, 2026",
-                "record": "16-9-0",
-                "win_rate": 64.0,
-                "net": 2.95,
-                "roi": 29.4,
+                "date": "Jun 06, 2026",
+                "record": "21-15-0",
+                "win_rate": 58.3,
+                "net": 1.19,
+                "roi": 11.8,
                 "ledger": [
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 141,
-                        "wager": 0.51,
-                        "profit": 0.72,
-                        "result": "WIN",
-                        "edge": 0.1449952474273587
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
+                        "selection": "seattle mariners vs detroit tigers under 8.5",
                         "odds": -110,
-                        "wager": 0.51,
-                        "profit": 0.46,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.059220640432266936
+                        "edge": 0.05664917684736703
                     },
                     {
-                        "date": "06/03",
-                        "league": "Soccer",
-                        "selection": "italy vs luxembourg under 2.5",
-                        "odds": -110,
-                        "wager": 0.51,
-                        "profit": 0.46,
-                        "result": "WIN",
-                        "edge": 0.05826106525602792
-                    },
-                    {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "WNBA",
-                        "selection": "phoenix mercury +6 vs seattle storm",
+                        "selection": "las vegas aces -2.5 vs golden state valkyries",
                         "odds": -110,
-                        "wager": 0.51,
-                        "profit": 0.46,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.057029335271744475
+                        "edge": 0.05210724331083749
                     },
                     {
-                        "date": "06/03",
-                        "league": "WNBA",
-                        "selection": "toronto tempo vs new york liberty over 172.5",
-                        "odds": -110,
-                        "wager": 0.51,
-                        "profit": 0.46,
-                        "result": "WIN",
-                        "edge": 0.04810425497236703
-                    },
-                    {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "los angeles dodgers vs arizona diamondbacks under 9",
+                        "selection": "los angeles dodgers -1.5 vs los angeles angels",
                         "odds": -110,
-                        "wager": 0.45,
-                        "profit": 0.41,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.0427124188059852
+                        "edge": 0.048803298246292814
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "WNBA",
-                        "selection": "phoenix mercury +6.5 vs seattle storm",
+                        "selection": "las vegas aces -3 vs golden state valkyries",
                         "odds": -110,
-                        "wager": 0.45,
-                        "profit": 0.41,
+                        "wager": 0.35,
+                        "profit": 0.32,
                         "result": "WIN",
-                        "edge": 0.0427124188059852
+                        "edge": 0.04861405349913095
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers -1.5 vs colorado rockies",
+                        "odds": -110,
+                        "wager": 0.31,
+                        "profit": 0.28,
+                        "result": "WIN",
+                        "edge": 0.04300024963560556
+                    },
+                    {
+                        "date": "06/06",
                         "league": "NHL",
-                        "selection": "rangers vs cardinals over 7.5",
+                        "selection": "bosnia and herzegovina vs panama under 2.25",
                         "odds": -110,
-                        "wager": 0.45,
-                        "profit": 0.41,
+                        "wager": 0.31,
+                        "profit": 0.28,
                         "result": "WIN",
-                        "edge": 0.0427124188059852
+                        "edge": 0.04300024963560556
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers -1.5 vs arizona diamondbacks",
-                        "odds": -110,
-                        "wager": 0.4,
-                        "profit": 0.36,
-                        "result": "WIN",
-                        "edge": 0.03719243265333627
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "as vs cubs over 8.5",
-                        "odds": -110,
-                        "wager": 0.39,
-                        "profit": 0.35,
-                        "result": "WIN",
-                        "edge": 0.03670510507765268
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "cleveland guardians vs new york yankees over 7",
-                        "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
-                        "result": "WIN",
-                        "edge": 0.0331574962252662
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "toronto blue jays vs atlanta braves over 8",
-                        "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
-                        "result": "WIN",
-                        "edge": 0.0331574962252662
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "detroit tigers vs tampa bay rays over 7.5",
-                        "odds": -110,
-                        "wager": 0.35,
-                        "profit": 0.32,
-                        "result": "WIN",
-                        "edge": 0.03263124681654428
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san diego padres vs philadelphia phillies under 7.5",
-                        "odds": -110,
-                        "wager": 0.32,
-                        "profit": 0.29,
-                        "result": "WIN",
-                        "edge": 0.029863028299240812
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +4.5 vs san antonio spurs",
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "edmonton elks +2.5 vs ottawa",
                         "odds": -110,
                         "wager": 0.3,
                         "profit": 0.27,
                         "result": "WIN",
-                        "edge": 0.028419761430649504
+                        "edge": 0.04118171192350839
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "WNBA",
-                        "selection": "phoenix mercury vs seattle storm under 162.5",
+                        "selection": "washington mystics vs atlanta dream over 158",
                         "odds": -110,
                         "wager": 0.3,
                         "profit": 0.27,
                         "result": "WIN",
-                        "edge": 0.027778117429642424
+                        "edge": 0.04118171192350839
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "st. louis cardinals ml",
-                        "odds": -115,
-                        "wager": 0.23,
-                        "profit": -0.23,
-                        "result": "LOSS",
-                        "edge": 0.02142287964044609
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "baltimore orioles vs boston red sox under 9",
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "new york liberty -4 vs indiana fever",
                         "odds": -110,
-                        "wager": 0.32,
-                        "profit": -0.32,
-                        "result": "LOSS",
-                        "edge": 0.029863028299240812
+                        "wager": 0.3,
+                        "profit": 0.27,
+                        "result": "WIN",
+                        "edge": 0.04063412405195688
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "indiana fever vs new york liberty under 176.5",
+                        "odds": -110,
+                        "wager": 0.29,
+                        "profit": 0.26,
+                        "result": "WIN",
+                        "edge": 0.04016205526533578
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "scott vincent vs branden grace",
+                        "odds": -110,
+                        "wager": 0.29,
+                        "profit": 0.26,
+                        "result": "WIN",
+                        "edge": 0.03962442136946176
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "storm vs lynx under 162.5",
+                        "odds": -110,
+                        "wager": 0.27,
+                        "profit": 0.25,
+                        "result": "WIN",
+                        "edge": 0.03773000694456552
+                    },
+                    {
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "los angeles dodgers +1.5 vs arizona diamondbacks",
+                        "selection": "cincinnati reds vs st. louis cardinals over 9",
                         "odds": -110,
-                        "wager": 0.35,
-                        "profit": -0.35,
-                        "result": "LOSS",
-                        "edge": 0.03263124681654428
+                        "wager": 0.27,
+                        "profit": 0.25,
+                        "result": "WIN",
+                        "edge": 0.037663488160996184
                     },
                     {
-                        "date": "06/03",
-                        "league": "NHL",
-                        "selection": "rangers vs cardinals over 8",
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "new york liberty -3.5 vs indiana fever",
                         "odds": -110,
-                        "wager": 0.36,
-                        "profit": -0.36,
-                        "result": "LOSS",
-                        "edge": 0.03395011879148935
+                        "wager": 0.26,
+                        "profit": 0.24,
+                        "result": "WIN",
+                        "edge": 0.036036579381851896
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "pittsburgh pirates vs atlanta braves over 8.5",
+                        "odds": -110,
+                        "wager": 0.25,
+                        "profit": 0.23,
+                        "result": "WIN",
+                        "edge": 0.03422656513395761
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "baltimore orioles vs toronto blue jays over 8",
+                        "odds": -110,
+                        "wager": 0.25,
+                        "profit": 0.23,
+                        "result": "WIN",
+                        "edge": 0.03411510444822763
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "chile vs portugal under 3.25",
+                        "odds": -110,
+                        "wager": 0.22,
+                        "profit": 0.2,
+                        "result": "WIN",
+                        "edge": 0.031062392961411223
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
+                        "odds": -110,
+                        "wager": 0.22,
+                        "profit": 0.2,
+                        "result": "WIN",
+                        "edge": 0.03091189123335336
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "los angeles angels vs los angeles dodgers over 8.5",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.028986780416397795
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "atlanta dream -9.5 vs washington mystics",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.028986780416397795
                     }
                 ]
             }
         },
         "carnelian": {
-            "roi": -6.8,
-            "net": -12.8,
-            "wins": 423,
-            "losses": 469,
+            "roi": -0.6,
+            "net": -1.25,
+            "wins": 503,
+            "losses": 491,
             "pushes": 0,
-            "record": "423-469-0",
-            "win_rate": 47.4,
-            "sample": 892,
-            "bets_day": "High (~46 bets/day)",
+            "record": "503-491-0",
+            "win_rate": 50.6,
+            "sample": 994,
+            "bets_day": "High (~45 bets/day)",
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jun 03, 2026",
-                "record": "21-23-0",
-                "win_rate": 47.7,
-                "net": 0.04,
-                "roi": 0.4,
+                "date": "Jun 06, 2026",
+                "record": "25-25-0",
+                "win_rate": 50.0,
+                "net": -0.35,
+                "roi": -3.5,
                 "ledger": [
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "san francisco giants ml vs milwaukee brewers",
-                        "odds": 150,
-                        "wager": 0.3,
-                        "profit": 0.45,
-                        "result": "WIN",
-                        "edge": 0.1350375175476074
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "kansas city royals ml vs cincinnati reds",
-                        "odds": 141,
-                        "wager": 0.3,
-                        "profit": 0.42,
-                        "result": "WIN",
-                        "edge": 0.1449952474273587
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "chicago white sox ml vs minnesota twins",
-                        "odds": 131,
-                        "wager": 0.3,
-                        "profit": 0.39,
-                        "result": "WIN",
-                        "edge": 0.07077872340297287
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +5 vs san antonio spurs",
-                        "odds": -110,
-                        "wager": 0.3,
-                        "profit": 0.27,
-                        "result": "WIN",
-                        "edge": 0.059220640432266936
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "Soccer",
-                        "selection": "italy vs luxembourg under 2.5",
-                        "odds": -110,
-                        "wager": 0.3,
-                        "profit": 0.27,
-                        "result": "WIN",
-                        "edge": 0.05826106525602792
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "WNBA",
-                        "selection": "phoenix mercury +6 vs seattle storm",
-                        "odds": -110,
-                        "wager": 0.3,
-                        "profit": 0.27,
-                        "result": "WIN",
-                        "edge": 0.057029335271744475
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "WNBA",
-                        "selection": "toronto tempo vs new york liberty over 172.5",
-                        "odds": -110,
-                        "wager": 0.3,
-                        "profit": 0.27,
-                        "result": "WIN",
-                        "edge": 0.04810425497236703
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers vs arizona diamondbacks under 9",
+                        "selection": "seattle mariners vs detroit tigers under 8.5",
                         "odds": -110,
                         "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.0427124188059852
+                        "edge": 0.05664917684736703
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "WNBA",
-                        "selection": "phoenix mercury +6.5 vs seattle storm",
+                        "selection": "las vegas aces -2.5 vs golden state valkyries",
                         "odds": -110,
                         "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.0427124188059852
+                        "edge": 0.05210724331083749
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "los angeles dodgers -1.5 vs los angeles angels",
+                        "odds": -110,
+                        "wager": 0.27,
+                        "profit": 0.25,
+                        "result": "WIN",
+                        "edge": 0.048803298246292814
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "las vegas aces -3 vs golden state valkyries",
+                        "odds": -110,
+                        "wager": 0.27,
+                        "profit": 0.25,
+                        "result": "WIN",
+                        "edge": 0.04861405349913095
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "MLB",
+                        "selection": "milwaukee brewers -1.5 vs colorado rockies",
+                        "odds": -110,
+                        "wager": 0.24,
+                        "profit": 0.22,
+                        "result": "WIN",
+                        "edge": 0.04300024963560556
+                    },
+                    {
+                        "date": "06/06",
                         "league": "NHL",
-                        "selection": "rangers vs cardinals over 7.5",
+                        "selection": "bosnia and herzegovina vs panama under 2.25",
                         "odds": -110,
-                        "wager": 0.27,
-                        "profit": 0.25,
+                        "wager": 0.24,
+                        "profit": 0.22,
                         "result": "WIN",
-                        "edge": 0.0427124188059852
+                        "edge": 0.04300024963560556
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers -1.5 vs arizona diamondbacks",
-                        "odds": -110,
-                        "wager": 0.23,
-                        "profit": 0.21,
-                        "result": "WIN",
-                        "edge": 0.03719243265333627
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "as vs cubs over 8.5",
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "edmonton elks +2.5 vs ottawa",
                         "odds": -110,
                         "wager": 0.23,
                         "profit": 0.21,
                         "result": "WIN",
-                        "edge": 0.03670510507765268
+                        "edge": 0.04118171192350839
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "cleveland guardians vs new york yankees over 7",
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "washington mystics vs atlanta dream over 158",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.04118171192350839
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "new york liberty -4 vs indiana fever",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.04063412405195688
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "indiana fever vs new york liberty under 176.5",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.04016205526533578
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "scott vincent vs branden grace",
+                        "odds": -110,
+                        "wager": 0.22,
+                        "profit": 0.2,
+                        "result": "WIN",
+                        "edge": 0.03962442136946176
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "storm vs lynx under 162.5",
                         "odds": -110,
                         "wager": 0.21,
                         "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.0331574962252662
+                        "edge": 0.03773000694456552
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "toronto blue jays vs atlanta braves over 8",
+                        "selection": "cincinnati reds vs st. louis cardinals over 9",
                         "odds": -110,
                         "wager": 0.21,
                         "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.0331574962252662
+                        "edge": 0.037663488160996184
                     },
                     {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "detroit tigers vs tampa bay rays over 7.5",
-                        "odds": -110,
-                        "wager": 0.21,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.03263124681654428
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "toronto blue jays vs atlanta braves over 8.5",
-                        "odds": 105,
-                        "wager": 0.18,
-                        "profit": 0.19,
-                        "result": "WIN",
-                        "edge": 0.031418752379533676
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "MLB",
-                        "selection": "san diego padres vs philadelphia phillies under 7.5",
-                        "odds": -110,
-                        "wager": 0.2,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.029863028299240812
-                    },
-                    {
-                        "date": "06/03",
-                        "league": "NBA",
-                        "selection": "new york knicks +4.5 vs san antonio spurs",
+                        "date": "06/06",
+                        "league": "WNBA",
+                        "selection": "new york liberty -3.5 vs indiana fever",
                         "odds": -110,
                         "wager": 0.2,
                         "profit": 0.18,
@@ -1327,27 +1317,37 @@ window.QUARRY_STATS = {
                         "wager": 0.15,
                         "profit": 0.16,
                         "result": "WIN",
-                        "edge": 0.028419761430649504
+                        "edge": 0.029032480425950913
                     },
                     {
-                        "date": "06/03",
-                        "league": "WNBA",
-                        "selection": "phoenix mercury vs seattle storm under 162.5",
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "chile vs portugal under 3.25",
                         "odds": -110,
-                        "wager": 0.18,
-                        "profit": 0.16,
+                        "wager": 0.17,
+                        "profit": 0.15,
                         "result": "WIN",
-                        "edge": 0.027778117429642424
+                        "edge": 0.031062392961411223
                     },
                     {
-                        "date": "06/03",
+                        "date": "06/06",
                         "league": "MLB",
-                        "selection": "cleveland guardians +1.5 vs new york yankees",
+                        "selection": "milwaukee brewers vs colorado rockies under 10.5",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.17,
+                        "profit": 0.15,
                         "result": "WIN",
-                        "edge": 0.023080198537735686
+                        "edge": 0.03091189123335336
+                    },
+                    {
+                        "date": "06/06",
+                        "league": "Other",
+                        "selection": "los angeles angels vs los angeles dodgers over 8.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.028986780416397795
                     }
                 ]
             }
