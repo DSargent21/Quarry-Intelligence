@@ -223,6 +223,13 @@ def generate_live_assets(models=None):
              print(f"⚠️ Skipping injection: {abs_path} does not exist.")
              return
         with open(abs_path, 'r') as f: content = f.read()
+        
+        # [CACHE BUSTING]: Update stats.js script tag
+        cache_bust = data_object.get('meta', {}).get('cache_bust', et_now.timestamp())
+        script_pattern = r'<script src="stats.js(?:\?v=[^"]*)?"></script>'
+        script_replacement = f'<script src="stats.js?v={cache_bust}"></script>'
+        content = re.sub(script_pattern, script_replacement, content)
+
         pattern = r'const DATA\s*=\s*\{.*?\};'
         if '// --- DATA INJECTION POINT (AUTOMATED) ---' in content:
             pattern = r'// --- DATA INJECTION POINT \(AUTOMATED\) ---\s*const DATA\s*=\s*\{.*?\};'
@@ -230,9 +237,9 @@ def generate_live_assets(models=None):
              print(f"❌ Failed to find DATA block in {abs_path}")
              return
         replacement = f'// --- DATA INJECTION POINT (AUTOMATED) ---\n        const DATA = {json.dumps(data_object, indent=12)};'
-        new_content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
-        with open(abs_path, 'w') as f: f.write(new_content)
-        print(f"✅ Injected data into {abs_path}")
+        content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
+        with open(abs_path, 'w') as f: f.write(content)
+        print(f"✅ Injected data & cache-busted {abs_path}")
 
     # Root paths
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

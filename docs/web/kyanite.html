@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="KYANITE ZENITH: The definitive conformal quantitative framework for sports equity. Minimalist luxury, institutional precision.">
     <title>KYANITE // SERIES 5 // QUARRY</title>
-    <script src="stats.js"></script>
+    <script src="stats.js?v=1780934436.428049"></script>
     <script src="perf-core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -323,9 +323,9 @@
         // --- DATA INJECTION POINT (AUTOMATED) ---
         const DATA = {
             "meta": {
-                        "last_update": "2026-06-08 11:01 ET",
+                        "last_update": "2026-06-08 12:00 ET",
                         "status": "OPERATIONAL",
-                        "cache_bust": 1780930911.218673
+                        "cache_bust": 1780934436.428049
             },
             "stats": {
                         "roi": 6.6,
@@ -770,11 +770,8 @@
             try {
                 let v = null;
                 
-                // [BILLION DOLLAR HYDRATION]: Priority - stats.js > Injected DATA > Fallback
-                if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.kyanite) {
-                    v = window.QUARRY_STATS.models.kyanite;
-                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
-                } else if (typeof DATA !== 'undefined' && DATA.stats) {
+                // [BILLION DOLLAR HYDRATION]: Priority - Injected DATA > stats.js > Fallback
+                if (typeof DATA !== 'undefined' && DATA.stats) {
                     v = {
                         ...DATA.stats,
                         yesterday: DATA.yesterday,
@@ -782,6 +779,9 @@
                         status: DATA.meta ? DATA.meta.status : "PREMIUM"
                     };
                     console.log("📡 HYDRATION_SOURCE: INJECTED_DATA");
+                } else if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.kyanite) {
+                    v = window.QUARRY_STATS.models.kyanite;
+                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
                 } else {
                     console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO STATIC.");
                     v = {

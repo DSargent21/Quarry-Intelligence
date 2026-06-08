@@ -772,11 +772,8 @@
             try {
                 let v = null;
                 
-                // [BILLION DOLLAR HYDRATION]: Priority - stats.js > Injected DATA > Fallback
-                if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.v6) {
-                    v = window.QUARRY_STATS.models.v6;
-                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
-                } else if (typeof DATA !== 'undefined' && DATA.stats) {
+                // [BILLION DOLLAR HYDRATION]: Priority - Injected DATA > stats.js > Fallback
+                if (typeof DATA !== 'undefined' && DATA.stats) {
                     v = {
                         ...DATA.stats,
                         yesterday: DATA.yesterday,
@@ -784,6 +781,9 @@
                         status: DATA.meta ? DATA.meta.status : "TRACKING"
                     };
                     console.log("📡 HYDRATION_SOURCE: INJECTED_DATA");
+                } else if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.v6) {
+                    v = window.QUARRY_STATS.models.v6;
+                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
                 } else {
                     console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO CV STATS.");
                     v = {

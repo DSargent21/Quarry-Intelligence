@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="QUARTZ SERIES 4: Institutional-grade analytical model leveraging signal consensus for market discrepancy detection.">
     <title>QUARRY INTELLIGENCE // SERIES 4: QUARTZ</title>
-    <script src="stats.js"></script>
+    <script src="stats.js?v=1780934436.428049"></script>
     <script src="perf-core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -362,9 +362,9 @@
         // --- DATA INJECTION POINT (AUTOMATED) ---
         const DATA = {
             "meta": {
-                        "last_update": "2026-06-08 11:01 ET",
+                        "last_update": "2026-06-08 12:00 ET",
                         "status": "OPERATIONAL",
-                        "cache_bust": 1780930911.218673
+                        "cache_bust": 1780934436.428049
             },
             "stats": {
                         "roi": 12.0,
@@ -551,11 +551,8 @@
                 let source = "NONE";
                 let v = null;
                 
-                // [BILLION DOLLAR HYDRATION]: Always prefer the live stats.js object if it exists
-                if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.quartz) {
-                    source = "GLOBAL_CONTEXT (stats.js)";
-                    v = window.QUARRY_STATS.models.quartz;
-                } else if (typeof DATA !== 'undefined' && DATA.stats) {
+                // [BILLION DOLLAR HYDRATION]: Priority 1: Injected DATA (Freshest)
+                if (typeof DATA !== 'undefined' && DATA.stats) {
                     source = "INJECTED_DATA";
                     v = {
                         ...DATA.stats,
@@ -563,10 +560,14 @@
                         history: DATA.history,
                         status: DATA.meta ? DATA.meta.status : "FLAGSHIP"
                     };
+                } else if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.quartz) {
+                    source = "GLOBAL_CONTEXT (stats.js)";
+                    v = window.QUARRY_STATS.models.quartz;
                 } else {
                     console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO CLOUD LINK.");
                     try {
-                        const response = await fetch(`stats.json?t=${Date.now()}`);
+                        const cacheBust = (typeof DATA !== 'undefined' && DATA.meta && DATA.meta.cache_bust) ? DATA.meta.cache_bust : Date.now();
+                        const response = await fetch(`stats.json?v=${cacheBust}`);
                         const stats = await response.json();
                         v = stats.models ? stats.models.quartz : stats.stats;
                         source = "CLOUD_LINK (stats.json)";

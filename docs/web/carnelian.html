@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CARNELIAN ZENITH: The definitive conformal quantitative framework for sports equity. Minimalist luxury, institutional precision.">
     <title>CARNELIAN // SERIES 5 // QUARRY</title>
-    <script src="stats.js"></script>
+    <script src="stats.js?v=1780934436.428049"></script>
     <script src="perf-core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -323,9 +323,9 @@
         // --- DATA INJECTION POINT (AUTOMATED) ---
         const DATA = {
             "meta": {
-                        "last_update": "2026-06-08 11:01 ET",
+                        "last_update": "2026-06-08 12:00 ET",
                         "status": "OPERATIONAL",
-                        "cache_bust": 1780930911.218673
+                        "cache_bust": 1780934436.428049
             },
             "stats": {
                         "roi": -1.8,
@@ -770,11 +770,8 @@
             try {
                 let v = null;
                 
-                // [BILLION DOLLAR HYDRATION]: Priority - stats.js > Injected DATA > Fallback
-                if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.carnelian) {
-                    v = window.QUARRY_STATS.models.carnelian;
-                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
-                } else if (typeof DATA !== 'undefined' && DATA.stats) {
+                // [BILLION DOLLAR HYDRATION]: Priority 1: Injected DATA (Freshest)
+                if (typeof DATA !== 'undefined' && DATA.stats) {
                     v = {
                         ...DATA.stats,
                         yesterday: DATA.yesterday,
@@ -782,22 +779,32 @@
                         status: DATA.meta ? DATA.meta.status : "PREMIUM"
                     };
                     console.log("📡 HYDRATION_SOURCE: INJECTED_DATA");
+                } else if (window.QUARRY_STATS && window.QUARRY_STATS.models && window.QUARRY_STATS.models.carnelian) {
+                    v = window.QUARRY_STATS.models.carnelian;
+                    console.log("📡 HYDRATION_SOURCE: GLOBAL_CONTEXT (stats.js)");
                 } else {
-                    console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO STATIC.");
-                    v = {
-                        net_units: 7.39,
-                        roi: 14.8,
-                        win_rate: 58.5,
-                        record: "114-81-0",
-                        sample: 195,
-                        yesterday: {
-                            date: "Audited Backtest",
-                            record: "30-25-0",
-                            net: 0.32,
-                            roi: 3.2,
-                            history: []
-                        }
-                    };
+                    console.warn("⚠️ INJECTED DATA MISSING. FALLING BACK TO CLOUD LINK.");
+                    try {
+                        const cacheBust = (typeof DATA !== 'undefined' && DATA.meta && DATA.meta.cache_bust) ? DATA.meta.cache_bust : Date.now();
+                        const response = await fetch(`stats.json?v=${cacheBust}`);
+                        const stats = await response.json();
+                        v = stats.models ? stats.models.carnelian : stats.stats;
+                    } catch(e) {
+                        v = {
+                            net_units: 7.39,
+                            roi: 14.8,
+                            win_rate: 58.5,
+                            record: "114-81-0",
+                            sample: 195,
+                            yesterday: {
+                                date: "Audited Backtest",
+                                record: "30-25-0",
+                                net: 0.32,
+                                roi: 3.2,
+                                history: []
+                            }
+                        };
+                    }
                 }
 
                 const net = v.net_units !== undefined ? v.net_units : (v.net !== undefined ? v.net : 0);

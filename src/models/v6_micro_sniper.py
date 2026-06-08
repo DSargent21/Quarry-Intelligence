@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 import json
 import xgboost as xgb
-from pipeline import SportsDataPipeline, FeatureEngineer
+from src.pipeline import SportsDataPipeline, FeatureEngineer
 
 class MicroSniperV6:
     def __init__(self):

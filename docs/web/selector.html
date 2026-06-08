@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="QUARRY INTELLIGENCE: Advanced analytical models for institutional-grade sports betting alpha.">
     <title>QUARRY INTELLIGENCE // CONTROL CENTER</title>
-    <script src="stats.js"></script>
+    <script src="stats.js?v=1780934436.428049"></script>
     <script src="perf-core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -518,8 +518,8 @@
         // --- DATA INJECTION POINT (AUTOMATED) ---
         const DATA = {
             "meta": {
-                        "last_update": "2026-06-08 11:01 ET",
-                        "cache_bust": 1780930911.218673
+                        "last_update": "2026-06-08 12:00 ET",
+                        "cache_bust": 1780934436.428049
             },
             "models": {
                         "pyrite": {
@@ -719,17 +719,18 @@
                 let source = "NONE";
                 let modelsData = null;
                 
-                // [BILLION DOLLAR HYDRATION]: Always prefer the live stats.js object if it exists
-                if (window.QUARRY_STATS && window.QUARRY_STATS.models) {
-                    source = "GLOBAL_CONTEXT (stats.js)";
-                    modelsData = window.QUARRY_STATS.models;
-                } else if (typeof DATA !== 'undefined' && DATA.models) {
+                // [BILLION DOLLAR HYDRATION]: Always prefer the fresh INJECTED_DATA
+                if (typeof DATA !== 'undefined' && DATA.models) {
                     source = "INJECTED_DATA";
                     modelsData = DATA.models;
+                } else if (window.QUARRY_STATS && window.QUARRY_STATS.models) {
+                    source = "GLOBAL_CONTEXT (stats.js)";
+                    modelsData = window.QUARRY_STATS.models;
                 } else {
                     console.warn("⚠️ INJECTED SELECTOR DATA MISSING. FALLING BACK TO JSON.");
                     try {
-                        const response = await fetch('stats.json');
+                        const cacheBust = (typeof DATA !== 'undefined' && DATA.meta && DATA.meta.cache_bust) ? DATA.meta.cache_bust : Date.now();
+                        const response = await fetch(`stats.json?v=${cacheBust}`);
                         const stats = await response.json();
                         modelsData = stats.models;
                         source = "CLOUD_LINK (stats.json)";

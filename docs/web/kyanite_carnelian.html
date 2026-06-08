@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Quarry Intelligence: KYANITE & CARNELIAN. The next evolution of quantitative momentum intelligence. Precision vs. Capacity.">
     <title>Quarry Intelligence // KYANITE vs CARNELIAN // QUARRY</title>
-    <script src="stats.js"></script>
+    <script src="stats.js?v=1780934436.428049"></script>
     <script src="perf-core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -504,9 +504,9 @@
         // --- DATA INJECTION POINT (AUTOMATED) ---
         const DATA = {
             "meta": {
-                        "last_update": "2026-06-08 11:01 ET",
+                        "last_update": "2026-06-08 12:00 ET",
                         "status": "OPERATIONAL",
-                        "cache_bust": 1780930911.218673
+                        "cache_bust": 1780934436.428049
             },
             "models": {
                         "kyanite": {
@@ -977,7 +977,8 @@
                 // Priority 3: Fetched stats.json
                 console.warn("⚠️ DATA block and QUARRY_STATS not found, attempting fetch...");
                 try {
-                    const resp = await fetch('stats.json');
+                    const cacheBust = (typeof DATA !== 'undefined' && DATA.meta && DATA.meta.cache_bust) ? DATA.meta.cache_bust : Date.now();
+                    const resp = await fetch(`stats.json?v=${cacheBust}`);
                     if (!resp.ok) throw new Error('Network offline');
                     const data = await resp.json();
                     return data.models;

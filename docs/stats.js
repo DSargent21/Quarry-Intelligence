@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-06-08 11:01 ET",
+        "last_update": "2026-06-08 12:00 ET",
         "status": "NOMINAL",
-        "cache_bust": 1780930911.218673
+        "cache_bust": 1780934436.428049
     },
     "models": {
         "pyrite": {
