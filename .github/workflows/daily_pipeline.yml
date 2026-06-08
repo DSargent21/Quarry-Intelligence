@@ -32,7 +32,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
           cache: 'pip'
 
       - name: Sync Submodule (Models)
@@ -42,6 +42,12 @@ jobs:
           # [BILLION DOLLAR SECURITY]: In-memory auth injection (No tracked file leakage)
           git config --global url.https://${GH_PAT}@github.com/.insteadOf https://github.com/
           git submodule update --init --recursive
+          if [ ! -f "models/v4_quartz.pkl" ]; then
+            echo "❌ ERROR: Models submodule not populated correctly!"
+            ls -R models/
+            exit 1
+          fi
+          echo "✅ Models verified."
 
       - name: Install Dependencies
         run: |

@@ -17,10 +17,16 @@ CONFIDENCE_THRESHOLD = 0.65
 MAX_ODDS = 7.0         # Institutional longshot filter
 MAX_KELLY_UNITS = 2.0  # Cap per individual pick
 
-try:
-    import lightgbm as lgb
-except ImportError:
-    lgb = None
+import logging
+
+# Configure Logging
+logger = logging.getLogger("ModelLegacy")
+if not logger.handlers:
+    handler = logging.StreamString = logging.StreamHandler()
+    formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    logger.setLevel(logging.INFO)
 
 class PickRegistry:
     """Registry to store and manage capper-specific performance weights."""
@@ -53,23 +59,24 @@ def load_resilient(filename):
     """Billion Dollar Robust Loading: Multiple fallbacks for legacy pickles."""
     path = get_model_path(filename)
     if not os.path.exists(path):
+        logger.error(f"❌ Model file not found: {path}")
         return None
         
-    # 1. Standard Joblib
+    # 1. Joblib (Standard scikit-learn format)
     try:
         return joblib.load(path)
     except Exception:
         pass
         
-    # 2. Standard Pickle with latin1 (Handles bytearray/bytes mismatch in 3.12+)
+    # 2. Standard Pickle with latin1 (Fixes cross-version bytearray issues)
     try:
         with open(path, 'rb') as f:
             return pickle.load(f, encoding='latin1')
     except Exception:
         pass
         
-    # 3. XGBoost Native Load (if it's a binary booster)
-    if filename.endswith('.json'):
+    # 3. XGBoost Native Load (for .json or binary boosters)
+    if filename.endswith(('.json', '.model')):
         try:
             model = xgb.Booster()
             model.load_model(path)
@@ -77,6 +84,7 @@ def load_resilient(filename):
         except Exception:
             pass
             
+    logger.error(f"❌ Critical: Model '{filename}' failed to load via all available engines.")
     return None
 
 class ModelSimulator:
@@ -161,7 +169,7 @@ class ModelSimulator:
             else:
                 # [SURGICAL FALLBACK]: If legacy model is broken, we simulate its aggressive signature
                 # Pyrite V1: High Volume, Edge-Focused, Low Confidence Threshold
-                print("⚠️ V1 Pyrite: Model failed to load. Using Surgical Fallback.")
+                print("❌ CRITICAL: V1 Pyrite Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + (temp['roi_30d'] / 500) + (temp['acc_7d'] / 10)
                 temp['prob'] = temp['prob'].clip(0, 0.95)
                 
@@ -198,7 +206,7 @@ class ModelSimulator:
                 temp['prob'] = model.predict_proba(temp[feats])[:, 1]
             else:
                 # [SURGICAL FALLBACK]: Diamond V2: Precision Core, Refined Filtering
-                print("⚠️ V2 Diamond: Model failed to load. Using Surgical Fallback.")
+                print("❌ CRITICAL: V2 Diamond Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + (temp['roi_30d'] / 200)
                 temp['prob'] = np.where(temp['acc_30d'] > 0.52, temp['prob'] + 0.05, temp['prob'] - 0.05)
                 temp['prob'] = temp['prob'].clip(0, 0.95)
@@ -247,11 +255,11 @@ class ModelSimulator:
                 temp['prob'] = model.predict_proba(temp[feats].values)[:, 1] + 0.05
             else:
                 # [SURGICAL FALLBACK]: Obsidian V3: Advanced Ensemble, Consensus Heavy
-                print("⚠️ V3 Obsidian: Model failed to load. Using Surgical Fallback.")
+                print("❌ CRITICAL: V3 Obsidian Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + (temp['consensus_count'] * 0.02)
                 temp['prob'] = np.where(temp['roi_30d'] > 10, temp['prob'] + 0.08, temp['prob'])
                 temp['prob'] = temp['prob'].clip(0, 0.95)
-                
+
             temp['edge'] = temp['prob'] - temp['implied_prob']
             
             # [CAPPER FILTERING]: OBSIDIAN STABILITY (Audit Result: Min 10 picks/30d, 60d Gap)
@@ -302,7 +310,7 @@ class ModelSimulator:
                 temp['prob'] = raw_probs * 0.95 + 0.02
             else:
                 # [SURGICAL FALLBACK]: Quartz V4: Institutional Flagship, Market Drift Proxy
-                print("⚠️ V4 Quartz: Model failed to load. Using Surgical Fallback.")
+                print("❌ CRITICAL: V4 Quartz Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + 0.05
                 
             # 2. Multi-Capper Aggregation & Market Drift Analysis
@@ -512,6 +520,7 @@ class ModelSimulator:
         try:
             model = load_resilient('v6_micro_sniper.pkl')
             if not model:
+                print("❌ CRITICAL: V6 Micro Sniper Model failed to load!")
                 return pd.DataFrame()
             temp = self.df[self.df['pick_date'] >= pd.to_datetime(self.V6_START)].copy()
             if temp.empty: return pd.DataFrame()
