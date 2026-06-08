@@ -250,9 +250,24 @@ def generate_live_assets(models=None):
         "models": {}
     }
 
-    for name, df in models.items():
+    # Institutional Mapping
+    for name in ['pyrite', 'diamond', 'obsidian', 'quartz', 'sapphire', 'v6']:
+        df = models.get(name)
+        if df is None or df.empty:
+             stats_output["models"][name] = {"roi": 0.0, "net": 0.0, "wins": 0, "losses": 0, "pushes": 0, "record": "0-0-0", "win_rate": 0.0, "sample": 0, "bets_day": 0.0, "status": "ACTIVE", "yesterday": {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}}
+             continue
+             
         m = StatsEngine.calculate_metrics(df)
         y = StatsEngine.get_yesterday_data(df, et_now=et_now)
+        
+        # Parse volume for bets_day float
+        avg_bets = 0.0
+        try:
+             avg_match = re.search(r'~?(\d+)', m['volume'])
+             if avg_match: avg_bets = float(avg_match.group(1))
+        except:
+             pass
+
         stats_output["models"][name] = {
             "roi": round(m['roi'] * 100, 1),
             "net": round(m['net'], 2),
@@ -262,10 +277,29 @@ def generate_live_assets(models=None):
             "record": m['record'],
             "win_rate": round(m['win_rate'] * 100, 1),
             "sample": m['sample'],
-            "bets_day": m['volume'],
+            "bets_day": avg_bets,
             "status": "ACTIVE",
             "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
         }
+
+    # [SURGICAL DNA]: Series 6 Combined Stats
+    v6_list = [models.get('kyanite'), models.get('carnelian')]
+    v6_list = [d for d in v6_list if d is not None and not d.empty]
+    v6_df = pd.concat(v6_list) if v6_list else pd.DataFrame()
+    stats_v6 = StatsEngine.calculate_metrics(v6_df)
+
+    stats_output["models"]["Quarry Intelligence"] = {
+        "roi": round(stats_v6['roi'] * 100, 1),
+        "net": round(stats_v6['net'], 2),
+        "status": "INSTITUTIONAL"
+    }
+    
+    # Kyanite/Carnelian specific
+    for m_name in ['kyanite', 'carnelian']:
+        df = models.get(m_name)
+        if df is not None:
+            m = StatsEngine.calculate_metrics(df)
+            stats_output["models"][m_name] = {"roi": round(m['roi']*100, 1), "net": round(m['net'], 2), "sample": m['sample'], "record": m['record']}
 
     for target in [docs_dir, web_dir]:
         with open(os.path.join(target, 'stats.json'), 'w') as f: json.dump(stats_output, f, indent=4)

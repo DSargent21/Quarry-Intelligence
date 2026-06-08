@@ -32,7 +32,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13'
           cache: 'pip'
 
       - name: Sync Submodule (Models)
@@ -95,6 +95,11 @@ jobs:
         if: always()
         run: |
           echo '## 📊 Quarry Pipeline Summary ['$(date +'%Y-%m-%d')']' >> $GITHUB_STEP_SUMMARY
+          
+          echo '### 🔍 Critical Logs' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          grep "❌ CRITICAL" pipeline_output.log >> $GITHUB_STEP_SUMMARY || echo "No critical errors found." >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
           if [ -f docs/pipeline_summary.json ]; then
             # Parse metrics from the JSON produced by the script

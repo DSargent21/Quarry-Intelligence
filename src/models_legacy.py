@@ -169,7 +169,7 @@ class ModelSimulator:
             else:
                 # [SURGICAL FALLBACK]: If legacy model is broken, we simulate its aggressive signature
                 # Pyrite V1: High Volume, Edge-Focused, Low Confidence Threshold
-                print("❌ CRITICAL: V1 Pyrite Model failed to load! Using SURGICAL FALLBACK.")
+                logger.error("❌ CRITICAL: V1 Pyrite Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + (temp['roi_30d'] / 500) + (temp['acc_7d'] / 10)
                 temp['prob'] = temp['prob'].clip(0, 0.95)
                 
@@ -206,7 +206,7 @@ class ModelSimulator:
                 temp['prob'] = model.predict_proba(temp[feats])[:, 1]
             else:
                 # [SURGICAL FALLBACK]: Diamond V2: Precision Core, Refined Filtering
-                print("❌ CRITICAL: V2 Diamond Model failed to load! Using SURGICAL FALLBACK.")
+                logger.error("❌ CRITICAL: V2 Diamond Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + (temp['roi_30d'] / 200)
                 temp['prob'] = np.where(temp['acc_30d'] > 0.52, temp['prob'] + 0.05, temp['prob'] - 0.05)
                 temp['prob'] = temp['prob'].clip(0, 0.95)
@@ -255,7 +255,7 @@ class ModelSimulator:
                 temp['prob'] = model.predict_proba(temp[feats].values)[:, 1] + 0.05
             else:
                 # [SURGICAL FALLBACK]: Obsidian V3: Advanced Ensemble, Consensus Heavy
-                print("❌ CRITICAL: V3 Obsidian Model failed to load! Using SURGICAL FALLBACK.")
+                logger.error("❌ CRITICAL: V3 Obsidian Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + (temp['consensus_count'] * 0.02)
                 temp['prob'] = np.where(temp['roi_30d'] > 10, temp['prob'] + 0.08, temp['prob'])
                 temp['prob'] = temp['prob'].clip(0, 0.95)
@@ -310,7 +310,7 @@ class ModelSimulator:
                 temp['prob'] = raw_probs * 0.95 + 0.02
             else:
                 # [SURGICAL FALLBACK]: Quartz V4: Institutional Flagship, Market Drift Proxy
-                print("❌ CRITICAL: V4 Quartz Model failed to load! Using SURGICAL FALLBACK.")
+                logger.error("❌ CRITICAL: V4 Quartz Model failed to load! Using SURGICAL FALLBACK.")
                 temp['prob'] = temp['implied_prob'] + 0.05
                 
             # 2. Multi-Capper Aggregation & Market Drift Analysis
@@ -520,7 +520,7 @@ class ModelSimulator:
         try:
             model = load_resilient('v6_micro_sniper.pkl')
             if not model:
-                print("❌ CRITICAL: V6 Micro Sniper Model failed to load!")
+                logger.error("❌ CRITICAL: V6 Micro Sniper Model failed to load!")
                 return pd.DataFrame()
             temp = self.df[self.df['pick_date'] >= pd.to_datetime(self.V6_START)].copy()
             if temp.empty: return pd.DataFrame()
