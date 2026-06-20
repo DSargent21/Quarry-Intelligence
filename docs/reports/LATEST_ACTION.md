@@ -1,128 +1,121 @@
-# 📝 Daily Action Log (Jun 18, 2026)
+# 📝 Daily Action Log (Jun 19, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | chicago white sox ml vs new york yankees | +139 | 0.70 | ✅ | +0.97u |
-| WNBA | atlanta dream vs indiana fever over 173.5 | -110 | 0.58 | ✅ | +0.53u |
-| MLB | baltimore orioles vs seattle mariners under 8 | -110 | 0.57 | ✅ | +0.52u |
-| WNBA | dream ml vs fever | -110 | 0.55 | ✅ | +0.50u |
-| Other | canada -1.5 vs qatar | -110 | 0.55 | ✅ | +0.50u |
-| MLB | mets ml vs phillies | -110 | 0.55 | ✅ | +0.50u |
-| MLB | royals ml vs cardinals | -110 | 0.50 | ✅ | +0.45u |
-| Other | de minaur -3 vs shapovalov | -110 | 0.48 | ✅ | +0.44u |
-| WNBA | atlanta dream vs indiana fever over 173 | -110 | 0.47 | ✅ | +0.43u |
-| WNBA | atlanta dream +1 vs indiana fever | -110 | 0.42 | ✅ | +0.38u |
-| MLB | rays ml vs unknown opponent | -110 | 0.42 | ❌ | -0.42u |
-| WNBA | indiana fever -1 vs atlanta dream | -110 | 0.43 | ❌ | -0.43u |
-| MLB | san francisco giants vs atlanta braves over 7.5 | -110 | 0.47 | ❌ | -0.47u |
-| Other | davidovich fokina vs moutet over 23 | -110 | 0.48 | ❌ | -0.48u |
-| Other | shelton -3 vs quinn | -110 | 0.48 | ❌ | -0.48u |
-| WNBA | indiana fever +1 vs atlanta dream | -110 | 0.54 | ❌ | -0.54u |
-| Other | bosnia vs switzerland draw ml | -110 | 0.55 | ❌ | -0.55u |
-| WNBA | dream vs fever under 174.5 | -110 | 0.58 | ❌ | -0.58u |
-| Other | south africa vs czech republic over 2.25 | -110 | 0.68 | ❌ | -0.68u |
+| WNBA | toronto tempo vs connecticut sun over 167.5 | -110 | 0.40 | ✅ | +0.36u |
+| Other | bc vs hamilton over 58.5 | -110 | 0.40 | ✅ | +0.36u |
+| WNBA | washington mystics +13 vs new york liberty | -110 | 0.40 | ✅ | +0.36u |
+| Soccer | morocco -0.5 vs scotland | -110 | 0.38 | ✅ | +0.35u |
+| MLB | baltimore orioles vs los angeles dodgers over 9.5 | -110 | 0.38 | ✅ | +0.35u |
+| WNBA | minnesota lynx vs golden state valkyries under 167.5 | -110 | 0.37 | ✅ | +0.34u |
+| Soccer | brazil -2.5 vs haiti | -110 | 0.35 | ✅ | +0.32u |
+| MLB | rays ml vs nationals | -110 | 0.27 | ✅ | +0.25u |
+| Other | minnesota lynx -2.5 vs golden state valkyries | -110 | 0.27 | ✅ | +0.25u |
+| WNBA | mystics +12.5 vs liberty | -110 | 0.26 | ✅ | +0.24u |
+| Other | brazil vs haiti total under 3.5 | -110 | 0.26 | ✅ | +0.24u |
+| Other | morocco ml vs scotland | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | washington mystics vs new york liberty over 167.5 | -110 | 0.25 | ✅ | +0.23u |
+| MLB | athletics ml vs los angeles angels | -110 | 0.25 | ✅ | +0.23u |
+| MLB | detroit tigers ml vs chicago white sox | -110 | 0.25 | ✅ | +0.23u |
+| MLB | angels vs as over 10 | -110 | 0.25 | ✅ | +0.23u |
+| MLB | toronto blue jays vs chicago cubs under 7 | -110 | 0.25 | ❌ | -0.25u |
+| WNBA | sun ml vs tempo | -110 | 0.26 | ❌ | -0.26u |
+| Other | turkey ml vs paraguay | -110 | 0.26 | ❌ | -0.26u |
+| Other | usa vs australia both teams to score yes | -110 | 0.26 | ❌ | -0.26u |
 
-**Daily PnL: +0.59 Units**
+**Daily PnL: -0.41 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | chicago white sox ml vs new york yankees | +139 | 0.42 | ✅ | +0.58u |
-| MLB | toronto blue jays ml vs boston red sox | +111 | 0.42 | ✅ | +0.47u |
-| MLB | bluejays ml vs red sox | +110 | 0.42 | ✅ | +0.46u |
-| WNBA | atlanta dream vs indiana fever over 173.5 | -110 | 0.35 | ✅ | +0.32u |
-| MLB | baltimore orioles vs seattle mariners under 8 | -110 | 0.34 | ✅ | +0.31u |
-| WNBA | dream ml vs fever | -110 | 0.33 | ✅ | +0.30u |
-| Other | canada -1.5 vs qatar | -110 | 0.33 | ✅ | +0.30u |
-| MLB | mets ml vs phillies | -110 | 0.33 | ✅ | +0.30u |
-| MLB | royals ml vs cardinals | -110 | 0.30 | ✅ | +0.27u |
-| Other | de minaur -3 vs shapovalov | -110 | 0.29 | ✅ | +0.26u |
-| WNBA | atlanta dream vs indiana fever over 173 | -110 | 0.29 | ✅ | +0.26u |
-| MLB | new york mets vs philadelphia phillies over 9.5 | +105 | 0.25 | ✅ | +0.26u |
-| MLB | new york mets ml vs philadelphia phillies | +105 | 0.22 | ✅ | +0.23u |
-| WNBA | atlanta dream +1 vs indiana fever | -110 | 0.25 | ✅ | +0.23u |
-| NCAAF | mexico -0.5 vs south korea | +107 | 0.18 | ✅ | +0.19u |
-| Other | south africa vs czech republic under 2.5 | -110 | 0.21 | ✅ | +0.19u |
-| Soccer | south africa +0.5 | -101 | 0.17 | ✅ | +0.17u |
-| Other | jacob bridgeman vs alex fitzpatrick | +100 | 0.17 | ❌ | -0.17u |
-| Other | south korea ml vs mexico | -110 | 0.22 | ❌ | -0.22u |
-| Other | 1h south korea total over 0.5 goals vs mexico | -110 | 0.22 | ❌ | -0.22u |
+| MLB | cannons v atlas cannons v atlas | +130 | 0.29 | ✅ | +0.38u |
+| MLB | rockies ml vs pirates | +125 | 0.29 | ✅ | +0.36u |
+| MLB | f5 los angeles angels ml vs athletics | +114 | 0.24 | ✅ | +0.27u |
+| WNBA | toronto tempo vs connecticut sun over 167.5 | -110 | 0.29 | ✅ | +0.26u |
+| Other | bc vs hamilton over 58.5 | -110 | 0.29 | ✅ | +0.26u |
+| WNBA | washington mystics +13 vs new york liberty | -110 | 0.29 | ✅ | +0.26u |
+| Soccer | morocco -0.5 vs scotland | -110 | 0.27 | ✅ | +0.25u |
+| MLB | baltimore orioles vs los angeles dodgers over 9.5 | -110 | 0.27 | ✅ | +0.25u |
+| WNBA | minnesota lynx vs golden state valkyries under 167.5 | -110 | 0.26 | ✅ | +0.24u |
+| Soccer | brazil -2.5 vs haiti | -110 | 0.25 | ✅ | +0.23u |
+| MLB | boston red sox ml vs seattle mariners | +108 | 0.18 | ✅ | +0.19u |
+| Other | minnesota lynx -2.5 vs golden state valkyries | -110 | 0.19 | ✅ | +0.17u |
+| WNBA | mystics +12.5 vs liberty | -110 | 0.19 | ✅ | +0.17u |
+| MLB | rays ml vs nationals | -110 | 0.19 | ✅ | +0.17u |
+| Other | brazil vs haiti total under 3.5 | -110 | 0.19 | ✅ | +0.17u |
+| Other | morocco ml vs scotland | -110 | 0.19 | ✅ | +0.17u |
+| WNBA | washington mystics vs new york liberty over 167.5 | -110 | 0.18 | ✅ | +0.16u |
+| MLB | athletics ml vs los angeles angels | -110 | 0.18 | ✅ | +0.16u |
+| MLB | detroit tigers ml vs chicago white sox | -110 | 0.18 | ✅ | +0.16u |
+| MLB | angels vs as over 10 | -110 | 0.18 | ✅ | +0.16u |
 
-**Daily PnL: +0.21 Units**
+**Daily PnL: -0.14 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | chicago white sox ml vs new york yankees | +139 | 0.29 | ✅ | +0.40u |
-| MLB | chicago white sox ml vs new york yankees | +139 | 0.29 | ✅ | +0.40u |
-| MLB | chicago white sox ml vs new york yankees | +139 | 0.29 | ✅ | +0.40u |
-| MLB | cleveland guardians ml vs milwaukee brewers | +135 | 0.29 | ✅ | +0.39u |
-| MLB | cleveland guardians ml vs milwaukee brewers | +135 | 0.29 | ✅ | +0.39u |
-| MLB | toronto blue jays ml vs boston red sox | +111 | 0.29 | ✅ | +0.32u |
-| MLB | toronto blue jays ml vs boston red sox | +111 | 0.29 | ✅ | +0.32u |
-| MLB | royals ml vs cardinals | -109 | 0.29 | ✅ | +0.27u |
-| MLB | royals ml vs cardinals | -110 | 0.29 | ✅ | +0.26u |
-| MLB | royals ml vs cardinals | -110 | 0.29 | ✅ | +0.26u |
-| MLB | baltimore orioles vs seattle mariners under 8 | -110 | 0.29 | ✅ | +0.26u |
-| WNBA | atlanta dream +1 vs indiana fever | -110 | 0.28 | ✅ | +0.25u |
-| NHL | twins vs rangers | -118 | 0.29 | ✅ | +0.25u |
-| NHL | twins vs rangers | -120 | 0.29 | ✅ | +0.24u |
-| NHL | twins vs rangers | -120 | 0.29 | ✅ | +0.24u |
-| NHL | twins vs rangers | -120 | 0.29 | ✅ | +0.24u |
-| MLB | seattle mariners ml vs baltimore orioles | -142 | 0.29 | ✅ | +0.20u |
-| MLB | athletics ml vs los angeles angels | -134 | 0.25 | ✅ | +0.19u |
-| MLB | baltimore orioles ml vs seattle mariners | +135 | 0.29 | ❌ | -0.29u |
-| MLB | baltimore orioles ml vs seattle mariners | +130 | 0.29 | ❌ | -0.29u |
+| MLB | rockies ml vs pirates | +125 | 0.49 | ✅ | +0.61u |
+| MLB | royals ml vs cardinals | -101 | 0.49 | ✅ | +0.49u |
+| MLB | athletics ml vs los angeles angels | -110 | 0.49 | ✅ | +0.45u |
+| MLB | detroit tigers ml vs chicago white sox | -110 | 0.49 | ✅ | +0.45u |
+| Soccer | brazil -2.5 vs haiti | -110 | 0.49 | ✅ | +0.45u |
+| WNBA | washington mystics +13 vs new york liberty | -110 | 0.49 | ✅ | +0.45u |
+| Other | bc vs hamilton over 58.5 | -110 | 0.49 | ✅ | +0.45u |
+| MLB | baltimore orioles vs los angeles dodgers over 9.5 | -110 | 0.49 | ✅ | +0.45u |
+| WNBA | washington mystics vs new york liberty over 167.5 | -110 | 0.49 | ✅ | +0.45u |
+| MLB | f5 milwaukee brewers vs atlanta braves under 1.5 | -135 | 0.20 | ✅ | +0.15u |
+| MLB | washington nationals vs tampa bay rays over 8 | -110 | 0.49 | ❌ | -0.49u |
+| Soccer | turkey -0.5 vs paraguay | -110 | 0.49 | ❌ | -0.49u |
+| Other | golden state valkyries +3 vs minnesota lynx | -110 | 0.49 | ❌ | -0.49u |
+| MLB | milwaukee brewers -1.5 vs atlanta braves | -110 | 0.49 | ❌ | -0.49u |
+| Other | golden state valkyries +3 vs minnesota lynx | -110 | 0.49 | ❌ | -0.49u |
+| Other | bc +2 vs hamilton | -110 | 0.49 | ❌ | -0.49u |
+| NHL | padres vs rangers under 7 | -110 | 0.49 | ❌ | -0.49u |
+| MLB | san francisco giants vs miami marlins over 8 | -110 | 0.49 | ❌ | -0.49u |
+| Other | golden state valkyries +3 vs minnesota lynx | -110 | 0.49 | ❌ | -0.49u |
+| MLB | milwaukee brewers -1.5 vs atlanta braves | -110 | 0.49 | ❌ | -0.49u |
 
-**Daily PnL: +0.38 Units**
+**Daily PnL: -1.03 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | san francisco giants vs atlanta braves over 7.5 | -109 | 2.58 | ❌ | -2.58u |
-| WNBA | indiana fever -1 vs atlanta dream | -109 | 3.00 | ❌ | -3.00u |
+| Soccer | morocco -0.5 vs scotland | -109 | 2.45 | ✅ | +2.23u |
+| MLB | milwaukee brewers -1.5 vs atlanta braves | -109 | 3.00 | ❌ | -3.00u |
 
-**Daily PnL: -5.58 Units**
+**Daily PnL: -0.77 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | chicago white sox ml vs new york yankees | +141 | 0.83 | ✅ | +1.17u |
-| MLB | cleveland guardians ml vs milwaukee brewers | +135 | 0.83 | ✅ | +1.12u |
-| MLB | new york mets ml vs philadelphia phillies | +111 | 0.83 | ✅ | +0.92u |
-| MLB | royals ml vs cardinals | -109 | 0.83 | ✅ | +0.76u |
-| NHL | twins vs rangers | -120 | 0.83 | ✅ | +0.69u |
-| MLB | seattle mariners ml vs baltimore orioles | -142 | 0.83 | ✅ | +0.58u |
-| MLB | baltimore orioles ml vs seattle mariners | +135 | 0.83 | ❌ | -0.83u |
-| MLB | san francisco giants ml vs atlanta braves | +135 | 0.83 | ❌ | -0.83u |
-| MLB | boston red sox ml vs toronto blue jays | -117 | 0.83 | ❌ | -0.83u |
-| MLB | milwaukee brewers ml vs cleveland guardians | -134 | 0.83 | ❌ | -0.83u |
-| MLB | atlanta braves ml vs san francisco giants | -135 | 0.83 | ❌ | -0.83u |
-| MLB | new york yankees ml vs chicago white sox | -149 | 0.83 | ❌ | -0.83u |
+| Other | paraguay ml vs turkey | +295 | 0.83 | ✅ | +2.45u |
+| MLB | atlanta braves ml vs milwaukee brewers | +170 | 0.83 | ✅ | +1.41u |
+| Other | alexander loof vs alexander osullivan | +145 | 0.83 | ✅ | +1.20u |
+| MLB | rockies ml vs pirates | +125 | 0.83 | ✅ | +1.04u |
+| MLB | detroit tigers ml vs chicago white sox | -110 | 0.83 | ✅ | +0.75u |
+| Other | brazil -2.5 vs haiti | -110 | 0.83 | ✅ | +0.75u |
+| MLB | chicago white sox ml vs detroit tigers | +176 | 0.83 | ❌ | -0.83u |
+| Other | folarin balogun goal over 0.5 | +155 | 0.83 | ❌ | -0.83u |
+| Other | bc lions +2.5 vs hamilton tiger-cats | -110 | 0.83 | ❌ | -0.83u |
+| MLB | brewers -1.5 vs braves | -110 | 0.83 | ❌ | -0.83u |
+| WNBA | sun ml vs tempo | -110 | 0.83 | ❌ | -0.83u |
+| Other | brazil vs haiti over 3.5 | -132 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: +0.27 Units**
+**Daily PnL: +2.63 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | south korea vs mexico | +106 | 1.00 | ✅ | +1.06u |
-| NHL | atlanta dream vs indiana fever over 1.5 | -110 | 1.00 | ✅ | +0.91u |
-| NHL | twins vs rangers | -111 | 1.00 | ✅ | +0.90u |
-| NHL | twins vs rangers | -120 | 1.00 | ✅ | +0.83u |
-| NHL | twins vs rangers | -120 | 1.00 | ✅ | +0.83u |
-| NCAAB | angels vs as | -128 | 1.00 | ✅ | +0.78u |
-| NCAAB | angels vs as | -134 | 1.00 | ✅ | +0.75u |
-| NCAAB | angels vs as | +127 | 1.00 | ❌ | -1.00u |
-| NCAAF | south africa vs czech republic | -115 | 1.00 | ❌ | -1.00u |
-| NCAAF | south africa vs czech republic | -115 | 1.00 | ❌ | -1.00u |
+| NHL | padres vs rangers under 7 | -110 | 2.00 | ❌ | -2.00u |
+| NHL | padres vs rangers under 7 | -110 | 2.00 | ❌ | -2.00u |
 
-**Daily PnL: +3.06 Units**
+**Daily PnL: -4.00 Units**
 
 
 ### V1 Pyrite Action
