@@ -1,120 +1,145 @@
-# 📝 Daily Action Log (Jul 10, 2026)
+# 📝 Daily Action Log (Jul 11, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | atlanta braves vs st. louis cardinals under 8 | -110 | 0.62 | ✅ | +0.56u |
-| WNBA | dallas wings -7.5 vs toronto tempo | -110 | 0.60 | ✅ | +0.55u |
-| Other | toronto vs winnipeg under 60.5 | -110 | 0.60 | ✅ | +0.55u |
-| NHL | astros vs rangers over 8 | -110 | 0.60 | ✅ | +0.55u |
-| MLB | tampa bay rays ml vs seattle mariners | -110 | 0.60 | ✅ | +0.55u |
-| Other | philadelphia phillies vs detroit tigers over 8.5 | -110 | 0.60 | ✅ | +0.55u |
-| WNBA | dallas wings vs toronto tempo over 180 | -110 | 0.57 | ✅ | +0.52u |
-| MLB | as vs white sox over 9 | -110 | 0.51 | ✅ | +0.46u |
-| WNBA | golden state valkyries vs connecticut sun under 154.5 | -110 | 0.48 | ✅ | +0.44u |
-| Other | toronto vs winnipeg over 59.5 | -110 | 0.40 | ❌ | -0.40u |
-| WNBA | toronto tempo +8 vs dallas wings | -110 | 0.43 | ❌ | -0.43u |
-| Other | toronto -2 vs winnipeg | -110 | 0.45 | ❌ | -0.45u |
-| Other | belgium +1 vs spain | -110 | 0.57 | ❌ | -0.57u |
-| Other | jannik sinner vs novak djokovic over 38.5 | -110 | 0.57 | ❌ | -0.57u |
-| WNBA | dallas wings vs toronto tempo under 179.5 | -110 | 0.59 | ❌ | -0.59u |
-| MLB | los angeles angels vs minnesota twins over 9.5 | -110 | 0.60 | ❌ | -0.60u |
-| MLB | new york yankees vs washington nationals over 10 | -110 | 0.60 | ❌ | -0.60u |
-| MLB | philadelphia phillies vs detroit tigers under 9 | -110 | 0.62 | ❌ | -0.62u |
+| MLB | cardinals ml vs braves | -110 | 0.34 | ✅ | +0.31u |
+| NHL | astros vs rangers over 8.5 | -110 | 0.32 | ✅ | +0.29u |
+| WNBA | minnesota lynx -4 vs new york liberty | -110 | 0.31 | ✅ | +0.28u |
+| Other | switzerland +0.75 vs argentina | -110 | 0.30 | ✅ | +0.27u |
+| Soccer | tromso -0.75 vs valerenga | -110 | 0.30 | ✅ | +0.27u |
+| WNBA | minnesota lynx -4.5 vs new york liberty | -110 | 0.29 | ✅ | +0.26u |
+| WNBA | las vegas aces -9.5 vs phoenix mercury | -110 | 0.28 | ✅ | +0.25u |
+| Other | montreal -3 vs calgary | -110 | 0.28 | ✅ | +0.25u |
+| Other | world cup england to advance / world cup switzerland +1.5 | -110 | 0.28 | ✅ | +0.25u |
+| Other | england to advance vs norway | -110 | 0.28 | ✅ | +0.25u |
+| Other | switzerland +0.5 vs argentina | -110 | 0.28 | ✅ | +0.25u |
+| Other | calgary vs montreal over 61.5 | -110 | 0.28 | ✅ | +0.25u |
+| WNBA | jonquel jones reb over 8.5 | -110 | 0.28 | ✅ | +0.25u |
+| Other | stampeders vs alouettes over 62.5 | -110 | 0.28 | ✅ | +0.25u |
+| Combat | conor mcgregor vs max holloway fight to end by knockout yes | -110 | 0.28 | ✅ | +0.25u |
+| Combat | max holloway by ko/tko vs conor mcgregor | -110 | 0.25 | ✅ | +0.23u |
+| WNBA | lynx -4.5 vs liberty | -110 | 0.25 | ✅ | +0.23u |
+| MLB | padres ml vs blue jays | -110 | 0.25 | ✅ | +0.23u |
+| MLB | new york yankees -1.5 vs washington nationals | -110 | 0.24 | ✅ | +0.22u |
+| MLB | rays ml vs mariners | -110 | 0.22 | ✅ | +0.20u |
 
-**Daily PnL: -0.12 Units**
+**Daily PnL: +3.41 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | arizona diamondbacks ml vs los angeles dodgers | +200 | 0.39 | ✅ | +0.78u |
-| MLB | colorado rockies ml vs san francisco giants | +144 | 0.39 | ✅ | +0.56u |
-| Soccer | event belgium vs spain | +132 | 0.39 | ✅ | +0.51u |
-| MLB | los angeles angels ml vs minnesota twins | +120 | 0.39 | ✅ | +0.47u |
-| MLB | boston red sox ml vs new york mets | +115 | 0.37 | ✅ | +0.43u |
-| MLB | atlanta braves vs st. louis cardinals under 8 | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | dallas wings -7.5 vs toronto tempo | -110 | 0.36 | ✅ | +0.33u |
-| Other | toronto vs winnipeg under 60.5 | -110 | 0.36 | ✅ | +0.33u |
-| NHL | astros vs rangers over 8 | -110 | 0.36 | ✅ | +0.33u |
-| MLB | tampa bay rays ml vs seattle mariners | -110 | 0.36 | ✅ | +0.33u |
-| Other | philadelphia phillies vs detroit tigers over 8.5 | -110 | 0.36 | ✅ | +0.33u |
-| WNBA | dallas wings vs toronto tempo over 180 | -110 | 0.34 | ✅ | +0.31u |
-| MLB | as vs white sox over 9 | -110 | 0.31 | ✅ | +0.28u |
-| WNBA | golden state valkyries vs connecticut sun under 154.5 | -110 | 0.29 | ✅ | +0.26u |
-| MLB | cleveland guardians ml vs miami marlins | +104 | 0.20 | ✅ | +0.21u |
-| WNBA | sky vs sparks over 176.5 | -110 | 0.19 | ✅ | +0.17u |
-| WNBA | golden state valkyries -7 vs connecticut sun | -110 | 0.19 | ✅ | +0.17u |
-| MLB | cincinnati reds ml vs chicago cubs | +101 | 0.16 | ✅ | +0.16u |
-| WNBA | sky vs sparks over 177.5 | -110 | 0.17 | ✅ | +0.15u |
-| WNBA | dallas wings vs toronto tempo under 179 | -110 | 0.16 | ❌ | -0.16u |
+| Combat | paddy pimblett ml vs benoit saint denis | +124 | 0.19 | ✅ | +0.24u |
+| Combat | mario bautista ml vs cory sandhagen | +120 | 0.19 | ✅ | +0.23u |
+| Tennis | orix buffaloes vs chiba lotte marines | +115 | 0.19 | ✅ | +0.22u |
+| NHL | astros vs rangers | +107 | 0.19 | ✅ | +0.20u |
+| Combat | damian pinas to win by ko/tko/dq vs cesar almeida | +110 | 0.16 | ✅ | +0.18u |
+| MLB | cardinals ml vs braves | -110 | 0.19 | ✅ | +0.17u |
+| NHL | astros vs rangers over 8.5 | -110 | 0.18 | ✅ | +0.16u |
+| MLB | chicago cubs ml vs cincinnati reds | +101 | 0.16 | ✅ | +0.16u |
+| WNBA | minnesota lynx -4 vs new york liberty | -110 | 0.17 | ✅ | +0.15u |
+| Other | switzerland +0.75 vs argentina | -110 | 0.17 | ✅ | +0.15u |
+| Soccer | tromso -0.75 vs valerenga | -110 | 0.17 | ✅ | +0.15u |
+| WNBA | minnesota lynx -4.5 vs new york liberty | -110 | 0.17 | ✅ | +0.15u |
+| WNBA | las vegas aces -9.5 vs phoenix mercury | -110 | 0.16 | ✅ | +0.15u |
+| Other | montreal -3 vs calgary | -110 | 0.16 | ✅ | +0.15u |
+| Other | world cup england to advance / world cup switzerland +1.5 | -110 | 0.16 | ✅ | +0.15u |
+| Other | england to advance vs norway | -110 | 0.16 | ✅ | +0.15u |
+| Other | switzerland +0.5 vs argentina | -110 | 0.16 | ✅ | +0.15u |
+| Other | calgary vs montreal over 61.5 | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | jonquel jones reb over 8.5 | -110 | 0.16 | ✅ | +0.15u |
+| Other | stampeders vs alouettes over 62.5 | -110 | 0.16 | ✅ | +0.15u |
 
-**Daily PnL: +2.42 Units**
+**Daily PnL: +0.87 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | arizona diamondbacks ml vs los angeles dodgers | +200 | 0.37 | ✅ | +0.74u |
-| MLB | arizona diamondbacks ml vs los angeles dodgers | +200 | 0.37 | ✅ | +0.74u |
-| MLB | colorado rockies ml vs san francisco giants | +144 | 0.37 | ✅ | +0.53u |
-| MLB | atlanta braves vs st. louis cardinals under 8 | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | golden state valkyries vs connecticut sun under 154.5 | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | dallas wings vs toronto tempo over 180 | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | golden state valkyries -7.5 vs connecticut sun | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | dallas wings -7.5 vs toronto tempo | -110 | 0.37 | ✅ | +0.34u |
-| MLB | atlanta braves vs st. louis cardinals under 8 | -110 | 0.37 | ✅ | +0.34u |
-| Other | toronto vs winnipeg under 60.5 | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | sky vs sparks over 176.5 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | tampa bay rays ml vs seattle mariners | -110 | 0.37 | ✅ | +0.34u |
-| NHL | astros vs rangers over 8 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | tampa bay rays ml vs seattle mariners | -110 | 0.37 | ✅ | +0.34u |
-| Other | philadelphia phillies vs detroit tigers over 8.5 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | as vs white sox over 9 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | kansas city royals ml vs baltimore orioles | +136 | 0.37 | ❌ | -0.37u |
-| MLB | kansas city royals ml vs baltimore orioles | +135 | 0.37 | ❌ | -0.37u |
-| MLB | chicago cubs ml vs cincinnati reds | -105 | 0.37 | ❌ | -0.37u |
-| MLB | chicago cubs ml vs cincinnati reds | -109 | 0.37 | ❌ | -0.37u |
+| NHL | astros vs rangers | +107 | 0.23 | ✅ | +0.25u |
+| NHL | astros vs rangers | +107 | 0.23 | ✅ | +0.25u |
+| NHL | astros vs rangers | +107 | 0.23 | ✅ | +0.25u |
+| NHL | astros vs rangers | +106 | 0.23 | ✅ | +0.24u |
+| MLB | cardinals ml vs braves | -110 | 0.23 | ✅ | +0.21u |
+| Other | montreal -3 vs calgary | -110 | 0.23 | ✅ | +0.21u |
+| MLB | cardinals ml vs braves | -110 | 0.23 | ✅ | +0.21u |
+| WNBA | portland fire vs atlanta dream over 172.5 | -110 | 0.23 | ✅ | +0.21u |
+| WNBA | lynx -4.5 vs liberty | -110 | 0.23 | ✅ | +0.21u |
+| MLB | padres ml vs blue jays | -110 | 0.23 | ✅ | +0.21u |
+| NHL | astros vs rangers over 8.5 | -110 | 0.23 | ✅ | +0.21u |
+| MLB | new york yankees -1.5 vs washington nationals | -110 | 0.23 | ✅ | +0.21u |
+| Other | montreal -3.5 vs calgary | -110 | 0.23 | ✅ | +0.21u |
+| Other | calgary vs montreal over 61.5 | -110 | 0.23 | ✅ | +0.21u |
+| NHL | astros vs rangers over 8.5 | -110 | 0.23 | ✅ | +0.21u |
+| Other | world cup england to advance / world cup switzerland +1.5 | -110 | 0.23 | ✅ | +0.21u |
+| Other | england to advance vs norway | -110 | 0.23 | ✅ | +0.21u |
+| Other | switzerland +0.5 vs argentina | -110 | 0.23 | ✅ | +0.21u |
+| WNBA | las vegas aces -9.5 vs phoenix mercury | -110 | 0.23 | ✅ | +0.21u |
+| MLB | pittsburgh pirates ml vs milwaukee brewers | -116 | 0.23 | ✅ | +0.20u |
 
-**Daily PnL: +2.32 Units**
+**Daily PnL: -0.58 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | toronto vs winnipeg under 60.5 | -109 | 2.39 | ✅ | +2.17u |
-| MLB | athletics ml vs chicago white sox | +145 | 2.29 | ❌ | -2.29u |
-| WNBA | dallas wings vs toronto tempo under 179.5 | -109 | 2.85 | ❌ | -2.85u |
+| WNBA | lynx -4.5 vs liberty | -109 | 1.60 | ✅ | +1.45u |
+| Soccer | tromso -0.75 vs valerenga | -109 | 1.41 | ✅ | +1.28u |
+| WNBA | minnesota lynx -4 vs new york liberty | -109 | 1.32 | ✅ | +1.20u |
+| Combat | damian pinas to win by submission vs cesar almeida | +700 | 0.73 | ❌ | -0.73u |
+| Combat | brandon royval by decision vs loneer kavanagh | +400 | 0.81 | ❌ | -0.81u |
+| Other | norway to qualify vs england | +158 | 0.93 | ❌ | -0.93u |
+| Combat | gable steveson by submission vs elisha ellison | +290 | 1.60 | ❌ | -1.60u |
+| WNBA | dream -12.5 vs fire | -109 | 1.60 | ❌ | -1.60u |
 
-**Daily PnL: -2.97 Units**
+**Daily PnL: -1.73 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | arizona diamondbacks ml vs los angeles dodgers | +200 | 0.83 | ✅ | +1.66u |
-| MLB | colorado rockies ml vs san francisco giants | +155 | 0.83 | ✅ | +1.29u |
-| Soccer | team to reach the semifinals -world cup knockout stages team to reach the semifinals -world cup knockout stages team | +140 | 0.83 | ✅ | +1.16u |
-| MLB | los angeles angels ml vs minnesota twins | +120 | 0.83 | ✅ | +1.00u |
-| WNBA | toronto tempo ml vs dallas wings | +220 | 0.83 | ❌ | -0.83u |
-| MLB | athletics ml vs chicago white sox | +145 | 0.83 | ❌ | -0.83u |
-| MLB | washington nationals ml vs new york yankees | +139 | 0.83 | ❌ | -0.83u |
-| MLB | kansas city royals ml vs baltimore orioles | +136 | 0.83 | ❌ | -0.83u |
-| MLB | dylan crews bases over 1.5 | +119 | 0.83 | ❌ | -0.83u |
-| MLB | milwaukee brewers ml vs pittsburgh pirates | +118 | 0.83 | ❌ | -0.83u |
-| MLB | san francisco giants ml vs colorado rockies | -152 | 0.83 | ❌ | -0.83u |
-| MLB | atlanta braves ml vs st. louis cardinals | -157 | 0.83 | ❌ | -0.83u |
+| NHL | astros vs rangers | +107 | 0.83 | ✅ | +0.89u |
+| MLB | st. louis cardinals ml vs atlanta braves | -105 | 0.83 | ✅ | +0.79u |
+| MLB | cardinals ml vs braves | -110 | 0.83 | ✅ | +0.75u |
+| MLB | chicago cubs ml vs cincinnati reds | -118 | 0.83 | ✅ | +0.70u |
+| MLB | pittsburgh pirates ml vs milwaukee brewers | -120 | 0.83 | ✅ | +0.69u |
+| MLB | baltimore orioles ml vs kansas city royals | -143 | 0.83 | ✅ | +0.58u |
+| MLB | kansas city royals ml vs baltimore orioles | +140 | 0.83 | ❌ | -0.83u |
+| MLB | braves ml vs cardinals | +100 | 0.83 | ❌ | -0.83u |
+| MLB | athletics ml vs chicago white sox | +100 | 0.83 | ❌ | -0.83u |
+| MLB | atlanta braves ml vs st. louis cardinals | -115 | 0.83 | ❌ | -0.83u |
+| MLB | reds ml vs cubs | -115 | 0.83 | ❌ | -0.83u |
+| MLB | milwaukee brewers ml vs pittsburgh pirates | -122 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -1.54 Units**
+**Daily PnL: -0.57 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Combat | hazem kayyali vs hassan shaaban | +150 | 2.00 | ✅ | +3.00u |
-| NHL | astros vs rangers | -135 | 2.00 | ❌ | -2.00u |
+| Combat | mario bautista ml vs cory sandhagen | +130 | 0.17 | ✅ | +0.22u |
+| Combat | paddy pimblett ml vs benoit saint-denis | +130 | 0.16 | ✅ | +0.21u |
+| Combat | mario bautista ml vs cory sandhagen | +120 | 0.17 | ✅ | +0.20u |
+| Combat | paddy pimblett ml vs benoit saint denis | +120 | 0.17 | ✅ | +0.20u |
+| Combat | paddy pimblett ml vs benoit saint denis | +120 | 0.17 | ✅ | +0.20u |
+| Combat | paddy pimblett ml vs benoit saint denis | +115 | 0.17 | ✅ | +0.20u |
+| NHL | astros vs rangers | +107 | 0.17 | ✅ | +0.18u |
+| NHL | astros vs rangers | +106 | 0.17 | ✅ | +0.18u |
+| Combat | king green ml vs terrance mckinney | +100 | 0.17 | ✅ | +0.17u |
+| Combat | king green ml vs terrance mckinney | -105 | 0.17 | ✅ | +0.16u |
+| NCAAF | terrance mckinney vs king green | -105 | 0.17 | ✅ | +0.16u |
+| Combat | paddy pimblett ml vs benoit saint-denis | +122 | 0.13 | ✅ | +0.16u |
+| Combat | max holloway by ko/tko vs conor mcgregor | -110 | 0.17 | ✅ | +0.15u |
+| Combat | mcgregor vs holloway under 2.5 | -110 | 0.17 | ✅ | +0.15u |
+| Combat | damian pinas ml vs cesar almeida | -110 | 0.17 | ✅ | +0.15u |
+| Combat | luke riley ml vs kai kamaka iii | -110 | 0.17 | ✅ | +0.15u |
+| Combat | conor mcgregor vs max holloway fight to end by knockout yes | -110 | 0.17 | ✅ | +0.15u |
+| Combat | wang cong ml vs tracy cortez | -114 | 0.17 | ✅ | +0.15u |
+| Combat | wang cong ml vs tracy cortez | -115 | 0.17 | ✅ | +0.15u |
+| Combat | adrian yanez by ko tko or dq vs cody garbrandt | -115 | 0.17 | ✅ | +0.15u |
 
-**Daily PnL: +1.00 Units**
+**Daily PnL: +3.12 Units**
 
 
 ### V1 Pyrite Action
