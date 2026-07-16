@@ -1,434 +1,374 @@
 {
     "meta": {
-        "last_update": "2026-07-15 06:56 ET",
+        "last_update": "2026-07-16 07:05 ET",
         "status": "NOMINAL",
-        "cache_bust": 1784112970.088569
+        "cache_bust": 1784199950.587915
     },
     "models": {
         "pyrite": {
-            "roi": -2.8,
-            "net": -6.86,
-            "wins": 988,
-            "losses": 931,
+            "roi": -2.6,
+            "net": -6.43,
+            "wins": 990,
+            "losses": 933,
             "pushes": 0,
-            "record": "988-931-0",
+            "record": "990-933-0",
             "win_rate": 51.5,
-            "sample": 1919,
+            "sample": 1923,
             "bets_day": 8.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 14, 2026",
-                "record": "20-21-0",
-                "win_rate": 48.8,
-                "net": -1.07,
-                "roi": -11.0,
+                "date": "Jul 15, 2026",
+                "record": "22-23-0",
+                "win_rate": 48.9,
+                "net": -0.64,
+                "roi": -6.6,
                 "ledger": [
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "spain vs france",
-                        "odds": 129,
-                        "wager": 0.25,
-                        "profit": 0.32,
+                        "date": "07/15",
+                        "league": "Soccer",
+                        "selection": "argentina vs england elliot anderson to be carded/booked",
+                        "odds": 240,
+                        "wager": 0.23,
+                        "profit": 0.55,
                         "result": "WIN",
-                        "edge": 0.09494585878570605
+                        "edge": 0.09805197986205
                     },
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Other",
-                        "selection": "event yomiuri giants vs yakult swallows",
-                        "odds": -105,
-                        "wager": 0.25,
+                        "selection": "over 2.5",
+                        "odds": 135,
+                        "wager": 0.23,
+                        "profit": 0.31,
+                        "result": "WIN",
+                        "edge": 0.09572094323575026
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "argentina vs england",
+                        "odds": 116,
+                        "wager": 0.23,
+                        "profit": 0.27,
+                        "result": "WIN",
+                        "edge": 0.09127186946214105
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "argentina vs england",
+                        "odds": 104,
+                        "wager": 0.23,
                         "profit": 0.24,
                         "result": "WIN",
-                        "edge": 0.12801073557652543
+                        "edge": 0.134206987793896
                     },
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "american league vs national league under 8",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.31479937071854003
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "american league vs national league under 8",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.21742426470331455
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "spain vs france under 2.5",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.19155514058981304
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "WNBA",
-                        "selection": "washington mystics vs toronto tempo under 171.5",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.1542093632250089
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Soccer",
-                        "selection": "event spain vs france",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
+                        "selection": "argentina vs england btts",
+                        "odds": -105,
+                        "wager": 0.23,
+                        "profit": 0.22,
                         "result": "WIN",
-                        "edge": 0.15185825892193094
+                        "edge": 0.13721930144587202
                     },
                     {
-                        "date": "07/14",
-                        "league": "MLB",
-                        "selection": "american all-stars vs national all-stars under 8.5",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.0999851638114907
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "MLB",
-                        "selection": "american all-stars vs national all-stars under 7.5",
-                        "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
-                        "result": "WIN",
-                        "edge": 0.07876579932212258
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "washington mystics vs toronto tempo under 172.5",
+                        "selection": "chicago sky -2.5 vs seattle storm",
                         "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
+                        "wager": 0.23,
+                        "profit": 0.21,
                         "result": "WIN",
-                        "edge": 0.07876579932212258
+                        "edge": 0.3447044277079526
                     },
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "connecticut sun +1.5 vs portland fire",
+                        "selection": "chicago sky -3.5 vs seattle storm",
                         "odds": -110,
-                        "wager": 0.25,
-                        "profit": 0.23,
+                        "wager": 0.23,
+                        "profit": 0.21,
                         "result": "WIN",
-                        "edge": 0.04570128161267373
+                        "edge": 0.25238017999036844
                     },
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "yokohama baystars vs hiroshima carp",
-                        "odds": -132,
-                        "wager": 0.25,
+                        "date": "07/15",
+                        "league": "WNBA",
+                        "selection": "golden state valkyries vs indiana fever under 167.5",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.09192341213672905
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "WNBA",
+                        "selection": "golden state valkyries +2.5 vs indiana fever",
+                        "odds": -110,
+                        "wager": 0.23,
+                        "profit": 0.21,
+                        "result": "WIN",
+                        "edge": 0.0722906312061734
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "WNBA",
+                        "selection": "orix buffaloes vs rakuten gold. eagles",
+                        "odds": -113,
+                        "wager": 0.23,
+                        "profit": 0.2,
+                        "result": "WIN",
+                        "edge": 0.41948356807511733
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "WNBA",
+                        "selection": "golden state valkyries +3 vs indiana fever",
+                        "odds": -110,
+                        "wager": 0.21,
                         "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.3810344827586206
+                        "edge": 0.03493100293342222
                     },
                     {
-                        "date": "07/14",
-                        "league": "MLB",
-                        "selection": "yokohama baystars vs hiroshima carp yokohama baystars",
-                        "odds": -137,
-                        "wager": 0.25,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.12801073557652543
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "WNBA",
-                        "selection": "washington mystics -1 vs toronto tempo",
-                        "odds": -110,
-                        "wager": 0.2,
-                        "profit": 0.18,
-                        "result": "WIN",
-                        "edge": 0.029820808432695856
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Soccer",
-                        "selection": "event spain vs france",
-                        "odds": -165,
-                        "wager": 0.25,
+                        "selection": "argentina vs england lionel messi to score or assist including extra time",
+                        "odds": -130,
+                        "wager": 0.23,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.09805197986205005
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "argentina vs england over 2",
+                        "odds": -130,
+                        "wager": 0.23,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.09192341213672905
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "argentina vs england over 2",
+                        "odds": -130,
+                        "wager": 0.23,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.05436553362629171
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "NBA",
+                        "selection": "event milwaukee bucks vs charlotte hornets",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.031109972347774795
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "NBA",
+                        "selection": "event phoenix suns vs detroit pistons",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.031109972347774795
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Soccer",
+                        "selection": "argentina vs england argentina 0",
+                        "odds": -135,
+                        "wager": 0.23,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.06682851802252188
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "over 2.5",
+                        "odds": 130,
+                        "wager": 0.13,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.024971077696837485
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "fukuoka s. hawks +1.5",
+                        "odds": -153,
+                        "wager": 0.23,
                         "profit": 0.15,
                         "result": "WIN",
-                        "edge": 0.09329440318046156
+                        "edge": 0.15303313030864985
                     },
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Other",
-                        "selection": "event chiba lotte marines vs seibu lions",
-                        "odds": -175,
-                        "wager": 0.25,
+                        "selection": "bayern draw no bet ml",
+                        "odds": -111,
+                        "wager": 0.15,
                         "profit": 0.14,
                         "result": "WIN",
-                        "edge": 0.12801073557652543
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "event hanshin tigers vs chunichi dragons",
-                        "odds": -188,
-                        "wager": 0.25,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.12801073557652543
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "WNBA",
-                        "selection": "washington mystics ml vs toronto tempo",
-                        "odds": -115,
-                        "wager": 0.14,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.019904088345627624
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "spain vs france under 2.5",
-                        "odds": -110,
-                        "wager": 0.13,
-                        "profit": 0.12,
-                        "result": "WIN",
-                        "edge": 0.01927092182648038
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "1st 5 innings seibu lions +0.5",
-                        "odds": -220,
-                        "wager": 0.25,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.12801073557652543
+                        "edge": 0.024971077696837485
                     }
                 ]
             }
         },
         "diamond": {
-            "roi": -9.2,
-            "net": -127.56,
+            "roi": -9.4,
+            "net": -131.56,
             "wins": 3432,
-            "losses": 3509,
+            "losses": 3511,
             "pushes": 0,
-            "record": "3432-3509-0",
+            "record": "3432-3511-0",
             "win_rate": 49.4,
-            "sample": 6941,
+            "sample": 6943,
             "bets_day": 30.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 13, 2026",
-                "record": "2-5-0",
-                "win_rate": 28.6,
-                "net": -5.85,
-                "roi": -58.6,
+                "date": "Jul 14, 2026",
+                "record": "0-2-0",
+                "win_rate": 0.0,
+                "net": -4.0,
+                "roi": -100.0,
                 "ledger": [
                     {
-                        "date": "07/13",
+                        "date": "07/14",
                         "league": "NBA",
-                        "selection": "hawks ml vs celtics",
+                        "selection": "wizards vs bulls under 185",
                         "odds": -110,
-                        "wager": 1.08,
-                        "profit": 0.98,
-                        "result": "WIN",
-                        "edge": 0.054957278576169166
-                    },
-                    {
-                        "date": "07/13",
-                        "league": "NBA",
-                        "selection": "mavericks vs grizzlies over 180",
-                        "odds": -115,
-                        "wager": 1.11,
-                        "profit": 0.97,
-                        "result": "WIN",
-                        "edge": 0.054957278576169166
-                    },
-                    {
-                        "date": "07/13",
-                        "league": "NBA",
-                        "selection": "heat ml vs cavaliers",
-                        "odds": 100,
-                        "wager": 1.56,
-                        "profit": -1.56,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.24057414158104395
+                        "edge": 0.1499549623853167
                     },
                     {
-                        "date": "07/13",
+                        "date": "07/14",
                         "league": "NBA",
-                        "selection": "celtics +3 vs hawks",
-                        "odds": -110,
-                        "wager": 1.56,
-                        "profit": -1.56,
+                        "selection": "oklahoma city thunder ml vs denver nuggets",
+                        "odds": -120,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.10816438230461667
-                    },
-                    {
-                        "date": "07/13",
-                        "league": "NBA",
-                        "selection": "bulls -5.5 vs jazz",
-                        "odds": -110,
-                        "wager": 1.56,
-                        "profit": -1.56,
-                        "result": "LOSS",
-                        "edge": 0.10816438230461667
-                    },
-                    {
-                        "date": "07/13",
-                        "league": "NBA",
-                        "selection": "heat vs cavaliers over 182.5",
-                        "odds": -110,
-                        "wager": 1.56,
-                        "profit": -1.56,
-                        "result": "LOSS",
-                        "edge": 0.10816438230461667
-                    },
-                    {
-                        "date": "07/13",
-                        "league": "NBA",
-                        "selection": "celtics +5 vs hawks",
-                        "odds": -115,
-                        "wager": 1.56,
-                        "profit": -1.56,
-                        "result": "LOSS",
-                        "edge": 0.12952467094696873
+                        "edge": 0.07822682819744742
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": -6.2,
-            "net": -122.86,
+            "roi": -6.5,
+            "net": -130.23,
             "wins": 1147,
-            "losses": 1241,
+            "losses": 1253,
             "pushes": 0,
-            "record": "1147-1241-0",
-            "win_rate": 48.0,
-            "sample": 2388,
+            "record": "1147-1253-0",
+            "win_rate": 47.8,
+            "sample": 2400,
             "bets_day": 12.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 14, 2026",
-                "record": "7-5-0",
-                "win_rate": 58.3,
-                "net": 0.05,
-                "roi": 0.5,
+                "date": "Jul 15, 2026",
+                "record": "5-7-0",
+                "win_rate": 41.7,
+                "net": -0.88,
+                "roi": -8.8,
                 "ledger": [
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "event yomiuri giants vs yakult swallows",
-                        "odds": -105,
-                        "wager": 0.83,
-                        "profit": 0.79,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "american league vs national league under 8",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": 0.75,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "MLB",
-                        "selection": "american all-stars vs national all-stars under 8.5",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": 0.75,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "MLB",
-                        "selection": "yokohama baystars vs hiroshima carp yokohama baystars",
-                        "odds": -137,
-                        "wager": 0.83,
-                        "profit": 0.61,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "event chiba lotte marines vs seibu lions",
-                        "odds": -175,
-                        "wager": 0.83,
-                        "profit": 0.47,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "event hanshin tigers vs chunichi dragons",
-                        "odds": -188,
-                        "wager": 0.83,
-                        "profit": 0.44,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "1st 5 innings seibu lions +0.5",
-                        "odds": -220,
-                        "wager": 0.83,
-                        "profit": 0.38,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Soccer",
-                        "selection": "spain vs france lamine yamal anytime goalscorer including extra time",
-                        "odds": 250,
+                        "selection": "argentina vs england elliot anderson to be carded/booked",
+                        "odds": 240,
+                        "wager": 0.83,
+                        "profit": 1.99,
+                        "result": "WIN",
+                        "edge": 0.10000000000000003
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "over 2.5",
+                        "odds": 135,
+                        "wager": 0.83,
+                        "profit": 1.12,
+                        "result": "WIN",
+                        "edge": 0.1057142857142857
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Soccer",
+                        "selection": "argentina vs england lionel messi to score or assist including extra time",
+                        "odds": -130,
+                        "wager": 0.83,
+                        "profit": 0.64,
+                        "result": "WIN",
+                        "edge": 0.09999999999999998
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "argentina vs england over 2",
+                        "odds": -130,
+                        "wager": 0.83,
+                        "profit": 0.64,
+                        "result": "WIN",
+                        "edge": 0.09999999999999998
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Other",
+                        "selection": "fukuoka s. hawks +1.5",
+                        "odds": -153,
+                        "wager": 0.83,
+                        "profit": 0.54,
+                        "result": "WIN",
+                        "edge": 0.09999999999999998
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Soccer",
+                        "selection": "argentina vs england player prop parlay",
+                        "odds": 303,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.1
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "Soccer",
+                        "selection": "argentina vs england leandro paredes to be carded/booked",
+                        "odds": 210,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.10000000000000003
                     },
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Other",
-                        "selection": "dalibor svrcina vs grigor dimitrov",
-                        "odds": 189,
+                        "selection": "argentina vs england",
+                        "odds": 200,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.10000000000000003
                     },
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "kauno zalgiris vs drita",
+                        "date": "07/15",
+                        "league": "WNBA",
+                        "selection": "seattle storm ml vs chicago sky",
                         "odds": 140,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -436,20 +376,30 @@
                         "edge": 0.10000000000000003
                     },
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "over 2.5",
-                        "odds": -110,
+                        "date": "07/15",
+                        "league": "WNBA",
+                        "selection": "event chiba lotte marines vs seibu lions",
+                        "odds": -115,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.10571428571428565
+                        "edge": 0.09999999999999998
                     },
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "Other",
-                        "selection": "spain vs france",
-                        "odds": -150,
+                        "selection": "bayern draw no bet ml",
+                        "odds": -125,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10285714285714287
+                    },
+                    {
+                        "date": "07/15",
+                        "league": "NHL",
+                        "selection": "yokohama baystars vs hiroshima carp yokohama baystars",
+                        "odds": -159,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
@@ -459,183 +409,93 @@
             }
         },
         "quartz": {
-            "roi": 1.4,
-            "net": 11.97,
-            "wins": 315,
+            "roi": 2.0,
+            "net": 17.69,
+            "wins": 317,
             "losses": 344,
             "pushes": 0,
-            "record": "315-344-0",
-            "win_rate": 47.8,
-            "sample": 659,
+            "record": "317-344-0",
+            "win_rate": 48.0,
+            "sample": 661,
             "bets_day": 6.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 14, 2026",
-                "record": "3-0-0",
+                "date": "Jul 15, 2026",
+                "record": "1-0-0",
                 "win_rate": 100.0,
-                "net": 6.25,
+                "net": 2.73,
                 "roi": 90.9,
                 "ledger": [
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "washington mystics -1 vs toronto tempo",
+                        "selection": "chicago sky -3.5 vs seattle storm",
                         "odds": -109,
-                        "wager": 2.32,
-                        "profit": 2.11,
+                        "wager": 3.0,
+                        "profit": 2.73,
                         "result": "WIN",
-                        "edge": 0.05524962209770856
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "american league vs national league under 8",
-                        "odds": -109,
-                        "wager": 2.31,
-                        "profit": 2.1,
-                        "result": "WIN",
-                        "edge": 0.055033372845400885
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "WNBA",
-                        "selection": "washington mystics -1.5 vs toronto tempo",
-                        "odds": -109,
-                        "wager": 2.24,
-                        "profit": 2.04,
-                        "result": "WIN",
-                        "edge": 0.05330834061790246
+                        "edge": 0.07442520873918124
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": -1.4,
-            "net": -8.63,
-            "wins": 1473,
-            "losses": 1512,
+            "roi": -0.4,
+            "net": -2.27,
+            "wins": 1478,
+            "losses": 1513,
             "pushes": 0,
-            "record": "1473-1512-0",
-            "win_rate": 49.3,
-            "sample": 2985,
-            "bets_day": 47.0,
+            "record": "1478-1513-0",
+            "win_rate": 49.4,
+            "sample": 2991,
+            "bets_day": 46.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 14, 2026",
-                "record": "9-2-0",
-                "win_rate": 81.8,
-                "net": 5.62,
-                "roi": 56.2,
+                "date": "Jul 15, 2026",
+                "record": "4-0-0",
+                "win_rate": 100.0,
+                "net": 9.09,
+                "roi": 90.9,
                 "ledger": [
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "spain vs france under 2.5",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
-                        "result": "WIN",
-                        "edge": 0.09440693117323373
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "american league vs national league under 8",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
-                        "result": "WIN",
-                        "edge": 0.08987608410063241
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "washington mystics -1 vs toronto tempo",
+                        "selection": "chicago sky -3.5 vs seattle storm",
                         "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
+                        "wager": 2.5,
+                        "profit": 2.27,
                         "result": "WIN",
-                        "edge": 0.07656016803923105
+                        "edge": 0.07985994077864145
                     },
                     {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "american league vs national league under 8",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
-                        "result": "WIN",
-                        "edge": 0.07095661617460702
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "spain vs france under 2.5",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
-                        "result": "WIN",
-                        "edge": 0.06507846571150278
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "washington mystics -1.5 vs toronto tempo",
+                        "selection": "chicago sky -2.5 vs seattle storm",
                         "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
+                        "wager": 2.5,
+                        "profit": 2.27,
                         "result": "WIN",
-                        "edge": 0.05863949514570688
+                        "edge": 0.07711532570066904
                     },
                     {
-                        "date": "07/14",
-                        "league": "MLB",
-                        "selection": "american all-stars vs national all-stars under 7.5",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
-                        "result": "WIN",
-                        "edge": 0.057655839692978605
-                    },
-                    {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "washington mystics vs toronto tempo under 172.5",
+                        "selection": "los angeles sparks vs minnesota lynx over 182.5",
                         "odds": -110,
-                        "wager": 0.91,
-                        "profit": 0.83,
+                        "wager": 2.5,
+                        "profit": 2.27,
                         "result": "WIN",
-                        "edge": 0.057655839692978605
+                        "edge": 0.070510535013108
                     },
                     {
-                        "date": "07/14",
+                        "date": "07/15",
                         "league": "WNBA",
-                        "selection": "washington mystics vs toronto tempo under 171.5",
+                        "selection": "golden state valkyries +2.5 vs indiana fever",
                         "odds": -110,
-                        "wager": 0.9,
-                        "profit": 0.82,
+                        "wager": 2.5,
+                        "profit": 2.27,
                         "result": "WIN",
-                        "edge": 0.05669775463285898
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "over 2.5",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": -0.91,
-                        "result": "LOSS",
-                        "edge": 0.079876510869889
-                    },
-                    {
-                        "date": "07/14",
-                        "league": "Other",
-                        "selection": "spain vs france over 2.5",
-                        "odds": -110,
-                        "wager": 0.91,
-                        "profit": -0.91,
-                        "result": "LOSS",
-                        "edge": 0.07656016803923105
+                        "edge": 0.06205370880308603
                     }
                 ]
             }
@@ -662,20 +522,20 @@
         },
         "Quarry Intelligence": {
             "roi": 1.9,
-            "net": 22.33,
+            "net": 22.67,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
-            "roi": 4.7,
-            "net": 28.15,
-            "sample": 1435,
-            "record": "768-667-0"
+            "roi": 4.6,
+            "net": 28.07,
+            "sample": 1447,
+            "record": "774-673-0"
         },
         "carnelian": {
-            "roi": -1.0,
-            "net": -5.83,
-            "sample": 2471,
-            "record": "1222-1249-0"
+            "roi": -0.9,
+            "net": -5.4,
+            "sample": 2493,
+            "record": "1234-1259-0"
         }
     }
 }

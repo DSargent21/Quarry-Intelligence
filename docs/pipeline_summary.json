@@ -1,15 +1,15 @@
 {
-    "last_update": "2026-07-15 06:54 ET",
-    "data_range": "2016-08-05 to 2026-07-14",
-    "total_rows": 170338,
+    "last_update": "2026-07-16 07:04 ET",
+    "data_range": "2016-08-05 to 2026-07-15",
+    "total_rows": 170572,
     "picks_identified": {
-        "pyrite": 1919,
-        "diamond": 6941,
-        "obsidian": 2388,
-        "quartz": 659,
-        "sapphire": 2985,
-        "kyanite": 1435,
-        "carnelian": 2471,
+        "pyrite": 1923,
+        "diamond": 6943,
+        "obsidian": 2400,
+        "quartz": 661,
+        "sapphire": 2991,
+        "kyanite": 1447,
+        "carnelian": 2493,
         "v6": 0
     }
 }
