@@ -1,354 +1,374 @@
 {
     "meta": {
-        "last_update": "2026-07-17 06:51 ET",
+        "last_update": "2026-07-18 06:23 ET",
         "status": "NOMINAL",
-        "cache_bust": 1784285518.628789
+        "cache_bust": 1784370219.398829
     },
     "models": {
         "pyrite": {
-            "roi": -4.0,
-            "net": -9.87,
-            "wins": 988,
-            "losses": 964,
+            "roi": -2.4,
+            "net": -5.8,
+            "wins": 968,
+            "losses": 910,
             "pushes": 0,
-            "record": "988-964-0",
-            "win_rate": 50.6,
-            "sample": 1952,
-            "bets_day": 8.0,
+            "record": "968-910-0",
+            "win_rate": 51.5,
+            "sample": 1878,
+            "bets_day": 7.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 16, 2026",
-                "record": "20-54-0",
-                "win_rate": 27.0,
-                "net": -4.08,
-                "roi": -46.0,
+                "date": "Jul 13, 2026",
+                "record": "37-37-0",
+                "win_rate": 50.0,
+                "net": -0.51,
+                "roi": -6.3,
                 "ledger": [
                     {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 126,
-                        "wager": 0.12,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.18218807349309785
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "n.y. mets",
-                        "odds": 122,
-                        "wager": 0.12,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.06921834093898815
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 121,
-                        "wager": 0.12,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.35033158321089003
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 121,
-                        "wager": 0.12,
-                        "profit": 0.15,
-                        "result": "WIN",
-                        "edge": 0.11860608288513269
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 118,
-                        "wager": 0.12,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.49128440366972465
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 117,
-                        "wager": 0.12,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.20873405210619544
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 114,
-                        "wager": 0.12,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.15810042132111746
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "n.y. mets",
-                        "odds": 112,
-                        "wager": 0.12,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.07128690316295244
-                    },
-                    {
-                        "date": "07/16",
+                        "date": "07/13",
                         "league": "Other",
-                        "selection": "sheriff vs aluminij",
-                        "odds": 102,
-                        "wager": 0.12,
+                        "selection": "damir dzumhur ml vs henrique rocha",
+                        "odds": 130,
+                        "wager": 0.11,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.05333538650271186
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "jordin canada ast over 8.5",
+                        "odds": 110,
+                        "wager": 0.11,
                         "profit": 0.12,
                         "result": "WIN",
-                        "edge": 0.07827518361216923
+                        "edge": 0.13669477150532183
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "atlanta dream -7.5 vs los angeles sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.4261904761904761
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "mercury +12.5 vs lynx",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.323917066070471
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "dream -8.5 vs sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.323917066070471
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "atlanta dream -7.5 vs los angeles sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.31481244281954823
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "Other",
+                        "selection": "wta petra marcinko ml vs nadia podoroska / wta alina charaeva ml vs victoria jimenez kasintseva",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.14732968052414264
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "Other",
+                        "selection": "wta sara bejlek -1.5 vs viktoria morvayova / wta maria sakkari ml vs polina kudermetova",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.14732968052414264
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "olivia miles ast over 5.5",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.13669477150532183
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "atlanta dream -7.5 vs los angeles sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.09582994182202564
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "atlanta dream -7.5 vs los angeles sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.08316546738646591
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "sparks vs dream over 180",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.08180986587878769
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "Other",
+                        "selection": "lorenzo sonego -2.5 vs joel schwaerzler",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.08180986587878769
+                    },
+                    {
+                        "date": "07/13",
                         "league": "NBA",
-                        "selection": "golden state warriors -7.5",
-                        "odds": -109,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.04120775176903835
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "hegelmann litauen vs paide",
+                        "selection": "hawks ml vs celtics",
                         "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.35033158321089
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "santos fc vs botafogo over 2.5",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.20873405210619544
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "portland fire vs washington mystics under 164",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.11248442194977126
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "portland fire vs washington mystics under 163.5",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.06678844756995173
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "portland fire vs washington mystics under 165",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.05454464378052326
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "under 10",
-                        "odds": -115,
-                        "wager": 0.12,
+                        "wager": 0.11,
                         "profit": 0.1,
                         "result": "WIN",
-                        "edge": 0.0745019418694004
+                        "edge": 0.05652836473625289
                     },
                     {
-                        "date": "07/16",
-                        "league": "NBA",
-                        "selection": "event portland trail blazers vs denver nuggets",
-                        "odds": -116,
-                        "wager": 0.12,
-                        "profit": 0.1,
-                        "result": "WIN",
-                        "edge": 0.04120775176903835
-                    },
-                    {
-                        "date": "07/16",
+                        "date": "07/13",
                         "league": "WNBA",
-                        "selection": "portland fire +6.5 vs washington mystics",
-                        "odds": -123,
-                        "wager": 0.12,
+                        "selection": "phoenix mercury +12.5 vs minnesota lynx",
+                        "odds": -110,
+                        "wager": 0.11,
                         "profit": 0.1,
                         "result": "WIN",
-                        "edge": 0.24209574636545006
+                        "edge": 0.05603485396922481
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "dream -8.5 vs sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.055993259379758964
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "dream -4.5 vs sparks",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.053894676278941955
+                    },
+                    {
+                        "date": "07/13",
                         "league": "Other",
-                        "selection": "lotte giants vs samsung lions samsung lions",
-                        "odds": -133,
-                        "wager": 0.12,
-                        "profit": 0.09,
+                        "selection": "wta zheng ml / wta sakkari ml",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
                         "result": "WIN",
-                        "edge": 0.1519409565640486
+                        "edge": 0.05333538650271186
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/13",
                         "league": "WNBA",
-                        "selection": "event hanshin tigers vs chunichi dragons",
-                        "odds": -180,
-                        "wager": 0.12,
-                        "profit": 0.07,
+                        "selection": "sparks vs dream over 180.5",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
                         "result": "WIN",
-                        "edge": 0.1519409565640486
+                        "edge": 0.043130206235294066
+                    },
+                    {
+                        "date": "07/13",
+                        "league": "WNBA",
+                        "selection": "phoenix mercury +13.5 vs minnesota lynx",
+                        "odds": -114,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.14371305427736403
                     }
                 ]
             }
         },
         "diamond": {
-            "roi": -9.2,
-            "net": -128.42,
-            "wins": 3436,
-            "losses": 3514,
+            "roi": -9.4,
+            "net": -132.53,
+            "wins": 3438,
+            "losses": 3516,
             "pushes": 0,
-            "record": "3436-3514-0",
+            "record": "3438-3516-0",
             "win_rate": 49.4,
-            "sample": 6950,
+            "sample": 6954,
             "bets_day": 30.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 16, 2026",
-                "record": "0-2-0",
+                "date": "Jul 17, 2026",
+                "record": "0-3-0",
                 "win_rate": 0.0,
-                "net": -2.1,
+                "net": -6.0,
                 "roi": -100.0,
                 "ledger": [
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "NBA",
-                        "selection": "grizzlies -2.5 vs opponent",
-                        "odds": -115,
-                        "wager": 1.04,
-                        "profit": -1.04,
+                        "selection": "jazz -4 vs spurs",
+                        "odds": -110,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.04025328834155828
+                        "edge": 0.09825061408344915
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "NBA",
-                        "selection": "warriors -6.5 vs opponent",
-                        "odds": -120,
-                        "wager": 1.06,
-                        "profit": -1.06,
+                        "selection": "pistons vs heat under 185",
+                        "odds": -115,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.04025328834155828
+                        "edge": 0.09825061408344915
+                    },
+                    {
+                        "date": "07/17",
+                        "league": "NBA",
+                        "selection": "knicks +3 vs opp",
+                        "odds": -116,
+                        "wager": 2.0,
+                        "profit": -2.0,
+                        "result": "LOSS",
+                        "edge": 0.09825061408344915
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": -6.7,
-            "net": -134.86,
-            "wins": 1148,
-            "losses": 1264,
+            "roi": -7.7,
+            "net": -154.75,
+            "wins": 1142,
+            "losses": 1282,
             "pushes": 0,
-            "record": "1148-1264-0",
-            "win_rate": 47.6,
-            "sample": 2412,
+            "record": "1142-1282-0",
+            "win_rate": 47.1,
+            "sample": 2424,
             "bets_day": 12.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 16, 2026",
-                "record": "2-10-0",
-                "win_rate": 16.7,
-                "net": -6.6,
-                "roi": -66.3,
+                "date": "Jul 17, 2026",
+                "record": "0-12-0",
+                "win_rate": 0.0,
+                "net": -9.96,
+                "roi": -100.0,
                 "ledger": [
                     {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets ml vs philadelphia phillies",
-                        "odds": 114,
-                        "wager": 0.83,
-                        "profit": 0.95,
-                        "result": "WIN",
-                        "edge": 0.12
-                    },
-                    {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "Other",
-                        "selection": "hegelmann litauen vs paide",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": 0.75,
-                        "result": "WIN",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "sam burns british open winner",
-                        "odds": 4900,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.09999999999999999
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "cf montr\u00e9al ml vs toronto fc",
-                        "odds": 136,
+                        "selection": "v. hovland to win group vs rose/henley",
+                        "odds": 170,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.10000000000000003
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
+                        "league": "WNBA",
+                        "selection": "sparks ml vs sky",
+                        "odds": 111,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10000000000000003
+                    },
+                    {
+                        "date": "07/17",
+                        "league": "MLB",
+                        "selection": "pirates ml",
+                        "odds": 110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.12285714285714278
+                    },
+                    {
+                        "date": "07/17",
                         "league": "Other",
-                        "selection": "orix buffaloes vs rakuten gold. eagles",
-                        "odds": 125,
+                        "selection": "wnba indiana fever 1h ml vs storm / mlb braves ml vs opp",
+                        "odds": 100,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.09999999999999998
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 110,
+                        "selection": "diamondbacks ml vs cardinals",
+                        "odds": -102,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.21999999999999997
+                        "edge": 0.12
                     },
                     {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "dallas wings -1.5 vs new york liberty",
+                        "date": "07/17",
+                        "league": "MLB",
+                        "selection": "tigers ml",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.1171428571428571
+                    },
+                    {
+                        "date": "07/17",
+                        "league": "Other",
+                        "selection": "samsung lions -1.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10285714285714287
+                    },
+                    {
+                        "date": "07/17",
+                        "league": "MLB",
+                        "selection": "tigers vs angels under 4.5 f5",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -356,336 +376,146 @@
                         "edge": 0.09999999999999998
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "WNBA",
-                        "selection": "washington mystics -5.5 vs portland fire",
-                        "odds": -115,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.09999999999999998
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "new york mets vs philadelphia phillies over 9.5",
+                        "selection": "1h mercury -2 vs sun",
                         "odds": -120,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.14
+                        "edge": 0.09999999999999998
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "MLB",
-                        "selection": "philadelphia phillies ml vs new york mets",
-                        "odds": -125,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.10999999999999999
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "phillies ml vs mets",
-                        "odds": -132,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.1359999999999999
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "alex molcan vs a davidovich fokina",
-                        "odds": -152,
+                        "selection": "cubs f5 ml vs opp",
+                        "odds": -135,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.09999999999999998
+                    },
+                    {
+                        "date": "07/17",
+                        "league": "MLB",
+                        "selection": "brewers ml",
+                        "odds": -145,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.11428571428571421
+                    },
+                    {
+                        "date": "07/17",
+                        "league": "MLB",
+                        "selection": "mariners ml",
+                        "odds": -155,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.12285714285714278
                     }
                 ]
             }
         },
         "quartz": {
-            "roi": 0.6,
-            "net": 5.61,
-            "wins": 316,
-            "losses": 349,
+            "roi": 0.4,
+            "net": 3.22,
+            "wins": 317,
+            "losses": 351,
             "pushes": 0,
-            "record": "316-349-0",
+            "record": "317-351-0",
             "win_rate": 47.5,
-            "sample": 665,
+            "sample": 668,
             "bets_day": 6.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 16, 2026",
-                "record": "0-4-0",
-                "win_rate": 0.0,
-                "net": -10.01,
-                "roi": -100.0,
+                "date": "Jul 17, 2026",
+                "record": "1-1-0",
+                "win_rate": 50.0,
+                "net": -0.54,
+                "roi": -9.7,
                 "ledger": [
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "WNBA",
-                        "selection": "washington mystics -6 vs portland fire",
+                        "selection": "storm vs fever over 176.5",
                         "odds": -109,
-                        "wager": 2.09,
-                        "profit": -2.09,
-                        "result": "LOSS",
-                        "edge": 0.05330834061790246
+                        "wager": 2.63,
+                        "profit": 2.39,
+                        "result": "WIN",
+                        "edge": 0.06266637547380138
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "WNBA",
-                        "selection": "dallas wings -1.5 vs new york liberty",
+                        "selection": "tempo +9.5 vs dream",
                         "odds": -109,
-                        "wager": 2.32,
-                        "profit": -2.32,
+                        "wager": 2.93,
+                        "profit": -2.93,
                         "result": "LOSS",
-                        "edge": 0.05933233280834915
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets +1.5 vs phillies",
-                        "odds": -109,
-                        "wager": 2.8,
-                        "profit": -2.8,
-                        "result": "LOSS",
-                        "edge": 0.0859830863277331
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "portland fire vs washington mystics over 162",
-                        "odds": -109,
-                        "wager": 2.8,
-                        "profit": -2.8,
-                        "result": "LOSS",
-                        "edge": 0.08487637891083089
+                        "edge": 0.06982540356623912
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": -1.3,
-            "net": -7.92,
-            "wins": 1487,
-            "losses": 1543,
+            "roi": -1.7,
+            "net": -11.03,
+            "wins": 1496,
+            "losses": 1556,
             "pushes": 0,
-            "record": "1487-1543-0",
-            "win_rate": 49.1,
-            "sample": 3030,
+            "record": "1496-1556-0",
+            "win_rate": 49.0,
+            "sample": 3052,
             "bets_day": 46.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Jul 16, 2026",
-                "record": "6-27-0",
-                "win_rate": 18.2,
-                "net": -6.57,
-                "roi": -64.9,
+                "date": "Jul 17, 2026",
+                "record": "1-3-0",
+                "win_rate": 25.0,
+                "net": -5.23,
+                "roi": -52.3,
                 "ledger": [
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "WNBA",
-                        "selection": "portland fire vs washington mystics under 165",
+                        "selection": "storm vs fever over 176.5",
                         "odds": -110,
-                        "wager": 0.31,
-                        "profit": 0.28,
+                        "wager": 2.5,
+                        "profit": 2.27,
                         "result": "WIN",
-                        "edge": 0.07994606949034189
+                        "edge": 0.08256760097685312
                     },
                     {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "hegelmann litauen vs paide",
+                        "date": "07/17",
+                        "league": "MLB",
+                        "selection": "d-backs ml vs cardinals",
                         "odds": -110,
-                        "wager": 0.31,
-                        "profit": 0.28,
-                        "result": "WIN",
-                        "edge": 0.07601752735319589
+                        "wager": 2.5,
+                        "profit": -2.5,
+                        "result": "LOSS",
+                        "edge": 0.08256760097685312
                     },
                     {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "WNBA",
-                        "selection": "portland fire vs washington mystics under 163.5",
+                        "selection": "tempo +9.5 vs dream",
                         "odds": -110,
-                        "wager": 0.31,
-                        "profit": 0.28,
-                        "result": "WIN",
-                        "edge": 0.07193800665083383
+                        "wager": 2.5,
+                        "profit": -2.5,
+                        "result": "LOSS",
+                        "edge": 0.08256760097685312
                     },
                     {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "sarajevo vs fc inter turku",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": 0.28,
-                        "result": "WIN",
-                        "edge": 0.06904783703031991
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "Other",
-                        "selection": "hegelmann litauen vs paide",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": 0.28,
-                        "result": "WIN",
-                        "edge": 0.0634493515605018
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "portland fire vs washington mystics under 163",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": 0.28,
-                        "result": "WIN",
-                        "edge": 0.05863949514570688
-                    },
-                    {
-                        "date": "07/16",
+                        "date": "07/17",
                         "league": "MLB",
-                        "selection": "new york mets vs philadelphia phillies over 9.5",
-                        "odds": -120,
-                        "wager": 0.23,
-                        "profit": -0.23,
+                        "selection": "blue jays ml",
+                        "odds": -135,
+                        "wager": 2.5,
+                        "profit": -2.5,
                         "result": "LOSS",
-                        "edge": 0.036791638894514644
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "phillies ml vs mets",
-                        "odds": -132,
-                        "wager": 0.28,
-                        "profit": -0.28,
-                        "result": "LOSS",
-                        "edge": 0.04696223859129278
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 120,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.16840265555815265
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 115,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.2622034383374591
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.25543740533647086
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.25230738662538077
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.15823754810151602
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.1325849010830834
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 108,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.21808003003780663
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "MLB",
-                        "selection": "mets ml vs phillies",
-                        "odds": 108,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.14539556319896996
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "new york liberty +1.5 vs dallas wings",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.09086099125090097
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "new york liberty +1.5 vs dallas wings",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.08160939670744394
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "dallas wings -1 vs new york liberty",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.07711532570066904
-                    },
-                    {
-                        "date": "07/16",
-                        "league": "WNBA",
-                        "selection": "dallas wings -1.5 vs new york liberty",
-                        "odds": -110,
-                        "wager": 0.31,
-                        "profit": -0.31,
-                        "result": "LOSS",
-                        "edge": 0.0634493515605018
+                        "edge": 0.07659488028668338
                     }
                 ]
             }
@@ -711,21 +541,21 @@
             }
         },
         "Quarry Intelligence": {
-            "roi": 2.0,
-            "net": 24.12,
+            "roi": 1.2,
+            "net": 15.65,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
-            "roi": 4.7,
-            "net": 29.17,
-            "sample": 1462,
-            "record": "783-679-0"
+            "roi": 3.8,
+            "net": 24.04,
+            "sample": 1470,
+            "record": "785-685-0"
         },
         "carnelian": {
-            "roi": -0.8,
-            "net": -5.05,
-            "sample": 2530,
-            "record": "1256-1274-0"
+            "roi": -1.3,
+            "net": -8.39,
+            "sample": 2549,
+            "record": "1264-1285-0"
         }
     }
 }

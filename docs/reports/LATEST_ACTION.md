@@ -1,141 +1,115 @@
-# 📝 Daily Action Log (Jul 16, 2026)
+# 📝 Daily Action Log (Jul 17, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | santos fc vs botafogo over 2.5 | -110 | 1.10 | ✅ | +1.00u |
-| WNBA | portland fire vs washington mystics under 163.5 | -110 | 0.89 | ✅ | +0.81u |
-| WNBA | portland fire vs washington mystics under 165 | -110 | 0.89 | ✅ | +0.81u |
-| Other | hegelmann litauen vs paide | -110 | 0.83 | ✅ | +0.75u |
-| Other | sarajevo vs fc inter turku | -110 | 0.73 | ✅ | +0.66u |
-| WNBA | portland fire vs washington mystics under 164 | -110 | 0.63 | ✅ | +0.57u |
-| MLB | phillies ml vs opponent | -110 | 0.62 | ❌ | -0.62u |
-| WNBA | new york liberty +2.5 vs dallas wings | -110 | 0.66 | ❌ | -0.66u |
-| WNBA | dallas wings -1.5 vs new york liberty | -110 | 0.83 | ❌ | -0.83u |
-| WNBA | dallas wings -1 vs new york liberty | -110 | 0.84 | ❌ | -0.84u |
-| WNBA | wings vs liberty over 177.5 | -110 | 0.87 | ❌ | -0.87u |
-| WNBA | new york liberty +1.5 vs dallas wings | -110 | 1.10 | ❌ | -1.10u |
+| WNBA | storm vs fever over 176.5 | -110 | 1.51 | ✅ | +1.37u |
+| NBA | cavaliers -4.5 vs bulls | -110 | 1.40 | ✅ | +1.27u |
+| Other | casper ruud -3.5 vs cerundolo | -110 | 1.24 | ❌ | -1.24u |
+| MLB | royals total under 4.5 | -110 | 1.40 | ❌ | -1.40u |
+| MLB | braves vs rangers f5 under 4.5 | -110 | 1.42 | ❌ | -1.42u |
+| MLB | d-backs ml vs cardinals | -110 | 1.51 | ❌ | -1.51u |
+| WNBA | tempo +9.5 vs dream | -110 | 1.51 | ❌ | -1.51u |
 
-**Daily PnL: -0.31 Units**
+**Daily PnL: -4.43 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | new york mets ml vs philadelphia phillies | +120 | 0.62 | ✅ | +0.74u |
-| Other | jesper de jong vs sebastian baez sebastian baez | +118 | 0.58 | ✅ | +0.68u |
-| Other | santos fc vs botafogo over 2.5 | -110 | 0.62 | ✅ | +0.56u |
-| MLB | n.y. mets | +112 | 0.42 | ✅ | +0.47u |
-| WNBA | portland fire vs washington mystics under 163.5 | -110 | 0.50 | ✅ | +0.45u |
-| WNBA | portland fire vs washington mystics under 165 | -110 | 0.50 | ✅ | +0.45u |
-| Other | hegelmann litauen vs paide | -110 | 0.47 | ✅ | +0.43u |
-| Other | sheriff vs aluminij | +102 | 0.38 | ✅ | +0.39u |
-| Other | sarajevo vs fc inter turku | -110 | 0.41 | ✅ | +0.37u |
-| WNBA | portland fire vs washington mystics under 164 | -110 | 0.35 | ✅ | +0.32u |
-| WNBA | portland fire vs washington mystics under 163 | -110 | 0.31 | ✅ | +0.28u |
-| NBA | lakers -3.5 vs bulls | -110 | 0.30 | ❌ | -0.30u |
-| WNBA | new york liberty vs dallas wings over 176.5 | -110 | 0.30 | ❌ | -0.30u |
-| MLB | bryce harper tb over 1.5 | +103 | 0.31 | ❌ | -0.31u |
-| WNBA | washington mystics -6 vs portland fire | -110 | 0.31 | ❌ | -0.31u |
-| WNBA | new york liberty +2.5 vs dallas wings | -110 | 0.37 | ❌ | -0.37u |
-| WNBA | dallas wings -1 vs new york liberty | -110 | 0.47 | ❌ | -0.47u |
-| WNBA | dallas wings -1.5 vs new york liberty | -110 | 0.47 | ❌ | -0.47u |
-| WNBA | wings vs liberty over 177.5 | -110 | 0.49 | ❌ | -0.49u |
-| MLB | mets ml vs phillies | +108 | 0.59 | ❌ | -0.59u |
+| WNBA | storm vs fever over 176.5 | -110 | 0.83 | ✅ | +0.75u |
+| NBA | cavaliers -4.5 vs bulls | -110 | 0.77 | ✅ | +0.70u |
+| MLB | braves ml vs rangers | -110 | 0.49 | ✅ | +0.45u |
+| MLB | brewers ml vs marlins | -110 | 0.49 | ✅ | +0.45u |
+| Other | c.tauson ml vs bejlek | -110 | 0.46 | ✅ | +0.42u |
+| MLB | ny yankees ml vs la dodgers | +104 | 0.44 | ❌ | -0.44u |
+| MLB | tigers ml | -110 | 0.45 | ❌ | -0.45u |
+| MLB | astros ml vs orioles | -110 | 0.46 | ❌ | -0.46u |
+| MLB | padres ml vs royals | -110 | 0.46 | ❌ | -0.46u |
+| MLB | cubs ml vs unknown opponent | -110 | 0.49 | ❌ | -0.49u |
+| Other | casper ruud -3.5 vs cerundolo | -110 | 0.68 | ❌ | -0.68u |
+| MLB | tb rays ml vs boston red sox | +112 | 0.75 | ❌ | -0.75u |
+| MLB | royals total under 4.5 | -110 | 0.77 | ❌ | -0.77u |
+| MLB | braves vs rangers f5 under 4.5 | -110 | 0.78 | ❌ | -0.78u |
+| MLB | d-backs ml vs cardinals | -110 | 0.83 | ❌ | -0.83u |
+| WNBA | tempo +9.5 vs dream | -110 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: +0.31 Units**
+**Daily PnL: -4.18 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | portland fire vs washington mystics under 165 | -110 | 0.31 | ✅ | +0.28u |
-| Other | hegelmann litauen vs paide | -110 | 0.31 | ✅ | +0.28u |
-| WNBA | portland fire vs washington mystics under 163.5 | -110 | 0.31 | ✅ | +0.28u |
-| Other | sarajevo vs fc inter turku | -110 | 0.31 | ✅ | +0.28u |
-| Other | hegelmann litauen vs paide | -110 | 0.31 | ✅ | +0.28u |
-| WNBA | portland fire vs washington mystics under 163 | -110 | 0.31 | ✅ | +0.28u |
-| MLB | new york mets vs philadelphia phillies over 9.5 | -120 | 0.23 | ❌ | -0.23u |
-| MLB | phillies ml vs mets | -132 | 0.28 | ❌ | -0.28u |
-| MLB | mets ml vs phillies | +120 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +115 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +110 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +110 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +110 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +110 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +108 | 0.31 | ❌ | -0.31u |
-| MLB | mets ml vs phillies | +108 | 0.31 | ❌ | -0.31u |
-| WNBA | new york liberty +1.5 vs dallas wings | -110 | 0.31 | ❌ | -0.31u |
-| WNBA | new york liberty +1.5 vs dallas wings | -110 | 0.31 | ❌ | -0.31u |
-| WNBA | dallas wings -1 vs new york liberty | -110 | 0.31 | ❌ | -0.31u |
-| WNBA | dallas wings -1.5 vs new york liberty | -110 | 0.31 | ❌ | -0.31u |
+| WNBA | storm vs fever over 176.5 | -110 | 2.50 | ✅ | +2.27u |
+| MLB | d-backs ml vs cardinals | -110 | 2.50 | ❌ | -2.50u |
+| WNBA | tempo +9.5 vs dream | -110 | 2.50 | ❌ | -2.50u |
+| MLB | blue jays ml | -135 | 2.50 | ❌ | -2.50u |
 
-**Daily PnL: -6.57 Units**
+**Daily PnL: -5.23 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | washington mystics -6 vs portland fire | -109 | 2.09 | ❌ | -2.09u |
-| WNBA | dallas wings -1.5 vs new york liberty | -109 | 2.32 | ❌ | -2.32u |
-| MLB | mets +1.5 vs phillies | -109 | 2.80 | ❌ | -2.80u |
-| WNBA | portland fire vs washington mystics over 162 | -109 | 2.80 | ❌ | -2.80u |
+| WNBA | storm vs fever over 176.5 | -109 | 2.63 | ✅ | +2.39u |
+| WNBA | tempo +9.5 vs dream | -109 | 2.93 | ❌ | -2.93u |
 
-**Daily PnL: -10.01 Units**
+**Daily PnL: -0.54 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | new york mets ml vs philadelphia phillies | +114 | 0.83 | ✅ | +0.95u |
-| Other | hegelmann litauen vs paide | -110 | 0.83 | ✅ | +0.75u |
-| Other | sam burns british open winner | +4900 | 0.83 | ❌ | -0.83u |
-| Other | cf montréal ml vs toronto fc | +136 | 0.83 | ❌ | -0.83u |
-| Other | orix buffaloes vs rakuten gold. eagles | +125 | 0.83 | ❌ | -0.83u |
-| MLB | mets ml vs phillies | +110 | 0.83 | ❌ | -0.83u |
-| WNBA | dallas wings -1.5 vs new york liberty | -110 | 0.83 | ❌ | -0.83u |
-| WNBA | washington mystics -5.5 vs portland fire | -115 | 0.83 | ❌ | -0.83u |
-| MLB | new york mets vs philadelphia phillies over 9.5 | -120 | 0.83 | ❌ | -0.83u |
-| MLB | philadelphia phillies ml vs new york mets | -125 | 0.83 | ❌ | -0.83u |
-| MLB | phillies ml vs mets | -132 | 0.83 | ❌ | -0.83u |
-| Other | alex molcan vs a davidovich fokina | -152 | 0.83 | ❌ | -0.83u |
+| Other | v. hovland to win group vs rose/henley | +170 | 0.83 | ❌ | -0.83u |
+| WNBA | sparks ml vs sky | +111 | 0.83 | ❌ | -0.83u |
+| MLB | pirates ml | +110 | 0.83 | ❌ | -0.83u |
+| Other | wnba indiana fever 1h ml vs storm / mlb braves ml vs opp | +100 | 0.83 | ❌ | -0.83u |
+| MLB | diamondbacks ml vs cardinals | -102 | 0.83 | ❌ | -0.83u |
+| MLB | tigers ml | -110 | 0.83 | ❌ | -0.83u |
+| Other | samsung lions -1.5 | -110 | 0.83 | ❌ | -0.83u |
+| MLB | tigers vs angels under 4.5 f5 | -110 | 0.83 | ❌ | -0.83u |
+| WNBA | 1h mercury -2 vs sun | -120 | 0.83 | ❌ | -0.83u |
+| MLB | cubs f5 ml vs opp | -135 | 0.83 | ❌ | -0.83u |
+| MLB | brewers ml | -145 | 0.83 | ❌ | -0.83u |
+| MLB | mariners ml | -155 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -6.60 Units**
+**Daily PnL: -9.96 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NBA | grizzlies -2.5 vs opponent | -115 | 1.04 | ❌ | -1.04u |
-| NBA | warriors -6.5 vs opponent | -120 | 1.06 | ❌ | -1.06u |
+| NBA | jazz -4 vs spurs | -110 | 2.00 | ❌ | -2.00u |
+| NBA | pistons vs heat under 185 | -115 | 2.00 | ❌ | -2.00u |
+| NBA | knicks +3 vs opp | -116 | 2.00 | ❌ | -2.00u |
 
-**Daily PnL: -2.10 Units**
+**Daily PnL: -6.00 Units**
 
 
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | new york mets ml vs philadelphia phillies | +126 | 0.12 | ✅ | +0.15u |
-| MLB | n.y. mets | +122 | 0.12 | ✅ | +0.15u |
-| MLB | new york mets ml vs philadelphia phillies | +121 | 0.12 | ✅ | +0.15u |
-| MLB | new york mets ml vs philadelphia phillies | +121 | 0.12 | ✅ | +0.15u |
-| MLB | new york mets ml vs philadelphia phillies | +118 | 0.12 | ✅ | +0.14u |
-| MLB | new york mets ml vs philadelphia phillies | +117 | 0.12 | ✅ | +0.14u |
-| MLB | new york mets ml vs philadelphia phillies | +114 | 0.12 | ✅ | +0.14u |
-| MLB | n.y. mets | +112 | 0.12 | ✅ | +0.13u |
-| Other | sheriff vs aluminij | +102 | 0.12 | ✅ | +0.12u |
-| NBA | golden state warriors -7.5 | -109 | 0.12 | ✅ | +0.11u |
-| Other | hegelmann litauen vs paide | -110 | 0.12 | ✅ | +0.11u |
-| Other | santos fc vs botafogo over 2.5 | -110 | 0.12 | ✅ | +0.11u |
-| WNBA | portland fire vs washington mystics under 164 | -110 | 0.12 | ✅ | +0.11u |
-| WNBA | portland fire vs washington mystics under 163.5 | -110 | 0.12 | ✅ | +0.11u |
-| WNBA | portland fire vs washington mystics under 165 | -110 | 0.12 | ✅ | +0.11u |
-| MLB | under 10 | -115 | 0.12 | ✅ | +0.10u |
-| NBA | event portland trail blazers vs denver nuggets | -116 | 0.12 | ✅ | +0.10u |
-| WNBA | portland fire +6.5 vs washington mystics | -123 | 0.12 | ✅ | +0.10u |
-| Other | lotte giants vs samsung lions samsung lions | -133 | 0.12 | ✅ | +0.09u |
-| WNBA | event hanshin tigers vs chunichi dragons | -180 | 0.12 | ✅ | +0.07u |
+| Other | damir dzumhur ml vs henrique rocha | +130 | 0.11 | ✅ | +0.14u |
+| WNBA | jordin canada ast over 8.5 | +110 | 0.11 | ✅ | +0.12u |
+| WNBA | atlanta dream -7.5 vs los angeles sparks | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | mercury +12.5 vs lynx | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | dream -8.5 vs sparks | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | atlanta dream -7.5 vs los angeles sparks | -110 | 0.11 | ✅ | +0.10u |
+| Other | wta petra marcinko ml vs nadia podoroska / wta alina charaeva ml vs victoria jimenez kasintseva | -110 | 0.11 | ✅ | +0.10u |
+| Other | wta sara bejlek -1.5 vs viktoria morvayova / wta maria sakkari ml vs polina kudermetova | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | olivia miles ast over 5.5 | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | atlanta dream -7.5 vs los angeles sparks | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | atlanta dream -7.5 vs los angeles sparks | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | sparks vs dream over 180 | -110 | 0.11 | ✅ | +0.10u |
+| Other | lorenzo sonego -2.5 vs joel schwaerzler | -110 | 0.11 | ✅ | +0.10u |
+| NBA | hawks ml vs celtics | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | phoenix mercury +12.5 vs minnesota lynx | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | dream -8.5 vs sparks | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | dream -4.5 vs sparks | -110 | 0.11 | ✅ | +0.10u |
+| Other | wta zheng ml / wta sakkari ml | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | sparks vs dream over 180.5 | -110 | 0.11 | ✅ | +0.10u |
+| WNBA | phoenix mercury +13.5 vs minnesota lynx | -114 | 0.11 | ✅ | +0.10u |
 
-**Daily PnL: -4.08 Units**
+**Daily PnL: -0.51 Units**
 
 
