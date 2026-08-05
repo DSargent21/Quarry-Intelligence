@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-08-04 07:28 ET",
+        "last_update": "2026-08-05 07:27 ET",
         "status": "NOMINAL",
-        "cache_bust": 1785842935.659053
+        "cache_bust": 1785929269.792769
     },
     "models": {
         "pyrite": {
@@ -227,535 +227,445 @@ window.QUARRY_STATS = {
             }
         },
         "diamond": {
-            "roi": -8.7,
-            "net": -133.31,
-            "wins": 3481,
-            "losses": 3562,
+            "roi": -8.8,
+            "net": -134.33,
+            "wins": 3482,
+            "losses": 3563,
             "pushes": 0,
-            "record": "3481-3562-0",
+            "record": "3482-3563-0",
             "win_rate": 49.4,
-            "sample": 7043,
+            "sample": 7045,
             "bets_day": 28.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Aug 02, 2026",
-                "record": "4-1-0",
-                "win_rate": 80.0,
-                "net": 4.43,
-                "roi": 44.3,
+                "date": "Aug 04, 2026",
+                "record": "0-1-0",
+                "win_rate": 0.0,
+                "net": -2.0,
+                "roi": -100.0,
                 "ledger": [
                     {
-                        "date": "08/02",
-                        "league": "NHL",
-                        "selection": "rangers vs astros over 8.5",
-                        "odds": -120,
-                        "wager": 2.0,
-                        "profit": 1.67,
-                        "result": "WIN",
-                        "edge": 0.40454545454545454
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "NHL",
-                        "selection": "rangers vs astros",
-                        "odds": -123,
-                        "wager": 2.0,
-                        "profit": 1.63,
-                        "result": "WIN",
-                        "edge": 0.19878300754542133
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "NHL",
-                        "selection": "rangers vs astros",
-                        "odds": -124,
-                        "wager": 2.0,
-                        "profit": 1.61,
-                        "result": "WIN",
-                        "edge": 0.39642857142857135
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "NHL",
-                        "selection": "rangers vs astros",
-                        "odds": -131,
-                        "wager": 2.0,
-                        "profit": 1.53,
-                        "result": "WIN",
-                        "edge": 0.38290043290043285
-                    },
-                    {
-                        "date": "08/02",
+                        "date": "08/04",
                         "league": "NCAAF",
-                        "selection": "tigers vs as",
+                        "selection": "bodo glimt vs union st.-gilloise 3-way union st.-gilloise",
                         "odds": 120,
                         "wager": 2.0,
                         "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.4954545454545454
+                        "edge": 0.33086086985646773
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": -7.9,
-            "net": -173.39,
-            "wins": 1239,
-            "losses": 1389,
+            "roi": -8.3,
+            "net": -181.64,
+            "wins": 1237,
+            "losses": 1403,
             "pushes": 0,
-            "record": "1239-1389-0",
-            "win_rate": 47.1,
-            "sample": 2628,
+            "record": "1237-1403-0",
+            "win_rate": 46.9,
+            "sample": 2640,
             "bets_day": 12.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Aug 03, 2026",
-                "record": "2-10-0",
-                "win_rate": 16.7,
-                "net": -6.6,
-                "roi": -66.2,
+                "date": "Aug 04, 2026",
+                "record": "1-11-0",
+                "win_rate": 8.3,
+                "net": -8.44,
+                "roi": -84.7,
                 "ledger": [
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "chicago cubs ml vs los angeles dodgers",
-                        "odds": 111,
+                        "selection": "boston",
+                        "odds": -120,
                         "wager": 0.83,
-                        "profit": 0.92,
+                        "profit": 0.69,
                         "result": "WIN",
-                        "edge": 0.15333333333333327
+                        "edge": 0.10571428571428565
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "arizona diamondbacks ml vs san diego padres",
-                        "odds": -106,
-                        "wager": 0.83,
-                        "profit": 0.78,
-                        "result": "WIN",
-                        "edge": 0.11199999999999999
-                    },
-                    {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "colorado rockies ml vs tampa bay rays",
-                        "odds": 153,
+                        "selection": "cardinals vs yankees",
+                        "odds": 179,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.10000000000000003
                     },
                     {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "nationals ml vs phillies",
-                        "odds": 150,
+                        "date": "08/04",
+                        "league": "Other",
+                        "selection": "bodo glimt vs union saint-gilloise",
+                        "odds": 145,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.18999999999999995
+                        "edge": 0.10000000000000003
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "pirates ml vs brewers",
-                        "odds": 134,
+                        "selection": "as vs reds",
+                        "odds": 120,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.17999999999999994
+                        "edge": 0.10000000000000003
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "san diego padres ml vs arizona diamondbacks",
-                        "odds": 104,
+                        "selection": "white sox ml vs red sox",
+                        "odds": 116,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.13999999999999996
+                        "edge": 0.1399999999999999
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "colorado rockies +1.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.10857142857142854
+                    },
+                    {
+                        "date": "08/04",
                         "league": "MLB",
                         "selection": "padres ml vs diamondbacks",
-                        "odds": 102,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.12
-                    },
-                    {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "diamondbacks ml vs padres",
                         "odds": -115,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.10999999999999999
+                        "edge": 0.11499999999999999
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "los angeles dodgers ml vs chicago cubs",
-                        "odds": -121,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.14
-                    },
-                    {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "houston astros ml vs toronto blue jays",
+                        "selection": "astros ml vs blue jays",
                         "odds": -125,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.18999999999999995
+                        "edge": 0.16999999999999993
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "milwaukee brewers ml vs pittsburgh pirates",
-                        "odds": -138,
+                        "selection": "houston astros ml vs toronto blue jays",
+                        "odds": -131,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.125
+                        "edge": 0.10666666666666669
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "seattle mariners ml vs detroit tigers",
+                        "odds": -142,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.20999999999999996
+                    },
+                    {
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "braves ml vs marlins",
+                        "odds": -145,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.20999999999999996
+                    },
+                    {
+                        "date": "08/04",
                         "league": "MLB",
                         "selection": "brewers ml vs pirates",
-                        "odds": -140,
+                        "odds": -168,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.17999999999999994
+                        "edge": 0.15999999999999992
                     }
                 ]
             }
         },
         "quartz": {
-            "roi": 6.9,
-            "net": 70.55,
-            "wins": 356,
-            "losses": 377,
+            "roi": 6.2,
+            "net": 63.15,
+            "wins": 355,
+            "losses": 380,
             "pushes": 0,
-            "record": "356-377-0",
-            "win_rate": 48.6,
-            "sample": 733,
+            "record": "355-380-0",
+            "win_rate": 48.3,
+            "sample": 735,
             "bets_day": 6.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Aug 02, 2026",
-                "record": "3-5-0",
-                "win_rate": 37.5,
-                "net": -2.04,
-                "roi": -20.3,
+                "date": "Aug 04, 2026",
+                "record": "0-3-0",
+                "win_rate": 0.0,
+                "net": -6.39,
+                "roi": -100.0,
                 "ledger": [
                     {
-                        "date": "08/02",
-                        "league": "MLB",
-                        "selection": "boston red sox ml vs los angeles dodgers",
-                        "odds": 156,
-                        "wager": 1.19,
-                        "profit": 1.86,
-                        "result": "WIN",
-                        "edge": 0.06600439313405143
+                        "date": "08/04",
+                        "league": "NCAAF",
+                        "selection": "unam pumas vs charlotte",
+                        "odds": 170,
+                        "wager": 1.59,
+                        "profit": -1.59,
+                        "result": "LOSS",
+                        "edge": 0.050146414751393864
                     },
                     {
-                        "date": "08/02",
+                        "date": "08/04",
+                        "league": "Other",
+                        "selection": "bodo glimt vs union saint-gilloise",
+                        "odds": 145,
+                        "wager": 1.8,
+                        "profit": -1.8,
+                        "result": "LOSS",
+                        "edge": 0.053330171044498276
+                    },
+                    {
+                        "date": "08/04",
                         "league": "WNBA",
-                        "selection": "sparks +1.5 vs fire",
+                        "selection": "toronto tempo +13.5 vs golden state valkyries",
                         "odds": -109,
-                        "wager": 1.43,
-                        "profit": 1.3,
-                        "result": "WIN",
-                        "edge": 0.07226709165943301
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "WNBA",
-                        "selection": "los angeles sparks -1.5 vs portland fire",
-                        "odds": -109,
-                        "wager": 1.15,
-                        "profit": 1.05,
-                        "result": "WIN",
-                        "edge": 0.0574139100478952
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "MLB",
-                        "selection": "pittsburgh pirates ml vs cincinnati reds",
-                        "odds": 125,
-                        "wager": 0.91,
-                        "profit": -0.91,
+                        "wager": 3.0,
+                        "profit": -3.0,
                         "result": "LOSS",
-                        "edge": 0.053198220353593395
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "MLB",
-                        "selection": "phillies vs orioles over 7.5 / cardinals vs blue jays over 8.5 / marlins ml vs mets",
-                        "odds": 458,
-                        "wager": 1.04,
-                        "profit": -1.04,
-                        "result": "LOSS",
-                        "edge": 0.0898700101165408
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "MLB",
-                        "selection": "marlins -5.5 vs mets",
-                        "odds": 600,
-                        "wager": 1.43,
-                        "profit": -1.43,
-                        "result": "LOSS",
-                        "edge": 0.1765837745685318
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "MLB",
-                        "selection": "phillies vs orioles over 13.5",
-                        "odds": 600,
-                        "wager": 1.43,
-                        "profit": -1.43,
-                        "result": "LOSS",
-                        "edge": 0.16797545258064028
-                    },
-                    {
-                        "date": "08/02",
-                        "league": "MLB",
-                        "selection": "cardinals vs blue jays over 14.5",
-                        "odds": 520,
-                        "wager": 1.43,
-                        "profit": -1.43,
-                        "result": "LOSS",
-                        "edge": 0.1400982029128501
+                        "edge": 0.10184280498900533
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": -1.3,
-            "net": -10.16,
-            "wins": 2011,
-            "losses": 2039,
+            "roi": -1.9,
+            "net": -15.54,
+            "wins": 2019,
+            "losses": 2067,
             "pushes": 0,
-            "record": "2011-2039-0",
-            "win_rate": 49.7,
-            "sample": 4050,
+            "record": "2019-2067-0",
+            "win_rate": 49.4,
+            "sample": 4086,
             "bets_day": 48.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Aug 03, 2026",
-                "record": "9-27-0",
-                "win_rate": 25.0,
-                "net": -5.03,
-                "roi": -50.5,
+                "date": "Aug 04, 2026",
+                "record": "7-31-0",
+                "win_rate": 18.4,
+                "net": -6.32,
+                "roi": -63.9,
                 "ledger": [
                     {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "chicago cubs ml vs los angeles dodgers",
-                        "odds": 112,
-                        "wager": 0.28,
-                        "profit": 0.31,
-                        "result": "WIN",
-                        "edge": 0.2339695017292815
-                    },
-                    {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "chicago cubs ml vs los angeles dodgers",
-                        "odds": 111,
-                        "wager": 0.28,
-                        "profit": 0.31,
-                        "result": "WIN",
-                        "edge": 0.12946902490905116
-                    },
-                    {
-                        "date": "08/03",
-                        "league": "MLB",
-                        "selection": "los angeles dodgers vs chicago cubs over 8",
+                        "date": "08/04",
+                        "league": "Other",
+                        "selection": "toronto tempo vs golden state valkyries over 168",
                         "odds": -110,
-                        "wager": 0.28,
+                        "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.0853110835665748
+                        "edge": 0.08191206909361337
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "los angeles dodgers vs chicago cubs over 8",
+                        "selection": "rays vs rockies over 11",
                         "odds": -110,
-                        "wager": 0.28,
+                        "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.07845875478926156
+                        "edge": 0.07966407991590951
                     },
                     {
-                        "date": "08/03",
-                        "league": "WNBA",
-                        "selection": "aces vs dream over 182.5",
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "as vs reds under 9.5",
                         "odds": -110,
-                        "wager": 0.28,
+                        "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.07828262306395029
+                        "edge": 0.059666006338028654
                     },
                     {
-                        "date": "08/03",
-                        "league": "WNBA",
-                        "selection": "phoenix mercury vs chicago sky over 178",
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "pirates vs brewers under 8",
                         "odds": -110,
-                        "wager": 0.28,
+                        "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.06444486833754037
+                        "edge": 0.059666006338028654
                     },
                     {
-                        "date": "08/03",
-                        "league": "WNBA",
-                        "selection": "las vegas aces +1.5 vs atlanta dream",
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "toronto tempo +12 vs golden state valkyries",
                         "odds": -110,
-                        "wager": 0.28,
+                        "wager": 0.27,
                         "profit": 0.25,
                         "result": "WIN",
-                        "edge": 0.06444486833754037
+                        "edge": 0.059666006338028654
                     },
                     {
-                        "date": "08/03",
-                        "league": "WNBA",
-                        "selection": "phoenix mercury vs chicago sky over 179",
-                        "odds": -110,
-                        "wager": 0.28,
-                        "profit": 0.25,
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "phillies -1.5 vs nationals",
+                        "odds": -120,
+                        "wager": 0.27,
+                        "profit": 0.23,
                         "result": "WIN",
-                        "edge": 0.06034555889311288
+                        "edge": 0.16969837383790454
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "st. louis cardinals vs new york yankees over 7.5",
-                        "odds": -110,
-                        "wager": 0.28,
-                        "profit": 0.25,
+                        "selection": "phillies -1.5 vs nationals",
+                        "odds": -120,
+                        "wager": 0.27,
+                        "profit": 0.23,
                         "result": "WIN",
-                        "edge": 0.05697688318434213
+                        "edge": 0.08388371901078662
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "los angeles dodgers ml vs chicago cubs",
-                        "odds": -125,
-                        "wager": 0.16,
-                        "profit": -0.16,
+                        "selection": "astros ml vs blue jays",
+                        "odds": -130,
+                        "wager": 0.12,
+                        "profit": -0.12,
                         "result": "LOSS",
-                        "edge": 0.026989605691697838
+                        "edge": 0.021306678004886725
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "nationals ml vs phillies",
-                        "odds": 150,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "phillies -1.5 vs nationals",
+                        "odds": -134,
+                        "wager": 0.2,
+                        "profit": -0.2,
                         "result": "LOSS",
-                        "edge": 0.25319830179214475
+                        "edge": 0.034289325913812285
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "nationals ml vs phillies",
-                        "odds": 145,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "1st 7 innings diamondbacks ml vs padres",
+                        "odds": -140,
+                        "wager": 0.22,
+                        "profit": -0.22,
                         "result": "LOSS",
-                        "edge": 0.2599183162864374
+                        "edge": 0.039979616800944084
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "washington nationals ml vs philadelphia phillies",
-                        "odds": 140,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "houston astros ml vs toronto blue jays",
+                        "odds": -140,
+                        "wager": 0.23,
+                        "profit": -0.23,
                         "result": "LOSS",
-                        "edge": 0.2656308611234029
+                        "edge": 0.038083235422770256
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "pirates ml vs brewers",
-                        "odds": 134,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "red sox ml vs white sox",
+                        "odds": -136,
+                        "wager": 0.25,
+                        "profit": -0.25,
                         "result": "LOSS",
-                        "edge": 0.15513155297336412
+                        "edge": 0.04704176369359936
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "pirates ml vs brewers",
-                        "odds": 133,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "white sox total under 4.5",
+                        "odds": -135,
+                        "wager": 0.26,
+                        "profit": -0.26,
                         "result": "LOSS",
-                        "edge": 0.21653927037644283
+                        "edge": 0.04884486502789431
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "washington nationals ml vs philadelphia phillies",
-                        "odds": 130,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "1st 7 innings red sox ml vs white sox",
+                        "odds": -135,
+                        "wager": 0.26,
+                        "profit": -0.26,
                         "result": "LOSS",
-                        "edge": 0.24568606977877405
+                        "edge": 0.04884486502789431
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "pirates ml vs brewers",
-                        "odds": 129,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "padres total under 4.5",
+                        "odds": -135,
+                        "wager": 0.26,
+                        "profit": -0.26,
                         "result": "LOSS",
-                        "edge": 0.2839102627929121
+                        "edge": 0.04884486502789431
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "san diego padres ml vs arizona diamondbacks",
-                        "odds": 104,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "brewers ml vs pirates",
+                        "odds": -141,
+                        "wager": 0.26,
+                        "profit": -0.26,
                         "result": "LOSS",
-                        "edge": 0.23700437008165848
+                        "edge": 0.04306795686112408
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "san diego padres ml vs arizona diamondbacks",
-                        "odds": 104,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "white sox ml vs red sox",
+                        "odds": 122,
+                        "wager": 0.27,
+                        "profit": -0.27,
                         "result": "LOSS",
-                        "edge": 0.22762367187761795
+                        "edge": 0.194938868015736
                     },
                     {
-                        "date": "08/03",
+                        "date": "08/04",
                         "league": "MLB",
-                        "selection": "san diego padres ml vs arizona diamondbacks",
-                        "odds": 104,
-                        "wager": 0.28,
-                        "profit": -0.28,
+                        "selection": "white sox ml vs red sox",
+                        "odds": 120,
+                        "wager": 0.27,
+                        "profit": -0.27,
                         "result": "LOSS",
-                        "edge": 0.13078263460421097
+                        "edge": 0.2709224061532454
+                    },
+                    {
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "white sox ml vs red sox",
+                        "odds": 120,
+                        "wager": 0.27,
+                        "profit": -0.27,
+                        "result": "LOSS",
+                        "edge": 0.1536249951882796
+                    },
+                    {
+                        "date": "08/04",
+                        "league": "MLB",
+                        "selection": "white sox ml vs red sox",
+                        "odds": 116,
+                        "wager": 0.27,
+                        "profit": -0.27,
+                        "result": "LOSS",
+                        "edge": 0.1677484137040598
                     }
                 ]
             }
@@ -781,21 +691,21 @@ window.QUARRY_STATS = {
             }
         },
         "Quarry Intelligence": {
-            "roi": 1.9,
-            "net": 30.3,
+            "roi": 1.5,
+            "net": 24.33,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
-            "roi": 5.0,
-            "net": 40.16,
-            "sample": 1819,
-            "record": "976-843-0"
+            "roi": 4.5,
+            "net": 36.02,
+            "sample": 1829,
+            "record": "978-851-0"
         },
         "carnelian": {
-            "roi": -1.2,
-            "net": -9.86,
-            "sample": 3242,
-            "record": "1601-1641-0"
+            "roi": -1.4,
+            "net": -11.7,
+            "sample": 3268,
+            "record": "1611-1657-0"
         }
     }
 };
