@@ -1,106 +1,112 @@
-# 📝 Daily Action Log (Aug 04, 2026)
+# 📝 Daily Action Log (Aug 05, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | as vs reds under 9.5 | -110 | 0.82 | ✅ | +0.75u |
-| MLB | pirates vs brewers under 8 | -110 | 0.82 | ✅ | +0.75u |
-| MLB | toronto tempo +12 vs golden state valkyries | -110 | 0.82 | ✅ | +0.75u |
-| MLB | rays vs rockies over 11 | -110 | 0.60 | ✅ | +0.55u |
-| MLB | rays -1.5 vs rockies | -110 | 0.57 | ✅ | +0.52u |
-| Other | golden state valkyries -11.5 vs toronto tempo | -110 | 0.57 | ❌ | -0.57u |
-| MLB | twins vs royals under 9 | -110 | 0.72 | ❌ | -0.72u |
-| MLB | dodgers vs cubs over 9 | -110 | 0.72 | ❌ | -0.72u |
-| MLB | nationals vs phillies over 9 | -110 | 0.74 | ❌ | -0.74u |
-| MLB | athletics vs reds under 9 | -110 | 0.80 | ❌ | -0.80u |
-| MLB | mets vs guardians under 7.5 | -110 | 0.82 | ❌ | -0.82u |
-| MLB | white sox ml vs red sox | +120 | 1.00 | ❌ | -1.00u |
-| WNBA | toronto tempo +13.5 vs golden state valkyries | -110 | 1.00 | ❌ | -1.00u |
+| WNBA | storm vs liberty under 183.5 | -110 | 0.61 | ✅ | +0.55u |
+| WNBA | storm vs liberty under 184.5 | -110 | 0.60 | ✅ | +0.55u |
+| MLB | blue jays vs astros over 8 | -110 | 0.57 | ✅ | +0.52u |
+| Other | ferencvaros -0.75 vs gornik zabrze | -110 | 0.53 | ✅ | +0.48u |
+| WNBA | mystics +3.5 vs wings | -110 | 0.52 | ✅ | +0.47u |
+| NHL | aarhus gymnastikforening -0.75 vs sabah baku | -110 | 0.50 | ✅ | +0.45u |
+| Other | toluca -1.25 vs seattle sounders fc | -110 | 0.48 | ✅ | +0.44u |
+| WNBA | storm +9.5 vs liberty | -110 | 0.40 | ✅ | +0.36u |
+| WNBA | storm +8.5 vs liberty | -110 | 0.39 | ✅ | +0.35u |
+| WNBA | wings -1.5 vs mystics | -110 | 0.41 | ❌ | -0.41u |
+| Other | sk brann -1 vs apollon | -110 | 0.50 | ❌ | -0.50u |
+| NHL | giants vs rangers | +148 | 0.64 | ❌ | -0.64u |
+| WNBA | mystics vs dallas wings over 166.5 | -110 | 0.64 | ❌ | -0.64u |
+| WNBA | storm +9.5 | -110 | 0.64 | ❌ | -0.64u |
+| WNBA | sparks vs sky over 188.5 | -110 | 0.64 | ❌ | -0.64u |
+| Other | cardinals vs yankees over 8.5 | -110 | 0.64 | ❌ | -0.64u |
+| MLB | astros -1.5 vs blue jays | -110 | 0.64 | ❌ | -0.64u |
+| WNBA | mercury +6.5 vs dream | -110 | 0.64 | ❌ | -0.64u |
 
-**Daily PnL: -3.07 Units**
+**Daily PnL: -1.21 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | dodgers vs cubs | +183 | 0.42 | ✅ | +0.77u |
-| MLB | tigers vs mariners | +126 | 0.42 | ✅ | +0.53u |
-| MLB | as vs reds under 9.5 | -110 | 0.34 | ✅ | +0.31u |
-| MLB | pirates vs brewers under 8 | -110 | 0.34 | ✅ | +0.31u |
-| MLB | toronto tempo +12 vs golden state valkyries | -110 | 0.34 | ✅ | +0.31u |
-| MLB | rays vs rockies over 11 | -110 | 0.25 | ✅ | +0.23u |
-| MLB | rays -1.5 vs rockies | -110 | 0.24 | ✅ | +0.22u |
-| Other | martin damm +1.5 | +102 | 0.18 | ❌ | -0.18u |
-| MLB | mlb mets +3.5 vs guardians / mlb red sox +3.5 vs white sox / mlb giants vs rangers over 4.5 / mlb diamondbacks +3.5 vs padres | -110 | 0.18 | ❌ | -0.18u |
-| MLB | as vs reds over 9 | -110 | 0.20 | ❌ | -0.20u |
-| Other | mattia bellucci ml vs baez | +104 | 0.22 | ❌ | -0.22u |
-| Other | adrian mannarino +2.5 vs jacob fearnley | -110 | 0.22 | ❌ | -0.22u |
-| Other | hubert hurkacz vs marcos giron total over 23 | -110 | 0.22 | ❌ | -0.22u |
-| Other | crvena zvezda -1 | -110 | 0.23 | ❌ | -0.23u |
-| MLB | padres ml vs diamondbacks | +105 | 0.24 | ❌ | -0.24u |
-| Other | golden state valkyries -11.5 vs toronto tempo | -110 | 0.24 | ❌ | -0.24u |
-| Other | m.chwalinska ml | +110 | 0.29 | ❌ | -0.29u |
-| Other | l.darderi ml vs gabriel diallo | +110 | 0.29 | ❌ | -0.29u |
-| MLB | twins vs royals under 9 | -110 | 0.30 | ❌ | -0.30u |
-| MLB | dodgers vs cubs over 9 | -110 | 0.30 | ❌ | -0.30u |
+| WNBA | storm vs liberty under 183.5 | -110 | 0.30 | ✅ | +0.27u |
+| WNBA | storm vs liberty under 184.5 | -110 | 0.29 | ✅ | +0.26u |
+| MLB | blue jays vs astros over 8 | -110 | 0.28 | ✅ | +0.25u |
+| MLB | dodgers vs cubs over 9.5 | +100 | 0.25 | ✅ | +0.25u |
+| Other | ferencvaros -0.75 vs gornik zabrze | -110 | 0.26 | ✅ | +0.24u |
+| WNBA | mystics +3.5 vs wings | -110 | 0.25 | ✅ | +0.23u |
+| NHL | aarhus gymnastikforening -0.75 vs sabah baku | -110 | 0.24 | ✅ | +0.22u |
+| Other | toluca -1.25 vs seattle sounders fc | -110 | 0.23 | ✅ | +0.21u |
+| WNBA | storm +9.5 vs liberty | -110 | 0.20 | ✅ | +0.18u |
+| WNBA | storm +8.5 vs liberty | -110 | 0.19 | ✅ | +0.17u |
+| WNBA | wings vs mystics over 165.5 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | minnesota twins ml vs kansas city royals | +108 | 0.12 | ❌ | -0.12u |
+| Other | atp tien ml vs monfils / atp borges ml vs etcheverry | +104 | 0.16 | ❌ | -0.16u |
+| MLB | mets vs guardians | -103 | 0.17 | ❌ | -0.17u |
+| MLB | as vs reds over 9.5 | -110 | 0.17 | ❌ | -0.17u |
+| MLB | houston astros -1.5 vs toronto blue jays | +105 | 0.19 | ❌ | -0.19u |
+| WNBA | wings -1.5 vs mystics | -110 | 0.20 | ❌ | -0.20u |
+| MLB | miami marlins ml vs atlanta braves | +116 | 0.22 | ❌ | -0.22u |
+| MLB | white sox vs red sox | +108 | 0.22 | ❌ | -0.22u |
+| Other | humbert to win 2-0 | +115 | 0.23 | ❌ | -0.23u |
 
-**Daily PnL: -4.98 Units**
+**Daily PnL: -4.86 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | toronto tempo vs golden state valkyries over 168 | -110 | 0.27 | ✅ | +0.25u |
-| MLB | rays vs rockies over 11 | -110 | 0.27 | ✅ | +0.25u |
-| MLB | as vs reds under 9.5 | -110 | 0.27 | ✅ | +0.25u |
-| MLB | pirates vs brewers under 8 | -110 | 0.27 | ✅ | +0.25u |
-| MLB | toronto tempo +12 vs golden state valkyries | -110 | 0.27 | ✅ | +0.25u |
-| MLB | phillies -1.5 vs nationals | -120 | 0.27 | ✅ | +0.23u |
-| MLB | phillies -1.5 vs nationals | -120 | 0.27 | ✅ | +0.23u |
-| MLB | astros ml vs blue jays | -130 | 0.12 | ❌ | -0.12u |
-| MLB | phillies -1.5 vs nationals | -134 | 0.20 | ❌ | -0.20u |
-| MLB | 1st 7 innings diamondbacks ml vs padres | -140 | 0.22 | ❌ | -0.22u |
-| MLB | houston astros ml vs toronto blue jays | -140 | 0.23 | ❌ | -0.23u |
-| MLB | red sox ml vs white sox | -136 | 0.25 | ❌ | -0.25u |
-| MLB | white sox total under 4.5 | -135 | 0.26 | ❌ | -0.26u |
-| MLB | 1st 7 innings red sox ml vs white sox | -135 | 0.26 | ❌ | -0.26u |
-| MLB | padres total under 4.5 | -135 | 0.26 | ❌ | -0.26u |
-| MLB | brewers ml vs pirates | -141 | 0.26 | ❌ | -0.26u |
-| MLB | white sox ml vs red sox | +122 | 0.27 | ❌ | -0.27u |
-| MLB | white sox ml vs red sox | +120 | 0.27 | ❌ | -0.27u |
-| MLB | white sox ml vs red sox | +120 | 0.27 | ❌ | -0.27u |
-| MLB | white sox ml vs red sox | +116 | 0.27 | ❌ | -0.27u |
+| WNBA | storm vs liberty under 182.5 | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | mystics +3.5 vs wings | -110 | 0.16 | ✅ | +0.15u |
+| Other | toluca -1.25 vs seattle sounders fc | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | storm vs liberty under 183.5 | -110 | 0.16 | ✅ | +0.15u |
+| NHL | aarhus gymnastikforening -0.75 vs sabah baku | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | storm vs liberty under 183.5 | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | storm +8.5 vs liberty | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | mystics +3.5 vs wings | -110 | 0.16 | ✅ | +0.15u |
+| MLB | blue jays vs astros over 8 | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | storm vs liberty under 184.5 | -110 | 0.16 | ✅ | +0.15u |
+| Other | ferencvaros -0.75 vs gornik zabrze | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | wings vs mystics over 165.5 | -110 | 0.16 | ✅ | +0.15u |
+| WNBA | mystics +3.5 vs wings | -110 | 0.16 | ✅ | +0.15u |
+| MLB | pirates vs brewers | -130 | 0.16 | ✅ | +0.12u |
+| NHL | giants vs rangers | +148 | 0.16 | ❌ | -0.16u |
+| NHL | giants vs rangers | +148 | 0.16 | ❌ | -0.16u |
+| NHL | giants vs rangers | +148 | 0.16 | ❌ | -0.16u |
+| NHL | giants vs rangers | +148 | 0.16 | ❌ | -0.16u |
+| MLB | pirates vs brewers | +121 | 0.16 | ❌ | -0.16u |
+| MLB | white sox ml vs red sox | +121 | 0.16 | ❌ | -0.16u |
 
-**Daily PnL: -6.32 Units**
+**Daily PnL: -5.83 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | unam pumas vs charlotte | +170 | 1.59 | ❌ | -1.59u |
-| Other | bodo glimt vs union saint-gilloise | +145 | 1.80 | ❌ | -1.80u |
-| WNBA | toronto tempo +13.5 vs golden state valkyries | -109 | 3.00 | ❌ | -3.00u |
+| WNBA | storm vs liberty under 184.5 | -109 | 2.29 | ✅ | +2.08u |
+| MLB | pirates ml vs brewers | +118 | 1.82 | ❌ | -1.82u |
+| WNBA | storm +9.5 | -109 | 2.95 | ❌ | -2.95u |
+| WNBA | mystics vs dallas wings over 166.5 | -109 | 2.95 | ❌ | -2.95u |
 
-**Daily PnL: -6.39 Units**
+**Daily PnL: -5.64 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | boston | -120 | 0.83 | ✅ | +0.69u |
-| MLB | cardinals vs yankees | +179 | 0.83 | ❌ | -0.83u |
-| Other | bodo glimt vs union saint-gilloise | +145 | 0.83 | ❌ | -0.83u |
-| MLB | as vs reds | +120 | 0.83 | ❌ | -0.83u |
-| MLB | white sox ml vs red sox | +116 | 0.83 | ❌ | -0.83u |
-| MLB | colorado rockies +1.5 | -110 | 0.83 | ❌ | -0.83u |
-| MLB | padres ml vs diamondbacks | -115 | 0.83 | ❌ | -0.83u |
-| MLB | astros ml vs blue jays | -125 | 0.83 | ❌ | -0.83u |
-| MLB | houston astros ml vs toronto blue jays | -131 | 0.83 | ❌ | -0.83u |
-| MLB | seattle mariners ml vs detroit tigers | -142 | 0.83 | ❌ | -0.83u |
-| MLB | braves ml vs marlins | -145 | 0.83 | ❌ | -0.83u |
-| MLB | brewers ml vs pirates | -168 | 0.83 | ❌ | -0.83u |
+| MLB | pirates vs brewers | -118 | 0.83 | ✅ | +0.70u |
+| NHL | giants vs rangers | -156 | 0.83 | ✅ | +0.53u |
+| MLB | white sox ml vs red sox | +115 | 0.83 | ❌ | -0.83u |
+| MLB | dodgers ml vs cubs | +115 | 0.83 | ❌ | -0.83u |
+| MLB | seattle mariners ml vs detroit tigers | -110 | 0.83 | ❌ | -0.83u |
+| MLB | braves ml vs marlins | -120 | 0.83 | ❌ | -0.83u |
+| MLB | orioles ml vs angels | -120 | 0.83 | ❌ | -0.83u |
+| MLB | milwaukee brewers ml vs pittsburgh pirates | -128 | 0.83 | ❌ | -0.83u |
+| MLB | brewers ml vs pirates | -131 | 0.83 | ❌ | -0.83u |
+| MLB | padres ml vs diamondbacks | -131 | 0.83 | ❌ | -0.83u |
+| MLB | red sox ml vs white sox | -141 | 0.83 | ❌ | -0.83u |
+| MLB | astros ml vs blue jays | -185 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -8.44 Units**
+**Daily PnL: -7.06 Units**
 
 
 ### V2 Diamond Action
