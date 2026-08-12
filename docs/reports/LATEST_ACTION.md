@@ -1,121 +1,117 @@
-# 📝 Daily Action Log (Aug 10, 2026)
+# 📝 Daily Action Log (Aug 11, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | rangers vs angels under 8 | -110 | 0.79 | ✅ | +0.72u |
-| WNBA | sky vs storm over 177.5 | -110 | 0.74 | ✅ | +0.67u |
-| WNBA | toronto tempo +15 vs dream | -110 | 0.73 | ✅ | +0.66u |
-| Other | orioles vs twins over 8.5 | -110 | 0.62 | ✅ | +0.56u |
-| NHL | rangers vs angels | -110 | 0.62 | ✅ | +0.56u |
-| MLB | event texas rangers vs los angeles angels | -110 | 0.54 | ✅ | +0.49u |
-| MLB | phillies vs cardinals over 9 | -110 | 0.48 | ✅ | +0.44u |
-| MLB | rockies vs diamondbacks over 8.5 | -110 | 0.47 | ✅ | +0.43u |
-| MLB | rays vs as over 10 | -110 | 0.47 | ✅ | +0.43u |
-| WNBA | dream -14.5 vs toronto tempo | -110 | 0.47 | ❌ | -0.47u |
-| MLB | brewers vs padres over 7 | -110 | 0.47 | ❌ | -0.47u |
-| WNBA | storm +2.5 vs sky | -110 | 0.52 | ❌ | -0.52u |
-| MLB | orioles ml vs twins | -110 | 0.62 | ❌ | -0.62u |
-| MLB | mets vs braves under 8.5 | -110 | 0.74 | ❌ | -0.74u |
-| MLB | rangers ml vs angels | -110 | 0.86 | ❌ | -0.86u |
-| Other | nakashima ml vs darderi | -230 | 0.86 | ❌ | -0.86u |
+| WNBA | mercury -1 vs sparks | -110 | 0.72 | ✅ | +0.65u |
+| MLB | royals vs dodgers over 8 | -110 | 0.70 | ✅ | +0.64u |
+| WNBA | aces -6.5 vs mystics | -110 | 0.68 | ✅ | +0.62u |
+| Other | ind. rivadavia vs fluminense under 2.5 | -110 | 0.55 | ✅ | +0.50u |
+| MLB | rays vs as over 10 | -110 | 0.51 | ✅ | +0.46u |
+| WNBA | fever -2.5 vs liberty | -110 | 0.58 | ❌ | -0.58u |
+| Tennis | #belinda bencic vs #cori gauff over 21.5 | -110 | 0.70 | ❌ | -0.70u |
+| WNBA | liberty +4.5 vs fever | -110 | 0.73 | ❌ | -0.73u |
+| WNBA | mystics +8.5 vs aces | -110 | 0.73 | ❌ | -0.73u |
+| MLB | red sox vs blue jays under 7.5 | -110 | 0.74 | ❌ | -0.74u |
+| WNBA | liberty +3 vs fever | -110 | 0.74 | ❌ | -0.74u |
+| MLB | red sox ml vs blue jays | +130 | 0.87 | ❌ | -0.87u |
+| WNBA | sparks -1 vs mercury | -110 | 0.87 | ❌ | -0.87u |
+| MLB | rockies vs diamondbacks over 9 | -110 | 0.87 | ❌ | -0.87u |
 
-**Daily PnL: +0.42 Units**
+**Daily PnL: -3.96 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | rangers vs angels under 8 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | orioles vs twins | +109 | 0.32 | ✅ | +0.35u |
-| WNBA | sky vs storm over 177.5 | -110 | 0.37 | ✅ | +0.34u |
-| WNBA | toronto tempo +15 vs dream | -110 | 0.36 | ✅ | +0.33u |
-| Other | orioles vs twins over 8.5 | -110 | 0.30 | ✅ | +0.27u |
-| NHL | rangers vs angels | -110 | 0.30 | ✅ | +0.27u |
-| MLB | event texas rangers vs los angeles angels | -110 | 0.26 | ✅ | +0.24u |
-| MLB | phillies vs cardinals over 9 | -110 | 0.24 | ✅ | +0.22u |
-| MLB | rockies vs diamondbacks over 8.5 | -110 | 0.23 | ✅ | +0.21u |
-| MLB | rays vs as over 10 | -110 | 0.23 | ✅ | +0.21u |
-| MLB | red sox vs blue jays under 8.5 | -110 | 0.23 | ✅ | +0.21u |
-| MLB | pete alonso total bases over 1.5 | +102 | 0.18 | ❌ | -0.18u |
-| MLB | cardinals ml vs phillies | +104 | 0.20 | ❌ | -0.20u |
-| WNBA | dream -14.5 vs toronto tempo | -110 | 0.23 | ❌ | -0.23u |
-| MLB | brewers vs padres over 7 | -110 | 0.23 | ❌ | -0.23u |
-| WNBA | toronto tempo +12 vs dream | -110 | 0.23 | ❌ | -0.23u |
-| MLB | red sox vs blue jays over 8.5 | +100 | 0.25 | ❌ | -0.25u |
-| WNBA | storm +2.5 vs sky | -110 | 0.26 | ❌ | -0.26u |
-| MLB | orioles ml vs twins | -110 | 0.30 | ❌ | -0.30u |
-| MLB | padres ml vs brewers | +105 | 0.34 | ❌ | -0.34u |
+| Combat | ananias mulumba vs tom pagliarulo tom pagliarulo | +124 | 0.36 | ✅ | +0.45u |
+| WNBA | mercury -1 vs sparks | -110 | 0.31 | ✅ | +0.28u |
+| MLB | royals vs dodgers over 8 | -110 | 0.30 | ✅ | +0.27u |
+| WNBA | aces -6.5 vs mystics | -110 | 0.29 | ✅ | +0.26u |
+| MLB | orioles vs twins | +104 | 0.24 | ✅ | +0.25u |
+| Other | ind. rivadavia vs fluminense under 2.5 | -110 | 0.23 | ✅ | +0.21u |
+| MLB | rays vs as over 10 | -110 | 0.22 | ✅ | +0.20u |
+| WNBA | mystics vs aces under 169.5 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | brewers vs padres over 7.5 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | rockies vs diamondbacks under 9.5 | -110 | 0.16 | ✅ | +0.15u |
+| MLB | phillies vs cardinals under 8 | -110 | 0.16 | ✅ | +0.15u |
+| MLB | reds vs white sox under 8 | +100 | 0.17 | ❌ | -0.17u |
+| MLB | royals vs dodgers under 8 | -110 | 0.17 | ❌ | -0.17u |
+| MLB | marlins f5 ml vs pirates | +106 | 0.18 | ❌ | -0.18u |
+| MLB | astros ml vs giants / dodgers ml vs royals | +110 | 0.22 | ❌ | -0.22u |
+| MLB | san diego padres ml vs milwaukee brewers | +112 | 0.24 | ❌ | -0.24u |
+| WNBA | fever -2.5 vs liberty | -110 | 0.24 | ❌ | -0.24u |
+| MLB | mariners ml vs yankees | +115 | 0.29 | ❌ | -0.29u |
+| Tennis | #belinda bencic vs #cori gauff over 21.5 | -110 | 0.30 | ❌ | -0.30u |
+| MLB | red sox vs blue jays under 7.5 | -110 | 0.31 | ❌ | -0.31u |
 
-**Daily PnL: -3.75 Units**
+**Daily PnL: -4.89 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | sky vs storm over 177.5 | -110 | 0.36 | ✅ | +0.33u |
-| WNBA | sky vs storm over 177.5 | -110 | 0.36 | ✅ | +0.33u |
-| NHL | rangers vs angels under 8 | -110 | 0.36 | ✅ | +0.33u |
-| MLB | phillies vs cardinals over 9 | -110 | 0.36 | ✅ | +0.33u |
-| MLB | rockies vs diamondbacks over 8.5 | -110 | 0.36 | ✅ | +0.33u |
-| WNBA | toronto tempo +15 vs dream | -110 | 0.36 | ✅ | +0.33u |
-| NHL | rangers vs angels under 8 | -110 | 0.36 | ✅ | +0.33u |
-| MLB | red sox vs blue jays under 8.5 | -110 | 0.36 | ✅ | +0.33u |
-| MLB | atlanta braves ml vs new york mets | -140 | 0.35 | ❌ | -0.35u |
-| MLB | diamondbacks ml vs rockies | +195 | 0.36 | ❌ | -0.36u |
-| MLB | mets ml vs braves | +125 | 0.36 | ❌ | -0.36u |
-| MLB | padres ml vs brewers | +111 | 0.36 | ❌ | -0.36u |
-| MLB | padres ml vs brewers | +105 | 0.36 | ❌ | -0.36u |
-| MLB | padres ml vs brewers | +105 | 0.36 | ❌ | -0.36u |
-| MLB | philadelphia phillies ml vs st. louis cardinals | -105 | 0.36 | ❌ | -0.36u |
-| MLB | rangers ml vs angels | -106 | 0.36 | ❌ | -0.36u |
-| MLB | rangers ml vs angels | -110 | 0.36 | ❌ | -0.36u |
-| MLB | mets vs braves under 8.5 | -110 | 0.36 | ❌ | -0.36u |
-| WNBA | storm +2.5 vs sky | -110 | 0.36 | ❌ | -0.36u |
-| WNBA | dream -14.5 vs toronto tempo | -110 | 0.36 | ❌ | -0.36u |
+| WNBA | mercury -1 vs sparks | -110 | 0.36 | ✅ | +0.33u |
+| Other | ind. rivadavia vs fluminense under 2.5 | -110 | 0.36 | ✅ | +0.33u |
+| MLB | royals vs dodgers over 8 | -110 | 0.36 | ✅ | +0.33u |
+| WNBA | fever -2.5 vs liberty | -110 | 0.36 | ✅ | +0.33u |
+| MLB | milwaukee brewers ml vs san diego padres | -127 | 0.17 | ❌ | -0.17u |
+| MLB | red sox ml vs blue jays | +130 | 0.36 | ❌ | -0.36u |
+| MLB | red sox ml vs blue jays | +126 | 0.36 | ❌ | -0.36u |
+| MLB | mets ml vs braves | +110 | 0.36 | ❌ | -0.36u |
+| MLB | padres ml vs brewers | +110 | 0.36 | ❌ | -0.36u |
+| MLB | padres ml vs brewers | +110 | 0.36 | ❌ | -0.36u |
+| MLB | padres ml vs brewers | +107 | 0.36 | ❌ | -0.36u |
+| MLB | guardians ml vs tigers | +105 | 0.36 | ❌ | -0.36u |
+| MLB | miami marlins ml vs pittsburgh pirates | +105 | 0.36 | ❌ | -0.36u |
+| MLB | miami marlins ml vs pittsburgh pirates | +105 | 0.36 | ❌ | -0.36u |
+| MLB | rockies vs diamondbacks over 9 | -110 | 0.36 | ❌ | -0.36u |
+| WNBA | liberty +3 vs fever | -110 | 0.36 | ❌ | -0.36u |
+| Tennis | #belinda bencic vs #cori gauff over 21.5 | -110 | 0.36 | ❌ | -0.36u |
+| MLB | red sox vs blue jays under 7.5 | -110 | 0.36 | ❌ | -0.36u |
+| WNBA | liberty +3 vs fever | -110 | 0.36 | ❌ | -0.36u |
+| WNBA | liberty +3 vs fever | -110 | 0.36 | ❌ | -0.36u |
 
-**Daily PnL: -4.57 Units**
+**Daily PnL: -7.14 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | toronto tempo +15 vs dream | -109 | 3.00 | ✅ | +2.73u |
-| Soccer | odense boldklub vs silkeborg if | +170 | 1.74 | ❌ | -1.74u |
-| WNBA | dream -14.5 vs toronto tempo | -109 | 2.40 | ❌ | -2.40u |
-| MLB | diamondbacks ml vs rockies | +195 | 2.57 | ❌ | -2.57u |
+| WNBA | aces -6.5 vs mystics | -109 | 2.85 | ✅ | +2.59u |
+| WNBA | mercury -1 vs sparks | -109 | 2.17 | ✅ | +1.97u |
 
-**Daily PnL: -3.98 Units**
+**Daily PnL: +4.56 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | mets vs braves | +135 | 0.83 | ✅ | +1.12u |
-| NBA | odds bk vs moss | +225 | 0.83 | ❌ | -0.83u |
-| MLB | boston red sox -1.5 vs toronto blue jays | +120 | 0.83 | ❌ | -0.83u |
-| MLB | padres ml vs brewers | +111 | 0.83 | ❌ | -0.83u |
-| MLB | phillies vs cardinals | -104 | 0.83 | ❌ | -0.83u |
-| MLB | rangers ml vs angels | -106 | 0.83 | ❌ | -0.83u |
-| MLB | brewers vs padres | -109 | 0.83 | ❌ | -0.83u |
-| MLB | boston red sox -1 | -131 | 0.83 | ❌ | -0.83u |
-| MLB | mets ml vs braves | -140 | 0.83 | ❌ | -0.83u |
-| MLB | braves ml vs mets | -143 | 0.83 | ❌ | -0.83u |
-| MLB | red sox ml vs blue jays | -146 | 0.83 | ❌ | -0.83u |
-| MLB | boston red sox ml vs toronto blue jays | -148 | 0.83 | ❌ | -0.83u |
+| Other | levski sofia vs kairat | +180 | 0.83 | ✅ | +1.49u |
+| MLB | reds vs white sox | +145 | 0.83 | ✅ | +1.20u |
+| Combat | ananias mulumba vs tom pagliarulo | +140 | 0.83 | ✅ | +1.16u |
+| NCAAF | abe alsaghir vs fabrizio escarrega | +120 | 0.83 | ✅ | +1.00u |
+| MLB | andrew vaughn hr over 0.5 | +720 | 0.83 | ❌ | -0.83u |
+| MLB | trent grisham hr over 0.5 | +320 | 0.83 | ❌ | -0.83u |
+| Other | joseph kropschot ml vs jon kunneman | +215 | 0.83 | ❌ | -0.83u |
+| NCAAF | gamba osaka vs gangwon | +180 | 0.83 | ❌ | -0.83u |
+| MLB | mariners ml vs yankees | +115 | 0.83 | ❌ | -0.83u |
+| MLB | mets ml vs braves | +110 | 0.83 | ❌ | -0.83u |
+| MLB | padres ml vs brewers | +107 | 0.83 | ❌ | -0.83u |
+| MLB | miami marlins ml vs pittsburgh pirates | +105 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -8.01 Units**
+**Daily PnL: -1.78 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | rangers vs angels under 8 | -110 | 2.00 | ✅ | +1.82u |
-| NHL | rangers vs angels | -115 | 2.00 | ✅ | +1.74u |
-| NHL | rangers vs angels under 8.5 | -110 | 1.39 | ✅ | +1.26u |
-| NBA | odds bk vs moss | +225 | 2.00 | ❌ | -2.00u |
+| Combat | ananias mulumba vs tom pagliarulo | +140 | 2.00 | ✅ | +2.80u |
+| NCAAF | abe alsaghir vs fabrizio escarrega | +120 | 2.00 | ✅ | +2.40u |
+| NHL | rangers vs angels under 9 | -110 | 2.00 | ✅ | +1.82u |
+| NCAAF | gamba osaka vs gangwon | +180 | 2.00 | ❌ | -2.00u |
 
-**Daily PnL: +2.82 Units**
+**Daily PnL: +5.02 Units**
 
 
 ### V1 Pyrite Action
