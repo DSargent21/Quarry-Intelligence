@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-08-23 05:33 ET",
+        "last_update": "2026-08-24 05:53 ET",
         "status": "NOMINAL",
-        "cache_bust": 1787477619.972121
+        "cache_bust": 1787565218.561891
     },
     "models": {
         "pyrite": {
@@ -298,22 +298,22 @@ window.QUARRY_STATS = {
             }
         },
         "obsidian": {
-            "roi": -7.4,
-            "net": -175.9,
-            "wins": 1349,
-            "losses": 1507,
+            "roi": -7.3,
+            "net": -172.49,
+            "wins": 1351,
+            "losses": 1505,
             "pushes": 0,
-            "record": "1349-1507-0",
-            "win_rate": 47.2,
+            "record": "1351-1505-0",
+            "win_rate": 47.3,
             "sample": 2856,
             "bets_day": 12.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Aug 22, 2026",
-                "record": "3-9-0",
-                "win_rate": 25.0,
-                "net": -4.78,
-                "roi": -48.0,
+                "record": "4-8-0",
+                "win_rate": 33.3,
+                "net": -2.99,
+                "roi": -30.0,
                 "ledger": [
                     {
                         "date": "08/22",
@@ -324,6 +324,16 @@ window.QUARRY_STATS = {
                         "profit": 1.3,
                         "result": "WIN",
                         "edge": 0.21999999999999997
+                    },
+                    {
+                        "date": "08/22",
+                        "league": "MLB",
+                        "selection": "baltimore orioles ml vs tampa bay rays",
+                        "odds": 115,
+                        "wager": 0.83,
+                        "profit": 0.95,
+                        "result": "WIN",
+                        "edge": 0.2066666666666666
                     },
                     {
                         "date": "08/22",
@@ -354,16 +364,6 @@ window.QUARRY_STATS = {
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.16571428571428576
-                    },
-                    {
-                        "date": "08/22",
-                        "league": "MLB",
-                        "selection": "baltimore orioles ml vs tampa bay rays",
-                        "odds": 115,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.2066666666666666
                     },
                     {
                         "date": "08/22",
@@ -439,40 +439,60 @@ window.QUARRY_STATS = {
             }
         },
         "quartz": {
-            "roi": 5.1,
-            "net": 60.07,
-            "wins": 388,
-            "losses": 430,
+            "roi": 5.8,
+            "net": 67.99,
+            "wins": 391,
+            "losses": 427,
             "pushes": 0,
-            "record": "388-430-0",
-            "win_rate": 47.4,
+            "record": "391-427-0",
+            "win_rate": 47.8,
             "sample": 818,
             "bets_day": 5.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Aug 22, 2026",
-                "record": "1-8-0",
-                "win_rate": 11.1,
-                "net": -7.46,
-                "roi": -74.6,
+                "record": "3-6-0",
+                "win_rate": 33.3,
+                "net": -2.35,
+                "roi": -23.5,
                 "ledger": [
+                    {
+                        "date": "08/22",
+                        "league": "MLB",
+                        "selection": "baltimore orioles ml vs tampa bay rays",
+                        "odds": 114,
+                        "wager": 1.35,
+                        "profit": 1.55,
+                        "result": "WIN",
+                        "edge": 0.11376355178524428
+                    },
                     {
                         "date": "08/22",
                         "league": "WNBA",
                         "selection": "atlanta dream -5.5 vs phoenix mercury",
                         "odds": -109,
-                        "wager": 1.33,
-                        "profit": 1.21,
+                        "wager": 1.35,
+                        "profit": 1.23,
                         "result": "WIN",
                         "edge": 0.07294941443459979
                     },
                     {
                         "date": "08/22",
                         "league": "NHL",
+                        "selection": "angels vs rangers",
+                        "odds": 108,
+                        "wager": 1.04,
+                        "profit": 1.13,
+                        "result": "WIN",
+                        "edge": 0.05186736029938094
+                    },
+                    {
+                        "date": "08/22",
+                        "league": "NHL",
                         "selection": "coleraine vs carrick rangers",
                         "odds": 245,
-                        "wager": 0.71,
-                        "profit": -0.71,
+                        "wager": 0.72,
+                        "profit": -0.72,
                         "result": "LOSS",
                         "edge": 0.05667494506335119
                     },
@@ -481,38 +501,28 @@ window.QUARRY_STATS = {
                         "league": "Combat",
                         "selection": "mason jones ml vs marquel mederos",
                         "odds": 280,
-                        "wager": 0.93,
-                        "profit": -0.93,
+                        "wager": 0.78,
+                        "profit": -0.78,
                         "result": "LOSS",
-                        "edge": 0.07715028170981392
+                        "edge": 0.06334141468791532
                     },
                     {
                         "date": "08/22",
                         "league": "WNBA",
                         "selection": "indiana fever vs new york liberty under 186",
                         "odds": -109,
-                        "wager": 1.01,
-                        "profit": -1.01,
+                        "wager": 1.03,
+                        "profit": -1.03,
                         "result": "LOSS",
                         "edge": 0.05410974456355344
-                    },
-                    {
-                        "date": "08/22",
-                        "league": "NHL",
-                        "selection": "angels vs rangers",
-                        "odds": 108,
-                        "wager": 1.02,
-                        "profit": -1.02,
-                        "result": "LOSS",
-                        "edge": 0.05186736029938094
                     },
                     {
                         "date": "08/22",
                         "league": "NBA",
                         "selection": "chicago fire vs new york red bulls",
                         "odds": 175,
-                        "wager": 1.12,
-                        "profit": -1.12,
+                        "wager": 1.14,
+                        "profit": -1.14,
                         "result": "LOSS",
                         "edge": 0.08026695461699745
                     },
@@ -521,8 +531,8 @@ window.QUARRY_STATS = {
                         "league": "WNBA",
                         "selection": "connecticut sun +2.5 vs los angeles sparks",
                         "odds": -109,
-                        "wager": 1.22,
-                        "profit": -1.22,
+                        "wager": 1.24,
+                        "profit": -1.24,
                         "result": "LOSS",
                         "edge": 0.06536978600223364
                     },
@@ -531,41 +541,31 @@ window.QUARRY_STATS = {
                         "league": "Other",
                         "selection": "toulouse ml vs lyon",
                         "odds": 162,
-                        "wager": 1.33,
-                        "profit": -1.33,
+                        "wager": 1.35,
+                        "profit": -1.35,
                         "result": "LOSS",
                         "edge": 0.09994855724487767
-                    },
-                    {
-                        "date": "08/22",
-                        "league": "MLB",
-                        "selection": "baltimore orioles ml vs tampa bay rays",
-                        "odds": 114,
-                        "wager": 1.33,
-                        "profit": -1.33,
-                        "result": "LOSS",
-                        "edge": 0.11938882598806472
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": -1.0,
-            "net": -10.04,
-            "wins": 2476,
-            "losses": 2484,
+            "roi": -0.8,
+            "net": -8.15,
+            "wins": 2482,
+            "losses": 2477,
             "pushes": 0,
-            "record": "2476-2484-0",
-            "win_rate": 49.9,
-            "sample": 4960,
+            "record": "2482-2477-0",
+            "win_rate": 50.1,
+            "sample": 4959,
             "bets_day": 48.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Aug 22, 2026",
-                "record": "22-49-0",
-                "win_rate": 31.0,
-                "net": -3.7,
-                "roi": -37.2,
+                "record": "25-45-0",
+                "win_rate": 35.7,
+                "net": -2.7,
+                "roi": -27.6,
                 "ledger": [
                     {
                         "date": "08/22",
@@ -600,6 +600,16 @@ window.QUARRY_STATS = {
                     {
                         "date": "08/22",
                         "league": "MLB",
+                        "selection": "baltimore orioles ml vs tampa bay rays",
+                        "odds": 115,
+                        "wager": 0.14,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.25554738765539126
+                    },
+                    {
+                        "date": "08/22",
+                        "league": "MLB",
                         "selection": "toronto blue jays ml vs new york yankees",
                         "odds": 110,
                         "wager": 0.14,
@@ -621,11 +631,31 @@ window.QUARRY_STATS = {
                         "date": "08/22",
                         "league": "MLB",
                         "selection": "toronto blue jays ml vs new york yankees",
+                        "odds": 100,
+                        "wager": 0.14,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.22236621379852295
+                    },
+                    {
+                        "date": "08/22",
+                        "league": "MLB",
+                        "selection": "toronto blue jays ml vs new york yankees",
                         "odds": -102,
                         "wager": 0.14,
                         "profit": 0.14,
                         "result": "WIN",
                         "edge": 0.11092522592827825
+                    },
+                    {
+                        "date": "08/22",
+                        "league": "MLB",
+                        "selection": "toronto blue jays ml vs new york yankees",
+                        "odds": -104,
+                        "wager": 0.14,
+                        "profit": 0.13,
+                        "result": "WIN",
+                        "edge": 0.20232364476895803
                     },
                     {
                         "date": "08/22",
@@ -645,7 +675,7 @@ window.QUARRY_STATS = {
                         "wager": 0.14,
                         "profit": 0.13,
                         "result": "WIN",
-                        "edge": 0.17665198386884207
+                        "edge": 0.17580720723844045
                     },
                     {
                         "date": "08/22",
@@ -736,36 +766,6 @@ window.QUARRY_STATS = {
                         "profit": 0.13,
                         "result": "WIN",
                         "edge": 0.06264021850767587
-                    },
-                    {
-                        "date": "08/22",
-                        "league": "Other",
-                        "selection": "toronto -3.5 vs hamilton",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.0624614045733497
-                    },
-                    {
-                        "date": "08/22",
-                        "league": "MLB",
-                        "selection": "tampa bay rays vs baltimore orioles under 8",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.061651973497299895
-                    },
-                    {
-                        "date": "08/22",
-                        "league": "Other",
-                        "selection": "ipswich town ml vs sunderland",
-                        "odds": -110,
-                        "wager": 0.14,
-                        "profit": 0.13,
-                        "result": "WIN",
-                        "edge": 0.05626824356260751
                     }
                 ]
             }
@@ -791,21 +791,21 @@ window.QUARRY_STATS = {
             }
         },
         "Quarry Intelligence": {
-            "roi": 1.2,
-            "net": 23.85,
+            "roi": 1.3,
+            "net": 25.93,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
-            "roi": 3.9,
-            "net": 38.62,
-            "sample": 2207,
-            "record": "1178-1029-0"
+            "roi": 4.0,
+            "net": 39.8,
+            "sample": 2206,
+            "record": "1179-1027-0"
         },
         "carnelian": {
-            "roi": -1.5,
-            "net": -14.78,
-            "sample": 3984,
-            "record": "1956-2028-0"
+            "roi": -1.4,
+            "net": -13.87,
+            "sample": 3983,
+            "record": "1958-2025-0"
         }
     }
 };

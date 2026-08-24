@@ -6,52 +6,52 @@
 | WNBA | new york liberty -3 vs indiana fever | -110 | 0.33 | ✅ | +0.30u |
 | WNBA | atlanta dream -5.5 vs phoenix mercury | -110 | 0.33 | ✅ | +0.30u |
 | Other | event hamilton tiger-cats vs toronto argonauts | -110 | 0.28 | ✅ | +0.25u |
-| MLB | st. louis cardinals vs philadelphia phillies over 9 | -110 | 0.26 | ✅ | +0.24u |
+| MLB | st. louis cardinals vs philadelphia phillies over 9 | -110 | 0.27 | ✅ | +0.25u |
 | MLB | detroit tigers vs kansas city royals under 9 | -110 | 0.26 | ✅ | +0.24u |
 | Other | tottenham hotspur vs brentford over 2.5 | -110 | 0.25 | ✅ | +0.23u |
 | NFL | atlanta falcons +3.5 vs indianapolis colts | -110 | 0.24 | ✅ | +0.22u |
-| Other | toronto -4.5 vs hamilton | -110 | 0.23 | ✅ | +0.21u |
 | MLB | minnesota twins vs san diego padres over 8 | -110 | 0.23 | ✅ | +0.21u |
+| Other | toronto -4.5 vs hamilton | -110 | 0.23 | ✅ | +0.21u |
 | MLB | new york mets vs chicago white sox over 8 | -110 | 0.23 | ✅ | +0.21u |
 | MLB | toronto blue jays vs new york yankees over 6.5 | -110 | 0.23 | ✅ | +0.21u |
 | NFL | buffalo bills vs cleveland browns over 36.5 | -110 | 0.23 | ✅ | +0.21u |
 | NFL | philadelphia eagles vs new england patriots over 36 | -110 | 0.23 | ✅ | +0.21u |
 | MLB | cincinnati reds vs arizona diamondbacks over 8 | -110 | 0.21 | ✅ | +0.19u |
-| NFL | baltimore ravens +3 vs minnesota vikings | -110 | 0.20 | ✅ | +0.18u |
 | Other | los angeles rams +1.5 vs new orleans saints | -110 | 0.20 | ✅ | +0.18u |
+| NFL | baltimore ravens +3 vs minnesota vikings | -110 | 0.20 | ✅ | +0.18u |
 | NFL | kansas city chiefs +5.5 vs tampa bay buccaneers | -110 | 0.20 | ✅ | +0.18u |
 | MLB | detroit tigers vs kansas city royals under 8.5 | -110 | 0.20 | ✅ | +0.18u |
 | WNBA | indiana fever +3.5 vs new york liberty | -110 | 0.19 | ❌ | -0.19u |
 | NFL | baltimore ravens +3.5 vs washington commanders | -110 | 0.22 | ❌ | -0.22u |
 
-**Daily PnL: -1.73 Units**
+**Daily PnL: -1.72 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | cincinnati reds ml vs arizona diamondbacks | +157 | 0.16 | ✅ | +0.25u |
-| NHL | angels vs rangers | +153 | 0.16 | ✅ | +0.24u |
-| WNBA | new york liberty -3 vs indiana fever | -110 | 0.16 | ✅ | +0.15u |
-| WNBA | atlanta dream -5.5 vs phoenix mercury | -110 | 0.16 | ✅ | +0.15u |
-| MLB | new york mets ml vs chicago white sox | +102 | 0.12 | ✅ | +0.12u |
-| MLB | st. louis cardinals vs philadelphia phillies over 9 | -110 | 0.13 | ✅ | +0.12u |
+| MLB | cincinnati reds ml vs arizona diamondbacks | +157 | 0.17 | ✅ | +0.27u |
+| NHL | angels vs rangers | +153 | 0.17 | ✅ | +0.26u |
+| MLB | baltimore orioles ml vs tampa bay rays | +115 | 0.17 | ✅ | +0.20u |
+| WNBA | new york liberty -3 vs indiana fever | -110 | 0.17 | ✅ | +0.15u |
+| WNBA | atlanta dream -5.5 vs phoenix mercury | -110 | 0.17 | ✅ | +0.15u |
+| MLB | new york mets ml vs chicago white sox | +102 | 0.13 | ✅ | +0.13u |
+| MLB | st. louis cardinals vs philadelphia phillies over 9 | -110 | 0.14 | ✅ | +0.13u |
 | MLB | detroit tigers vs kansas city royals under 9 | -110 | 0.13 | ✅ | +0.12u |
 | Other | tottenham hotspur vs brentford over 2.5 | -110 | 0.13 | ✅ | +0.12u |
 | NFL | atlanta falcons +3.5 vs indianapolis colts | -110 | 0.12 | ✅ | +0.11u |
-| Other | toronto -4.5 vs hamilton | -110 | 0.11 | ✅ | +0.10u |
-| MLB | minnesota twins vs san diego padres over 8 | -110 | 0.11 | ✅ | +0.10u |
-| MLB | new york mets vs chicago white sox over 8 | -110 | 0.11 | ✅ | +0.10u |
-| MLB | toronto blue jays vs new york yankees over 6.5 | -110 | 0.11 | ✅ | +0.10u |
-| NFL | buffalo bills vs cleveland browns over 36.5 | -110 | 0.11 | ✅ | +0.10u |
-| NFL | philadelphia eagles vs new england patriots over 36 | -110 | 0.11 | ✅ | +0.10u |
-| MLB | cincinnati reds vs arizona diamondbacks over 8 | -110 | 0.10 | ✅ | +0.09u |
-| NFL | baltimore ravens +3 vs minnesota vikings | -110 | 0.10 | ✅ | +0.09u |
-| Other | los angeles rams +1.5 vs new orleans saints | -110 | 0.10 | ✅ | +0.09u |
-| NFL | kansas city chiefs +5.5 vs tampa bay buccaneers | -110 | 0.10 | ✅ | +0.09u |
-| MLB | detroit tigers vs kansas city royals under 8.5 | -110 | 0.10 | ✅ | +0.09u |
+| MLB | minnesota twins vs san diego padres over 8 | -110 | 0.12 | ✅ | +0.11u |
+| Other | toronto -4.5 vs hamilton | -110 | 0.12 | ✅ | +0.11u |
+| MLB | new york mets vs chicago white sox over 8 | -110 | 0.12 | ✅ | +0.11u |
+| MLB | toronto blue jays vs new york yankees over 6.5 | -110 | 0.12 | ✅ | +0.11u |
+| NFL | buffalo bills vs cleveland browns over 36.5 | -110 | 0.12 | ✅ | +0.11u |
+| NFL | philadelphia eagles vs new england patriots over 36 | -110 | 0.12 | ✅ | +0.11u |
+| MLB | cincinnati reds vs arizona diamondbacks over 8 | -110 | 0.11 | ✅ | +0.10u |
+| Other | los angeles rams +1.5 vs new orleans saints | -110 | 0.11 | ✅ | +0.10u |
+| NFL | baltimore ravens +3 vs minnesota vikings | -110 | 0.11 | ✅ | +0.10u |
+| NFL | kansas city chiefs +5.5 vs tampa bay buccaneers | -110 | 0.11 | ✅ | +0.10u |
 
-**Daily PnL: -3.26 Units**
+**Daily PnL: -2.81 Units**
 
 
 ### V5 Sapphire Action
@@ -60,9 +60,12 @@
 | MLB | cincinnati reds ml vs arizona diamondbacks | +157 | 0.14 | ✅ | +0.22u |
 | NHL | angels vs rangers | +157 | 0.14 | ✅ | +0.22u |
 | NHL | angels vs rangers | +153 | 0.14 | ✅ | +0.21u |
+| MLB | baltimore orioles ml vs tampa bay rays | +115 | 0.14 | ✅ | +0.16u |
 | MLB | toronto blue jays ml vs new york yankees | +110 | 0.14 | ✅ | +0.15u |
 | MLB | toronto blue jays ml vs new york yankees | +109 | 0.14 | ✅ | +0.15u |
+| MLB | toronto blue jays ml vs new york yankees | +100 | 0.14 | ✅ | +0.14u |
 | MLB | toronto blue jays ml vs new york yankees | -102 | 0.14 | ✅ | +0.14u |
+| MLB | toronto blue jays ml vs new york yankees | -104 | 0.14 | ✅ | +0.13u |
 | MLB | toronto blue jays ml vs new york yankees | -104 | 0.14 | ✅ | +0.13u |
 | MLB | toronto blue jays ml vs new york yankees | -104 | 0.14 | ✅ | +0.13u |
 | MLB | toronto blue jays ml vs new york yankees | -104 | 0.14 | ✅ | +0.13u |
@@ -74,37 +77,34 @@
 | MLB | minnesota twins vs san diego padres over 8 | -110 | 0.14 | ✅ | +0.13u |
 | Other | toronto -4.5 vs hamilton | -110 | 0.14 | ✅ | +0.13u |
 | NFL | philadelphia eagles vs new england patriots over 36 | -110 | 0.14 | ✅ | +0.13u |
-| Other | toronto -3.5 vs hamilton | -110 | 0.14 | ✅ | +0.13u |
-| MLB | tampa bay rays vs baltimore orioles under 8 | -110 | 0.14 | ✅ | +0.13u |
-| Other | ipswich town ml vs sunderland | -110 | 0.14 | ✅ | +0.13u |
 
-**Daily PnL: -3.70 Units**
+**Daily PnL: -2.70 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| WNBA | atlanta dream -5.5 vs phoenix mercury | -109 | 1.33 | ✅ | +1.21u |
-| NHL | coleraine vs carrick rangers | +245 | 0.71 | ❌ | -0.71u |
-| Combat | mason jones ml vs marquel mederos | +280 | 0.93 | ❌ | -0.93u |
-| WNBA | indiana fever vs new york liberty under 186 | -109 | 1.01 | ❌ | -1.01u |
-| NHL | angels vs rangers | +108 | 1.02 | ❌ | -1.02u |
-| NBA | chicago fire vs new york red bulls | +175 | 1.12 | ❌ | -1.12u |
-| WNBA | connecticut sun +2.5 vs los angeles sparks | -109 | 1.22 | ❌ | -1.22u |
-| Other | toulouse ml vs lyon | +162 | 1.33 | ❌ | -1.33u |
-| MLB | baltimore orioles ml vs tampa bay rays | +114 | 1.33 | ❌ | -1.33u |
+| MLB | baltimore orioles ml vs tampa bay rays | +114 | 1.35 | ✅ | +1.55u |
+| WNBA | atlanta dream -5.5 vs phoenix mercury | -109 | 1.35 | ✅ | +1.23u |
+| NHL | angels vs rangers | +108 | 1.04 | ✅ | +1.13u |
+| NHL | coleraine vs carrick rangers | +245 | 0.72 | ❌ | -0.72u |
+| Combat | mason jones ml vs marquel mederos | +280 | 0.78 | ❌ | -0.78u |
+| WNBA | indiana fever vs new york liberty under 186 | -109 | 1.03 | ❌ | -1.03u |
+| NBA | chicago fire vs new york red bulls | +175 | 1.14 | ❌ | -1.14u |
+| WNBA | connecticut sun +2.5 vs los angeles sparks | -109 | 1.24 | ❌ | -1.24u |
+| Other | toulouse ml vs lyon | +162 | 1.35 | ❌ | -1.35u |
 
-**Daily PnL: -7.46 Units**
+**Daily PnL: -2.35 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | MLB | cincinnati reds ml vs arizona diamondbacks | +157 | 0.83 | ✅ | +1.30u |
+| MLB | baltimore orioles ml vs tampa bay rays | +115 | 0.83 | ✅ | +0.95u |
 | MLB | toronto blue jays ml vs new york yankees | -104 | 0.83 | ✅ | +0.80u |
 | MLB | philadelphia phillies ml vs st. louis cardinals | -140 | 0.83 | ✅ | +0.59u |
 | MLB | pittsburgh pirates ml vs cincinnati reds | +225 | 0.83 | ❌ | -0.83u |
-| MLB | baltimore orioles ml vs tampa bay rays | +115 | 0.83 | ❌ | -0.83u |
 | MLB | toronto blue jays ml vs boston red sox | +105 | 0.83 | ❌ | -0.83u |
 | MLB | new york yankees ml vs toronto blue jays | -104 | 0.83 | ❌ | -0.83u |
 | MLB | chicago white sox ml vs minnesota twins | -105 | 0.83 | ❌ | -0.83u |
@@ -113,7 +113,7 @@
 | MLB | philadelphia phillies ml vs washington nationals | -147 | 0.83 | ❌ | -0.83u |
 | MLB | arizona diamondbacks ml vs cincinnati reds | -155 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -4.78 Units**
+**Daily PnL: -2.99 Units**
 
 
 ### V2 Diamond Action
