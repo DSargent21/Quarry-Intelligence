@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "last_update": "2026-08-26 11:22 UTC",
+    "start_date": "2026-08-26",
+    "days_live": 1,
+    "status": "OPERATIONAL",
+    "policy": {
+      "min_prob": 0.56,
+      "min_edge": 0.01,
+      "max_bets_per_day": 6,
+      "min_capper_cnt_30d": 3,
+      "min_odds": 1.85,
+      "max_odds": 2.2,
+      "discord_only": true
+    },
+    "verification": {
+      "label": "Frozen verification (Jun-Aug 2026, pre-deployment)",
+      "n": 307,
+      "roi": 0.11,
+      "tstat": 2.04,
+      "months_pos": "3/3",
+      "profit": 33.8,
+      "baselines": {
+        "all_discord_roi": -0.031,
+        "top_prob_roi": -0.03
+      },
+      "caveat": "Borderline significant (p~0.04). Top capper ~50% of profit. Graded vs posted odds, not closing lines."
+    }
+  },
+  "stats": {
+    "n": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 0,
+    "wr": null,
+    "roi": null,
+    "net": 0.0,
+    "tstat": null
+  },
+  "baselines": {
+    "all_discord_roi": null,
+    "top_prob_roi": null
+  },
+  "today": [],
+  "by_month": [],
+  "ledger": []
+}

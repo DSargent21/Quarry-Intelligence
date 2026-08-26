@@ -82,6 +82,13 @@ jobs:
             }
           done
 
+      - name: 🔴 Ruby V7 Forward Tracker
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          python3 ruby/forward.py 2>&1 | tee ruby_forward.log
+
       - name: 📦 Archive Pipeline Logs
         if: always()
         uses: actions/upload-artifact@v4
