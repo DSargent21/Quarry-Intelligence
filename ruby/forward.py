@@ -118,7 +118,9 @@ def main():
     if args.start:
         start = args.start
     elif args.reset_start or not meta_prev.get("start_date"):
-        start = pd.Timestamp.now().strftime("%Y-%m-%d")
+        # forward test begins the day after deployment: picks are only counted
+        # from tomorrow onward so the ledger starts clean at 0.
+        start = (pd.Timestamp.now() + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
     else:
         start = meta_prev["start_date"]
 

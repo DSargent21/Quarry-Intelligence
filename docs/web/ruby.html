@@ -15,11 +15,12 @@
             theme: {
                 extend: {
                     colors: {
-                        'ruby-void': '#090101',
+                        'ruby-void': '#070203',
                         'ruby-primary': '#E11D48',
                         'ruby-accent': '#FB7185',
-                        'surgical-red': '#BE123C',
-                        'luxury-gold': '#D4AF37',
+                        'ruby-deep': '#4C0519',
+                        'ruby-glow': '#A30D3A',
+                        'setting-gold': '#D4AF37',
                         'luxury-silver': '#94A3B8',
                         'luxury-white': '#F8FAFC',
                     },
@@ -29,17 +30,22 @@
                         'mono': ['"JetBrains Mono"', 'monospace'],
                     },
                     animation: {
-                        'slow-pan': 'slow-pan 30s ease-in-out infinite alternate',
+                        'facet-pan': 'facet-pan 24s linear infinite',
                         'reveal-up': 'reveal-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'gem-glow': 'gem-glow 5s ease-in-out infinite alternate',
                     },
                     keyframes: {
-                        'slow-pan': {
+                        'facet-pan': {
                             '0%': { backgroundPosition: '0% 0%' },
                             '100%': { backgroundPosition: '100% 100%' }
                         },
                         'reveal-up': {
                             '0%': { opacity: '0', transform: 'translateY(40px)' },
                             '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        'gem-glow': {
+                            '0%': { filter: 'drop-shadow(0 0 18px rgba(225,29,72,0.35))' },
+                            '100%': { filter: 'drop-shadow(0 0 42px rgba(225,29,72,0.65))' }
                         }
                     }
                 }
@@ -48,53 +54,90 @@
     </script>
     <style>
         body {
-            background-color: #090101;
+            background-color: #070203;
             color: #F8FAFC;
             -webkit-font-smoothing: antialiased;
             overflow-x: hidden;
         }
-        .parallax-bg {
+
+        /* Faceted gem backdrop: diagonal facet lines + crimson radial core */
+        .facet-bg {
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at 50% 50%, #1a0505 0%, #090101 100%);
+            inset: 0;
+            z-index: -2;
+            background:
+                radial-gradient(ellipse 80% 60% at 50% 40%, #2a050d 0%, #070203 70%),
+                repeating-linear-gradient(45deg, rgba(225, 29, 72, 0.025) 0 2px, transparent 2px 26px),
+                repeating-linear-gradient(-45deg, rgba(225, 29, 72, 0.018) 0 2px, transparent 2px 30px);
+        }
+        .facet-bg::after {
+            content: "";
+            position: fixed;
+            inset: 0;
             z-index: -1;
+            background: radial-gradient(circle at 85% 12%, rgba(225, 29, 72, 0.14), transparent 45%);
         }
-        .floating-blob {
-            position: absolute; border-radius: 50%; filter: blur(120px);
-            opacity: 0.15; z-index: -1; pointer-events: none;
+
+        /* Gem-cut octagon: notched corners like a polished table */
+        .gem-cut {
+            clip-path: polygon(0 22px, 22px 0, calc(100% - 22px) 0, 100% 22px,
+                100% calc(100% - 22px), calc(100% - 22px) 100%, 22px 100%, 0 calc(100% - 22px));
         }
+        .gem-cut-sm {
+            clip-path: polygon(0 12px, 12px 0, calc(100% - 12px) 0, 100% 12px,
+                100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px));
+        }
+
         .line-divider {
             height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(225, 29, 72, 0.3), transparent);
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.25), rgba(225, 29, 72, 0.4), transparent);
             width: 100%;
         }
+
         .luxury-table th {
             font-family: 'JetBrains Mono', monospace;
             text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.65rem;
-            color: #94A3B8; border-bottom: 1px solid rgba(255,255,255,0.05);
-            padding: 1.2rem 0.8rem; white-space: nowrap;
+            color: #94A3B8; border-bottom: 1px solid rgba(225, 29, 72, 0.15);
+            padding: 1.1rem 0.8rem; white-space: nowrap;
         }
         .luxury-table td {
-            padding: 1.1rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.03);
+            padding: 1rem 0.8rem; border-bottom: 1px solid rgba(255, 255, 255, 0.03);
             font-size: 0.8rem; vertical-align: middle;
         }
-        .big-number { font-size: clamp(6rem, 20vw, 18rem); line-height: 0.8; letter-spacing: -0.05em; }
-        .stat-card {
-            border: 1px solid rgba(255,255,255,0.06);
-            background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
-            transition: border-color .4s;
+        .luxury-table tbody tr:hover { background: rgba(225, 29, 72, 0.04); }
+
+        .big-number {
+            font-size: clamp(4.5rem, 15vw, 14rem);
+            line-height: 0.85;
+            letter-spacing: -0.04em;
         }
-        .stat-card:hover { border-color: rgba(225,29,72,0.35); }
+
+        .stat-card {
+            border: 1px solid rgba(212, 175, 55, 0.12);
+            background: linear-gradient(160deg, rgba(76, 5, 25, 0.35), rgba(7, 2, 3, 0.4));
+            transition: border-color .4s, transform .4s;
+        }
+        .stat-card:hover {
+            border-color: rgba(225, 29, 72, 0.55);
+            transform: translateY(-2px);
+        }
+
+        .gem-dot {
+            width: 0.55rem;
+            height: 0.55rem;
+            transform: rotate(45deg);
+            background: linear-gradient(135deg, #FB7185, #E11D48);
+            display: inline-block;
+        }
+
         ::-webkit-scrollbar { width: 4px; height: 4px; }
-        ::-webkit-scrollbar-track { background: #090101; }
+        ::-webkit-scrollbar-track { background: #070203; }
         ::-webkit-scrollbar-thumb { background: #E11D48; }
     </style>
 </head>
 
 <body class="selection:bg-ruby-primary selection:text-white">
-    <div class="parallax-bg"></div>
-    <div class="floating-blob w-[600px] h-[600px] bg-rose-900 top-[-10%] left-[-10%]" style="animation: slow-pan 20s infinite alternate;"></div>
-    <div class="floating-blob w-[500px] h-[500px] bg-red-950 bottom-[-5%] right-[-5%]" style="animation: slow-pan 25s infinite alternate-reverse;"></div>
+    <div class="facet-bg"></div>
 
     <!-- NAVIGATION -->
     <nav class="fixed top-0 left-0 w-full p-8 md:p-12 flex justify-between items-center z-50 mix-blend-difference">
@@ -112,121 +155,165 @@
         <div class="font-mono text-[10px] tracking-[0.5em] uppercase opacity-40">Series V7 // Ruby</div>
     </nav>
 
-    <!-- HERO -->
+    <!-- HERO: THE CUT STONE -->
     <section class="min-h-screen flex flex-col justify-center px-8 md:px-24 pt-32 pb-16">
-        <div class="max-w-7xl mx-auto w-full">
-            <h1 class="font-serif big-number mb-12 opacity-0 animate-reveal-up" style="animation-delay: 0.2s;">
-                Ruby<span class="text-ruby-primary italic">.</span>
-            </h1>
-            <div class="flex flex-col md:flex-row justify-between items-start gap-12 opacity-0 animate-reveal-up" style="animation-delay: 0.5s;">
-                <div class="max-w-xl">
-                    <p class="font-serif text-3xl md:text-5xl leading-tight mb-8">
-                        Forward Test <span class="serif-italic text-luxury-silver">Ledger</span>.
-                        Frozen policy. Live grading.
-                    </p>
-                    <div class="line-divider mb-8"></div>
-                    <div class="flex gap-12 font-mono text-[10px] tracking-widest uppercase text-luxury-silver">
-                        <div><span class="block text-white mb-2">Deployed</span><span id="meta-deploy">08.26.26</span></div>
-                        <div><span class="block text-white mb-2">Status</span><span id="meta-status">Live / Tracking</span></div>
-                        <div><span class="block text-white mb-2">Protocol</span>Frozen V7</div>
-                    </div>
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-16 items-center">
+            <div class="opacity-0 animate-reveal-up" style="animation-delay: 0.2s;">
+                <div class="flex items-center gap-3 font-mono text-[10px] tracking-[0.5em] uppercase text-setting-gold mb-6">
+                    <span class="gem-dot"></span> The Cut Stone
                 </div>
-                <div class="md:text-right">
+                <h1 class="font-serif big-number mb-8">
+                    Ruby<span class="text-ruby-primary italic">.</span>
+                </h1>
+                <p class="font-serif text-2xl md:text-3xl leading-snug mb-8 max-w-xl">
+                    Faceted forward test. <span class="italic text-luxury-silver">Frozen policy.</span>
+                    Live grading.
+                </p>
+                <div class="line-divider mb-8"></div>
+                <div class="flex gap-12 font-mono text-[10px] tracking-widest uppercase text-luxury-silver">
+                    <div><span class="block text-white mb-2">Deployed</span><span id="meta-deploy">--</span></div>
+                    <div><span class="block text-white mb-2">Status</span><span id="meta-status">--</span></div>
+                    <div><span class="block text-white mb-2">Protocol</span>Frozen V7</div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 opacity-0 animate-reveal-up" style="animation-delay: 0.5s;">
+                <!-- Faceted ruby emblem -->
+                <svg class="w-44 md:w-56 lg:w-64 animate-gem-glow" viewBox="0 0 220 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="gemBody" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#FB7185" />
+                            <stop offset="45%" stop-color="#E11D48" />
+                            <stop offset="100%" stop-color="#4C0519" />
+                        </linearGradient>
+                        <linearGradient id="gemFacet" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#FECDD3" stop-opacity="0.9" />
+                            <stop offset="100%" stop-color="#FB7185" stop-opacity="0.15" />
+                        </linearGradient>
+                    </defs>
+                    <!-- table (top) -->
+                    <polygon points="110,8 196,42 184,74 36,74 24,42" fill="url(#gemBody)" />
+                    <!-- crown facets -->
+                    <polygon points="110,8 196,42 184,74 110,46" fill="url(#gemFacet)" opacity="0.5" />
+                    <polygon points="110,8 24,42 36,74 110,46" fill="#fff" opacity="0.12" />
+                    <!-- girdle -->
+                    <polygon points="24,42 196,42 220,96 0,96" fill="#7F1D3A" />
+                    <!-- pavilion -->
+                    <polygon points="36,74 184,74 220,96 0,96" fill="url(#gemBody)" />
+                    <polygon points="0,96 220,96 176,150 44,150" fill="#A30D3A" />
+                    <polygon points="44,150 176,150 110,252" fill="#4C0519" />
+                    <!-- facet lines -->
+                    <path d="M110,46 L110,252 M110,46 L24,42 M110,46 L196,42 M110,46 L36,74 M110,46 L184,74 M0,96 L44,150 L110,252 M220,96 L176,150 L110,252" stroke="rgba(255,255,255,0.14)" stroke-width="1.5" />
+                    <!-- sparkle -->
+                    <circle cx="150" cy="52" r="5" fill="#fff" opacity="0.85" />
+                    <circle cx="60" cy="118" r="3" fill="#fff" opacity="0.5" />
+                </svg>
+                <div class="text-center">
                     <span class="font-mono text-[10px] tracking-[0.4em] uppercase text-luxury-silver block mb-4">Forward Net Alpha</span>
-                    <div id="stat-net" class="font-serif text-7xl md:text-9xl tracking-tighter text-luxury-white">--</div>
+                    <div id="stat-net" class="font-serif text-6xl md:text-8xl tracking-tighter text-luxury-white">--</div>
                     <div id="meta-update" class="font-mono text-[9px] tracking-widest uppercase text-white/30 mt-4">last update: --</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- STATS BAND -->
+    <!-- FACET 01: THE FACETS (STATS) -->
     <section class="px-8 md:px-24 pb-8">
-        <div class="max-w-7xl mx-auto w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            <div class="stat-card p-6">
-                <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Net Alpha</span>
-                <div id="stat-net2" class="font-serif text-4xl">--</div>
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="flex items-center gap-3 font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver mb-6">
+                <span class="gem-dot"></span> Facet 01 // The Facets
             </div>
-            <div class="stat-card p-6">
-                <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">ROI (flat 1u)</span>
-                <div id="stat-roi" class="font-serif text-4xl">--</div>
-            </div>
-            <div class="stat-card p-6">
-                <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Win Rate</span>
-                <div id="stat-wr" class="font-serif text-4xl">--</div>
-            </div>
-            <div class="stat-card p-6">
-                <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Record</span>
-                <div id="stat-record" class="font-serif text-4xl">--</div>
-            </div>
-            <div class="stat-card p-6">
-                <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">t-stat</span>
-                <div id="stat-t" class="font-serif text-4xl">--</div>
-            </div>
-            <div class="stat-card p-6">
-                <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Pending</span>
-                <div id="stat-pending" class="font-serif text-4xl">--</div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="stat-card gem-cut-sm p-6">
+                    <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Net Alpha</span>
+                    <div id="stat-net2" class="font-serif text-3xl md:text-4xl">--</div>
+                </div>
+                <div class="stat-card gem-cut-sm p-6">
+                    <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">ROI (flat 1u)</span>
+                    <div id="stat-roi" class="font-serif text-3xl md:text-4xl">--</div>
+                </div>
+                <div class="stat-card gem-cut-sm p-6">
+                    <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Win Rate</span>
+                    <div id="stat-wr" class="font-serif text-3xl md:text-4xl">--</div>
+                </div>
+                <div class="stat-card gem-cut-sm p-6">
+                    <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Record</span>
+                    <div id="stat-record" class="font-serif text-3xl md:text-4xl">--</div>
+                </div>
+                <div class="stat-card gem-cut-sm p-6">
+                    <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">t-stat</span>
+                    <div id="stat-t" class="font-serif text-3xl md:text-4xl">--</div>
+                </div>
+                <div class="stat-card gem-cut-sm p-6">
+                    <span class="font-mono text-[9px] uppercase tracking-widest text-white/40 block mb-3">Pending</span>
+                    <div id="stat-pending" class="font-serif text-3xl md:text-4xl">--</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- TODAY -->
+    <!-- FACET 02: LIVE WINDOW -->
     <section class="px-8 md:px-24 py-16">
         <div class="max-w-7xl mx-auto w-full">
-            <div class="flex justify-between items-end mb-8">
+            <div class="flex flex-wrap justify-between items-end gap-6 mb-8">
                 <div>
-                    <span class="font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver">Live Window</span>
-                    <h2 class="font-serif text-4xl md:text-5xl mt-3">Today's Selection<span class="italic text-ruby-primary">.</span></h2>
+                    <div class="flex items-center gap-3 font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver mb-3">
+                        <span class="gem-dot"></span> Facet 02 // Live Window
+                    </div>
+                    <h2 class="font-serif text-4xl md:text-5xl">Today's Selection<span class="italic text-ruby-primary">.</span></h2>
                 </div>
                 <div class="font-mono text-[10px] tracking-widest uppercase text-white/40">auto-graded daily</div>
             </div>
-            <div class="overflow-x-auto border border-white/5">
-                <table class="w-full luxury-table text-left">
+            <div class="overflow-x-auto border border-setting-gold/15 gem-cut bg-black/30">
+                <table class="w-full luxury-table text-left ">
                     <thead><tr>
                         <th>Date</th><th>League</th><th>Capper</th><th>Selection</th>
                         <th class="text-right">Odds</th><th class="text-right">Prob</th>
                         <th class="text-right">Edge</th><th class="text-right">Status</th><th class="text-right">P&L</th>
                     </tr></thead>
                     <tbody id="today-body">
-                        <tr><td colspan="9" class="text-center py-16 font-serif italic text-white/20">Awaiting first live selections...</td></tr>
+                        <tr><td colspan="9" class="text-center py-16 font-serif italic text-white/20">Awaiting first live selections</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
 
-    <!-- LEDGER -->
+    <!-- FACET 03: THE LEDGER -->
     <section class="px-8 md:px-24 py-16">
         <div class="max-w-7xl mx-auto w-full">
-            <div class="flex justify-between items-end mb-8">
+            <div class="flex flex-wrap justify-between items-end gap-6 mb-8">
                 <div>
-                    <span class="font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver">Forward Ledger</span>
-                    <h2 class="font-serif text-4xl md:text-5xl mt-3">The Ledger<span class="italic text-ruby-primary">.</span></h2>
+                    <div class="flex items-center gap-3 font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver mb-3">
+                        <span class="gem-dot"></span> Facet 03 // The Ledger
+                    </div>
+                    <h2 class="font-serif text-4xl md:text-5xl">The Ledger<span class="italic text-ruby-primary">.</span></h2>
                 </div>
                 <div class="font-mono text-[10px] tracking-widest uppercase text-white/40" id="ledger-count">0 selections</div>
             </div>
-            <div class="overflow-x-auto border border-white/5 max-h-[70vh] overflow-y-auto">
-                <table class="w-full luxury-table text-left">
+            <div class="overflow-x-auto border border-setting-gold/15 gem-cut bg-black/30 max-h-[70vh] overflow-y-auto">
+                <table class="w-full luxury-table text-left ">
                     <thead><tr>
                         <th>Date</th><th>League</th><th>Capper</th><th>Selection</th>
                         <th class="text-right">Odds</th><th class="text-right">Prob</th>
                         <th class="text-right">Edge</th><th class="text-right">Status</th><th class="text-right">P&L</th>
                     </tr></thead>
                     <tbody id="ledger-body">
-                        <tr><td colspan="9" class="text-center py-16 font-serif italic text-white/20">Awaiting forward selections...</td></tr>
+                        <tr><td colspan="9" class="text-center py-16 font-serif italic text-white/20">Awaiting forward selections</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
 
-    <!-- MONTHLY -->
+    <!-- FACET 04: MONTHLY TRACE -->
     <section class="px-8 md:px-24 py-16">
         <div class="max-w-7xl mx-auto w-full">
-            <span class="font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver">Performance By Month</span>
+            <div class="flex items-center gap-3 font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver mb-3">
+                <span class="gem-dot"></span> Facet 04 // Monthly Trace
+            </div>
             <h2 class="font-serif text-4xl md:text-5xl mt-3 mb-8">Monthly Trace<span class="italic text-ruby-primary">.</span></h2>
-            <div class="overflow-x-auto border border-white/5">
-                <table class="w-full luxury-table text-left">
+            <div class="overflow-x-auto border border-setting-gold/15 gem-cut bg-black/30">
+                <table class="w-full luxury-table text-left ">
                     <thead><tr>
                         <th>Month</th><th class="text-right">Selections</th><th class="text-right">Win Rate</th>
                         <th class="text-right">ROI</th><th class="text-right">Net</th>
@@ -239,38 +326,39 @@
         </div>
     </section>
 
-    <!-- PROTOCOL -->
+    <!-- FACET 05: THE CONTRACT -->
     <section class="px-8 md:px-24 py-24">
         <div class="max-w-7xl mx-auto w-full">
             <div class="line-divider mb-16"></div>
+            <div class="flex items-center gap-3 font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver mb-8">
+                <span class="gem-dot"></span> Facet 05 // The Contract
+            </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div>
-                    <span class="font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver">Frozen Protocol</span>
-                    <h2 class="font-serif text-4xl md:text-5xl mt-3 mb-8">The Contract<span class="italic text-ruby-primary">.</span></h2>
+                    <h2 class="font-serif text-4xl md:text-5xl mb-8">Frozen Protocol<span class="italic text-ruby-primary">.</span></h2>
                     <div class="flex flex-wrap gap-3 font-mono text-[10px] tracking-widest uppercase">
-                        <span class="border border-white/10 px-4 py-2">prob ≥ 0.56</span>
-                        <span class="border border-white/10 px-4 py-2">edge ≥ 0.01</span>
-                        <span class="border border-white/10 px-4 py-2">dec [1.85, 2.20]</span>
-                        <span class="border border-white/10 px-4 py-2">capper ≥ 3/30d</span>
-                        <span class="border border-white/10 px-4 py-2">max 6/day</span>
-                        <span class="border border-white/10 px-4 py-2">Discord only</span>
-                        <span class="border border-ruby-primary/40 px-4 py-2 text-ruby-accent">models frozen 08.26.26</span>
+                        <span class="border border-setting-gold/25 px-4 py-2 gem-cut-sm">prob ≥ 0.56</span>
+                        <span class="border border-setting-gold/25 px-4 py-2 gem-cut-sm">edge ≥ 0.01</span>
+                        <span class="border border-setting-gold/25 px-4 py-2 gem-cut-sm">dec [1.85, 2.20]</span>
+                        <span class="border border-setting-gold/25 px-4 py-2 gem-cut-sm">capper ≥ 3/30d</span>
+                        <span class="border border-setting-gold/25 px-4 py-2 gem-cut-sm">max 6/day</span>
+                        <span class="border border-setting-gold/25 px-4 py-2 gem-cut-sm">Discord only</span>
+                        <span class="border border-ruby-primary/50 px-4 py-2 gem-cut-sm text-ruby-accent">models frozen 08.26.26</span>
                     </div>
                     <ul class="mt-8 font-mono text-xs leading-loose text-luxury-silver uppercase tracking-widest space-y-2">
-                        <li>// nothing retrained, nothing re-tuned</li>
-                        <li>// recomputed daily from live database</li>
-                        <li>// flat 1u staking, CappersTracked grading</li>
-                        <li id="baseline-line">// baselines: --</li>
+                        <li class="flex items-start gap-3"><span class="gem-dot mt-1.5"></span>nothing retrained, nothing re-tuned</li>
+                        <li class="flex items-start gap-3"><span class="gem-dot mt-1.5"></span>recomputed daily from live database</li>
+                        <li class="flex items-start gap-3"><span class="gem-dot mt-1.5"></span>flat 1u staking, CappersTracked grading</li>
+                        <li class="flex items-start gap-3"><span class="gem-dot mt-1.5"></span><span id="baseline-line">baselines: --</span></li>
                     </ul>
                 </div>
                 <div>
-                    <span class="font-mono text-[10px] tracking-[0.5em] uppercase text-luxury-silver">Pre-Deployment Verification</span>
-                    <h2 class="font-serif text-4xl md:text-5xl mt-3 mb-8">Jun–Aug Walk-Forward<span class="italic text-ruby-primary">.</span></h2>
+                    <h2 class="font-serif text-4xl md:text-5xl mb-8">Jun–Aug Verification<span class="italic text-ruby-primary">.</span></h2>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                        <div class="stat-card p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">Selections</span><div id="v-n" class="font-serif text-3xl">--</div></div>
-                        <div class="stat-card p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">ROI</span><div id="v-roi" class="font-serif text-3xl">--</div></div>
-                        <div class="stat-card p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">t-stat</span><div id="v-t" class="font-serif text-3xl">--</div></div>
-                        <div class="stat-card p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">Months +</span><div id="v-months" class="font-serif text-3xl">--</div></div>
+                        <div class="stat-card gem-cut-sm p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">Selections</span><div id="v-n" class="font-serif text-3xl">--</div></div>
+                        <div class="stat-card gem-cut-sm p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">ROI</span><div id="v-roi" class="font-serif text-3xl">--</div></div>
+                        <div class="stat-card gem-cut-sm p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">t-stat</span><div id="v-t" class="font-serif text-3xl">--</div></div>
+                        <div class="stat-card gem-cut-sm p-5"><span class="font-mono text-[8px] uppercase tracking-widest text-white/40 block mb-2">Months +</span><div id="v-months" class="font-serif text-3xl">--</div></div>
                     </div>
                     <p id="v-caveat" class="font-mono text-[11px] leading-relaxed text-white/40 uppercase tracking-wider">--</p>
                 </div>
@@ -279,12 +367,12 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="py-16 px-8 md:px-24 border-t border-white/5 bg-black/20">
+    <footer class="py-16 px-8 md:px-24 border-t border-setting-gold/10 bg-black/30">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
             <div class="font-serif text-3xl">Ruby.</div>
             <div class="text-center md:text-right">
                 <div class="font-mono text-[10px] tracking-[0.5em] uppercase text-white/40 mb-2">Quarry Intelligence Group</div>
-                <div class="font-mono text-[9px] tracking-[0.3em] uppercase text-white/20">© 2026 Proprietary Quantitative Research · Forward Test Ledger</div>
+                <div class="font-mono text-[9px] tracking-[0.3em] uppercase text-white/20">© 2026 Proprietary Quantitative Research · Faceted Forward Ledger</div>
             </div>
         </div>
     </footer>
@@ -292,9 +380,9 @@
     <!-- RUBY_DATA_START -->
 <script>const RUBY_FORWARD = {
   "meta": {
-    "last_update": "2026-08-26 11:22 UTC",
-    "start_date": "2026-08-26",
-    "days_live": 1,
+    "last_update": "2026-08-26 11:43 UTC",
+    "start_date": "2026-08-27",
+    "days_live": 0,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -351,7 +439,7 @@
             return '<span class="font-serif text-lg ' + cls + '">' + (profit >= 0 ? '+' : '') + Number(profit).toFixed(2) + '</span>';
         }
         function statusCell(s) {
-            const map = { 'WIN': 'text-ruby-accent', 'LOSS': 'text-red-500', 'PENDING': 'text-white/25', 'PUSH': 'text-luxury-gold' };
+            const map = { 'WIN': 'text-ruby-accent', 'LOSS': 'text-red-500', 'PENDING': 'text-white/25', 'PUSH': 'text-setting-gold' };
             return '<span class="font-mono text-[9px] tracking-widest uppercase ' + (map[s] || 'text-white/40') + '">' + s + '</span>';
         }
         function oddsCell(o) {
@@ -359,7 +447,7 @@
             return (o > 0 ? '+' : '') + Number(o).toFixed(0);
         }
         function rowHtml(r) {
-            return '<tr class="hover:bg-white/5 transition-colors">'
+            return '<tr class="transition-colors">'
                 + '<td class="font-mono text-[10px] text-luxury-silver">' + esc(r.date) + '</td>'
                 + '<td class="font-mono text-[9px] uppercase tracking-widest text-white/40">' + esc(r.league) + '</td>'
                 + '<td class="font-mono text-[10px] text-luxury-silver">' + esc(r.capper) + '</td>'
@@ -375,7 +463,7 @@
 
         window.addEventListener('load', function () {
             const D = (typeof RUBY_FORWARD !== 'undefined' && RUBY_FORWARD.stats) ? RUBY_FORWARD
-                : { meta: { start_date: null, days_live: 0, last_update: '--' }, stats: { n: 0, wins: 0, losses: 0, pending: 0, wr: null, roi: null, net: 0, tstat: null }, today: [], by_month: [], ledger: [], baselines: {}, meta: { verification: {} } };
+                : { meta: { start_date: null, days_live: 0, last_update: '--' }, stats: { n: 0, wins: 0, losses: 0, pending: 0, wr: null, roi: null, net: 0, tstat: null }, today: [], by_month: [], ledger: [], baselines: {}, verification: {} };
 
             const s = D.stats;
             const netTxt = fmtUnits(s.net);
@@ -388,11 +476,11 @@
             document.getElementById('stat-pending').textContent = s.pending || 0;
 
             const m = D.meta || {};
-            document.getElementById('meta-deploy').textContent = (m.start_date || '08.26.26').replace(/-/g, '.');
+            document.getElementById('meta-deploy').textContent = (m.start_date || '08.27.26').replace(/-/g, '.');
             document.getElementById('meta-status').textContent = (m.status || 'OPERATIONAL');
             document.getElementById('meta-update').textContent = 'last update: ' + (m.last_update || '--');
 
-            const v = m.verification || {};
+            const v = m.verification || D.verification || {};
             document.getElementById('v-n').textContent = v.n || '--';
             document.getElementById('v-roi').textContent = v.roi != null ? (v.roi * 100).toFixed(1) + '%' : '--';
             document.getElementById('v-t').textContent = v.tstat != null ? '+' + v.tstat.toFixed(2) : '--';
@@ -402,7 +490,7 @@
             const bl = D.baselines || {};
             const blTxt = (bl.all_discord_roi != null ? 'all-discord ' + fmtPct(bl.all_discord_roi) : 'all-discord --')
                 + ' / top-prob ' + (bl.top_prob_roi != null ? fmtPct(bl.top_prob_roi) : '--');
-            document.getElementById('baseline-line').textContent = '// baselines since ' + (m.start_date || 'start') + ': ' + blTxt;
+            document.getElementById('baseline-line').textContent = 'baselines since ' + (m.start_date || 'start') + ': ' + blTxt;
 
             function fill(tbodyId, rows, emptyMsg) {
                 const tb = document.getElementById(tbodyId);
@@ -413,14 +501,14 @@
                 }
                 tb.innerHTML = rows.map(rowHtml).join('');
             }
-            fill('today-body', D.today || [], 'Awaiting first live selections...');
-            fill('ledger-body', (D.ledger || []).slice(0, 300), 'Awaiting forward selections...');
+            fill('today-body', D.today || [], 'Awaiting first live selections');
+            fill('ledger-body', (D.ledger || []).slice(0, 300), 'Awaiting forward selections');
             document.getElementById('ledger-count').textContent = (D.ledger ? D.ledger.length : 0) + ' selections';
 
             const mb = document.getElementById('month-body');
             if (D.by_month && D.by_month.length) {
                 mb.innerHTML = D.by_month.map(function (r) {
-                    return '<tr class="hover:bg-white/5 transition-colors">'
+                    return '<tr class="transition-colors">'
                         + '<td class="font-mono text-[10px] text-luxury-silver">' + esc(r.month) + '</td>'
                         + '<td class="text-right font-mono text-white/60">' + r.n + '</td>'
                         + '<td class="text-right font-mono text-luxury-silver">' + (r.wr * 100).toFixed(1) + '%</td>'

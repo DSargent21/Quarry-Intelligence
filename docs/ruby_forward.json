@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-08-26 11:22 UTC",
-    "start_date": "2026-08-26",
-    "days_live": 1,
+    "last_update": "2026-08-26 11:43 UTC",
+    "start_date": "2026-08-27",
+    "days_live": 0,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
