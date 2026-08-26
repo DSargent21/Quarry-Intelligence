@@ -1,0 +1,6 @@
+pandas
+numpy
+xgboost
+supabase
+python-dotenv
+pyarrow
