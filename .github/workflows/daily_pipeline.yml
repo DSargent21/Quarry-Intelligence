@@ -1,23 +1,27 @@
 # Daily Quarry Pipeline
 #
-# Three jobs, kept as fast as possible without breaking the daily sync:
-#   ruby-tracker   : scores + grades the frozen V7 Ruby policy, pushes the ledger
-#                    and page. Runs in PARALLEL with the main pipeline.
-#   quarry-pipeline: main data lake, model simulations, assets, reports.
-#   deploy         : waits for both, then publishes docs/ to GitHub Pages.
+# Single job (billed minutes = one runner's wall time, no duplicated setup).
+# Every cache the free plan allows: python venv, models submodule, data lake.
 #
-# Concurrency: cron and manual runs never overlap (queued, not cancelled), so
-# the auto-commit cannot race itself.
+# Cost controls:
+#   - shallow checkout (repo pack is 1.3GB)
+#   - assets (matplotlib plots) regenerate WEEKLY (Monday) or on demand, not daily
+#   - data fetch is incremental (their pipeline caches + pulls last 3 days)
+#   - concurrency group queues cron + manual runs so they never race the commit
 
 name: Daily Quarry Pipeline
 
 on:
   schedule:
-    - cron: '0 9 * * *' # 10:00 AM CET/CEST (European Central Time)
+    - cron: '0 9 * * *' # daily 10:00 CET/CEST; Monday runs also rebuild charts
   workflow_dispatch:
     inputs:
       clear_cache:
         description: 'Bypass data cache and perform FULL refresh from Supabase'
+        type: boolean
+        default: false
+      force_assets:
+        description: 'Regenerate all charts/assets this run'
         type: boolean
         default: false
 
@@ -26,99 +30,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # ---------------------------------------------------------------- RUBY ----
-  ruby-tracker:
-    name: Ruby V7 Forward Tracker
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    permissions:
-      contents: write
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1 # shallow: repo pack is 1.3GB, sync deepens on demand
-          token: ${{ secrets.GH_PAT }}
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-
-      - name: Restore Data Lake Cache
-        uses: actions/cache@v4
-        with:
-          path: data/
-          key: ${{ runner.os }}-quarry-data-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-quarry-data-
-
-      - name: Install Ruby Dependencies (minimal)
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r ruby/requirements.txt
-
-      - name: Run Forward Tracker
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: |
-          python3 ruby/forward.py 2>&1 | tee ruby_forward.log
-
-      - name: Verify Tracker Output
-        run: |
-          python3 - <<'PY'
-          import json
-          import pathlib
-          payload = json.loads(pathlib.Path("docs/ruby_forward.json").read_text())
-          assert "stats" in payload and "meta" in payload, "bad payload"
-          html = pathlib.Path("docs/web/ruby.html").read_text()
-          assert "RUBY_FORWARD" in html, "ruby.html not updated"
-          print(f"OK: start={payload['meta'].get('start_date')} n={payload['stats']['n']}")
-          PY
-
-      - name: Git Sync & Commit
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git config --global user.email bot@quarry.institutional
-          git config --global user.name QuarryBot
-
-          git add -A
-          if [[ -z $(git status --porcelain) ]]; then
-            echo 'No changes to commit.'
-            exit 0
-          fi
-          git commit -m "🔴 Ruby Forward Sync [$(date +'%Y-%m-%d')]"
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-          # Fast path: push directly. Deepen + rebase only if the remote moved.
-          if ! git push origin main; then
-            echo "⚠️ Non-fast-forward — integrating remote changes (shallow, depth 100)..."
-            git fetch origin main --depth 100
-            git rebase --autostash origin/main || {
-              echo "⚠️ Shallow rebase failed — deepening to full history and retrying..."
-              git fetch --unshallow
-              git rebase --autostash origin/main
-            }
-            git push origin main
-          fi
-
-      - name: 📦 Archive Tracker Logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: ruby-tracker-logs-${{ github.run_id }}
-          path: ruby_forward.log
-
-  # ------------------------------------------------------------- PIPELINE ----
-  quarry-pipeline:
-    name: Quarry Data Pipeline
+  pipeline:
+    name: Quarry Pipeline + Ruby Tracker + Deploy
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
       contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout Repository
@@ -127,13 +49,51 @@ jobs:
           fetch-depth: 1 # shallow: repo pack is 1.3GB, sync deepens on demand
           token: ${{ secrets.GH_PAT }}
 
+      - name: Compute Flags
+        id: flags
+        run: |
+          # Monday (date +%u == 1) => full chart rebuild. Daily runs skip asset
+          # regen. Uses date instead of github.event.schedule (deprecated/removed).
+          ASSETS="false"
+          if [[ "$(date +%u)" == "1" ]] || [[ "${{ github.event.inputs.force_assets }}" == "true" ]]; then
+            ASSETS="true"
+          fi
+          echo "assets=${ASSETS}" >> "$GITHUB_OUTPUT"
+          echo "assets=${ASSETS}"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
           cache: 'pip'
 
+      - name: Restore Python Venv
+        id: venv
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt', 'ruby/requirements.txt') }}
+
+      - name: Create Venv + Install Dependencies
+        if: steps.venv.outputs.cache-hit != 'true'
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install --upgrade pip
+          .venv/bin/pip install -r requirements.txt
+
+      - name: Models Submodule Commit
+        id: models
+        run: echo "commit=$(git ls-tree HEAD models | awk '{print $3}')" >> "$GITHUB_OUTPUT"
+
+      - name: Restore Models Cache
+        id: models-cache
+        uses: actions/cache@v4
+        with:
+          path: models/
+          key: ${{ runner.os }}-models-${{ steps.models.outputs.commit }}
+
       - name: Sync Submodule (Models)
+        if: steps.models-cache.outputs.cache-hit != 'true'
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
@@ -148,11 +108,6 @@ jobs:
           fi
           echo "✅ Models verified."
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
       - name: Restore/Clear Data Lake Cache
         if: github.event.inputs.clear_cache != 'true'
         uses: actions/cache@v4
@@ -166,9 +121,11 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ASSETS_ENABLED: ${{ steps.flags.outputs.assets }}
         run: |
+          source .venv/bin/activate
           mkdir -p data docs logs
-          # Add retry for the main script
+          # Retry the main script (3 attempts, backoff between)
           for i in {1..3}; do
             python3 scripts/daily_update.py 2>&1 | tee pipeline_output.log && break || {
               if [ $i -lt 3 ]; then
@@ -181,14 +138,26 @@ jobs:
             }
           done
 
-      - name: 📦 Archive Pipeline Logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: pipeline-logs-${{ github.run_id }}
-          path: |
-            pipeline_output.log
-            logs/*.log
+      - name: Run Ruby Forward Tracker
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          source .venv/bin/activate
+          python3 ruby/forward.py 2>&1 | tee ruby_forward.log
+
+      - name: Verify Tracker Output
+        run: |
+          source .venv/bin/activate
+          python3 - <<'PY'
+          import json
+          import pathlib
+          payload = json.loads(pathlib.Path("docs/ruby_forward.json").read_text())
+          assert "stats" in payload and "meta" in payload, "bad payload"
+          html = pathlib.Path("docs/web/ruby.html").read_text()
+          assert "RUBY_FORWARD" in html, "ruby.html not updated"
+          print(f"OK: start={payload['meta'].get('start_date')} n={payload['stats']['n']}")
+          PY
 
       - name: Generate Executive Job Summary
         if: always()
@@ -196,9 +165,8 @@ jobs:
           echo '## 📊 Quarry Pipeline Summary ['$(date +'%Y-%m-%d')']' >> $GITHUB_STEP_SUMMARY
           echo '### 🔍 Critical Logs' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          grep "❌ CRITICAL" pipeline_output.log >> $GITHUB_STEP_SUMMARY || echo "No critical errors found." >> $GITHUB_STEP_SUMMARY
+          grep "❌ CRITICAL" pipeline_output.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "No critical errors found." >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-
           if [ -f docs/pipeline_summary.json ]; then
             RANGE=$(jq -r '.data_range' docs/pipeline_summary.json)
             ROWS=$(jq -r '.total_rows' docs/pipeline_summary.json)
@@ -215,15 +183,27 @@ jobs:
             echo '⚠️ Pipeline failed to produce a summary. Check logs.' >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: 🔬 Comprehensive Deployment Audit
+      - name: 📦 Archive Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-logs-${{ github.run_id }}
+          path: |
+            pipeline_output.log
+            ruby_forward.log
+            logs/*.log
+
+      - name: 🔬 Deployment Audit
         run: |
+          source .venv/bin/activate
           python3 scripts/debug_deployment.py
 
       - name: 📡 Sync Sentinel (Live Probe)
         run: |
+          source .venv/bin/activate
           python3 scripts/sync_sentinel.py
 
-      - name: 🛡️ Git Sync & Commit
+      - name: Git Sync & Commit
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
@@ -251,28 +231,6 @@ jobs:
             }
             git push origin main
           fi
-
-  # ---------------------------------------------------------------- DEPLOY ----
-  deploy:
-    name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    needs: [quarry-pipeline, ruby-tracker]
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: Ensure .nojekyll
-        run: touch docs/.nojekyll
 
       - name: Configure Pages
         uses: actions/configure-pages@v4

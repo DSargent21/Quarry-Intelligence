@@ -181,8 +181,8 @@ def generate_live_assets(models=None):
         plt.fill_between(walk['pick_date'], walk['profit'], 0, color=color, alpha=0.1)
         plt.axhline(0, color='white', alpha=0.2, linestyle='--')
         plt.title(f"SERIES AUDIT: {model_name.upper()} // ROI: {metrics['roi']:+.1%}", color='white', fontsize=16)
-        plt.savefig(f"docs/assets/{model_name}_equity.png", bbox_inches='tight', dpi=120)
-        plt.savefig(f"docs/assets/{model_name}_high_res_curve.png", bbox_inches='tight', dpi=120)
+        plt.savefig(f"docs/assets/{model_name}_equity.png", bbox_inches='tight', dpi=90, optimize=True)
+        plt.savefig(f"docs/assets/{model_name}_high_res_curve.png", bbox_inches='tight', dpi=90, optimize=True)
         plt.close()
 
         # [B] Feature Importance
@@ -194,7 +194,7 @@ def generate_live_assets(models=None):
         vals = np.sort(np.random.rand(len(features)))[::-1]
         plt.barh(features, vals, color=color)
         plt.title(f"{model_name.upper()} // FEATURE DOMINANCE MATRIX", color='white')
-        plt.savefig(f"docs/assets/{model_name}_importance.png", bbox_inches='tight', dpi=100)
+        plt.savefig(f"docs/assets/{model_name}_importance.png", bbox_inches='tight', dpi=80, optimize=True)
         plt.close()
 
     # --- 2. COMBINED PLOTS ---
@@ -211,9 +211,9 @@ def generate_live_assets(models=None):
     plt.axhline(0, color='#ffffff', linestyle='-', alpha=0.15, linewidth=1.5)
     plt.title("QUANTITATIVE PERFORMANCE // MULTI-GENERATIONAL", color='white', fontweight='bold', pad=20)
     plt.legend(frameon=False, loc='upper left')
-    plt.savefig("docs/assets/live_curve.png", bbox_inches='tight', dpi=300)
+    plt.savefig("docs/assets/live_curve.png", bbox_inches='tight', dpi=150, optimize=True)
     for m in ['quartz', 'obsidian', 'diamond', 'pyrite', 'sapphire']:
-        plt.savefig(f"docs/comparison_{m}.png", bbox_inches='tight', dpi=300)
+        plt.savefig(f"docs/comparison_{m}.png", bbox_inches='tight', dpi=150, optimize=True)
     plt.close()
 
     # --- 3. DATA OUTPUT & INJECTION ---

@@ -395,22 +395,29 @@ def run_daily_update():
     except Exception as e:
         logger.error(f"❌ Failed to update markdown reports: {e}")
 
-    # 6. Generate Assets (Plots, JSON, & HTML Injection)
-    logger.info("🎨 Generating Dashboard Assets...")
-    try:
-        import scripts.generate_assets as generate_assets
-        generate_assets.generate_live_assets(models=models)
-    except Exception as e:
-        logger.error(f"❌ Asset Generation Failed: {e}")
-    
-    # 7. Generate Comparison Graphics
-    try:
-        if os.path.join(BASE_DIR, 'research') not in sys.path:
-            sys.path.append(os.path.join(BASE_DIR, 'research'))
-        import generate_comparison
-        generate_comparison.generate_comparison_chart()
-    except Exception as e:
-        logger.error(f"❌ Comparison Chart Generation Failed: {e}")
+    # 6/7. Assets (Plots, JSON, HTML Injection, Comparison) — weekly by default.
+    # ASSETS_ENABLED is set by the workflow: daily runs skip asset regeneration
+    # (saves ~1-2 min and stops daily PNG churn in git); the Monday run and
+    # manual dispatches with force_assets=true rebuild everything.
+    assets_enabled = os.environ.get("ASSETS_ENABLED", "false") == "true"
+    if assets_enabled:
+        logger.info("🎨 Generating Dashboard Assets (weekly refresh)...")
+        try:
+            import scripts.generate_assets as generate_assets
+            generate_assets.generate_live_assets(models=models)
+        except Exception as e:
+            logger.error(f"❌ Asset Generation Failed: {e}")
+
+        # 7. Generate Comparison Graphics
+        try:
+            if os.path.join(BASE_DIR, 'research') not in sys.path:
+                sys.path.append(os.path.join(BASE_DIR, 'research'))
+            import generate_comparison
+            generate_comparison.generate_comparison_chart()
+        except Exception as e:
+            logger.error(f"❌ Comparison Chart Generation Failed: {e}")
+    else:
+        logger.info("⏭️  Assets skipped (ASSETS_ENABLED=false) — ledger/stats still updated.")
     
     logger.info("✅ Daily Update Complete.")
 
