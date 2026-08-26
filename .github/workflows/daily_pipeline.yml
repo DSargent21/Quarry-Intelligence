@@ -38,7 +38,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # full history so the rebase-based sync below is safe
+          fetch-depth: 1 # shallow: repo pack is 1.3GB, sync deepens on demand
           token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
@@ -89,10 +89,19 @@ jobs:
           git add -A
           if [[ -z $(git status --porcelain) ]]; then
             echo 'No changes to commit.'
-          else
-            git commit -m "🔴 Ruby Forward Sync [$(date +'%Y-%m-%d')]"
-            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-            git pull --rebase --autostash origin main
+            exit 0
+          fi
+          git commit -m "🔴 Ruby Forward Sync [$(date +'%Y-%m-%d')]"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          # Fast path: push directly. Deepen + rebase only if the remote moved.
+          if ! git push origin main; then
+            echo "⚠️ Non-fast-forward — integrating remote changes (shallow, depth 100)..."
+            git fetch origin main --depth 100
+            git rebase --autostash origin/main || {
+              echo "⚠️ Shallow rebase failed — deepening to full history and retrying..."
+              git fetch --unshallow
+              git rebase --autostash origin/main
+            }
             git push origin main
           fi
 
@@ -115,7 +124,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1 # shallow: repo pack is 1.3GB, sync deepens on demand
           token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
@@ -227,11 +236,19 @@ jobs:
           git add -A
           if [[ -z $(git status --porcelain) ]]; then
             echo 'No changes to commit (Pipeline skipped or no new data).'
-          else
-            git commit -m '📈 Auto-Update: Daily Pipeline Sync ['$(date +'%Y-%m-%d')']'
-            # [SYNC]: rebase with autostash handles concurrent manual pushes
-            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-            git pull --rebase --autostash origin main
+            exit 0
+          fi
+          git commit -m '📈 Auto-Update: Daily Pipeline Sync ['$(date +'%Y-%m-%d')']'
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          # Fast path: push directly. Deepen + rebase only if the remote moved.
+          if ! git push origin main; then
+            echo "⚠️ Non-fast-forward — integrating remote changes (shallow, depth 100)..."
+            git fetch origin main --depth 100
+            git rebase --autostash origin/main || {
+              echo "⚠️ Shallow rebase failed — deepening to full history and retrying..."
+              git fetch --unshallow
+              git rebase --autostash origin/main
+            }
             git push origin main
           fi
 
