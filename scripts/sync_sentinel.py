@@ -9,7 +9,7 @@ def run_diagnostics():
     print("🚀 QUARRY // INSTITUTIONAL SYNC SENTINEL")
     print("!"*60)
     
-    BASE_URL = "https://ducky705.github.io/Quarry-Intelligence"
+    BASE_URL = "https://dsargent21.github.io/Quarry-Intelligence"
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     local_stats_path = os.path.join(base_dir, 'docs', 'web', 'stats.json')
     

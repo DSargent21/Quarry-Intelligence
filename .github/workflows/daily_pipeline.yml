@@ -92,6 +92,17 @@ jobs:
           path: models/
           key: ${{ runner.os }}-models-${{ steps.models.outputs.commit }}
 
+      - name: Clean Stale Submodule Marker
+        if: steps.models-cache.outputs.cache-hit == 'true'
+        run: |
+          # A previous run's checkout left a `models/.git` gitdir pointer in the
+          # cache. On a fresh checkout the submodule is NOT initialized, so that
+          # dangling pointer makes every git command fail with
+          # "fatal: not a git repository: models/../.git/modules/models".
+          # Removing the marker makes git treat the restored files as the
+          # (uninitialized) gitlink and ignore them. Verified: commit stays clean.
+          rm -f models/.git
+
       - name: Sync Submodule (Models)
         if: steps.models-cache.outputs.cache-hit != 'true'
         env:
