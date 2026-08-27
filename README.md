@@ -5,25 +5,22 @@
   <p style="font-family: monospace; letter-spacing: 2px; color: #888;">INSTITUTIONAL ALGORITHMIC ANALYTICS</p>
   <br />
 
-  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/selector.html">
+  <a href="https://ducky705.github.io/Quarry-Intelligence/web/selector.html">
     <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
-  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
-    <img src="https://img.shields.io/badge/SERIES%206%20NET-+20.5u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
+  <a href="https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
+    <img src="https://img.shields.io/badge/SERIES%206%20NET-+25.2u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
-  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html">
-    <img src="https://img.shields.io/badge/SERIES%207%20FWD-+0.0u-E11D48?style=for-the-badge" alt="Series 7 Forward Test" />
+  <a href="https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html">
+    <img src="https://img.shields.io/badge/SERIES%205%20NET--4.9u-2563EB?style=for-the-badge" alt="Series 5 Net" />
   </a>
-  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html">
-    <img src="https://img.shields.io/badge/SERIES%205%20NET--1.7u-2563EB?style=for-the-badge" alt="Series 5 Net" />
-  </a>
-  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html">
-    <img src="https://img.shields.io/badge/SERIES%204%20NET-+64.5u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
+  <a href="https://ducky705.github.io/Quarry-Intelligence/web/quartz.html">
+    <img src="https://img.shields.io/badge/SERIES%204%20NET-+52.4u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
   </a>
 
   <br />
   <br />
-  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
+  <a href="https://ducky705.github.io/Quarry-Intelligence/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
   <br />
   <br />
 </div>
@@ -36,26 +33,19 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Low (policy &le;6/day) | **0** | **—** |
-| **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~62 bets/day) | **6376** | **+1.0%** |
-| **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~48 bets/day) | **5041** | **-0.2%** |
-| **[SERIES 4: QUARTZ](https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~5 bets/day) | **826** | **+5.4%** |
-| **[SERIES 3: OBSIDIAN](https://dsargent21.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE <br> Non-Linear` | 🟣 **ACTIVE** | Medium (~12 bets/day) | **2892** | **-8.0%** |
-| **[SERIES 2: DIAMOND](https://dsargent21.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE <br> Refined` | 🟢 **ACTIVE** | High (~26 bets/day) | **7120** | **-6.9%** |
-| **[SERIES 1: PYRITE](https://dsargent21.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE <br> High-Freq` | 🟡 **ACTIVE** | Low (~7 bets/day) | **1944** | **-2.5%** |
+| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~62 bets/day) | **6406** | **+1.2%** |
+| **[SERIES 5: SAPPHIRE](https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~48 bets/day) | **5120** | **-0.5%** |
+| **[SERIES 4: QUARTZ](https://ducky705.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~5 bets/day) | **832** | **+4.4%** |
+| **[SERIES 3: OBSIDIAN](https://ducky705.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE <br> Non-Linear` | 🟣 **ACTIVE** | Medium (~12 bets/day) | **2904** | **-7.6%** |
+| **[SERIES 2: DIAMOND](https://ducky705.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE <br> Refined` | 🟢 **ACTIVE** | High (~26 bets/day) | **7123** | **-7.2%** |
+| **[SERIES 1: PYRITE](https://ducky705.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE <br> High-Freq` | 🟡 **ACTIVE** | Low (~7 bets/day) | **1947** | **-2.5%** |
 
 > [!IMPORTANT]
-> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://dsargent21.github.io/Quarry-Intelligence/web/selector.html).
+> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/web/selector.html).
 
 ---
 
 ## 🛰 SYSTEMS OVERVIEW
-
-### V7 RUBY // THE FORWARD TEST
-*The honest edge.* Frozen policy from a leakage-controlled walk-forward, now live-tested from `AUG 27, 2026`.
-*   **Protocol**: Policy grid tuned only on Nov 2025–May 2026 folds; frozen Jun–Aug untouched. Acceptance bar: t-stat ≥ 2, n ≥ 80, ≥ 2/3 months positive.
-*   **Walk-forward result (frozen)**: n=307, ROI +11.0%, t-stat +2.04, +33.8u, positive 3/3 months.
-*   **Live tracking**: [Ruby Forward Ledger](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html) — updated daily by the pipeline, no retraining, no re-tuning.
 
 ### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
 *The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
@@ -77,7 +67,6 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 ### 🔬 DEEP INTELLIGENCE REPORTS
 Comprehensive technical audits and strategy profiles for the current model lineup.
 
-*   **[SERIES 7: RUBY Audit](docs/reports/RUBY_REPORT.md)** - Frozen walk-forward results & forward-test protocol
 *   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
 *   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
 *   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
@@ -108,8 +97,7 @@ graph TD
     C -->|Flagship| G[V4 QUARTZ]
     C -->|Premium| J[V5 SAPPHIRE]
     C -->|Surgical| K[V6 KYANITE & CARNELIAN]
-    C -->|Forward| L[V7 RUBY]
-    D & E & F & G & J & K & L -->|Simulate| H[DECISION SUPPORT]
+    D & E & F & G & J & K -->|Simulate| H[DECISION SUPPORT]
     H -->|Render| I[DASHBOARD SUITE]
 ```
 
