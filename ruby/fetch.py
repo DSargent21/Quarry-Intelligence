@@ -33,14 +33,34 @@ def fetch_all(supabase, table, cols="*", batch=1000, filters=None):
     return pd.DataFrame(rows, dtype=object)
 
 
-def load_data(use_cache=True, cache_path="data/picks.parquet"):
+def load_data(use_cache=True, cache_path="data/picks.parquet", max_age_hours=12):
+    """Load picks, refreshing the parquet cache once it goes stale.
+
+    [STALE CACHE GUARD]: the cache was previously written once and reused
+    forever, which froze the live forward window at launch-day data
+    (Ruby ledger stuck at n=0 with "No picks since start date"). Refetch
+    when the file is older than max_age_hours, and always in CI where the
+    data/ dir is restored from the actions cache.
+    """
     os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+    is_ci = os.environ.get("GITHUB_ACTIONS") == "true"
+    cache_age_h = None
     if use_cache and os.path.exists(cache_path):
-        print(f"Using cached picks: {cache_path}")
+        cache_age_h = (time.time() - os.path.getmtime(cache_path)) / 3600.0
+    use_cached = (use_cache and os.path.exists(cache_path)
+                  and not is_ci
+                  and cache_age_h is not None and cache_age_h <= max_age_hours)
+    if use_cached:
+        print(f"Using cached picks: {cache_path} ({cache_age_h:.1f}h old)")
         picks = pd.read_parquet(cache_path)
     else:
         supabase = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"])
-        print("Fetching picks...")
+        if cache_age_h is not None:
+            why = ("CI: mandatory refresh" if is_ci
+                   else f"cache is {cache_age_h:.1f}h old (> {max_age_hours}h)")
+            print(f"♻️  Refreshing picks cache from Supabase ({why})...")
+        else:
+            print("Fetching picks...")
         picks = fetch_all(supabase, "picks", PICK_COLS)
         print(f"  picks: {len(picks)}")
         # Cast id columns to nullable Int64: JSON bigints > 2^53 would otherwise

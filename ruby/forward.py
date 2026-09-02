@@ -169,7 +169,8 @@ def main():
     net = float(g["profit_1u"].sum()) if n else 0.0
     roi = float(g["profit_1u"].mean()) if n else None
     wr = wins / n if n else None
-    tstat = (float(g["profit_1u"].mean()) / (float(g["profit_1u"].std()) / np.sqrt(n))) if n > 1 else None
+    tstat = (float(g["profit_1u"].mean()) / (float(g["profit_1u"].std()) / np.sqrt(n))) \
+            if n > 1 and g["profit_1u"].std() > 0 else None  # std==0 (all same outcome) => undefined
     pending = int((sel["outcome"].isna()).sum())
     days_live = (pd.Timestamp.now() - pd.Timestamp(start)).days + 1
     by_month = []
