@@ -53,7 +53,11 @@ def pre_flight_check():
 def update_markdown_reports(models):
     """Updates README.md and LATEST_ACTION.md with latest results using StatsEngine."""
     logger.info("📝 Updating System Reports (README.md & LATEST_ACTION.md)...")
-    
+
+    # [PAGES DOMAIN]: Single source of truth for the GitHub Pages base URL.
+    # Keep this in sync when the GitHub username changes.
+    PAGES_BASE = "https://dsargent21.github.io/Quarry-Intelligence"
+
     # --- CALCULATE STATS USING StatsEngine ---
     stats = {}
     for name, df in models.items():
@@ -64,6 +68,28 @@ def update_markdown_reports(models):
     v6_list = [d for d in v6_list if d is not None and not d.empty]
     v6_df = pd.concat(v6_list) if v6_list else pd.DataFrame()
     stats_v6 = StatsEngine.calculate_metrics(v6_df)
+
+    # [FORWARD TEST]: Series 7 Ruby stats from the frozen walk-forward ledger.
+    # docs/ruby_forward.json is written by ruby/forward.py later in the same
+    # pipeline run (and is tracked, so last run's file is present at checkout).
+    ruby_stats = {"sample": 0, "net": 0.0, "roi": None,
+                  "verification": {"n": 307, "roi": 0.110, "tstat": 2.04,
+                                    "profit": 33.8, "months_pos": "3/3"}}
+    ruby_forward_path = os.path.join(BASE_DIR, "docs", "ruby_forward.json")
+    if os.path.exists(ruby_forward_path):
+        try:
+            with open(ruby_forward_path, "r", encoding="utf-8") as f:
+                ruby_payload = json.load(f)
+            rs = ruby_payload.get("stats", {})
+            ruby_stats["sample"] = rs.get("n", 0)
+            ruby_stats["net"] = rs.get("net", 0.0)
+            ruby_stats["roi"] = rs.get("roi")
+            ruby_stats["verification"] = (ruby_payload.get("meta", {})
+                                           .get("verification", {})
+                                           or ruby_stats["verification"])
+        except Exception:
+            logger.warning("⚠️ Could not parse docs/ruby_forward.json; Series 7 shown with defaults.")
+    ruby_roi_text = f"{ruby_stats['roi']:+.1%}" if ruby_stats.get("roi") is not None else "—"
 
     # --- 1. LATEST_ACTION.md ---
     et_now = StatsEngine.get_et_now()
@@ -108,7 +134,7 @@ def update_markdown_reports(models):
     # --- 2. README.md ---
     def get_row(name, label, released, profile, color_emoji):
         m = stats.get(name, StatsEngine.calculate_metrics(None))
-        return f"| **[{label}](https://ducky705.github.io/Quarry-Intelligence/web/{name if name != 'pyrite' else 'pyrite'}.html)** | `{released}` | `{profile}` | {color_emoji} **ACTIVE** | {m['volume']} | **{m['sample']}** | **{m['roi']:+.1%}** |"
+        return f"| **[{label}]({PAGES_BASE}/web/{name if name != 'pyrite' else 'pyrite'}.html)** | `{released}` | `{profile}` | {color_emoji} **ACTIVE** | {m['volume']} | **{m['sample']}** | **{m['roi']:+.1%}** |"
 
     readme_text = f"""
 <div align="center">
@@ -117,22 +143,25 @@ def update_markdown_reports(models):
   <p style="font-family: monospace; letter-spacing: 2px; color: #888;">INSTITUTIONAL ALGORITHMIC ANALYTICS</p>
   <br />
 
-  <a href="https://ducky705.github.io/Quarry-Intelligence/web/selector.html">
+  <a href="{PAGES_BASE}/web/selector.html">
     <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
-  <a href="https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
+  <a href="{PAGES_BASE}/web/kyanite_carnelian.html">
     <img src="https://img.shields.io/badge/SERIES%206%20NET-{stats_v6['net']:+.1f}u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
-  <a href="https://ducky705.github.io/Quarry-Intelligence/web/sapphire.html">
+  <a href="{PAGES_BASE}/web/ruby.html">
+    <img src="https://img.shields.io/badge/SERIES%207%20FWD-{ruby_stats['net']:+.1f}u-E11D48?style=for-the-badge" alt="Series 7 Forward Test" />
+  </a>
+  <a href="{PAGES_BASE}/web/sapphire.html">
     <img src="https://img.shields.io/badge/SERIES%205%20NET-{stats.get('sapphire', {'net':0})['net']:+.1f}u-2563EB?style=for-the-badge" alt="Series 5 Net" />
   </a>
-  <a href="https://ducky705.github.io/Quarry-Intelligence/web/quartz.html">
+  <a href="{PAGES_BASE}/web/quartz.html">
     <img src="https://img.shields.io/badge/SERIES%204%20NET-{stats.get('quartz', {'net':0})['net']:+.1f}u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
   </a>
 
   <br />
   <br />
-  <a href="https://ducky705.github.io/Quarry-Intelligence/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
+  <a href="{PAGES_BASE}/web/selector.html"><strong>ACCESS CONTROL CENTER</strong></a>
   <br />
   <br />
 </div>
@@ -145,7 +174,8 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 6: KYANITE & CARNELIAN](https://ducky705.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | {stats_v6['volume']} | **{stats_v6['sample']}** | **{stats_v6['roi']:+.1%}** |
+| **[SERIES 7: RUBY]({PAGES_BASE}/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Low (policy &le;6/day) | **{ruby_stats['sample']}** | **{ruby_roi_text}** |
+| **[SERIES 6: KYANITE & CARNELIAN]({PAGES_BASE}/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | {stats_v6['volume']} | **{stats_v6['sample']}** | **{stats_v6['roi']:+.1%}** |
 {get_row('sapphire', 'SERIES 5: SAPPHIRE', 'MAY 13, 2026', 'CONFORMAL <br> Momentum', '🔵')}
 {get_row('quartz', 'SERIES 4: QUARTZ', 'APR 06, 2026', 'INSTITUTIONAL <br> Drift Proxy', '⚪')}
 {get_row('obsidian', 'SERIES 3: OBSIDIAN', 'DEC 27, 2025', 'ADVANCED ENSEMBLE <br> Non-Linear', '🟣')}
@@ -153,11 +183,17 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 {get_row('pyrite', 'SERIES 1: PYRITE', 'NOV 20, 2025', 'LEGACY CORE <br> High-Freq', '🟡')}
 
 > [!IMPORTANT]
-> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://ducky705.github.io/Quarry-Intelligence/web/selector.html).
+> **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**]({PAGES_BASE}/web/selector.html).
 
 ---
 
 ## 🛰 SYSTEMS OVERVIEW
+
+### V7 RUBY // THE FORWARD TEST
+*The honest edge.* Frozen policy from a leakage-controlled walk-forward, now live-tested from `AUG 27, 2026`.
+*   **Protocol**: Policy grid tuned only on Nov 2025–May 2026 folds; frozen Jun–Aug untouched. Acceptance bar: t-stat ≥ 2, n ≥ 80, ≥ 2/3 months positive.
+*   **Walk-forward result (frozen)**: n={ruby_stats['verification'].get('n', 307)}, ROI {ruby_stats['verification'].get('roi', 0.110):+.1%}, t-stat {ruby_stats['verification'].get('tstat', 2.04):+.2f}, {ruby_stats['verification'].get('profit', 33.8):+.1f}u, positive {ruby_stats['verification'].get('months_pos', '3/3')} months.
+*   **Live tracking**: [Ruby Forward Ledger]({PAGES_BASE}/web/ruby.html) — updated daily by the pipeline, no retraining, no re-tuning.
 
 ### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
 *The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
@@ -179,6 +215,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 ### 🔬 DEEP INTELLIGENCE REPORTS
 Comprehensive technical audits and strategy profiles for the current model lineup.
 
+*   **[SERIES 7: RUBY Audit](docs/reports/RUBY_REPORT.md)** - Frozen walk-forward results & forward-test protocol
 *   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
 *   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
 *   **[SERIES 4: QUARTZ Audit](docs/reports/QUARTZ_REPORT.md)** - Institutional Drift Proxy
@@ -209,7 +246,8 @@ graph TD
     C -->|Flagship| G[V4 QUARTZ]
     C -->|Premium| J[V5 SAPPHIRE]
     C -->|Surgical| K[V6 KYANITE & CARNELIAN]
-    D & E & F & G & J & K -->|Simulate| H[DECISION SUPPORT]
+    C -->|Forward| L[V7 RUBY]
+    D & E & F & G & J & K & L -->|Simulate| H[DECISION SUPPORT]
     H -->|Render| I[DASHBOARD SUITE]
 ```
 
