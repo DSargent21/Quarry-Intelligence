@@ -1,150 +1,129 @@
-# 📝 Daily Action Log (Sep 03, 2026)
+# 📝 Daily Action Log (Sep 04, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | uab blazers vs illinois fighting illini over 54.5 | -110 | 0.67 | ✅ | +0.61u |
-| MLB | as vs mariners over 7 | -110 | 0.67 | ✅ | +0.61u |
-| MLB | miami marlins vs kansas city royals over 9 | -110 | 0.47 | ✅ | +0.43u |
-| MLB | st. louis cardinals vs los angeles dodgers under 8 | -110 | 0.45 | ✅ | +0.41u |
-| NCAAF | akron zips vs wake forest demon deacons over 48.5 | -110 | 0.42 | ✅ | +0.38u |
-| NCAAF | colorado buffaloes vs georgia tech yellow jackets under 51 | -110 | 0.39 | ✅ | +0.35u |
-| MLB | toronto blue jays vs cleveland guardians under 8 | -110 | 0.42 | ❌ | -0.42u |
-| NCAAF | umass vs rutgers under 52.5 | -110 | 0.45 | ❌ | -0.45u |
-| NCAAF | georgia tech yellow jackets -6.5 vs colorado buffaloes | -110 | 0.46 | ❌ | -0.46u |
-| MLB | toronto blue jays ml vs cleveland guardians | -110 | 0.51 | ❌ | -0.51u |
-| NCAAF | umass vs rutgers over 51.5 | -110 | 0.59 | ❌ | -0.59u |
-| NCAAF | 1h wake forest -15.5 vs akron | -110 | 0.59 | ❌ | -0.59u |
-| NCAAF | colorado +6.5 vs georgia tech | -110 | 0.59 | ❌ | -0.59u |
-| NCAAF | 1h colorado +3.5 vs georgia tech | -110 | 0.59 | ❌ | -0.59u |
-| MLB | milwaukee brewers ml vs chicago cubs | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | colorado buffaloes +6.5 vs georgia tech yellow jackets | -110 | 0.68 | ❌ | -0.68u |
-| NCAAF | colorado buffaloes vs georgia tech yellow jackets over 51 | -110 | 0.68 | ❌ | -0.68u |
-| NCAAF | missouri tigers -55.5 vs arkansas pine bluff golden lions | -110 | 0.70 | ❌ | -0.70u |
+| MLB | athletics ml vs seattle mariners | +200 | 0.62 | ✅ | +1.24u |
+| NCAAF | miami hurricanes -24 vs stanford cardinal | -110 | 0.62 | ✅ | +0.56u |
+| MLB | detroit tigers vs cleveland guardians under 8.5 | -110 | 0.62 | ✅ | +0.56u |
+| MLB | as vs mariners over 7 | -110 | 0.57 | ✅ | +0.52u |
+| NCAAF | miami hurricanes vs stanford cardinal over 47 | -110 | 0.57 | ✅ | +0.52u |
+| NCAAF | toledo rockets +10.5 vs michigan state spartans | -110 | 0.46 | ✅ | +0.42u |
+| NCAAF | san josé state spartans +3 vs eastern michigan eagles | -110 | 0.39 | ✅ | +0.35u |
+| Other | montreal -3 vs bc | -110 | 0.38 | ✅ | +0.35u |
+| MLB | los angeles dodgers -1.5 vs washington nationals | -110 | 0.38 | ✅ | +0.35u |
+| NCAAF | fresno state bulldogs vs usc trojans over 51.5 | -110 | 0.38 | ❌ | -0.38u |
+| MLB | los angeles dodgers -1.5 vs arizona diamondbacks | -110 | 0.39 | ❌ | -0.39u |
+| MLB | texas rangers ml vs tampa bay rays | -110 | 0.41 | ❌ | -0.41u |
+| NCAAF | fresno state +22.5 vs usc | -110 | 0.41 | ❌ | -0.41u |
+| MLB | washington nationals vs los angeles dodgers over 8 | -110 | 0.43 | ❌ | -0.43u |
+| NCAAF | toledo rockets vs michigan state spartans under 47 | -110 | 0.51 | ❌ | -0.51u |
+| NCAAF | toledo rockets +10 vs michigan state spartans | -110 | 0.51 | ❌ | -0.51u |
+| Other | arizona diamondbacks vs houston astros over 8.5 | -110 | 0.53 | ❌ | -0.53u |
+| NCAAF | utep miners vs oklahoma sooners over 51 | -110 | 0.57 | ❌ | -0.57u |
+| MLB | cincinnati reds ml vs milwaukee brewers | +143 | 0.62 | ❌ | -0.62u |
+| NCAAF | oklahoma sooners vs utep miners over 50 | -110 | 0.62 | ❌ | -0.62u |
 
-**Daily PnL: -4.14 Units**
+**Daily PnL: -0.51 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | athletics ml vs seattle mariners | +193 | 0.35 | ✅ | +0.68u |
-| NHL | rays vs rangers | +115 | 0.35 | ✅ | +0.40u |
-| NCAAF | uab blazers vs illinois fighting illini over 54.5 | -110 | 0.33 | ✅ | +0.30u |
-| MLB | as vs mariners over 7 | -110 | 0.33 | ✅ | +0.30u |
-| MLB | kansas city royals ml vs miami marlins | +106 | 0.23 | ✅ | +0.24u |
-| MLB | miami marlins vs kansas city royals over 9 | -110 | 0.24 | ✅ | +0.22u |
-| MLB | st. louis cardinals vs los angeles dodgers under 8 | -110 | 0.22 | ✅ | +0.20u |
-| NCAAF | akron zips vs wake forest demon deacons over 48.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | colorado buffaloes vs georgia tech yellow jackets under 51 | -110 | 0.20 | ✅ | +0.18u |
-| NCAAF | akron zips vs wake forest demon deacons under 48.5 | -110 | 0.16 | ❌ | -0.16u |
-| NCAAF | wake forest -27 vs north carolina a&t | -110 | 0.16 | ❌ | -0.16u |
-| NCAAF | colorado +6.5 vs nebraska | -110 | 0.16 | ❌ | -0.16u |
-| NCAAF | umass vs rutgers under 51.5 | -110 | 0.16 | ❌ | -0.16u |
-| MLB | chicago cubs ml vs houston astros | +108 | 0.17 | ❌ | -0.17u |
-| Other | real sociedad ml vs celta vigo | -110 | 0.17 | ❌ | -0.17u |
-| NCAAF | georgia tech yellow jackets -6.5 vs colorado buffaloes | -110 | 0.17 | ❌ | -0.17u |
-| NCAAF | wake forest demon deacons -24 vs akron zips | -110 | 0.18 | ❌ | -0.18u |
-| MLB | tampa bay rays ml vs texas rangers | +110 | 0.19 | ❌ | -0.19u |
-| MLB | chicago cubs ml vs milwaukee brewers | +100 | 0.19 | ❌ | -0.19u |
-| MLB | toronto blue jays vs cleveland guardians under 8 | -110 | 0.21 | ❌ | -0.21u |
+| MLB | athletics ml vs seattle mariners | +200 | 0.27 | ✅ | +0.54u |
+| MLB | san diego padres ml vs new york yankees | +117 | 0.27 | ✅ | +0.32u |
+| NCAAF | miami hurricanes -24 vs stanford cardinal | -110 | 0.27 | ✅ | +0.25u |
+| MLB | detroit tigers vs cleveland guardians under 8.5 | -110 | 0.27 | ✅ | +0.25u |
+| MLB | as vs mariners over 7 | -110 | 0.24 | ✅ | +0.22u |
+| NCAAF | miami hurricanes vs stanford cardinal over 47 | -110 | 0.24 | ✅ | +0.22u |
+| NCAAF | toledo rockets +10.5 vs michigan state spartans | -110 | 0.19 | ✅ | +0.17u |
+| Other | austin williams vs vito mielnicki jr | +100 | 0.16 | ✅ | +0.16u |
+| NCAAF | san josé state spartans +3 vs eastern michigan eagles | -110 | 0.17 | ✅ | +0.15u |
+| Other | montreal -3 vs bc | -110 | 0.16 | ✅ | +0.15u |
+| MLB | los angeles dodgers -1.5 vs washington nationals | -110 | 0.16 | ✅ | +0.15u |
+| NCAAF | san josé state spartans vs eastern michigan eagles under 56.5 | -110 | 0.15 | ✅ | +0.14u |
+| NCAAF | michigan state spartans -9 vs toledo rockets | -110 | 0.14 | ✅ | +0.13u |
+| NCAAF | oklahoma sooners -41 vs utep miners | -110 | 0.14 | ✅ | +0.13u |
+| Other | montreal -3.5 vs bc | -110 | 0.14 | ✅ | +0.13u |
+| MLB | detroit tigers vs cleveland guardians over 7.5 | -110 | 0.14 | ✅ | +0.13u |
+| MLB | atlanta braves ml vs philadelphia phillies | +103 | 0.12 | ✅ | +0.12u |
+| NCAAF | oklahoma sooners -41.5 vs utep miners | -110 | 0.13 | ✅ | +0.12u |
+| NCAAF | long island university sharks vs kansas jayhawks over 55.5 | -110 | 0.13 | ✅ | +0.12u |
+| Tennis | ben shelton -1.5 vs denis shapovalov | -110 | 0.13 | ✅ | +0.12u |
 
-**Daily PnL: -4.82 Units**
+**Daily PnL: -2.24 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | pittsburgh pirates ml vs st. louis cardinals | +111 | 0.18 | ✅ | +0.20u |
-| MLB | chicago white sox ml vs minnesota twins | +110 | 0.18 | ✅ | +0.20u |
-| MLB | chicago white sox ml vs minnesota twins | +110 | 0.18 | ✅ | +0.20u |
-| MLB | chicago white sox ml vs minnesota twins | +108 | 0.18 | ✅ | +0.19u |
-| MLB | chicago white sox ml vs minnesota twins | +107 | 0.18 | ✅ | +0.19u |
-| MLB | chicago white sox ml vs minnesota twins | +107 | 0.18 | ✅ | +0.19u |
-| MLB | chicago white sox ml vs minnesota twins | +107 | 0.18 | ✅ | +0.19u |
-| MLB | washington nationals ml vs miami marlins | +101 | 0.18 | ✅ | +0.18u |
-| MLB | washington nationals ml vs miami marlins | -102 | 0.18 | ✅ | +0.18u |
-| MLB | toronto blue jays ml vs seattle mariners | -105 | 0.18 | ✅ | +0.17u |
-| MLB | washington nationals ml vs miami marlins | -108 | 0.18 | ✅ | +0.17u |
-| Other | new york mets +3.5 vs houston astros | -110 | 0.18 | ✅ | +0.16u |
-| NFL | chicago bears vs tennessee titans over 36.5 | -110 | 0.18 | ✅ | +0.16u |
-| NCAAF | north carolina tar heels vs tcu horned frogs under 47 | -110 | 0.18 | ✅ | +0.16u |
-| WNBA | new york liberty -8.5 vs chicago sky | -110 | 0.18 | ✅ | +0.16u |
-| MLB | cincinnati reds vs chicago cubs over 9 | -110 | 0.18 | ✅ | +0.16u |
-| NCAAF | memphis tigers +6.5 vs unlv rebels | -110 | 0.18 | ✅ | +0.16u |
-| NCAAF | memphis tigers vs unlv rebels under 56.5 | -110 | 0.18 | ✅ | +0.16u |
-| Other | hamilton +6.5 vs calgary | -110 | 0.18 | ✅ | +0.16u |
-| NCAAF | memphis tigers +4 vs unlv rebels | -110 | 0.18 | ✅ | +0.16u |
+| Combat | klaudia sygula ml | -110 | 3.00 | ❌ | -3.00u |
 
-**Daily PnL: +2.17 Units**
+**Daily PnL: -3.00 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | missouri tigers -55.5 vs arkansas pine bluff golden lions | -109 | 3.00 | ❌ | -3.00u |
+| Other | stefanos tsitsipas ml vs novak djokovic | +158 | 1.64 | ❌ | -1.64u |
+| Soccer | hillerod vs hb koge | +161 | 1.98 | ❌ | -1.98u |
+| NCAAF | oklahoma sooners vs utep miners over 50 | -109 | 2.71 | ❌ | -2.71u |
+| NCAAF | fresno state +22.5 vs usc | -109 | 2.80 | ❌ | -2.80u |
 
-**Daily PnL: -3.00 Units**
+**Daily PnL: -9.13 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | kansas city royals ml vs miami marlins | +112 | 0.83 | ✅ | +0.93u |
-| MLB | chicago cubs ml vs milwaukee brewers | +105 | 0.83 | ✅ | +0.87u |
-| MLB | toronto blue jays ml vs cleveland guardians | -104 | 0.83 | ✅ | +0.80u |
-| MLB | san francisco giants ml vs pittsburgh pirates | +153 | 0.83 | ❌ | -0.83u |
-| MLB | chicago white sox ml vs houston astros | +142 | 0.83 | ❌ | -0.83u |
-| MLB | tampa bay rays ml vs texas rangers | +110 | 0.83 | ❌ | -0.83u |
-| MLB | miami marlins ml vs kansas city royals | +107 | 0.83 | ❌ | -0.83u |
-| MLB | cleveland guardians ml vs toronto blue jays | +100 | 0.83 | ❌ | -0.83u |
-| MLB | milwaukee brewers ml vs chicago cubs | -109 | 0.83 | ❌ | -0.83u |
-| Other | alejandro tabilo ml | -140 | 0.83 | ❌ | -0.83u |
-| MLB | houston astros ml vs chicago white sox | -147 | 0.83 | ❌ | -0.83u |
-| MLB | pittsburgh pirates ml vs san francisco giants | -151 | 0.83 | ❌ | -0.83u |
+| MLB | athletics ml vs seattle mariners | +200 | 0.83 | ✅ | +1.66u |
+| MLB | boston red sox ml vs baltimore orioles | -109 | 0.83 | ✅ | +0.76u |
+| MLB | chicago white sox ml vs minnesota twins | -111 | 0.83 | ✅ | +0.75u |
+| MLB | cincinnati reds ml vs milwaukee brewers | +143 | 0.83 | ❌ | -0.83u |
+| MLB | detroit tigers ml vs cleveland guardians | +119 | 0.83 | ❌ | -0.83u |
+| MLB | baltimore orioles ml vs boston red sox | +105 | 0.83 | ❌ | -0.83u |
+| MLB | kansas city royals ml vs toronto blue jays | +100 | 0.83 | ❌ | -0.83u |
+| MLB | los angeles dodgers -1.5 vs arizona diamondbacks | -110 | 0.83 | ❌ | -0.83u |
+| MLB | tampa bay rays ml vs texas rangers | -110 | 0.83 | ❌ | -0.83u |
+| MLB | philadelphia phillies ml vs atlanta braves | -114 | 0.83 | ❌ | -0.83u |
+| MLB | minnesota twins ml vs chicago white sox | -120 | 0.83 | ❌ | -0.83u |
+| MLB | milwaukee brewers ml vs cincinnati reds | -162 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -4.87 Units**
+**Daily PnL: -4.30 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | rays vs rangers | +113 | 0.15 | ✅ | +0.17u |
-| NHL | rays vs rangers | +111 | 0.13 | ✅ | +0.14u |
-| NCAAF | uab blazers vs illinois fighting illini over 54.5 | -110 | 0.15 | ✅ | +0.14u |
-| NCAAF | uab blazers vs illinois fighting illini over 54.5 | -110 | 0.15 | ✅ | +0.14u |
-| NCAAF | umass vs rutgers over 51.5 | -110 | 0.15 | ✅ | +0.14u |
-| NCAAF | umass +29 vs rutgers | -110 | 0.15 | ✅ | +0.14u |
-| NCAAF | umass +29.5 vs rutgers | -110 | 0.15 | ✅ | +0.14u |
-| NCAAF | colorado buffaloes vs georgia tech yellow jackets under 51.5 | -117 | 0.15 | ✅ | +0.13u |
-| NCAAF | colorado buffaloes +7 vs georgia tech yellow jackets | -120 | 0.15 | ✅ | +0.13u |
-| NCAAF | colorado buffaloes +7 vs georgia tech yellow jackets | -120 | 0.15 | ✅ | +0.13u |
-| NCAAF | colorado buffaloes +7 vs georgia tech yellow jackets | -120 | 0.15 | ✅ | +0.13u |
-| NCAAF | colorado buffaloes +7 vs georgia tech yellow jackets | -120 | 0.15 | ✅ | +0.13u |
-| NCAAF | this is hoping that siu preseason all-american quarterback dj williams doesnt ml | -122 | 0.10 | ✅ | +0.08u |
-| NCAAF | colorado buffaloes +6.5 vs georgia tech yellow jackets | -110 | 0.11 | ❌ | -0.11u |
-| NCAAF | missouri tigers -55.5 vs arkansas pine bluff golden lions | -110 | 0.11 | ❌ | -0.11u |
-| NCAAF | 1q central florida -11.5 vs bethune-cookman | -110 | 0.12 | ❌ | -0.12u |
-| NCAAF | central florida vs bethune-cookman over 58.5 | -110 | 0.12 | ❌ | -0.12u |
-| NCAAF | julian lewis rushyds under 6.5 | -115 | 0.12 | ❌ | -0.12u |
-| NCAAF | 1h umass total points over 6.5 | -110 | 0.13 | ❌ | -0.13u |
-| NCAAF | 1h ucf -24.5 vs bethune-cookman wildcats | -110 | 0.13 | ❌ | -0.13u |
+| NCAAF | miami hurricanes vs stanford cardinal over 47 | -110 | 0.21 | ✅ | +0.19u |
+| NCAAF | miami hurricanes -24 vs stanford cardinal | -110 | 0.21 | ✅ | +0.19u |
+| NCAAF | michigan state spartans -9 vs toledo rockets | -110 | 0.21 | ✅ | +0.19u |
+| NCAAF | eastern michigan ml vs central michigan | -115 | 0.14 | ❌ | -0.14u |
+| NCAAF | toledo rockets vs michigan state spartans under [line missing] | -139 | 0.15 | ❌ | -0.15u |
+| NCAAF | 1h toledo vs michigan state under 24.5 | -110 | 0.16 | ❌ | -0.16u |
+| NCAAF | 1h san jose state total points over 13.5 vs eastern michigan eagles | -110 | 0.16 | ❌ | -0.16u |
+| NCAAF | 1h miami -13.5 vs florida | -110 | 0.16 | ❌ | -0.16u |
+| NCAAF | usc trojans ml vs fresno state bulldogs | -110 | 0.16 | ❌ | -0.16u |
+| NCAAF | eastern michigan eagles -10 vs san josé state spartans | -109 | 0.17 | ❌ | -0.17u |
+| NCAAF | 1h usc -6.5 vs michigan state | -126 | 0.18 | ❌ | -0.18u |
+| NCAAF | toledo rockets vs michigan state spartans under 49.5 | -110 | 0.20 | ❌ | -0.20u |
+| NHL | rays vs rangers | +104 | 0.21 | ❌ | -0.21u |
+| NCAAF | toledo +10 vs kentucky | -101 | 0.21 | ❌ | -0.21u |
+| NHL | rays vs rangers | -105 | 0.21 | ❌ | -0.21u |
+| NCAAF | eastern michigan eagles -3 vs san josé state spartans | -105 | 0.21 | ❌ | -0.21u |
+| NCAAF | san josé state spartans vs eastern michigan eagles over 55.5 | -105 | 0.21 | ❌ | -0.21u |
+| NCAAF | eastern michigan eagles -3 vs san josé state spartans | -105 | 0.21 | ❌ | -0.21u |
+| NCAAF | miami hurricanes vs stanford cardinal under 47.5 | -105 | 0.21 | ❌ | -0.21u |
+| NCAAF | toledo rockets +9.5 vs michigan state spartans | -108 | 0.21 | ❌ | -0.21u |
 
-**Daily PnL: -6.42 Units**
+**Daily PnL: -8.68 Units**
 
 
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | samsung lions vs lg twins under 9.5 | -110 | 0.15 | ❌ | -0.15u |
-| Other | hanwha eagles vs lotte giants over 9.5 | -110 | 0.15 | ❌ | -0.15u |
-| Other | kia tigers -1.5 vs kt wiz | -110 | 0.15 | ❌ | -0.15u |
-| Other | kiwoom heroes vs nc dinos under 3.5 | +110 | 0.20 | ❌ | -0.20u |
-| Other | samsung lions ml vs doosan bears | -110 | 0.22 | ❌ | -0.22u |
-| Other | nc dinos -1 vs kiwoom heroes | -122 | 0.24 | ❌ | -0.24u |
-| Other | 1h kia tigers -0.5 vs lotte giants | -125 | 0.24 | ❌ | -0.24u |
-| Other | 1h ssg landers -0.5 vs lg twins | -135 | 0.25 | ❌ | -0.25u |
+| Combat | klaudia sygula ml | -110 | 2.00 | ❌ | -2.00u |
 
-**Daily PnL: -1.60 Units**
+**Daily PnL: -2.00 Units**
 
 
