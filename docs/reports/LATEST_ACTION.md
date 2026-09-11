@@ -1,138 +1,130 @@
-# 📝 Daily Action Log (Sep 09, 2026)
+# 📝 Daily Action Log (Sep 10, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | minnesota twins vs detroit tigers over 8.5 | -110 | 0.51 | ✅ | +0.46u |
-| NFL | new england patriots vs seattle seahawks under 44.5 | -110 | 0.51 | ✅ | +0.46u |
-| MLB | los angeles dodgers -1.5 vs cincinnati reds | -110 | 0.51 | ✅ | +0.46u |
-| MLB | cleveland guardians vs baltimore orioles over 8.5 | -110 | 0.47 | ✅ | +0.43u |
-| MLB | new york mets vs miami marlins over 8.5 | -110 | 0.47 | ✅ | +0.43u |
-| MLB | houston astros vs philadelphia phillies over 8 | -110 | 0.47 | ✅ | +0.43u |
-| MLB | los angeles angels vs boston red sox over 9 | -110 | 0.47 | ✅ | +0.43u |
-| MLB | colorado rockies vs new york yankees under 9.5 | -110 | 0.37 | ✅ | +0.34u |
-| MLB | arizona diamondbacks vs kansas city royals under 8.5 | -110 | 0.36 | ✅ | +0.33u |
-| NFL | new orleans saints vs detroit lions over 49.5 | -110 | 0.32 | ❌ | -0.32u |
-| NFL | 1q rhamondre stevenson rush yds over 12.5 | -110 | 0.32 | ❌ | -0.32u |
-| NFL | dallas cowboys vs new york giants over 45 | -110 | 0.32 | ❌ | -0.32u |
-| NFL | new york giants +3 vs dallas cowboys | -110 | 0.32 | ❌ | -0.32u |
-| MLB | texas rangers +1.5 vs seattle mariners | -110 | 0.34 | ❌ | -0.34u |
-| MLB | f5 minnesota twins vs detroit tigers innings under 4.5 | -110 | 0.34 | ❌ | -0.34u |
-| Soccer | vfb stuttgart vs viking total over 2.5 / paris saint-germain vs slovan bratislava total over 2.5 | -110 | 0.35 | ❌ | -0.35u |
-| NFL | seattle seahawks -3.5 vs new england patriots | -110 | 0.44 | ❌ | -0.44u |
-| MLB | chicago cubs vs milwaukee brewers under 7.5 | -110 | 0.47 | ❌ | -0.47u |
-| MLB | blue jays vs as over 9.5 | -110 | 0.47 | ❌ | -0.47u |
-| MLB | colorado rockies vs new york yankees over 9 | -110 | 0.51 | ❌ | -0.51u |
+| MLB | houston astros ml vs philadelphia phillies | +170 | 0.77 | ✅ | +1.31u |
+| NFL | san francisco 49ers total points over 21.5 vs los angeles rams | -110 | 0.77 | ✅ | +0.70u |
+| NFL | 49ers vs rams under 48.5 | -110 | 0.77 | ✅ | +0.70u |
+| NHL | rangers vs mariners over 6.5 | -110 | 0.77 | ✅ | +0.70u |
+| Other | lens vs slavia prague over 2.5 | -110 | 0.77 | ✅ | +0.70u |
+| NFL | san francisco 49ers +4 vs los angeles rams | -110 | 0.77 | ✅ | +0.70u |
+| MLB | colorado rockies vs new york yankees over 8 | -110 | 0.60 | ✅ | +0.55u |
+| NFL | san francisco 49ers +3.5 vs los angeles rams | -110 | 0.45 | ✅ | +0.41u |
+| MLB | 1h tampa bay rays vs atlanta braves total under 4.5 | -110 | 0.45 | ✅ | +0.41u |
+| Soccer | rb leipzig +0.75 vs como | -110 | 0.42 | ❌ | -0.42u |
+| NFL | los angeles rams -3.5 vs san francisco 49ers | -110 | 0.45 | ❌ | -0.45u |
+| Other | jessica pegula +3.5 games vs aryna sabalenka | -110 | 0.45 | ❌ | -0.45u |
+| MLB | 1h new york yankees vs colorado rockies total under 1.5 | -110 | 0.45 | ❌ | -0.45u |
+| NHL | rangers vs mariners under 7 | -110 | 0.65 | ❌ | -0.65u |
+| Other | houston astros vs philadelphia phillies over 8.5 | -110 | 0.70 | ❌ | -0.70u |
+| NFL | san francisco 49ers vs los angeles rams over 48 | -110 | 0.77 | ❌ | -0.77u |
 
-**Daily PnL: -2.09 Units**
+**Daily PnL: +2.28 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | los angeles angels ml vs boston red sox | +192 | 0.28 | ✅ | +0.54u |
-| MLB | san diego padres -1.5 vs washington nationals | +143 | 0.28 | ✅ | +0.40u |
-| MLB | san francisco giants ml vs st. louis cardinals | +116 | 0.28 | ✅ | +0.32u |
-| MLB | kansas city royals ml vs arizona diamondbacks | -101 | 0.26 | ✅ | +0.26u |
-| MLB | baltimore orioles ml vs cleveland guardians | +105 | 0.24 | ✅ | +0.25u |
-| Other | minnesota twins vs detroit tigers over 8.5 | -110 | 0.26 | ✅ | +0.24u |
-| NFL | new england patriots vs seattle seahawks under 44.5 | -110 | 0.26 | ✅ | +0.24u |
-| MLB | los angeles dodgers -1.5 vs cincinnati reds | -110 | 0.26 | ✅ | +0.24u |
-| MLB | cleveland guardians vs baltimore orioles over 8.5 | -110 | 0.24 | ✅ | +0.22u |
-| MLB | new york mets vs miami marlins over 8.5 | -110 | 0.24 | ✅ | +0.22u |
-| MLB | houston astros vs philadelphia phillies over 8 | -110 | 0.24 | ✅ | +0.22u |
-| MLB | los angeles angels vs boston red sox over 9 | -110 | 0.24 | ✅ | +0.22u |
-| MLB | new york mets ml vs miami marlins | +115 | 0.18 | ✅ | +0.21u |
-| MLB | tampa bay rays ml vs atlanta braves | +109 | 0.18 | ✅ | +0.20u |
-| MLB | colorado rockies vs new york yankees under 9.5 | -110 | 0.18 | ✅ | +0.16u |
-| MLB | arizona diamondbacks vs kansas city royals under 8.5 | -110 | 0.18 | ✅ | +0.16u |
-| Other | galatasaray vs sporting cp over 3 | -110 | 0.14 | ✅ | +0.13u |
-| Other | leeds united vs chelsea over 3 | -110 | 0.12 | ✅ | +0.11u |
-| Soccer | liverpool -0.75 vs atletico madrid | -110 | 0.12 | ✅ | +0.11u |
-| MLB | houston astros vs philadelphia phillies under 8 | +100 | 0.11 | ❌ | -0.11u |
+| MLB | houston astros ml vs philadelphia phillies | +170 | 0.62 | ✅ | +1.05u |
+| NFL | san francisco 49ers total points over 21.5 vs los angeles rams | -110 | 0.62 | ✅ | +0.56u |
+| NFL | 49ers vs rams under 48.5 | -110 | 0.62 | ✅ | +0.56u |
+| NHL | rangers vs mariners over 6.5 | -110 | 0.62 | ✅ | +0.56u |
+| Other | lens vs slavia prague over 2.5 | -110 | 0.62 | ✅ | +0.56u |
+| NFL | san francisco 49ers +4 vs los angeles rams | -110 | 0.62 | ✅ | +0.56u |
+| MLB | colorado rockies vs new york yankees over 8 | -110 | 0.48 | ✅ | +0.44u |
+| NFL | san francisco 49ers +3.5 vs los angeles rams | -110 | 0.36 | ✅ | +0.33u |
+| MLB | 1h tampa bay rays vs atlanta braves total under 4.5 | -110 | 0.36 | ✅ | +0.33u |
+| MLB | colorado rockies vs new york yankees over 8.5 | -110 | 0.28 | ✅ | +0.25u |
+| MLB | rangers ml | +110 | 0.32 | ❌ | -0.32u |
+| MLB | tampa bay rays ml vs atlanta braves | +106 | 0.32 | ❌ | -0.32u |
+| NFL | 49ers vs rams over 48 | -110 | 0.32 | ❌ | -0.32u |
+| Soccer | rb leipzig +0.75 vs como | -110 | 0.34 | ❌ | -0.34u |
+| NFL | los angeles rams -3.5 vs san francisco 49ers | -110 | 0.36 | ❌ | -0.36u |
+| Other | jessica pegula +3.5 games vs aryna sabalenka | -110 | 0.36 | ❌ | -0.36u |
+| MLB | 1h new york yankees vs colorado rockies total under 1.5 | -110 | 0.36 | ❌ | -0.36u |
+| MLB | chicago white sox ml vs pittsburgh pirates | +100 | 0.37 | ❌ | -0.37u |
+| MLB | rays ml | +105 | 0.38 | ❌ | -0.38u |
+| NHL | rangers vs mariners under 7 | -110 | 0.52 | ❌ | -0.52u |
 
-**Daily PnL: -1.38 Units**
+**Daily PnL: +0.39 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | san diego padres -1.5 vs washington nationals | +143 | 0.18 | ✅ | +0.26u |
-| MLB | san diego padres -1.5 vs washington nationals | +119 | 0.18 | ✅ | +0.21u |
-| MLB | san francisco giants ml vs st. louis cardinals | +116 | 0.18 | ✅ | +0.21u |
-| MLB | new york mets ml vs miami marlins | +115 | 0.18 | ✅ | +0.21u |
-| MLB | san francisco giants ml vs st. louis cardinals | +107 | 0.18 | ✅ | +0.19u |
-| MLB | san francisco giants ml vs st. louis cardinals | +107 | 0.18 | ✅ | +0.19u |
-| MLB | san francisco giants ml vs st. louis cardinals | +105 | 0.18 | ✅ | +0.19u |
-| MLB | baltimore orioles ml vs cleveland guardians | +105 | 0.18 | ✅ | +0.19u |
-| MLB | baltimore orioles ml vs cleveland guardians | +105 | 0.18 | ✅ | +0.19u |
-| MLB | kansas city royals ml vs arizona diamondbacks | -101 | 0.18 | ✅ | +0.18u |
-| NFL | new england patriots vs seattle seahawks under 44.5 | -110 | 0.18 | ✅ | +0.16u |
-| NFL | new england patriots vs seattle seahawks under 44.5 | -110 | 0.18 | ✅ | +0.16u |
-| MLB | arizona diamondbacks vs kansas city royals under 8.5 | -110 | 0.18 | ✅ | +0.16u |
-| NFL | new england patriots vs seattle seahawks under 44.5 | -110 | 0.18 | ✅ | +0.16u |
-| MLB | los angeles angels vs boston red sox over 9 | -110 | 0.18 | ✅ | +0.16u |
-| MLB | cleveland guardians vs baltimore orioles over 8.5 | -110 | 0.18 | ✅ | +0.16u |
-| NFL | new england patriots vs seattle seahawks under 44.5 | -110 | 0.18 | ✅ | +0.16u |
-| MLB | detroit tigers ml vs minnesota twins | -117 | 0.18 | ✅ | +0.15u |
-| MLB | detroit tigers ml vs minnesota twins | -117 | 0.18 | ✅ | +0.15u |
-| MLB | milwaukee brewers ml vs chicago cubs | -123 | 0.18 | ✅ | +0.15u |
+| MLB | houston astros ml vs philadelphia phillies | +170 | 0.22 | ✅ | +0.37u |
+| MLB | new york yankees -1.5 vs colorado rockies | -110 | 0.22 | ✅ | +0.20u |
+| MLB | atlanta braves ml vs tampa bay rays | -110 | 0.22 | ✅ | +0.20u |
+| MLB | new york yankees -1.5 vs colorado rockies | -110 | 0.22 | ✅ | +0.20u |
+| MLB | new york yankees -1.5 vs colorado rockies | -110 | 0.22 | ✅ | +0.20u |
+| MLB | new york yankees -1.5 vs colorado rockies | -110 | 0.22 | ✅ | +0.20u |
+| NFL | 49ers vs rams under 48.5 | -110 | 0.22 | ✅ | +0.20u |
+| NHL | rangers vs mariners over 6.5 | -110 | 0.22 | ✅ | +0.20u |
+| NFL | san francisco 49ers +4 vs los angeles rams | -110 | 0.22 | ✅ | +0.20u |
+| NFL | san francisco 49ers total points over 21.5 vs los angeles rams | -110 | 0.22 | ✅ | +0.20u |
+| MLB | 1h tampa bay rays vs atlanta braves total under 4.5 | -110 | 0.22 | ✅ | +0.20u |
+| NFL | 49ers vs rams under 48.5 | -110 | 0.22 | ✅ | +0.20u |
+| Other | lens vs slavia prague over 2.5 | -110 | 0.22 | ✅ | +0.20u |
+| NFL | san francisco 49ers +4 vs los angeles rams | -110 | 0.22 | ✅ | +0.20u |
+| MLB | atlanta braves ml vs tampa bay rays | -112 | 0.22 | ✅ | +0.20u |
+| MLB | atlanta braves ml vs tampa bay rays | -114 | 0.22 | ✅ | +0.19u |
+| MLB | atlanta braves ml vs tampa bay rays | -115 | 0.22 | ✅ | +0.19u |
+| MLB | atlanta braves ml vs tampa bay rays | -115 | 0.22 | ✅ | +0.19u |
+| MLB | atlanta braves ml vs tampa bay rays | -115 | 0.22 | ✅ | +0.19u |
+| MLB | atlanta braves ml vs tampa bay rays | -118 | 0.22 | ✅ | +0.19u |
 
-**Daily PnL: -2.12 Units**
+**Daily PnL: +1.00 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | manchester city -0.5 vs fc porto | -109 | 2.67 | ✅ | +2.43u |
+| Other | lens vs slavia prague over 2.5 | -109 | 3.00 | ✅ | +2.73u |
 
-**Daily PnL: +2.43 Units**
+**Daily PnL: +2.73 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | san francisco giants ml vs st. louis cardinals | +116 | 0.83 | ✅ | +0.96u |
-| MLB | baltimore orioles ml vs cleveland guardians | +105 | 0.83 | ✅ | +0.87u |
-| MLB | kansas city royals ml vs arizona diamondbacks | -101 | 0.83 | ✅ | +0.82u |
-| MLB | detroit tigers ml vs minnesota twins | -117 | 0.83 | ✅ | +0.71u |
-| MLB | milwaukee brewers ml vs chicago cubs | -123 | 0.83 | ✅ | +0.67u |
-| MLB | san diego padres ml vs washington nationals | -185 | 0.83 | ✅ | +0.45u |
-| MLB | cincinnati reds ml vs los angeles dodgers | +249 | 0.83 | ❌ | -0.83u |
-| NHL | rangers vs mariners | +136 | 0.83 | ❌ | -0.83u |
-| MLB | chicago cubs ml vs milwaukee brewers | +119 | 0.83 | ❌ | -0.83u |
-| MLB | minnesota twins ml vs detroit tigers | +107 | 0.83 | ❌ | -0.83u |
-| MLB | boston red sox -1.5 vs new york yankees | +105 | 0.83 | ❌ | -0.83u |
-| MLB | atlanta braves ml vs tampa bay rays | -125 | 0.83 | ❌ | -0.83u |
+| Soccer | rc lens vs slavia praha | +179 | 0.83 | ✅ | +1.49u |
+| MLB | houston astros ml vs philadelphia phillies | +170 | 0.83 | ✅ | +1.41u |
+| MLB | pittsburgh pirates ml vs chicago white sox | -110 | 0.83 | ✅ | +0.75u |
+| NFL | san francisco 49ers +4 vs los angeles rams | -110 | 0.83 | ✅ | +0.75u |
+| MLB | atlanta braves ml vs tampa bay rays | -115 | 0.83 | ✅ | +0.72u |
+| Other | flamengo vs independiente del valle | +200 | 0.83 | ❌ | -0.83u |
+| NHL | rangers vs mariners | +117 | 0.83 | ❌ | -0.83u |
+| MLB | chicago white sox ml vs pittsburgh pirates | -110 | 0.83 | ❌ | -0.83u |
+| NFL | los angeles rams -3.5 vs san francisco 49ers | -110 | 0.83 | ❌ | -0.83u |
+| NFL | dallas cowboys ml | -144 | 0.83 | ❌ | -0.83u |
+| MLB | philadelphia phillies ml vs houston astros | -170 | 0.83 | ❌ | -0.83u |
+| MLB | phillies ml | -170 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -0.49 Units**
+**Daily PnL: -0.68 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | charlotte fc vs cf montreal | +185 | 1.28 | ✅ | +2.37u |
-| NCAAF | syracuse vs miami over 56.5 | -110 | 0.88 | ❌ | -0.88u |
-| NCAAF | ohio state +1.5 vs michigan | -110 | 0.88 | ❌ | -0.88u |
-| NCAAF | arkansas +12.5 vs lsu | -110 | 0.88 | ❌ | -0.88u |
-| NCAAF | old dominion +18.5 vs virginia tech | -110 | 0.88 | ❌ | -0.88u |
-| NCAAF | georgia tech +13 vs clemson | -110 | 0.88 | ❌ | -0.88u |
-| NCAAF | arizona state +14.5 vs texas | -110 | 0.88 | ❌ | -0.88u |
-| NCAAF | army -3.5 vs navy | -110 | 0.88 | ❌ | -0.88u |
-| NHL | rangers vs mariners | +136 | 1.28 | ❌ | -1.28u |
-| NHL | rangers vs mariners over 7.5 | -120 | 1.28 | ❌ | -1.28u |
+| NHL | rangers vs mariners over 6.5 | -110 | 1.18 | ✅ | +1.07u |
+| NHL | rangers vs mariners | -125 | 0.94 | ✅ | +0.75u |
+| NCAAF | florida a&m +58.5 | -105 | 0.79 | ❌ | -0.79u |
+| NHL | rangers vs mariners | +117 | 1.18 | ❌ | -1.18u |
+| NHL | rangers vs mariners under 7 | -110 | 1.18 | ❌ | -1.18u |
+| NCAAF | hawaii -6.5 | -110 | 1.18 | ❌ | -1.18u |
+| NCAAF | auburn -29.5 | -110 | 1.18 | ❌ | -1.18u |
+| NCAAF | michigan +6.5 | -110 | 1.18 | ❌ | -1.18u |
+| NCAAF | 1h miami -31.5 vs florida | -114 | 1.18 | ❌ | -1.18u |
 
-**Daily PnL: -6.35 Units**
+**Daily PnL: -6.05 Units**
 
 
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | kt wiz ml vs samsung lions | -110 | 0.61 | ❌ | -0.61u |
-| Other | ssg landers -1.5 vs lotte giants | -110 | 0.61 | ❌ | -0.61u |
-| Other | nc dinos vs kia tigers under 8.5 | -110 | 0.61 | ❌ | -0.61u |
-| Other | doosan bears -1.5 vs hanwha eagles | -110 | 2.00 | ❌ | -2.00u |
+| NCAAF | jeremiah smith td over 0.5 | -120 | 1.57 | ❌ | -1.57u |
 
-**Daily PnL: -3.83 Units**
+**Daily PnL: -1.57 Units**
 
 
