@@ -1,142 +1,143 @@
-# 📝 Daily Action Log (Sep 16, 2026)
+# 📝 Daily Action Log (Sep 17, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | atlanta braves vs chicago cubs over 7.5 | -110 | 0.90 | ✅ | +0.82u |
-| MLB | chicago white sox vs cleveland guardians over 7.5 | -110 | 0.84 | ✅ | +0.76u |
-| MLB | los angeles dodgers vs cincinnati reds under 8.5 | -110 | 0.84 | ✅ | +0.76u |
-| MLB | san diego padres vs colorado rockies over 11 | -110 | 0.78 | ✅ | +0.71u |
-| MLB | detroit tigers vs toronto blue jays under 8.5 | -110 | 0.61 | ✅ | +0.55u |
-| MLB | boston red sox ml vs texas rangers | -110 | 0.59 | ❌ | -0.59u |
-| Other | max schoenhaus -3 | -110 | 0.65 | ❌ | -0.65u |
-| Other | townsend vs kostyuk total match games over 20.5 | -110 | 0.65 | ❌ | -0.65u |
-| MLB | alec burleson totalbases over 1.5 | -110 | 0.65 | ❌ | -0.65u |
-| MLB | miami marlins vs arizona diamondbacks over 9 | -110 | 0.75 | ❌ | -0.75u |
-| MLB | tigers/blue jays over 8.5 | -110 | 0.90 | ❌ | -0.90u |
-| MLB | braves/cubs over 7.5 | -110 | 0.90 | ❌ | -0.90u |
-| Soccer | everton -1 vs wolverhampton | -110 | 0.92 | ❌ | -0.92u |
+| MLB | san diego padres vs colorado rockies over 10.5 | -110 | 0.27 | ✅ | +0.25u |
+| NFL | buffalo bills -4.5 vs detroit lions | -110 | 0.27 | ✅ | +0.25u |
+| MLB | los angeles dodgers vs cincinnati reds over 9.5 | -110 | 0.27 | ✅ | +0.25u |
+| NCAAF | pittsburgh panthers -10 vs syracuse orange | -110 | 0.27 | ✅ | +0.25u |
+| MLB | houston astros ml vs kansas city royals | -110 | 0.26 | ✅ | +0.24u |
+| NFL | detroit lions vs buffalo bills over 54.5 | -110 | 0.25 | ✅ | +0.23u |
+| NCAAF | syracuse orange vs pittsburgh panthers under 51.5 | -110 | 0.24 | ✅ | +0.22u |
+| NFL | detroit lions vs buffalo bills over 51.5 | -110 | 0.23 | ✅ | +0.21u |
+| WNBA | atlanta dream -15.5 vs connecticut sun | -110 | 0.23 | ✅ | +0.21u |
+| MLB | philadelphia phillies vs new york mets under 8.5 | -110 | 0.23 | ✅ | +0.21u |
+| NFL | buffalo bills -5.5 vs detroit lions | -110 | 0.22 | ✅ | +0.20u |
+| NFL | detroit lions vs buffalo bills over 53.5 | -110 | 0.17 | ✅ | +0.15u |
+| MLB | detroit tigers vs chicago white sox under 8.5 | -110 | 0.16 | ✅ | +0.15u |
+| MLB | taj bradley k over 4.5 | -110 | 0.15 | ❌ | -0.15u |
+| MLB | jake mccarthy pra over 0.5 | -110 | 0.15 | ❌ | -0.15u |
+| MLB | jackson merrill pra over 0.5 | -110 | 0.15 | ❌ | -0.15u |
+| MLB | yordan alvarez pra over 0.5 | -110 | 0.15 | ❌ | -0.15u |
+| MLB | manny machado pra over 0.5 | -110 | 0.15 | ❌ | -0.15u |
+| MLB | jeremy pena pra over 0.5 | -110 | 0.15 | ❌ | -0.15u |
+| MLB | sonny gray k over 3.5 | -110 | 0.15 | ❌ | -0.15u |
 
-**Daily PnL: -2.40 Units**
+**Daily PnL: -4.11 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | cincinnati reds ml vs los angeles dodgers | +196 | 0.25 | ✅ | +0.49u |
-| MLB | san francisco giants ml vs st. louis cardinals | +151 | 0.25 | ✅ | +0.38u |
-| MLB | kansas city royals ml vs houston astros | +150 | 0.25 | ✅ | +0.38u |
-| MLB | minnesota twins ml vs new york yankees | +130 | 0.25 | ✅ | +0.32u |
-| MLB | baltimore orioles ml vs new york mets | +120 | 0.25 | ✅ | +0.30u |
-| MLB | miami marlins ml vs arizona diamondbacks | +119 | 0.25 | ✅ | +0.30u |
-| MLB | atlanta braves vs chicago cubs over 7.5 | -110 | 0.22 | ✅ | +0.20u |
-| MLB | chicago white sox vs cleveland guardians over 7.5 | -110 | 0.20 | ✅ | +0.18u |
-| MLB | los angeles dodgers vs cincinnati reds under 8.5 | -110 | 0.20 | ✅ | +0.18u |
-| MLB | san diego padres vs colorado rockies over 11 | -110 | 0.19 | ✅ | +0.17u |
-| MLB | detroit tigers vs toronto blue jays under 8.5 | -110 | 0.15 | ✅ | +0.14u |
-| Soccer | brighton & hove albion vs manchester united over 3.5 | -110 | 0.13 | ✅ | +0.12u |
-| MLB | mets ml | -110 | 0.10 | ❌ | -0.10u |
-| NFL | detroit lions vs buffalo bills over 54.5 | -110 | 0.11 | ❌ | -0.11u |
-| MLB | white sox +1.5 | -110 | 0.11 | ❌ | -0.11u |
-| MLB | new york mets ml vs baltimore orioles | -110 | 0.11 | ❌ | -0.11u |
-| MLB | new york yankees ml vs minnesota twins | -110 | 0.11 | ❌ | -0.11u |
-| NFL | los angeles chargers -6.5 vs las vegas raiders | -110 | 0.11 | ❌ | -0.11u |
-| MLB | baltimore orioles vs new york mets over 9 | -110 | 0.11 | ❌ | -0.11u |
-| MLB | minnesota twins +2.5 vs cleveland guardians / seattle mariners +1.5 vs san diego padres | -110 | 0.11 | ❌ | -0.11u |
+| MLB | san diego padres vs colorado rockies over 10.5 | -110 | 0.18 | ✅ | +0.16u |
+| NFL | buffalo bills -4.5 vs detroit lions | -110 | 0.18 | ✅ | +0.16u |
+| MLB | los angeles dodgers vs cincinnati reds over 9.5 | -110 | 0.18 | ✅ | +0.16u |
+| NCAAF | pittsburgh panthers -10 vs syracuse orange | -110 | 0.18 | ✅ | +0.16u |
+| MLB | houston astros ml vs kansas city royals | -110 | 0.17 | ✅ | +0.15u |
+| NFL | detroit lions vs buffalo bills over 54.5 | -110 | 0.17 | ✅ | +0.15u |
+| NCAAF | syracuse orange vs pittsburgh panthers under 51.5 | -110 | 0.16 | ✅ | +0.15u |
+| NFL | detroit lions vs buffalo bills over 51.5 | -110 | 0.15 | ✅ | +0.14u |
+| WNBA | atlanta dream -15.5 vs connecticut sun | -110 | 0.15 | ✅ | +0.14u |
+| MLB | philadelphia phillies vs new york mets under 8.5 | -110 | 0.15 | ✅ | +0.14u |
+| NFL | buffalo bills -5.5 vs detroit lions | -110 | 0.15 | ✅ | +0.14u |
+| NFL | detroit lions vs buffalo bills over 53.5 | -110 | 0.12 | ✅ | +0.11u |
+| MLB | detroit tigers vs chicago white sox under 8.5 | -110 | 0.11 | ✅ | +0.10u |
+| MLB | taj bradley k over 4.5 | -110 | 0.10 | ❌ | -0.10u |
+| MLB | jake mccarthy pra over 0.5 | -110 | 0.10 | ❌ | -0.10u |
+| MLB | jackson merrill pra over 0.5 | -110 | 0.10 | ❌ | -0.10u |
+| MLB | yordan alvarez pra over 0.5 | -110 | 0.10 | ❌ | -0.10u |
+| MLB | manny machado pra over 0.5 | -110 | 0.10 | ❌ | -0.10u |
+| MLB | jeremy pena pra over 0.5 | -110 | 0.10 | ❌ | -0.10u |
+| MLB | sonny gray k over 3.5 | -110 | 0.10 | ❌ | -0.10u |
 
-**Daily PnL: -4.24 Units**
+**Daily PnL: -3.95 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | san francisco giants ml vs st. louis cardinals | +151 | 0.11 | ✅ | +0.17u |
-| MLB | kansas city royals ml vs houston astros | +150 | 0.11 | ✅ | +0.17u |
-| MLB | minnesota twins ml vs new york yankees | +136 | 0.11 | ✅ | +0.15u |
-| MLB | baltimore orioles ml vs new york mets | +130 | 0.11 | ✅ | +0.14u |
-| MLB | minnesota twins ml vs new york yankees | +130 | 0.11 | ✅ | +0.14u |
-| MLB | miami marlins ml vs arizona diamondbacks | +122 | 0.11 | ✅ | +0.13u |
-| MLB | baltimore orioles ml vs new york mets | +120 | 0.11 | ✅ | +0.13u |
-| MLB | baltimore orioles ml vs new york mets | +120 | 0.11 | ✅ | +0.13u |
-| MLB | miami marlins ml vs arizona diamondbacks | +119 | 0.11 | ✅ | +0.13u |
-| MLB | atlanta braves vs chicago cubs over 7.5 | -110 | 0.11 | ✅ | +0.10u |
-| MLB | philadelphia phillies -1.5 vs washington nationals | -115 | 0.11 | ✅ | +0.10u |
-| MLB | milwaukee brewers ml vs pittsburgh pirates | -118 | 0.11 | ✅ | +0.09u |
-| MLB | toronto blue jays ml vs detroit tigers | -121 | 0.11 | ✅ | +0.09u |
-| MLB | toronto blue jays ml vs detroit tigers | -125 | 0.11 | ✅ | +0.09u |
-| MLB | milwaukee brewers ml vs pittsburgh pirates | -130 | 0.11 | ✅ | +0.08u |
-| MLB | milwaukee brewers ml vs pittsburgh pirates | -130 | 0.11 | ✅ | +0.08u |
-| MLB | chicago cubs ml vs atlanta braves | -132 | 0.11 | ✅ | +0.08u |
-| MLB | washington nationals ml vs philadelphia phillies | +142 | 0.11 | ❌ | -0.11u |
-| MLB | san francisco giants ml vs st. louis cardinals | +138 | 0.11 | ❌ | -0.11u |
-| MLB | minnesota twins ml vs new york yankees | +135 | 0.11 | ❌ | -0.11u |
+| MLB | tampa bay rays ml vs boston red sox | -110 | 3.00 | ❌ | -3.00u |
 
-**Daily PnL: -5.79 Units**
+**Daily PnL: -3.00 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | f5 philadelphia phillies vs cincinnati reds | +606 | 0.74 | ❌ | -0.74u |
-| MLB | kyle schwarber total bases over 1.5 / teoscar hernandez total bases over 1.5 / fernando tatis jr total bases over 1.5 | +642 | 0.79 | ❌ | -0.79u |
-| MLB | atlanta braves vs chicago cubs alternate over 10 | +234 | 0.87 | ❌ | -0.87u |
-| Soccer | ac milan match result vs benfica ml | +129 | 0.87 | ❌ | -0.87u |
-| MLB | pittsburgh pirates ml vs milwaukee brewers | +159 | 0.98 | ❌ | -0.98u |
-| MLB | mlb kyle schwarber over 1.5 total bases / mlb teoscar hernandez over 1.5 total bases / mlb fernando tatis jr over 1.5 total bases | +642 | 1.15 | ❌ | -1.15u |
-| MLB | f5 mlb philadelphia phillies vs cincinnati reds ml | +606 | 1.15 | ❌ | -1.15u |
-| MLB | los angeles angels vs boston red sox ml | +125 | 1.15 | ❌ | -1.15u |
-| MLB | pittsburgh pirates ml | +121 | 1.15 | ❌ | -1.15u |
-| Tennis | kt wiz suwon vs hanwha eagles | +104 | 1.15 | ❌ | -1.15u |
+| NFL | josh allen pass yards over 250.5 / dj moore receiving yards over 62.5 / amon-ra st. brown receptions over 7.5 | +569 | 1.01 | ❌ | -1.01u |
+| NFL | jahmyr gibbs rushing attempts over 24 | +306 | 1.28 | ❌ | -1.28u |
+| MLB | colorado rockies ml vs san diego padres | +171 | 1.44 | ❌ | -1.44u |
+| NFL | jahmyr gibbs rush yards over 130 | +326 | 1.47 | ❌ | -1.47u |
+| NFL | 1h detroit lions +3.5 vs packers | -109 | 1.52 | ❌ | -1.52u |
+| MLB | colorado rockies +1.5 vs san diego padres | -109 | 1.54 | ❌ | -1.54u |
+| NCAAF | coastal carolina +5.5 vs james madison | -109 | 1.73 | ❌ | -1.73u |
 
-**Daily PnL: -10.00 Units**
+**Daily PnL: -9.99 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MLB | baltimore orioles ml vs new york mets | +120 | 0.83 | ✅ | +1.00u |
-| MLB | miami marlins ml vs arizona diamondbacks | +119 | 0.83 | ✅ | +0.99u |
-| MLB | chicago cubs ml vs atlanta braves | -132 | 0.83 | ✅ | +0.63u |
-| MLB | los angeles angels ml vs seattle mariners | +125 | 0.83 | ❌ | -0.83u |
-| MLB | new york mets ml vs baltimore orioles | +120 | 0.83 | ❌ | -0.83u |
-| MLB | los angeles dodgers ml vs cincinnati reds | +119 | 0.83 | ❌ | -0.83u |
-| MLB | detroit tigers ml vs toronto blue jays | +115 | 0.83 | ❌ | -0.83u |
-| MLB | seattle mariners vs los angeles angels under 8 | -110 | 0.83 | ❌ | -0.83u |
-| MLB | arizona diamondbacks ml vs miami marlins | -116 | 0.83 | ❌ | -0.83u |
-| MLB | toronto blue jays ml vs detroit tigers | -130 | 0.83 | ❌ | -0.83u |
-| MLB | new york yankees ml vs minnesota twins | -146 | 0.83 | ❌ | -0.83u |
-| MLB | houston astros ml vs kansas city royals | -160 | 0.83 | ❌ | -0.83u |
+| MLB | houston astros ml vs kansas city royals | -110 | 0.83 | ✅ | +0.75u |
+| NHL | red sox vs rangers | +120 | 0.83 | ❌ | -0.83u |
+| MLB | philadelphia phillies ml vs new york mets | +109 | 0.83 | ❌ | -0.83u |
+| MLB | los angeles angels ml vs minnesota twins | -105 | 0.83 | ❌ | -0.83u |
+| MLB | minnesota twins ml vs los angeles angels | -105 | 0.83 | ❌ | -0.83u |
+| MLB | detroit tigers ml vs chicago white sox | -110 | 0.83 | ❌ | -0.83u |
+| MLB | boston red sox ml vs texas rangers | -110 | 0.83 | ❌ | -0.83u |
+| MLB | seattle mariners ml vs houston astros | -110 | 0.83 | ❌ | -0.83u |
+| MLB | san diego padres -1.5 vs colorado rockies | -110 | 0.83 | ❌ | -0.83u |
+| MLB | new york mets ml vs philadelphia phillies | -120 | 0.83 | ❌ | -0.83u |
+| MLB | milwaukee brewers ml vs pittsburgh pirates | -125 | 0.83 | ❌ | -0.83u |
+| MLB | los angeles dodgers ml vs cincinnati reds | -151 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -4.86 Units**
+**Daily PnL: -8.38 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NHL | red sox vs rangers | -101 | 1.55 | ✅ | +1.53u |
-| NCAAF | wake forest -21.5 | -110 | 1.14 | ❌ | -1.14u |
-| NCAAF | texas tech -7 | -110 | 1.14 | ❌ | -1.14u |
-| NCAAF | georgia -24.5 | -110 | 1.14 | ❌ | -1.14u |
-| NCAAF | rutgers +24 | -110 | 1.14 | ❌ | -1.14u |
-| NCAAF | bama -19.5 | -110 | 1.14 | ❌ | -1.14u |
-| NCAAF | louisville ml | -120 | 1.20 | ❌ | -1.20u |
-| NCAAF | texas tech -8.5 vs houston | -109 | 1.55 | ❌ | -1.55u |
+| NCAAF | syracuse orange vs pittsburgh panthers under 51.5 | -110 | 0.22 | ✅ | +0.20u |
+| NCAAF | pittsburgh panthers -10 vs syracuse orange | -110 | 0.22 | ✅ | +0.20u |
+| NCAAF | pittsburgh panthers -10 vs syracuse orange | -110 | 0.22 | ✅ | +0.20u |
+| NCAAF | marseille vs besiktas 3-way besiktas | -124 | 0.22 | ✅ | +0.18u |
+| NCAAF | pittsburgh panthers -10 vs syracuse orange | -110 | 0.17 | ✅ | +0.15u |
+| NCAAF | austin turpin vs wes mena | -130 | 0.20 | ✅ | +0.15u |
+| NCAAF | houston vs texas tech under 52.5 | -110 | 0.14 | ❌ | -0.14u |
+| NCAAF | wake forest +21 vs miami | -120 | 0.14 | ❌ | -0.14u |
+| NCAAF | syracuse vs pittsburgh under 51.5 | -110 | 0.15 | ❌ | -0.15u |
+| NCAAF | pittsburgh panthers -6.5 vs syracuse orange | -110 | 0.15 | ❌ | -0.15u |
+| NCAAF | colston loveland recyds over 46.5 | -114 | 0.16 | ❌ | -0.16u |
+| NCAAF | syracuse orange -10.5 vs pittsburgh panthers | -114 | 0.17 | ❌ | -0.17u |
+| NCAAF | syracuse +10.5 vs pittsburgh | -115 | 0.19 | ❌ | -0.19u |
+| NCAAF | pittsburgh total points under 31.5 vs syracuse orange | -125 | 0.20 | ❌ | -0.20u |
+| NCAAF | syracuse vs pittsburgh under 52.5 | -128 | 0.20 | ❌ | -0.20u |
+| NCAAF | syracuse orange +10 vs pittsburgh panthers | -108 | 0.21 | ❌ | -0.21u |
+| NCAAF | isaac teslaa any time touchdown over 0.5 | +529 | 0.22 | ❌ | -0.22u |
+| NHL | pittsburgh panthers ml vs syracuse orange / buffalo bills ml vs detroit lions | +150 | 0.22 | ❌ | -0.22u |
+| NHL | red sox vs rangers | +120 | 0.22 | ❌ | -0.22u |
+| NCAAF | pittsburgh panthers -10 vs syracuse orange | -110 | 0.22 | ❌ | -0.22u |
 
-**Daily PnL: -6.92 Units**
+**Daily PnL: -7.66 Units**
 
 
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Other | 1h kiwoom heroes vs kia tigers total under 4.5 | -135 | 1.13 | ❌ | -1.13u |
-| Other | f5 nc dinos -0.5 vs lg twins | -145 | 1.17 | ❌ | -1.17u |
-| Other | sanchez izquierdo +1.5 games | -110 | 1.28 | ❌ | -1.28u |
-| Other | bryce nakashima +3.5 | -110 | 1.28 | ❌ | -1.28u |
-| Other | kia tigers -1.5 vs hanwha eagles | -110 | 1.28 | ❌ | -1.28u |
-| Other | ssg landers vs nc dinos under 9 | -110 | 1.28 | ❌ | -1.28u |
-| MLB | milwaukee brewers ml vs pittsburgh pirates | -125 | 1.28 | ❌ | -1.28u |
-| Other | kiwoom heroes vs kia tigers over 7.5 | -125 | 1.28 | ❌ | -1.28u |
+| Other | 1h kiwoom heroes +0.5 vs lg twins | -135 | 0.57 | ❌ | -0.57u |
+| Other | 1h lotte giants ml vs samsung lions | -140 | 0.58 | ❌ | -0.58u |
+| Other | samsung lions -1.5 vs lotte giants | -110 | 0.78 | ❌ | -0.78u |
+| Other | kt wiz vs lg twins under 9.5 | -110 | 0.78 | ❌ | -0.78u |
+| Other | kiwoom heroes ml vs doosan bears | -110 | 0.78 | ❌ | -0.78u |
+| MLB | tampa bay rays ml vs boston red sox | -110 | 0.93 | ❌ | -0.93u |
+| Other | wolf vs gorzny under 21.5 | -110 | 0.93 | ❌ | -0.93u |
+| NCAAF | wake forest +21 vs clemson | -110 | 0.93 | ❌ | -0.93u |
+| NCAAF | texas tech -7.5 vs houston | -110 | 0.93 | ❌ | -0.93u |
+| Other | lg twins ml vs kiwoom heroes | -110 | 0.93 | ❌ | -0.93u |
+| Other | kiwoom heroes vs doosan bears over 7 | -130 | 0.93 | ❌ | -0.93u |
+| Other | samsung lions -1.5 vs lotte giants | -160 | 0.93 | ❌ | -0.93u |
 
-**Daily PnL: -9.98 Units**
+**Daily PnL: -10.00 Units**
 
 
