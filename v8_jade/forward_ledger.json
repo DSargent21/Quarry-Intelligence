@@ -1,0 +1,16 @@
+{
+  "policy_version": "v8-jade-1.1",
+  "features_version": "jade-1",
+  "start_date": "2026-09-22",
+  "updated_at": "2026-09-22 18:35:48.786816",
+  "summary": {
+    "graded": 0,
+    "pending": 0,
+    "pushes": 0,
+    "profit": 0.0,
+    "roi": null,
+    "adj_roi": null,
+    "grade": "-"
+  },
+  "picks": []
+}

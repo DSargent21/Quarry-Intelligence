@@ -1,0 +1,10 @@
+# v8 JADE — pinned to the versions the frozen models were trained and
+# validated with (see REPORT.md). Bump only alongside a full re-validation:
+# XGBoost serialization and sklearn isotonic pickles are version-sensitive.
+pandas==2.3.3
+numpy==2.0.2
+xgboost==2.1.4
+scikit-learn==1.6.1
+supabase==2.31.0
+python-dotenv==1.2.1
+pyarrow==21.0.0
