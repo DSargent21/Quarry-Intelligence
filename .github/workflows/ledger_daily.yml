@@ -8,6 +8,9 @@ name: Daily Quarry Ledger
 # Idempotent: forward.py continues the ledger from its stored start_date and
 # preserves graded results; repeat runs on the same day converge to the same
 # state. Models are FROZEN artifacts — this workflow never retrains.
+#
+# Self-contained: v8_jade/ vendors its v7 feature builder (_v7_features.py) and
+# ships its frozen models, so nothing outside v8_jade/ is needed at runtime.
 
 on:
   schedule:

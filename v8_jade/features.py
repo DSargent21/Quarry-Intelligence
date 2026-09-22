@@ -16,10 +16,36 @@ import importlib.util
 import numpy as np
 import pandas as pd
 
-# Load v7's features.py by explicit path (a plain "import features" would
-# resolve to this very module - same name).
-_V7_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                        "v7_ruby", "features.py")
+# Load v7 RUBY's proven feature builder by explicit path (a plain
+# "import features" would resolve to this very module - same name).
+#
+# The vendored copy inside this package is authoritative: the daily GitHub
+# Actions job only syncs v8_jade/, so reaching for a sibling directory outside
+# the package (as an earlier version did) breaks every scheduled run. The
+# workspace/repo paths remain as fallbacks for local experimentation.
+_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+_V7_CANDIDATES = [
+    os.path.join(_BASE_DIR, "_v7_features.py"),                          # vendored (authoritative)
+    os.path.join(os.path.dirname(_BASE_DIR), "v7_ruby", "features.py"),  # dev workspace
+    os.path.join(os.path.dirname(_BASE_DIR), "ruby", "features.py"),     # repo sibling
+]
+_V7_PATH = next((p for p in _V7_CANDIDATES if os.path.exists(p)), None)
+if _V7_PATH is None:
+    raise FileNotFoundError(
+        "v7 feature builder not found. Looked in:\n  " + "\n  ".join(_V7_CANDIDATES))
+
+# Dev-time drift guard: if a non-vendored copy exists and differs, the vendored
+# one still wins, but silent divergence would invalidate comparisons - so say so.
+if _V7_PATH != _V7_CANDIDATES[0]:
+    try:
+        import hashlib
+        _h = lambda p: hashlib.sha256(open(p, "rb").read()).hexdigest()
+        if os.path.exists(_V7_CANDIDATES[0]) and _h(_V7_PATH) != _h(_V7_CANDIDATES[0]):
+            print(f"WARNING: {_V7_PATH} differs from the vendored {_V7_CANDIDATES[0]}; "
+                  "the vendored copy is authoritative - re-vendor if this was intentional.")
+    except Exception:
+        pass
+
 _spec = importlib.util.spec_from_file_location("v7_features", _V7_PATH)
 _v7mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_v7mod)
