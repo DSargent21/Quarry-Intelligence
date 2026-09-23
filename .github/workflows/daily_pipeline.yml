@@ -152,8 +152,9 @@ jobs:
       - name: Run Ruby Forward Tracker
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
+          set -o pipefail
           source .venv/bin/activate
           python3 ruby/forward.py 2>&1 | tee ruby_forward.log
 
@@ -167,7 +168,11 @@ jobs:
           assert "stats" in payload and "meta" in payload, "bad payload"
           html = pathlib.Path("docs/web/ruby.html").read_text()
           assert "RUBY_FORWARD" in html, "ruby.html not updated"
-          print(f"OK: start={payload['meta'].get('start_date')} n={payload['stats']['n']}")
+          import datetime
+          today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+          lu = str(payload["meta"].get("last_update", ""))[:10]
+          assert lu == today, f"ruby_forward.json is stale (last_update={lu}, today={today})"
+          print(f"OK: start={payload['meta'].get('start_date')} n={payload['stats']['n']} updated={lu}")
           PY
 
       - name: Generate Executive Job Summary
