@@ -451,9 +451,11 @@ html.js .draw{stroke-dashoffset:0}html.js .grow,html.js .growx{transform:none}ht
                       "five orders. They are carved here before the games begin — then the ledger does the talking.")
     else:
         slate_head, slate_head_em = "Open", "orders."
+        span = (f"dated {esc(slate_dates[0])}" if len(slate_dates) == 1
+                else f"span {esc(slate_dates[0])}–{esc(slate_dates[-1])}")
         slate_lede = ("Orders still awaiting a verdict. The upstream feed publishes each day’s picks with a "
-                      f"lag, so these ungraded orders span {esc(slate_dates[0])}–{esc(slate_dates[-1])}. "
-                      "Prices are the numbers posted at selection; nothing is added after the fact.")
+                      f"lag, so these ungraded orders are {span}. Prices are the numbers posted at "
+                      "selection; nothing is added after the fact.")
     recent_rows = sorted([p for p in picks if p["result"] in ("WIN", "LOSS", "PUSH")],
                          key=lambda x: x["pick_date"])[-10:][::-1]
 
