@@ -1,7 +1,7 @@
 name: Daily Quarry Ledger
 
 # THE QUARRY LEDGER — Series VIII (JADE)
-# Runs the frozen forward test every morning, rebuilds the public site, and
+# Runs the frozen forward test once a day, rebuilds the public site, and
 # commits docs/ledger/index.html which GitHub Pages serves at
 # /Quarry-Intelligence/ledger/ (same Pages setup as the web/ dashboards).
 #
@@ -14,9 +14,12 @@ name: Daily Quarry Ledger
 
 on:
   schedule:
-    - cron: '30 13 * * *'   # 08:30 US/Central — morning slate + overnight grades
-    - cron: '30 23 * * *'   # 18:30 US/Central — evening catch-up for same-day feed deliveries
-  workflow_dispatch: {}      # manual run / catch-up
+    # Single daily run, 18:30 US/Central. The picks feed ingests with a median
+    # ~23h lag (all picks within 48h), so an evening run captures nearly the
+    # entire prior-day slate (~29h after close) while a morning run would miss
+    # that morning's deliveries and lag ~44h behind.
+    - cron: '30 23 * * *'
+  workflow_dispatch: {}      # manual run / catch-up (free, on demand)
 
 concurrency:
   group: ledger-daily
