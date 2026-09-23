@@ -17,11 +17,6 @@ on:
     - cron: '30 13 * * *'   # 08:30 US/Central — morning slate + overnight grades
     - cron: '30 23 * * *'   # 18:30 US/Central — evening catch-up for same-day feed deliveries
   workflow_dispatch: {}      # manual run / catch-up
-  push:
-    # Self-test: the first run starts with the push that installs this workflow.
-    # Narrow path filter (only this file) prevents push loops from ledger commits.
-    paths:
-      - '.github/workflows/ledger_daily.yml'
 
 concurrency:
   group: ledger-daily
@@ -63,11 +58,21 @@ jobs:
           done
           echo "Frozen artifacts OK."
 
+      # The forward test needs the pick_sources table, which the anon key cannot
+      # read (RLS). Preflight fails loudly rather than letting the model score on
+      # degraded features — never publish picks the frozen policy did not choose.
+      - name: Preflight Supabase access
+        working-directory: v8_jade
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY || secrets.SUPABASE_KEY }}
+        run: python3 fetch.py
+
       - name: Run frozen forward test (fetch -> score -> ledger)
         working-directory: v8_jade
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY || secrets.SUPABASE_KEY }}
         run: python3 forward.py
 
       - name: Build the public site
