@@ -202,7 +202,7 @@ def main():
 
     payload = {
         "meta": {
-            "last_update": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M UTC"),
+            "last_update": pd.Timestamp.now(tz="UTC").strftime("%Y-%m-%d %H:%M UTC"),
             "start_date": start,
             "days_live": days_live,
             "status": "OPERATIONAL",

@@ -77,7 +77,12 @@ def load_data(use_cache=True, cache_path="data/picks.parquet", max_age_hours=12)
                         "capper_directory", "id, canonical_name")
     sources = fetch_all(create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"]),
                         "pick_sources", "id, source_platform, original_message, ocr_text")
-    sources["id"] = sources["id"].astype("Int64")
+    # Cast every join key to nullable Int64 on BOTH sides of each merge: pick ids
+    # are Int64 (see above), and dimension ids come back object-dtype from the
+    # object-frame fetch. Mixing dtypes raises MergeError on newer pandas and
+    # silently degrades the join on older ones.
+    for dim in (leagues, bet_types, cappers, sources):
+        dim["id"] = dim["id"].astype("Int64")
 
     picks["pick_date"] = pd.to_datetime(picks["pick_date"], errors="coerce")
     picks = picks[picks["pick_date"].notna()].copy()
