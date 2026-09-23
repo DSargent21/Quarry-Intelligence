@@ -8,6 +8,9 @@
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/selector.html">
     <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
+  <a href="https://dsargent21.github.io/Quarry-Intelligence/ledger/">
+    <img src="https://img.shields.io/badge/SERIES%208%20JADE-DAY%201%20LIVE-43A37C?style=for-the-badge" alt="Series 8 Jade Ledger" />
+  </a>
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
     <img src="https://img.shields.io/badge/SERIES%206%20NET--20.6u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
@@ -36,7 +39,8 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Low (policy &le;6/day) | **9** | **-100.0%** |
+| **[SERIES 8: JADE](https://dsargent21.github.io/Quarry-Intelligence/ledger/)** | `SEP 22, 2026` | `SCORE-OPTIMIZED` <br> The Quarry Ledger | 🟢 **FORWARD TEST** | Very Low (&le;5/day) | **5** | **—** |
+| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Low (policy &le;6/day) | **10** | **-100.0%** |
 | **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~63 bets/day) | **8296** | **-0.8%** |
 | **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~44 bets/day) | **5946** | **-0.6%** |
 | **[SERIES 4: QUARTZ](https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~5 bets/day) | **982** | **+1.9%** |
@@ -51,11 +55,19 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 
 ## 🛰 SYSTEMS OVERVIEW
 
+### V8 JADE // THE QUARRY LEDGER
+*Score-optimized selection.* Built to maximize the CappersTracked grade itself: Bayesian-shrunk, odds-clamped scoring implemented byte-exact, ranked daily slates capped at 5 bets, flat 1u staking.
+*   **Protocol**: Anchored walk-forward with monthly retrains, fully causal early stopping and calibration; one pre-registered policy round, evaluated exactly once on a frozen September 2026 holdout.
+*   **Frozen holdout (Sep 2026)**: n=95, WR 58.9%, raw ROI +11.7%, adj +7.7% → grade **A**. Volume and significance gates fail on single-month sample size — the forward test decides.
+*   **Live tracking**: [The Quarry Ledger](https://dsargent21.github.io/Quarry-Intelligence/ledger/) — one frozen slate per day, published automatically at 18:30 Central.
+*   **Discord channel disabled**: the Discord feed went dark 2026-08-01; the site-picks channel carries the system.
+
 ### V7 RUBY // THE FORWARD TEST
 *The honest edge.* Frozen policy from a leakage-controlled walk-forward, now live-tested from `AUG 27, 2026`.
 *   **Protocol**: Policy grid tuned only on Nov 2025–May 2026 folds; frozen Jun–Aug untouched. Acceptance bar: t-stat ≥ 2, n ≥ 80, ≥ 2/3 months positive.
 *   **Walk-forward result (frozen)**: n=307, ROI +11.0%, t-stat +2.04, +33.8u, positive 3/3 months.
 *   **Live tracking**: [Ruby Forward Ledger](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html) — updated daily by the pipeline, no retraining, no re-tuning.
+*   **Feed note**: the Discord feed went dark (last usable picks Sep 13); the Discord-only policy now has an empty quarry — tracked honestly, not hidden.
 
 ### V6 KYANITE & CARNELIAN // THE SURGICAL DNA
 *The next evolution.* A dual-engine framework balancing high-threshold precision (Kyanite) with maximum Bayesian value (Carnelian).
@@ -77,6 +89,7 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 ### 🔬 DEEP INTELLIGENCE REPORTS
 Comprehensive technical audits and strategy profiles for the current model lineup.
 
+*   **[SERIES 8: JADE Audit](docs/reports/JADE_REPORT.md)** - Score-optimized grading, dual channels & the frozen September holdout
 *   **[SERIES 7: RUBY Audit](docs/reports/RUBY_REPORT.md)** - Frozen walk-forward results & forward-test protocol
 *   **[SERIES 6: KYANITE & CARNELIAN Audit](docs/reports/KYANITE_REPORT.md)** - Surgical Alpha, Precision & Liquidity Optimization
 *   **[SERIES 5: SAPPHIRE Audit](docs/reports/SAPPHIRE_REPORT.md)** - Conformal Prediction & Momentum
@@ -109,7 +122,8 @@ graph TD
     C -->|Premium| J[V5 SAPPHIRE]
     C -->|Surgical| K[V6 KYANITE & CARNELIAN]
     C -->|Forward| L[V7 RUBY]
-    D & E & F & G & J & K & L -->|Simulate| H[DECISION SUPPORT]
+    C -->|Score| M[V8 JADE]
+    D & E & F & G & J & K & L & M -->|Simulate| H[DECISION SUPPORT]
     H -->|Render| I[DASHBOARD SUITE]
 ```
 
