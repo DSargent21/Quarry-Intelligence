@@ -229,6 +229,11 @@ jobs:
           # Ensure .nojekyll exists in docs to bypass Jekyll processing
           touch docs/.nojekyll
 
+          # Regenerate Series 7/8 rows in the README from the live ledgers. Our
+          # own (ruby) tracker must be fresh or this fails; the Jade row warns
+          # and skips if the ledger's summary is stale.
+          python3 scripts/update_readme_metrics.py --host ruby
+
           git add -A
           if [[ -z $(git status --porcelain) ]]; then
             echo 'No changes to commit (Pipeline skipped or no new data).'

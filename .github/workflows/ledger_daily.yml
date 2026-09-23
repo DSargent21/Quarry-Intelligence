@@ -96,11 +96,17 @@ jobs:
           echo "--- ledger_summary.json ---"
           cat docs/ledger/ledger_summary.json
 
+      # Regenerate Series 7/8 rows in the README from the live ledgers. Our own
+      # (jade) ledger must be fresh or this fails; the Ruby row warns and skips
+      # if the pipeline's tracker is stale - never silently stale numbers.
+      - name: Refresh README metrics
+        run: python3 scripts/update_readme_metrics.py --host jade
+
       - name: Commit ledger + site
         run: |
           git config user.name "quarry-ledger-bot"
           git config user.email "actions@quarry.intelligence"
-          git add docs/ledger/ v8_jade/forward_ledger.json v8_jade/FORWARD_LEDGER.md
+          git add docs/ledger/ v8_jade/forward_ledger.json v8_jade/FORWARD_LEDGER.md README.md
           if git diff --cached --quiet; then
             echo "Ledger unchanged today."
           else
