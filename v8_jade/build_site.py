@@ -430,22 +430,47 @@ html.js .draw{stroke-dashoffset:0}html.js .grow,html.js .growx{transform:none}ht
         f'<td class="mono">{p:+.1f}u</td><td class="mono">{g}</td></tr>'
         for m, adj, n, p, g in month_rows)
 
-    # ---------- slate rendering (real picks when present, quiet state otherwise) ----------
+    # ---------- slate rendering (open orders; quiet state only when none) ----------
+    # Every still-ungraded order is shown, not just those dated today: the upstream
+    # feed delivers a day's picks with a lag, so a build just after midnight UTC
+    # would otherwise render a live ledger as "quiet" while orders sat open.
     today = pd.Timestamp.now().normalize()
-    slate_rows = [p for p in picks if pd.Timestamp(p["pick_date"]) >= today]
+    slate_rows = sorted([p for p in picks if p["result"] == "PENDING"],
+                        key=lambda x: (pd.Timestamp(x["pick_date"]), float(x.get("prob") or 0)),
+                        reverse=True)[:12]
+    slate_dates = sorted({str(pd.Timestamp(p["pick_date"]).date()) for p in slate_rows})
+    slate_is_today = slate_dates == [str(today.date())]
+
+    if not slate_rows:
+        slate_head, slate_head_em = "Today’s", "orders."
+        slate_lede = ("Each morning the frozen model surveys every posted price and returns at most "
+                      "five orders. They are carved here before the games begin — then the ledger does the talking.")
+    elif slate_is_today:
+        slate_head, slate_head_em = "Today’s", "orders."
+        slate_lede = ("Each morning the frozen model surveys every posted price and returns at most "
+                      "five orders. They are carved here before the games begin — then the ledger does the talking.")
+    else:
+        slate_head, slate_head_em = "Open", "orders."
+        slate_lede = ("Orders still awaiting a verdict. The upstream feed publishes each day’s picks with a "
+                      f"lag, so these ungraded orders span {esc(slate_dates[0])}–{esc(slate_dates[-1])}. "
+                      "Prices are the numbers posted at selection; nothing is added after the fact.")
     recent_rows = sorted([p for p in picks if p["result"] in ("WIN", "LOSS", "PUSH")],
                          key=lambda x: x["pick_date"])[-10:][::-1]
 
+    date_head = "" if slate_is_today else "<th>Date</th>"
+
     def slate_row(p):
         chip = {"WIN": "w", "LOSS": "l", "PENDING": "p", "PUSH": "p"}.get(p["result"], "p")
-        return (f'<tr><td>{esc(p.get("capper","?"))}</td><td class="mono">{esc(p.get("league","?"))}</td>'
+        date_cell = "" if slate_is_today else \
+            f'<td class="mono">{esc(str(pd.Timestamp(p["pick_date"]).date()))}</td>'
+        return (f'<tr>{date_cell}<td>{esc(p.get("capper","?"))}</td><td class="mono">{esc(p.get("league","?"))}</td>'
                 f'<td>{esc(str(p.get("pick",""))[:44])}</td><td class="mono">{fmt_odds(p.get("odds_american"))}</td>'
                 f'<td class="mono">{p.get("prob",0):.3f}</td>'
                 f'<td><span class="chip {chip}">{esc(p["result"])}</span></td></tr>')
 
     if slate_rows:
         slate_html = ("<table class=\"ledger-t\">"
-                      "<tr><th>Capper</th><th>League</th><th>Pick</th><th>Price</th><th>Model</th><th>Verdict</th></tr>"
+                      f"<tr>{date_head}<th>Capper</th><th>League</th><th>Pick</th><th>Price</th><th>Model</th><th>Verdict</th></tr>"
                       + "".join(slate_row(p) for p in slate_rows) + "</table>")
     else:
         slate_html = ('<div class="slate-empty">'
@@ -515,9 +540,8 @@ html.js .draw{stroke-dashoffset:0}html.js .grow,html.js .growx{transform:none}ht
 <section>
   <div class="wrap">
     <div class="kicker">The Slate</div>
-    <h2>Today’s <em>orders.</em></h2>
-    <p class="lede">Each morning the frozen model surveys every posted price and returns at most
-    five orders. They are carved here before the games begin — then the ledger does the talking.</p>
+    <h2>{slate_head} <em>{slate_head_em}</em></h2>
+    <p class="lede">{slate_lede}</p>
     <div style="margin-top:36px" data-reveal>{slate_html}</div>
     <div class="dialbar"><span>0</span>
       <div class="track"><div class="fill" style="width:{confirm}%"></div></div>
