@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-24 01:40:38.058374
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-25 01:53:01.694992
 
-**Graded: 0 | Pending: 5 | Pushes: 0**
-**Profit: +0.0u | ROI: - | Adj ROI: - | Grade: -**
+**Graded: 1 | Pending: 14 | Pushes: 0**
+**Profit: -1.0u | ROI: -100.0% | Adj ROI: -8.1% | Grade: -**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -12,3 +12,13 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-24 01:40:38.
 | 2026-09-22 | Calebpicks | OTHER | Callum Connor ML | +100 | 0.478 | PENDING |
 | 2026-09-22 | Calebpicks | MLB | Nick Martinez: Hits Allowed Over 4.5 | -103 | 0.379 | PENDING |
 | 2026-09-22 | Five | NFL | Los Angeles Rams -6.5 vs New York Giants | -119 | 0.559 | PENDING |
+| 2026-09-23 | Calebpicks | NFL | Arizona Cardinals +8.5 vs San Francisco  | -110 | 0.589 | PENDING |
+| 2026-09-23 | Calebpicks | ATP | Tallon Griekspoor vs Denis Shapovalov Un | -110 | 0.589 | PENDING |
+| 2026-09-23 | Calebpicks | NCAAF | Iowa +5.5 vs Michigan | -110 | 0.589 | PENDING |
+| 2026-09-23 | Calebpicks | NCAAF | Auburn -9 vs Vanderbilt | -110 | 0.589 | PENDING |
+| 2026-09-23 | Kyle Hunter | WNBA | New York Liberty -1.5 vs Atlanta Dream | -110 | 0.589 | LOSS |
+| 2026-09-24 | Ben Burns | NCAAF | Liberty vs Liberty Flames ML | -125 | 0.505 | PENDING |
+| 2026-09-24 | Calebpicks | ATP | Basilashvili +3 vs Fritz | -110 | 0.589 | PENDING |
+| 2026-09-24 | Calebpicks | NFL | Green Bay Packers -4.5 vs Chicago Bears | -110 | 0.573 | PENDING |
+| 2026-09-24 | Calebpicks | NFL | Atlanta Falcons +5.5 vs Green Bay Packer | -115 | 0.559 | PENDING |
+| 2026-09-24 | Calebpicks | NFL | Drake London: RecYds Over 63.5 | -110 | 0.547 | PENDING |
