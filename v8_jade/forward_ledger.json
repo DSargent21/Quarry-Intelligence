@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-09-26 01:56:19.933070",
+  "updated_at": "2026-09-27 01:46:02.554014",
   "summary": {
-    "graded": 1,
-    "pending": 19,
+    "graded": 2,
+    "pending": 23,
     "pushes": 0,
-    "profit": -1.0,
-    "roi": -1.0,
-    "adj_roi": -0.0806,
+    "profit": -0.13,
+    "roi": -0.0652,
+    "adj_roi": -0.051,
     "grade": "-"
   },
   "picks": [
@@ -167,7 +167,7 @@
       "prob": 0.5594,
       "shrunk_acc_lt": 0.5622,
       "added_at": "2026-09-25 01:53:01.692940",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1859611",
@@ -251,6 +251,66 @@
       "prob": 0.5046,
       "shrunk_acc_lt": 0.5532,
       "added_at": "2026-09-26 01:56:19.931066",
+      "result": "PENDING"
+    },
+    {
+      "id": "1866066",
+      "pick_date": "2026-09-26",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "Missouri vs Mississippi State Over 58.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.561,
+      "added_at": "2026-09-27 01:46:02.552123",
+      "result": "PENDING"
+    },
+    {
+      "id": "1866064",
+      "pick_date": "2026-09-26",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "Miami Florida -40.5 vs Florida A&M",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.561,
+      "added_at": "2026-09-27 01:46:02.552207",
+      "result": "PENDING"
+    },
+    {
+      "id": "1866065",
+      "pick_date": "2026-09-26",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "Southern Miss +18.5 vs Troy",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.561,
+      "added_at": "2026-09-27 01:46:02.552257",
+      "result": "PENDING"
+    },
+    {
+      "id": "1866067",
+      "pick_date": "2026-09-26",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "Air Force -5.5 vs Navy",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.561,
+      "added_at": "2026-09-27 01:46:02.552307",
+      "result": "PENDING"
+    },
+    {
+      "id": "1865442",
+      "pick_date": "2026-09-26",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Texas Tech -34.0",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5807,
+      "added_at": "2026-09-27 01:46:02.552354",
       "result": "PENDING"
     }
   ]
