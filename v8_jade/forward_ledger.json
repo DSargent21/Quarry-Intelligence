@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-09-27 01:46:02.554014",
+  "updated_at": "2026-09-28 01:59:55.168767",
   "summary": {
-    "graded": 2,
-    "pending": 23,
+    "graded": 3,
+    "pending": 27,
     "pushes": 0,
-    "profit": -0.13,
-    "roi": -0.0652,
-    "adj_roi": -0.051,
+    "profit": -1.13,
+    "roi": -0.3768,
+    "adj_roi": -0.0797,
     "grade": "-"
   },
   "picks": [
@@ -215,7 +215,7 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5532,
       "added_at": "2026-09-26 01:56:19.930816",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1864286",
@@ -311,6 +311,66 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5807,
       "added_at": "2026-09-27 01:46:02.552354",
+      "result": "PENDING"
+    },
+    {
+      "id": "1874723",
+      "pick_date": "2026-09-27",
+      "capper": "Hakeem Profit",
+      "league": "NFL",
+      "pick": "New England Patriots vs Jacksonville Jaguars Under 46",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5714,
+      "added_at": "2026-09-28 01:59:55.166505",
+      "result": "PENDING"
+    },
+    {
+      "id": "1875491",
+      "pick_date": "2026-09-27",
+      "capper": "Midwestmikesports",
+      "league": "NFL",
+      "pick": "Tampa Bay Buccaneers +1.5 vs New York Giants",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5556,
+      "added_at": "2026-09-28 01:59:55.166614",
+      "result": "PENDING"
+    },
+    {
+      "id": "1874810",
+      "pick_date": "2026-09-27",
+      "capper": "Prop Joe",
+      "league": "NFL",
+      "pick": "Cleveland Browns vs Carolina Panthers Under 43",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5526,
+      "added_at": "2026-09-28 01:59:55.166699",
+      "result": "PENDING"
+    },
+    {
+      "id": "1875270",
+      "pick_date": "2026-09-27",
+      "capper": "Cashitbaby",
+      "league": "NFL",
+      "pick": "Dallas Cowboys +3.5 vs Philadelphia Eagles",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5695,
+      "added_at": "2026-09-28 01:59:55.166780",
+      "result": "PENDING"
+    },
+    {
+      "id": "1874733",
+      "pick_date": "2026-09-27",
+      "capper": "Matt Severance",
+      "league": "NFL",
+      "pick": "Jacksonville Jaguars -2.5 vs New England Patriots",
+      "odds_american": -122.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5661,
+      "added_at": "2026-09-28 01:59:55.166863",
       "result": "PENDING"
     }
   ]

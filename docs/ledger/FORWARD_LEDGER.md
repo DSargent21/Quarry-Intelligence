@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-27 01:46:02.554014
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-28 01:59:55.168767
 
-**Graded: 2 | Pending: 23 | Pushes: 0**
-**Profit: -0.1u | ROI: -6.5% | Adj ROI: -5.1% | Grade: -**
+**Graded: 3 | Pending: 27 | Pushes: 0**
+**Profit: -1.1u | ROI: -37.7% | Adj ROI: -8.0% | Grade: -**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -23,7 +23,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-27 01:46:02.
 | 2026-09-24 | Calebpicks | NFL | Atlanta Falcons +5.5 vs Green Bay Packer | -115 | 0.559 | WIN |
 | 2026-09-24 | Calebpicks | NFL | Drake London: RecYds Over 63.5 | -110 | 0.547 | PENDING |
 | 2026-09-25 | Chefsbestbets | NCAAF | Marshall Thundering Herd -22.5 vs Gardne | -110 | 0.518 | PENDING |
-| 2026-09-25 | Chefsbestbets | NCAAF | California Golden Bears +1.5 vs Clemson  | -118 | 0.518 | PENDING |
+| 2026-09-25 | Chefsbestbets | NCAAF | California Golden Bears +1.5 vs Clemson  | -118 | 0.518 | LOSS |
 | 2026-09-25 | Chefsbestbets | NCAAF | Georgia Bulldogs -13.5 vs Oklahoma Soone | -118 | 0.505 | PENDING |
 | 2026-09-25 | Chefsbestbets | NCAAF | New Mexico Lobos -11 vs New Mexico State | -112 | 0.505 | PENDING |
 | 2026-09-25 | Chefsbestbets | NCAAF | South Carolina State Bulldogs -14.5 vs B | -113 | 0.505 | PENDING |
@@ -32,3 +32,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-09-27 01:46:02.
 | 2026-09-26 | Cashitbaby | NCAAF | Miami Florida -40.5 vs Florida A&M | -110 | 0.589 | PENDING |
 | 2026-09-26 | Cashitbaby | NCAAF | Southern Miss +18.5 vs Troy | -110 | 0.589 | PENDING |
 | 2026-09-26 | Cashitbaby | NCAAF | Air Force -5.5 vs Navy | -110 | 0.589 | PENDING |
+| 2026-09-27 | Cashitbaby | NFL | Dallas Cowboys +3.5 vs Philadelphia Eagl | -110 | 0.589 | PENDING |
+| 2026-09-27 | Hakeem Profit | NFL | New England Patriots vs Jacksonville Jag | -110 | 0.589 | PENDING |
+| 2026-09-27 | Matt Severance | NFL | Jacksonville Jaguars -2.5 vs New England | -122 | 0.589 | PENDING |
+| 2026-09-27 | Midwestmikesports | NFL | Tampa Bay Buccaneers +1.5 vs New York Gi | -110 | 0.589 | PENDING |
+| 2026-09-27 | Prop Joe | NFL | Cleveland Browns vs Carolina Panthers Un | -110 | 0.589 | PENDING |
