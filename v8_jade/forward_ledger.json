@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-09-28 01:59:55.168767",
+  "updated_at": "2026-09-29 02:45:07.618613",
   "summary": {
-    "graded": 3,
-    "pending": 27,
+    "graded": 8,
+    "pending": 22,
     "pushes": 0,
-    "profit": -1.13,
-    "roi": -0.3768,
-    "adj_roi": -0.0797,
-    "grade": "-"
+    "profit": -0.48,
+    "roi": -0.0601,
+    "adj_roi": -0.0521,
+    "grade": "F"
   },
   "picks": [
     {
@@ -155,7 +155,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5622,
       "added_at": "2026-09-25 01:53:01.692860",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1859886",
@@ -203,7 +203,7 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5532,
       "added_at": "2026-09-26 01:56:19.930704",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1864288",
@@ -227,7 +227,7 @@
       "prob": 0.5046,
       "shrunk_acc_lt": 0.5532,
       "added_at": "2026-09-26 01:56:19.930902",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1864284",
@@ -239,7 +239,7 @@
       "prob": 0.5046,
       "shrunk_acc_lt": 0.5532,
       "added_at": "2026-09-26 01:56:19.930986",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1864283",
@@ -323,7 +323,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5714,
       "added_at": "2026-09-28 01:59:55.166505",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1875491",
