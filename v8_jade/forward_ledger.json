@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-09-29 02:45:07.618613",
+  "updated_at": "2026-10-02 02:36:42.699706",
   "summary": {
-    "graded": 8,
-    "pending": 22,
+    "graded": 18,
+    "pending": 19,
     "pushes": 0,
-    "profit": -0.48,
-    "roi": -0.0601,
-    "adj_roi": -0.0521,
+    "profit": -2.92,
+    "roi": -0.162,
+    "adj_roi": -0.092,
     "grade": "F"
   },
   "picks": [
@@ -263,7 +263,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.561,
       "added_at": "2026-09-27 01:46:02.552123",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1866064",
@@ -335,7 +335,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5556,
       "added_at": "2026-09-28 01:59:55.166614",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1874810",
@@ -347,7 +347,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5526,
       "added_at": "2026-09-28 01:59:55.166699",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1875270",
@@ -359,7 +359,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5695,
       "added_at": "2026-09-28 01:59:55.166780",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1874733",
@@ -371,6 +371,90 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5661,
       "added_at": "2026-09-28 01:59:55.166863",
+      "result": "PENDING"
+    },
+    {
+      "id": "1876369",
+      "pick_date": "2026-09-29",
+      "capper": "Five",
+      "league": "MLB",
+      "pick": "Chicago White Sox vs Houston Astros Over 8",
+      "odds_american": -115.0,
+      "prob": 0.4776,
+      "shrunk_acc_lt": 0.568,
+      "added_at": "2026-10-02 02:36:42.697259",
+      "result": "WIN"
+    },
+    {
+      "id": "1876774",
+      "pick_date": "2026-09-30",
+      "capper": "Ricky Tran",
+      "league": "MLB",
+      "pick": "Chicago White Sox vs Houston Astros Under 7.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5758,
+      "added_at": "2026-10-02 02:36:42.697363",
+      "result": "LOSS"
+    },
+    {
+      "id": "1876705",
+      "pick_date": "2026-09-30",
+      "capper": "William Burns",
+      "league": "MLB",
+      "pick": "Philadelphia Phillies ML vs Atlanta Braves",
+      "odds_american": -114.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5712,
+      "added_at": "2026-10-02 02:36:42.697468",
+      "result": "WIN"
+    },
+    {
+      "id": "1876788",
+      "pick_date": "2026-09-30",
+      "capper": "Prosportspicks",
+      "league": "WNBA",
+      "pick": "Washington Mystics +4.5 vs Atlanta Dream",
+      "odds_american": -118.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5509,
+      "added_at": "2026-10-02 02:36:42.697557",
+      "result": "LOSS"
+    },
+    {
+      "id": "1876702",
+      "pick_date": "2026-09-30",
+      "capper": "Kyle Hunter",
+      "league": "WNBA",
+      "pick": "Washington Mystics +4.5 vs Atlanta Dream",
+      "odds_american": -115.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.587,
+      "added_at": "2026-10-02 02:36:42.697637",
+      "result": "LOSS"
+    },
+    {
+      "id": "1876709",
+      "pick_date": "2026-09-30",
+      "capper": "Matt Sullivan",
+      "league": "WNBA",
+      "pick": "Washington Mystics +4.5 vs Atlanta Dream",
+      "odds_american": -115.0,
+      "prob": 0.4662,
+      "shrunk_acc_lt": 0.5595,
+      "added_at": "2026-10-02 02:36:42.697714",
+      "result": "LOSS"
+    },
+    {
+      "id": "1877181",
+      "pick_date": "2026-10-01",
+      "capper": "Kyle Hunter",
+      "league": "MLB",
+      "pick": "Philadelphia Phillies -1 vs Atlanta Braves",
+      "odds_american": -107.0,
+      "prob": 0.4776,
+      "shrunk_acc_lt": 0.5862,
+      "added_at": "2026-10-02 02:36:42.697791",
       "result": "PENDING"
     }
   ]
