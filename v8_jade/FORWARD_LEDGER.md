@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-02 02:36:42.699706
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-03 02:21:00.777522
 
-**Graded: 18 | Pending: 19 | Pushes: 0**
-**Profit: -2.9u | ROI: -16.2% | Adj ROI: -9.2% | Grade: F**
+**Graded: 28 | Pending: 17 | Pushes: 0**
+**Profit: -5.3u | ROI: -18.9% | Adj ROI: -11.7% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -30,17 +30,25 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-02 02:36:42.
 | 2026-09-26 | Ben Burns | NCAAF | Texas Tech -34.0 | -110 | 0.589 | PENDING |
 | 2026-09-26 | Cashitbaby | NCAAF | Missouri vs Mississippi State Over 58.5 | -110 | 0.589 | LOSS |
 | 2026-09-26 | Cashitbaby | NCAAF | Miami Florida -40.5 vs Florida A&M | -110 | 0.589 | PENDING |
-| 2026-09-26 | Cashitbaby | NCAAF | Southern Miss +18.5 vs Troy | -110 | 0.589 | PENDING |
-| 2026-09-26 | Cashitbaby | NCAAF | Air Force -5.5 vs Navy | -110 | 0.589 | PENDING |
+| 2026-09-26 | Cashitbaby | NCAAF | Southern Miss +18.5 vs Troy | -110 | 0.589 | WIN |
+| 2026-09-26 | Cashitbaby | NCAAF | Air Force -5.5 vs Navy | -110 | 0.589 | LOSS |
 | 2026-09-27 | Cashitbaby | NFL | Dallas Cowboys +3.5 vs Philadelphia Eagl | -110 | 0.589 | WIN |
 | 2026-09-27 | Hakeem Profit | NFL | New England Patriots vs Jacksonville Jag | -110 | 0.589 | WIN |
 | 2026-09-27 | Matt Severance | NFL | Jacksonville Jaguars -2.5 vs New England | -122 | 0.589 | PENDING |
 | 2026-09-27 | Midwestmikesports | NFL | Tampa Bay Buccaneers +1.5 vs New York Gi | -110 | 0.589 | LOSS |
 | 2026-09-27 | Prop Joe | NFL | Cleveland Browns vs Carolina Panthers Un | -110 | 0.589 | WIN |
+| 2026-09-29 | Chefsbestbets | MLB | New York Yankees vs Boston Red Sox Under | -115 | 0.589 | LOSS |
+| 2026-09-29 | Chefsbestbets | MLB | Matthew Boyd: K Under 3.5 | -114 | 0.559 | LOSS |
+| 2026-09-29 | Chefsbestbets | MLB | Michael King: K Under 4.5 | -105 | 0.487 | LOSS |
 | 2026-09-29 | Five | MLB | Chicago White Sox vs Houston Astros Over | -115 | 0.478 | WIN |
+| 2026-09-29 | Kyle Hunter | MLB | Red Sox/Yankees Under 6.5 | -115 | 0.505 | LOSS |
 | 2026-09-30 | Kyle Hunter | WNBA | Washington Mystics +4.5 vs Atlanta Dream | -115 | 0.497 | LOSS |
 | 2026-09-30 | Matt Sullivan | WNBA | Washington Mystics +4.5 vs Atlanta Dream | -115 | 0.466 | LOSS |
 | 2026-09-30 | Prosportspicks | WNBA | Washington Mystics +4.5 vs Atlanta Dream | -118 | 0.505 | LOSS |
 | 2026-09-30 | Ricky Tran | MLB | Chicago White Sox vs Houston Astros Unde | -110 | 0.589 | LOSS |
 | 2026-09-30 | William Burns | MLB | Philadelphia Phillies ML vs Atlanta Brav | -114 | 0.589 | WIN |
+| 2026-10-01 | Brandon Lee | NFL | Cleveland Browns +3 vs Pittsburgh Steele | -110 | 0.589 | WIN |
+| 2026-10-01 | Cashitbaby | NCAAF | New Mexico State -2.5 vs Sam Houston Sta | -110 | 0.589 | WIN |
+| 2026-10-01 | Cashitbaby | NHL | Philadelphia Flyers vs New Jersey Devils | -110 | 0.589 | LOSS |
 | 2026-10-01 | Kyle Hunter | MLB | Philadelphia Phillies -1 vs Atlanta Brav | -107 | 0.478 | PENDING |
+| 2026-10-01 | Ricky Tran | NFL | Cleveland Browns +3 vs Pittsburgh Steele | -110 | 0.589 | WIN |

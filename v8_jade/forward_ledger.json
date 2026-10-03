@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-02 02:36:42.699706",
+  "updated_at": "2026-10-03 02:21:00.777522",
   "summary": {
-    "graded": 18,
-    "pending": 19,
+    "graded": 28,
+    "pending": 17,
     "pushes": 0,
-    "profit": -2.92,
-    "roi": -0.162,
-    "adj_roi": -0.092,
+    "profit": -5.28,
+    "roi": -0.1886,
+    "adj_roi": -0.1169,
     "grade": "F"
   },
   "picks": [
@@ -287,7 +287,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.561,
       "added_at": "2026-09-27 01:46:02.552257",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1866067",
@@ -299,7 +299,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.561,
       "added_at": "2026-09-27 01:46:02.552307",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1865442",
@@ -456,6 +456,102 @@
       "shrunk_acc_lt": 0.5862,
       "added_at": "2026-10-02 02:36:42.697791",
       "result": "PENDING"
+    },
+    {
+      "id": "1876233",
+      "pick_date": "2026-09-29",
+      "capper": "Chefsbestbets",
+      "league": "MLB",
+      "pick": "New York Yankees vs Boston Red Sox Under 6.5",
+      "odds_american": -115.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-03 02:21:00.774776",
+      "result": "LOSS"
+    },
+    {
+      "id": "1876231",
+      "pick_date": "2026-09-29",
+      "capper": "Chefsbestbets",
+      "league": "MLB",
+      "pick": "Matthew Boyd: K Under 3.5",
+      "odds_american": -114.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-03 02:21:00.774880",
+      "result": "LOSS"
+    },
+    {
+      "id": "1876112",
+      "pick_date": "2026-09-29",
+      "capper": "Kyle Hunter",
+      "league": "MLB",
+      "pick": "Red Sox/Yankees Under 6.5",
+      "odds_american": -115.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5965,
+      "added_at": "2026-10-03 02:21:00.774963",
+      "result": "LOSS"
+    },
+    {
+      "id": "1876232",
+      "pick_date": "2026-09-29",
+      "capper": "Chefsbestbets",
+      "league": "MLB",
+      "pick": "Michael King: K Under 4.5",
+      "odds_american": -105.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-03 02:21:00.775041",
+      "result": "LOSS"
+    },
+    {
+      "id": "1877621",
+      "pick_date": "2026-10-01",
+      "capper": "Ricky Tran",
+      "league": "NFL",
+      "pick": "Cleveland Browns +3 vs Pittsburgh Steelers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5778,
+      "added_at": "2026-10-03 02:21:00.775324",
+      "result": "WIN"
+    },
+    {
+      "id": "1877078",
+      "pick_date": "2026-10-01",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "New Mexico State -2.5 vs Sam Houston State",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5549,
+      "added_at": "2026-10-03 02:21:00.775401",
+      "result": "WIN"
+    },
+    {
+      "id": "1877610",
+      "pick_date": "2026-10-01",
+      "capper": "Brandon Lee",
+      "league": "NFL",
+      "pick": "Cleveland Browns +3 vs Pittsburgh Steelers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5565,
+      "added_at": "2026-10-03 02:21:00.775476",
+      "result": "WIN"
+    },
+    {
+      "id": "1877073",
+      "pick_date": "2026-10-01",
+      "capper": "Cashitbaby",
+      "league": "NHL",
+      "pick": "Philadelphia Flyers vs New Jersey Devils Over 5.5 Goals",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5549,
+      "added_at": "2026-10-03 02:21:00.775554",
+      "result": "LOSS"
     }
   ]
 }
