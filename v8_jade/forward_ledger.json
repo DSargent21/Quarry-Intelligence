@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-03 02:21:00.777522",
+  "updated_at": "2026-10-04 02:54:51.633422",
   "summary": {
-    "graded": 28,
+    "graded": 30,
     "pending": 17,
     "pushes": 0,
-    "profit": -5.28,
-    "roi": -0.1886,
-    "adj_roi": -0.1169,
+    "profit": -3.46,
+    "roi": -0.1154,
+    "adj_roi": -0.0827,
     "grade": "F"
   },
   "picks": [
@@ -552,6 +552,30 @@
       "shrunk_acc_lt": 0.5549,
       "added_at": "2026-10-03 02:21:00.775554",
       "result": "LOSS"
+    },
+    {
+      "id": "1878176",
+      "pick_date": "2026-10-02",
+      "capper": "Ben Burns",
+      "league": "WNBA",
+      "pick": "Golden State Valkyries vs Dallas Wings Under 158.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5783,
+      "added_at": "2026-10-04 02:54:51.631358",
+      "result": "WIN"
+    },
+    {
+      "id": "1878165",
+      "pick_date": "2026-10-02",
+      "capper": "Ben Burns",
+      "league": "WNBA",
+      "pick": "Wings vs Valkyries Under 158.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5783,
+      "added_at": "2026-10-04 02:54:51.631468",
+      "result": "WIN"
     }
   ]
 }

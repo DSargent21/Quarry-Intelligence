@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-03 02:21:00.777522
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-04 02:54:51.633422
 
-**Graded: 28 | Pending: 17 | Pushes: 0**
-**Profit: -5.3u | ROI: -18.9% | Adj ROI: -11.7% | Grade: F**
+**Graded: 30 | Pending: 17 | Pushes: 0**
+**Profit: -3.5u | ROI: -11.5% | Adj ROI: -8.3% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -52,3 +52,5 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-03 02:21:00.
 | 2026-10-01 | Cashitbaby | NHL | Philadelphia Flyers vs New Jersey Devils | -110 | 0.589 | LOSS |
 | 2026-10-01 | Kyle Hunter | MLB | Philadelphia Phillies -1 vs Atlanta Brav | -107 | 0.478 | PENDING |
 | 2026-10-01 | Ricky Tran | NFL | Cleveland Browns +3 vs Pittsburgh Steele | -110 | 0.589 | WIN |
+| 2026-10-02 | Ben Burns | WNBA | Golden State Valkyries vs Dallas Wings U | -110 | 0.589 | WIN |
+| 2026-10-02 | Ben Burns | WNBA | Wings vs Valkyries Under 158.5 | -110 | 0.589 | WIN |
