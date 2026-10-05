@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-04 02:54:51.633422
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-05 02:23:00.667488
 
-**Graded: 30 | Pending: 17 | Pushes: 0**
-**Profit: -3.5u | ROI: -11.5% | Adj ROI: -8.3% | Grade: F**
+**Graded: 36 | Pending: 24 | Pushes: 0**
+**Profit: -1.8u | ROI: -5.1% | Adj ROI: -5.0% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -54,3 +54,16 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-04 02:54:51.
 | 2026-10-01 | Ricky Tran | NFL | Cleveland Browns +3 vs Pittsburgh Steele | -110 | 0.589 | WIN |
 | 2026-10-02 | Ben Burns | WNBA | Golden State Valkyries vs Dallas Wings U | -110 | 0.589 | WIN |
 | 2026-10-02 | Ben Burns | WNBA | Wings vs Valkyries Under 158.5 | -110 | 0.589 | WIN |
+| 2026-10-02 | Joseph Damico | NCAAF | Pittsburgh Panthers +2.5 vs Virginia Tec | -110 | 0.589 | WIN |
+| 2026-10-02 | Ricky Tran | WNBA | Golden State Valkyries -7.5 vs Dallas Wi | -110 | 0.589 | LOSS |
+| 2026-10-02 | Ricky Tran | CFL | Calgary +5.5 vs Saskatchewan | -110 | 0.589 | WIN |
+| 2026-10-03 | Midwestmikesports | NCAAF | Louisiana Tech +1.5 vs Colorado Buffaloe | -110 | 0.589 | PENDING |
+| 2026-10-03 | Midwestmikesports | NCAAF | Louisiana Tech +1.5 vs Sam Houston State | -110 | 0.589 | PENDING |
+| 2026-10-03 | Nick Parsons | NCAAF | Old Dominion Monarchs +2.5 vs Georgia St | -110 | 0.589 | LOSS |
+| 2026-10-03 | Nick Parsons | NFL | Cincinnati Bengals -7 vs Jacksonville Ja | -110 | 0.589 | WIN |
+| 2026-10-03 | William Burns | NCAAF | Fresno State Bulldogs +2 vs Washington S | -110 | 0.589 | WIN |
+| 2026-10-04 | Cashitbaby | NFL | Washington Commanders +4.5 vs Los Angele | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
