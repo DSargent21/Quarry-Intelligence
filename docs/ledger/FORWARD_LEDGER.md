@@ -1,6 +1,6 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-05 02:23:00.667488
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-06 03:21:55.466721
 
 **Graded: 36 | Pending: 24 | Pushes: 0**
 **Profit: -1.8u | ROI: -5.1% | Adj ROI: -5.0% | Grade: F**
