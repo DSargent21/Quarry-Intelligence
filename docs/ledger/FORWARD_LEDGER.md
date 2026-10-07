@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-06 03:21:55.466721
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-07 02:42:51.335194
 
-**Graded: 36 | Pending: 24 | Pushes: 0**
-**Profit: -1.8u | ROI: -5.1% | Adj ROI: -5.0% | Grade: F**
+**Graded: 38 | Pending: 21 | Pushes: 1**
+**Profit: -1.9u | ROI: -5.0% | Adj ROI: -5.0% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -62,8 +62,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-06 03:21:55.
 | 2026-10-03 | Nick Parsons | NCAAF | Old Dominion Monarchs +2.5 vs Georgia St | -110 | 0.589 | LOSS |
 | 2026-10-03 | Nick Parsons | NFL | Cincinnati Bengals -7 vs Jacksonville Ja | -110 | 0.589 | WIN |
 | 2026-10-03 | William Burns | NCAAF | Fresno State Bulldogs +2 vs Washington S | -110 | 0.589 | WIN |
-| 2026-10-04 | Cashitbaby | NFL | Washington Commanders +4.5 vs Los Angele | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Washington Commanders +4.5 vs Los Angele | -110 | 0.589 | LOSS |
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | PENDING |
-| 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | PENDING |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
