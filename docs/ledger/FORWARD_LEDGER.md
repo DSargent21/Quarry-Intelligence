@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-07 02:42:51.335194
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-08 02:55:13.386537
 
-**Graded: 38 | Pending: 21 | Pushes: 1**
-**Profit: -1.9u | ROI: -5.0% | Adj ROI: -5.0% | Grade: F**
+**Graded: 48 | Pending: 19 | Pushes: 1**
+**Profit: -2.3u | ROI: -4.9% | Adj ROI: -4.9% | Grade: D**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -63,7 +63,15 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-07 02:42:51.
 | 2026-10-03 | Nick Parsons | NFL | Cincinnati Bengals -7 vs Jacksonville Ja | -110 | 0.589 | WIN |
 | 2026-10-03 | William Burns | NCAAF | Fresno State Bulldogs +2 vs Washington S | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Washington Commanders +4.5 vs Los Angele | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
-| 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
 | 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
+| 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
+| 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
+| 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
+| 2026-10-05 | Tokyo Brandon | MLB | Chicago White Sox vs Cleveland Guardians | -115 | 0.559 | WIN |
+| 2026-10-05 | Tokyo Brandon | NFL | Seibu Lions vs Chiba Lotte Marines Seibu | -105 | 0.505 | WIN |
+| 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
+| 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
+| 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |

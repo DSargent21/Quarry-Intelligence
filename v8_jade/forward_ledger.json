@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-07 02:42:51.335194",
+  "updated_at": "2026-10-08 02:55:13.386537",
   "summary": {
-    "graded": 38,
-    "pending": 21,
+    "graded": 48,
+    "pending": 19,
     "pushes": 1,
-    "profit": -1.92,
-    "roi": -0.0504,
-    "adj_roi": -0.0502,
-    "grade": "F"
+    "profit": -2.34,
+    "roi": -0.0486,
+    "adj_roi": -0.0492,
+    "grade": "D"
   },
   "picks": [
     {
@@ -695,7 +695,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665255",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1880095",
@@ -719,7 +719,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665405",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1880098",
@@ -732,6 +732,102 @@
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
       "result": "PUSH"
+    },
+    {
+      "id": "1881804",
+      "pick_date": "2026-10-05",
+      "capper": "Five",
+      "league": "NFL",
+      "pick": "New Orleans Saints ML vs Atlanta Falcons",
+      "odds_american": -120.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5519,
+      "added_at": "2026-10-08 02:55:13.384454",
+      "result": "LOSS"
+    },
+    {
+      "id": "1882124",
+      "pick_date": "2026-10-05",
+      "capper": "Kyle Hunter",
+      "league": "MLB",
+      "pick": "Chicago White Sox vs Cleveland Guardians Under 6.5",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5848,
+      "added_at": "2026-10-08 02:55:13.384537",
+      "result": "LOSS"
+    },
+    {
+      "id": "1882073",
+      "pick_date": "2026-10-05",
+      "capper": "Prosportspicks",
+      "league": "NFL",
+      "pick": "New Orleans Saints -2.5 vs Atlanta Falcons",
+      "odds_american": -118.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.56,
+      "added_at": "2026-10-08 02:55:13.384588",
+      "result": "LOSS"
+    },
+    {
+      "id": "1882115",
+      "pick_date": "2026-10-05",
+      "capper": "Tokyo Brandon",
+      "league": "MLB",
+      "pick": "Chicago White Sox vs Cleveland Guardians Over 6.5",
+      "odds_american": -115.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5508,
+      "added_at": "2026-10-08 02:55:13.384634",
+      "result": "WIN"
+    },
+    {
+      "id": "1882114",
+      "pick_date": "2026-10-05",
+      "capper": "Tokyo Brandon",
+      "league": "NFL",
+      "pick": "Seibu Lions vs Chiba Lotte Marines Seibu Lions",
+      "odds_american": -105.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5508,
+      "added_at": "2026-10-08 02:55:13.384680",
+      "result": "WIN"
+    },
+    {
+      "id": "1885109",
+      "pick_date": "2026-10-06",
+      "capper": "Matt Severance",
+      "league": "MLS",
+      "pick": "Both sides are missing some guys due to international duty. ",
+      "odds_american": -124.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5748,
+      "added_at": "2026-10-08 02:55:13.384726",
+      "result": "LOSS"
+    },
+    {
+      "id": "1885110",
+      "pick_date": "2026-10-06",
+      "capper": "Matt Severance",
+      "league": "NHL",
+      "pick": "Ottawa Senators ML vs Detroit Red Wings",
+      "odds_american": -102.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5748,
+      "added_at": "2026-10-08 02:55:13.384772",
+      "result": "WIN"
+    },
+    {
+      "id": "1885154",
+      "pick_date": "2026-10-06",
+      "capper": "Kyle Hunter",
+      "league": "NBA",
+      "pick": "Panthers vs Kings",
+      "odds_american": -115.0,
+      "prob": 0.4662,
+      "shrunk_acc_lt": 0.584,
+      "added_at": "2026-10-08 02:55:13.384821",
+      "result": "WIN"
     }
   ]
 }
