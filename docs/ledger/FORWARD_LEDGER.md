@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-08 02:55:13.386537
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-09 03:06:07.610381
 
-**Graded: 48 | Pending: 19 | Pushes: 1**
-**Profit: -2.3u | ROI: -4.9% | Adj ROI: -4.9% | Grade: D**
+**Graded: 51 | Pending: 19 | Pushes: 2**
+**Profit: -3.4u | ROI: -6.7% | Adj ROI: -6.1% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -72,6 +72,10 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-08 02:55:13.
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
 | 2026-10-05 | Tokyo Brandon | MLB | Chicago White Sox vs Cleveland Guardians | -115 | 0.559 | WIN |
 | 2026-10-05 | Tokyo Brandon | NFL | Seibu Lions vs Chiba Lotte Marines Seibu | -105 | 0.505 | WIN |
+| 2026-10-06 | Hunter Price | NCAAF | Southern Miss Golden Eagles +11.5 vs Tro | -110 | 0.589 | LOSS |
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
+| 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
+| 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
