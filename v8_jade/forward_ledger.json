@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-09 03:06:07.610381",
+  "updated_at": "2026-10-10 02:42:25.840880",
   "summary": {
-    "graded": 51,
+    "graded": 58,
     "pending": 19,
-    "pushes": 2,
-    "profit": -3.44,
-    "roi": -0.0675,
-    "adj_roi": -0.061,
+    "pushes": 3,
+    "profit": -4.71,
+    "roi": -0.0813,
+    "adj_roi": -0.0706,
     "grade": "F"
   },
   "picks": [
@@ -876,6 +876,102 @@
       "shrunk_acc_lt": 0.565,
       "added_at": "2026-10-09 03:06:07.608931",
       "result": "WIN"
+    },
+    {
+      "id": "1886597",
+      "pick_date": "2026-10-07",
+      "capper": "Nick Parsons",
+      "league": "NCAAF",
+      "pick": "Jacksonville State Gamecocks vs Kennesaw State Owls Over 50",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5515,
+      "added_at": "2026-10-10 02:42:25.839000",
+      "result": "WIN"
+    },
+    {
+      "id": "1886605",
+      "pick_date": "2026-10-07",
+      "capper": "Hunter Price",
+      "league": "NCAAF",
+      "pick": "Florida International Panthers -5.5 vs New Mexico State Aggi",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.552,
+      "added_at": "2026-10-10 02:42:25.839074",
+      "result": "WIN"
+    },
+    {
+      "id": "1886678",
+      "pick_date": "2026-10-07",
+      "capper": "Ricky Tran",
+      "league": "MLB",
+      "pick": "Cleveland Guardians vs Chicago White Sox Under 8",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5682,
+      "added_at": "2026-10-10 02:42:25.839120",
+      "result": "LOSS"
+    },
+    {
+      "id": "1887417",
+      "pick_date": "2026-10-08",
+      "capper": "Bet Labs",
+      "league": "NCAAF",
+      "pick": "Western Kentucky +1.5 vs Missouri State Bears",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5514,
+      "added_at": "2026-10-10 02:42:25.839200",
+      "result": "WIN"
+    },
+    {
+      "id": "1886855",
+      "pick_date": "2026-10-08",
+      "capper": "Ricky Tran",
+      "league": "NCAAF",
+      "pick": "UTSA Roadrunners -7 vs South Florida Bulls",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5685,
+      "added_at": "2026-10-10 02:42:25.839240",
+      "result": "PUSH"
+    },
+    {
+      "id": "1886745",
+      "pick_date": "2026-10-08",
+      "capper": "Sal Michaels",
+      "league": "NCAAF",
+      "pick": "Arkansas State Red Wolves -1.5 vs South Alabama Jaguars",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5553,
+      "added_at": "2026-10-10 02:42:25.839278",
+      "result": "LOSS"
+    },
+    {
+      "id": "1886730",
+      "pick_date": "2026-10-08",
+      "capper": "Nick Parsons",
+      "league": "NCAAF",
+      "pick": "Arkansas State Red Wolves ML vs South Alabama Jaguars",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5532,
+      "added_at": "2026-10-10 02:42:25.839315",
+      "result": "LOSS"
+    },
+    {
+      "id": "1886744",
+      "pick_date": "2026-10-08",
+      "capper": "Sal Michaels",
+      "league": "NBA",
+      "pick": "New Orleans Pelicans +7.5 vs Miami Heat",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5553,
+      "added_at": "2026-10-10 02:42:25.839367",
+      "result": "LOSS"
     }
   ]
 }
