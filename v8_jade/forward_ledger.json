@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-10 02:42:25.840880",
+  "updated_at": "2026-10-11 02:09:53.797895",
   "summary": {
-    "graded": 58,
-    "pending": 19,
-    "pushes": 3,
-    "profit": -4.71,
-    "roi": -0.0813,
-    "adj_roi": -0.0706,
+    "graded": 63,
+    "pending": 26,
+    "pushes": 1,
+    "profit": -3.99,
+    "roi": -0.0633,
+    "adj_roi": -0.059,
     "grade": "F"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -972,6 +972,126 @@
       "shrunk_acc_lt": 0.5553,
       "added_at": "2026-10-10 02:42:25.839367",
       "result": "LOSS"
+    },
+    {
+      "id": "1887968",
+      "pick_date": "2026-10-09",
+      "capper": "Hunter Price",
+      "league": "NCAAF",
+      "pick": "Utah State Aggies -3.5 vs Washington State Cougars",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5657,
+      "added_at": "2026-10-11 02:09:53.795902",
+      "result": "LOSS"
+    },
+    {
+      "id": "1888025",
+      "pick_date": "2026-10-09",
+      "capper": "Ricky Tran",
+      "league": "Other",
+      "pick": "Werder Bremen vs Borussia Dortmund Under 3.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.586,
+      "added_at": "2026-10-11 02:09:53.795980",
+      "result": "LOSS"
+    },
+    {
+      "id": "1887868",
+      "pick_date": "2026-10-09",
+      "capper": "Hakeem Profit",
+      "league": "WNBA",
+      "pick": "Atlanta Dream vs New York Liberty Under 172.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5634,
+      "added_at": "2026-10-11 02:09:53.796026",
+      "result": "WIN"
+    },
+    {
+      "id": "1888026",
+      "pick_date": "2026-10-09",
+      "capper": "Ricky Tran",
+      "league": "Other",
+      "pick": "BC -13.5 vs Ottawa",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.586,
+      "added_at": "2026-10-11 02:09:53.796068",
+      "result": "WIN"
+    },
+    {
+      "id": "1888052",
+      "pick_date": "2026-10-09",
+      "capper": "Ben Burns",
+      "league": "WNBA",
+      "pick": "Atlanta Dream vs New York Liberty Under 172.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5726,
+      "added_at": "2026-10-11 02:09:53.796108",
+      "result": "WIN"
+    },
+    {
+      "id": "1890377",
+      "pick_date": "2026-10-10",
+      "capper": "Five",
+      "league": "NCAAF",
+      "pick": "Kansas State Wildcats ML vs Houston Cougars",
+      "odds_american": -120.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5714,
+      "added_at": "2026-10-11 02:09:53.796147",
+      "result": "PENDING"
+    },
+    {
+      "id": "1890229",
+      "pick_date": "2026-10-10",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Old Dominion +10 vs Appalachian State",
+      "odds_american": -112.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5705,
+      "added_at": "2026-10-11 02:09:53.796187",
+      "result": "PENDING"
+    },
+    {
+      "id": "1890231",
+      "pick_date": "2026-10-10",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Oregon -10 vs UCLA",
+      "odds_american": -116.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5705,
+      "added_at": "2026-10-11 02:09:53.796229",
+      "result": "PENDING"
+    },
+    {
+      "id": "1890230",
+      "pick_date": "2026-10-10",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Georgia Tech +7 vs Duke",
+      "odds_american": -109.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5705,
+      "added_at": "2026-10-11 02:09:53.796270",
+      "result": "PENDING"
+    },
+    {
+      "id": "1890324",
+      "pick_date": "2026-10-10",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Katin Houser: Rush Attempts Under 7.5",
+      "odds_american": -120.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5734,
+      "added_at": "2026-10-11 02:09:53.796309",
+      "result": "PENDING"
     }
   ]
 }
