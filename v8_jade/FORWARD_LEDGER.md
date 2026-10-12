@@ -1,8 +1,8 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-11 02:09:53.797895
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-12 02:40:45.978806
 
-**Graded: 63 | Pending: 26 | Pushes: 1**
+**Graded: 63 | Pending: 28 | Pushes: 2**
 **Profit: -4.0u | ROI: -6.3% | Adj ROI: -5.9% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
@@ -84,7 +84,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-11 02:09:53.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -97,3 +97,6 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-11 02:09:53.
 | 2026-10-10 | Ben Burns | NCAAF | Georgia Tech +7 vs Duke | -109 | 0.505 | PENDING |
 | 2026-10-10 | Chefsbestbets | NCAAF | Katin Houser: Rush Attempts Under 7.5 | -120 | 0.487 | PENDING |
 | 2026-10-10 | Five | NCAAF | Kansas State Wildcats ML vs Houston Coug | -120 | 0.518 | PENDING |
+| 2026-10-11 | Ben Burns | NFL | Las Vegas Raiders vs New England Patriot | -115 | 0.505 | PENDING |
+| 2026-10-11 | Chefsbestbets | NFL | Woody Marks: Receptions Under 1.5 | -112 | 0.466 | PENDING |
+| 2026-10-11 | Chefsbestbets | NFL | Los Angeles Chargers +3.5 vs Denver Bron | -105 | 0.418 | PENDING |

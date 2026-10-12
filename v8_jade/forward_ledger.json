@@ -2,11 +2,11 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-11 02:09:53.797895",
+  "updated_at": "2026-10-12 02:40:45.978806",
   "summary": {
     "graded": 63,
-    "pending": 26,
-    "pushes": 1,
+    "pending": 28,
+    "pushes": 2,
     "profit": -3.99,
     "roi": -0.0633,
     "adj_roi": -0.059,
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1091,6 +1091,42 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5734,
       "added_at": "2026-10-11 02:09:53.796309",
+      "result": "PENDING"
+    },
+    {
+      "id": "1892148",
+      "pick_date": "2026-10-11",
+      "capper": "Ben Burns",
+      "league": "NFL",
+      "pick": "Las Vegas Raiders vs New England Patriots Under 45.5",
+      "odds_american": -115.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5903,
+      "added_at": "2026-10-12 02:40:45.976558",
+      "result": "PENDING"
+    },
+    {
+      "id": "1891693",
+      "pick_date": "2026-10-11",
+      "capper": "Chefsbestbets",
+      "league": "NFL",
+      "pick": "Woody Marks: Receptions Under 1.5",
+      "odds_american": -112.0,
+      "prob": 0.4662,
+      "shrunk_acc_lt": 0.6104,
+      "added_at": "2026-10-12 02:40:45.976662",
+      "result": "PENDING"
+    },
+    {
+      "id": "1891502",
+      "pick_date": "2026-10-11",
+      "capper": "Chefsbestbets",
+      "league": "NFL",
+      "pick": "Los Angeles Chargers +3.5 vs Denver Broncos",
+      "odds_american": -105.0,
+      "prob": 0.4182,
+      "shrunk_acc_lt": 0.6104,
+      "added_at": "2026-10-12 02:40:45.976743",
       "result": "PENDING"
     }
   ]
