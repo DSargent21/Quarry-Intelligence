@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-12 02:40:45.978806",
+  "updated_at": "2026-10-13 03:51:52.732742",
   "summary": {
-    "graded": 63,
+    "graded": 67,
     "pending": 28,
-    "pushes": 2,
-    "profit": -3.99,
-    "roi": -0.0633,
-    "adj_roi": -0.059,
+    "pushes": 0,
+    "profit": -4.17,
+    "roi": -0.0622,
+    "adj_roi": -0.0584,
     "grade": "F"
   },
   "picks": [
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1103,7 +1103,7 @@
       "prob": 0.5046,
       "shrunk_acc_lt": 0.5903,
       "added_at": "2026-10-12 02:40:45.976558",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1891693",
@@ -1127,7 +1127,31 @@
       "prob": 0.4182,
       "shrunk_acc_lt": 0.6104,
       "added_at": "2026-10-12 02:40:45.976743",
-      "result": "PENDING"
+      "result": "LOSS"
+    },
+    {
+      "id": "1892780",
+      "pick_date": "2026-10-11",
+      "capper": "Marc Lyle",
+      "league": "NFL",
+      "pick": "Green Bay Packers +1.5 vs Chicago Bears",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5763,
+      "added_at": "2026-10-13 03:51:52.730919",
+      "result": "WIN"
+    },
+    {
+      "id": "1892756",
+      "pick_date": "2026-10-11",
+      "capper": "Brandon Lee",
+      "league": "NHL",
+      "pick": "Cleveland Browns vs New York Jets Under 40",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5723,
+      "added_at": "2026-10-13 03:51:52.730997",
+      "result": "WIN"
     }
   ]
 }
