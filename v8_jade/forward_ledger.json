@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-13 03:51:52.732742",
+  "updated_at": "2026-10-14 02:11:57.738865",
   "summary": {
-    "graded": 67,
-    "pending": 28,
-    "pushes": 0,
-    "profit": -4.17,
-    "roi": -0.0622,
-    "adj_roi": -0.0584,
+    "graded": 72,
+    "pending": 31,
+    "pushes": 2,
+    "profit": -5.35,
+    "roi": -0.0743,
+    "adj_roi": -0.0672,
     "grade": "F"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1152,6 +1152,126 @@
       "shrunk_acc_lt": 0.5723,
       "added_at": "2026-10-13 03:51:52.730997",
       "result": "WIN"
+    },
+    {
+      "id": "1893631",
+      "pick_date": "2026-10-12",
+      "capper": "Brandon Lee",
+      "league": "NFL",
+      "pick": "Buffalo Bills vs Los Angeles Rams Over 54.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5556,
+      "added_at": "2026-10-14 02:11:57.735942",
+      "result": "WIN"
+    },
+    {
+      "id": "1893587",
+      "pick_date": "2026-10-12",
+      "capper": "Jim Feist",
+      "league": "NFL",
+      "pick": "Buffalo Bills vs Los Angeles Rams Over 54",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5525,
+      "added_at": "2026-10-14 02:11:57.736054",
+      "result": "WIN"
+    },
+    {
+      "id": "1893583",
+      "pick_date": "2026-10-12",
+      "capper": "Marc Lyle",
+      "league": "NFL",
+      "pick": "Los Angeles Rams -3 vs Buffalo Bills",
+      "odds_american": -120.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5529,
+      "added_at": "2026-10-14 02:11:57.736126",
+      "result": "LOSS"
+    },
+    {
+      "id": "1893677",
+      "pick_date": "2026-10-12",
+      "capper": "Ross Benjamin",
+      "league": "MLB",
+      "pick": "Los Angeles Dodgers vs Milwaukee Brewers Under 7",
+      "odds_american": -111.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5583,
+      "added_at": "2026-10-14 02:11:57.736190",
+      "result": "LOSS"
+    },
+    {
+      "id": "1893695",
+      "pick_date": "2026-10-12",
+      "capper": "Gianni The Greek",
+      "league": "NFL",
+      "pick": "Los Angeles Rams -3 vs Buffalo Bills",
+      "odds_american": -125.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5521,
+      "added_at": "2026-10-14 02:11:57.736251",
+      "result": "LOSS"
+    },
+    {
+      "id": "1893843",
+      "pick_date": "2026-10-13",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "Florida International vs Jacksonville State Under 43.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5596,
+      "added_at": "2026-10-14 02:11:57.736313",
+      "result": "PENDING"
+    },
+    {
+      "id": "1893770",
+      "pick_date": "2026-10-13",
+      "capper": "Cashitbaby",
+      "league": "NHL",
+      "pick": "Winnipeg Jets ML vs Minnesota Wild",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5596,
+      "added_at": "2026-10-14 02:11:57.736374",
+      "result": "PENDING"
+    },
+    {
+      "id": "1893842",
+      "pick_date": "2026-10-13",
+      "capper": "Cashitbaby",
+      "league": "NCAAF",
+      "pick": "Delaware vs Middle Tennessee Under 49.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5596,
+      "added_at": "2026-10-14 02:11:57.736438",
+      "result": "PENDING"
+    },
+    {
+      "id": "1893778",
+      "pick_date": "2026-10-13",
+      "capper": "Cashitbaby",
+      "league": "WTA",
+      "pick": "Frech vs Swiatek Under 18.5 Games",
+      "odds_american": -110.0,
+      "prob": 0.5887,
+      "shrunk_acc_lt": 0.5596,
+      "added_at": "2026-10-14 02:11:57.736498",
+      "result": "PENDING"
+    },
+    {
+      "id": "1893781",
+      "pick_date": "2026-10-13",
+      "capper": "Cashitbaby",
+      "league": "WTA",
+      "pick": "Paolini vs Bartunkova Over 21.5 Games",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5596,
+      "added_at": "2026-10-14 02:11:57.736558",
+      "result": "PENDING"
     }
   ]
 }
