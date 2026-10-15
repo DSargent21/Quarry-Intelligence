@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-14 02:11:57.738865",
+  "updated_at": "2026-10-15 01:47:46.179963",
   "summary": {
-    "graded": 72,
-    "pending": 31,
+    "graded": 75,
+    "pending": 29,
     "pushes": 2,
-    "profit": -5.35,
-    "roi": -0.0743,
-    "adj_roi": -0.0672,
+    "profit": -6.44,
+    "roi": -0.0859,
+    "adj_roi": -0.0756,
     "grade": "F"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -1223,7 +1223,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5596,
       "added_at": "2026-10-14 02:11:57.736313",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1893770",
@@ -1235,7 +1235,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5596,
       "added_at": "2026-10-14 02:11:57.736374",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1893842",
@@ -1247,7 +1247,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5596,
       "added_at": "2026-10-14 02:11:57.736438",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1893778",
@@ -1271,6 +1271,18 @@
       "prob": 0.5805,
       "shrunk_acc_lt": 0.5596,
       "added_at": "2026-10-14 02:11:57.736558",
+      "result": "PENDING"
+    },
+    {
+      "id": "1894645",
+      "pick_date": "2026-10-14",
+      "capper": "Prosportspicks",
+      "league": "NCAAF",
+      "pick": "Sam Houston State +1.5 vs Western Kentucky",
+      "odds_american": -115.0,
+      "prob": 0.5472,
+      "shrunk_acc_lt": 0.5696,
+      "added_at": "2026-10-15 01:47:46.178470",
       "result": "PENDING"
     }
   ]
