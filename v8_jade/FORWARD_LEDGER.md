@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-15 01:47:46.179963
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-16 01:40:09.192210
 
-**Graded: 75 | Pending: 29 | Pushes: 2**
-**Profit: -6.4u | ROI: -8.6% | Adj ROI: -7.6% | Grade: F**
+**Graded: 79 | Pending: 34 | Pushes: 2**
+**Profit: -10.4u | ROI: -13.2% | Adj ROI: -11.0% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -66,7 +66,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-15 01:47:46.
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
 | 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
 | 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
@@ -84,7 +84,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-15 01:47:46.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -112,4 +112,13 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-15 01:47:46.
 | 2026-10-13 | Cashitbaby | NCAAF | Delaware vs Middle Tennessee Under 49.5 | -110 | 0.589 | LOSS |
 | 2026-10-13 | Cashitbaby | WTA | Frech vs Swiatek Under 18.5 Games | -110 | 0.589 | PENDING |
 | 2026-10-13 | Cashitbaby | WTA | Paolini vs Bartunkova Over 21.5 Games | -110 | 0.581 | PENDING |
+| 2026-10-14 | Chefsbestbets | NHL | Dallas Stars vs Colorado Avalanche Over  | -110 | 0.589 | LOSS |
+| 2026-10-14 | Midwestmikesports | MLB | Milwaukee Brewers vs Los Angeles Dodgers | -110 | 0.589 | LOSS |
 | 2026-10-14 | Prosportspicks | NCAAF | Sam Houston State +1.5 vs Western Kentuc | -115 | 0.547 | PENDING |
+| 2026-10-14 | Prosportspicks | Other | Paris Saint-Germain vs Manchester City U | -110 | 0.589 | LOSS |
+| 2026-10-14 | Ricky Tran | MLB | Milwaukee Brewers vs Los Angeles Dodgers | -110 | 0.589 | LOSS |
+| 2026-10-15 | Chefsbestbets | NFL | Denver Broncos vs Seattle Seahawks Under | -110 | 0.581 | PENDING |
+| 2026-10-15 | Chefsbestbets | NCAAF | Texas State Bobcats -14 vs Colorado Stat | -125 | 0.573 | PENDING |
+| 2026-10-15 | Chefsbestbets | NCAAF | Georgia Southern Eagles -3.5 vs Old Domi | -105 | 0.497 | PENDING |
+| 2026-10-15 | Chefsbestbets | NCAAF | Texas State Bobcats Over 70.5 vs Colorad | -105 | 0.466 | PENDING |
+| 2026-10-15 | Kyle Hunter | NFL | Denver Broncos vs Los Angeles Chargers U | -110 | 0.589 | PENDING |

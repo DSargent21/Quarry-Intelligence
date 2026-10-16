@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-15 01:47:46.179963",
+  "updated_at": "2026-10-16 01:40:09.192210",
   "summary": {
-    "graded": 75,
-    "pending": 29,
+    "graded": 79,
+    "pending": 34,
     "pushes": 2,
-    "profit": -6.44,
-    "roi": -0.0859,
-    "adj_roi": -0.0756,
+    "profit": -10.44,
+    "roi": -0.1322,
+    "adj_roi": -0.1096,
     "grade": "F"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1283,6 +1283,114 @@
       "prob": 0.5472,
       "shrunk_acc_lt": 0.5696,
       "added_at": "2026-10-15 01:47:46.178470",
+      "result": "PENDING"
+    },
+    {
+      "id": "1895010",
+      "pick_date": "2026-10-14",
+      "capper": "Ricky Tran",
+      "league": "MLB",
+      "pick": "Milwaukee Brewers vs Los Angeles Dodgers Under 7.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5787,
+      "added_at": "2026-10-16 01:40:09.190382",
+      "result": "LOSS"
+    },
+    {
+      "id": "1895027",
+      "pick_date": "2026-10-14",
+      "capper": "Prosportspicks",
+      "league": "Other",
+      "pick": "Paris Saint-Germain vs Manchester City Under 3.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.571,
+      "added_at": "2026-10-16 01:40:09.190451",
+      "result": "LOSS"
+    },
+    {
+      "id": "1894776",
+      "pick_date": "2026-10-14",
+      "capper": "Midwestmikesports",
+      "league": "MLB",
+      "pick": "Milwaukee Brewers vs Los Angeles Dodgers Under 7.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5549,
+      "added_at": "2026-10-16 01:40:09.190483",
+      "result": "LOSS"
+    },
+    {
+      "id": "1894555",
+      "pick_date": "2026-10-14",
+      "capper": "Chefsbestbets",
+      "league": "NHL",
+      "pick": "Dallas Stars vs Colorado Avalanche Over 6",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.556,
+      "added_at": "2026-10-16 01:40:09.190512",
+      "result": "LOSS"
+    },
+    {
+      "id": "1895270",
+      "pick_date": "2026-10-15",
+      "capper": "Kyle Hunter",
+      "league": "NFL",
+      "pick": "Denver Broncos vs Los Angeles Chargers Under 42",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.569,
+      "added_at": "2026-10-16 01:40:09.190556",
+      "result": "PENDING"
+    },
+    {
+      "id": "1895158",
+      "pick_date": "2026-10-15",
+      "capper": "Chefsbestbets",
+      "league": "NFL",
+      "pick": "Denver Broncos vs Seattle Seahawks Under 41",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-16 01:40:09.190586",
+      "result": "PENDING"
+    },
+    {
+      "id": "1895156",
+      "pick_date": "2026-10-15",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Texas State Bobcats -14 vs Colorado State Rams",
+      "odds_american": -125.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-16 01:40:09.190614",
+      "result": "PENDING"
+    },
+    {
+      "id": "1895155",
+      "pick_date": "2026-10-15",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Georgia Southern Eagles -3.5 vs Old Dominion Monarchs",
+      "odds_american": -105.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-16 01:40:09.190645",
+      "result": "PENDING"
+    },
+    {
+      "id": "1895157",
+      "pick_date": "2026-10-15",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Texas State Bobcats Over 70.5 vs Colorado State Rams",
+      "odds_american": -105.0,
+      "prob": 0.4662,
+      "shrunk_acc_lt": 0.5628,
+      "added_at": "2026-10-16 01:40:09.190674",
       "result": "PENDING"
     }
   ]
