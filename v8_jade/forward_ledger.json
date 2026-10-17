@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-16 01:40:09.192210",
+  "updated_at": "2026-10-17 01:31:59.211089",
   "summary": {
-    "graded": 79,
-    "pending": 34,
-    "pushes": 2,
-    "profit": -10.44,
-    "roi": -0.1322,
-    "adj_roi": -0.1096,
+    "graded": 83,
+    "pending": 32,
+    "pushes": 1,
+    "profit": -8.78,
+    "roi": -0.1058,
+    "adj_roi": -0.091,
     "grade": "F"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1355,7 +1355,7 @@
       "prob": 0.5805,
       "shrunk_acc_lt": 0.5628,
       "added_at": "2026-10-16 01:40:09.190586",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1895156",
@@ -1367,7 +1367,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5628,
       "added_at": "2026-10-16 01:40:09.190614",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1895155",
@@ -1379,7 +1379,7 @@
       "prob": 0.497,
       "shrunk_acc_lt": 0.5628,
       "added_at": "2026-10-16 01:40:09.190645",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1895157",
@@ -1391,6 +1391,18 @@
       "prob": 0.4662,
       "shrunk_acc_lt": 0.5628,
       "added_at": "2026-10-16 01:40:09.190674",
+      "result": "LOSS"
+    },
+    {
+      "id": "1895839",
+      "pick_date": "2026-10-16",
+      "capper": "Empire",
+      "league": "NFL",
+      "pick": "Denver Broncos +3 vs Seattle Seahawks",
+      "odds_american": -125.0,
+      "prob": 0.54,
+      "shrunk_acc_lt": 0.5732,
+      "added_at": "2026-10-17 01:31:59.209457",
       "result": "PENDING"
     }
   ]
