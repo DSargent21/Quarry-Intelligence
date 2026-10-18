@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-17 01:31:59.211089
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-18 01:31:28.719223
 
-**Graded: 83 | Pending: 32 | Pushes: 1**
-**Profit: -8.8u | ROI: -10.6% | Adj ROI: -9.1% | Grade: F**
+**Graded: 85 | Pending: 38 | Pushes: 2**
+**Profit: -7.0u | ROI: -8.2% | Adj ROI: -7.4% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -84,7 +84,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-17 01:31:59.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -122,4 +122,13 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-17 01:31:59.
 | 2026-10-15 | Chefsbestbets | NCAAF | Georgia Southern Eagles -3.5 vs Old Domi | -105 | 0.497 | WIN |
 | 2026-10-15 | Chefsbestbets | NCAAF | Texas State Bobcats Over 70.5 vs Colorad | -105 | 0.466 | LOSS |
 | 2026-10-15 | Kyle Hunter | NFL | Denver Broncos vs Los Angeles Chargers U | -110 | 0.589 | PENDING |
+| 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
+| 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
+| 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | PENDING |
+| 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | PENDING |
+| 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | PENDING |
+| 2026-10-17 | Chefsbestbets | NCAAF | TCU +5.5 vs Baylor | -110 | 0.573 | PENDING |
+| 2026-10-17 | Chefsbestbets | NCAAF | Notre Dame -10.5 vs Brigham Young | -110 | 0.573 | PENDING |

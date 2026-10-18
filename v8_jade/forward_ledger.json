@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-17 01:31:59.211089",
+  "updated_at": "2026-10-18 01:31:28.719223",
   "summary": {
-    "graded": 83,
-    "pending": 32,
-    "pushes": 1,
-    "profit": -8.78,
-    "roi": -0.1058,
-    "adj_roi": -0.091,
+    "graded": 85,
+    "pending": 38,
+    "pushes": 2,
+    "profit": -6.96,
+    "roi": -0.0819,
+    "adj_roi": -0.0736,
     "grade": "F"
   },
   "picks": [
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1403,6 +1403,114 @@
       "prob": 0.54,
       "shrunk_acc_lt": 0.5732,
       "added_at": "2026-10-17 01:31:59.209457",
+      "result": "PENDING"
+    },
+    {
+      "id": "1896508",
+      "pick_date": "2026-10-16",
+      "capper": "Marc Lyle",
+      "league": "MLB",
+      "pick": "Cleveland Guardians ML vs Tampa Bay Rays",
+      "odds_american": -101.0,
+      "prob": 0.95,
+      "shrunk_acc_lt": 0.5608,
+      "added_at": "2026-10-18 01:31:28.716098",
+      "result": "PUSH"
+    },
+    {
+      "id": "1896558",
+      "pick_date": "2026-10-16",
+      "capper": "Kyle Hunter",
+      "league": "MLB",
+      "pick": "Tampa Bay Rays vs Cleveland Guardians Under 6.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5813,
+      "added_at": "2026-10-18 01:31:28.716210",
+      "result": "PUSH"
+    },
+    {
+      "id": "1896492",
+      "pick_date": "2026-10-16",
+      "capper": "Bobby Conn",
+      "league": "NBA",
+      "pick": "Toronto Raptors +10.5 vs Detroit Pistons",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5817,
+      "added_at": "2026-10-18 01:31:28.716293",
+      "result": "WIN"
+    },
+    {
+      "id": "1896490",
+      "pick_date": "2026-10-16",
+      "capper": "Bobby Conn",
+      "league": "NBA",
+      "pick": "Denver Nuggets vs Los Angeles Lakers Under 233.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5817,
+      "added_at": "2026-10-18 01:31:28.716371",
+      "result": "WIN"
+    },
+    {
+      "id": "1896718",
+      "pick_date": "2026-10-17",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Oklahoma -6.5 vs Kentucky",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5602,
+      "added_at": "2026-10-18 01:31:28.716521",
+      "result": "PENDING"
+    },
+    {
+      "id": "1896722",
+      "pick_date": "2026-10-17",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "LSU -15.5 vs Mississippi State",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5602,
+      "added_at": "2026-10-18 01:31:28.716599",
+      "result": "PENDING"
+    },
+    {
+      "id": "1896721",
+      "pick_date": "2026-10-17",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Arkansas +6.5 vs Vanderbilt",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5602,
+      "added_at": "2026-10-18 01:31:28.716676",
+      "result": "PENDING"
+    },
+    {
+      "id": "1896720",
+      "pick_date": "2026-10-17",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "TCU +5.5 vs Baylor",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5602,
+      "added_at": "2026-10-18 01:31:28.716754",
+      "result": "PENDING"
+    },
+    {
+      "id": "1896717",
+      "pick_date": "2026-10-17",
+      "capper": "Chefsbestbets",
+      "league": "NCAAF",
+      "pick": "Notre Dame -10.5 vs Brigham Young",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5602,
+      "added_at": "2026-10-18 01:31:28.716829",
       "result": "PENDING"
     }
   ]
