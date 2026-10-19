@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-18 01:31:28.719223",
+  "updated_at": "2026-10-19 01:38:37.273611",
   "summary": {
-    "graded": 85,
-    "pending": 38,
-    "pushes": 2,
-    "profit": -6.96,
-    "roi": -0.0819,
-    "adj_roi": -0.0736,
+    "graded": 91,
+    "pending": 36,
+    "pushes": 3,
+    "profit": -7.24,
+    "roi": -0.0795,
+    "adj_roi": -0.0722,
     "grade": "F"
   },
   "picks": [
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1115,7 +1115,7 @@
       "prob": 0.4662,
       "shrunk_acc_lt": 0.6104,
       "added_at": "2026-10-12 02:40:45.976662",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1891502",
@@ -1463,7 +1463,7 @@
       "prob": 0.5805,
       "shrunk_acc_lt": 0.5602,
       "added_at": "2026-10-18 01:31:28.716521",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1896722",
@@ -1475,7 +1475,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5602,
       "added_at": "2026-10-18 01:31:28.716599",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1896721",
@@ -1487,7 +1487,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5602,
       "added_at": "2026-10-18 01:31:28.716676",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1896720",
@@ -1499,7 +1499,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5602,
       "added_at": "2026-10-18 01:31:28.716754",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1896717",
@@ -1511,6 +1511,66 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5602,
       "added_at": "2026-10-18 01:31:28.716829",
+      "result": "LOSS"
+    },
+    {
+      "id": "1898521",
+      "pick_date": "2026-10-18",
+      "capper": "Matt Severance",
+      "league": "NFL",
+      "pick": "Arizona Cardinals vs Los Angeles Rams Under 33.5",
+      "odds_american": -119.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5677,
+      "added_at": "2026-10-19 01:38:37.271843",
+      "result": "PENDING"
+    },
+    {
+      "id": "1898522",
+      "pick_date": "2026-10-18",
+      "capper": "Matt Severance",
+      "league": "NFL",
+      "pick": "New York Giants +1.5 vs New Orleans Saints",
+      "odds_american": -121.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5677,
+      "added_at": "2026-10-19 01:38:37.271917",
+      "result": "PENDING"
+    },
+    {
+      "id": "1898399",
+      "pick_date": "2026-10-18",
+      "capper": "Cashitbaby",
+      "league": "NFL",
+      "pick": "Green Bay Packers ML vs Dallas Cowboys",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5597,
+      "added_at": "2026-10-19 01:38:37.271963",
+      "result": "PENDING"
+    },
+    {
+      "id": "1898398",
+      "pick_date": "2026-10-18",
+      "capper": "Cashitbaby",
+      "league": "NFL",
+      "pick": "Indianapolis Colts -6.5 vs Houston Texans",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5597,
+      "added_at": "2026-10-19 01:38:37.272004",
+      "result": "PENDING"
+    },
+    {
+      "id": "1898242",
+      "pick_date": "2026-10-18",
+      "capper": "Bet Labs",
+      "league": "NFL",
+      "pick": "Houston Texans +3 vs Jacksonville Jaguars",
+      "odds_american": -120.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5549,
+      "added_at": "2026-10-19 01:38:37.272043",
       "result": "PENDING"
     }
   ]

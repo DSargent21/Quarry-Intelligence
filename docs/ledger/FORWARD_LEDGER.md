@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-18 01:31:28.719223
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-19 01:38:37.273611
 
-**Graded: 85 | Pending: 38 | Pushes: 2**
-**Profit: -7.0u | ROI: -8.2% | Adj ROI: -7.4% | Grade: F**
+**Graded: 91 | Pending: 36 | Pushes: 3**
+**Profit: -7.2u | ROI: -8.0% | Adj ROI: -7.2% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -84,7 +84,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-18 01:31:28.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -99,7 +99,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-18 01:31:28.
 | 2026-10-10 | Five | NCAAF | Kansas State Wildcats ML vs Houston Coug | -120 | 0.518 | PENDING |
 | 2026-10-11 | Ben Burns | NFL | Las Vegas Raiders vs New England Patriot | -115 | 0.505 | LOSS |
 | 2026-10-11 | Brandon Lee | NHL | Cleveland Browns vs New York Jets Under  | -110 | 0.589 | WIN |
-| 2026-10-11 | Chefsbestbets | NFL | Woody Marks: Receptions Under 1.5 | -112 | 0.466 | PENDING |
+| 2026-10-11 | Chefsbestbets | NFL | Woody Marks: Receptions Under 1.5 | -112 | 0.466 | LOSS |
 | 2026-10-11 | Chefsbestbets | NFL | Los Angeles Chargers +3.5 vs Denver Bron | -105 | 0.418 | LOSS |
 | 2026-10-11 | Marc Lyle | NFL | Green Bay Packers +1.5 vs Chicago Bears | -110 | 0.589 | WIN |
 | 2026-10-12 | Brandon Lee | NFL | Buffalo Bills vs Los Angeles Rams Over 5 | -110 | 0.589 | WIN |
@@ -127,8 +127,13 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-18 01:31:28.
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
 | 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
 | 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
-| 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | PENDING |
-| 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | PENDING |
-| 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | PENDING |
-| 2026-10-17 | Chefsbestbets | NCAAF | TCU +5.5 vs Baylor | -110 | 0.573 | PENDING |
-| 2026-10-17 | Chefsbestbets | NCAAF | Notre Dame -10.5 vs Brigham Young | -110 | 0.573 | PENDING |
+| 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
+| 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
+| 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
+| 2026-10-17 | Chefsbestbets | NCAAF | TCU +5.5 vs Baylor | -110 | 0.573 | WIN |
+| 2026-10-17 | Chefsbestbets | NCAAF | Notre Dame -10.5 vs Brigham Young | -110 | 0.573 | LOSS |
+| 2026-10-18 | Bet Labs | NFL | Houston Texans +3 vs Jacksonville Jaguar | -120 | 0.505 | PENDING |
+| 2026-10-18 | Cashitbaby | NFL | Green Bay Packers ML vs Dallas Cowboys | -110 | 0.559 | PENDING |
+| 2026-10-18 | Cashitbaby | NFL | Indianapolis Colts -6.5 vs Houston Texan | -110 | 0.518 | PENDING |
+| 2026-10-18 | Matt Severance | NFL | Arizona Cardinals vs Los Angeles Rams Un | -119 | 0.559 | PENDING |
+| 2026-10-18 | Matt Severance | NFL | New York Giants +1.5 vs New Orleans Sain | -121 | 0.559 | PENDING |
