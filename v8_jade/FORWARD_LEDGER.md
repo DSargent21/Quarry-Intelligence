@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-19 01:38:37.273611
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-20 02:04:20.455923
 
-**Graded: 91 | Pending: 36 | Pushes: 3**
-**Profit: -7.2u | ROI: -8.0% | Adj ROI: -7.2% | Grade: F**
+**Graded: 94 | Pending: 33 | Pushes: 3**
+**Profit: -6.5u | ROI: -6.9% | Adj ROI: -6.4% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -132,8 +132,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-19 01:38:37.
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | TCU +5.5 vs Baylor | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Notre Dame -10.5 vs Brigham Young | -110 | 0.573 | LOSS |
-| 2026-10-18 | Bet Labs | NFL | Houston Texans +3 vs Jacksonville Jaguar | -120 | 0.505 | PENDING |
-| 2026-10-18 | Cashitbaby | NFL | Green Bay Packers ML vs Dallas Cowboys | -110 | 0.559 | PENDING |
-| 2026-10-18 | Cashitbaby | NFL | Indianapolis Colts -6.5 vs Houston Texan | -110 | 0.518 | PENDING |
+| 2026-10-18 | Bet Labs | NFL | Houston Texans +3 vs Jacksonville Jaguar | -120 | 0.505 | WIN |
+| 2026-10-18 | Cashitbaby | NFL | Green Bay Packers ML vs Dallas Cowboys | -110 | 0.559 | WIN |
+| 2026-10-18 | Cashitbaby | NFL | Indianapolis Colts -6.5 vs Houston Texan | -110 | 0.518 | LOSS |
 | 2026-10-18 | Matt Severance | NFL | Arizona Cardinals vs Los Angeles Rams Un | -119 | 0.559 | PENDING |
 | 2026-10-18 | Matt Severance | NFL | New York Giants +1.5 vs New Orleans Sain | -121 | 0.559 | PENDING |
