@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-20 02:04:20.455923",
+  "updated_at": "2026-10-21 01:58:14.015719",
   "summary": {
-    "graded": 94,
-    "pending": 33,
-    "pushes": 3,
-    "profit": -6.49,
-    "roi": -0.0691,
-    "adj_roi": -0.0645,
+    "graded": 100,
+    "pending": 34,
+    "pushes": 1,
+    "profit": -6.77,
+    "roi": -0.0677,
+    "adj_roi": -0.0636,
     "grade": "F"
   },
   "picks": [
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1043,7 +1043,7 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5714,
       "added_at": "2026-10-11 02:09:53.796147",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1890229",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896492",
@@ -1572,6 +1572,66 @@
       "shrunk_acc_lt": 0.5549,
       "added_at": "2026-10-19 01:38:37.272043",
       "result": "WIN"
+    },
+    {
+      "id": "1899918",
+      "pick_date": "2026-10-19",
+      "capper": "Bet Labs",
+      "league": "NFL",
+      "pick": "Washington Commanders +7.5 vs Baltimore Ravens",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5621,
+      "added_at": "2026-10-21 01:58:14.013980",
+      "result": "WIN"
+    },
+    {
+      "id": "1900393",
+      "pick_date": "2026-10-19",
+      "capper": "Ricky Tran",
+      "league": "WNBA",
+      "pick": "Atlanta Dream vs Golden State Valkyries Under 153",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5536,
+      "added_at": "2026-10-21 01:58:14.014049",
+      "result": "WIN"
+    },
+    {
+      "id": "1900351",
+      "pick_date": "2026-10-19",
+      "capper": "William Burns",
+      "league": "NFL",
+      "pick": "Washington Commanders vs San Francisco 49ers Over 52",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5724,
+      "added_at": "2026-10-21 01:58:14.014080",
+      "result": "LOSS"
+    },
+    {
+      "id": "1899887",
+      "pick_date": "2026-10-19",
+      "capper": "Cashitbaby",
+      "league": "NFL",
+      "pick": "Washington Commanders +7.5 vs San Francisco 49ers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5538,
+      "added_at": "2026-10-21 01:58:14.014110",
+      "result": "WIN"
+    },
+    {
+      "id": "1900336",
+      "pick_date": "2026-10-19",
+      "capper": "Matt Sullivan",
+      "league": "WNBA",
+      "pick": "Atlanta Dream vs Golden State Valkyries Over 151.5",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5642,
+      "added_at": "2026-10-21 01:58:14.014138",
+      "result": "LOSS"
     }
   ]
 }
