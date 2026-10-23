@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-22 01:48:39.421506",
+  "updated_at": "2026-10-23 01:52:21.511964",
   "summary": {
-    "graded": 100,
-    "pending": 32,
-    "pushes": 3,
-    "profit": -6.77,
-    "roi": -0.0677,
-    "adj_roi": -0.0636,
-    "grade": "F"
+    "graded": 110,
+    "pending": 38,
+    "pushes": 2,
+    "profit": -1.49,
+    "roi": -0.0136,
+    "adj_roi": -0.0214,
+    "grade": "C"
   },
   "picks": [
     {
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896492",
@@ -1632,6 +1632,186 @@
       "shrunk_acc_lt": 0.5642,
       "added_at": "2026-10-21 01:58:14.014138",
       "result": "LOSS"
+    },
+    {
+      "id": "1901673",
+      "pick_date": "2026-10-20",
+      "capper": "Matt Sullivan",
+      "league": "NCAAF",
+      "pick": "Marshall Thundering Herd +3.5 vs South Alabama Jaguars",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5582,
+      "added_at": "2026-10-23 01:52:21.510110",
+      "result": "WIN"
+    },
+    {
+      "id": "1901053",
+      "pick_date": "2026-10-20",
+      "capper": "Bet Labs",
+      "league": "NBA",
+      "pick": "San Antonio Spurs vs Los Angeles Lakers Under 231.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5598,
+      "added_at": "2026-10-23 01:52:21.510182",
+      "result": "WIN"
+    },
+    {
+      "id": "1901579",
+      "pick_date": "2026-10-20",
+      "capper": "Hunter Price",
+      "league": "NCAAF",
+      "pick": "Marshall Thundering Herd +3.5 vs South Alabama Jaguars",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5536,
+      "added_at": "2026-10-23 01:52:21.510215",
+      "result": "WIN"
+    },
+    {
+      "id": "1901492",
+      "pick_date": "2026-10-20",
+      "capper": "Kyle Hunter",
+      "league": "NBA",
+      "pick": "Oklahoma City Thunder vs San Antonio Spurs Under 233.5",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5688,
+      "added_at": "2026-10-23 01:52:21.510243",
+      "result": "WIN"
+    },
+    {
+      "id": "1900836",
+      "pick_date": "2026-10-20",
+      "capper": "Bet Labs",
+      "league": "NBA",
+      "pick": "1H Detroit Pistons: Total Points Under 114.5 vs Boston Celti",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5598,
+      "added_at": "2026-10-23 01:52:21.510269",
+      "result": "WIN"
+    },
+    {
+      "id": "1902805",
+      "pick_date": "2026-10-21",
+      "capper": "William Burns",
+      "league": "NBA",
+      "pick": "Charlotte Hornets vs Brooklyn Nets Under 219.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5603,
+      "added_at": "2026-10-23 01:52:21.510296",
+      "result": "WIN"
+    },
+    {
+      "id": "1902936",
+      "pick_date": "2026-10-21",
+      "capper": "Ricky Tran",
+      "league": "UCL",
+      "pick": "Feyenoord Rotterdam vs Real Betis Under 3.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5796,
+      "added_at": "2026-10-23 01:52:21.510322",
+      "result": "WIN"
+    },
+    {
+      "id": "1901800",
+      "pick_date": "2026-10-21",
+      "capper": "Bet Labs",
+      "league": "NBA",
+      "pick": "New Orleans Pelicans +4 vs Indiana Pacers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5657,
+      "added_at": "2026-10-23 01:52:21.510353",
+      "result": "WIN"
+    },
+    {
+      "id": "1902100",
+      "pick_date": "2026-10-21",
+      "capper": "Bet Labs",
+      "league": "NBA",
+      "pick": "Sacramento Kings +5.5 vs LA Clippers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5657,
+      "added_at": "2026-10-23 01:52:21.510385",
+      "result": "LOSS"
+    },
+    {
+      "id": "1902302",
+      "pick_date": "2026-10-21",
+      "capper": "Bet Labs",
+      "league": "NBA",
+      "pick": "Sacramento Kings +5.5 vs Los Angeles Lakers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5657,
+      "added_at": "2026-10-23 01:52:21.510413",
+      "result": "LOSS"
+    },
+    {
+      "id": "1903311",
+      "pick_date": "2026-10-22",
+      "capper": "Bet Labs",
+      "league": "NCAAF",
+      "pick": "Kennesaw State +9.5 vs James Madison Dukes",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5634,
+      "added_at": "2026-10-23 01:52:21.510441",
+      "result": "PENDING"
+    },
+    {
+      "id": "1903214",
+      "pick_date": "2026-10-22",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "East Carolina +10.5 vs Memphis Tigers",
+      "odds_american": -122.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5747,
+      "added_at": "2026-10-23 01:52:21.510467",
+      "result": "PENDING"
+    },
+    {
+      "id": "1903215",
+      "pick_date": "2026-10-22",
+      "capper": "Ben Burns",
+      "league": "NFL",
+      "pick": "New England Patriots vs Chicago Bears Under 51",
+      "odds_american": -112.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5747,
+      "added_at": "2026-10-23 01:52:21.510494",
+      "result": "PENDING"
+    },
+    {
+      "id": "1903143",
+      "pick_date": "2026-10-22",
+      "capper": "Bet Labs",
+      "league": "NFL",
+      "pick": "Atlanta Falcons +3",
+      "odds_american": -112.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5634,
+      "added_at": "2026-10-23 01:52:21.510519",
+      "result": "PENDING"
+    },
+    {
+      "id": "1903192",
+      "pick_date": "2026-10-22",
+      "capper": "Chefsbestbets",
+      "league": "NFL",
+      "pick": "Rome Odunze: RecYds Under 45.5",
+      "odds_american": -115.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.5647,
+      "added_at": "2026-10-23 01:52:21.510544",
+      "result": "PENDING"
     }
   ]
 }

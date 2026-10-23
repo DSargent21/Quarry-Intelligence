@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-22 01:48:39.421506
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-23 01:52:21.511964
 
-**Graded: 100 | Pending: 32 | Pushes: 3**
-**Profit: -6.8u | ROI: -6.8% | Adj ROI: -6.4% | Grade: F**
+**Graded: 110 | Pending: 38 | Pushes: 2**
+**Profit: -1.5u | ROI: -1.4% | Adj ROI: -2.1% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -84,7 +84,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-22 01:48:39.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -125,8 +125,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-22 01:48:39.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -142,3 +142,18 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-22 01:48:39.
 | 2026-10-19 | Matt Sullivan | WNBA | Atlanta Dream vs Golden State Valkyries  | -110 | 0.573 | LOSS |
 | 2026-10-19 | Ricky Tran | WNBA | Atlanta Dream vs Golden State Valkyries  | -110 | 0.589 | WIN |
 | 2026-10-19 | William Burns | NFL | Washington Commanders vs San Francisco 4 | -110 | 0.589 | LOSS |
+| 2026-10-20 | Bet Labs | NBA | San Antonio Spurs vs Los Angeles Lakers  | -110 | 0.589 | WIN |
+| 2026-10-20 | Bet Labs | NBA | 1H Detroit Pistons: Total Points Under 1 | -110 | 0.581 | WIN |
+| 2026-10-20 | Hunter Price | NCAAF | Marshall Thundering Herd +3.5 vs South A | -110 | 0.589 | WIN |
+| 2026-10-20 | Kyle Hunter | NBA | Oklahoma City Thunder vs San Antonio Spu | -110 | 0.581 | WIN |
+| 2026-10-20 | Matt Sullivan | NCAAF | Marshall Thundering Herd +3.5 vs South A | -110 | 0.589 | WIN |
+| 2026-10-21 | Bet Labs | NBA | New Orleans Pelicans +4 vs Indiana Pacer | -110 | 0.589 | WIN |
+| 2026-10-21 | Bet Labs | NBA | Sacramento Kings +5.5 vs LA Clippers | -110 | 0.589 | LOSS |
+| 2026-10-21 | Bet Labs | NBA | Sacramento Kings +5.5 vs Los Angeles Lak | -110 | 0.589 | LOSS |
+| 2026-10-21 | Ricky Tran | UCL | Feyenoord Rotterdam vs Real Betis Under  | -110 | 0.589 | WIN |
+| 2026-10-21 | William Burns | NBA | Charlotte Hornets vs Brooklyn Nets Under | -110 | 0.589 | WIN |
+| 2026-10-22 | Ben Burns | NCAAF | East Carolina +10.5 vs Memphis Tigers | -122 | 0.559 | PENDING |
+| 2026-10-22 | Ben Burns | NFL | New England Patriots vs Chicago Bears Un | -112 | 0.505 | PENDING |
+| 2026-10-22 | Bet Labs | NCAAF | Kennesaw State +9.5 vs James Madison Duk | -110 | 0.589 | PENDING |
+| 2026-10-22 | Bet Labs | NFL | Atlanta Falcons +3 | -112 | 0.505 | PENDING |
+| 2026-10-22 | Chefsbestbets | NFL | Rome Odunze: RecYds Under 45.5 | -115 | 0.497 | PENDING |
