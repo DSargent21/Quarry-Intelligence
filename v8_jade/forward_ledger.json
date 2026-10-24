@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-23 01:52:21.511964",
+  "updated_at": "2026-10-24 01:58:00.599366",
   "summary": {
-    "graded": 110,
-    "pending": 38,
-    "pushes": 2,
-    "profit": -1.49,
-    "roi": -0.0136,
-    "adj_roi": -0.0214,
-    "grade": "C"
+    "graded": 112,
+    "pending": 34,
+    "pushes": 5,
+    "profit": -3.49,
+    "roi": -0.0312,
+    "adj_roi": -0.0352,
+    "grade": "D"
   },
   "picks": [
     {
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -1763,7 +1763,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5634,
       "added_at": "2026-10-23 01:52:21.510441",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1903214",
@@ -1811,6 +1811,18 @@
       "prob": 0.497,
       "shrunk_acc_lt": 0.5647,
       "added_at": "2026-10-23 01:52:21.510544",
+      "result": "LOSS"
+    },
+    {
+      "id": "1904269",
+      "pick_date": "2026-10-23",
+      "capper": "Hakeem Profit",
+      "league": "NBA",
+      "pick": "Immanuel Quickley: 3PM Over 2.5",
+      "odds_american": -112.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5581,
+      "added_at": "2026-10-24 01:58:00.597003",
       "result": "PENDING"
     }
   ]

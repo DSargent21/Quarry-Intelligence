@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-23 01:52:21.511964
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-24 01:58:00.599366
 
-**Graded: 110 | Pending: 38 | Pushes: 2**
-**Profit: -1.5u | ROI: -1.4% | Adj ROI: -2.1% | Grade: C**
+**Graded: 112 | Pending: 34 | Pushes: 5**
+**Profit: -3.5u | ROI: -3.1% | Adj ROI: -3.5% | Grade: D**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -76,7 +76,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-23 01:52:21.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -125,8 +125,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-23 01:52:21.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -154,6 +154,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-23 01:52:21.
 | 2026-10-21 | William Burns | NBA | Charlotte Hornets vs Brooklyn Nets Under | -110 | 0.589 | WIN |
 | 2026-10-22 | Ben Burns | NCAAF | East Carolina +10.5 vs Memphis Tigers | -122 | 0.559 | PENDING |
 | 2026-10-22 | Ben Burns | NFL | New England Patriots vs Chicago Bears Un | -112 | 0.505 | PENDING |
-| 2026-10-22 | Bet Labs | NCAAF | Kennesaw State +9.5 vs James Madison Duk | -110 | 0.589 | PENDING |
+| 2026-10-22 | Bet Labs | NCAAF | Kennesaw State +9.5 vs James Madison Duk | -110 | 0.589 | LOSS |
 | 2026-10-22 | Bet Labs | NFL | Atlanta Falcons +3 | -112 | 0.505 | PENDING |
-| 2026-10-22 | Chefsbestbets | NFL | Rome Odunze: RecYds Under 45.5 | -115 | 0.497 | PENDING |
+| 2026-10-22 | Chefsbestbets | NFL | Rome Odunze: RecYds Under 45.5 | -115 | 0.497 | LOSS |
+| 2026-10-23 | Hakeem Profit | NBA | Immanuel Quickley: 3PM Over 2.5 | -112 | 0.573 | PENDING |
