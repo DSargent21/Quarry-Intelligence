@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-25 01:35:22.859604",
+  "updated_at": "2026-10-26 01:36:56.262427",
   "summary": {
-    "graded": 112,
-    "pending": 36,
-    "pushes": 3,
-    "profit": -3.49,
-    "roi": -0.0312,
-    "adj_roi": -0.0352,
-    "grade": "D"
+    "graded": 118,
+    "pending": 39,
+    "pushes": 4,
+    "profit": -1.86,
+    "roi": -0.0157,
+    "adj_roi": -0.0227,
+    "grade": "C"
   },
   "picks": [
     {
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1823,6 +1823,126 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5581,
       "added_at": "2026-10-24 01:58:00.597003",
+      "result": "PENDING"
+    },
+    {
+      "id": "1904773",
+      "pick_date": "2026-10-23",
+      "capper": "Jack Jones",
+      "league": "NCAAF",
+      "pick": "Duke Blue Devils vs Virginia Cavaliers Under 47.5",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5532,
+      "added_at": "2026-10-26 01:36:56.260343",
+      "result": "WIN"
+    },
+    {
+      "id": "1907035",
+      "pick_date": "2026-10-24",
+      "capper": "Prosportspicks",
+      "league": "NBA",
+      "pick": "Denver Nuggets -11 vs New Orleans Pelicans",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5513,
+      "added_at": "2026-10-26 01:36:56.260432",
+      "result": "LOSS"
+    },
+    {
+      "id": "1907040",
+      "pick_date": "2026-10-24",
+      "capper": "Prosportspicks",
+      "league": "NCAAF",
+      "pick": "Michigan Wolverines +7.5 vs Indiana Hoosiers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5513,
+      "added_at": "2026-10-26 01:36:56.260475",
+      "result": "WIN"
+    },
+    {
+      "id": "1907039",
+      "pick_date": "2026-10-24",
+      "capper": "Prosportspicks",
+      "league": "NCAAF",
+      "pick": "Oregon Ducks vs Illinois Fighting Illini Under 52",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5513,
+      "added_at": "2026-10-26 01:36:56.260512",
+      "result": "WIN"
+    },
+    {
+      "id": "1906679",
+      "pick_date": "2026-10-24",
+      "capper": "William Burns",
+      "league": "NCAAF",
+      "pick": "Georgia State Panthers -2.5 vs Arkansas State Red Wolves",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5676,
+      "added_at": "2026-10-26 01:36:56.260547",
+      "result": "LOSS"
+    },
+    {
+      "id": "1906683",
+      "pick_date": "2026-10-24",
+      "capper": "William Burns",
+      "league": "NCAAF",
+      "pick": "Virginia Tech Hokies +3 vs Clemson Tigers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5676,
+      "added_at": "2026-10-26 01:36:56.260581",
+      "result": "WIN"
+    },
+    {
+      "id": "1907618",
+      "pick_date": "2026-10-25",
+      "capper": "Chefsbestbets",
+      "league": "NBA",
+      "pick": "Keyonte George: Reb Under 3.5",
+      "odds_american": -115.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5599,
+      "added_at": "2026-10-26 01:36:56.260616",
+      "result": "PENDING"
+    },
+    {
+      "id": "1907617",
+      "pick_date": "2026-10-25",
+      "capper": "Chefsbestbets",
+      "league": "NBA",
+      "pick": "Rudy Gobert: Ast Under 1.5",
+      "odds_american": -115.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5599,
+      "added_at": "2026-10-26 01:36:56.260653",
+      "result": "PENDING"
+    },
+    {
+      "id": "1907351",
+      "pick_date": "2026-10-25",
+      "capper": "Midwestmikesports",
+      "league": "NFL",
+      "pick": "Houston Texans -9.5 vs New York Giants",
+      "odds_american": -125.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.5542,
+      "added_at": "2026-10-26 01:36:56.260688",
+      "result": "PENDING"
+    },
+    {
+      "id": "1907531",
+      "pick_date": "2026-10-25",
+      "capper": "Midwestmikesports",
+      "league": "NFL",
+      "pick": "Texans -9.5 vs Titans",
+      "odds_american": -125.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5542,
+      "added_at": "2026-10-26 01:36:56.260721",
       "result": "PENDING"
     }
   ]
