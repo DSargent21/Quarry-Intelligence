@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-26 01:36:56.262427",
+  "updated_at": "2026-10-27 02:27:03.348861",
   "summary": {
-    "graded": 118,
-    "pending": 39,
+    "graded": 123,
+    "pending": 40,
     "pushes": 4,
-    "profit": -1.86,
-    "roi": -0.0157,
-    "adj_roi": -0.0227,
-    "grade": "C"
+    "profit": 0.74,
+    "roi": 0.006,
+    "adj_roi": -0.005,
+    "grade": "C+"
   },
   "picks": [
     {
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -1919,7 +1919,7 @@
       "prob": 0.5046,
       "shrunk_acc_lt": 0.5599,
       "added_at": "2026-10-26 01:36:56.260653",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1907351",
@@ -1943,6 +1943,78 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5542,
       "added_at": "2026-10-26 01:36:56.260721",
+      "result": "PENDING"
+    },
+    {
+      "id": "1905177",
+      "pick_date": "2026-10-23",
+      "capper": "Prosportspicks",
+      "league": "NCAAF",
+      "pick": "Stanford Cardinal +7 vs NC State Wolfpack",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5584,
+      "added_at": "2026-10-27 02:27:03.345791",
+      "result": "WIN"
+    },
+    {
+      "id": "1905147",
+      "pick_date": "2026-10-23",
+      "capper": "Ricky Tran",
+      "league": "Other",
+      "pick": "Winnipeg -6 vs BC",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5762,
+      "added_at": "2026-10-27 02:27:03.345913",
+      "result": "WIN"
+    },
+    {
+      "id": "1905178",
+      "pick_date": "2026-10-23",
+      "capper": "Prosportspicks",
+      "league": "CFL",
+      "pick": "Event Winnipeg Blue Bombers vs British Columbia Lions",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5584,
+      "added_at": "2026-10-27 02:27:03.346004",
+      "result": "WIN"
+    },
+    {
+      "id": "1908074",
+      "pick_date": "2026-10-25",
+      "capper": "William Burns",
+      "league": "NHL",
+      "pick": "New York Jets -4.5 vs Miami Dolphins",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5683,
+      "added_at": "2026-10-27 02:27:03.346360",
+      "result": "LOSS"
+    },
+    {
+      "id": "1908669",
+      "pick_date": "2026-10-26",
+      "capper": "Alex Selesnick",
+      "league": "NCAAB",
+      "pick": "Darryn Peterson: Pts Over 11.5",
+      "odds_american": -121.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5615,
+      "added_at": "2026-10-27 02:27:03.346599",
+      "result": "PENDING"
+    },
+    {
+      "id": "1908641",
+      "pick_date": "2026-10-26",
+      "capper": "Ben Burns",
+      "league": "MLB",
+      "pick": "Tampa Bay Rays ML vs Milwaukee Brewers",
+      "odds_american": -120.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5619,
+      "added_at": "2026-10-27 02:27:03.346677",
       "result": "PENDING"
     }
   ]
