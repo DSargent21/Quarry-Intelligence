@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-27 02:27:03.348861",
+  "updated_at": "2026-10-28 02:36:49.152291",
   "summary": {
-    "graded": 123,
-    "pending": 40,
-    "pushes": 4,
-    "profit": 0.74,
-    "roi": 0.006,
-    "adj_roi": -0.005,
+    "graded": 131,
+    "pending": 43,
+    "pushes": 1,
+    "profit": 0.32,
+    "roi": 0.0024,
+    "adj_roi": -0.0073,
     "grade": "C+"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1799,7 +1799,7 @@
       "prob": 0.5046,
       "shrunk_acc_lt": 0.5634,
       "added_at": "2026-10-23 01:52:21.510519",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1903192",
@@ -1907,7 +1907,7 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5599,
       "added_at": "2026-10-26 01:36:56.260616",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1907617",
@@ -1931,7 +1931,7 @@
       "prob": 0.497,
       "shrunk_acc_lt": 0.5542,
       "added_at": "2026-10-26 01:36:56.260688",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1907531",
@@ -1943,7 +1943,7 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5542,
       "added_at": "2026-10-26 01:36:56.260721",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1905177",
@@ -2015,6 +2015,102 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5619,
       "added_at": "2026-10-27 02:27:03.346677",
+      "result": "PENDING"
+    },
+    {
+      "id": "1909685",
+      "pick_date": "2026-09-28",
+      "capper": "Ydc",
+      "league": "WNBA",
+      "pick": "Minnesota Lynx -3 vs New York Liberty",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5545,
+      "added_at": "2026-10-28 02:36:49.148506",
+      "result": "LOSS"
+    },
+    {
+      "id": "1909684",
+      "pick_date": "2026-09-28",
+      "capper": "Ydc",
+      "league": "NFL",
+      "pick": "Chicago Bears +4 vs Philadelphia Eagles",
+      "odds_american": -115.0,
+      "prob": 0.4776,
+      "shrunk_acc_lt": 0.5545,
+      "added_at": "2026-10-28 02:36:49.148579",
+      "result": "WIN"
+    },
+    {
+      "id": "1909596",
+      "pick_date": "2026-10-26",
+      "capper": "Hakeem Profit",
+      "league": "NBA",
+      "pick": "Washington Wizards vs Charlotte Hornets Under 228.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5728,
+      "added_at": "2026-10-28 02:36:49.150393",
+      "result": "WIN"
+    },
+    {
+      "id": "1909594",
+      "pick_date": "2026-10-26",
+      "capper": "Hakeem Profit",
+      "league": "NBA",
+      "pick": "Atlanta Hawks vs Houston Rockets Over 229.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5728,
+      "added_at": "2026-10-28 02:36:49.150439",
+      "result": "WIN"
+    },
+    {
+      "id": "1909174",
+      "pick_date": "2026-10-26",
+      "capper": "Travy",
+      "league": "NHL",
+      "pick": "1H Los Angeles Kings vs New York Rangers Total Under 1.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5808,
+      "added_at": "2026-10-28 02:36:49.150480",
+      "result": "PENDING"
+    },
+    {
+      "id": "1910047",
+      "pick_date": "2026-10-27",
+      "capper": "Midwestmikesports",
+      "league": "NBA",
+      "pick": "Portland Trail Blazers +3 vs Los Angeles Lakers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5531,
+      "added_at": "2026-10-28 02:36:49.150556",
+      "result": "PENDING"
+    },
+    {
+      "id": "1910328",
+      "pick_date": "2026-10-27",
+      "capper": "Midwestmikesports",
+      "league": "NHL",
+      "pick": "Buffalo Sabres vs San Jose Sharks Over 6.5",
+      "odds_american": -120.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5531,
+      "added_at": "2026-10-28 02:36:49.150594",
+      "result": "PENDING"
+    },
+    {
+      "id": "1910049",
+      "pick_date": "2026-10-27",
+      "capper": "Midwestmikesports",
+      "league": "NCAAF",
+      "pick": "Western Kentucky ML vs Delaware",
+      "odds_american": -120.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5531,
+      "added_at": "2026-10-28 02:36:49.150636",
       "result": "PENDING"
     }
   ]

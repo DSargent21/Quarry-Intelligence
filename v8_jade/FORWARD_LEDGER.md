@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.348861
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-28 02:36:49.152291
 
-**Graded: 123 | Pending: 40 | Pushes: 4**
-**Profit: +0.7u | ROI: +0.6% | Adj ROI: -0.5% | Grade: C+**
+**Graded: 131 | Pending: 43 | Pushes: 1**
+**Profit: +0.3u | ROI: +0.2% | Adj ROI: -0.7% | Grade: C+**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -37,6 +37,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.
 | 2026-09-27 | Matt Severance | NFL | Jacksonville Jaguars -2.5 vs New England | -122 | 0.589 | PENDING |
 | 2026-09-27 | Midwestmikesports | NFL | Tampa Bay Buccaneers +1.5 vs New York Gi | -110 | 0.589 | LOSS |
 | 2026-09-27 | Prop Joe | NFL | Cleveland Browns vs Carolina Panthers Un | -110 | 0.589 | WIN |
+| 2026-09-28 | Ydc | WNBA | Minnesota Lynx -3 vs New York Liberty | -110 | 0.589 | LOSS |
+| 2026-09-28 | Ydc | NFL | Chicago Bears +4 vs Philadelphia Eagles | -115 | 0.478 | WIN |
 | 2026-09-29 | Chefsbestbets | MLB | New York Yankees vs Boston Red Sox Under | -115 | 0.589 | LOSS |
 | 2026-09-29 | Chefsbestbets | MLB | Matthew Boyd: K Under 3.5 | -114 | 0.559 | LOSS |
 | 2026-09-29 | Chefsbestbets | MLB | Michael King: K Under 4.5 | -105 | 0.487 | LOSS |
@@ -66,7 +68,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
 | 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
 | 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
@@ -84,7 +86,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -126,7 +128,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
 | 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -155,7 +157,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.
 | 2026-10-22 | Ben Burns | NCAAF | East Carolina +10.5 vs Memphis Tigers | -122 | 0.559 | PENDING |
 | 2026-10-22 | Ben Burns | NFL | New England Patriots vs Chicago Bears Un | -112 | 0.505 | PENDING |
 | 2026-10-22 | Bet Labs | NCAAF | Kennesaw State +9.5 vs James Madison Duk | -110 | 0.589 | LOSS |
-| 2026-10-22 | Bet Labs | NFL | Atlanta Falcons +3 | -112 | 0.505 | PENDING |
+| 2026-10-22 | Bet Labs | NFL | Atlanta Falcons +3 | -112 | 0.505 | WIN |
 | 2026-10-22 | Chefsbestbets | NFL | Rome Odunze: RecYds Under 45.5 | -115 | 0.497 | LOSS |
 | 2026-10-23 | Hakeem Profit | NBA | Immanuel Quickley: 3PM Over 2.5 | -112 | 0.573 | PENDING |
 | 2026-10-23 | Jack Jones | NCAAF | Duke Blue Devils vs Virginia Cavaliers U | -110 | 0.559 | WIN |
@@ -167,10 +169,16 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-27 02:27:03.
 | 2026-10-24 | Prosportspicks | NCAAF | Oregon Ducks vs Illinois Fighting Illini | -110 | 0.589 | WIN |
 | 2026-10-24 | William Burns | NCAAF | Georgia State Panthers -2.5 vs Arkansas  | -110 | 0.589 | LOSS |
 | 2026-10-24 | William Burns | NCAAF | Virginia Tech Hokies +3 vs Clemson Tiger | -110 | 0.589 | WIN |
-| 2026-10-25 | Chefsbestbets | NBA | Keyonte George: Reb Under 3.5 | -115 | 0.518 | PENDING |
+| 2026-10-25 | Chefsbestbets | NBA | Keyonte George: Reb Under 3.5 | -115 | 0.518 | LOSS |
 | 2026-10-25 | Chefsbestbets | NBA | Rudy Gobert: Ast Under 1.5 | -115 | 0.505 | WIN |
-| 2026-10-25 | Midwestmikesports | NFL | Houston Texans -9.5 vs New York Giants | -125 | 0.497 | PENDING |
-| 2026-10-25 | Midwestmikesports | NFL | Texans -9.5 vs Titans | -125 | 0.487 | PENDING |
+| 2026-10-25 | Midwestmikesports | NFL | Houston Texans -9.5 vs New York Giants | -125 | 0.497 | LOSS |
+| 2026-10-25 | Midwestmikesports | NFL | Texans -9.5 vs Titans | -125 | 0.487 | LOSS |
 | 2026-10-25 | William Burns | NHL | New York Jets -4.5 vs Miami Dolphins | -110 | 0.589 | LOSS |
 | 2026-10-26 | Alex Selesnick | NCAAB | Darryn Peterson: Pts Over 11.5 | -121 | 0.559 | PENDING |
 | 2026-10-26 | Ben Burns | MLB | Tampa Bay Rays ML vs Milwaukee Brewers | -120 | 0.487 | PENDING |
+| 2026-10-26 | Hakeem Profit | NBA | Washington Wizards vs Charlotte Hornets  | -110 | 0.589 | WIN |
+| 2026-10-26 | Hakeem Profit | NBA | Atlanta Hawks vs Houston Rockets Over 22 | -110 | 0.589 | WIN |
+| 2026-10-26 | Travy | NHL | 1H Los Angeles Kings vs New York Rangers | -110 | 0.589 | PENDING |
+| 2026-10-27 | Midwestmikesports | NBA | Portland Trail Blazers +3 vs Los Angeles | -110 | 0.589 | PENDING |
+| 2026-10-27 | Midwestmikesports | NHL | Buffalo Sabres vs San Jose Sharks Over 6 | -120 | 0.573 | PENDING |
+| 2026-10-27 | Midwestmikesports | NCAAF | Western Kentucky ML vs Delaware | -120 | 0.573 | PENDING |
