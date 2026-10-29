@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-28 02:36:49.152291
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-29 02:47:29.973399
 
-**Graded: 131 | Pending: 43 | Pushes: 1**
-**Profit: +0.3u | ROI: +0.2% | Adj ROI: -0.7% | Grade: C+**
+**Graded: 136 | Pending: 37 | Pushes: 4**
+**Profit: -2.8u | ROI: -2.0% | Adj ROI: -2.6% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -78,7 +78,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-28 02:36:49.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -86,7 +86,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-28 02:36:49.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -128,7 +128,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-28 02:36:49.
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
 | 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -179,6 +179,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-28 02:36:49.
 | 2026-10-26 | Hakeem Profit | NBA | Washington Wizards vs Charlotte Hornets  | -110 | 0.589 | WIN |
 | 2026-10-26 | Hakeem Profit | NBA | Atlanta Hawks vs Houston Rockets Over 22 | -110 | 0.589 | WIN |
 | 2026-10-26 | Travy | NHL | 1H Los Angeles Kings vs New York Rangers | -110 | 0.589 | PENDING |
-| 2026-10-27 | Midwestmikesports | NBA | Portland Trail Blazers +3 vs Los Angeles | -110 | 0.589 | PENDING |
-| 2026-10-27 | Midwestmikesports | NHL | Buffalo Sabres vs San Jose Sharks Over 6 | -120 | 0.573 | PENDING |
-| 2026-10-27 | Midwestmikesports | NCAAF | Western Kentucky ML vs Delaware | -120 | 0.573 | PENDING |
+| 2026-10-27 | Midwestmikesports | NBA | Portland Trail Blazers +3 vs Los Angeles | -110 | 0.589 | WIN |
+| 2026-10-27 | Midwestmikesports | NHL | Buffalo Sabres vs San Jose Sharks Over 6 | -120 | 0.573 | LOSS |
+| 2026-10-27 | Midwestmikesports | NCAAF | Western Kentucky ML vs Delaware | -120 | 0.573 | LOSS |
+| 2026-10-27 | Prop Joe | NBA | Brooklyn Nets vs Boston Celtics Under 22 | -110 | 0.589 | LOSS |
+| 2026-10-27 | William Burns | NHL | Dallas Stars ML vs New Jersey Devils | -115 | 0.573 | LOSS |

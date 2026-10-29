@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-28 02:36:49.152291",
+  "updated_at": "2026-10-29 02:47:29.973399",
   "summary": {
-    "graded": 131,
-    "pending": 43,
-    "pushes": 1,
-    "profit": 0.32,
-    "roi": 0.0024,
-    "adj_roi": -0.0073,
-    "grade": "C+"
+    "graded": 136,
+    "pending": 37,
+    "pushes": 4,
+    "profit": -2.77,
+    "roi": -0.0204,
+    "adj_roi": -0.0257,
+    "grade": "C"
   },
   "picks": [
     {
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -2087,7 +2087,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5531,
       "added_at": "2026-10-28 02:36:49.150556",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1910328",
@@ -2099,7 +2099,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5531,
       "added_at": "2026-10-28 02:36:49.150594",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1910049",
@@ -2111,7 +2111,31 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5531,
       "added_at": "2026-10-28 02:36:49.150636",
-      "result": "PENDING"
+      "result": "LOSS"
+    },
+    {
+      "id": "1909983",
+      "pick_date": "2026-10-27",
+      "capper": "Prop Joe",
+      "league": "NBA",
+      "pick": "Brooklyn Nets vs Boston Celtics Under 222.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5527,
+      "added_at": "2026-10-29 02:47:29.970940",
+      "result": "LOSS"
+    },
+    {
+      "id": "1910545",
+      "pick_date": "2026-10-27",
+      "capper": "William Burns",
+      "league": "NHL",
+      "pick": "Dallas Stars ML vs New Jersey Devils",
+      "odds_american": -115.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5503,
+      "added_at": "2026-10-29 02:47:29.971032",
+      "result": "LOSS"
     }
   ]
 }
