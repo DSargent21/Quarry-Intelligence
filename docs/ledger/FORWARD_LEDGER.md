@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-29 02:47:29.973399
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.394385
 
-**Graded: 136 | Pending: 37 | Pushes: 4**
-**Profit: -2.8u | ROI: -2.0% | Adj ROI: -2.6% | Grade: C**
+**Graded: 145 | Pending: 34 | Pushes: 5**
+**Profit: -2.4u | ROI: -1.6% | Adj ROI: -2.2% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -11,11 +11,11 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-29 02:47:29.
 | 2026-09-22 | Calebpicks | MLB | Anthony Kay: Outs Recorded Under 13.5 | -122 | 0.497 | PENDING |
 | 2026-09-22 | Calebpicks | OTHER | Callum Connor ML | +100 | 0.478 | PENDING |
 | 2026-09-22 | Calebpicks | MLB | Nick Martinez: Hits Allowed Over 4.5 | -103 | 0.379 | PENDING |
-| 2026-09-22 | Five | NFL | Los Angeles Rams -6.5 vs New York Giants | -119 | 0.559 | PENDING |
+| 2026-09-22 | Five | NFL | Los Angeles Rams -6.5 vs New York Giants | -119 | 0.559 | WIN |
 | 2026-09-23 | Calebpicks | NFL | Arizona Cardinals +8.5 vs San Francisco  | -110 | 0.589 | PENDING |
 | 2026-09-23 | Calebpicks | ATP | Tallon Griekspoor vs Denis Shapovalov Un | -110 | 0.589 | PENDING |
-| 2026-09-23 | Calebpicks | NCAAF | Iowa +5.5 vs Michigan | -110 | 0.589 | PENDING |
-| 2026-09-23 | Calebpicks | NCAAF | Auburn -9 vs Vanderbilt | -110 | 0.589 | PENDING |
+| 2026-09-23 | Calebpicks | NCAAF | Iowa +5.5 vs Michigan | -110 | 0.589 | WIN |
+| 2026-09-23 | Calebpicks | NCAAF | Auburn -9 vs Vanderbilt | -110 | 0.589 | LOSS |
 | 2026-09-23 | Kyle Hunter | WNBA | New York Liberty -1.5 vs Atlanta Dream | -110 | 0.589 | LOSS |
 | 2026-09-24 | Ben Burns | NCAAF | Liberty vs Liberty Flames ML | -125 | 0.505 | PENDING |
 | 2026-09-24 | Calebpicks | ATP | Basilashvili +3 vs Fritz | -110 | 0.589 | PENDING |
@@ -68,7 +68,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-29 02:47:29.
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
 | 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
 | 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
@@ -97,7 +97,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-29 02:47:29.
 | 2026-10-10 | Ben Burns | NCAAF | Old Dominion +10 vs Appalachian State | -112 | 0.518 | PENDING |
 | 2026-10-10 | Ben Burns | NCAAF | Oregon -10 vs UCLA | -116 | 0.505 | PENDING |
 | 2026-10-10 | Ben Burns | NCAAF | Georgia Tech +7 vs Duke | -109 | 0.505 | PENDING |
-| 2026-10-10 | Chefsbestbets | NCAAF | Katin Houser: Rush Attempts Under 7.5 | -120 | 0.487 | PENDING |
+| 2026-10-10 | Chefsbestbets | NCAAF | Katin Houser: Rush Attempts Under 7.5 | -120 | 0.487 | WIN |
 | 2026-10-10 | Five | NCAAF | Kansas State Wildcats ML vs Houston Coug | -120 | 0.518 | LOSS |
 | 2026-10-11 | Ben Burns | NFL | Las Vegas Raiders vs New England Patriot | -115 | 0.505 | LOSS |
 | 2026-10-11 | Brandon Lee | NHL | Cleveland Browns vs New York Jets Under  | -110 | 0.589 | WIN |
@@ -184,3 +184,10 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-29 02:47:29.
 | 2026-10-27 | Midwestmikesports | NCAAF | Western Kentucky ML vs Delaware | -120 | 0.573 | LOSS |
 | 2026-10-27 | Prop Joe | NBA | Brooklyn Nets vs Boston Celtics Under 22 | -110 | 0.589 | LOSS |
 | 2026-10-27 | William Burns | NHL | Dallas Stars ML vs New Jersey Devils | -115 | 0.573 | LOSS |
+| 2026-10-28 | Anon | NBA | Indiana Pacers +7.5 vs Philadelphia 76er | -110 | 0.589 | WIN |
+| 2026-10-28 | Brandon Lee | Other | Hawks -2.5 vs Heat | -110 | 0.589 | LOSS |
+| 2026-10-28 | Jeff Michaels | NHL | Oklahoma City Thunder vs Dallas Maverick | -110 | 0.589 | LOSS |
+| 2026-10-28 | Matt Severance | NBA | Houston is quite thin on big men with bo | -125 | 0.581 | LOSS |
+| 2026-10-28 | Totals Guru | NCAAF | Kennesaw State vs Middle Tennessee State | -110 | 0.589 | WIN |
+| 2026-10-29 | Anon | NFL | Green Bay Packers vs Carolina Panthers U | -120 | 0.487 | PENDING |
+| 2026-10-29 | Anon | NFL | Carolina Panthers +4.5 vs Green Bay Pack | -125 | 0.478 | PENDING |

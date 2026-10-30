@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-29 02:47:29.973399",
+  "updated_at": "2026-10-30 02:56:16.394385",
   "summary": {
-    "graded": 136,
-    "pending": 37,
-    "pushes": 4,
-    "profit": -2.77,
-    "roi": -0.0204,
-    "adj_roi": -0.0257,
+    "graded": 145,
+    "pending": 34,
+    "pushes": 5,
+    "profit": -2.37,
+    "roi": -0.0163,
+    "adj_roi": -0.0221,
     "grade": "C"
   },
   "picks": [
@@ -23,7 +23,7 @@
       "prob": 0.5594,
       "shrunk_acc_lt": 0.5548,
       "added_at": "2026-09-22 18:42:08.681280",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1856935",
@@ -119,7 +119,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5622,
       "added_at": "2026-09-25 01:53:01.692614",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1858309",
@@ -131,7 +131,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5622,
       "added_at": "2026-09-25 01:53:01.692695",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1859913",
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -1091,7 +1091,7 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5734,
       "added_at": "2026-10-11 02:09:53.796309",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1892148",
@@ -2136,6 +2136,90 @@
       "shrunk_acc_lt": 0.5503,
       "added_at": "2026-10-29 02:47:29.971032",
       "result": "LOSS"
+    },
+    {
+      "id": "1911388",
+      "pick_date": "2026-10-28",
+      "capper": "Jeff Michaels",
+      "league": "NHL",
+      "pick": "Oklahoma City Thunder vs Dallas Mavericks Under 1",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5545,
+      "added_at": "2026-10-30 02:56:16.391459",
+      "result": "LOSS"
+    },
+    {
+      "id": "1911466",
+      "pick_date": "2026-10-28",
+      "capper": "Totals Guru",
+      "league": "NCAAF",
+      "pick": "Kennesaw State vs Middle Tennessee State Over 49.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5542,
+      "added_at": "2026-10-30 02:56:16.391566",
+      "result": "WIN"
+    },
+    {
+      "id": "1911223",
+      "pick_date": "2026-10-28",
+      "capper": "Anon",
+      "league": "NBA",
+      "pick": "Indiana Pacers +7.5 vs Philadelphia 76ers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5581,
+      "added_at": "2026-10-30 02:56:16.391649",
+      "result": "WIN"
+    },
+    {
+      "id": "1911559",
+      "pick_date": "2026-10-28",
+      "capper": "Brandon Lee",
+      "league": "Other",
+      "pick": "Hawks -2.5 vs Heat",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5534,
+      "added_at": "2026-10-30 02:56:16.391749",
+      "result": "LOSS"
+    },
+    {
+      "id": "1911381",
+      "pick_date": "2026-10-28",
+      "capper": "Matt Severance",
+      "league": "NBA",
+      "pick": "Houston is quite thin on big men with both Alperen Sengun an",
+      "odds_american": -125.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.563,
+      "added_at": "2026-10-30 02:56:16.391835",
+      "result": "LOSS"
+    },
+    {
+      "id": "1911852",
+      "pick_date": "2026-10-29",
+      "capper": "Anon",
+      "league": "NFL",
+      "pick": "Green Bay Packers vs Carolina Panthers Under 47.5",
+      "odds_american": -120.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5565,
+      "added_at": "2026-10-30 02:56:16.391914",
+      "result": "PENDING"
+    },
+    {
+      "id": "1911851",
+      "pick_date": "2026-10-29",
+      "capper": "Anon",
+      "league": "NFL",
+      "pick": "Carolina Panthers +4.5 vs Green Bay Packers",
+      "odds_american": -125.0,
+      "prob": 0.4776,
+      "shrunk_acc_lt": 0.5565,
+      "added_at": "2026-10-30 02:56:16.391991",
+      "result": "PENDING"
     }
   ]
 }
