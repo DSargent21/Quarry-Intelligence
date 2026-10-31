@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-10-30 02:56:16.394385",
+  "updated_at": "2026-10-31 02:44:04.755413",
   "summary": {
-    "graded": 145,
-    "pending": 34,
+    "graded": 156,
+    "pending": 26,
     "pushes": 5,
-    "profit": -2.37,
-    "roi": -0.0163,
-    "adj_roi": -0.0221,
-    "grade": "C"
+    "profit": 1.83,
+    "roi": 0.0117,
+    "adj_roi": 0.0018,
+    "grade": "C+"
   },
   "picks": [
     {
@@ -95,7 +95,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5622,
       "added_at": "2026-09-25 01:53:01.692411",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1858324",
@@ -179,7 +179,7 @@
       "prob": 0.5472,
       "shrunk_acc_lt": 0.5622,
       "added_at": "2026-09-25 01:53:01.693019",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1859657",
@@ -647,7 +647,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5618,
       "added_at": "2026-10-05 02:23:00.664914",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1878998",
@@ -659,7 +659,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5618,
       "added_at": "2026-10-05 02:23:00.665013",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1879340",
@@ -1259,7 +1259,7 @@
       "prob": 0.5887,
       "shrunk_acc_lt": 0.5596,
       "added_at": "2026-10-14 02:11:57.736498",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1893781",
@@ -1271,7 +1271,7 @@
       "prob": 0.5805,
       "shrunk_acc_lt": 0.5596,
       "added_at": "2026-10-14 02:11:57.736558",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1894645",
@@ -2207,7 +2207,7 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5565,
       "added_at": "2026-10-30 02:56:16.391914",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1911851",
@@ -2219,7 +2219,43 @@
       "prob": 0.4776,
       "shrunk_acc_lt": 0.5565,
       "added_at": "2026-10-30 02:56:16.391991",
-      "result": "PENDING"
+      "result": "LOSS"
+    },
+    {
+      "id": "1912590",
+      "pick_date": "2026-10-29",
+      "capper": "Stephen Nover",
+      "league": "NHL",
+      "pick": "Panthers +4 vs Packers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5526,
+      "added_at": "2026-10-31 02:44:04.753106",
+      "result": "LOSS"
+    },
+    {
+      "id": "1912618",
+      "pick_date": "2026-10-29",
+      "capper": "Matt Sullivan",
+      "league": "NCAAF",
+      "pick": "Florida Atlantic Owls vs North Texas Mean Green Over 76.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5708,
+      "added_at": "2026-10-31 02:44:04.753209",
+      "result": "WIN"
+    },
+    {
+      "id": "1912676",
+      "pick_date": "2026-10-29",
+      "capper": "Ross Benjamin",
+      "league": "NFL",
+      "pick": "Carolina Panthers +4 vs Green Bay Packers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5527,
+      "added_at": "2026-10-31 02:44:04.753266",
+      "result": "LOSS"
     }
   ]
 }

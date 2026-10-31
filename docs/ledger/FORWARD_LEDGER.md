@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.394385
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-31 02:44:04.755413
 
-**Graded: 145 | Pending: 34 | Pushes: 5**
-**Profit: -2.4u | ROI: -1.6% | Adj ROI: -2.2% | Grade: C**
+**Graded: 156 | Pending: 26 | Pushes: 5**
+**Profit: +1.8u | ROI: +1.2% | Adj ROI: +0.2% | Grade: C+**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -12,7 +12,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.
 | 2026-09-22 | Calebpicks | OTHER | Callum Connor ML | +100 | 0.478 | PENDING |
 | 2026-09-22 | Calebpicks | MLB | Nick Martinez: Hits Allowed Over 4.5 | -103 | 0.379 | PENDING |
 | 2026-09-22 | Five | NFL | Los Angeles Rams -6.5 vs New York Giants | -119 | 0.559 | WIN |
-| 2026-09-23 | Calebpicks | NFL | Arizona Cardinals +8.5 vs San Francisco  | -110 | 0.589 | PENDING |
+| 2026-09-23 | Calebpicks | NFL | Arizona Cardinals +8.5 vs San Francisco  | -110 | 0.589 | WIN |
 | 2026-09-23 | Calebpicks | ATP | Tallon Griekspoor vs Denis Shapovalov Un | -110 | 0.589 | PENDING |
 | 2026-09-23 | Calebpicks | NCAAF | Iowa +5.5 vs Michigan | -110 | 0.589 | WIN |
 | 2026-09-23 | Calebpicks | NCAAF | Auburn -9 vs Vanderbilt | -110 | 0.589 | LOSS |
@@ -21,7 +21,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.
 | 2026-09-24 | Calebpicks | ATP | Basilashvili +3 vs Fritz | -110 | 0.589 | PENDING |
 | 2026-09-24 | Calebpicks | NFL | Green Bay Packers -4.5 vs Chicago Bears | -110 | 0.573 | LOSS |
 | 2026-09-24 | Calebpicks | NFL | Atlanta Falcons +5.5 vs Green Bay Packer | -115 | 0.559 | WIN |
-| 2026-09-24 | Calebpicks | NFL | Drake London: RecYds Over 63.5 | -110 | 0.547 | PENDING |
+| 2026-09-24 | Calebpicks | NFL | Drake London: RecYds Over 63.5 | -110 | 0.547 | WIN |
 | 2026-09-25 | Chefsbestbets | NCAAF | Marshall Thundering Herd -22.5 vs Gardne | -110 | 0.518 | LOSS |
 | 2026-09-25 | Chefsbestbets | NCAAF | California Golden Bears +1.5 vs Clemson  | -118 | 0.518 | LOSS |
 | 2026-09-25 | Chefsbestbets | NCAAF | Georgia Bulldogs -13.5 vs Oklahoma Soone | -118 | 0.505 | WIN |
@@ -59,8 +59,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.
 | 2026-10-02 | Joseph Damico | NCAAF | Pittsburgh Panthers +2.5 vs Virginia Tec | -110 | 0.589 | WIN |
 | 2026-10-02 | Ricky Tran | WNBA | Golden State Valkyries -7.5 vs Dallas Wi | -110 | 0.589 | LOSS |
 | 2026-10-02 | Ricky Tran | CFL | Calgary +5.5 vs Saskatchewan | -110 | 0.589 | WIN |
-| 2026-10-03 | Midwestmikesports | NCAAF | Louisiana Tech +1.5 vs Colorado Buffaloe | -110 | 0.589 | PENDING |
-| 2026-10-03 | Midwestmikesports | NCAAF | Louisiana Tech +1.5 vs Sam Houston State | -110 | 0.589 | PENDING |
+| 2026-10-03 | Midwestmikesports | NCAAF | Louisiana Tech +1.5 vs Colorado Buffaloe | -110 | 0.589 | WIN |
+| 2026-10-03 | Midwestmikesports | NCAAF | Louisiana Tech +1.5 vs Sam Houston State | -110 | 0.589 | WIN |
 | 2026-10-03 | Nick Parsons | NCAAF | Old Dominion Monarchs +2.5 vs Georgia St | -110 | 0.589 | LOSS |
 | 2026-10-03 | Nick Parsons | NFL | Cincinnati Bengals -7 vs Jacksonville Ja | -110 | 0.589 | WIN |
 | 2026-10-03 | William Burns | NCAAF | Fresno State Bulldogs +2 vs Washington S | -110 | 0.589 | WIN |
@@ -112,8 +112,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.
 | 2026-10-13 | Cashitbaby | NCAAF | Florida International vs Jacksonville St | -110 | 0.589 | LOSS |
 | 2026-10-13 | Cashitbaby | NHL | Winnipeg Jets ML vs Minnesota Wild | -110 | 0.589 | WIN |
 | 2026-10-13 | Cashitbaby | NCAAF | Delaware vs Middle Tennessee Under 49.5 | -110 | 0.589 | LOSS |
-| 2026-10-13 | Cashitbaby | WTA | Frech vs Swiatek Under 18.5 Games | -110 | 0.589 | PENDING |
-| 2026-10-13 | Cashitbaby | WTA | Paolini vs Bartunkova Over 21.5 Games | -110 | 0.581 | PENDING |
+| 2026-10-13 | Cashitbaby | WTA | Frech vs Swiatek Under 18.5 Games | -110 | 0.589 | WIN |
+| 2026-10-13 | Cashitbaby | WTA | Paolini vs Bartunkova Over 21.5 Games | -110 | 0.581 | WIN |
 | 2026-10-14 | Chefsbestbets | NHL | Dallas Stars vs Colorado Avalanche Over  | -110 | 0.589 | LOSS |
 | 2026-10-14 | Midwestmikesports | MLB | Milwaukee Brewers vs Los Angeles Dodgers | -110 | 0.589 | LOSS |
 | 2026-10-14 | Prosportspicks | NCAAF | Sam Houston State +1.5 vs Western Kentuc | -115 | 0.547 | PENDING |
@@ -189,5 +189,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-30 02:56:16.
 | 2026-10-28 | Jeff Michaels | NHL | Oklahoma City Thunder vs Dallas Maverick | -110 | 0.589 | LOSS |
 | 2026-10-28 | Matt Severance | NBA | Houston is quite thin on big men with bo | -125 | 0.581 | LOSS |
 | 2026-10-28 | Totals Guru | NCAAF | Kennesaw State vs Middle Tennessee State | -110 | 0.589 | WIN |
-| 2026-10-29 | Anon | NFL | Green Bay Packers vs Carolina Panthers U | -120 | 0.487 | PENDING |
-| 2026-10-29 | Anon | NFL | Carolina Panthers +4.5 vs Green Bay Pack | -125 | 0.478 | PENDING |
+| 2026-10-29 | Anon | NFL | Green Bay Packers vs Carolina Panthers U | -120 | 0.487 | WIN |
+| 2026-10-29 | Anon | NFL | Carolina Panthers +4.5 vs Green Bay Pack | -125 | 0.478 | LOSS |
+| 2026-10-29 | Matt Sullivan | NCAAF | Florida Atlantic Owls vs North Texas Mea | -110 | 0.589 | WIN |
+| 2026-10-29 | Ross Benjamin | NFL | Carolina Panthers +4 vs Green Bay Packer | -110 | 0.589 | LOSS |
+| 2026-10-29 | Stephen Nover | NHL | Panthers +4 vs Packers | -110 | 0.589 | LOSS |
