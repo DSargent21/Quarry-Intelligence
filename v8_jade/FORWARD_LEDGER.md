@@ -1,8 +1,8 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-31 02:44:04.755413
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-01 02:33:35.724797
 
-**Graded: 156 | Pending: 26 | Pushes: 5**
+**Graded: 156 | Pending: 28 | Pushes: 3**
 **Profit: +1.8u | ROI: +1.2% | Adj ROI: +0.2% | Grade: C+**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
@@ -127,8 +127,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-10-31 02:44:04.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
