@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-01 02:33:35.724797
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-02 02:46:07.701991
 
-**Graded: 156 | Pending: 28 | Pushes: 3**
-**Profit: +1.8u | ROI: +1.2% | Adj ROI: +0.2% | Grade: C+**
+**Graded: 159 | Pending: 33 | Pushes: 3**
+**Profit: +2.7u | ROI: +1.7% | Adj ROI: +0.6% | Grade: C+**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -194,3 +194,11 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-01 02:33:35.
 | 2026-10-29 | Matt Sullivan | NCAAF | Florida Atlantic Owls vs North Texas Mea | -110 | 0.589 | WIN |
 | 2026-10-29 | Ross Benjamin | NFL | Carolina Panthers +4 vs Green Bay Packer | -110 | 0.589 | LOSS |
 | 2026-10-29 | Stephen Nover | NHL | Panthers +4 vs Packers | -110 | 0.589 | LOSS |
+| 2026-10-31 | Ben Burns | NCAAF | Indiana -20 vs Minnesota | -110 | 0.589 | LOSS |
+| 2026-10-31 | Ben Burns | NCAAF | Fresno State +6 vs Oregon State | -108 | 0.379 | WIN |
+| 2026-10-31 | Travy | NCAAF | USC +7.5 vs Ohio State Buckeyes | -110 | 0.581 | WIN |
+| 2026-11-01 | Bulliespicks | NFL | New York Jets ML vs Las Vegas Raiders | -125 | 0.518 | PENDING |
+| 2026-11-01 | Chamba | ATP | Ugo Humbert -2 vs Alex Molcan | -110 | 0.589 | PENDING |
+| 2026-11-01 | Chamba | ATP | Alex Molcan ML vs Ugo Humbert | -115 | 0.573 | PENDING |
+| 2026-11-01 | Chefsbestbets | NFL | Michael Penix Jr.: RushYds Under 2.5 | +100 | 0.497 | PENDING |
+| 2026-11-01 | Travy | NFL | 1H Buffalo Bills vs Baltimore Ravens Ove | -110 | 0.573 | PENDING |

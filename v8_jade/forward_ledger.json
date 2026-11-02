@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-01 02:33:35.724797",
+  "updated_at": "2026-11-02 02:46:07.701991",
   "summary": {
-    "graded": 156,
-    "pending": 28,
+    "graded": 159,
+    "pending": 33,
     "pushes": 3,
-    "profit": 1.83,
-    "roi": 0.0117,
-    "adj_roi": 0.0018,
+    "profit": 2.66,
+    "roi": 0.0167,
+    "adj_roi": 0.0062,
     "grade": "C+"
   },
   "picks": [
@@ -2256,6 +2256,102 @@
       "shrunk_acc_lt": 0.5527,
       "added_at": "2026-10-31 02:44:04.753266",
       "result": "LOSS"
+    },
+    {
+      "id": "1914135",
+      "pick_date": "2026-10-31",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Indiana -20 vs Minnesota",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5905,
+      "added_at": "2026-11-02 02:46:07.699927",
+      "result": "LOSS"
+    },
+    {
+      "id": "1913917",
+      "pick_date": "2026-10-31",
+      "capper": "Travy",
+      "league": "NCAAF",
+      "pick": "USC +7.5 vs Ohio State Buckeyes",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5546,
+      "added_at": "2026-11-02 02:46:07.700013",
+      "result": "WIN"
+    },
+    {
+      "id": "1914136",
+      "pick_date": "2026-10-31",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Fresno State +6 vs Oregon State",
+      "odds_american": -108.0,
+      "prob": 0.379,
+      "shrunk_acc_lt": 0.5905,
+      "added_at": "2026-11-02 02:46:07.700061",
+      "result": "WIN"
+    },
+    {
+      "id": "1914738",
+      "pick_date": "2026-11-01",
+      "capper": "Chamba",
+      "league": "ATP",
+      "pick": "Ugo Humbert -2 vs Alex Molcan",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.575,
+      "added_at": "2026-11-02 02:46:07.700103",
+      "result": "PENDING"
+    },
+    {
+      "id": "1914449",
+      "pick_date": "2026-11-01",
+      "capper": "Travy",
+      "league": "NFL",
+      "pick": "1H Buffalo Bills vs Baltimore Ravens Over 26.5",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5543,
+      "added_at": "2026-11-02 02:46:07.700143",
+      "result": "PENDING"
+    },
+    {
+      "id": "1914739",
+      "pick_date": "2026-11-01",
+      "capper": "Chamba",
+      "league": "ATP",
+      "pick": "Alex Molcan ML vs Ugo Humbert",
+      "odds_american": -115.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.575,
+      "added_at": "2026-11-02 02:46:07.700183",
+      "result": "PENDING"
+    },
+    {
+      "id": "1914266",
+      "pick_date": "2026-11-01",
+      "capper": "Bulliespicks",
+      "league": "NFL",
+      "pick": "New York Jets ML vs Las Vegas Raiders",
+      "odds_american": -125.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5569,
+      "added_at": "2026-11-02 02:46:07.700222",
+      "result": "PENDING"
+    },
+    {
+      "id": "1914276",
+      "pick_date": "2026-11-01",
+      "capper": "Chefsbestbets",
+      "league": "NFL",
+      "pick": "Michael Penix Jr.: RushYds Under 2.5",
+      "odds_american": 100.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.557,
+      "added_at": "2026-11-02 02:46:07.700264",
+      "result": "PENDING"
     }
   ]
 }
