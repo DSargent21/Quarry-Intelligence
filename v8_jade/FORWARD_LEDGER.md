@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-02 02:46:07.701991
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-03 04:04:03.828787
 
-**Graded: 159 | Pending: 33 | Pushes: 3**
-**Profit: +2.7u | ROI: +1.7% | Adj ROI: +0.6% | Grade: C+**
+**Graded: 167 | Pending: 30 | Pushes: 5**
+**Profit: +0.4u | ROI: +0.2% | Adj ROI: -0.6% | Grade: C+**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -127,8 +127,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-02 02:46:07.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -194,10 +194,17 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-02 02:46:07.
 | 2026-10-29 | Matt Sullivan | NCAAF | Florida Atlantic Owls vs North Texas Mea | -110 | 0.589 | WIN |
 | 2026-10-29 | Ross Benjamin | NFL | Carolina Panthers +4 vs Green Bay Packer | -110 | 0.589 | LOSS |
 | 2026-10-29 | Stephen Nover | NHL | Panthers +4 vs Packers | -110 | 0.589 | LOSS |
+| 2026-10-30 | Bbank | NHL | New Jersey Devils ML vs Vegas Golden Kni | +100 | 0.547 | WIN |
+| 2026-10-30 | Vinny | NBA | New York Knicks vs Philadelphia 76ers Un | -110 | 0.573 | WIN |
+| 2026-10-30 | Vtuff | NBA | Charlotte Hornets ML vs Washington Wizar | -110 | 0.589 | LOSS |
+| 2026-10-30 | Vtuff | NCAAF | Baylor ML vs UCF Knights | -125 | 0.559 | WIN |
+| 2026-10-30 | Vtuff | NBA | New York Knicks -2.5 vs Philadelphia 76e | -125 | 0.559 | LOSS |
 | 2026-10-31 | Ben Burns | NCAAF | Indiana -20 vs Minnesota | -110 | 0.589 | LOSS |
 | 2026-10-31 | Ben Burns | NCAAF | Fresno State +6 vs Oregon State | -108 | 0.379 | WIN |
 | 2026-10-31 | Travy | NCAAF | USC +7.5 vs Ohio State Buckeyes | -110 | 0.581 | WIN |
-| 2026-11-01 | Bulliespicks | NFL | New York Jets ML vs Las Vegas Raiders | -125 | 0.518 | PENDING |
+| 2026-10-31 | Vinny | NCAAF | Indiana -20.5 vs Michigan State | -110 | 0.559 | LOSS |
+| 2026-10-31 | Vinny | NCAAF | Ohio State vs USC Over 50.5 | -110 | 0.559 | LOSS |
+| 2026-11-01 | Bulliespicks | NFL | New York Jets ML vs Las Vegas Raiders | -125 | 0.518 | LOSS |
 | 2026-11-01 | Chamba | ATP | Ugo Humbert -2 vs Alex Molcan | -110 | 0.589 | PENDING |
 | 2026-11-01 | Chamba | ATP | Alex Molcan ML vs Ugo Humbert | -115 | 0.573 | PENDING |
 | 2026-11-01 | Chefsbestbets | NFL | Michael Penix Jr.: RushYds Under 2.5 | +100 | 0.497 | PENDING |

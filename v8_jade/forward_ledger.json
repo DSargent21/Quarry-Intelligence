@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-02 02:46:07.701991",
+  "updated_at": "2026-11-03 04:04:03.828787",
   "summary": {
-    "graded": 159,
-    "pending": 33,
-    "pushes": 3,
-    "profit": 2.66,
-    "roi": 0.0167,
-    "adj_roi": 0.0062,
+    "graded": 167,
+    "pending": 30,
+    "pushes": 5,
+    "profit": 0.37,
+    "roi": 0.0022,
+    "adj_roi": -0.0057,
     "grade": "C+"
   },
   "picks": [
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -2339,7 +2339,7 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5569,
       "added_at": "2026-11-02 02:46:07.700222",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1914276",
@@ -2352,6 +2352,90 @@
       "shrunk_acc_lt": 0.557,
       "added_at": "2026-11-02 02:46:07.700264",
       "result": "PENDING"
+    },
+    {
+      "id": "1913211",
+      "pick_date": "2026-10-30",
+      "capper": "Vtuff",
+      "league": "NBA",
+      "pick": "Charlotte Hornets ML vs Washington Wizards",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5538,
+      "added_at": "2026-11-03 04:04:03.826739",
+      "result": "LOSS"
+    },
+    {
+      "id": "1912883",
+      "pick_date": "2026-10-30",
+      "capper": "Vinny",
+      "league": "NBA",
+      "pick": "New York Knicks vs Philadelphia 76ers Under 227.5",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5534,
+      "added_at": "2026-11-03 04:04:03.826810",
+      "result": "WIN"
+    },
+    {
+      "id": "1913208",
+      "pick_date": "2026-10-30",
+      "capper": "Vtuff",
+      "league": "NCAAF",
+      "pick": "Baylor ML vs UCF Knights",
+      "odds_american": -125.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5538,
+      "added_at": "2026-11-03 04:04:03.826845",
+      "result": "WIN"
+    },
+    {
+      "id": "1913212",
+      "pick_date": "2026-10-30",
+      "capper": "Vtuff",
+      "league": "NBA",
+      "pick": "New York Knicks -2.5 vs Philadelphia 76ers",
+      "odds_american": -125.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5538,
+      "added_at": "2026-11-03 04:04:03.826875",
+      "result": "LOSS"
+    },
+    {
+      "id": "1913137",
+      "pick_date": "2026-10-30",
+      "capper": "Bbank",
+      "league": "NHL",
+      "pick": "New Jersey Devils ML vs Vegas Golden Knights",
+      "odds_american": 100.0,
+      "prob": 0.5472,
+      "shrunk_acc_lt": 0.5641,
+      "added_at": "2026-11-03 04:04:03.826903",
+      "result": "WIN"
+    },
+    {
+      "id": "1913578",
+      "pick_date": "2026-10-31",
+      "capper": "Vinny",
+      "league": "NCAAF",
+      "pick": "Indiana -20.5 vs Michigan State",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5546,
+      "added_at": "2026-11-03 04:04:03.826944",
+      "result": "LOSS"
+    },
+    {
+      "id": "1913582",
+      "pick_date": "2026-10-31",
+      "capper": "Vinny",
+      "league": "NCAAF",
+      "pick": "Ohio State vs USC Over 50.5",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5546,
+      "added_at": "2026-11-03 04:04:03.826972",
+      "result": "LOSS"
     }
   ]
 }
