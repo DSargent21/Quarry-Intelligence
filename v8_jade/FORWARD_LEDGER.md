@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-03 04:04:03.828787
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-04 03:14:36.652553
 
-**Graded: 167 | Pending: 30 | Pushes: 5**
-**Profit: +0.4u | ROI: +0.2% | Adj ROI: -0.6% | Grade: C+**
+**Graded: 170 | Pending: 28 | Pushes: 4**
+**Profit: -0.8u | ROI: -0.4% | Adj ROI: -1.1% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -78,7 +78,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-03 04:04:03.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -206,6 +206,6 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-03 04:04:03.
 | 2026-10-31 | Vinny | NCAAF | Ohio State vs USC Over 50.5 | -110 | 0.559 | LOSS |
 | 2026-11-01 | Bulliespicks | NFL | New York Jets ML vs Las Vegas Raiders | -125 | 0.518 | LOSS |
 | 2026-11-01 | Chamba | ATP | Ugo Humbert -2 vs Alex Molcan | -110 | 0.589 | PENDING |
-| 2026-11-01 | Chamba | ATP | Alex Molcan ML vs Ugo Humbert | -115 | 0.573 | PENDING |
-| 2026-11-01 | Chefsbestbets | NFL | Michael Penix Jr.: RushYds Under 2.5 | +100 | 0.497 | PENDING |
-| 2026-11-01 | Travy | NFL | 1H Buffalo Bills vs Baltimore Ravens Ove | -110 | 0.573 | PENDING |
+| 2026-11-01 | Chamba | ATP | Alex Molcan ML vs Ugo Humbert | -115 | 0.573 | WIN |
+| 2026-11-01 | Chefsbestbets | NFL | Michael Penix Jr.: RushYds Under 2.5 | +100 | 0.497 | LOSS |
+| 2026-11-01 | Travy | NFL | 1H Buffalo Bills vs Baltimore Ravens Ove | -110 | 0.573 | LOSS |
