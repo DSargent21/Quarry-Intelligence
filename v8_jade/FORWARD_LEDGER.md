@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-04 03:14:36.652553
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-05 03:43:43.660650
 
-**Graded: 170 | Pending: 28 | Pushes: 4**
-**Profit: -0.8u | ROI: -0.4% | Adj ROI: -1.1% | Grade: C**
+**Graded: 174 | Pending: 34 | Pushes: 2**
+**Profit: -2.8u | ROI: -1.6% | Adj ROI: -2.1% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -68,7 +68,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-04 03:14:36.
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
 | 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
 | 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
@@ -78,7 +78,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-04 03:14:36.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -127,8 +127,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-04 03:14:36.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -209,3 +209,11 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-04 03:14:36.
 | 2026-11-01 | Chamba | ATP | Alex Molcan ML vs Ugo Humbert | -115 | 0.573 | WIN |
 | 2026-11-01 | Chefsbestbets | NFL | Michael Penix Jr.: RushYds Under 2.5 | +100 | 0.497 | LOSS |
 | 2026-11-01 | Travy | NFL | 1H Buffalo Bills vs Baltimore Ravens Ove | -110 | 0.573 | LOSS |
+| 2026-11-03 | Bbank | NHL | Anaheim Ducks ML vs Vancouver Canucks | -110 | 0.589 | WIN |
+| 2026-11-03 | Bbank | NHL | Pittsburgh Penguins ML vs Vegas Golden K | -110 | 0.589 | LOSS |
+| 2026-11-03 | Bbank | NHL | Edmonton Oilers vs New Jersey Devils Und | -125 | 0.581 | LOSS |
+| 2026-11-03 | Empire | NHL | Anaheim Ducks Regulation ML vs Washingto | -110 | 0.589 | PENDING |
+| 2026-11-03 | Empire | NHL | Edmonton Oilers vs New Jersey Devils Und | -125 | 0.505 | LOSS |
+| 2026-11-04 | Empire | NCAAF | Central Michigan +1.5 vs Eastern Michiga | -115 | 0.478 | PENDING |
+| 2026-11-04 | Empire | NBA | Minnesota Timberwolves vs Houston Rocket | +100 | 0.379 | PENDING |
+| 2026-11-04 | Prosportspicks | NBA | Atlanta Hawks ML vs Washington Wizards | -125 | 0.589 | PENDING |

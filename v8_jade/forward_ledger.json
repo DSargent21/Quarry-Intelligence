@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-04 03:14:36.652553",
+  "updated_at": "2026-11-05 03:43:43.660650",
   "summary": {
-    "graded": 170,
-    "pending": 28,
-    "pushes": 4,
-    "profit": -0.76,
-    "roi": -0.0045,
-    "adj_roi": -0.0113,
+    "graded": 174,
+    "pending": 34,
+    "pushes": 2,
+    "profit": -2.85,
+    "roi": -0.0164,
+    "adj_roi": -0.0213,
     "grade": "C"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896492",
@@ -2436,6 +2436,102 @@
       "shrunk_acc_lt": 0.5546,
       "added_at": "2026-11-03 04:04:03.826972",
       "result": "LOSS"
+    },
+    {
+      "id": "1917642",
+      "pick_date": "2026-11-03",
+      "capper": "Bbank",
+      "league": "NHL",
+      "pick": "Anaheim Ducks ML vs Vancouver Canucks",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5814,
+      "added_at": "2026-11-05 03:43:43.658307",
+      "result": "WIN"
+    },
+    {
+      "id": "1917561",
+      "pick_date": "2026-11-03",
+      "capper": "Empire",
+      "league": "NHL",
+      "pick": "Anaheim Ducks Regulation ML vs Washington Capitals",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.6134,
+      "added_at": "2026-11-05 03:43:43.658387",
+      "result": "PENDING"
+    },
+    {
+      "id": "1917588",
+      "pick_date": "2026-11-03",
+      "capper": "Bbank",
+      "league": "NHL",
+      "pick": "Pittsburgh Penguins ML vs Vegas Golden Knights",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5814,
+      "added_at": "2026-11-05 03:43:43.658432",
+      "result": "LOSS"
+    },
+    {
+      "id": "1917641",
+      "pick_date": "2026-11-03",
+      "capper": "Bbank",
+      "league": "NHL",
+      "pick": "Edmonton Oilers vs New Jersey Devils Under 6.5",
+      "odds_american": -125.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5814,
+      "added_at": "2026-11-05 03:43:43.658474",
+      "result": "LOSS"
+    },
+    {
+      "id": "1917560",
+      "pick_date": "2026-11-03",
+      "capper": "Empire",
+      "league": "NHL",
+      "pick": "Edmonton Oilers vs New Jersey Devils Under 6.5",
+      "odds_american": -125.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.6134,
+      "added_at": "2026-11-05 03:43:43.658513",
+      "result": "LOSS"
+    },
+    {
+      "id": "1917975",
+      "pick_date": "2026-11-04",
+      "capper": "Prosportspicks",
+      "league": "NBA",
+      "pick": "Atlanta Hawks ML vs Washington Wizards",
+      "odds_american": -125.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5583,
+      "added_at": "2026-11-05 03:43:43.658554",
+      "result": "PENDING"
+    },
+    {
+      "id": "1917689",
+      "pick_date": "2026-11-04",
+      "capper": "Empire",
+      "league": "NCAAF",
+      "pick": "Central Michigan +1.5 vs Eastern Michigan Eagles",
+      "odds_american": -115.0,
+      "prob": 0.4776,
+      "shrunk_acc_lt": 0.6066,
+      "added_at": "2026-11-05 03:43:43.658592",
+      "result": "PENDING"
+    },
+    {
+      "id": "1917691",
+      "pick_date": "2026-11-04",
+      "capper": "Empire",
+      "league": "NBA",
+      "pick": "Minnesota Timberwolves vs Houston Rockets Under 220.5",
+      "odds_american": 100.0,
+      "prob": 0.379,
+      "shrunk_acc_lt": 0.6066,
+      "added_at": "2026-11-05 03:43:43.658634",
+      "result": "PENDING"
     }
   ]
 }
