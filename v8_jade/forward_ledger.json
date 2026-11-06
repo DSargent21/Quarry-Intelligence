@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-05 03:43:43.660650",
+  "updated_at": "2026-11-06 03:41:35.749028",
   "summary": {
-    "graded": 174,
-    "pending": 34,
+    "graded": 179,
+    "pending": 32,
     "pushes": 2,
-    "profit": -2.85,
-    "roi": -0.0164,
-    "adj_roi": -0.0213,
+    "profit": -4.07,
+    "roi": -0.0227,
+    "adj_roi": -0.0267,
     "grade": "C"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -2519,7 +2519,7 @@
       "prob": 0.4776,
       "shrunk_acc_lt": 0.6066,
       "added_at": "2026-11-05 03:43:43.658592",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1917691",
@@ -2531,7 +2531,43 @@
       "prob": 0.379,
       "shrunk_acc_lt": 0.6066,
       "added_at": "2026-11-05 03:43:43.658634",
-      "result": "PENDING"
+      "result": "LOSS"
+    },
+    {
+      "id": "1916889",
+      "pick_date": "2026-11-02",
+      "capper": "Iolpropking",
+      "league": "OTHER",
+      "pick": "Falcons -2.5 Rounds vs NAVI",
+      "odds_american": -122.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.6486,
+      "added_at": "2026-11-06 03:41:35.746302",
+      "result": "LOSS"
+    },
+    {
+      "id": "1918191",
+      "pick_date": "2026-11-04",
+      "capper": "Prosportspicks",
+      "league": "NCAAB",
+      "pick": "Queens +6.5 vs Loyola Marymount Lions",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5647,
+      "added_at": "2026-11-06 03:41:35.746433",
+      "result": "WIN"
+    },
+    {
+      "id": "1918112",
+      "pick_date": "2026-11-04",
+      "capper": "Timely Conclusion532",
+      "league": "NBA",
+      "pick": "Detroit Pistons -1.5 vs Philadelphia 76ers",
+      "odds_american": -120.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5816,
+      "added_at": "2026-11-06 03:41:35.746516",
+      "result": "LOSS"
     }
   ]
 }
