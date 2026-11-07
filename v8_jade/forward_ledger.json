@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-06 03:41:35.749028",
+  "updated_at": "2026-11-07 03:09:35.105342",
   "summary": {
-    "graded": 179,
-    "pending": 32,
-    "pushes": 2,
-    "profit": -4.07,
-    "roi": -0.0227,
-    "adj_roi": -0.0267,
-    "grade": "C"
+    "graded": 186,
+    "pending": 31,
+    "pushes": 4,
+    "profit": -7.31,
+    "roi": -0.0393,
+    "adj_roi": -0.0408,
+    "grade": "D"
   },
   "picks": [
     {
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -2568,6 +2568,102 @@
       "shrunk_acc_lt": 0.5816,
       "added_at": "2026-11-06 03:41:35.746516",
       "result": "LOSS"
+    },
+    {
+      "id": "1916736",
+      "pick_date": "2026-11-02",
+      "capper": "Exclusive Play",
+      "league": "NBA",
+      "pick": "Orlando Magic ML vs Washington Wizards",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5541,
+      "added_at": "2026-11-07 03:09:35.102286",
+      "result": "LOSS"
+    },
+    {
+      "id": "1917072",
+      "pick_date": "2026-11-02",
+      "capper": "Jack Jones",
+      "league": "NFL",
+      "pick": "Chicago Bears vs Seattle Seahawks Over 46.5",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5523,
+      "added_at": "2026-11-07 03:09:35.102382",
+      "result": "WIN"
+    },
+    {
+      "id": "1917498",
+      "pick_date": "2026-11-02",
+      "capper": "Ben Burns",
+      "league": "NFL",
+      "pick": "1H Chicago Bears vs Seattle Seahawks Total Under 23.5",
+      "odds_american": -118.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.6009,
+      "added_at": "2026-11-07 03:09:35.102450",
+      "result": "WIN"
+    },
+    {
+      "id": "1918616",
+      "pick_date": "2026-11-05",
+      "capper": "Cashitbaby",
+      "league": "NHL",
+      "pick": "Dallas Stars ML vs Columbus Blue Jackets",
+      "odds_american": -120.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5678,
+      "added_at": "2026-11-07 03:09:35.102735",
+      "result": "LOSS"
+    },
+    {
+      "id": "1918684",
+      "pick_date": "2026-11-05",
+      "capper": "Vinny",
+      "league": "NFL",
+      "pick": "Baltimore Ravens +10.5 vs Cincinnati Bengals",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.555,
+      "added_at": "2026-11-07 03:09:35.102797",
+      "result": "LOSS"
+    },
+    {
+      "id": "1918759",
+      "pick_date": "2026-11-05",
+      "capper": "Cashitbaby",
+      "league": "NCAAB",
+      "pick": "Toledo +26.5 vs Duke",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5678,
+      "added_at": "2026-11-07 03:09:35.102857",
+      "result": "LOSS"
+    },
+    {
+      "id": "1918614",
+      "pick_date": "2026-11-05",
+      "capper": "Cashitbaby",
+      "league": "NCAAB",
+      "pick": "Toledo +26.5 vs Michigan State Spartans",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5678,
+      "added_at": "2026-11-07 03:09:35.102916",
+      "result": "LOSS"
+    },
+    {
+      "id": "1918615",
+      "pick_date": "2026-11-05",
+      "capper": "Cashitbaby",
+      "league": "NCAAB",
+      "pick": "Hofstra +2.5",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5678,
+      "added_at": "2026-11-07 03:09:35.102977",
+      "result": "PENDING"
     }
   ]
 }
