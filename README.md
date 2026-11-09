@@ -11,6 +11,9 @@
   <a href="https://dsargent21.github.io/Quarry-Intelligence/ledger/">
     <img src="https://img.shields.io/badge/SERIES%208%20JADE-DAY%201%20LIVE-43A37C?style=for-the-badge" alt="Series 8 Jade Ledger" />
   </a>
+  <a href="https://dsargent21.github.io/Quarry-Intelligence/web/citrine.html">
+    <img src="https://img.shields.io/badge/SERIES%209%20CITRINE-BACKTEST-F2C94C?style=for-the-badge" alt="Series 9 Citrine" />
+  </a>
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
     <img src="https://img.shields.io/badge/SERIES%206%20NET--20.6u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
@@ -40,7 +43,8 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[SERIES 8: JADE](https://dsargent21.github.io/Quarry-Intelligence/ledger/)** | `SEP 22, 2026` | `SCORE-OPTIMIZED` <br> The Quarry Ledger | 🟢 **FORWARD TEST** | Very Low (&le;5/day) | **235** | **-4.2%** |
-| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Low (policy &le;6/day) | **10** | **-100.0%** |
+| **[SERIES 9: CITRINE](https://dsargent21.github.io/Quarry-Intelligence/web/citrine.html)** | `SEP 2026` | `SKILL + ML BLEND` <br> Higher-volume candidate | 🟡 **BACKTEST** | Medium (8/day) | **1126 OOS** | **+5.9% adj** |
+| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Medium (policy &le;6/day) | **340** | **+7.2%** |
 | **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~63 bets/day) | **8296** | **-0.8%** |
 | **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~44 bets/day) | **5946** | **-0.6%** |
 | **[SERIES 4: QUARTZ](https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~5 bets/day) | **982** | **+1.9%** |

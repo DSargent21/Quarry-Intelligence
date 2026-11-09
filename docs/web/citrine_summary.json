@@ -1,0 +1,21 @@
+{
+  "series": "v9-citrine",
+  "updated_at": "2026-09-23 17:21",
+  "oos": {
+    "window": "2026-04-01_to_2026-09-22",
+    "policy": "skill_gate+blend_top8_day",
+    "n": 1126,
+    "win_rate": 0.560,
+    "roi_adj": 0.0592,
+    "profit_u": 70.0,
+    "t": 2.21,
+    "ci90": [0.0148, 0.1038]
+  },
+  "forward": {
+    "graded": 0,
+    "pending": 0,
+    "profit_u": 0.0,
+    "roi_adj": null
+  },
+  "leakage": "3-day result lag, held-out early stop, pre-fold calibration"
+}

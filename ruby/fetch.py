@@ -105,10 +105,10 @@ def load_data(use_cache=True, cache_path="data/picks.parquet", max_age_hours=12)
         columns={"source_platform": "src_platform", "id": "src_key"}),
         left_on="source_id", right_on="src_key", how="left", suffixes=("", "_src"))
 
-    # Discord = no site URL, or regraded rows whose URL was rewritten by the
-    # regrade pipeline (they still originate from the Discord scraper).
-    df["is_discord"] = (df["source_url"].isna() |
-                        df["source_url"].astype(str).str.startswith("regraded_mach:")).astype(int)
+    # Discord = everything EXCEPT the four site sources.
+    _site = df["source_url"].fillna("").astype(str).str.contains(
+        "winners|wagertalk|sportsline|sportscapping", case=False, na=False)
+    df["is_discord"] = (~_site).astype(int)
 
     # Merge raw text: prefer picks.raw_text, fall back to pick_sources.original_message / ocr_text
     text = df["raw_text"].fillna("")

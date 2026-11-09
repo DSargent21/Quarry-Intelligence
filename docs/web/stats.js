@@ -651,7 +651,7 @@ window.QUARRY_STATS = {
             }
         },
         "v6": {
-            "roi": 0.0,
+            "roi": -100.0,
             "net": 0.0,
             "wins": 0,
             "losses": 0,
