@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-08 02:43:55.532176",
+  "updated_at": "2026-11-09 02:59:12.627417",
   "summary": {
-    "graded": 190,
-    "pending": 40,
-    "pushes": 2,
-    "profit": -5.59,
-    "roi": -0.0294,
-    "adj_roi": -0.0322,
+    "graded": 194,
+    "pending": 41,
+    "pushes": 4,
+    "profit": -7.79,
+    "roi": -0.0401,
+    "adj_roi": -0.0415,
     "grade": "D"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -2759,7 +2759,7 @@
       "prob": 0.5594,
       "shrunk_acc_lt": 0.5731,
       "added_at": "2026-11-08 02:43:55.529716",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1919895",
@@ -2795,6 +2795,90 @@
       "prob": 0.4662,
       "shrunk_acc_lt": 0.5731,
       "added_at": "2026-11-08 02:43:55.529857",
+      "result": "LOSS"
+    },
+    {
+      "id": "1909762",
+      "pick_date": "2026-09-28",
+      "capper": "Calebpicks",
+      "league": "NFL",
+      "pick": "Philadelphia Eagles -3.5 vs Chicago Bears",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5621,
+      "added_at": "2026-11-09 02:59:12.622251",
+      "result": "LOSS"
+    },
+    {
+      "id": "1909761",
+      "pick_date": "2026-09-28",
+      "capper": "Calebpicks",
+      "league": "NFL",
+      "pick": "DeVonta Smith: Receptions Over 5.5",
+      "odds_american": -125.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5621,
+      "added_at": "2026-11-09 02:59:12.622328",
+      "result": "WIN"
+    },
+    {
+      "id": "1921192",
+      "pick_date": "2026-11-08",
+      "capper": "Calebpicks",
+      "league": "NCAAB",
+      "pick": "South Carolina -16.5 vs Clemson",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5571,
+      "added_at": "2026-11-09 02:59:12.625248",
+      "result": "PENDING"
+    },
+    {
+      "id": "1921104",
+      "pick_date": "2026-11-08",
+      "capper": "Calebpicks",
+      "league": "NCAAB",
+      "pick": "South Carolina -16.5 vs Presbyterian",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5571,
+      "added_at": "2026-11-09 02:59:12.625300",
+      "result": "PENDING"
+    },
+    {
+      "id": "1921106",
+      "pick_date": "2026-11-08",
+      "capper": "Calebpicks",
+      "league": "NFL",
+      "pick": "Ja'Marr Chase: Anytime TD",
+      "odds_american": -110.0,
+      "prob": 0.5472,
+      "shrunk_acc_lt": 0.5571,
+      "added_at": "2026-11-09 02:59:12.625340",
+      "result": "PENDING"
+    },
+    {
+      "id": "1921559",
+      "pick_date": "2026-11-08",
+      "capper": "Five",
+      "league": "NCAAB",
+      "pick": "Nevada ML vs UNLV",
+      "odds_american": -125.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5744,
+      "added_at": "2026-11-09 02:59:12.625377",
+      "result": "PENDING"
+    },
+    {
+      "id": "1921204",
+      "pick_date": "2026-11-08",
+      "capper": "Bulliespicks",
+      "league": "NCAAF",
+      "pick": "Houston Texans -19.5 vs California Golden Bears",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5556,
+      "added_at": "2026-11-09 02:59:12.625413",
       "result": "PENDING"
     }
   ]
