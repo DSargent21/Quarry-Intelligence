@@ -114,10 +114,9 @@ def update_row(text: str, marker: str, bets: str, roi: str) -> str:
     )
     m = pat.search(text)
     if not m:
-        raise fail(
-            f"README row for SERIES {marker} not found or table format changed — "
-            "update update_readme_metrics.py to match the new layout"
-        )
+        # Never block the daily pipeline on a README layout drift; warn loudly.
+        print(f"::warning::update_readme_metrics: README row SERIES {marker} not found — left unchanged")
+        return text
     if m.group(2) == bets and m.group(4) == roi:
         return text
     return text[: m.start(2)] + bets + text[m.end(2) : m.start(4)] + roi + text[m.end(4) :]
