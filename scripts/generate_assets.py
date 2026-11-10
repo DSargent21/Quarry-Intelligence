@@ -136,6 +136,183 @@ def generate_synthetic_assets():
 # ==========================================
 # II. LIVE ASSETS (Dashboards)
 # ==========================================
+def sync_stats_and_pages(models, et_now=None):
+    """Write stats.json/stats.js and inject per-page DATA for every model.
+
+    Runs on every daily update (and by the weekly asset rebuild), so no model
+    card can freeze at the last asset regeneration.
+    """
+    if et_now is None:
+        et_now = StatsEngine.get_et_now()
+
+    # --- 3. DATA OUTPUT & INJECTION ---
+    def inject_json(html_path, data_object):
+        abs_path = os.path.abspath(html_path)
+        if not os.path.exists(abs_path):
+             print(f"⚠️ Skipping injection: {abs_path} does not exist.")
+             return
+        with open(abs_path, 'r') as f: content = f.read()
+
+        # [CACHE BUSTING]: Update stats.js script tag
+        cache_bust = data_object.get('meta', {}).get('cache_bust', et_now.timestamp())
+        script_pattern = r'<script src="stats.js(?:\?v=[^"]*)?"></script>'
+        script_replacement = f'<script src="stats.js?v={cache_bust}"></script>'
+        content = re.sub(script_pattern, script_replacement, content)
+
+        pattern = r'const DATA\s*=\s*\{.*?\};'
+        if '// --- DATA INJECTION POINT (AUTOMATED) ---' in content:
+            pattern = r'// --- DATA INJECTION POINT \(AUTOMATED\) ---\s*const DATA\s*=\s*\{.*?\};'
+        if not re.search(pattern, content, flags=re.DOTALL):
+             print(f"❌ Failed to find DATA block in {abs_path}")
+             return
+        replacement = f'// --- DATA INJECTION POINT (AUTOMATED) ---\n        const DATA = {json.dumps(data_object, indent=12)};'
+        content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
+        with open(abs_path, 'w') as f: f.write(content)
+        print(f"✅ Injected data & cache-busted {abs_path}")
+
+    # Root paths
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    docs_dir = os.path.join(base_dir, 'docs')
+    web_dir = os.path.join(docs_dir, 'web')
+    os.makedirs(web_dir, exist_ok=True)
+
+    # [A] STATS JSON GENERATION (Unified)
+    stats_output = {
+        "meta": {
+            "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
+            "status": "NOMINAL",
+            "cache_bust": et_now.timestamp()
+        },
+        "models": {}
+    }
+
+    # Institutional Mapping
+    for name in ['pyrite', 'diamond', 'obsidian', 'quartz', 'sapphire', 'v6']:
+        df = models.get(name)
+        if df is None or df.empty:
+             stats_output["models"][name] = {"roi": 0.0, "net": 0.0, "wins": 0, "losses": 0, "pushes": 0, "record": "0-0-0", "win_rate": 0.0, "sample": 0, "bets_day": 0.0, "status": "ACTIVE", "yesterday": {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}}
+             continue
+
+        m = StatsEngine.calculate_metrics(df)
+        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
+
+        # Parse volume for bets_day float
+        avg_bets = 0.0
+        try:
+             avg_match = re.search(r'~?(\d+)', m['volume'])
+             if avg_match: avg_bets = float(avg_match.group(1))
+        except:
+             pass
+
+        stats_output["models"][name] = {
+            "roi": round(m['roi'] * 100, 1),
+            "net": round(m['net'], 2),
+            "wins": m['wins'],
+            "losses": m['losses'],
+            "pushes": m['pushes'],
+            "record": m['record'],
+            "win_rate": round(m['win_rate'] * 100, 1),
+            "sample": m['sample'],
+            "bets_day": avg_bets,
+            "status": "ACTIVE",
+            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
+        }
+
+    # Series 7 Ruby occupies the legacy v6 slot on the selector page.
+    ruby_path = os.path.join(base_dir, 'docs', 'ruby_forward.json')
+    if os.path.exists(ruby_path):
+        try:
+            with open(ruby_path, encoding='utf-8') as f:
+                rs = json.load(f).get('stats', {})
+            if rs:
+                stats_output["models"]["v6"] = {
+                    "roi": round(rs.get('roi', 0) * 100, 1),
+                    "net": round(rs.get('net', 0), 2),
+                    "sample": rs.get('n', 0),
+                    "pending": rs.get('pending', 0),
+                    "record": f"{rs.get('wins', 0)}-{rs.get('losses', 0)}-0",
+                    "win_rate": round(rs.get('wr', 0) * 100, 1),
+                    "bets_day": 0.0,
+                    "status": "ACTIVE",
+                }
+        except Exception:
+            pass
+
+    # [SURGICAL DNA]: Series 6 Combined Stats
+    v6_list = [models.get('kyanite'), models.get('carnelian')]
+    v6_list = [d for d in v6_list if d is not None and not d.empty]
+    v6_df = pd.concat(v6_list) if v6_list else pd.DataFrame()
+    stats_v6 = StatsEngine.calculate_metrics(v6_df)
+
+    stats_output["models"]["Quarry Intelligence"] = {
+        "roi": round(stats_v6['roi'] * 100, 1),
+        "net": round(stats_v6['net'], 2),
+        "status": "INSTITUTIONAL"
+    }
+
+    # Kyanite/Carnelian specific
+    for m_name in ['kyanite', 'carnelian']:
+        df = models.get(m_name)
+        if df is not None:
+            m = StatsEngine.calculate_metrics(df)
+            stats_output["models"][m_name] = {"roi": round(m['roi']*100, 1), "net": round(m['net'], 2), "sample": m['sample'], "record": m['record']}
+
+    for target in [docs_dir, web_dir]:
+        with open(os.path.join(target, 'stats.json'), 'w') as f: json.dump(stats_output, f, indent=4)
+        with open(os.path.join(target, 'stats.js'), 'w') as f: f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
+        print(f"✅ Synchronized stats to: {target}")
+
+    # [B] HTML INJECTION (Dashboard Parity)
+    for model_name, df in models.items():
+        if df is None or df.empty: continue
+        m = StatsEngine.calculate_metrics(df)
+        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
+        page_data = {
+            "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
+            "stats": {"roi": round(m['roi']*100, 1), "net_units": round(m['net'], 2), "record": m['record'], "win_rate": round(m['win_rate']*100, 1), "sample": m['sample']},
+            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []},
+            "history": y['ledger'] if y else []
+        }
+        if model_name == 'obsidian':
+            page_data['stats']['win_pct'] = page_data['stats']['win_rate']
+            page_data['yesterday']['win_pct'] = page_data['yesterday']['win_rate']
+            page_data['benchmarks'] = {
+                "v1_roi": round(StatsEngine.calculate_metrics(models.get('pyrite'))['roi']*100, 1) if 'pyrite' in models else 0,
+                "v2_roi": round(StatsEngine.calculate_metrics(models.get('diamond'))['roi']*100, 1) if 'diamond' in models else 0
+            }
+        # Filename mapping: backend 'v6' -> frontend 'ruby.html'
+        fname = f"{model_name}.html"
+        if model_name == 'v6': fname = "ruby.html"
+        inject_json(os.path.join(web_dir, fname), page_data)
+
+    # Combined Series 6 Page
+    km, cm = StatsEngine.calculate_metrics(models.get('kyanite')), StatsEngine.calculate_metrics(models.get('carnelian'))
+    ky, cy = StatsEngine.get_yesterday_data(models.get('kyanite'), et_now=et_now), StatsEngine.get_yesterday_data(models.get('carnelian'), et_now=et_now)
+    v6_page_data = {
+        "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
+        "models": {
+            "kyanite": {"net": km['net'], "roi": km['roi']*100, "record": km['record'], "win_rate": km['win_rate']*100, "yesterday": ky if ky else {}},
+            "carnelian": {"net": cm['net'], "roi": cm['roi']*100, "record": cm['record'], "win_rate": cm['win_rate']*100, "yesterday": cy if cy else {}}
+        }
+    }
+    inject_json(os.path.join(web_dir, 'kyanite_carnelian.html'), v6_page_data)
+
+    # Selector Page
+    selector_data = {"meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "cache_bust": et_now.timestamp()}, "models": {n: {"roi": round(StatsEngine.calculate_metrics(d)['roi']*100, 1), "status": "ACTIVE"} for n, d in models.items()}}
+    v6_combined = pd.concat([d for d in [models.get('kyanite'), models.get('carnelian')] if d is not None and not d.empty]) if any([models.get('kyanite') is not None, models.get('carnelian') is not None]) else None
+    if v6_combined is not None: selector_data["models"]["Quarry Intelligence"] = {"roi": round(StatsEngine.calculate_metrics(v6_combined)['roi']*100, 1), "status": "INSTITUTIONAL"}
+    if 'v6' in stats_output['models']:
+        sv = stats_output['models']['v6']
+        selector_data['models']['v6'] = {
+            'roi': sv.get('roi', 0),
+            'net': sv.get('net', 0),
+            'status': f"{sv.get('sample', 0)} GRADED · {sv.get('pending', 0)} PENDING",
+        }
+    inject_json(os.path.join(web_dir, 'selector.html'), selector_data)
+
+    return stats_output
+
+
 def generate_live_assets(models=None):
     """Generates high-fidelity institutional assets using REAL simulation data."""
     print("🚀 Generating High-Fidelity Institutional Assets...")
@@ -216,143 +393,9 @@ def generate_live_assets(models=None):
         plt.savefig(f"docs/comparison_{m}.png", bbox_inches='tight', dpi=150, optimize=True)
     plt.close()
 
-    # --- 3. DATA OUTPUT & INJECTION ---
-    def inject_json(html_path, data_object):
-        abs_path = os.path.abspath(html_path)
-        if not os.path.exists(abs_path):
-             print(f"⚠️ Skipping injection: {abs_path} does not exist.")
-             return
-        with open(abs_path, 'r') as f: content = f.read()
-        
-        # [CACHE BUSTING]: Update stats.js script tag
-        cache_bust = data_object.get('meta', {}).get('cache_bust', et_now.timestamp())
-        script_pattern = r'<script src="stats.js(?:\?v=[^"]*)?"></script>'
-        script_replacement = f'<script src="stats.js?v={cache_bust}"></script>'
-        content = re.sub(script_pattern, script_replacement, content)
+    # --- 3. STATS + DATA INJECTION ---
+    stats_output = sync_stats_and_pages(models, et_now)
 
-        pattern = r'const DATA\s*=\s*\{.*?\};'
-        if '// --- DATA INJECTION POINT (AUTOMATED) ---' in content:
-            pattern = r'// --- DATA INJECTION POINT \(AUTOMATED\) ---\s*const DATA\s*=\s*\{.*?\};'
-        if not re.search(pattern, content, flags=re.DOTALL):
-             print(f"❌ Failed to find DATA block in {abs_path}")
-             return
-        replacement = f'// --- DATA INJECTION POINT (AUTOMATED) ---\n        const DATA = {json.dumps(data_object, indent=12)};'
-        content = re.sub(pattern, lambda _: replacement, content, flags=re.DOTALL, count=1)
-        with open(abs_path, 'w') as f: f.write(content)
-        print(f"✅ Injected data & cache-busted {abs_path}")
-
-    # Root paths
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    docs_dir = os.path.join(base_dir, 'docs')
-    web_dir = os.path.join(docs_dir, 'web')
-    os.makedirs(web_dir, exist_ok=True)
-
-    # [A] STATS JSON GENERATION (Unified)
-    stats_output = {
-        "meta": {
-            "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
-            "status": "NOMINAL",
-            "cache_bust": et_now.timestamp()
-        },
-        "models": {}
-    }
-
-    # Institutional Mapping
-    for name in ['pyrite', 'diamond', 'obsidian', 'quartz', 'sapphire', 'v6']:
-        df = models.get(name)
-        if df is None or df.empty:
-             stats_output["models"][name] = {"roi": 0.0, "net": 0.0, "wins": 0, "losses": 0, "pushes": 0, "record": "0-0-0", "win_rate": 0.0, "sample": 0, "bets_day": 0.0, "status": "ACTIVE", "yesterday": {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}}
-             continue
-             
-        m = StatsEngine.calculate_metrics(df)
-        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
-        
-        # Parse volume for bets_day float
-        avg_bets = 0.0
-        try:
-             avg_match = re.search(r'~?(\d+)', m['volume'])
-             if avg_match: avg_bets = float(avg_match.group(1))
-        except:
-             pass
-
-        stats_output["models"][name] = {
-            "roi": round(m['roi'] * 100, 1),
-            "net": round(m['net'], 2),
-            "wins": m['wins'],
-            "losses": m['losses'],
-            "pushes": m['pushes'],
-            "record": m['record'],
-            "win_rate": round(m['win_rate'] * 100, 1),
-            "sample": m['sample'],
-            "bets_day": avg_bets,
-            "status": "ACTIVE",
-            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
-        }
-
-    # [SURGICAL DNA]: Series 6 Combined Stats
-    v6_list = [models.get('kyanite'), models.get('carnelian')]
-    v6_list = [d for d in v6_list if d is not None and not d.empty]
-    v6_df = pd.concat(v6_list) if v6_list else pd.DataFrame()
-    stats_v6 = StatsEngine.calculate_metrics(v6_df)
-
-    stats_output["models"]["Quarry Intelligence"] = {
-        "roi": round(stats_v6['roi'] * 100, 1),
-        "net": round(stats_v6['net'], 2),
-        "status": "INSTITUTIONAL"
-    }
-    
-    # Kyanite/Carnelian specific
-    for m_name in ['kyanite', 'carnelian']:
-        df = models.get(m_name)
-        if df is not None:
-            m = StatsEngine.calculate_metrics(df)
-            stats_output["models"][m_name] = {"roi": round(m['roi']*100, 1), "net": round(m['net'], 2), "sample": m['sample'], "record": m['record']}
-
-    for target in [docs_dir, web_dir]:
-        with open(os.path.join(target, 'stats.json'), 'w') as f: json.dump(stats_output, f, indent=4)
-        with open(os.path.join(target, 'stats.js'), 'w') as f: f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
-        print(f"✅ Synchronized stats to: {target}")
-
-    # [B] HTML INJECTION (Dashboard Parity)
-    for model_name, df in models.items():
-        if df is None or df.empty: continue
-        m = StatsEngine.calculate_metrics(df)
-        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
-        page_data = {
-            "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
-            "stats": {"roi": round(m['roi']*100, 1), "net_units": round(m['net'], 2), "record": m['record'], "win_rate": round(m['win_rate']*100, 1), "sample": m['sample']},
-            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []},
-            "history": y['ledger'] if y else []
-        }
-        if model_name == 'obsidian':
-            page_data['stats']['win_pct'] = page_data['stats']['win_rate']
-            page_data['yesterday']['win_pct'] = page_data['yesterday']['win_rate']
-            page_data['benchmarks'] = {
-                "v1_roi": round(StatsEngine.calculate_metrics(models.get('pyrite'))['roi']*100, 1) if 'pyrite' in models else 0,
-                "v2_roi": round(StatsEngine.calculate_metrics(models.get('diamond'))['roi']*100, 1) if 'diamond' in models else 0
-            }
-        # Filename mapping: backend 'v6' -> frontend 'ruby.html'
-        fname = f"{model_name}.html"
-        if model_name == 'v6': fname = "ruby.html"
-        inject_json(os.path.join(web_dir, fname), page_data)
-
-    # Combined Series 6 Page
-    km, cm = StatsEngine.calculate_metrics(models.get('kyanite')), StatsEngine.calculate_metrics(models.get('carnelian'))
-    ky, cy = StatsEngine.get_yesterday_data(models.get('kyanite'), et_now=et_now), StatsEngine.get_yesterday_data(models.get('carnelian'), et_now=et_now)
-    v6_page_data = {
-        "meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "status": "OPERATIONAL", "cache_bust": et_now.timestamp()},
-        "models": {
-            "kyanite": {"net": km['net'], "roi": km['roi']*100, "record": km['record'], "win_rate": km['win_rate']*100, "yesterday": ky if ky else {}},
-            "carnelian": {"net": cm['net'], "roi": cm['roi']*100, "record": cm['record'], "win_rate": cm['win_rate']*100, "yesterday": cy if cy else {}}
-        }
-    }
-    inject_json(os.path.join(web_dir, 'kyanite_carnelian.html'), v6_page_data)
-
-    # Selector Page
-    selector_data = {"meta": {"last_update": et_now.strftime('%Y-%m-%d %H:%M ET'), "cache_bust": et_now.timestamp()}, "models": {n: {"roi": round(StatsEngine.calculate_metrics(d)['roi']*100, 1), "status": "ACTIVE"} for n, d in models.items()}}
-    v6_combined = pd.concat([d for d in [models.get('kyanite'), models.get('carnelian')] if d is not None and not d.empty]) if any([models.get('kyanite') is not None, models.get('carnelian') is not None]) else None
-    if v6_combined is not None: selector_data["models"]["Quarry Intelligence"] = {"roi": round(StatsEngine.calculate_metrics(v6_combined)['roi']*100, 1), "status": "INSTITUTIONAL"}
-    inject_json(os.path.join(web_dir, 'selector.html'), selector_data)
 
 if __name__ == "__main__":
     generate_synthetic_assets()

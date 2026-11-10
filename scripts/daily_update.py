@@ -337,85 +337,19 @@ def run_daily_update():
             logger.error(f"    ❌ {name.upper()} Simulation Failed: {e}")
             models[name] = pd.DataFrame()
     
-    # --- CALCULATE AGGREGATED STATS ---
-    # [SURGICAL DNA]: Combined Series 6 Stats
-    v6_list = [models.get('kyanite'), models.get('carnelian')]
-    v6_list = [d for d in v6_list if d is not None and not d.empty]
-    v6_df = pd.concat(v6_list) if v6_list else pd.DataFrame()
-    stats_v6 = StatsEngine.calculate_metrics(v6_df)
-
-    # 3. Generate Stats for JSON/JS
-    # [A] STATS JSON GENERATION (Unified)
-    stats_output = {
-        "meta": {
-            "last_update": et_now.strftime('%Y-%m-%d %H:%M ET'),
-            "status": "NOMINAL",
-            "cache_bust": et_now.timestamp()
-        },
-        "models": {}
-    }
-
-    # Standard Models
-    for name in ['pyrite', 'diamond', 'obsidian', 'quartz', 'sapphire', 'v6']:
-        df = models.get(name)
-        if df is None or df.empty:
-             stats_output["models"][name] = {"roi": 0.0, "net": 0.0, "wins": 0, "losses": 0, "pushes": 0, "record": "0-0-0", "win_rate": 0.0, "sample": 0, "bets_day": 0.0, "status": "ACTIVE", "yesterday": {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}}
-             continue
-
-        m = StatsEngine.calculate_metrics(df)
-        y = StatsEngine.get_yesterday_data(df, et_now=et_now)
-        
-        # Parse volume for bets_day float
-        avg_bets = 0.0
-        try:
-             import re
-             avg_match = re.search(r'~?(\d+)', m['volume'])
-             if avg_match: avg_bets = float(avg_match.group(1))
-        except:
-             pass
-
-        stats_output["models"][name] = {
-            "roi": round(m['roi'] * 100, 1),
-            "net": round(m['net'], 2),
-            "wins": m['wins'],
-            "losses": m['losses'],
-            "pushes": m['pushes'],
-            "record": m['record'],
-            "win_rate": round(m['win_rate'] * 100, 1),
-            "sample": m['sample'],
-            "bets_day": avg_bets,
-            "status": "ACTIVE",
-            "yesterday": y if y else {"date": "N/A", "record": "0-0-0", "win_rate": 0, "net": 0, "roi": 0, "ledger": []}
-        }
-
-    # [SURGICAL DNA]: Institutional Mapping for 'Quarry Intelligence' (Zenith)
-    stats_output["models"]["Quarry Intelligence"] = {
-        "roi": round(stats_v6['roi'] * 100, 1),
-        "net": round(stats_v6['net'], 2),
-        "status": "INSTITUTIONAL"
-    }
-    # Add explicit kyanite/clv/carnelian for pages
-    for m_name in ['kyanite', 'carnelian']:
-        df = models.get(m_name)
-        if df is not None:
-            m = StatsEngine.calculate_metrics(df)
-            stats_output["models"][m_name] = {"roi": round(m['roi']*100, 1), "net": round(m['net'], 2), "sample": m['sample'], "record": m['record']}
-
     # 4. Save Cache (Machine-Readable Summary)
     docs_dir = os.path.abspath(os.path.join(BASE_DIR, 'docs'))
     os.makedirs(docs_dir, exist_ok=True)
 
-    # [DAILY STATS]: stats.json/stats.js refresh every run. They used to be
-    # written only by generate_live_assets (weekly), so every legacy model card
-    # froze at the last Monday asset rebuild.
-    web_dir = os.path.abspath(os.path.join(docs_dir, 'web'))
-    os.makedirs(web_dir, exist_ok=True)
-    for target in (docs_dir, web_dir):
-        with open(os.path.join(target, 'stats.json'), 'w', encoding='utf-8') as f:
-            json.dump(stats_output, f, indent=4)
-        with open(os.path.join(target, 'stats.js'), 'w', encoding='utf-8') as f:
-            f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
-    logger.info(f"📊 stats.json/stats.js refreshed ({len(stats_output['models'])} models)")
+    # [DAILY STATS]: stats.json/stats.js + per-page DATA refresh every run.
+    # Previously only generate_live_assets (weekly) wrote them, so legacy model
+    # cards froze at the last Monday asset rebuild.
+    try:
+        from scripts.generate_assets import sync_stats_and_pages
+        sync_stats_and_pages(models, et_now=et_now)
+        logger.info("📊 stats.json/stats.js + page DATA refreshed for all models")
+    except Exception as e:
+        logger.error(f"❌ Stats sync failed: {e}")
     
     # [BILLION DOLLAR OPTIMIZATION]: Cache results
     cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
