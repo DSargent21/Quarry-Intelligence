@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-10 00:30 ET",
+    "last_update": "2026-11-10 01:00 ET",
     "status": "NOMINAL",
-    "cache_bust": 1762738600.0
+    "cache_bust": 1794272242.905
   },
   "models": {
     "pyrite": {
@@ -651,14 +651,14 @@
       }
     },
     "v6": {
-      "roi": 18.4,
-      "net": 53.75,
-      "wins": 181,
-      "losses": 111,
+      "roi": 5.5,
+      "net": 13.68,
+      "wins": 138,
+      "losses": 112,
       "pushes": 0,
-      "record": "181-111-0",
-      "win_rate": 0.6199,
-      "sample": 292,
+      "record": "138-112-0",
+      "win_rate": 0.552,
+      "sample": 250,
       "bets_day": 0.0,
       "status": "FORWARD",
       "yesterday": {
@@ -669,7 +669,7 @@
         "roi": 0,
         "ledger": []
       },
-      "pending": 135
+      "pending": 88
     },
     "Quarry Intelligence": {
       "roi": 1.0,

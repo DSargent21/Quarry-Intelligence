@@ -141,6 +141,21 @@ def main():
 
     sel = select(future)
 
+    # Append-only ledger: a published slate is final. Selections are re-derived
+    # every run from refreshed data, so a corrected price or a re-graded result
+    # can reorder a past day and silently drop a pick that was already published.
+    # Every pick already on the ledger stays; new picks are only added to dates
+    # after the last published slate.
+    prev_rows = []
+    if os.path.exists(DATA_JSON):
+        try:
+            prev_rows = json.load(open(DATA_JSON)).get("ledger", []) or []
+        except Exception:
+            prev_rows = []
+    if prev_rows:
+        last_locked = max(r["date"] for r in prev_rows)
+        sel = sel[pd.to_datetime(sel["pick_date"]) > pd.Timestamp(last_locked)]
+
     # ledger
     rows = []
     for _, r in sel.iterrows():
@@ -161,27 +176,55 @@ def main():
         })
     rows.sort(key=lambda x: x["date"], reverse=True)
 
-    # stats on graded selections
-    g = sel[sel["outcome"].isin([1.0, 0.0])]
-    n = len(g)
-    wins = int((g["outcome"] == 1).sum())
+    # Merge the previously published ledger back in. Their result is refreshed
+    # from live data, but a graded WIN/LOSS is never downgraded to pending (the
+    # platform's regrade pipeline can transiently clear a result).
+    if prev_rows:
+        merged = {r["id"]: r for r in prev_rows}
+        for r in rows:
+            merged[r["id"]] = r
+        fresh = df.set_index(df["id"].astype(str))
+        rows = []
+        for pid, r in merged.items():
+            if pid in fresh.index:
+                fr = fresh.loc[pid]
+                if isinstance(fr, pd.DataFrame):
+                    fr = fr.iloc[-1]
+                st = status_of(fr)
+                if r.get("status") in ("WIN", "LOSS") and st not in ("WIN", "LOSS"):
+                    st = r["status"]
+                r = {**r, "status": st,
+                     "profit": round(float(fr["profit_1u"]), 2) if st in ("WIN", "LOSS") else None}
+            rows.append(r)
+        rows.sort(key=lambda x: x["date"], reverse=True)
+
+    # stats over the published ledger (graded rows only)
+    graded_rows = [r for r in rows if r["status"] in ("WIN", "LOSS")]
+    n = len(graded_rows)
+    wins = sum(1 for r in graded_rows if r["status"] == "WIN")
     losses = n - wins
-    net = float(g["profit_1u"].sum()) if n else 0.0
-    roi = float(g["profit_1u"].mean()) if n else None
+    net = float(sum(r["profit"] or 0.0 for r in graded_rows))
+    roi = net / n if n else None
     wr = wins / n if n else None
-    tstat = (float(g["profit_1u"].mean()) / (float(g["profit_1u"].std()) / np.sqrt(n))) \
-            if n > 1 and g["profit_1u"].std() > 0 else None  # std==0 (all same outcome) => undefined
-    pending = int((sel["outcome"].isna()).sum())
+    profits = np.array([r["profit"] or 0.0 for r in graded_rows])
+    tstat = float(profits.mean() / (profits.std(ddof=1) / np.sqrt(n))) \
+        if n > 1 and profits.std(ddof=1) > 0 else None  # std==0 (all same outcome) => undefined
+    pending = sum(1 for r in rows if r["status"] == "PENDING")
     days_live = (pd.Timestamp.now() - pd.Timestamp(start)).days + 1
     by_month = []
     if n:
-        g2 = g.assign(mm=g["pick_date"].dt.to_period("M"))
-        for mm, gg in g2.groupby("mm"):
+        buckets = {}
+        for r in graded_rows:
+            buckets.setdefault(r["date"][:7], []).append(r)
+        for mm in sorted(buckets):
+            gg = buckets[mm]
+            w = sum(1 for r in gg if r["status"] == "WIN")
+            mnet = float(sum(r["profit"] or 0.0 for r in gg))
             by_month.append({
-                "month": str(mm), "n": int(len(gg)),
-                "wr": round(float(gg["outcome"].mean()), 4),
-                "roi": round(float(gg["profit_1u"].mean()), 4),
-                "net": round(float(gg["profit_1u"].sum()), 2),
+                "month": mm, "n": len(gg),
+                "wr": round(w / len(gg), 4),
+                "roi": round(mnet / len(gg), 4),
+                "net": round(mnet, 2),
             })
 
     # baselines since start (graded discord)
