@@ -248,6 +248,9 @@ class ModelSimulator:
                     'acc_7d_v3': 'acc_7d', 'roi_7d_v3': 'roi_7d', 'vol_7d_v3': 'vol_7d',
                     'acc_30d_v3': 'acc_30d', 'roi_30d_v3': 'roi_30d', 'vol_30d_v3': 'vol_30d'
                 })
+                # Aliased feature names can collide with the base ones, which turns
+                # temp[f] into a DataFrame and breaks to_numeric below.
+                temp = temp.loc[:, ~temp.columns.duplicated()]
                 # Predict with NaN safety
                 for f in feats:
                     if f in temp.columns:
