@@ -2,11 +2,11 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-10 01:28:57.230251",
+  "updated_at": "2026-11-10 04:49:31.260367",
   "summary": {
     "graded": 196,
-    "pending": 41,
-    "pushes": 4,
+    "pending": 48,
+    "pushes": 1,
     "profit": -5.97,
     "roi": -0.0305,
     "adj_roi": -0.033,
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896492",
@@ -2904,6 +2904,54 @@
       "shrunk_acc_lt": 0.5629,
       "added_at": "2026-11-10 00:15:56.530210",
       "result": "WIN"
+    },
+    {
+      "id": "1922239",
+      "pick_date": "2026-11-09",
+      "capper": "Midwestmikesports",
+      "league": "NBA",
+      "pick": "New Orleans Pelicans +9 vs Golden State Warriors",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5639,
+      "added_at": "2026-11-10 04:49:31.257820",
+      "result": "PENDING"
+    },
+    {
+      "id": "1922144",
+      "pick_date": "2026-11-09",
+      "capper": "Midwestmikesports",
+      "league": "NFL",
+      "pick": "New Orleans Saints +9 vs Atlanta Falcons",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5639,
+      "added_at": "2026-11-10 04:49:31.257906",
+      "result": "PENDING"
+    },
+    {
+      "id": "1922240",
+      "pick_date": "2026-11-09",
+      "capper": "Midwestmikesports",
+      "league": "NBA",
+      "pick": "Atlanta Hawks ML vs Los Angeles Lakers",
+      "odds_american": -125.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5639,
+      "added_at": "2026-11-10 04:49:31.257962",
+      "result": "PENDING"
+    },
+    {
+      "id": "1922145",
+      "pick_date": "2026-11-09",
+      "capper": "Midwestmikesports",
+      "league": "NFL",
+      "pick": "Atlanta Falcons vs New Orleans Saints ML",
+      "odds_american": -125.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5639,
+      "added_at": "2026-11-10 04:49:31.258012",
+      "result": "PENDING"
     }
   ]
 }
