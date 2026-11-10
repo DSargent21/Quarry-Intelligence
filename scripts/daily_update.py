@@ -258,8 +258,9 @@ graph TD
 </div>
 """
     
-    with open(os.path.join(BASE_DIR, "README.md"), "w", encoding="utf-8") as f:
-        f.write(readme_text)
+    # README.md is curated (Series IX lineup + QUARRY:LIVE block) and its numbers
+    # are refreshed by scripts/update_readme_metrics.py. Never regenerate it here:
+    # doing so wiped the markers and the whole curated page on every daily run.
         
     print("✅ System reports updated.")
 
