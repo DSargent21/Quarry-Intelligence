@@ -22,7 +22,9 @@ on:
   workflow_dispatch: {}      # manual run / catch-up (free, on demand)
 
 concurrency:
-  group: ledger-daily
+  # Shared with the Daily Pipeline workflow: both regenerate README and commit
+  # to main, so their commit/push steps must never overlap.
+  group: quarry-commit
   cancel-in-progress: false
 
 jobs:
@@ -112,14 +114,20 @@ jobs:
           else
             git commit -m "ledger: daily update $(date -u +%F) [skip ci]"
             git remote set-url origin "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git"
-            # Fast path: push directly. Deepen + rebase only if the remote moved.
-            if ! git push origin main; then
-              echo "⚠️ Non-fast-forward — integrating remote changes (shallow, depth 100)..."
+            # Push with up to 3 attempts. On a raced commit, rebase onto the
+            # remote favouring OUR side for conflicts (-X theirs): the ledger and
+            # README in this commit were just rebuilt from live data. Abort any
+            # half-finished rebase before retrying so the step cannot wedge.
+            for attempt in 1 2 3; do
+              if git push origin main; then break; fi
+              if [ $attempt -eq 3 ]; then echo "::error::push failed after 3 attempts"; exit 1; fi
+              echo "⚠️ Non-fast-forward (attempt $attempt) — rebasing onto origin/main..."
+              git rebase --abort 2>/dev/null || true
+              rm -rf .git/rebase-merge .git/rebase-apply 2>/dev/null || true
               git fetch origin main --depth 100
-              git rebase --autostash origin/main || {
-                git rebase --abort; echo "::error::rebase failed; push skipped"; exit 1; }
-              git push origin main
-            fi
+              git rebase --autostash -X theirs origin/main || {
+                echo "::error::rebase failed; push skipped"; git rebase --abort 2>/dev/null || true; exit 1; }
+            done
           fi
 
       # Pages here is an artifact deploy (build_type: workflow), so the ledger
