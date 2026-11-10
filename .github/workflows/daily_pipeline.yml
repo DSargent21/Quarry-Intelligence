@@ -135,6 +135,10 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ASSETS_ENABLED: ${{ steps.flags.outputs.assets }}
+          # Always recompute: the heartbeat guard compares calendar days in ET,
+          # so a late-second run would otherwise silently skip and leave every
+          # model card frozen at yesterday's numbers.
+          FORCE_UPDATE: 'true'
         run: |
           source .venv/bin/activate
           mkdir -p data docs logs
@@ -213,6 +217,25 @@ jobs:
             pipeline_output.log
             ruby_forward.log
             logs/*.log
+
+      - name: 🔬 Verify Model Stats Freshness
+        run: |
+          source .venv/bin/activate
+          python3 - <<'PY'
+          import json, pathlib
+          from datetime import datetime, timedelta, timezone
+          et = datetime.now(timezone.utc) - timedelta(hours=5)
+          fresh = {et.strftime('%Y-%m-%d'), (et - timedelta(days=1)).strftime('%Y-%m-%d')}
+          payload = json.loads(pathlib.Path('docs/web/stats.json').read_text())
+          stamp = str(payload.get('meta', {}).get('last_update', ''))[:10]
+          assert stamp in fresh, f'stats.json is stale (last_update={stamp})'
+          stale = [
+              k for k, v in payload.get('models', {}).items()
+              if (v.get('yesterday') or {}).get('date', 'n/a') not in ('n/a', 'N/A')
+              and datetime.strptime((v['yesterday']['date']), '%b %d, %Y').strftime('%Y-%m-%d') < (et - timedelta(days=3)).strftime('%Y-%m-%d')
+          ]
+          print(f'OK: stats.json updated {stamp}; stale model ledgers: {stale or "none"}')
+          PY
 
       - name: 🔬 Deployment Audit
         run: |
