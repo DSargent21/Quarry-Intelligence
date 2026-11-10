@@ -9,16 +9,16 @@
     <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html">
-    <img src="https://img.shields.io/badge/SERIES%206%20NET--106.0u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
+    <img src="https://img.shields.io/badge/SERIES%206%20NET--119.3u-D4AF37?style=for-the-badge" alt="Series 6 Net" />
   </a>
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html">
     <img src="https://img.shields.io/badge/SERIES%207%20FWD-+13.7u-E11D48?style=for-the-badge" alt="Series 7 Forward Test" />
   </a>
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html">
-    <img src="https://img.shields.io/badge/SERIES%205%20NET--28.5u-2563EB?style=for-the-badge" alt="Series 5 Net" />
+    <img src="https://img.shields.io/badge/SERIES%205%20NET-+1.5u-2563EB?style=for-the-badge" alt="Series 5 Net" />
   </a>
   <a href="https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html">
-    <img src="https://img.shields.io/badge/SERIES%204%20NET-+35.7u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
+    <img src="https://img.shields.io/badge/SERIES%204%20NET--57.4u-f8fafc?style=for-the-badge" alt="Series 4 Net" />
   </a>
 
   <br />
@@ -37,12 +37,12 @@ A multi-generational algorithmic trading system leveraging **Gradient Boosting D
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FORWARD TEST` <br> Frozen walk-forward edge | 🔴 **ACTIVE** | Low (policy &le;6/day) | **338** | **+5.5%** |
-| **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~66 bets/day) | **11847** | **-3.2%** |
-| **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~45 bets/day) | **8268** | **-1.8%** |
-| **[SERIES 4: QUARTZ](https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~6 bets/day) | **1334** | **+1.9%** |
-| **[SERIES 3: OBSIDIAN](https://dsargent21.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE <br> Non-Linear` | 🟣 **ACTIVE** | Medium (~12 bets/day) | **3804** | **-7.8%** |
-| **[SERIES 2: DIAMOND](https://dsargent21.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE <br> Refined` | 🟢 **ACTIVE** | High (~25 bets/day) | **8620** | **-10.4%** |
-| **[SERIES 1: PYRITE](https://dsargent21.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE <br> High-Freq` | 🟡 **ACTIVE** | Low (~7 bets/day) | **2082** | **-2.2%** |
+| **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | High (~49 bets/day) | **8770** | **-4.5%** |
+| **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | Medium (~19 bets/day) | **3584** | **+0.2%** |
+| **[SERIES 4: QUARTZ](https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~5 bets/day) | **1266** | **-3.4%** |
+| **[SERIES 3: OBSIDIAN](https://dsargent21.github.io/Quarry-Intelligence/web/obsidian.html)** | `DEC 27, 2025` | `ADVANCED ENSEMBLE <br> Non-Linear` | 🟣 **ACTIVE** | Medium (~11 bets/day) | **3679** | **-5.7%** |
+| **[SERIES 2: DIAMOND](https://dsargent21.github.io/Quarry-Intelligence/web/diamond.html)** | `NOV 30, 2025` | `PRECISION CORE <br> Refined` | 🟢 **ACTIVE** | Medium (~17 bets/day) | **6020** | **-10.2%** |
+| **[SERIES 1: PYRITE](https://dsargent21.github.io/Quarry-Intelligence/web/pyrite.html)** | `NOV 20, 2025` | `LEGACY CORE <br> High-Freq` | 🟡 **ACTIVE** | Medium (~12 bets/day) | **4216** | **-14.1%** |
 
 > [!IMPORTANT]
 > **ACCESS PROTOCOL**: The primary interface for all models is the [**Model Selector**](https://dsargent21.github.io/Quarry-Intelligence/web/selector.html).
