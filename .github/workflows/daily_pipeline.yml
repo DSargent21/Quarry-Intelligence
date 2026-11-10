@@ -126,9 +126,12 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/
-          key: ${{ runner.os }}-quarry-data-${{ github.run_id }}
+          # v2 key retires the legacy 2016-seeded lake: the upstream table was
+          # re-seeded (now starts 2024-01-01), so restoring the old cache mixed
+          # two dataset revisions and collapsed Pyrite's edge signal.
+          key: ${{ runner.os }}-quarry-data-v2-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-quarry-data-
+            ${{ runner.os }}-quarry-data-v2-
 
       - name: Run Unified Daily Update
         env:
