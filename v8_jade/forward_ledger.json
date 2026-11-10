@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-09 18:11:42.685958",
+  "updated_at": "2026-11-10 00:15:56.533510",
   "summary": {
-    "graded": 195,
-    "pending": 44,
-    "pushes": 1,
-    "profit": -6.88,
-    "roi": -0.0353,
-    "adj_roi": -0.0372,
+    "graded": 196,
+    "pending": 43,
+    "pushes": 2,
+    "profit": -5.97,
+    "roi": -0.0305,
+    "adj_roi": -0.033,
     "grade": "D"
   },
   "picks": [
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -2892,6 +2892,18 @@
       "shrunk_acc_lt": 0.5715,
       "added_at": "2026-11-09 18:11:42.684890",
       "result": "PENDING"
+    },
+    {
+      "id": "1909660",
+      "pick_date": "2026-09-28",
+      "capper": "Thepickdon",
+      "league": "NFL",
+      "pick": "Chicago Bears +3.5 vs Philadelphia Eagles",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5629,
+      "added_at": "2026-11-10 00:15:56.530210",
+      "result": "WIN"
     }
   ]
 }
