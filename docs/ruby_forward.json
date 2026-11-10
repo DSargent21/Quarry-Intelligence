@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_update": "2026-11-10 01:01 UTC",
+    "last_update": "2026-11-10 01:23 UTC",
     "start_date": "2026-08-27",
     "days_live": 76,
     "status": "OPERATIONAL",
@@ -38,8 +38,8 @@
     "tstat": 0.91
   },
   "baselines": {
-    "all_discord_roi": 0.0042,
-    "top_prob_roi": 0.0276
+    "all_discord_roi": 0.017,
+    "top_prob_roi": -0.0035
   },
   "today": [],
   "by_month": [
