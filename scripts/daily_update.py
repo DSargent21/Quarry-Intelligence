@@ -404,6 +404,18 @@ def run_daily_update():
     # 4. Save Cache (Machine-Readable Summary)
     docs_dir = os.path.abspath(os.path.join(BASE_DIR, 'docs'))
     os.makedirs(docs_dir, exist_ok=True)
+
+    # [DAILY STATS]: stats.json/stats.js refresh every run. They used to be
+    # written only by generate_live_assets (weekly), so every legacy model card
+    # froze at the last Monday asset rebuild.
+    web_dir = os.path.abspath(os.path.join(docs_dir, 'web'))
+    os.makedirs(web_dir, exist_ok=True)
+    for target in (docs_dir, web_dir):
+        with open(os.path.join(target, 'stats.json'), 'w', encoding='utf-8') as f:
+            json.dump(stats_output, f, indent=4)
+        with open(os.path.join(target, 'stats.js'), 'w', encoding='utf-8') as f:
+            f.write(f"window.QUARRY_STATS = {json.dumps(stats_output, indent=4)};")
+    logger.info(f"📊 stats.json/stats.js refreshed ({len(stats_output['models'])} models)")
     
     # [BILLION DOLLAR OPTIMIZATION]: Cache results
     cache_path = os.path.join(docs_dir, 'sim_results_cache.pkl')
