@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-09 02:59:12.627417",
+  "updated_at": "2026-11-09 18:11:42.685958",
   "summary": {
-    "graded": 194,
-    "pending": 41,
-    "pushes": 4,
-    "profit": -7.79,
-    "roi": -0.0401,
-    "adj_roi": -0.0415,
+    "graded": 195,
+    "pending": 44,
+    "pushes": 1,
+    "profit": -6.88,
+    "roi": -0.0353,
+    "adj_roi": -0.0372,
     "grade": "D"
   },
   "picks": [
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896492",
@@ -2855,7 +2855,7 @@
       "prob": 0.5472,
       "shrunk_acc_lt": 0.5571,
       "added_at": "2026-11-09 02:59:12.625340",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1921559",
@@ -2879,6 +2879,18 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5556,
       "added_at": "2026-11-09 02:59:12.625413",
+      "result": "PENDING"
+    },
+    {
+      "id": "1921975",
+      "pick_date": "2026-11-09",
+      "capper": "Matt Severance",
+      "league": "NFL",
+      "pick": "Minnesota +3.5 vs Buffalo Bills",
+      "odds_american": -122.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5715,
+      "added_at": "2026-11-09 18:11:42.684890",
       "result": "PENDING"
     }
   ]
