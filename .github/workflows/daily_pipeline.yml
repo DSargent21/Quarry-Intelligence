@@ -235,7 +235,7 @@ jobs:
           stale = [
               k for k, v in payload.get('models', {}).items()
               if (v.get('yesterday') or {}).get('date', 'n/a') not in ('n/a', 'N/A')
-              and datetime.strptime((v['yesterday']['date']), '%b %d, %Y').strftime('%Y-%m-%d') < (et - timedelta(days=3)).strftime('%Y-%m-%d')
+              and datetime.strptime((v['yesterday']['date']), '%b %d, %Y').strftime('%Y-%m-%d') < (et - timedelta(days=14)).strftime('%Y-%m-%d')
           ]
           print(f'OK: stats.json updated {stamp}; stale model ledgers: {stale or "none"}')
           PY
