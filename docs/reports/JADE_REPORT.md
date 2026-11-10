@@ -1,5 +1,10 @@
 # v8 JADE — Score-Optimized Capper Selection System
 
+> **Live status:** [The Quarry Ledger](https://dsargent21.github.io/Quarry-Intelligence/ledger/).
+> Frozen policy `v8-jade-1.1`, one slate per day, graded at posted prices. The live ledger —
+> not the frozen holdout below — is the deciding record. Current figures are in the README
+> live scoreboard and on the ledger page.
+
 **Goal:** maximize the CappersTracked grade on *future, unseen* picks, with zero leakage.
 Grading was verified live against `capperstracked.com/grading_system` and is implemented
 byte-exact in `score.py` (Bayesian shrinkage k=30, μ₀ = −5%, odds clamp [−500,+350] → flat
@@ -36,14 +41,20 @@ adj ROI ≥ +5% · n ≥ 100 · t ≥ 2.0 · ≥ 75% of months positive · top c
 
 ## 2. Data regime change (the decisive finding)
 
-**The Discord feed went dark on 2026-08-01.** Aug + Sep 2026 contain 66 Discord rows total
-(22 graded, all Sep). Site picks continue at full volume (Aug: 2,882 graded; Sep: 9,441).
+**Corrected 2026-11: the Discord feed did not go dark — the earlier channel filter was too
+narrow.** `Discord` is every pick whose `source_url` is *not* one of the four tracked public
+sites (Winners & Whiners, WagerTalk, SportsLine, SportsCapping). Under that definition the
+Discord universe is ~131k rows (Sep 21.9k · Oct 21.0k · Nov 5.2k), not the ~66 rows a
+NULL-URL-only filter returns. The "dark feed" conclusion recorded during the v8 build was an
+artifact of that filter and is withdrawn.
 
 Consequences:
-- The v7 RUBY edge — a Discord-picks edge — **cannot make any future bets**; its live
-  ledger will stay empty regardless of backtest quality.
-- Jade therefore ships two channels: Discord (validated for honesty, **disabled**) and a
-  **site-picks channel** (the deployable one).
+- The v7 RUBY edge is **still bettable**; its forward ledger has run continuously with no
+  retraining and reports its own numbers daily.
+- Jade still ships two channels: Discord and site-picks. The **site-picks channel is the
+deployed one** (policy `v8-jade-1.1`), because that is where its frozen holdout was
+  validated; the Discord channel remains off for Jade as a pre-registered deployment
+  decision, not because the feed is empty.
 - For the site channel the frozen holdout is **September 2026** — a month never seen by any
   tuning step.
 

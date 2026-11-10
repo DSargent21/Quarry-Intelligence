@@ -1,22 +1,27 @@
 #!/usr/bin/env python3
-"""Regenerate the live numbers in the README model table.
+"""Regenerate the live numbers in README.md from the trading ledgers.
 
-Series 7 (RUBY) figures come from docs/ruby_forward.json, written by
-ruby/forward.py in the Daily Quarry Pipeline. Series 8 (JADE) figures come
-from docs/ledger/ledger_summary.json, written by v8_jade/build_site.py in
-the Daily Quarry Ledger. All other rows are static history and are never
-touched.
+Sources (all written by the scheduled workflows, never by hand):
+  docs/ruby_forward.json              -> SERIES 7  (ruby/forward.py, Daily Pipeline)
+  docs/ledger/ledger_summary.json     -> SERIES 8  (v8_jade/build_site.py, Daily Ledger)
+  docs/web/citrine_summary.json       -> SERIES 9  (backtest summary; forward once live)
+
+Two surfaces are rewritten:
+  1. the TOTAL BETS / ROI cells of each series row in the model table
+  2. the LIVE SCOREBOARD block between <!-- QUARRY:LIVE:START/END -->
 
 Properties:
-  - idempotent: if the README already matches the ledgers, nothing changes
-  - loud: a missing ledger, an unreadable field, a table whose format
-    drifted, or a ledger older than 26h fails the run with ::error::
-    instead of silently publishing stale numbers (that silence is how the
-    Ruby page froze for 3 weeks)
+  - idempotent: if README already matches the ledgers, nothing is written
+  - loud: a ledger belonging to the workflow running this script must exist, parse
+    and be fresh (< 26h); otherwise the run fails with ::error::
+  - a foreign ledger (written by the *other* daily workflow) warns and leaves its
+    row unchanged instead of blocking this system's publish
+  - Citrine has no forward pipeline yet, so its row keeps the out-of-sample figures
+    until a graded forward pick exists
   - --allow-stale skips the freshness gate for local experiments only
 
 Usage:
-  python3 scripts/update_readme_metrics.py [--readme PATH] [--allow-stale]
+  python3 scripts/update_readme_metrics.py [--readme PATH] [--host ruby|jade] [--allow-stale]
 """
 from __future__ import annotations
 
@@ -31,12 +36,16 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 RUBY_JSON = ROOT / "docs" / "ruby_forward.json"
 JADE_JSON = ROOT / "docs" / "ledger" / "ledger_summary.json"
+CITRINE_JSON = ROOT / "docs" / "web" / "citrine_summary.json"
 
-# A live ledger older than MAX_AGE_H means its producing pipeline is dead or
-# its scheduled slot was skipped (GitHub cron is best-effort). 26h tolerates
-# the interleaved schedules: the pipeline (09:00 UTC) reads the ledger's
-# 23:30 UTC summary from the same calendar day, and the ledger (23:30 UTC)
-# reads the pipeline's 09:00 UTC tracker file — each is well under 26h old.
+LIVE_START = "<!-- QUARRY:LIVE:START -->"
+LIVE_END = "<!-- QUARRY:LIVE:END -->"
+
+# A live ledger older than MAX_AGE_H means its producing pipeline is dead or its
+# scheduled slot was skipped (GitHub cron is best-effort). 26h tolerates the
+# interleaved schedules: the pipeline (09:00 UTC) reads the ledger's 23:30 UTC
+# summary from the same calendar day, and the ledger (23:30 UTC) reads the
+# pipeline's 09:00 UTC tracker file — each is well under 26h old.
 MAX_AGE_H = 26.0
 FRESH_WARN = (
     f"is older than {MAX_AGE_H:.0f}h — its producing workflow likely failed or "
@@ -52,8 +61,8 @@ def fail(msg: str) -> "SystemExit":
 
 def parse_ts(raw: str):
     """Parse ledger timestamps: 'YYYY-MM-DD HH:MM UTC', 'YYYY-MM-DD HH:MM', 'YYYY-MM-DD'."""
-    raw = raw.strip()
-    for fmt in ("%Y-%m-%d %H:%M UTC", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
+    raw = str(raw).strip()
+    for fmt in ("%Y-%m-%d %H:%M UTC", "%Y-%m-%d %H:%M", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
         try:
             t = dt.datetime.strptime(raw, fmt)
             return t.replace(tzinfo=dt.timezone.utc)
@@ -62,7 +71,8 @@ def parse_ts(raw: str):
     return None
 
 
-def load_ledger(path: pathlib.Path, label: str, host: str | None, series: str, allow_stale: bool) -> dict | None:
+def load_ledger(path: pathlib.Path, label: str, host: str | None, series: str,
+                allow_stale: bool, require_live: bool = True) -> dict | None:
     """Load a ledger JSON, or return None to skip that row (with a loud warning).
 
     Policy: the row belonging to the host workflow's own system (just written
@@ -71,7 +81,8 @@ def load_ledger(path: pathlib.Path, label: str, host: str | None, series: str, a
     stale warns and skips its row instead of blocking this system's publish;
     the foreign workflow already fails its own run loudly via its own gates.
     Garbage-but-present foreign data is still fatal: that is format drift a
-    human must fix.
+    human must fix. require_live=False marks backtest-only sources, which can
+    never be "stale" because no daily job produces them.
     """
     if not path.exists():
         if host == series:
@@ -87,11 +98,13 @@ def load_ledger(path: pathlib.Path, label: str, host: str | None, series: str, a
     t = parse_ts(raw)
     if t is None:
         raise fail(f"{label} has no parsable last_update (got {raw!r})")
-    age_h = (dt.datetime.now(dt.timezone.utc) - t).total_seconds() / 3600.0
-    if allow_stale:
-        print(f"update_readme_metrics: {label} age gate bypassed ({age_h:.1f}h old)")
-    elif age_h > MAX_AGE_H:
-        msg = f"{label} last_update={raw} ({age_h:.1f}h old) {FRESH_WARN}"
+    d["_age_h"] = (dt.datetime.now(dt.timezone.utc) - t).total_seconds() / 3600.0
+    d["_stamp"] = t.strftime("%Y-%m-%d")
+
+    if not require_live or allow_stale:
+        return d
+    if d["_age_h"] > MAX_AGE_H:
+        msg = f"{label} last_update={raw} ({d['_age_h']:.1f}h old) {FRESH_WARN}"
         if host == series:
             raise fail(msg)
         print(f"::warning::update_readme_metrics: {msg} SERIES {series} row left unchanged.")
@@ -122,6 +135,65 @@ def update_row(text: str, marker: str, bets: str, roi: str) -> str:
     return text[: m.start(2)] + bets + text[m.end(2) : m.start(4)] + roi + text[m.end(4) :]
 
 
+def fmt_units(x) -> str:
+    """Format a unit profit (+13.4u, -7.8u, 0.0u — no signed zero)."""
+    v = float(x or 0)
+    return f"{v:+.1f}u" if v else "0.0u"
+
+
+def live_rows(ruby: dict | None, jade: dict | None, citrine: dict | None) -> str:
+    """Render the LIVE SCOREBOARD table body from whatever ledgers loaded."""
+    dash = "—"
+    rows = []
+
+    if jade is not None:
+        roi = dash if jade.get("roi_adj") is None else f"{float(jade['roi_adj']):+.1f}%"
+        rows.append(
+            f"| JADE (VIII) | Forward test | {int(jade['graded'])} | {int(jade['pending'])} | "
+            f"{fmt_units(jade.get('profit'))} | {roi} | {jade['_stamp']} |"
+        )
+    else:
+        rows.append(f"| JADE (VIII) | Forward test | {dash} | {dash} | {dash} | {dash} | {dash} |")
+
+    if ruby is not None:
+        rs = ruby.get("stats", {})
+        roi = dash if rs.get("roi") is None else fmt_frac(rs["roi"])
+        rows.append(
+            f"| RUBY (VII) | Forward test | {int(rs.get('n') or 0)} | {int(rs.get('pending') or 0)} | "
+            f"{fmt_units(rs.get('net'))} | {roi} | {ruby['_stamp']} |"
+        )
+    else:
+        rows.append(f"| RUBY (VII) | Forward test | {dash} | {dash} | {dash} | {dash} | {dash} |")
+
+    if citrine is not None:
+        fw = citrine.get("forward", {}) or {}
+        graded = int(fw.get("graded") or 0)
+        roi = dash if fw.get("roi_adj") is None else fmt_frac(fw["roi_adj"])
+        status = "Forward test" if graded else "Backtest only"
+        rows.append(
+            f"| CITRINE (IX) | {status} | {graded} | {int(fw.get('pending') or 0)} | "
+            f"{fmt_units(fw.get('profit_u'))} | {roi} | {citrine['_stamp']} |"
+        )
+    else:
+        rows.append(f"| CITRINE (IX) | Backtest only | 0 | 0 | 0.0u | {dash} | {dash} |")
+
+    head = (
+        "| SYSTEM | STATUS | GRADED | PENDING | PROFIT | ROI | LAST UPDATE |\n"
+        "| :--- | :--- | ---: | ---: | ---: | ---: | :--- |"
+    )
+    return head + "\n" + "\n".join(rows)
+
+
+def update_live_block(text: str, body: str) -> str:
+    """Replace everything between the LIVE markers with the rendered table."""
+    if LIVE_START not in text or LIVE_END not in text:
+        print("::warning::update_readme_metrics: LIVE scoreboard markers missing — block not updated")
+        return text
+    head, rest = text.split(LIVE_START, 1)
+    _, tail = rest.split(LIVE_END, 1)
+    return f"{head}{LIVE_START}\n{body}\n{LIVE_END}{tail}"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--readme", default=str(README), help="README path (default: repo README.md)")
@@ -133,6 +205,8 @@ def main() -> int:
 
     ruby = load_ledger(RUBY_JSON, "ruby_forward.json", host_series, "7", args.allow_stale)
     jade = load_ledger(JADE_JSON, "ledger_summary.json", host_series, "8", args.allow_stale)
+    citrine = load_ledger(CITRINE_JSON, "citrine_summary.json", host_series, "9",
+                          args.allow_stale, require_live=False)
 
     readme = pathlib.Path(args.readme)
     text = orig = readme.read_text()
@@ -162,6 +236,21 @@ def main() -> int:
         notes.append(f"S8 {jade_bets} bets {jade_roi}")
     else:
         notes.append("S8 row skipped (foreign ledger missing/stale)")
+
+    if citrine is not None:
+        fw = citrine.get("forward", {}) or {}
+        graded = int(fw.get("graded") or 0)
+        if graded and fw.get("roi_adj") is not None:
+            # A forward ledger exists: the live record replaces the backtest headline.
+            text = update_row(text, "9", f"{graded} fwd", fmt_frac(fw["roi_adj"]))
+            notes.append(f"S9 {graded} fwd {fmt_frac(fw['roi_adj'])}")
+        else:
+            oos = citrine.get("oos", {}) or {}
+            notes.append(f"S9 backtest only ({int(oos.get('n') or 0)} OOS) — row unchanged")
+    else:
+        notes.append("S9 row skipped (summary missing)")
+
+    text = update_live_block(text, live_rows(ruby, jade, citrine))
 
     if text != orig:
         readme.write_text(text)

@@ -1,5 +1,13 @@
 # v7 RUBY - Walk-Forward Results (honest out-of-sample)
 
+> **Live status:** [Ruby Forward Ledger](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html).
+> Policy frozen 2026-08-26, forward test from 2026-08-27, no retraining and no re-tuning.
+> The ledger is rewritten daily by the pipeline; the README live scoreboard mirrors it.
+>
+> **Universe:** Discord picks — every row whose `source_url` is *not* one of the four tracked
+> public sites (Winners & Whiners, WagerTalk, SportsLine, SportsCapping). The earlier
+> NULL-URL-only definition understated this feed by ~5x and is retired.
+
 Data: 131071 graded picks | 9 monthly folds Nov 2025-Aug 2026, model retrained per fold strictly point-in-time.
 No leakage: each fold's model sees only picks strictly before that month.
 
