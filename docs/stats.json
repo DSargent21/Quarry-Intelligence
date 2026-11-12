@@ -1,32 +1,112 @@
 {
     "meta": {
-        "last_update": "2026-11-11 12:00 ET",
+        "last_update": "2026-11-12 12:30 ET",
         "status": "NOMINAL",
-        "cache_bust": 1794416426.355362
+        "cache_bust": 1794504622.619482
     },
     "models": {
         "pyrite": {
-            "roi": -6.0,
-            "net": -107.04,
-            "wins": 4762,
-            "losses": 4578,
+            "roi": -5.5,
+            "net": -97.1,
+            "wins": 4770,
+            "losses": 4570,
             "pushes": 0,
-            "record": "4762-4578-0",
-            "win_rate": 51.0,
+            "record": "4770-4570-0",
+            "win_rate": 51.1,
             "sample": 9340,
             "bets_day": 26.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Nov 10, 2026",
-                "record": "0-15-0",
-                "win_rate": 0.0,
-                "net": -10.02,
-                "roi": -100.0,
+                "record": "8-7-0",
+                "win_rate": 53.3,
+                "net": -0.08,
+                "roi": -0.8,
                 "ledger": [
                     {
                         "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml",
+                        "odds": 118,
+                        "wager": 0.84,
+                        "profit": 0.99,
+                        "result": "WIN",
+                        "edge": 0.0880649303077557
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "sonego ml",
+                        "odds": 117,
+                        "wager": 0.84,
+                        "profit": 0.98,
+                        "result": "WIN",
+                        "edge": 0.05944407315847511
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml vs sonego",
+                        "odds": -110,
+                        "wager": 0.84,
+                        "profit": 0.76,
+                        "result": "WIN",
+                        "edge": 0.05819859958830331
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "sonego ml vs shevchenko",
+                        "odds": -110,
+                        "wager": 0.84,
+                        "profit": 0.76,
+                        "result": "WIN",
+                        "edge": 0.049634783040909514
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "l.noskova ml",
+                        "odds": 145,
+                        "wager": 0.37,
+                        "profit": 0.54,
+                        "result": "WIN",
+                        "edge": 0.020884021204345127
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml",
+                        "odds": 110,
+                        "wager": 0.39,
+                        "profit": 0.43,
+                        "result": "WIN",
+                        "edge": 0.01943031095323111
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "sonego ml vs halys",
+                        "odds": 112,
+                        "wager": 0.36,
+                        "profit": 0.4,
+                        "result": "WIN",
+                        "edge": 0.017787120814593382
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml vs mannarino",
+                        "odds": 108,
+                        "wager": 0.18,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.008716003252909776
+                    },
+                    {
+                        "date": "11/10",
                         "league": "NCAAB",
-                        "selection": "harvard -2 vs northeastern",
+                        "selection": "wright state -1.5 vs toledo",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": -0.1,
@@ -35,81 +115,21 @@
                     },
                     {
                         "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs mannarino",
-                        "odds": 108,
-                        "wager": 0.18,
-                        "profit": -0.18,
-                        "result": "LOSS",
-                        "edge": 0.008716003252909776
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml vs halys",
-                        "odds": 112,
-                        "wager": 0.36,
-                        "profit": -0.36,
-                        "result": "LOSS",
-                        "edge": 0.017787120814593382
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "l.noskova ml",
-                        "odds": 145,
-                        "wager": 0.38,
-                        "profit": -0.38,
-                        "result": "LOSS",
-                        "edge": 0.020884021204345127
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml",
-                        "odds": 110,
-                        "wager": 0.4,
-                        "profit": -0.4,
-                        "result": "LOSS",
-                        "edge": 0.01943031095323111
-                    },
-                    {
-                        "date": "11/10",
                         "league": "NHL",
                         "selection": "new york islanders -1.5 vs winnipeg jets",
                         "odds": 160,
-                        "wager": 0.86,
-                        "profit": -0.86,
+                        "wager": 0.84,
+                        "profit": -0.84,
                         "result": "LOSS",
                         "edge": 0.06511244865564203
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml",
-                        "odds": 118,
-                        "wager": 0.86,
-                        "profit": -0.86,
-                        "result": "LOSS",
-                        "edge": 0.08233662592161678
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml",
-                        "odds": 117,
-                        "wager": 0.86,
-                        "profit": -0.86,
-                        "result": "LOSS",
-                        "edge": 0.05944407315847511
                     },
                     {
                         "date": "11/10",
                         "league": "NCAAF",
                         "selection": "kent state +5.5 vs bowling green falcons",
                         "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
+                        "wager": 0.84,
+                        "profit": -0.84,
                         "result": "LOSS",
                         "edge": 0.1266621635073707
                     },
@@ -118,8 +138,8 @@
                         "league": "NCAAF",
                         "selection": "akron vs western michigan broncos under 48.5",
                         "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
+                        "wager": 0.84,
+                        "profit": -0.84,
                         "result": "LOSS",
                         "edge": 0.11829724765959237
                     },
@@ -128,38 +148,18 @@
                         "league": "NCAAB",
                         "selection": "dayton -12.5 vs siena",
                         "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
+                        "wager": 0.84,
+                        "profit": -0.84,
                         "result": "LOSS",
                         "edge": 0.06553634859266733
                     },
                     {
                         "date": "11/10",
                         "league": "Other",
-                        "selection": "sonego ml vs shevchenko",
-                        "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
-                        "result": "LOSS",
-                        "edge": 0.05819859958830331
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
                         "selection": "kostyuk +3 vs gauff",
                         "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
-                        "result": "LOSS",
-                        "edge": 0.049634783040909514
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs sonego",
-                        "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
+                        "wager": 0.84,
+                        "profit": -0.84,
                         "result": "LOSS",
                         "edge": 0.049634783040909514
                     },
@@ -168,8 +168,8 @@
                         "league": "Other",
                         "selection": "rinderknech over 22.5",
                         "odds": -110,
-                        "wager": 0.86,
-                        "profit": -0.86,
+                        "wager": 0.84,
+                        "profit": -0.84,
                         "result": "LOSS",
                         "edge": 0.04214039303007577
                     }
@@ -178,7 +178,7 @@
         },
         "diamond": {
             "roi": 0.7,
-            "net": 14.23,
+            "net": 14.22,
             "wins": 4405,
             "losses": 3758,
             "pushes": 0,
@@ -228,23 +228,83 @@
             }
         },
         "obsidian": {
-            "roi": -0.9,
-            "net": -28.87,
-            "wins": 1783,
-            "losses": 1899,
+            "roi": -0.6,
+            "net": -18.37,
+            "wins": 1789,
+            "losses": 1893,
             "pushes": 0,
-            "record": "1783-1899-0",
-            "win_rate": 48.4,
+            "record": "1789-1893-0",
+            "win_rate": 48.6,
             "sample": 3682,
             "bets_day": 11.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Nov 10, 2026",
-                "record": "0-12-0",
-                "win_rate": 0.0,
-                "net": -9.96,
-                "roi": -100.0,
+                "record": "6-6-0",
+                "win_rate": 50.0,
+                "net": 0.54,
+                "roi": 5.4,
                 "ledger": [
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "l.noskova ml",
+                        "odds": 145,
+                        "wager": 0.83,
+                        "profit": 1.2,
+                        "result": "WIN",
+                        "edge": 0.05227918831669559
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml",
+                        "odds": 118,
+                        "wager": 0.83,
+                        "profit": 0.98,
+                        "result": "WIN",
+                        "edge": 0.11718185888517879
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "sonego ml vs halys",
+                        "odds": 112,
+                        "wager": 0.83,
+                        "profit": 0.93,
+                        "result": "WIN",
+                        "edge": 0.08448462891128833
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml vs mannarino",
+                        "odds": 108,
+                        "wager": 0.83,
+                        "profit": 0.9,
+                        "result": "WIN",
+                        "edge": 0.07541351134960472
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "shevchenko ml vs sonego",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": 0.75,
+                        "result": "WIN",
+                        "edge": 0.1003186986559913
+                    },
+                    {
+                        "date": "11/10",
+                        "league": "Other",
+                        "selection": "sonego ml vs shevchenko",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": 0.75,
+                        "result": "WIN",
+                        "edge": 0.1003186986559913
+                    },
                     {
                         "date": "11/10",
                         "league": "NHL",
@@ -254,46 +314,6 @@
                         "profit": -0.83,
                         "result": "LOSS",
                         "edge": 0.15304706188348627
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "l.noskova ml",
-                        "odds": 145,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.05227918831669559
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml",
-                        "odds": 118,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.11718185888517879
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml vs halys",
-                        "odds": 112,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.08448462891128833
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs mannarino",
-                        "odds": 108,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.07541351134960472
                     },
                     {
                         "date": "11/10",
@@ -318,27 +338,7 @@
                     {
                         "date": "11/10",
                         "league": "Other",
-                        "selection": "sonego ml vs shevchenko",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.1003186986559913
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
                         "selection": "kostyuk +3 vs gauff",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.1003186986559913
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs sonego",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -441,25 +441,25 @@
             }
         },
         "v6": {
-            "roi": 5.5,
-            "net": 13.68,
-            "sample": 250,
-            "pending": 90,
-            "record": "138-112-0",
-            "win_rate": 55.2,
+            "roi": 4.6,
+            "net": 11.68,
+            "sample": 252,
+            "pending": 88,
+            "record": "138-114-0",
+            "win_rate": 54.8,
             "bets_day": 0.0,
             "status": "ACTIVE"
         },
         "Quarry Intelligence": {
             "roi": 1.4,
-            "net": 34.84,
+            "net": 34.52,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
             "roi": 4.3,
-            "net": 51.07,
-            "sample": 2576,
-            "record": "1363-1213-0"
+            "net": 50.76,
+            "sample": 2577,
+            "record": "1363-1214-0"
         },
         "carnelian": {
             "roi": -1.3,
