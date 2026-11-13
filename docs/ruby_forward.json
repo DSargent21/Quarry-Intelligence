@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-12 17:36 UTC",
+    "last_update": "2026-11-13 17:10 UTC",
     "start_date": "2026-08-27",
-    "days_live": 78,
+    "days_live": 79,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,18 +28,18 @@
     }
   },
   "stats": {
-    "n": 254,
-    "wins": 139,
-    "losses": 115,
-    "pending": 86,
-    "wr": 0.5472,
-    "roi": 0.0456,
-    "net": 11.59,
-    "tstat": 0.76
+    "n": 262,
+    "wins": 145,
+    "losses": 117,
+    "pending": 90,
+    "wr": 0.5534,
+    "roi": 0.0573,
+    "net": 15.01,
+    "tstat": 0.97
   },
   "baselines": {
-    "all_discord_roi": 0.017,
-    "top_prob_roi": 0.0529
+    "all_discord_roi": -0.0032,
+    "top_prob_roi": -0.0183
   },
   "today": [],
   "by_month": [
@@ -66,13 +66,169 @@
     },
     {
       "month": "2026-11",
-      "n": 20,
-      "wr": 0.5,
-      "roi": -0.0425,
-      "net": -0.85
+      "n": 28,
+      "wr": 0.5714,
+      "roi": 0.0918,
+      "net": 2.57
     }
   ],
   "ledger": [
+    {
+      "id": "1923498",
+      "date": "2026-11-12",
+      "capper": "Secured Tys",
+      "league": "NBA",
+      "selection": "philadelphia 76ers ml vs toronto raptors",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.9037,
+      "edge": 0.3799,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1923707",
+      "date": "2026-11-12",
+      "capper": "Easy Independence811",
+      "league": "OTHER",
+      "selection": "turkey vs belgium draw ml",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9028,
+      "edge": 0.3793,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1923535",
+      "date": "2026-11-12",
+      "capper": "bunky",
+      "league": "OTHER",
+      "selection": "france vs italy both teams to score / england ml vs",
+      "odds": 105.0,
+      "dec": 2.05,
+      "prob": 0.8976,
+      "edge": 0.4097,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1923708",
+      "date": "2026-11-12",
+      "capper": "dreamchasing1",
+      "league": "OTHER",
+      "selection": "czech republic shots over 6.5 vs spain",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8888,
+      "edge": 0.3653,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1923468",
+      "date": "2026-11-12",
+      "capper": "Razzaqlocks",
+      "league": "NBA",
+      "selection": "philadelphia 76ers ml vs toronto raptors / phoenix suns ml vs charlotte hornets",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8875,
+      "edge": 0.3636,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1923499",
+      "date": "2026-11-12",
+      "capper": "Secured Tys",
+      "league": "NHL",
+      "selection": "tampa bay lightning ml vs columbus blue jackets",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8852,
+      "edge": 0.3614,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1922808",
+      "date": "2026-11-11",
+      "capper": "Thegamblinggawd",
+      "league": "NHL",
+      "selection": "buffalo sabres vs tampa bay lightning over 6.5",
+      "odds": -115.0,
+      "dec": 1.8695652173913042,
+      "prob": 0.887,
+      "edge": 0.3522,
+      "status": "WIN",
+      "profit": 0.87
+    },
+    {
+      "id": "1922804",
+      "date": "2026-11-11",
+      "capper": "Sharpinvestments",
+      "league": "NHL",
+      "selection": "pittsburgh penguins ml vs san jose sharks",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8606,
+      "edge": 0.3368,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1922918",
+      "date": "2026-11-11",
+      "capper": "VaultPicks",
+      "league": "NCAAF",
+      "selection": "over 51",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8564,
+      "edge": 0.3326,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1922809",
+      "date": "2026-11-11",
+      "capper": "Thegamblinggawd",
+      "league": "NHL",
+      "selection": "edmonton oilers vs philadelphia flyers over 6.5",
+      "odds": 110.0,
+      "dec": 2.1,
+      "prob": 0.8453,
+      "edge": 0.3691,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1922891",
+      "date": "2026-11-11",
+      "capper": "Profiticsports",
+      "league": "NHL",
+      "selection": "tampa bay lightning vs buffalo sabres over 5.5",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8328,
+      "edge": 0.309,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1922841",
+      "date": "2026-11-11",
+      "capper": "Senseisam",
+      "league": "NHL",
+      "selection": "tampa bay lightning ml vs buffalo sabres",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8324,
+      "edge": 0.3086,
+      "status": "WIN",
+      "profit": 0.91
+    },
     {
       "id": "1922297",
       "date": "2026-11-10",

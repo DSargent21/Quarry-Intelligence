@@ -1,471 +1,861 @@
 {
     "meta": {
-        "last_update": "2026-11-12 12:30 ET",
+        "last_update": "2026-11-13 12:04 ET",
         "status": "NOMINAL",
-        "cache_bust": 1794504622.619482
+        "cache_bust": 1794589487.460071
     },
     "models": {
         "pyrite": {
             "roi": -5.5,
-            "net": -97.1,
-            "wins": 4770,
-            "losses": 4570,
+            "net": -98.18,
+            "wins": 4764,
+            "losses": 4565,
             "pushes": 0,
-            "record": "4770-4570-0",
+            "record": "4764-4565-0",
             "win_rate": 51.1,
-            "sample": 9340,
-            "bets_day": 26.0,
+            "sample": 9329,
+            "bets_day": 27.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Nov 10, 2026",
-                "record": "8-7-0",
-                "win_rate": 53.3,
-                "net": -0.08,
-                "roi": -0.8,
+                "date": "Nov 04, 2026",
+                "record": "27-21-0",
+                "win_rate": 56.2,
+                "net": 0.77,
+                "roi": 8.6,
                 "ledger": [
                     {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml",
-                        "odds": 118,
-                        "wager": 0.84,
-                        "profit": 0.99,
-                        "result": "WIN",
-                        "edge": 0.0880649303077557
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml",
-                        "odds": 117,
-                        "wager": 0.84,
-                        "profit": 0.98,
-                        "result": "WIN",
-                        "edge": 0.05944407315847511
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs sonego",
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "utah jazz vs new orleans pelicans under 234.5",
                         "odds": -110,
-                        "wager": 0.84,
-                        "profit": 0.76,
-                        "result": "WIN",
-                        "edge": 0.05819859958830331
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml vs shevchenko",
-                        "odds": -110,
-                        "wager": 0.84,
-                        "profit": 0.76,
-                        "result": "WIN",
-                        "edge": 0.049634783040909514
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "l.noskova ml",
-                        "odds": 145,
-                        "wager": 0.37,
-                        "profit": 0.54,
-                        "result": "WIN",
-                        "edge": 0.020884021204345127
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml",
-                        "odds": 110,
-                        "wager": 0.39,
-                        "profit": 0.43,
-                        "result": "WIN",
-                        "edge": 0.01943031095323111
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml vs halys",
-                        "odds": 112,
-                        "wager": 0.36,
-                        "profit": 0.4,
-                        "result": "WIN",
-                        "edge": 0.017787120814593382
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs mannarino",
-                        "odds": 108,
-                        "wager": 0.18,
+                        "wager": 0.21,
                         "profit": 0.19,
                         "result": "WIN",
-                        "edge": 0.008716003252909776
+                        "edge": 0.15388586975279306
                     },
                     {
-                        "date": "11/10",
+                        "date": "11/04",
                         "league": "NCAAB",
-                        "selection": "wright state -1.5 vs toledo",
+                        "selection": "maryland eastern shore +34.5 vs virginia",
                         "odds": -110,
-                        "wager": 0.1,
-                        "profit": -0.1,
-                        "result": "LOSS",
-                        "edge": 0.004409758817581877
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.13095477081480478
                     },
                     {
-                        "date": "11/10",
-                        "league": "NHL",
-                        "selection": "new york islanders -1.5 vs winnipeg jets",
-                        "odds": 160,
-                        "wager": 0.84,
-                        "profit": -0.84,
-                        "result": "LOSS",
-                        "edge": 0.06511244865564203
-                    },
-                    {
-                        "date": "11/10",
+                        "date": "11/04",
                         "league": "NCAAF",
-                        "selection": "kent state +5.5 vs bowling green falcons",
+                        "selection": "central michigan +1.5 vs eastern michigan",
                         "odds": -110,
-                        "wager": 0.84,
-                        "profit": -0.84,
-                        "result": "LOSS",
-                        "edge": 0.1266621635073707
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.12331762767973398
                     },
                     {
-                        "date": "11/10",
+                        "date": "11/04",
                         "league": "NCAAF",
-                        "selection": "akron vs western michigan broncos under 48.5",
+                        "selection": "central michigan -2.5 vs eastern michigan",
                         "odds": -110,
-                        "wager": 0.84,
-                        "profit": -0.84,
-                        "result": "LOSS",
-                        "edge": 0.11829724765959237
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.11501917101088022
                     },
                     {
-                        "date": "11/10",
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "central michigan +1.5",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.0987971708888099
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "phoenix suns total points over 112.5 vs portland trail blazers",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.09543111778440927
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "central michigan +1.5 vs eastern michigan",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.0830692336672828
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "indiana pacers +5.5 vs memphis grizzlies",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.07824185348692392
+                    },
+                    {
+                        "date": "11/04",
                         "league": "NCAAB",
-                        "selection": "dayton -12.5 vs siena",
+                        "selection": "saint marys -12.5 vs north dakota state",
                         "odds": -110,
-                        "wager": 0.84,
-                        "profit": -0.84,
-                        "result": "LOSS",
-                        "edge": 0.06553634859266733
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.0753674194926307
                     },
                     {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "kostyuk +3 vs gauff",
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "portland trail blazers -3.5 vs utah jazz",
                         "odds": -110,
-                        "wager": 0.84,
-                        "profit": -0.84,
-                        "result": "LOSS",
-                        "edge": 0.049634783040909514
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.06742736555281137
                     },
                     {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "rinderknech over 22.5",
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "memphis grizzlies vs indiana pacers under 230.5",
                         "odds": -110,
-                        "wager": 0.84,
-                        "profit": -0.84,
-                        "result": "LOSS",
-                        "edge": 0.04214039303007577
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.05640420175734018
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "central michigan +1.5 vs eastern michigan",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.05084773756208871
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "ball state vs massachusetts over 48.5",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.048836915265946135
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "utsa vs florida atlantic over 73",
+                        "odds": -110,
+                        "wager": 0.21,
+                        "profit": 0.19,
+                        "result": "WIN",
+                        "edge": 0.041675357591538176
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "james madison vs southern miss over 57.5",
+                        "odds": -110,
+                        "wager": 0.2,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.03704455352964853
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAB",
+                        "selection": "saint marys gaels -12.5 vs north dakota state bison",
+                        "odds": -110,
+                        "wager": 0.2,
+                        "profit": 0.18,
+                        "result": "WIN",
+                        "edge": 0.03703924871626352
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NCAAF",
+                        "selection": "ball state vs massachusetts over 48.5",
+                        "odds": -110,
+                        "wager": 0.19,
+                        "profit": 0.17,
+                        "result": "WIN",
+                        "edge": 0.035381762754349455
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "ajay mitchell pts over 18.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.03332111097517465
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "jaylin williams pts+ast under 9.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.03326460577192758
+                    },
+                    {
+                        "date": "11/04",
+                        "league": "NBA",
+                        "selection": "kyle kuzma assists over 2.5",
+                        "odds": -110,
+                        "wager": 0.18,
+                        "profit": 0.16,
+                        "result": "WIN",
+                        "edge": 0.03326460577192758
                     }
                 ]
             }
         },
         "diamond": {
-            "roi": 0.7,
-            "net": 14.22,
-            "wins": 4405,
-            "losses": 3758,
+            "roi": 0.5,
+            "net": 10.39,
+            "wins": 4457,
+            "losses": 3873,
             "pushes": 0,
-            "record": "4405-3758-0",
-            "win_rate": 54.0,
-            "sample": 8163,
-            "bets_day": 23.0,
+            "record": "4457-3873-0",
+            "win_rate": 53.5,
+            "sample": 8330,
+            "bets_day": 24.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Nov 10, 2026",
-                "record": "0-3-0",
-                "win_rate": 0.0,
-                "net": -5.81,
-                "roi": -100.0,
+                "date": "Nov 12, 2026",
+                "record": "10-49-0",
+                "win_rate": 16.9,
+                "net": -5.51,
+                "roi": -65.4,
                 "ledger": [
                     {
-                        "date": "11/10",
+                        "date": "11/12",
+                        "league": "NHL",
+                        "selection": "tampa bay lightning ml vs columbus blue jackets",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.12841918922605966
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAF",
+                        "selection": "memphis -3.5 vs south florida",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.12512603260221933
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAF",
+                        "selection": "memphis tigers vs south florida bulls over 49.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.11214300848188852
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "minnesota timberwolves vs dallas mavericks over 225.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.10820630050840829
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "jaden mcdaniels ast over 1.5",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.10227307535353158
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAF",
+                        "selection": "louisiana -10.5 vs ul monroe warhawks",
+                        "odds": -110,
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.09812494970503305
+                    },
+                    {
+                        "date": "11/12",
                         "league": "NCAAB",
-                        "selection": "dayton -12.5 vs siena",
+                        "selection": "montana state +23.5 vs byu cougars",
                         "odds": -110,
-                        "wager": 1.81,
-                        "profit": -1.81,
-                        "result": "LOSS",
-                        "edge": 0.07176288820448373
+                        "wager": 0.16,
+                        "profit": 0.15,
+                        "result": "WIN",
+                        "edge": 0.09791365123930429
                     },
                     {
-                        "date": "11/10",
-                        "league": "NCAAF",
-                        "selection": "akron vs western michigan broncos under 48.5",
+                        "date": "11/12",
+                        "league": "NHL",
+                        "selection": "new york islanders ml vs los angeles kings",
                         "odds": -110,
-                        "wager": 2.0,
-                        "profit": -2.0,
-                        "result": "LOSS",
-                        "edge": 0.11916246868315195
+                        "wager": 0.15,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.11521133638563608
                     },
                     {
-                        "date": "11/10",
+                        "date": "11/12",
                         "league": "NCAAF",
-                        "selection": "kent state +5.5 vs bowling green falcons",
+                        "selection": "louisiana -10 vs ul-monroe",
                         "odds": -110,
-                        "wager": 2.0,
-                        "profit": -2.0,
+                        "wager": 0.15,
+                        "profit": 0.14,
+                        "result": "WIN",
+                        "edge": 0.09478452659788583
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "philadelphia 76ers -8.5",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": 0.1,
+                        "result": "WIN",
+                        "edge": 0.057984022867111906
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAF",
+                        "selection": "louisiana-monroe +10 vs appalachian state",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
                         "result": "LOSS",
-                        "edge": 0.11454781747999643
+                        "edge": 0.06143972135725473
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAF",
+                        "selection": "south florida +3.5 vs memphis tigers",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.06143972135725473
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "phoenix suns vs los angeles lakers over 212",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.053153066408066496
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "philadelphia 76ers ml vs toronto raptors",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.053153066408066496
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "minnesota timberwolves ml vs dallas mavericks",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.053153066408066496
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "phoenix suns -6 vs los angeles lakers",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.053153066408066496
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "detroit pistons ml vs washington wizards",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.053153066408066496
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "george mason -14.5 vs coppin state",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.05235901333036874
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "texas a&m vs oklahoma state over 178.5",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.05235901333036874
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "tennessee tech +25.5 vs tennessee",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.05235901333036874
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": -0.6,
-            "net": -18.37,
-            "wins": 1789,
-            "losses": 1893,
+            "roi": -1.3,
+            "net": -40.87,
+            "wins": 1788,
+            "losses": 1918,
             "pushes": 0,
-            "record": "1789-1893-0",
-            "win_rate": 48.6,
-            "sample": 3682,
+            "record": "1788-1918-0",
+            "win_rate": 48.2,
+            "sample": 3706,
             "bets_day": 11.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Nov 10, 2026",
-                "record": "6-6-0",
-                "win_rate": 50.0,
-                "net": 0.54,
-                "roi": 5.4,
+                "date": "Nov 12, 2026",
+                "record": "1-11-0",
+                "win_rate": 8.3,
+                "net": -8.38,
+                "roi": -84.1,
                 "ledger": [
                     {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "l.noskova ml",
-                        "odds": 145,
-                        "wager": 0.83,
-                        "profit": 1.2,
-                        "result": "WIN",
-                        "edge": 0.05227918831669559
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml",
-                        "odds": 118,
-                        "wager": 0.83,
-                        "profit": 0.98,
-                        "result": "WIN",
-                        "edge": 0.11718185888517879
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml vs halys",
-                        "odds": 112,
-                        "wager": 0.83,
-                        "profit": 0.93,
-                        "result": "WIN",
-                        "edge": 0.08448462891128833
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs mannarino",
-                        "odds": 108,
-                        "wager": 0.83,
-                        "profit": 0.9,
-                        "result": "WIN",
-                        "edge": 0.07541351134960472
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "shevchenko ml vs sonego",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": 0.75,
-                        "result": "WIN",
-                        "edge": 0.1003186986559913
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "sonego ml vs shevchenko",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": 0.75,
-                        "result": "WIN",
-                        "edge": 0.1003186986559913
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "NHL",
-                        "selection": "new york islanders -1.5 vs winnipeg jets",
-                        "odds": 160,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.15304706188348627
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "NCAAF",
-                        "selection": "akron vs western michigan broncos under 48.5",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.1713515207881019
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "NCAAF",
-                        "selection": "kent state +5.5 vs bowling green falcons",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.14692571617308114
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "kostyuk +3 vs gauff",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.1003186986559913
-                    },
-                    {
-                        "date": "11/10",
-                        "league": "Other",
-                        "selection": "ulsan mobis phoebus ml vs suwon kt sonicboom",
-                        "odds": -110,
-                        "wager": 0.83,
-                        "profit": -0.83,
-                        "result": "LOSS",
-                        "edge": 0.05351468778791879
-                    },
-                    {
-                        "date": "11/10",
+                        "date": "11/12",
                         "league": "NBA",
-                        "selection": "dallas mavericks -3.5 vs indiana pacers",
+                        "selection": "jaden mcdaniels ast over 1.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": 0.75,
+                        "result": "WIN",
+                        "edge": 0.1603448674792335
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NFL",
+                        "selection": "diggs 1st td",
+                        "odds": 1350,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.19491133813200326
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NFL",
+                        "selection": "jayden daniels 1st td",
+                        "odds": 1300,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.19244828394481114
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NHL",
+                        "selection": "st. louis blues ml vs utah mammoth / southern illinois +2.5 vs richmond / monmouth +1.5 vs quinnipiac / central connecticut +6.5 vs sacred heart",
+                        "odds": 1060,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.23945661043298655
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "ottawa ml",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.049777774583725676
+                        "edge": 0.1915439651125953
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "southern illinois +2.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.1915439651125953
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "santi aldama pts over 4.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.1603448674792335
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "jakobe walter pts over 6.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.1603448674792335
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "dallas mavericks +5.5 vs minnesota timberwolves",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.15743604160490487
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "oklahoma state +8 vs oklahoma",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.15743604160490487
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "phoenix suns -6 vs los angeles lakers",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.15743604160490487
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NFL",
+                        "selection": "washington commanders vs new york giants under 41.5",
+                        "odds": -110,
+                        "wager": 0.83,
+                        "profit": -0.83,
+                        "result": "LOSS",
+                        "edge": 0.15705624080839609
                     }
                 ]
             }
         },
         "quartz": {
-            "roi": 1.6,
-            "net": 21.43,
-            "wins": 457,
-            "losses": 520,
+            "roi": 0.7,
+            "net": 10.22,
+            "wins": 462,
+            "losses": 533,
             "pushes": 0,
-            "record": "457-520-0",
-            "win_rate": 46.8,
-            "sample": 977,
+            "record": "462-533-0",
+            "win_rate": 46.4,
+            "sample": 995,
             "bets_day": 4.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Nov 10, 2026",
-                "record": "0-2-0",
+                "date": "Nov 12, 2026",
+                "record": "0-6-0",
                 "win_rate": 0.0,
-                "net": -4.67,
+                "net": -10.01,
                 "roi": -100.0,
                 "ledger": [
                     {
-                        "date": "11/10",
-                        "league": "NBA",
-                        "selection": "dallas mavericks -3.5 vs indiana pacers",
-                        "odds": -109,
-                        "wager": 2.29,
-                        "profit": -2.29,
+                        "date": "11/12",
+                        "league": "NHL",
+                        "selection": "new jersey devils -1.5 vs washington capitals",
+                        "odds": 160,
+                        "wager": 1.34,
+                        "profit": -1.34,
                         "result": "LOSS",
-                        "edge": 0.05461471693061282
+                        "edge": 0.053083357218320026
                     },
                     {
-                        "date": "11/10",
+                        "date": "11/12",
                         "league": "NCAAF",
-                        "selection": "kent state +5.5 vs bowling green falcons",
-                        "odds": -109,
-                        "wager": 2.38,
-                        "profit": -2.38,
+                        "selection": "south florida ml vs memphis",
+                        "odds": 154,
+                        "wager": 1.56,
+                        "profit": -1.56,
                         "result": "LOSS",
-                        "edge": 0.056691160538567265
+                        "edge": 0.061049840589447235
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "phoenix suns -6.5 vs dallas mavericks",
+                        "odds": -109,
+                        "wager": 1.72,
+                        "profit": -1.72,
+                        "result": "LOSS",
+                        "edge": 0.05271072912264119
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "canisius +13 vs niagara",
+                        "odds": -109,
+                        "wager": 1.72,
+                        "profit": -1.72,
+                        "result": "LOSS",
+                        "edge": 0.05271072912264119
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "Other",
+                        "selection": "george mason -2.5 vs missouri-kansas city",
+                        "odds": -109,
+                        "wager": 1.83,
+                        "profit": -1.83,
+                        "result": "LOSS",
+                        "edge": 0.05615744302933401
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "southern illinois +2.5",
+                        "odds": -109,
+                        "wager": 1.84,
+                        "profit": -1.84,
+                        "result": "LOSS",
+                        "edge": 0.056620095009424
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": 4.1,
-            "net": 52.93,
-            "wins": 2107,
-            "losses": 1908,
+            "roi": 3.6,
+            "net": 47.31,
+            "wins": 2136,
+            "losses": 1946,
             "pushes": 0,
-            "record": "2107-1908-0",
-            "win_rate": 52.5,
-            "sample": 4015,
+            "record": "2136-1946-0",
+            "win_rate": 52.3,
+            "sample": 4082,
             "bets_day": 22.0,
             "status": "ACTIVE",
             "yesterday": {
-                "date": "Nov 10, 2026",
-                "record": "0-1-0",
-                "win_rate": 0.0,
-                "net": -3.0,
-                "roi": -100.0,
+                "date": "Nov 12, 2026",
+                "record": "2-12-0",
+                "win_rate": 14.3,
+                "net": -7.23,
+                "roi": -72.7,
                 "ledger": [
                     {
-                        "date": "11/10",
+                        "date": "11/12",
                         "league": "NCAAF",
-                        "selection": "kent state +5.5 vs bowling green falcons",
+                        "selection": "memphis -3.5 vs south florida",
                         "odds": -110,
-                        "wager": 3.0,
-                        "profit": -3.0,
+                        "wager": 0.71,
+                        "profit": 0.65,
+                        "result": "WIN",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NHL",
+                        "selection": "tampa bay lightning ml vs columbus blue jackets",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": 0.65,
+                        "result": "WIN",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "Other",
+                        "selection": "george mason -2.5 vs missouri-kansas city",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
                         "result": "LOSS",
-                        "edge": 0.0838612601870582
+                        "edge": 0.08064785457792734
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "phoenix suns -6.5 vs charlotte hornets",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "dallas mavericks +6 vs minnesota timberwolves",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "canisius +13 vs niagara",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "canisius +13 vs west virginia",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "phoenix suns -6.5 vs dallas mavericks",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NBA",
+                        "selection": "dallas mavericks +6 vs phoenix suns",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAF",
+                        "selection": "memphis -3.5 vs usf",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.07175126529875253
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "texas a&m -8.5 vs texas a&m-corpus christi",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.06235053993406747
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "richmond -2.5 vs southern illinois",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.06235053993406747
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "ottawa ml",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.05838021494093393
+                    },
+                    {
+                        "date": "11/12",
+                        "league": "NCAAB",
+                        "selection": "southern illinois +2.5",
+                        "odds": -110,
+                        "wager": 0.71,
+                        "profit": -0.71,
+                        "result": "LOSS",
+                        "edge": 0.05838021494093393
                     }
                 ]
             }
         },
         "v6": {
             "roi": 4.6,
-            "net": 11.68,
-            "sample": 252,
-            "pending": 88,
-            "record": "138-114-0",
-            "win_rate": 54.8,
+            "net": 11.59,
+            "sample": 254,
+            "pending": 86,
+            "record": "139-115-0",
+            "win_rate": 54.7,
             "bets_day": 0.0,
             "status": "ACTIVE"
         },
         "Quarry Intelligence": {
-            "roi": 1.4,
-            "net": 34.52,
+            "roi": 0.3,
+            "net": 7.46,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
-            "roi": 4.3,
-            "net": 50.76,
-            "sample": 2577,
-            "record": "1363-1214-0"
+            "roi": 2.8,
+            "net": 34.58,
+            "sample": 2637,
+            "record": "1376-1261-0"
         },
         "carnelian": {
-            "roi": -1.3,
-            "net": -16.24,
-            "sample": 3798,
-            "record": "1886-1912-0"
+            "roi": -2.1,
+            "net": -27.12,
+            "sample": 3894,
+            "record": "1914-1980-0"
         }
     }
 }
