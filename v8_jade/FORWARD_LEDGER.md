@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-13 03:37:26.925362
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-14 03:34:33.850003
 
-**Graded: 199 | Pending: 44 | Pushes: 2**
-**Profit: -7.1u | ROI: -3.5% | Adj ROI: -3.7% | Grade: D**
+**Graded: 214 | Pending: 49 | Pushes: 1**
+**Profit: -10.8u | ROI: -5.0% | Adj ROI: -5.0% | Grade: F**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -71,7 +71,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-13 03:37:26.
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
 | 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
 | 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
@@ -81,7 +81,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-13 03:37:26.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -89,7 +89,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-13 03:37:26.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -251,4 +251,23 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-13 03:37:26.
 | 2026-11-09 | Midwestmikesports | NBA | New Orleans Pelicans +9 vs Golden State  | -110 | 0.589 | LOSS |
 | 2026-11-09 | Midwestmikesports | NFL | New Orleans Saints +9 vs Atlanta Falcons | -110 | 0.589 | WIN |
 | 2026-11-09 | Midwestmikesports | NBA | Atlanta Hawks ML vs Los Angeles Lakers | -125 | 0.589 | LOSS |
-| 2026-11-09 | Midwestmikesports | NFL | Atlanta Falcons vs New Orleans Saints ML | -125 | 0.581 | PENDING |
+| 2026-11-09 | Midwestmikesports | NFL | Atlanta Falcons vs New Orleans Saints ML | -125 | 0.581 | WIN |
+| 2026-11-10 | Empire | OTHER | Ohio U +2 | -120 | 0.573 | LOSS |
+| 2026-11-10 | Matt Severance | NCAAB | Ace Bailey: Pts + Reb Over 21.5 | -125 | 0.478 | LOSS |
+| 2026-11-10 | Vinny | OTHER | Illinois Moneyline ML | -110 | 0.573 | LOSS |
+| 2026-11-10 | Vinny | NBA | Oklahoma City Thunder Moneyline ML vs Po | -110 | 0.559 | LOSS |
+| 2026-11-10 | Vinny | NCAAF | Ohio Moneyline vs Miami RedHawks ML | -110 | 0.559 | LOSS |
+| 2026-11-11 | Chamba | NBA | New York Knicks ML vs Cleveland Cavalier | -110 | 0.589 | LOSS |
+| 2026-11-11 | Tokyo Brandon | NHL | Calgary Flames ML vs New York Rangers | -110 | 0.589 | LOSS |
+| 2026-11-11 | Tokyo Brandon | NHL | Tampa Bay Lightning ML vs Buffalo Sabres | -110 | 0.581 | WIN |
+| 2026-11-11 | Tokyo Brandon | NHL | Vegas Golden Knights ML vs Utah Mammoth | -110 | 0.497 | WIN |
+| 2026-11-12 | Chamba | NBA | Phoenix Suns ML vs Charlotte Hornets | -110 | 0.559 | WIN |
+| 2026-11-12 | Empire | NCAAF | South Florida vs Memphis Under 52 | -120 | 0.573 | LOSS |
+| 2026-11-12 | Empire | NCAAF | Louisiana Lafayette -9.5 vs Troy | -115 | 0.505 | WIN |
+| 2026-11-12 | Vinny | NFL | Washington Commanders +2.5 vs New York G | -110 | 0.540 | WIN |
+| 2026-11-12 | Vinny | NFL | Washington Commanders vs New York Giants | -110 | 0.518 | LOSS |
+| 2026-11-13 | Ben Burns | NCAAB | Kentucky -33.5 vs Tennessee State | -110 | 0.589 | PENDING |
+| 2026-11-13 | Ben Burns | NCAAB | Northern Arizona vs Kentucky -33.5 | -110 | 0.589 | PENDING |
+| 2026-11-13 | Ben Burns | NBA | Sacramento Kings +10.5 vs Los Angeles La | -110 | 0.518 | PENDING |
+| 2026-11-13 | Matt Severance | NCAAB | North Carolina ML vs Duke | -110 | 0.518 | PENDING |
+| 2026-11-13 | Matt Severance | NCAAF | Pittsburgh ML vs Florida State | -110 | 0.505 | PENDING |

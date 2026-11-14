@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-13 03:37:26.925362",
+  "updated_at": "2026-11-14 03:34:33.850003",
   "summary": {
-    "graded": 199,
-    "pending": 44,
-    "pushes": 2,
-    "profit": -7.06,
-    "roi": -0.0355,
-    "adj_roi": -0.0374,
-    "grade": "D"
+    "graded": 214,
+    "pending": 49,
+    "pushes": 1,
+    "profit": -10.75,
+    "roi": -0.0503,
+    "adj_roi": -0.0502,
+    "grade": "F"
   },
   "picks": [
     {
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -2951,6 +2951,234 @@
       "prob": 0.5805,
       "shrunk_acc_lt": 0.5639,
       "added_at": "2026-11-10 04:49:31.258012",
+      "result": "WIN"
+    },
+    {
+      "id": "1922934",
+      "pick_date": "2026-11-10",
+      "capper": "Empire",
+      "league": "OTHER",
+      "pick": "Ohio U +2",
+      "odds_american": -120.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5649,
+      "added_at": "2026-11-14 03:34:33.846199",
+      "result": "LOSS"
+    },
+    {
+      "id": "1923196",
+      "pick_date": "2026-11-10",
+      "capper": "Vinny",
+      "league": "OTHER",
+      "pick": "Illinois Moneyline ML",
+      "odds_american": -110.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5534,
+      "added_at": "2026-11-14 03:34:33.846300",
+      "result": "LOSS"
+    },
+    {
+      "id": "1923195",
+      "pick_date": "2026-11-10",
+      "capper": "Vinny",
+      "league": "NBA",
+      "pick": "Oklahoma City Thunder Moneyline ML vs Portland Trail Blazers",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5534,
+      "added_at": "2026-11-14 03:34:33.846381",
+      "result": "LOSS"
+    },
+    {
+      "id": "1923194",
+      "pick_date": "2026-11-10",
+      "capper": "Vinny",
+      "league": "NCAAF",
+      "pick": "Ohio Moneyline vs Miami RedHawks ML",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5534,
+      "added_at": "2026-11-14 03:34:33.846457",
+      "result": "LOSS"
+    },
+    {
+      "id": "1923250",
+      "pick_date": "2026-11-10",
+      "capper": "Matt Severance",
+      "league": "NCAAB",
+      "pick": "Ace Bailey: Pts + Reb Over 21.5",
+      "odds_american": -125.0,
+      "prob": 0.4776,
+      "shrunk_acc_lt": 0.5706,
+      "added_at": "2026-11-14 03:34:33.846550",
+      "result": "LOSS"
+    },
+    {
+      "id": "1922754",
+      "pick_date": "2026-11-11",
+      "capper": "Chamba",
+      "league": "NBA",
+      "pick": "New York Knicks ML vs Cleveland Cavaliers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.568,
+      "added_at": "2026-11-14 03:34:33.846625",
+      "result": "LOSS"
+    },
+    {
+      "id": "1922644",
+      "pick_date": "2026-11-11",
+      "capper": "Tokyo Brandon",
+      "league": "NHL",
+      "pick": "Calgary Flames ML vs New York Rangers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5524,
+      "added_at": "2026-11-14 03:34:33.846697",
+      "result": "LOSS"
+    },
+    {
+      "id": "1922643",
+      "pick_date": "2026-11-11",
+      "capper": "Tokyo Brandon",
+      "league": "NHL",
+      "pick": "Tampa Bay Lightning ML vs Buffalo Sabres",
+      "odds_american": -110.0,
+      "prob": 0.5805,
+      "shrunk_acc_lt": 0.5524,
+      "added_at": "2026-11-14 03:34:33.846773",
+      "result": "WIN"
+    },
+    {
+      "id": "1922645",
+      "pick_date": "2026-11-11",
+      "capper": "Tokyo Brandon",
+      "league": "NHL",
+      "pick": "Vegas Golden Knights ML vs Utah Mammoth",
+      "odds_american": -110.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.5524,
+      "added_at": "2026-11-14 03:34:33.846847",
+      "result": "WIN"
+    },
+    {
+      "id": "1923470",
+      "pick_date": "2026-11-12",
+      "capper": "Empire",
+      "league": "NCAAF",
+      "pick": "South Florida vs Memphis Under 52",
+      "odds_american": -120.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5564,
+      "added_at": "2026-11-14 03:34:33.846920",
+      "result": "LOSS"
+    },
+    {
+      "id": "1923642",
+      "pick_date": "2026-11-12",
+      "capper": "Chamba",
+      "league": "NBA",
+      "pick": "Phoenix Suns ML vs Charlotte Hornets",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5652,
+      "added_at": "2026-11-14 03:34:33.846992",
+      "result": "WIN"
+    },
+    {
+      "id": "1923681",
+      "pick_date": "2026-11-12",
+      "capper": "Vinny",
+      "league": "NFL",
+      "pick": "Washington Commanders +2.5 vs New York Giants",
+      "odds_american": -110.0,
+      "prob": 0.54,
+      "shrunk_acc_lt": 0.5507,
+      "added_at": "2026-11-14 03:34:33.847063",
+      "result": "WIN"
+    },
+    {
+      "id": "1923682",
+      "pick_date": "2026-11-12",
+      "capper": "Vinny",
+      "league": "NFL",
+      "pick": "Washington Commanders vs New York Giants Under 41.5",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5507,
+      "added_at": "2026-11-14 03:34:33.847133",
+      "result": "LOSS"
+    },
+    {
+      "id": "1923469",
+      "pick_date": "2026-11-12",
+      "capper": "Empire",
+      "league": "NCAAF",
+      "pick": "Louisiana Lafayette -9.5 vs Troy",
+      "odds_american": -115.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5564,
+      "added_at": "2026-11-14 03:34:33.847203",
+      "result": "WIN"
+    },
+    {
+      "id": "1923817",
+      "pick_date": "2026-11-13",
+      "capper": "Ben Burns",
+      "league": "NCAAB",
+      "pick": "Kentucky -33.5 vs Tennessee State",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5689,
+      "added_at": "2026-11-14 03:34:33.847273",
+      "result": "PENDING"
+    },
+    {
+      "id": "1923865",
+      "pick_date": "2026-11-13",
+      "capper": "Ben Burns",
+      "league": "NCAAB",
+      "pick": "Northern Arizona vs Kentucky -33.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5689,
+      "added_at": "2026-11-14 03:34:33.847344",
+      "result": "PENDING"
+    },
+    {
+      "id": "1923818",
+      "pick_date": "2026-11-13",
+      "capper": "Ben Burns",
+      "league": "NBA",
+      "pick": "Sacramento Kings +10.5 vs Los Angeles Lakers",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5689,
+      "added_at": "2026-11-14 03:34:33.847415",
+      "result": "PENDING"
+    },
+    {
+      "id": "1923827",
+      "pick_date": "2026-11-13",
+      "capper": "Matt Severance",
+      "league": "NCAAB",
+      "pick": "North Carolina ML vs Duke",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5703,
+      "added_at": "2026-11-14 03:34:33.847502",
+      "result": "PENDING"
+    },
+    {
+      "id": "1923826",
+      "pick_date": "2026-11-13",
+      "capper": "Matt Severance",
+      "league": "NCAAF",
+      "pick": "Pittsburgh ML vs Florida State",
+      "odds_american": -110.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5703,
+      "added_at": "2026-11-14 03:34:33.847581",
       "result": "PENDING"
     }
   ]
