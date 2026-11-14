@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-13 17:10 UTC",
+    "last_update": "2026-11-14 15:46 UTC",
     "start_date": "2026-08-27",
-    "days_live": 79,
+    "days_live": 80,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,18 +28,18 @@
     }
   },
   "stats": {
-    "n": 262,
+    "n": 263,
     "wins": 145,
-    "losses": 117,
-    "pending": 90,
-    "wr": 0.5534,
-    "roi": 0.0573,
-    "net": 15.01,
-    "tstat": 0.97
+    "losses": 118,
+    "pending": 89,
+    "wr": 0.5513,
+    "roi": 0.0533,
+    "net": 14.01,
+    "tstat": 0.91
   },
   "baselines": {
-    "all_discord_roi": -0.0032,
-    "top_prob_roi": -0.0183
+    "all_discord_roi": 0.0054,
+    "top_prob_roi": -0.0052
   },
   "today": [],
   "by_month": [
@@ -66,10 +66,10 @@
     },
     {
       "month": "2026-11",
-      "n": 28,
-      "wr": 0.5714,
-      "roi": 0.0918,
-      "net": 2.57
+      "n": 29,
+      "wr": 0.5517,
+      "roi": 0.0541,
+      "net": 1.57
     }
   ],
   "ledger": [
@@ -343,8 +343,8 @@
       "dec": 1.91,
       "prob": 0.9144,
       "edge": 0.3908,
-      "status": "PENDING",
-      "profit": null
+      "status": "LOSS",
+      "profit": -1.0
     },
     {
       "id": "1921462",
