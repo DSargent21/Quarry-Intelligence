@@ -42,7 +42,7 @@ has never seen.
 | MODEL ARCHITECTURE | RELEASED | STRATEGY PROFILE | STATUS | VOLUME | TOTAL BETS | ROI |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[SERIES 9: CITRINE](https://dsargent21.github.io/Quarry-Intelligence/web/citrine.html)** | `SEP 22, 2026` | `SKILL-GATED BLEND` <br> Higher-volume forward test | 🟡 **BACKTEST** | Medium (8/day) | **1126 OOS** | **+5.9% adj** |
-| **[SERIES 8: JADE](https://dsargent21.github.io/Quarry-Intelligence/ledger/)** | `SEP 22, 2026` | `SCORE-OPTIMIZED` <br> The Quarry Ledger | 🟢 **FORWARD TEST** | Very Low (&le;5/day) | **263** | **-5.0%** |
+| **[SERIES 8: JADE](https://dsargent21.github.io/Quarry-Intelligence/ledger/)** | `SEP 22, 2026` | `SCORE-OPTIMIZED` <br> The Quarry Ledger | 🟢 **FORWARD TEST** | Very Low (&le;5/day) | **262** | **-4.6%** |
 | **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FROZEN POLICY` <br> Walk-forward edge | 🔴 **FORWARD TEST** | Medium (&le;6/day) | **352** | **+5.3%** |
 | **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~63 bets/day) | **8296** | **-0.8%** |
 | **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~44 bets/day) | **5946** | **-0.6%** |
@@ -65,7 +65,7 @@ Rebuilt automatically by the daily workflows from each system's ledger — never
 <!-- QUARRY:LIVE:START -->
 | SYSTEM | STATUS | GRADED | PENDING | PROFIT | ROI | LAST UPDATE |
 | :--- | :--- | ---: | ---: | ---: | ---: | :--- |
-| JADE (VIII) | Forward test | 214 | 49 | -10.8u | -5.0% | 2026-11-14 |
+| JADE (VIII) | Forward test | 215 | 47 | -9.8u | -4.6% | 2026-11-15 |
 | RUBY (VII) | Forward test | 263 | 89 | +14.0u | +5.3% | 2026-11-14 |
 | CITRINE (IX) | Backtest only | 0 | 0 | 0.0u | — | 2026-09-23 |
 <!-- QUARRY:LIVE:END -->

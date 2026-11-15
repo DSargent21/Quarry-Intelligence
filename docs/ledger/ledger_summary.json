@@ -1,11 +1,11 @@
 {
   "series": "v8-jade",
-  "updated_at": "2026-11-14 03:34",
-  "graded": 214,
-  "pending": 49,
-  "profit": -10.75,
-  "roi_adj": -5.02,
-  "grade": "F",
+  "updated_at": "2026-11-15 03:03",
+  "graded": 215,
+  "pending": 47,
+  "profit": -9.84,
+  "roi_adj": -4.63,
+  "grade": "D",
   "policy_version": "v8-jade-1.1",
   "start_date": "2026-09-22"
 }

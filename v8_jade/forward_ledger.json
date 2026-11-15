@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-14 03:34:33.850003",
+  "updated_at": "2026-11-15 03:03:20.665195",
   "summary": {
-    "graded": 214,
-    "pending": 49,
-    "pushes": 1,
-    "profit": -10.75,
-    "roi": -0.0503,
-    "adj_roi": -0.0502,
-    "grade": "F"
+    "graded": 215,
+    "pending": 47,
+    "pushes": 3,
+    "profit": -9.84,
+    "roi": -0.0458,
+    "adj_roi": -0.0463,
+    "grade": "D"
   },
   "picks": [
     {
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -3180,6 +3180,18 @@
       "shrunk_acc_lt": 0.5703,
       "added_at": "2026-11-14 03:34:33.847581",
       "result": "PENDING"
+    },
+    {
+      "id": "1922626",
+      "pick_date": "2026-11-11",
+      "capper": "Travy",
+      "league": "NCAAB",
+      "pick": "1H Albany vs Dartmouth Under 65.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5739,
+      "added_at": "2026-11-15 03:03:20.663231",
+      "result": "WIN"
     }
   ]
 }
