@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-14 15:46 UTC",
+    "last_update": "2026-11-15 16:17 UTC",
     "start_date": "2026-08-27",
-    "days_live": 80,
+    "days_live": 81,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,18 +28,18 @@
     }
   },
   "stats": {
-    "n": 263,
-    "wins": 145,
-    "losses": 118,
-    "pending": 89,
-    "wr": 0.5513,
-    "roi": 0.0533,
-    "net": 14.01,
-    "tstat": 0.91
+    "n": 268,
+    "wins": 148,
+    "losses": 120,
+    "pending": 96,
+    "wr": 0.5522,
+    "roi": 0.055,
+    "net": 14.74,
+    "tstat": 0.95
   },
   "baselines": {
-    "all_discord_roi": 0.0054,
-    "top_prob_roi": -0.0052
+    "all_discord_roi": 0.0033,
+    "top_prob_roi": -0.0025
   },
   "today": [],
   "by_month": [
@@ -66,13 +66,169 @@
     },
     {
       "month": "2026-11",
-      "n": 29,
-      "wr": 0.5517,
-      "roi": 0.0541,
-      "net": 1.57
+      "n": 34,
+      "wr": 0.5588,
+      "roi": 0.0676,
+      "net": 2.3
     }
   ],
   "ledger": [
+    {
+      "id": "1924380",
+      "date": "2026-11-14",
+      "capper": "Duckinvestments",
+      "league": "OTHER",
+      "selection": "duckinvestments",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9398,
+      "edge": 0.4162,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924392",
+      "date": "2026-11-14",
+      "capper": "Prop Joe",
+      "league": "OTHER",
+      "selection": "propjoe",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9315,
+      "edge": 0.4079,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924394",
+      "date": "2026-11-14",
+      "capper": "Vezino",
+      "league": "OTHER",
+      "selection": "vezino",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.926,
+      "edge": 0.4024,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924390",
+      "date": "2026-11-14",
+      "capper": "Empire",
+      "league": "OTHER",
+      "selection": "empire",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9243,
+      "edge": 0.4007,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924378",
+      "date": "2026-11-14",
+      "capper": "Five",
+      "league": "OTHER",
+      "selection": "five",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.913,
+      "edge": 0.3895,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924387",
+      "date": "2026-11-14",
+      "capper": "Jb",
+      "league": "OTHER",
+      "selection": "jb",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9128,
+      "edge": 0.3892,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1923842",
+      "date": "2026-11-13",
+      "capper": "Duckinvestments",
+      "league": "NBA",
+      "selection": "memphis grizzlies ml vs new orleans pelicans",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.9235,
+      "edge": 0.3997,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1923843",
+      "date": "2026-11-13",
+      "capper": "Duckinvestments",
+      "league": "NBA",
+      "selection": "utah jazz +15.5 vs oklahoma city thunder",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.9141,
+      "edge": 0.3903,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1924093",
+      "date": "2026-11-13",
+      "capper": "Easy Independence811",
+      "league": "NATIONS LEAGUE",
+      "selection": "serbia draw no bet vs germany",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9018,
+      "edge": 0.3782,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924087",
+      "date": "2026-11-13",
+      "capper": "X Underscore X",
+      "league": "NATIONS LEAGUE",
+      "selection": "bulgaria vs iceland over 2 / switzerland draw no bet vs slovenia",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8948,
+      "edge": 0.3712,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1924014",
+      "date": "2026-11-13",
+      "capper": "Codycoverspreads",
+      "league": "NBA",
+      "selection": "san antonio spurs -10.5 vs utah jazz",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8917,
+      "edge": 0.3679,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1924098",
+      "date": "2026-11-13",
+      "capper": "BeerRoyalty",
+      "league": "NBA",
+      "selection": "victor wembanyama blk over 3.5",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8884,
+      "edge": 0.3648,
+      "status": "LOSS",
+      "profit": -1.0
+    },
     {
       "id": "1923498",
       "date": "2026-11-12",
@@ -239,8 +395,8 @@
       "dec": 1.8547008547008548,
       "prob": 0.8319,
       "edge": 0.2927,
-      "status": "PENDING",
-      "profit": null
+      "status": "LOSS",
+      "profit": -1.0
     },
     {
       "id": "1922281",
