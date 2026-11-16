@@ -1,168 +1,160 @@
-# 📝 Daily Action Log (Nov 14, 2026)
+# 📝 Daily Action Log (Nov 15, 2026)
 
 ### Kyanite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | indiana -7.5 vs usc | -110 | 0.30 | ✅ | +0.27u |
-| NCAAF | texas tech +3.5 vs oklahoma state | -110 | 0.26 | ✅ | +0.24u |
-| NBA | cedric coward reb over 6.5 | -110 | 0.26 | ✅ | +0.24u |
-| NBA | ausar thompson stl over 0.5 | -110 | 0.26 | ✅ | +0.24u |
-| NCAAF | wyoming vs utep over 40.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | jabree coleman rushyds over 47.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | nate sheppard recyds over 27.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | texas a&m ml vs tennessee volunteers | -110 | 0.19 | ❌ | -0.19u |
-| NCAAB | south dakota state -3.5 vs north dakota | -110 | 0.19 | ❌ | -0.19u |
-| NCAAB | st. josephs -4.5 vs drexel | -110 | 0.19 | ❌ | -0.19u |
-| NCAAB | tulane +12.5 vs vanderbilt | -110 | 0.19 | ❌ | -0.19u |
-| NCAAB | tulane +12.5 vs memphis | -110 | 0.19 | ❌ | -0.19u |
-| NCAAB | south dakota state -3.5 vs north dakota state | -110 | 0.19 | ❌ | -0.19u |
-| NCAAF | texas a&m vs georgia bulldogs ml | -110 | 0.20 | ❌ | -0.20u |
-| NCAAB | st. josephs -4.5 vs villanova | -110 | 0.20 | ❌ | -0.20u |
-| NCAAF | boston college +29.5 vs notre dame | -110 | 0.21 | ❌ | -0.21u |
-| NCAAB | northern illinois vs bellarmine over 149.5 | -110 | 0.21 | ❌ | -0.21u |
-| NCAAB | binghamton vs duquesne over 140.5 | -110 | 0.21 | ❌ | -0.21u |
-| NCAAF | cj baxter rushyds over 63.5 | -110 | 0.21 | ❌ | -0.21u |
-| NCAAF | jekail middlebrook rushyds over 72.5 vs liberty flames | -110 | 0.21 | ❌ | -0.21u |
+| NFL | jacksonville jaguars -10.5 vs tennessee titans | -110 | 0.35 | ✅ | +0.32u |
+| NCAAB | saint louis -6.5 vs dayton | -110 | 0.35 | ✅ | +0.32u |
+| NCAAB | st. johns -12.5 vs seton hall | -110 | 0.35 | ✅ | +0.32u |
+| NFL | minnesota vikings +3.5 vs green bay packers | -110 | 0.35 | ✅ | +0.32u |
+| NFL | minnesota vikings +3 vs green bay packers | -110 | 0.35 | ✅ | +0.32u |
+| NFL | miami dolphins vs indianapolis colts over 36.5 | -110 | 0.30 | ✅ | +0.27u |
+| NFL | minnesota vikings vs green bay packers under 43.5 | -110 | 0.30 | ✅ | +0.27u |
+| NFL | los angeles rams vs arizona cardinals over 37.5 | -110 | 0.30 | ✅ | +0.27u |
+| NFL | detroit lions ml vs new england patriots | -110 | 0.27 | ✅ | +0.25u |
+| NFL | atlanta falcons vs kansas city chiefs over 44 | -110 | 0.27 | ✅ | +0.25u |
+| NFL | cincinnati bengals vs pittsburgh steelers over 46 | -110 | 0.26 | ✅ | +0.24u |
+| NFL | cleveland browns +4.5 vs houston texans | -110 | 0.25 | ✅ | +0.23u |
+| NFL | detroit lions -2.5 vs new england patriots | -110 | 0.25 | ✅ | +0.23u |
+| NCAAF | oklahoma -2.5 vs ole miss | -110 | 0.25 | ✅ | +0.23u |
+| NFL | dallas cowboys vs san francisco 49ers over 55.5 | -110 | 0.25 | ✅ | +0.23u |
+| NFL | cincinnati bengals -3.5 vs pittsburgh steelers | -110 | 0.24 | ✅ | +0.22u |
+| NCAAF | boise state +9.5 | -110 | 0.19 | ✅ | +0.17u |
+| NCAAB | quinnipiac vs central connecticut under 134.5 | -110 | 0.19 | ✅ | +0.17u |
+| NFL | indianapolis colts vs miami dolphins over 37.5 | -110 | 0.19 | ✅ | +0.17u |
+| NFL | tennessee titans +11 vs jacksonville jaguars | -110 | 0.19 | ❌ | -0.19u |
 
-**Daily PnL: -6.70 Units**
+**Daily PnL: +0.10 Units**
 
 
 ### Carnelian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | wake forest ml vs smu | +122 | 0.21 | ✅ | +0.26u |
-| NCAAF | indiana -7.5 vs usc | -110 | 0.20 | ✅ | +0.18u |
-| NCAAF | texas tech +3.5 vs oklahoma state | -110 | 0.17 | ✅ | +0.15u |
-| NBA | cedric coward reb over 6.5 | -110 | 0.17 | ✅ | +0.15u |
-| NBA | ausar thompson stl over 0.5 | -110 | 0.17 | ✅ | +0.15u |
-| NCAAF | wyoming vs utep over 40.5 | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | jabree coleman rushyds over 47.5 | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | nate sheppard recyds over 27.5 | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | wake forest ml vs smu mustangs | +110 | 0.11 | ✅ | +0.12u |
-| NCAAF | north carolina +3.5 vs louisville cardinals | -110 | 0.10 | ✅ | +0.09u |
-| NCAAB | lsu +5.5 vs gonzaga bulldogs | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | uab vs temple under 47.5 | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | nebraska vs rutgers under 51.5 | -110 | 0.10 | ✅ | +0.09u |
-| NCAAB | lsu +5.5 vs gonzaga | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | tulsa -6.5 vs fau | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | penn state -12.5 vs minnesota | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | nebraska -13.5 vs rutgers | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | duke +14 vs miami | -110 | 0.10 | ✅ | +0.09u |
-| NCAAF | arkansas +7.5 vs south carolina | -110 | 0.10 | ✅ | +0.09u |
-| NBA | miami heat +4.5 vs detroit pistons | -110 | 0.10 | ✅ | +0.09u |
+| NFL | breece hall total receptions over 2.5 | +117 | 0.30 | ✅ | +0.35u |
+| NFL | jacksonville jaguars -10.5 vs tennessee titans | -110 | 0.30 | ✅ | +0.27u |
+| NCAAB | saint louis -6.5 vs dayton | -110 | 0.30 | ✅ | +0.27u |
+| NCAAB | st. johns -12.5 vs seton hall | -110 | 0.30 | ✅ | +0.27u |
+| NFL | minnesota vikings +3.5 vs green bay packers | -110 | 0.30 | ✅ | +0.27u |
+| NFL | minnesota vikings +3 vs green bay packers | -110 | 0.30 | ✅ | +0.27u |
+| NFL | miami dolphins vs indianapolis colts over 36.5 | -110 | 0.25 | ✅ | +0.23u |
+| NFL | minnesota vikings vs green bay packers under 43.5 | -110 | 0.25 | ✅ | +0.23u |
+| NFL | los angeles rams vs arizona cardinals over 37.5 | -110 | 0.25 | ✅ | +0.23u |
+| NFL | detroit lions ml vs new england patriots | -110 | 0.23 | ✅ | +0.21u |
+| NFL | atlanta falcons vs kansas city chiefs over 44 | -110 | 0.23 | ✅ | +0.21u |
+| NFL | 1q san francisco 49ers vs dallas cowboys total over 10.5 | +110 | 0.19 | ✅ | +0.21u |
+| NFL | cincinnati bengals vs pittsburgh steelers over 46 | -110 | 0.22 | ✅ | +0.20u |
+| NFL | cleveland browns +4.5 vs houston texans | -110 | 0.21 | ✅ | +0.19u |
+| NFL | detroit lions -2.5 vs new england patriots | -110 | 0.21 | ✅ | +0.19u |
+| NCAAF | oklahoma -2.5 vs ole miss | -110 | 0.21 | ✅ | +0.19u |
+| NFL | dallas cowboys vs san francisco 49ers over 55.5 | -110 | 0.21 | ✅ | +0.19u |
+| NFL | cincinnati bengals -3.5 vs pittsburgh steelers | -110 | 0.20 | ✅ | +0.18u |
+| NCAAF | boise state +9.5 | -110 | 0.16 | ✅ | +0.15u |
+| NCAAB | quinnipiac vs central connecticut under 134.5 | -110 | 0.16 | ✅ | +0.15u |
 
-**Daily PnL: -4.80 Units**
+**Daily PnL: -0.17 Units**
 
 
 ### V5 Sapphire Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | indiana -7.5 vs usc | -110 | 0.67 | ✅ | +0.61u |
-| NBA | ayo dosunmu pts over 17.5 | -110 | 0.67 | ❌ | -0.67u |
-| NHL | columbus blue jackets ml vs philadelphia flyers | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | james madison -4 vs uconn | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | texas a&m +3 vs tennessee | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | virginia tech vs virginia under 58.5 | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | texas a&m +3.5 vs lsu | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | utah -1.5 vs byu | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | louisville -3 vs clemson | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | virginia -10 vs duke | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | arkansas state vs coastal carolina over 50.5 | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | texas tech vs oklahoma state over 72 | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | wyoming vs utep over 40.5 | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | utah -1.5 vs colorado | -110 | 0.67 | ❌ | -0.67u |
-| NCAAF | virginia -10 vs virginia tech | -110 | 0.67 | ❌ | -0.67u |
+| NFL | minnesota vikings +3 vs green bay packers | -110 | 0.91 | ✅ | +0.83u |
+| NFL | cincinnati bengals vs pittsburgh steelers over 46 | -110 | 0.91 | ✅ | +0.83u |
+| NFL | detroit lions ml vs new england patriots | -110 | 0.91 | ✅ | +0.83u |
+| NFL | atlanta falcons vs kansas city chiefs over 44 | -110 | 0.91 | ✅ | +0.83u |
+| NFL | jaylen warren rush yards over 63.5 | -110 | 0.91 | ❌ | -0.91u |
+| NFL | dallas cowboys +4 vs san francisco 49ers | -110 | 0.91 | ❌ | -0.91u |
+| NFL | atlanta falcons +3.5 vs kansas city chiefs | -110 | 0.91 | ❌ | -0.91u |
+| NFL | los angeles rams vs arizona cardinals under 39.5 | -110 | 0.91 | ❌ | -0.91u |
+| NFL | carolina panthers vs new orleans saints over 48.5 | -110 | 0.91 | ❌ | -0.91u |
+| NFL | green bay packers vs minnesota vikings over 40.5 | -110 | 0.91 | ❌ | -0.91u |
+| NFL | houston texans vs cleveland browns ml | -110 | 0.91 | ❌ | -0.91u |
 
-**Daily PnL: -8.77 Units**
+**Daily PnL: -3.06 Units**
 
 
 ### V4 Quartz Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | indiana -7.5 vs usc | -109 | 1.17 | ✅ | +1.06u |
-| NCAAB | south dakota state -3.5 vs north dakota | -109 | 0.89 | ❌ | -0.89u |
-| NCAAB | south dakota state -3.5 vs north dakota state | -109 | 0.89 | ❌ | -0.89u |
-| NCAAB | st. josephs -4.5 vs drexel | -109 | 0.89 | ❌ | -0.89u |
-| NCAAB | st. josephs -4.5 vs villanova | -109 | 0.89 | ❌ | -0.89u |
-| NCAAB | tulane +12.5 vs memphis | -109 | 0.89 | ❌ | -0.89u |
-| Combat | cesar almeida ml vs donte johnson | +154 | 1.06 | ❌ | -1.06u |
-| NCAAF | duke vs clemson | -109 | 1.10 | ❌ | -1.10u |
-| NCAAF | michigan vs ohio state | -109 | 1.10 | ❌ | -1.10u |
-| NCAAF | virginia tech vs virginia under 58.5 | -109 | 1.11 | ❌ | -1.11u |
+| NCAAB | saint louis -6.5 | -109 | 1.52 | ✅ | +1.38u |
+| NCAAB | syracuse +12.5 vs st. johns red storm | -109 | 1.52 | ❌ | -1.52u |
+| NFL | matthew golden recyds over 68.5 / chris olave recyds over 76.5 / george pickens recyds over 62.5 | +376 | 1.62 | ❌ | -1.62u |
+| NFL | miami dolphins vs indianapolis colts under 37.5 | -109 | 1.63 | ❌ | -1.63u |
+| NFL | khalil shakir recyds over 41.5 / tyler warren recyds over 47.5 / harold fannin jr. recyds over 38.5 / jalen coker recyds over 51.5 | +583 | 1.85 | ❌ | -1.85u |
+| NFL | geno smith passyds over 250 / c.j. stroud passyds over 250 / jordan love passyds over 250 | +427 | 1.85 | ❌ | -1.85u |
 
-**Daily PnL: -7.76 Units**
+**Daily PnL: -7.09 Units**
 
 
 ### V3 Obsidian Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAF | texas tech +3.5 vs oklahoma state | -110 | 0.83 | ✅ | +0.75u |
-| NCAAF | texas a&m ml vs tennessee volunteers | -110 | 0.83 | ❌ | -0.83u |
-| NCAAF | texas a&m vs georgia bulldogs ml | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | south dakota state -3.5 vs north dakota | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | st. josephs -4.5 vs drexel | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | tulane +12.5 vs vanderbilt | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | tulane +12.5 vs memphis | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | northern kentucky -3.5 vs wright state | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | south dakota state -3.5 vs north dakota state | -110 | 0.83 | ❌ | -0.83u |
-| NCAAB | st. josephs -4.5 vs villanova | -110 | 0.83 | ❌ | -0.83u |
-| Other | paulo costa / terence mckinney | -110 | 0.83 | ❌ | -0.83u |
-| NCAAF | lsu -4.5 vs texas longhorns | -110 | 0.83 | ❌ | -0.83u |
+| NCAAF | boise state +10.5 | -110 | 0.83 | ✅ | +0.75u |
+| NFL | jacksonville jaguars -10.5 vs tennessee titans | -110 | 0.83 | ✅ | +0.75u |
+| NFL | cleveland browns +4.5 vs houston texans | -110 | 0.83 | ✅ | +0.75u |
+| NFL | kansas city chiefs vs atlanta falcons over 47.5 | -110 | 0.83 | ✅ | +0.75u |
+| NFL | indianapolis colts vs miami dolphins over 37.5 | -110 | 0.83 | ✅ | +0.75u |
+| NFL | dallas cowboys +4.5 vs san francisco 49ers | -110 | 0.83 | ❌ | -0.83u |
+| NFL | houston texans -4 vs cleveland browns | -110 | 0.83 | ❌ | -0.83u |
+| NCAAB | boise state +10.5 vs nebraska cornhuskers | -110 | 0.83 | ❌ | -0.83u |
+| NFL | new york jets +8.5 vs buffalo bills | -110 | 0.83 | ❌ | -0.83u |
+| NCAAF | texas a&m +3.5 vs tennessee volunteers | -110 | 0.83 | ❌ | -0.83u |
+| NFL | detroit lions vs new england patriots over 50.5 | -110 | 0.83 | ❌ | -0.83u |
+| NFL | green bay packers -2.5 vs minnesota vikings | -110 | 0.83 | ❌ | -0.83u |
 
-**Daily PnL: -8.38 Units**
+**Daily PnL: -2.04 Units**
 
 
 ### V2 Diamond Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NCAAB | michigan state -28.5 vs northern iowa panthers | -110 | 0.14 | ✅ | +0.13u |
-| NCAAB | uconn -11 vs ohio state buckeyes | -110 | 0.14 | ✅ | +0.13u |
-| NHL | nashville predators vs vegas golden knights under 6 | -110 | 0.14 | ✅ | +0.13u |
-| NCAAB | connecticut -11.5 vs ohio state buckeyes | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | illinois +10.5 vs ucla bruins | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | colorado +9 vs houston cougars | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | illinois +10.5 vs ucla bruins | -110 | 0.14 | ✅ | +0.13u |
-| NCAAB | miami hurricanes ml vs north alabama lions | -110 | 0.14 | ✅ | +0.13u |
-| NBA | san antonio spurs -11.5 vs golden state warriors | -110 | 0.14 | ✅ | +0.13u |
-| NBA | miami heat -2.5 vs cleveland cavaliers | -110 | 0.14 | ✅ | +0.13u |
-| NCAAB | maryland +6.5 vs virginia cavaliers | -110 | 0.14 | ✅ | +0.13u |
-| NCAAF | houston cougars vs colorado buffaloes over 50.5 | -110 | 0.13 | ✅ | +0.12u |
-| NBA | new york knicks vs indiana pacers under 220 | -110 | 0.12 | ✅ | +0.11u |
-| NCAAF | illinois vs ucla under 47.5 | -110 | 0.11 | ✅ | +0.10u |
-| NCAAF | pittsburgh -3.5 vs florida state seminoles | -110 | 0.11 | ❌ | -0.11u |
-| NCAAF | ucla -10 vs illinois fighting illini | -110 | 0.12 | ❌ | -0.12u |
-| NCAAF | florida state vs pittsburgh over 52.5 | -110 | 0.13 | ❌ | -0.13u |
-| NCAAF | washington -3 vs oregon | -110 | 0.13 | ❌ | -0.13u |
-| NCAAF | texas a&m +3 vs lsu | -110 | 0.13 | ❌ | -0.13u |
-| NCAAF | cincinnati vs iowa state over 59.5 | -110 | 0.13 | ❌ | -0.13u |
+| NCAAB | saint louis -6.5 vs dayton | -110 | 0.25 | ✅ | +0.23u |
+| NCAAB | st. johns -12.5 vs seton hall | -110 | 0.25 | ✅ | +0.23u |
+| NCAAF | boise state +10.5 | -110 | 0.25 | ✅ | +0.23u |
+| NCAAF | boise state +9.5 | -110 | 0.25 | ✅ | +0.23u |
+| NCAAB | quinnipiac vs central connecticut under 134.5 | -110 | 0.25 | ✅ | +0.23u |
+| NBA | oklahoma city thunder -9.5 vs sacramento kings | -110 | 0.25 | ✅ | +0.23u |
+| NCAAB | saint louis -6.5 | -110 | 0.25 | ✅ | +0.23u |
+| NBA | los angeles lakers -3 vs phoenix suns | -110 | 0.25 | ✅ | +0.23u |
+| NBA | houston rockets -8.5 vs washington wizards | -110 | 0.21 | ✅ | +0.19u |
+| NBA | los angeles lakers -3 vs phoenix suns | -110 | 0.21 | ✅ | +0.19u |
+| NBA | los angeles lakers -3 vs phoenix suns | -110 | 0.19 | ✅ | +0.17u |
+| NBA | los angeles lakers -3 vs phoenix suns | -110 | 0.16 | ✅ | +0.15u |
+| NBA | darryn peterson total assists over 3.5 | -110 | 0.16 | ✅ | +0.15u |
+| NHL | anaheim ducks ml vs calgary flames | -110 | 0.15 | ✅ | +0.14u |
+| NHL | vancouver canucks vs vegas golden knights over 6.5 | -110 | 0.12 | ✅ | +0.11u |
+| NHL | anaheim ducks ml vs calgary flames | -110 | 0.11 | ✅ | +0.10u |
+| NBA | houston rockets vs washington wizards over 220 | -110 | 0.11 | ✅ | +0.10u |
+| NBA | boston celtics vs dallas mavericks over 217 | -110 | 0.11 | ✅ | +0.10u |
+| NBA | los angeles lakers -2 vs phoenix suns | -110 | 0.11 | ✅ | +0.10u |
+| NBA | los angeles lakers vs phoenix suns over 224 | -110 | 0.11 | ✅ | +0.10u |
 
-**Daily PnL: -3.61 Units**
+**Daily PnL: -2.47 Units**
 
 
 ### V1 Pyrite Action
 | LEAGUE | PICK | ODDS | UNIT | RES | PROFIT |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| NBA | utah jazz vs new orleans pelicans under 234.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAB | maryland eastern shore +34.5 vs virginia | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | central michigan +1.5 vs eastern michigan | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | central michigan -2.5 vs eastern michigan | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | central michigan +1.5 | -110 | 0.21 | ✅ | +0.19u |
-| NBA | phoenix suns total points over 112.5 vs portland trail blazers | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | central michigan +1.5 vs eastern michigan | -110 | 0.21 | ✅ | +0.19u |
-| NBA | indiana pacers +5.5 vs memphis grizzlies | -110 | 0.21 | ✅ | +0.19u |
-| NCAAB | saint marys -12.5 vs north dakota state | -110 | 0.21 | ✅ | +0.19u |
-| NBA | portland trail blazers -3.5 vs utah jazz | -110 | 0.21 | ✅ | +0.19u |
-| NBA | memphis grizzlies vs indiana pacers under 230.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | central michigan +1.5 vs eastern michigan | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | ball state vs massachusetts over 48.5 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | utsa vs florida atlantic over 73 | -110 | 0.21 | ✅ | +0.19u |
-| NCAAF | james madison vs southern miss over 57.5 | -110 | 0.20 | ✅ | +0.18u |
-| NCAAB | saint marys gaels -12.5 vs north dakota state bison | -110 | 0.20 | ✅ | +0.18u |
-| NCAAF | ball state vs massachusetts over 48.5 | -110 | 0.19 | ✅ | +0.17u |
-| NBA | ajay mitchell pts over 18.5 | -110 | 0.18 | ✅ | +0.16u |
-| NBA | jaylin williams pts+ast under 9.5 | -110 | 0.18 | ✅ | +0.16u |
-| NBA | kyle kuzma assists over 2.5 | -110 | 0.18 | ✅ | +0.16u |
+| Other | juan pablo varillas ml vs bueno | +100 | 0.18 | ❌ | -0.18u |
+| NFL | los angeles chargers +4.5 vs baltimore ravens | -110 | 0.21 | ❌ | -0.21u |
+| NFL | los angeles chargers vs baltimore ravens under 39.5 | -110 | 0.21 | ❌ | -0.21u |
+| NCAAB | virginia tech -12.5 vs maine | -110 | 0.28 | ❌ | -0.28u |
+| NFL | los angeles chargers vs baltimore ravens under 39.5 | -110 | 0.31 | ❌ | -0.31u |
+| NFL | los angeles chargers +4.5 vs baltimore ravens | -110 | 0.31 | ❌ | -0.31u |
+| Other | switzerland vs scotland 1x / greece vs serbia 2 03 / greece vs serbia under 5.5 / germany vs netherlands 2 03 | +175 | 0.42 | ❌ | -0.42u |
+| Other | daniil medvedev 2-0 | -110 | 0.42 | ❌ | -0.42u |
+| NCAAB | kansas state -15.5 vs colorado state | -110 | 0.42 | ❌ | -0.42u |
+| NFL | los angeles chargers spread vs baltimore ravens | -110 | 0.42 | ❌ | -0.42u |
+| NFL | los angeles chargers +4.5 vs baltimore ravens | -110 | 0.42 | ❌ | -0.42u |
+| NCAAB | abilene christian +6 vs utah tech | -110 | 0.42 | ❌ | -0.42u |
+| NFL | baltimore ravens -4.5 vs los angeles chargers | -110 | 0.42 | ❌ | -0.42u |
+| NBA | memphis grizzlies -3.5 vs washington wizards | -110 | 0.42 | ❌ | -0.42u |
+| NCAAB | montana +16.5 vs kansas state | -110 | 0.42 | ❌ | -0.42u |
+| NCAAB | western kentucky +7 vs tulsa | -110 | 0.42 | ❌ | -0.42u |
+| NHL | vancouver canucks vs utah mammoth over 6.5 | -110 | 0.42 | ❌ | -0.42u |
+| NCAAB | kentucky -29.5 vs bucknell | -110 | 0.42 | ❌ | -0.42u |
+| NBA | cleveland cavaliers -8.5 vs charlotte hornets | -110 | 0.42 | ❌ | -0.42u |
+| NFL | los angeles chargers +4.5 vs baltimore ravens | -110 | 0.42 | ❌ | -0.42u |
 
-**Daily PnL: +0.78 Units**
+**Daily PnL: -9.48 Units**
 
 
