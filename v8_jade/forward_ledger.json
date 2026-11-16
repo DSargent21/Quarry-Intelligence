@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-15 03:03:20.665195",
+  "updated_at": "2026-11-16 03:03:32.677309",
   "summary": {
-    "graded": 215,
-    "pending": 47,
-    "pushes": 3,
-    "profit": -9.84,
-    "roi": -0.0458,
-    "adj_roi": -0.0463,
+    "graded": 219,
+    "pending": 48,
+    "pushes": 4,
+    "profit": -8.36,
+    "roi": -0.0382,
+    "adj_roi": -0.0396,
     "grade": "D"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -3192,6 +3192,78 @@
       "shrunk_acc_lt": 0.5739,
       "added_at": "2026-11-15 03:03:20.663231",
       "result": "WIN"
+    },
+    {
+      "id": "1924491",
+      "pick_date": "2026-11-14",
+      "capper": "Midwestmikesports",
+      "league": "OTHER",
+      "pick": "(LSU ML) / (Alabama ML)",
+      "odds_american": -120.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5655,
+      "added_at": "2026-11-16 03:03:32.675451",
+      "result": "WIN"
+    },
+    {
+      "id": "1924495",
+      "pick_date": "2026-11-14",
+      "capper": "Midwestmikesports",
+      "league": "NCAAF",
+      "pick": "(Ncaaf) USC +17.5 vs Indiana / (Ncaaf) Under 60.5",
+      "odds_american": -125.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5655,
+      "added_at": "2026-11-16 03:03:32.675517",
+      "result": "PENDING"
+    },
+    {
+      "id": "1924492",
+      "pick_date": "2026-11-14",
+      "capper": "Midwestmikesports",
+      "league": "OTHER",
+      "pick": "(Oklahoma State ML) / (Georgia ML)",
+      "odds_american": -114.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5655,
+      "added_at": "2026-11-16 03:03:32.675549",
+      "result": "LOSS"
+    },
+    {
+      "id": "1924880",
+      "pick_date": "2026-11-14",
+      "capper": "Bulliespicks",
+      "league": "NCAAF",
+      "pick": "(TCU -9.5) vs Kansas State Wildcats / (Boise State ML) vs Te",
+      "odds_american": -123.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5623,
+      "added_at": "2026-11-16 03:03:32.675576",
+      "result": "WIN"
+    },
+    {
+      "id": "1924879",
+      "pick_date": "2026-11-14",
+      "capper": "Bulliespicks",
+      "league": "NCAAF",
+      "pick": "(Vanderbilt +17.5) vs Alabama Crimson Tide / (Boise State ML",
+      "odds_american": -120.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5623,
+      "added_at": "2026-11-16 03:03:32.675603",
+      "result": "WIN"
+    },
+    {
+      "id": "1925113",
+      "pick_date": "2026-11-15",
+      "capper": "Ben Burns",
+      "league": "NFL",
+      "pick": "Dallas Cowboys +4.5 vs San Francisco 49ers",
+      "odds_american": -115.0,
+      "prob": 0.379,
+      "shrunk_acc_lt": 0.5844,
+      "added_at": "2026-11-16 03:03:32.675629",
+      "result": "PENDING"
     }
   ]
 }
