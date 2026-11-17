@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-16 19:35 UTC",
+    "last_update": "2026-11-17 18:27 UTC",
     "start_date": "2026-08-27",
-    "days_live": 82,
+    "days_live": 83,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,99 +28,20 @@
     }
   },
   "stats": {
-    "n": 279,
-    "wins": 157,
+    "n": 280,
+    "wins": 158,
     "losses": 122,
-    "pending": 97,
-    "wr": 0.5627,
-    "roi": 0.0755,
-    "net": 21.06,
-    "tstat": 1.33
+    "pending": 96,
+    "wr": 0.5643,
+    "roi": 0.0785,
+    "net": 21.97,
+    "tstat": 1.38
   },
   "baselines": {
-    "all_discord_roi": -0.0009,
-    "top_prob_roi": -0.0145
+    "all_discord_roi": 0.0027,
+    "top_prob_roi": 0.012
   },
-  "today": [
-    {
-      "id": "1925574",
-      "date": "2026-11-16",
-      "capper": "Al MacMillan",
-      "league": "NFL",
-      "selection": "los angeles chargers vs baltimore ravens under 39.5",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.8799,
-      "edge": 0.3563,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1925564",
-      "date": "2026-11-16",
-      "capper": "Teddy Covers",
-      "league": "NBA",
-      "selection": "memphis grizzlies ml vs washington wizards",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.868,
-      "edge": 0.3445,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1925565",
-      "date": "2026-11-16",
-      "capper": "Teddy Covers",
-      "league": "NBA",
-      "selection": "golden state warriors ml vs new orleans pelicans",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.8632,
-      "edge": 0.3397,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1925833",
-      "date": "2026-11-16",
-      "capper": "Tony George",
-      "league": "NCAAF",
-      "selection": "western kentucky +7.5 vs sam houston state",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.8533,
-      "edge": 0.3297,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1925563",
-      "date": "2026-11-16",
-      "capper": "Jeff Michaels",
-      "league": "NBA",
-      "selection": "houston rockets vs miami heat over 230",
-      "odds": -113.0,
-      "dec": 1.8849557522123894,
-      "prob": 0.8511,
-      "edge": 0.3206,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1925817",
-      "date": "2026-11-16",
-      "capper": "Calebpicks",
-      "league": "NCAAB",
-      "selection": "kansas state -15.5 vs colorado state",
-      "odds": -110.0,
-      "dec": 1.9090909090909092,
-      "prob": 0.851,
-      "edge": 0.3271,
-      "status": "PENDING",
-      "profit": null
-    }
-  ],
+  "today": [],
   "by_month": [
     {
       "month": "2026-08",
@@ -145,10 +66,10 @@
     },
     {
       "month": "2026-11",
-      "n": 45,
-      "wr": 0.6222,
-      "roi": 0.1916,
-      "net": 8.62
+      "n": 46,
+      "wr": 0.6304,
+      "roi": 0.2072,
+      "net": 9.53
     }
   ],
   "ledger": [
@@ -201,8 +122,8 @@
       "dec": 1.91,
       "prob": 0.8533,
       "edge": 0.3297,
-      "status": "PENDING",
-      "profit": null
+      "status": "WIN",
+      "profit": 0.91
     },
     {
       "id": "1925563",
