@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-17 05:18:12.108301
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-18 04:49:48.042416
 
-**Graded: 219 | Pending: 53 | Pushes: 1**
-**Profit: -8.4u | ROI: -3.8% | Adj ROI: -4.0% | Grade: D**
+**Graded: 228 | Pending: 48 | Pushes: 5**
+**Profit: -7.9u | ROI: -3.5% | Adj ROI: -3.7% | Grade: D**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -81,7 +81,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-17 05:18:12.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -89,7 +89,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-17 05:18:12.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -130,8 +130,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-17 05:18:12.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -275,8 +275,16 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-17 05:18:12.
 | 2026-11-14 | Bulliespicks | NCAAF | (TCU -9.5) vs Kansas State Wildcats / (B | -123 | 0.559 | WIN |
 | 2026-11-14 | Bulliespicks | NCAAF | (Vanderbilt +17.5) vs Alabama Crimson Ti | -120 | 0.559 | WIN |
 | 2026-11-14 | Midwestmikesports | OTHER | (LSU ML) / (Alabama ML) | -120 | 0.589 | WIN |
-| 2026-11-14 | Midwestmikesports | NCAAF | (Ncaaf) USC +17.5 vs Indiana / (Ncaaf) U | -125 | 0.573 | PENDING |
+| 2026-11-14 | Midwestmikesports | NCAAF | (Ncaaf) USC +17.5 vs Indiana / (Ncaaf) U | -125 | 0.573 | WIN |
 | 2026-11-14 | Midwestmikesports | OTHER | (Oklahoma State ML) / (Georgia ML) | -114 | 0.573 | LOSS |
 | 2026-11-15 | Ben Burns | NFL | Dallas Cowboys +4.5 vs San Francisco 49e | -115 | 0.379 | PENDING |
-| 2026-11-16 | Caruso | NFL | Los Angeles Chargers +4.5 vs Baltimore R | -110 | 0.589 | PENDING |
+| 2026-11-15 | Parlay P | NFL | Green Bay Packers ML vs Minnesota Viking | -110 | 0.589 | LOSS |
+| 2026-11-15 | Parlay P | NHL | Anaheim Ducks ML vs Calgary Flames | -110 | 0.589 | WIN |
+| 2026-11-15 | Parlay P | NFL | Buffalo Bills ML vs New York Jets | -110 | 0.589 | WIN |
+| 2026-11-15 | Parlay P | NFL | Houston Texans ML vs Cleveland Browns | -110 | 0.589 | LOSS |
+| 2026-11-16 | Caruso | NFL | Los Angeles Chargers +4.5 vs Baltimore R | -110 | 0.589 | WIN |
+| 2026-11-16 | Parlay P | NBA | Denver Nuggets ML vs Phoenix Suns | -110 | 0.589 | LOSS |
+| 2026-11-16 | Parlay P | NFL | Baltimore Ravens ML vs Los Angeles Charg | -110 | 0.589 | LOSS |
+| 2026-11-16 | Parlay P | NBA | Philadelphia 76ers ML vs Brooklyn Nets | -110 | 0.589 | WIN |
 | 2026-11-16 | Prosportspicks | NBA | Miami Heat +2.5 vs Houston Rockets | -116 | 0.466 | PENDING |
+| 2026-11-17 | Ben Burns | NCAAF | Dayton -9.5 vs Central Michigan | -110 | 0.547 | PENDING |

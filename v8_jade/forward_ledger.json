@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-17 05:18:12.108301",
+  "updated_at": "2026-11-18 04:49:48.042416",
   "summary": {
-    "graded": 219,
-    "pending": 53,
-    "pushes": 1,
-    "profit": -8.36,
-    "roi": -0.0382,
-    "adj_roi": -0.0396,
+    "graded": 228,
+    "pending": 48,
+    "pushes": 5,
+    "profit": -7.93,
+    "roi": -0.0348,
+    "adj_roi": -0.0365,
     "grade": "D"
   },
   "picks": [
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -3215,7 +3215,7 @@
       "prob": 0.5728,
       "shrunk_acc_lt": 0.5655,
       "added_at": "2026-11-16 03:03:32.675517",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1924492",
@@ -3275,7 +3275,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5678,
       "added_at": "2026-11-17 05:18:12.106494",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1926076",
@@ -3287,6 +3287,102 @@
       "prob": 0.4662,
       "shrunk_acc_lt": 0.5709,
       "added_at": "2026-11-17 05:18:12.106567",
+      "result": "PENDING"
+    },
+    {
+      "id": "1925174",
+      "pick_date": "2026-11-15",
+      "capper": "Parlay P",
+      "league": "NFL",
+      "pick": "Green Bay Packers ML vs Minnesota Vikings",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5507,
+      "added_at": "2026-11-18 04:49:48.039328",
+      "result": "LOSS"
+    },
+    {
+      "id": "1925160",
+      "pick_date": "2026-11-15",
+      "capper": "Parlay P",
+      "league": "NHL",
+      "pick": "Anaheim Ducks ML vs Calgary Flames",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5507,
+      "added_at": "2026-11-18 04:49:48.039429",
+      "result": "WIN"
+    },
+    {
+      "id": "1925166",
+      "pick_date": "2026-11-15",
+      "capper": "Parlay P",
+      "league": "NFL",
+      "pick": "Buffalo Bills ML vs New York Jets",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5507,
+      "added_at": "2026-11-18 04:49:48.039509",
+      "result": "WIN"
+    },
+    {
+      "id": "1925165",
+      "pick_date": "2026-11-15",
+      "capper": "Parlay P",
+      "league": "NFL",
+      "pick": "Houston Texans ML vs Cleveland Browns",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5507,
+      "added_at": "2026-11-18 04:49:48.039598",
+      "result": "LOSS"
+    },
+    {
+      "id": "1926088",
+      "pick_date": "2026-11-16",
+      "capper": "Parlay P",
+      "league": "NBA",
+      "pick": "Denver Nuggets ML vs Phoenix Suns",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5567,
+      "added_at": "2026-11-18 04:49:48.039709",
+      "result": "LOSS"
+    },
+    {
+      "id": "1926092",
+      "pick_date": "2026-11-16",
+      "capper": "Parlay P",
+      "league": "NFL",
+      "pick": "Baltimore Ravens ML vs Los Angeles Chargers",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5567,
+      "added_at": "2026-11-18 04:49:48.039782",
+      "result": "LOSS"
+    },
+    {
+      "id": "1926085",
+      "pick_date": "2026-11-16",
+      "capper": "Parlay P",
+      "league": "NBA",
+      "pick": "Philadelphia 76ers ML vs Brooklyn Nets",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5567,
+      "added_at": "2026-11-18 04:49:48.039854",
+      "result": "WIN"
+    },
+    {
+      "id": "1930892",
+      "pick_date": "2026-11-17",
+      "capper": "Ben Burns",
+      "league": "NCAAF",
+      "pick": "Dayton -9.5 vs Central Michigan",
+      "odds_american": -110.0,
+      "prob": 0.5472,
+      "shrunk_acc_lt": 0.581,
+      "added_at": "2026-11-18 04:49:48.040004",
       "result": "PENDING"
     }
   ]
