@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-18 04:49:48.042416",
+  "updated_at": "2026-11-19 04:31:34.763435",
   "summary": {
-    "graded": 228,
-    "pending": 48,
-    "pushes": 5,
-    "profit": -7.93,
-    "roi": -0.0348,
-    "adj_roi": -0.0365,
+    "graded": 229,
+    "pending": 53,
+    "pushes": 0,
+    "profit": -7.02,
+    "roi": -0.0307,
+    "adj_roi": -0.0329,
     "grade": "D"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1886745",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1896492",
@@ -3384,6 +3384,18 @@
       "shrunk_acc_lt": 0.581,
       "added_at": "2026-11-18 04:49:48.040004",
       "result": "PENDING"
+    },
+    {
+      "id": "1930834",
+      "pick_date": "2026-11-17",
+      "capper": "Caruso",
+      "league": "NCAAB",
+      "pick": "Tennessee Volunteers +3.5 vs Michigan State Spartans",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5726,
+      "added_at": "2026-11-19 04:31:34.761616",
+      "result": "WIN"
     }
   ]
 }
