@@ -1,13 +1,13 @@
 {
     "meta": {
-        "last_update": "2026-11-18 12:55 ET",
+        "last_update": "2026-11-19 13:08 ET",
         "status": "NOMINAL",
-        "cache_bust": 1795024555.668552
+        "cache_bust": 1795111717.394523
     },
     "models": {
         "pyrite": {
             "roi": -5.7,
-            "net": -102.12,
+            "net": -102.13,
             "wins": 4781,
             "losses": 4625,
             "pushes": 0,
@@ -20,19 +20,9 @@
                 "date": "Nov 17, 2026",
                 "record": "16-61-0",
                 "win_rate": 20.8,
-                "net": -5.56,
-                "roi": -60.9,
+                "net": -5.57,
+                "roi": -61.0,
                 "ledger": [
-                    {
-                        "date": "11/17",
-                        "league": "NBA",
-                        "selection": "portland trail blazers +6.5 vs minnesota timberwolves",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.12731894708815072
-                    },
                     {
                         "date": "11/17",
                         "league": "NCAAF",
@@ -42,6 +32,16 @@
                         "profit": 0.11,
                         "result": "WIN",
                         "edge": 0.12507483221235727
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NBA",
+                        "selection": "portland trail blazers +6.5 vs minnesota timberwolves",
+                        "odds": -110,
+                        "wager": 0.12,
+                        "profit": 0.11,
+                        "result": "WIN",
+                        "edge": 0.12419542528334115
                     },
                     {
                         "date": "11/17",
@@ -71,7 +71,7 @@
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.07602980591001962
+                        "edge": 0.08158877350035165
                     },
                     {
                         "date": "11/17",
@@ -106,6 +106,26 @@
                     {
                         "date": "11/17",
                         "league": "NCAAB",
+                        "selection": "illinois +8 vs duke blue devils",
+                        "odds": -110,
+                        "wager": 0.12,
+                        "profit": 0.11,
+                        "result": "WIN",
+                        "edge": 0.059523610841660246
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NHL",
+                        "selection": "washington capitals vs tampa bay lightning over 6.5",
+                        "odds": -110,
+                        "wager": 0.12,
+                        "profit": 0.11,
+                        "result": "WIN",
+                        "edge": 0.059523610841660246
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAB",
                         "selection": "notre dame +15.5 vs duke",
                         "odds": -110,
                         "wager": 0.12,
@@ -125,33 +145,13 @@
                     },
                     {
                         "date": "11/17",
-                        "league": "NHL",
-                        "selection": "washington capitals vs tampa bay lightning over 6.5",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.050004093419937834
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "illinois +8 vs duke blue devils",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.050004093419937834
-                    },
-                    {
-                        "date": "11/17",
                         "league": "NBA",
                         "selection": "new york knicks -4 vs toronto raptors",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.03831490732374643
+                        "edge": 0.03772857643309091
                     },
                     {
                         "date": "11/17",
@@ -166,16 +166,6 @@
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "toronto raptors vs chicago bulls under 215.5",
-                        "odds": -110,
-                        "wager": 0.1,
-                        "profit": 0.09,
-                        "result": "WIN",
-                        "edge": 0.03061178184690927
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NBA",
                         "selection": "toronto raptors vs new york knicks under 215.5",
                         "odds": -110,
                         "wager": 0.1,
@@ -185,23 +175,13 @@
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "indiana hoosiers +1.5",
+                        "league": "NBA",
+                        "selection": "toronto raptors vs chicago bulls under 215.5",
                         "odds": -110,
                         "wager": 0.1,
-                        "profit": -0.1,
-                        "result": "LOSS",
-                        "edge": 0.032808987867264494
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "duke -7.5 vs illinois",
-                        "odds": -110,
-                        "wager": 0.1,
-                        "profit": -0.1,
-                        "result": "LOSS",
-                        "edge": 0.03171780563536142
+                        "profit": 0.09,
+                        "result": "WIN",
+                        "edge": 0.03061178184690927
                     },
                     {
                         "date": "11/17",
@@ -216,33 +196,53 @@
                     {
                         "date": "11/17",
                         "league": "NCAAB",
-                        "selection": "william & mary ml vs virginia",
+                        "selection": "duke -7.5 vs illinois",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.03171780563536142
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAF",
+                        "selection": "indiana hoosiers +1.5",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": -0.11,
+                        "result": "LOSS",
+                        "edge": 0.03339674926939462
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NBA",
+                        "selection": "los angeles clippers -2.5 vs utah jazz",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": -0.12,
                         "result": "LOSS",
-                        "edge": 0.12731894708815072
+                        "edge": 0.12419542528334115
                     }
                 ]
             }
         },
         "diamond": {
             "roi": 0.2,
-            "net": 3.89,
+            "net": 4.46,
             "wins": 4555,
-            "losses": 4000,
+            "losses": 3996,
             "pushes": 0,
-            "record": "4555-4000-0",
-            "win_rate": 53.2,
-            "sample": 8555,
+            "record": "4555-3996-0",
+            "win_rate": 53.3,
+            "sample": 8551,
             "bets_day": 24.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Nov 17, 2026",
                 "record": "13-47-0",
                 "win_rate": 21.7,
-                "net": -5.8,
-                "roi": -61.9,
+                "net": -5.77,
+                "roi": -62.1,
                 "ledger": [
                     {
                         "date": "11/17",
@@ -252,37 +252,27 @@
                         "wager": 0.19,
                         "profit": 0.17,
                         "result": "WIN",
-                        "edge": 0.12687209106626962
+                        "edge": 0.12736853815260385
                     },
                     {
                         "date": "11/17",
                         "league": "NCAAB",
                         "selection": "illinois +8 vs duke blue devils",
                         "odds": -110,
-                        "wager": 0.18,
-                        "profit": 0.16,
+                        "wager": 0.17,
+                        "profit": 0.15,
                         "result": "WIN",
-                        "edge": 0.07325914360228036
+                        "edge": 0.07347985960188363
                     },
                     {
                         "date": "11/17",
                         "league": "NCAAF",
                         "selection": "ball state +10 vs miami oh",
                         "odds": -110,
-                        "wager": 0.17,
+                        "wager": 0.16,
                         "profit": 0.15,
                         "result": "WIN",
                         "edge": 0.08287122703733896
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NHL",
-                        "selection": "toronto maple leafs vs chicago blackhawks over 6.5",
-                        "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
-                        "result": "WIN",
-                        "edge": 0.09183034158888315
                     },
                     {
                         "date": "11/17",
@@ -296,11 +286,31 @@
                     },
                     {
                         "date": "11/17",
+                        "league": "NHL",
+                        "selection": "toronto maple leafs vs chicago blackhawks over 6.5",
+                        "odds": -110,
+                        "wager": 0.14,
+                        "profit": 0.13,
+                        "result": "WIN",
+                        "edge": 0.09183034158888315
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAF",
+                        "selection": "eastern michigan +15.5 vs western michigan broncos",
+                        "odds": -110,
+                        "wager": 0.14,
+                        "profit": 0.13,
+                        "result": "WIN",
+                        "edge": 0.06915774799528573
+                    },
+                    {
+                        "date": "11/17",
                         "league": "NCAAB",
                         "selection": "notre dame +15.5 vs duke",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.14,
+                        "profit": 0.13,
                         "result": "WIN",
                         "edge": 0.061266212236313566
                     },
@@ -309,8 +319,8 @@
                         "league": "NCAAB",
                         "selection": "notre dame +15.5 vs florida gators",
                         "odds": -110,
-                        "wager": 0.15,
-                        "profit": 0.14,
+                        "wager": 0.14,
+                        "profit": 0.13,
                         "result": "WIN",
                         "edge": 0.061266212236313566
                     },
@@ -332,27 +342,7 @@
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.07325914360228036
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "eastern michigan +15.5 vs western michigan broncos",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.06077334142866586
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NBA",
-                        "selection": "toronto raptors vs chicago bulls under 215.5",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": 0.11,
-                        "result": "WIN",
-                        "edge": 0.051060943376450285
+                        "edge": 0.07347985960188363
                     },
                     {
                         "date": "11/17",
@@ -362,7 +352,17 @@
                         "wager": 0.12,
                         "profit": 0.11,
                         "result": "WIN",
-                        "edge": 0.051060943376450285
+                        "edge": 0.0497091696375892
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NBA",
+                        "selection": "toronto raptors vs chicago bulls under 215.5",
+                        "odds": -110,
+                        "wager": 0.12,
+                        "profit": 0.11,
+                        "result": "WIN",
+                        "edge": 0.0497091696375892
                     },
                     {
                         "date": "11/17",
@@ -377,17 +377,7 @@
                     {
                         "date": "11/17",
                         "league": "NCAAF",
-                        "selection": "ohio bobcats -10 vs western michigan",
-                        "odds": -110,
-                        "wager": 0.1,
-                        "profit": -0.1,
-                        "result": "LOSS",
-                        "edge": 0.052705793153671965
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "ohio -10 vs ball state cardinals",
+                        "selection": "ohio -10 vs miami oh",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": -0.1,
@@ -407,12 +397,42 @@
                     {
                         "date": "11/17",
                         "league": "NCAAF",
-                        "selection": "ohio -10 vs miami oh",
+                        "selection": "ohio -10 vs ball state cardinals",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": -0.1,
                         "result": "LOSS",
                         "edge": 0.052705793153671965
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAF",
+                        "selection": "ohio bobcats -10 vs western michigan",
+                        "odds": -110,
+                        "wager": 0.1,
+                        "profit": -0.1,
+                        "result": "LOSS",
+                        "edge": 0.052705793153671965
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAB",
+                        "selection": "ncaab ball state +14.5 vs opponent / ncaab duke ml vs opponent",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": -0.11,
+                        "result": "LOSS",
+                        "edge": 0.048452584516434416
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAB",
+                        "selection": "ncaab duke ml vs opponent / ncaab miami university oh ml vs opponent",
+                        "odds": -110,
+                        "wager": 0.11,
+                        "profit": -0.11,
+                        "result": "LOSS",
+                        "edge": 0.048452584516434416
                     },
                     {
                         "date": "11/17",
@@ -423,38 +443,18 @@
                         "profit": -0.11,
                         "result": "LOSS",
                         "edge": 0.04484715915861581
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NHL",
-                        "selection": "san jose sharks ml vs calgary flames",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": -0.12,
-                        "result": "LOSS",
-                        "edge": 0.07383826233091806
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NHL",
-                        "selection": "boston bruins ml vs los angeles kings",
-                        "odds": -110,
-                        "wager": 0.12,
-                        "profit": -0.12,
-                        "result": "LOSS",
-                        "edge": 0.07325914360228036
                     }
                 ]
             }
         },
         "obsidian": {
-            "roi": 0.2,
-            "net": 6.69,
-            "wins": 1810,
-            "losses": 1956,
+            "roi": 0.4,
+            "net": 13.03,
+            "wins": 1814,
+            "losses": 1952,
             "pushes": 0,
-            "record": "1810-1956-0",
-            "win_rate": 48.1,
+            "record": "1814-1952-0",
+            "win_rate": 48.2,
             "sample": 3766,
             "bets_day": 11.0,
             "status": "ACTIVE",
@@ -473,7 +473,7 @@
                         "wager": 0.83,
                         "profit": 0.75,
                         "result": "WIN",
-                        "edge": 0.15364250398817514
+                        "edge": 0.14990505434217904
                     },
                     {
                         "date": "11/17",
@@ -487,13 +487,13 @@
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "william & mary ml vs virginia",
+                        "league": "NBA",
+                        "selection": "los angeles clippers -2.5 vs utah jazz",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.15364250398817514
+                        "edge": 0.14990505434217904
                     },
                     {
                         "date": "11/17",
@@ -503,22 +503,22 @@
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.15364250398817514
+                        "edge": 0.14990505434217904
                     },
                     {
                         "date": "11/17",
-                        "league": "NBA",
-                        "selection": "los angeles clippers -2.5 vs utah jazz",
+                        "league": "NCAAB",
+                        "selection": "william & mary ml vs virginia",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
                         "result": "LOSS",
-                        "edge": 0.15364250398817514
+                        "edge": 0.14990505434217904
                     },
                     {
                         "date": "11/17",
-                        "league": "NHL",
-                        "selection": "florida panthers ml vs edmonton oilers / toronto raptors ml / tennessee volunteers +4",
+                        "league": "NCAAB",
+                        "selection": "william & mary -2.5 vs bowling green",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -537,8 +537,8 @@
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "william & mary -2.5 vs bowling green",
+                        "league": "NHL",
+                        "selection": "florida panthers ml vs edmonton oilers / toronto raptors ml / tennessee volunteers +4",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -567,8 +567,8 @@
                     },
                     {
                         "date": "11/17",
-                        "league": "NBA",
-                        "selection": "duke ml / miami university ml",
+                        "league": "NCAAB",
+                        "selection": "manhattan +11.5 vs siena",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -577,8 +577,8 @@
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "manhattan +11.5 vs siena",
+                        "league": "NBA",
+                        "selection": "portland trail blazers vs minnesota timberwolves over 228.5",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -589,171 +589,141 @@
             }
         },
         "quartz": {
-            "roi": 0.1,
-            "net": 1.28,
-            "wins": 476,
-            "losses": 557,
+            "roi": 0.3,
+            "net": 4.61,
+            "wins": 477,
+            "losses": 555,
             "pushes": 0,
-            "record": "476-557-0",
-            "win_rate": 46.1,
-            "sample": 1033,
+            "record": "477-555-0",
+            "win_rate": 46.2,
+            "sample": 1032,
             "bets_day": 4.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Nov 17, 2026",
-                "record": "3-7-0",
-                "win_rate": 30.0,
-                "net": -4.81,
-                "roi": -48.1,
+                "record": "2-6-0",
+                "win_rate": 25.0,
+                "net": -5.19,
+                "roi": -51.9,
                 "ledger": [
                     {
                         "date": "11/17",
                         "league": "NCAAB",
                         "selection": "illinois +8 vs duke blue devils",
                         "odds": -109,
-                        "wager": 0.99,
-                        "profit": 0.9,
+                        "wager": 1.26,
+                        "profit": 1.15,
                         "result": "WIN",
-                        "edge": 0.059675988096107635
+                        "edge": 0.08358490714018041
                     },
                     {
                         "date": "11/17",
                         "league": "NHL",
                         "selection": "washington capitals vs tampa bay lightning over 6.5",
                         "odds": -109,
-                        "wager": 0.88,
-                        "profit": 0.8,
+                        "wager": 1.26,
+                        "profit": 1.15,
                         "result": "WIN",
-                        "edge": 0.053109730633332464
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NBA",
-                        "selection": "portland trail blazers +6.5 vs minnesota timberwolves",
-                        "odds": -109,
-                        "wager": 0.85,
-                        "profit": 0.77,
-                        "result": "WIN",
-                        "edge": 0.05117387353794467
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NBA",
-                        "selection": "los angeles clippers -2.5 vs utah jazz",
-                        "odds": -109,
-                        "wager": 0.85,
-                        "profit": -0.85,
-                        "result": "LOSS",
-                        "edge": 0.05117387353794467
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "houston -17.5 vs cincinnati",
-                        "odds": -109,
-                        "wager": 0.99,
-                        "profit": -0.99,
-                        "result": "LOSS",
-                        "edge": 0.059675988096107635
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "houston cougars -17.5 vs jackson state",
-                        "odds": -109,
-                        "wager": 0.99,
-                        "profit": -0.99,
-                        "result": "LOSS",
-                        "edge": 0.059675988096107635
+                        "edge": 0.08033858223662227
                     },
                     {
                         "date": "11/17",
                         "league": "NCAAF",
                         "selection": "ohio bobcats total points under 30.5",
                         "odds": -109,
-                        "wager": 1.0,
-                        "profit": -1.0,
+                        "wager": 1.18,
+                        "profit": -1.18,
                         "result": "LOSS",
-                        "edge": 0.06041701051382975
+                        "edge": 0.06680497511689121
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAB",
+                        "selection": "houston -17.5 vs cincinnati",
+                        "odds": -109,
+                        "wager": 1.26,
+                        "profit": -1.26,
+                        "result": "LOSS",
+                        "edge": 0.08358490714018041
+                    },
+                    {
+                        "date": "11/17",
+                        "league": "NCAAB",
+                        "selection": "houston cougars -17.5 vs jackson state",
+                        "odds": -109,
+                        "wager": 1.26,
+                        "profit": -1.26,
+                        "result": "LOSS",
+                        "edge": 0.08358490714018041
                     },
                     {
                         "date": "11/17",
                         "league": "NCAAF",
                         "selection": "western michigan -14.5 vs eastern michigan eagles",
                         "odds": -109,
-                        "wager": 1.15,
-                        "profit": -1.15,
+                        "wager": 1.26,
+                        "profit": -1.26,
                         "result": "LOSS",
-                        "edge": 0.06888754607584413
+                        "edge": 0.07500026312077412
                     },
                     {
                         "date": "11/17",
                         "league": "NCAAF",
                         "selection": "western michigan broncos -14.5 vs ncaaf",
                         "odds": -109,
-                        "wager": 1.15,
-                        "profit": -1.15,
+                        "wager": 1.26,
+                        "profit": -1.26,
                         "result": "LOSS",
-                        "edge": 0.06888754607584413
+                        "edge": 0.07500026312077412
                     },
                     {
                         "date": "11/17",
                         "league": "NCAAF",
                         "selection": "western michigan broncos -14.5 vs northern illinois",
                         "odds": -109,
-                        "wager": 1.15,
-                        "profit": -1.15,
+                        "wager": 1.26,
+                        "profit": -1.26,
                         "result": "LOSS",
-                        "edge": 0.06888754607584413
+                        "edge": 0.07500026312077412
                     }
                 ]
             }
         },
         "sapphire": {
-            "roi": 2.5,
-            "net": 34.8,
+            "roi": 2.7,
+            "net": 37.62,
             "wins": 2163,
-            "losses": 1987,
+            "losses": 1978,
             "pushes": 0,
-            "record": "2163-1987-0",
-            "win_rate": 52.1,
-            "sample": 4150,
+            "record": "2163-1978-0",
+            "win_rate": 52.2,
+            "sample": 4141,
             "bets_day": 21.0,
             "status": "ACTIVE",
             "yesterday": {
                 "date": "Nov 17, 2026",
-                "record": "2-12-0",
-                "win_rate": 14.3,
-                "net": -7.23,
-                "roi": -72.7,
+                "record": "1-4-0",
+                "win_rate": 20.0,
+                "net": -6.18,
+                "roi": -61.8,
                 "ledger": [
                     {
                         "date": "11/17",
-                        "league": "NHL",
-                        "selection": "washington capitals vs tampa bay lightning over 6.5",
+                        "league": "NBA",
+                        "selection": "portland trail blazers +6.5 vs minnesota timberwolves",
                         "odds": -110,
-                        "wager": 0.71,
-                        "profit": 0.65,
+                        "wager": 2.0,
+                        "profit": 1.82,
                         "result": "WIN",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "illinois +8 vs duke blue devils",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": 0.65,
-                        "result": "WIN",
-                        "edge": 0.05895933366957162
+                        "edge": 0.05934420086088632
                     },
                     {
                         "date": "11/17",
                         "league": "NBA",
                         "selection": "san antonio spurs -9.5 vs minnesota timberwolves",
                         "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
                         "edge": 0.21809640384855722
                     },
@@ -762,140 +732,60 @@
                         "league": "NHL",
                         "selection": "san jose sharks ml vs calgary flames",
                         "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.2001375839823768
+                        "edge": 0.20077982402983163
                     },
                     {
                         "date": "11/17",
                         "league": "NHL",
                         "selection": "san jose sharks ml vs calgary flames",
                         "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
                         "edge": 0.13961991525831674
                     },
                     {
                         "date": "11/17",
-                        "league": "NHL",
-                        "selection": "boston bruins ml vs los angeles kings",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
                         "league": "NCAAB",
-                        "selection": "houston cougars -17.5 vs jackson state",
+                        "selection": "william & mary ml vs virginia",
                         "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
+                        "wager": 2.0,
+                        "profit": -2.0,
                         "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "western michigan broncos -14.5 vs northern illinois",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "western michigan -14.5 vs eastern michigan eagles",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "ucf vs memphis ml",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "villanova vs st. johns ml",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "houston -17.5 vs cincinnati",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "ohio bobcats total points under 30.5",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
-                    },
-                    {
-                        "date": "11/17",
-                        "league": "NCAAF",
-                        "selection": "western michigan broncos -14.5 vs ncaaf",
-                        "odds": -110,
-                        "wager": 0.71,
-                        "profit": -0.71,
-                        "result": "LOSS",
-                        "edge": 0.05895933366957162
+                        "edge": 0.05934420086088632
                     }
                 ]
             }
         },
         "v6": {
-            "roi": 7.8,
-            "net": 21.97,
-            "sample": 280,
-            "pending": 96,
-            "record": "158-122-0",
-            "win_rate": 56.4,
+            "roi": 7.3,
+            "net": 20.76,
+            "sample": 285,
+            "pending": 97,
+            "record": "160-125-0",
+            "win_rate": 56.1,
             "bets_day": 0.0,
             "status": "ACTIVE"
         },
         "Quarry Intelligence": {
-            "roi": 0.3,
-            "net": 7.51,
+            "roi": 0.6,
+            "net": 14.42,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
-            "roi": 2.8,
-            "net": 35.94,
-            "sample": 2749,
-            "record": "1435-1314-0"
+            "roi": 3.1,
+            "net": 39.54,
+            "sample": 2750,
+            "record": "1438-1312-0"
         },
         "carnelian": {
-            "roi": -2.1,
-            "net": -28.44,
-            "sample": 4043,
-            "record": "1989-2054-0"
+            "roi": -1.9,
+            "net": -25.11,
+            "sample": 4049,
+            "record": "1996-2053-0"
         }
     }
 }
