@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-19 04:31:34.763435",
+  "updated_at": "2026-11-20 04:18:31.748174",
   "summary": {
-    "graded": 229,
-    "pending": 53,
-    "pushes": 0,
-    "profit": -7.02,
-    "roi": -0.0307,
-    "adj_roi": -0.0329,
-    "grade": "D"
+    "graded": 233,
+    "pending": 49,
+    "pushes": 3,
+    "profit": -5.29,
+    "roi": -0.0227,
+    "adj_roi": -0.0258,
+    "grade": "C"
   },
   "picks": [
     {
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1881804",
@@ -851,7 +851,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5692,
       "added_at": "2026-10-09 03:06:07.608799",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886533",
@@ -935,7 +935,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5685,
       "added_at": "2026-10-10 02:42:25.839240",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1886745",
@@ -3263,7 +3263,7 @@
       "prob": 0.379,
       "shrunk_acc_lt": 0.5844,
       "added_at": "2026-11-16 03:03:32.675629",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1925829",
@@ -3395,6 +3395,42 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5726,
       "added_at": "2026-11-19 04:31:34.761616",
+      "result": "WIN"
+    },
+    {
+      "id": "1930850",
+      "pick_date": "2026-11-17",
+      "capper": "Five",
+      "league": "NCAAB",
+      "pick": "Illinois Fighting Illini +8 vs Ncaab",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5504,
+      "added_at": "2026-11-20 04:18:31.745348",
+      "result": "WIN"
+    },
+    {
+      "id": "1930851",
+      "pick_date": "2026-11-17",
+      "capper": "Five",
+      "league": "NCAAB",
+      "pick": "Tennessee Volunteers +3.5 vs Ncaab",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5504,
+      "added_at": "2026-11-20 04:18:31.745454",
+      "result": "WIN"
+    },
+    {
+      "id": "1930857",
+      "pick_date": "2026-11-17",
+      "capper": "Calebpicks",
+      "league": "NCAAB",
+      "pick": "Kansas -17.5 vs North Carolina",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5508,
+      "added_at": "2026-11-20 04:18:31.745533",
       "result": "WIN"
     }
   ]
