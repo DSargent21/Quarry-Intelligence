@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-20 04:18:31.748174",
+  "updated_at": "2026-11-21 04:23:40.275049",
   "summary": {
-    "graded": 233,
-    "pending": 49,
-    "pushes": 3,
-    "profit": -5.29,
-    "roi": -0.0227,
-    "adj_roi": -0.0258,
+    "graded": 234,
+    "pending": 48,
+    "pushes": 4,
+    "profit": -6.29,
+    "roi": -0.0269,
+    "adj_roi": -0.0295,
     "grade": "C"
   },
   "picks": [
@@ -731,7 +731,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.558,
       "added_at": "2026-10-05 02:23:00.665480",
-      "result": "PUSH"
+      "result": "PENDING"
     },
     {
       "id": "1881804",
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -3432,6 +3432,18 @@
       "shrunk_acc_lt": 0.5508,
       "added_at": "2026-11-20 04:18:31.745533",
       "result": "WIN"
+    },
+    {
+      "id": "1932636",
+      "pick_date": "2026-11-18",
+      "capper": "Hunter Price",
+      "league": "NCAAB",
+      "pick": "New Orleans Privateers +35.5 vs Texas Tech Red Raiders",
+      "odds_american": -105.0,
+      "prob": 0.4662,
+      "shrunk_acc_lt": 0.5545,
+      "added_at": "2026-11-21 04:23:40.273126",
+      "result": "LOSS"
     }
   ]
 }
