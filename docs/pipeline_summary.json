@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-11-20 12:41 ET",
+    "last_update": "2026-11-21 11:43 ET",
     "data_range": "2024-01-01 to 2026-11-17",
     "total_rows": 151868,
     "picks_identified": {
@@ -9,7 +9,7 @@
         "quartz": 1032,
         "sapphire": 4143,
         "kyanite": 2750,
-        "carnelian": 4044,
+        "carnelian": 4043,
         "v6": 0
     }
 }

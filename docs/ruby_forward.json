@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-20 17:52 UTC",
+    "last_update": "2026-11-21 16:48 UTC",
     "start_date": "2026-08-27",
-    "days_live": 86,
+    "days_live": 87,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,18 +28,18 @@
     }
   },
   "stats": {
-    "n": 291,
-    "wins": 165,
-    "losses": 126,
-    "pending": 97,
-    "wr": 0.567,
-    "roi": 0.0835,
-    "net": 24.31,
-    "tstat": 1.5
+    "n": 305,
+    "wins": 175,
+    "losses": 130,
+    "pending": 94,
+    "wr": 0.5738,
+    "roi": 0.0964,
+    "net": 29.39,
+    "tstat": 1.78
   },
   "baselines": {
-    "all_discord_roi": -0.001,
-    "top_prob_roi": 0.0228
+    "all_discord_roi": -0.0123,
+    "top_prob_roi": -0.0157
   },
   "today": [],
   "by_month": [
@@ -52,10 +52,10 @@
     },
     {
       "month": "2026-09",
-      "n": 103,
-      "wr": 0.5534,
-      "roi": 0.0555,
-      "net": 5.72
+      "n": 105,
+      "wr": 0.5619,
+      "roi": 0.0716,
+      "net": 7.52
     },
     {
       "month": "2026-10",
@@ -66,13 +66,169 @@
     },
     {
       "month": "2026-11",
-      "n": 57,
-      "wr": 0.6316,
-      "roi": 0.2082,
-      "net": 11.87
+      "n": 69,
+      "wr": 0.6377,
+      "roi": 0.2196,
+      "net": 15.15
     }
   ],
   "ledger": [
+    {
+      "id": "1932448",
+      "date": "2026-11-20",
+      "capper": "Exclusive Play",
+      "league": "NBA",
+      "selection": "cleveland cavaliers -5.5 vs charlotte hornets",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8894,
+      "edge": 0.3655,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1932355",
+      "date": "2026-11-20",
+      "capper": "Mr Exclusive",
+      "league": "NBA",
+      "selection": "chicago bulls ml vs washington wizards",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8862,
+      "edge": 0.3626,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1932518",
+      "date": "2026-11-20",
+      "capper": "Parlay P",
+      "league": "OTHER",
+      "selection": "mercyhurst lakers vs canisius over 133",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8836,
+      "edge": 0.3598,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1932264",
+      "date": "2026-11-20",
+      "capper": "Ydc",
+      "league": "NBA",
+      "selection": "denver nuggets ml vs houston rockets",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8829,
+      "edge": 0.3594,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1932427",
+      "date": "2026-11-20",
+      "capper": "Calebpicks",
+      "league": "NCAAB",
+      "selection": "eastern kentucky -8.5",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8777,
+      "edge": 0.3539,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1932499",
+      "date": "2026-11-20",
+      "capper": "Kimsvip",
+      "league": "NBA",
+      "selection": "indiana pacers vs cleveland cavaliers over 234.5",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8763,
+      "edge": 0.3525,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1931826",
+      "date": "2026-11-19",
+      "capper": "Porterpicks",
+      "league": "NHL",
+      "selection": "anaheim ducks vs colorado avalanche over 6.5",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9005,
+      "edge": 0.3769,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1931958",
+      "date": "2026-11-19",
+      "capper": "Ydc",
+      "league": "NFL",
+      "selection": "houston texans -10 vs dallas cowboys",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.9,
+      "edge": 0.3764,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1932222",
+      "date": "2026-11-19",
+      "capper": "Docs Consensus",
+      "league": "NFL",
+      "selection": "mcgowan rush att over 6.5",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.895,
+      "edge": 0.3714,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1931698",
+      "date": "2026-11-19",
+      "capper": "Calebpicks",
+      "league": "NFL",
+      "selection": "indianapolis colts vs houston texans under 44.5",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8947,
+      "edge": 0.3712,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1931807",
+      "date": "2026-11-19",
+      "capper": "Ydc",
+      "league": "NHL",
+      "selection": "carolina hurricanes -1.5 vs new jersey devils",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8899,
+      "edge": 0.3664,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1931806",
+      "date": "2026-11-19",
+      "capper": "Ydc",
+      "league": "NHL",
+      "selection": "seattle kraken vs calgary flames over 6",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8852,
+      "edge": 0.3617,
+      "status": "WIN",
+      "profit": 0.91
+    },
     {
       "id": "1931225",
       "date": "2026-11-18",
@@ -96,8 +252,8 @@
       "dec": 1.91,
       "prob": 0.8873,
       "edge": 0.3637,
-      "status": "PENDING",
-      "profit": null
+      "status": "WIN",
+      "profit": 0.91
     },
     {
       "id": "1931408",
@@ -135,8 +291,8 @@
       "dec": 1.91,
       "prob": 0.8728,
       "edge": 0.3493,
-      "status": "PENDING",
-      "profit": null
+      "status": "WIN",
+      "profit": 0.91
     },
     {
       "id": "1931238",
@@ -356,7 +512,7 @@
       "dec": 1.91,
       "prob": 0.8956,
       "edge": 0.372,
-      "status": "PENDING",
+      "status": "PUSH",
       "profit": null
     },
     {
@@ -3502,8 +3658,8 @@
       "dec": 1.8928571428571428,
       "prob": 0.8851,
       "edge": 0.3568,
-      "status": "PENDING",
-      "profit": null
+      "status": "WIN",
+      "profit": 0.89
     },
     {
       "id": "1909772",
@@ -3515,8 +3671,8 @@
       "dec": 1.9090909090909092,
       "prob": 0.8818,
       "edge": 0.358,
-      "status": "PENDING",
-      "profit": null
+      "status": "WIN",
+      "profit": 0.91
     },
     {
       "id": "1909780",

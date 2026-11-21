@@ -1,8 +1,8 @@
 window.QUARRY_STATS = {
     "meta": {
-        "last_update": "2026-11-20 12:41 ET",
+        "last_update": "2026-11-21 11:43 ET",
         "status": "NOMINAL",
-        "cache_bust": 1795196485.455173
+        "cache_bust": 1795279392.028599
     },
     "models": {
         "pyrite": {
@@ -56,7 +56,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "charlotte hornets +8 vs los angeles lakers",
+                        "selection": "matisse thybulle blks+stls over 2.5",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -66,7 +66,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "matisse thybulle blks+stls over 2.5",
+                        "selection": "charlotte hornets +8 vs los angeles lakers",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -85,8 +85,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "11/17",
-                        "league": "NBA",
-                        "selection": "detroit pistons +9 vs cleveland cavaliers",
+                        "league": "NCAAB",
+                        "selection": "utah -12 vs idaho state",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -95,8 +95,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "utah -12 vs idaho state",
+                        "league": "NBA",
+                        "selection": "detroit pistons +9 vs cleveland cavaliers",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -166,7 +166,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NCAAB",
-                        "selection": "charlotte +3.5",
+                        "selection": "notre dame +15.5 vs duke",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -176,7 +176,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NCAAB",
-                        "selection": "notre dame +15.5 vs duke",
+                        "selection": "charlotte +3.5",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -286,8 +286,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "11/17",
-                        "league": "NBA",
-                        "selection": "detroit pistons +9 vs cleveland cavaliers",
+                        "league": "NCAAB",
+                        "selection": "utah -12 vs idaho state",
                         "odds": -110,
                         "wager": 0.15,
                         "profit": 0.14,
@@ -296,8 +296,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "utah -12 vs idaho state",
+                        "league": "NBA",
+                        "selection": "detroit pistons +9 vs cleveland cavaliers",
                         "odds": -110,
                         "wager": 0.15,
                         "profit": 0.14,
@@ -327,7 +327,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NCAAB",
-                        "selection": "charlotte +3.5",
+                        "selection": "notre dame +15.5 vs duke",
                         "odds": -110,
                         "wager": 0.14,
                         "profit": 0.13,
@@ -337,7 +337,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NCAAB",
-                        "selection": "notre dame +15.5 vs duke",
+                        "selection": "charlotte +3.5",
                         "odds": -110,
                         "wager": 0.14,
                         "profit": 0.13,
@@ -357,7 +357,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "charlotte hornets +8 vs los angeles lakers",
+                        "selection": "matisse thybulle blks+stls over 2.5",
                         "odds": -110,
                         "wager": 0.14,
                         "profit": 0.13,
@@ -367,7 +367,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "matisse thybulle blks+stls over 2.5",
+                        "selection": "charlotte hornets +8 vs los angeles lakers",
                         "odds": -110,
                         "wager": 0.14,
                         "profit": 0.13,
@@ -387,7 +387,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "toronto raptors vs chicago bulls under 215.5",
+                        "selection": "toronto raptors vs new york knicks under 215.5",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -397,7 +397,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "toronto raptors vs new york knicks under 215.5",
+                        "selection": "toronto raptors vs chicago bulls under 215.5",
                         "odds": -110,
                         "wager": 0.12,
                         "profit": 0.11,
@@ -437,7 +437,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NCAAF",
-                        "selection": "ohio -10 vs miami oh",
+                        "selection": "ohio -10 vs ball state cardinals",
                         "odds": -110,
                         "wager": 0.1,
                         "profit": -0.1,
@@ -498,7 +498,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "toronto raptors +6.5 vs new york knicks",
+                        "selection": "los angeles clippers -2.5 vs utah jazz",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -508,7 +508,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "los angeles clippers -2.5 vs utah jazz",
+                        "selection": "toronto raptors +6.5 vs new york knicks",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -527,8 +527,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "11/17",
-                        "league": "NCAAB",
-                        "selection": "william & mary -2.5 vs bowling green",
+                        "league": "NHL",
+                        "selection": "boston bruins ml vs los angeles kings",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -537,8 +537,8 @@ window.QUARRY_STATS = {
                     },
                     {
                         "date": "11/17",
-                        "league": "NHL",
-                        "selection": "boston bruins ml vs los angeles kings",
+                        "league": "NCAAB",
+                        "selection": "william & mary -2.5 vs bowling green",
                         "odds": -110,
                         "wager": 0.83,
                         "profit": -0.83,
@@ -760,7 +760,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "toronto raptors +6.5 vs new york knicks",
+                        "selection": "los angeles clippers -2.5 vs utah jazz",
                         "odds": -110,
                         "wager": 1.43,
                         "profit": -1.43,
@@ -770,7 +770,7 @@ window.QUARRY_STATS = {
                     {
                         "date": "11/17",
                         "league": "NBA",
-                        "selection": "los angeles clippers -2.5 vs utah jazz",
+                        "selection": "toronto raptors +6.5 vs new york knicks",
                         "odds": -110,
                         "wager": 1.43,
                         "profit": -1.43,
@@ -781,31 +781,31 @@ window.QUARRY_STATS = {
             }
         },
         "v6": {
-            "roi": 8.1,
-            "net": 23.4,
-            "sample": 290,
-            "pending": 98,
-            "record": "164-126-0",
-            "win_rate": 56.5,
+            "roi": 8.3,
+            "net": 24.31,
+            "sample": 291,
+            "pending": 97,
+            "record": "165-126-0",
+            "win_rate": 56.7,
             "bets_day": 0.0,
             "status": "ACTIVE"
         },
         "Quarry Intelligence": {
             "roi": 0.5,
-            "net": 14.18,
+            "net": 14.04,
             "status": "INSTITUTIONAL"
         },
         "kyanite": {
             "roi": 3.1,
-            "net": 39.56,
+            "net": 39.52,
             "sample": 2750,
             "record": "1438-1312-0"
         },
         "carnelian": {
             "roi": -1.9,
-            "net": -25.38,
-            "sample": 4044,
-            "record": "1992-2052-0"
+            "net": -25.48,
+            "sample": 4043,
+            "record": "1991-2052-0"
         }
     }
 };
