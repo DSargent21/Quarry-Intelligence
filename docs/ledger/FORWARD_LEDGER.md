@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-21 04:23:40.275049
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-22 03:35:31.646839
 
-**Graded: 234 | Pending: 48 | Pushes: 4**
-**Profit: -6.3u | ROI: -2.7% | Adj ROI: -3.0% | Grade: C**
+**Graded: 236 | Pending: 51 | Pushes: 5**
+**Profit: -4.6u | ROI: -1.9% | Adj ROI: -2.3% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -71,7 +71,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-21 04:23:40.
 | 2026-10-04 | Cashitbaby | NFL | Jacksonville Jaguars +2.5 vs Seattle Sea | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | New England Patriots +7 vs Miami Dolphin | -110 | 0.589 | WIN |
 | 2026-10-04 | Cashitbaby | NFL | Minnesota Vikings -10.5 vs New York Gian | -110 | 0.589 | LOSS |
-| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PENDING |
+| 2026-10-04 | Cashitbaby | NFL | Seattle Seahawks -7 vs Jacksonville Jagu | -110 | 0.589 | PUSH |
 | 2026-10-05 | Five | NFL | New Orleans Saints ML vs Atlanta Falcons | -120 | 0.589 | LOSS |
 | 2026-10-05 | Kyle Hunter | MLB | Chicago White Sox vs Cleveland Guardians | -110 | 0.581 | LOSS |
 | 2026-10-05 | Prosportspicks | NFL | New Orleans Saints -2.5 vs Atlanta Falco | -118 | 0.559 | LOSS |
@@ -292,4 +292,10 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-21 04:23:40.
 | 2026-11-17 | Caruso | NCAAB | Tennessee Volunteers +3.5 vs Michigan St | -110 | 0.589 | WIN |
 | 2026-11-17 | Five | NCAAB | Illinois Fighting Illini +8 vs Ncaab | -110 | 0.589 | WIN |
 | 2026-11-17 | Five | NCAAB | Tennessee Volunteers +3.5 vs Ncaab | -110 | 0.589 | WIN |
+| 2026-11-18 | Drew Martin | NCAAF | Buffalo ML vs Central Michigan Chippewas | -125 | 0.573 | WIN |
 | 2026-11-18 | Hunter Price | NCAAB | New Orleans Privateers +35.5 vs Texas Te | -105 | 0.466 | LOSS |
+| 2026-11-20 | Parlay P | OTHER | Utah Utes vs Brigham Young Over 136 | -110 | 0.589 | PENDING |
+| 2026-11-20 | Parlay P | OTHER | Fresno State Bulldogs vs Washington Stat | -110 | 0.589 | PENDING |
+| 2026-11-20 | Parlay P | OTHER | Saint Mary's Gaels ML vs San Francisco | -110 | 0.589 | PENDING |
+| 2026-11-20 | Parlay P | OTHER | Wisconsin Badgers ML vs Marquette | -110 | 0.589 | WIN |
+| 2026-11-20 | Parlay P | OTHER | Princeton Tigers ML vs Rutgers | -110 | 0.589 | PENDING |
