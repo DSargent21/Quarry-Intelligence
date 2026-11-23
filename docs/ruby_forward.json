@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-22 17:10 UTC",
+    "last_update": "2026-11-23 21:15 UTC",
     "start_date": "2026-08-27",
-    "days_live": 88,
+    "days_live": 89,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,86 +28,20 @@
     }
   },
   "stats": {
-    "n": 313,
-    "wins": 179,
-    "losses": 134,
-    "pending": 97,
-    "wr": 0.5719,
-    "roi": 0.0927,
-    "net": 29.03,
-    "tstat": 1.73
+    "n": 316,
+    "wins": 180,
+    "losses": 136,
+    "pending": 93,
+    "wr": 0.5696,
+    "roi": 0.0884,
+    "net": 27.94,
+    "tstat": 1.66
   },
   "baselines": {
-    "all_discord_roi": -0.0167,
-    "top_prob_roi": -0.0086
+    "all_discord_roi": 0.0228,
+    "top_prob_roi": 0.0301
   },
-  "today": [
-    {
-      "id": "1933199",
-      "date": "2026-11-22",
-      "capper": "Porterpicks",
-      "league": "NFL",
-      "selection": "cardinals vs chiefs under 41",
-      "odds": -110.0,
-      "dec": 1.9090909090909092,
-      "prob": 0.8263,
-      "edge": 0.3025,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1933197",
-      "date": "2026-11-22",
-      "capper": "Porterpicks",
-      "league": "NFL",
-      "selection": "titans +8 vs texans",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.8188,
-      "edge": 0.2952,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1933198",
-      "date": "2026-11-22",
-      "capper": "Porterpicks",
-      "league": "NFL",
-      "selection": "buccaneers +6 vs panthers",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.8175,
-      "edge": 0.2939,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1933200",
-      "date": "2026-11-22",
-      "capper": "Porterpicks",
-      "league": "NFL",
-      "selection": "giants +6 vs commanders",
-      "odds": null,
-      "dec": 1.91,
-      "prob": 0.8165,
-      "edge": 0.2929,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1933201",
-      "date": "2026-11-22",
-      "capper": "Hunter Price",
-      "league": "NFL",
-      "selection": "saints vs bears under 48.5",
-      "odds": -104.0,
-      "dec": 1.9615384615384617,
-      "prob": 0.7924,
-      "edge": 0.2826,
-      "status": "PENDING",
-      "profit": null
-    }
-  ],
+  "today": [],
   "by_month": [
     {
       "month": "2026-08",
@@ -132,10 +66,10 @@
     },
     {
       "month": "2026-11",
-      "n": 77,
-      "wr": 0.6234,
-      "roi": 0.1921,
-      "net": 14.79
+      "n": 80,
+      "wr": 0.6125,
+      "roi": 0.1713,
+      "net": 13.7
     }
   ],
   "ledger": [
@@ -149,7 +83,7 @@
       "dec": 1.9090909090909092,
       "prob": 0.8263,
       "edge": 0.3025,
-      "status": "PENDING",
+      "status": "PUSH",
       "profit": null
     },
     {
@@ -162,8 +96,8 @@
       "dec": 1.91,
       "prob": 0.8188,
       "edge": 0.2952,
-      "status": "PENDING",
-      "profit": null
+      "status": "LOSS",
+      "profit": -1.0
     },
     {
       "id": "1933198",
@@ -175,8 +109,8 @@
       "dec": 1.91,
       "prob": 0.8175,
       "edge": 0.2939,
-      "status": "PENDING",
-      "profit": null
+      "status": "LOSS",
+      "profit": -1.0
     },
     {
       "id": "1933200",
@@ -188,8 +122,8 @@
       "dec": 1.91,
       "prob": 0.8165,
       "edge": 0.2929,
-      "status": "PENDING",
-      "profit": null
+      "status": "WIN",
+      "profit": 0.91
     },
     {
       "id": "1933201",
