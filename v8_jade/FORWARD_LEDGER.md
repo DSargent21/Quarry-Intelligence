@@ -1,8 +1,8 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-22 03:35:31.646839
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-23 04:08:33.563205
 
-**Graded: 236 | Pending: 51 | Pushes: 5**
+**Graded: 236 | Pending: 55 | Pushes: 4**
 **Profit: -4.6u | ROI: -1.9% | Adj ROI: -2.3% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
@@ -89,7 +89,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-22 03:35:31.
 | 2026-10-07 | Ricky Tran | MLB | Cleveland Guardians vs Chicago White Sox | -110 | 0.589 | LOSS |
 | 2026-10-08 | Bet Labs | NCAAF | Western Kentucky +1.5 vs Missouri State  | -110 | 0.589 | WIN |
 | 2026-10-08 | Nick Parsons | NCAAF | Arkansas State Red Wolves ML vs South Al | -110 | 0.589 | LOSS |
-| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PUSH |
+| 2026-10-08 | Ricky Tran | NCAAF | UTSA Roadrunners -7 vs South Florida Bul | -110 | 0.589 | PENDING |
 | 2026-10-08 | Sal Michaels | NCAAF | Arkansas State Red Wolves -1.5 vs South  | -110 | 0.589 | LOSS |
 | 2026-10-08 | Sal Michaels | NBA | New Orleans Pelicans +7.5 vs Miami Heat | -110 | 0.589 | LOSS |
 | 2026-10-09 | Ben Burns | WNBA | Atlanta Dream vs New York Liberty Under  | -110 | 0.589 | WIN |
@@ -299,3 +299,6 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-22 03:35:31.
 | 2026-11-20 | Parlay P | OTHER | Saint Mary's Gaels ML vs San Francisco | -110 | 0.589 | PENDING |
 | 2026-11-20 | Parlay P | OTHER | Wisconsin Badgers ML vs Marquette | -110 | 0.589 | WIN |
 | 2026-11-20 | Parlay P | OTHER | Princeton Tigers ML vs Rutgers | -110 | 0.589 | PENDING |
+| 2026-11-22 | Ben Burns | NCAAB | Albany ML vs New Hampshire | -115 | 0.540 | PENDING |
+| 2026-11-22 | Ben Burns | NCAAB | Albany Great Danes vs Vermont Catamounts | -115 | 0.518 | PENDING |
+| 2026-11-22 | Travy | NCAAB | Seattle ML vs | -105 | 0.466 | PENDING |
