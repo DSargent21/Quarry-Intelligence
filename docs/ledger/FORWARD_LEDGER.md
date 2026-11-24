@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-23 04:08:33.563205
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-24 07:12:11.502423
 
-**Graded: 236 | Pending: 55 | Pushes: 4**
-**Profit: -4.6u | ROI: -1.9% | Adj ROI: -2.3% | Grade: C**
+**Graded: 237 | Pending: 56 | Pushes: 3**
+**Profit: -5.6u | ROI: -2.4% | Adj ROI: -2.7% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -81,7 +81,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-23 04:08:33.
 | 2026-10-06 | Kyle Hunter | NBA | Panthers vs Kings | -115 | 0.466 | WIN |
 | 2026-10-06 | Matt Severance | MLS | Both sides are missing some guys due to  | -124 | 0.589 | LOSS |
 | 2026-10-06 | Matt Severance | NHL | Ottawa Senators ML vs Detroit Red Wings | -102 | 0.505 | WIN |
-| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PUSH |
+| 2026-10-06 | William Burns | MLB | Milwaukee Brewers vs San Diego Padres Ov | -110 | 0.589 | PENDING |
 | 2026-10-07 | Hunter Price | NCAAF | Florida International Panthers -5.5 vs N | -110 | 0.589 | WIN |
 | 2026-10-07 | Matt Severance | MLB | San Diego Padres +1 vs Milwaukee Brewers | -110 | 0.518 | LOSS |
 | 2026-10-07 | Matt Severance | NBA | This is one of the more interesting NBA  | -112 | 0.518 | WIN |
@@ -294,6 +294,7 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-23 04:08:33.
 | 2026-11-17 | Five | NCAAB | Tennessee Volunteers +3.5 vs Ncaab | -110 | 0.589 | WIN |
 | 2026-11-18 | Drew Martin | NCAAF | Buffalo ML vs Central Michigan Chippewas | -125 | 0.573 | WIN |
 | 2026-11-18 | Hunter Price | NCAAB | New Orleans Privateers +35.5 vs Texas Te | -105 | 0.466 | LOSS |
+| 2026-11-18 | Kyle Hunter | NCAAB | UCLA vs Cal State Fullerton Titans Over  | -110 | 0.573 | LOSS |
 | 2026-11-20 | Parlay P | OTHER | Utah Utes vs Brigham Young Over 136 | -110 | 0.589 | PENDING |
 | 2026-11-20 | Parlay P | OTHER | Fresno State Bulldogs vs Washington Stat | -110 | 0.589 | PENDING |
 | 2026-11-20 | Parlay P | OTHER | Saint Mary's Gaels ML vs San Francisco | -110 | 0.589 | PENDING |
