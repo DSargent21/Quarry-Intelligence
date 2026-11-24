@@ -43,7 +43,7 @@ has never seen.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[SERIES 9: CITRINE](https://dsargent21.github.io/Quarry-Intelligence/web/citrine.html)** | `SEP 22, 2026` | `SKILL-GATED BLEND` <br> Higher-volume forward test | 🟡 **BACKTEST** | Medium (8/day) | **1126 OOS** | **+5.9% adj** |
 | **[SERIES 8: JADE](https://dsargent21.github.io/Quarry-Intelligence/ledger/)** | `SEP 22, 2026` | `SCORE-OPTIMIZED` <br> The Quarry Ledger | 🟢 **FORWARD TEST** | Very Low (&le;5/day) | **293** | **-2.6%** |
-| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FROZEN POLICY` <br> Walk-forward edge | 🔴 **FORWARD TEST** | Medium (&le;6/day) | **409** | **+8.8%** |
+| **[SERIES 7: RUBY](https://dsargent21.github.io/Quarry-Intelligence/web/ruby.html)** | `AUG 27, 2026` | `FROZEN POLICY` <br> Walk-forward edge | 🔴 **FORWARD TEST** | Medium (&le;6/day) | **421** | **+7.0%** |
 | **[SERIES 6: KYANITE & CARNELIAN](https://dsargent21.github.io/Quarry-Intelligence/web/kyanite_carnelian.html)** | `MAY 16, 2026` | `SURGICAL ALPHA` <br> Precision/Yield | 💎 **ACTIVE** | Very High (~63 bets/day) | **8296** | **-0.8%** |
 | **[SERIES 5: SAPPHIRE](https://dsargent21.github.io/Quarry-Intelligence/web/sapphire.html)** | `MAY 13, 2026` | `CONFORMAL <br> Momentum` | 🔵 **ACTIVE** | High (~44 bets/day) | **5946** | **-0.6%** |
 | **[SERIES 4: QUARTZ](https://dsargent21.github.io/Quarry-Intelligence/web/quartz.html)** | `APR 06, 2026` | `INSTITUTIONAL <br> Drift Proxy` | ⚪ **ACTIVE** | Low (~5 bets/day) | **982** | **+1.9%** |
@@ -66,7 +66,7 @@ Rebuilt automatically by the daily workflows from each system's ledger — never
 | SYSTEM | STATUS | GRADED | PENDING | PROFIT | ROI | LAST UPDATE |
 | :--- | :--- | ---: | ---: | ---: | ---: | :--- |
 | JADE (VIII) | Forward test | 237 | 56 | -5.6u | -2.6% | 2026-11-24 |
-| RUBY (VII) | Forward test | 316 | 93 | +27.9u | +8.8% | 2026-11-23 |
+| RUBY (VII) | Forward test | 325 | 96 | +22.8u | +7.0% | 2026-11-24 |
 | CITRINE (IX) | Backtest only | 0 | 0 | 0.0u | — | 2026-09-23 |
 <!-- QUARRY:LIVE:END -->
 
