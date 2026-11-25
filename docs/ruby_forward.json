@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-24 20:30 UTC",
+    "last_update": "2026-11-25 19:17 UTC",
     "start_date": "2026-08-27",
-    "days_live": 90,
+    "days_live": 91,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -38,89 +38,10 @@
     "tstat": 1.33
   },
   "baselines": {
-    "all_discord_roi": 0.0114,
-    "top_prob_roi": 0.0182
+    "all_discord_roi": -0.0052,
+    "top_prob_roi": 0.015
   },
-  "today": [
-    {
-      "id": "1934231",
-      "date": "2026-11-24",
-      "capper": "Matt Severance",
-      "league": "MLS",
-      "selection": "san jose earthquakes ml vs houston dynamo",
-      "odds": -106.0,
-      "dec": 1.9433962264150944,
-      "prob": 0.8469,
-      "edge": 0.3323,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1934236",
-      "date": "2026-11-24",
-      "capper": "Porterpicks",
-      "league": "NCAAB",
-      "selection": "maryland +2.5 vs tennessee",
-      "odds": -110.0,
-      "dec": 1.9090909090909092,
-      "prob": 0.8423,
-      "edge": 0.3185,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1934238",
-      "date": "2026-11-24",
-      "capper": "Porterpicks",
-      "league": "NCAAB",
-      "selection": "michigan -5.5 vs creighton",
-      "odds": -110.0,
-      "dec": 1.9090909090909092,
-      "prob": 0.835,
-      "edge": 0.3112,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1934237",
-      "date": "2026-11-24",
-      "capper": "Porterpicks",
-      "league": "NCAAB",
-      "selection": "tcu +5.5 vs miami florida",
-      "odds": -110.0,
-      "dec": 1.9090909090909092,
-      "prob": 0.8315,
-      "edge": 0.3077,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1934229",
-      "date": "2026-11-24",
-      "capper": "Anders Picks",
-      "league": "NCAAB",
-      "selection": "lamar -3.5 vs mcneese",
-      "odds": -110.0,
-      "dec": 1.9090909090909092,
-      "prob": 0.7715,
-      "edge": 0.2477,
-      "status": "PENDING",
-      "profit": null
-    },
-    {
-      "id": "1934230",
-      "date": "2026-11-24",
-      "capper": "Bob Konarski",
-      "league": "NCAAB",
-      "selection": "belmont +2.5 vs akron",
-      "odds": -102.0,
-      "dec": 1.9803921568627452,
-      "prob": 0.7655,
-      "edge": 0.2606,
-      "status": "PENDING",
-      "profit": null
-    }
-  ],
+  "today": [],
   "by_month": [
     {
       "month": "2026-08",

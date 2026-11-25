@@ -66,7 +66,7 @@ Rebuilt automatically by the daily workflows from each system's ledger — never
 | SYSTEM | STATUS | GRADED | PENDING | PROFIT | ROI | LAST UPDATE |
 | :--- | :--- | ---: | ---: | ---: | ---: | :--- |
 | JADE (VIII) | Forward test | 238 | 55 | -6.6u | -3.0% | 2026-11-25 |
-| RUBY (VII) | Forward test | 325 | 96 | +22.8u | +7.0% | 2026-11-24 |
+| RUBY (VII) | Forward test | 325 | 96 | +22.8u | +7.0% | 2026-11-25 |
 | CITRINE (IX) | Backtest only | 0 | 0 | 0.0u | — | 2026-09-23 |
 <!-- QUARRY:LIVE:END -->
 
