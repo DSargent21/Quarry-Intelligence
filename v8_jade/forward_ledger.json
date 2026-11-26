@@ -2,15 +2,15 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-25 05:45:28.584910",
+  "updated_at": "2026-11-26 05:34:34.099503",
   "summary": {
-    "graded": 238,
-    "pending": 55,
-    "pushes": 3,
-    "profit": -6.58,
-    "roi": -0.0277,
-    "adj_roi": -0.0302,
-    "grade": "D"
+    "graded": 244,
+    "pending": 59,
+    "pushes": 5,
+    "profit": -5.07,
+    "roi": -0.0208,
+    "adj_roi": -0.024,
+    "grade": "C"
   },
   "picks": [
     {
@@ -1415,7 +1415,7 @@
       "prob": 0.95,
       "shrunk_acc_lt": 0.5608,
       "added_at": "2026-10-18 01:31:28.716098",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896558",
@@ -1427,7 +1427,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5813,
       "added_at": "2026-10-18 01:31:28.716210",
-      "result": "PENDING"
+      "result": "PUSH"
     },
     {
       "id": "1896492",
@@ -3564,6 +3564,150 @@
       "shrunk_acc_lt": 0.6858,
       "added_at": "2026-11-24 07:12:11.500514",
       "result": "LOSS"
+    },
+    {
+      "id": "1934082",
+      "pick_date": "2026-11-23",
+      "capper": "Learlocks",
+      "league": "NCAAB",
+      "pick": "Middle Tennessee State +2.5 vs Southern Illinois Salukis",
+      "odds_american": -110.0,
+      "prob": 0.5046,
+      "shrunk_acc_lt": 0.5505,
+      "added_at": "2026-11-26 05:34:34.096157",
+      "result": "WIN"
+    },
+    {
+      "id": "1934081",
+      "pick_date": "2026-11-23",
+      "capper": "Learlocks",
+      "league": "NCAAB",
+      "pick": "Wright State ML",
+      "odds_american": -120.0,
+      "prob": 0.497,
+      "shrunk_acc_lt": 0.5505,
+      "added_at": "2026-11-26 05:34:34.096261",
+      "result": "WIN"
+    },
+    {
+      "id": "1934234",
+      "pick_date": "2026-11-24",
+      "capper": "Fredo",
+      "league": "UCL",
+      "pick": "Real Betis: Total Goals Over 2.5",
+      "odds_american": -125.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5556,
+      "added_at": "2026-11-26 05:34:34.096340",
+      "result": "LOSS"
+    },
+    {
+      "id": "1934564",
+      "pick_date": "2026-11-24",
+      "capper": "Bulliespicks",
+      "league": "NBA",
+      "pick": "Detroit Pistons ML vs Orlando Magic",
+      "odds_american": -122.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5561,
+      "added_at": "2026-11-26 05:34:34.096416",
+      "result": "WIN"
+    },
+    {
+      "id": "1934565",
+      "pick_date": "2026-11-24",
+      "capper": "Bulliespicks",
+      "league": "NBA",
+      "pick": "Washington Wizards vs Boston Celtics Under 218.5",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5561,
+      "added_at": "2026-11-26 05:34:34.096490",
+      "result": "LOSS"
+    },
+    {
+      "id": "1934301",
+      "pick_date": "2026-11-24",
+      "capper": "Learlocks",
+      "league": "NCAAB",
+      "pick": "Tulsa ML vs Oral Roberts",
+      "odds_american": -112.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5536,
+      "added_at": "2026-11-26 05:34:34.096563",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934300",
+      "pick_date": "2026-11-24",
+      "capper": "Learlocks",
+      "league": "NCAAB",
+      "pick": "Ole Miss ML vs BYU Cougars",
+      "odds_american": -105.0,
+      "prob": 0.4662,
+      "shrunk_acc_lt": 0.5536,
+      "added_at": "2026-11-26 05:34:34.096636",
+      "result": "WIN"
+    },
+    {
+      "id": "1934784",
+      "pick_date": "2026-11-25",
+      "capper": "Learlocks",
+      "league": "OTHER",
+      "pick": "Eastern Kentucky +14.5",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5535,
+      "added_at": "2026-11-26 05:34:34.096711",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934738",
+      "pick_date": "2026-11-25",
+      "capper": "Tokyo Brandon",
+      "league": "NHL",
+      "pick": "Boston Bruins ML vs Winnipeg Jets",
+      "odds_american": -110.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5543,
+      "added_at": "2026-11-26 05:34:34.096784",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934783",
+      "pick_date": "2026-11-25",
+      "capper": "Learlocks",
+      "league": "OTHER",
+      "pick": "Long Beach State ML",
+      "odds_american": -120.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5535,
+      "added_at": "2026-11-26 05:34:34.096855",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934803",
+      "pick_date": "2026-11-25",
+      "capper": "Tokyo Brandon",
+      "league": "NHL",
+      "pick": "Boston Bruins Regulation ML vs Buffalo Sabres",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5543,
+      "added_at": "2026-11-26 05:34:34.096924",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934786",
+      "pick_date": "2026-11-25",
+      "capper": "Learlocks",
+      "league": "OTHER",
+      "pick": "South Dakota State ML",
+      "odds_american": -105.0,
+      "prob": 0.4872,
+      "shrunk_acc_lt": 0.5535,
+      "added_at": "2026-11-26 05:34:34.097013",
+      "result": "PENDING"
     }
   ]
 }

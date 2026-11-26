@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-25 05:45:28.584910
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-26 05:34:34.099503
 
-**Graded: 238 | Pending: 55 | Pushes: 3**
-**Profit: -6.6u | ROI: -2.8% | Adj ROI: -3.0% | Grade: D**
+**Graded: 244 | Pending: 59 | Pushes: 5**
+**Profit: -5.1u | ROI: -2.1% | Adj ROI: -2.4% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -130,8 +130,8 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-25 05:45:28.
 | 2026-10-16 | Bobby Conn | NBA | Toronto Raptors +10.5 vs Detroit Pistons | -110 | 0.589 | WIN |
 | 2026-10-16 | Bobby Conn | NBA | Denver Nuggets vs Los Angeles Lakers Und | -110 | 0.589 | WIN |
 | 2026-10-16 | Empire | NFL | Denver Broncos +3 vs Seattle Seahawks | -125 | 0.540 | PENDING |
-| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PENDING |
-| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PENDING |
+| 2026-10-16 | Kyle Hunter | MLB | Tampa Bay Rays vs Cleveland Guardians Un | -110 | 0.589 | PUSH |
+| 2026-10-16 | Marc Lyle | MLB | Cleveland Guardians ML vs Tampa Bay Rays | -101 | 0.950 | PUSH |
 | 2026-10-17 | Chefsbestbets | NCAAF | Oklahoma -6.5 vs Kentucky | -110 | 0.581 | LOSS |
 | 2026-10-17 | Chefsbestbets | NCAAF | LSU -15.5 vs Mississippi State | -110 | 0.573 | WIN |
 | 2026-10-17 | Chefsbestbets | NCAAF | Arkansas +6.5 vs Vanderbilt | -110 | 0.573 | WIN |
@@ -303,3 +303,15 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-25 05:45:28.
 | 2026-11-22 | Ben Burns | NCAAB | Albany ML vs New Hampshire | -115 | 0.540 | PENDING |
 | 2026-11-22 | Ben Burns | NCAAB | Albany Great Danes vs Vermont Catamounts | -115 | 0.518 | PENDING |
 | 2026-11-22 | Travy | NCAAB | Seattle ML vs | -105 | 0.466 | LOSS |
+| 2026-11-23 | Learlocks | NCAAB | Middle Tennessee State +2.5 vs Southern  | -110 | 0.505 | WIN |
+| 2026-11-23 | Learlocks | NCAAB | Wright State ML | -120 | 0.497 | WIN |
+| 2026-11-24 | Bulliespicks | NBA | Detroit Pistons ML vs Orlando Magic | -122 | 0.589 | WIN |
+| 2026-11-24 | Bulliespicks | NBA | Washington Wizards vs Boston Celtics Und | -110 | 0.559 | LOSS |
+| 2026-11-24 | Fredo | UCL | Real Betis: Total Goals Over 2.5 | -125 | 0.589 | LOSS |
+| 2026-11-24 | Learlocks | NCAAB | Tulsa ML vs Oral Roberts | -112 | 0.487 | PENDING |
+| 2026-11-24 | Learlocks | NCAAB | Ole Miss ML vs BYU Cougars | -105 | 0.466 | WIN |
+| 2026-11-25 | Learlocks | OTHER | Eastern Kentucky +14.5 | -110 | 0.589 | PENDING |
+| 2026-11-25 | Learlocks | OTHER | Long Beach State ML | -120 | 0.589 | PENDING |
+| 2026-11-25 | Learlocks | OTHER | South Dakota State ML | -105 | 0.487 | PENDING |
+| 2026-11-25 | Tokyo Brandon | NHL | Boston Bruins ML vs Winnipeg Jets | -110 | 0.589 | PENDING |
+| 2026-11-25 | Tokyo Brandon | NHL | Boston Bruins Regulation ML vs Buffalo S | -110 | 0.559 | PENDING |
