@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-26 05:34:34.099503",
+  "updated_at": "2026-11-27 05:25:25.780407",
   "summary": {
-    "graded": 244,
-    "pending": 59,
+    "graded": 247,
+    "pending": 61,
     "pushes": 5,
-    "profit": -5.07,
-    "roi": -0.0208,
-    "adj_roi": -0.024,
+    "profit": -4.33,
+    "roi": -0.0175,
+    "adj_roi": -0.021,
     "grade": "C"
   },
   "picks": [
@@ -3659,7 +3659,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5535,
       "added_at": "2026-11-26 05:34:34.096711",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1934738",
@@ -3683,7 +3683,7 @@
       "prob": 0.5889,
       "shrunk_acc_lt": 0.5535,
       "added_at": "2026-11-26 05:34:34.096855",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1934803",
@@ -3707,6 +3707,66 @@
       "prob": 0.4872,
       "shrunk_acc_lt": 0.5535,
       "added_at": "2026-11-26 05:34:34.097013",
+      "result": "LOSS"
+    },
+    {
+      "id": "1935131",
+      "pick_date": "2026-11-26",
+      "capper": "Matt Severance",
+      "league": "NFL",
+      "pick": "Kansas City Chiefs vs Buffalo Bills Under 46.5",
+      "odds_american": -108.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5625,
+      "added_at": "2026-11-27 05:25:25.778243",
+      "result": "PENDING"
+    },
+    {
+      "id": "1935021",
+      "pick_date": "2026-11-26",
+      "capper": "Bulliespicks",
+      "league": "NFL",
+      "pick": "Chicago Bears vs Detroit Lions Under 56.5",
+      "odds_american": -110.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.5801,
+      "added_at": "2026-11-27 05:25:25.778319",
+      "result": "PENDING"
+    },
+    {
+      "id": "1935022",
+      "pick_date": "2026-11-26",
+      "capper": "Bulliespicks",
+      "league": "NFL",
+      "pick": "Dallas Cowboys vs Philadelphia Eagles Over 47.5",
+      "odds_american": -110.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.5801,
+      "added_at": "2026-11-27 05:25:25.778362",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934917",
+      "pick_date": "2026-11-26",
+      "capper": "Ben Burns",
+      "league": "NFL",
+      "pick": "Chicago Bears ML vs Detroit Lions",
+      "odds_american": -119.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.595,
+      "added_at": "2026-11-27 05:25:25.778402",
+      "result": "PENDING"
+    },
+    {
+      "id": "1934904",
+      "pick_date": "2026-11-26",
+      "capper": "Ricky Tran",
+      "league": "NFL",
+      "pick": "Chicago Bears ML vs Detroit Lions",
+      "odds_american": -119.0,
+      "prob": 0.5181,
+      "shrunk_acc_lt": 0.577,
+      "added_at": "2026-11-27 05:25:25.778440",
       "result": "PENDING"
     }
   ]

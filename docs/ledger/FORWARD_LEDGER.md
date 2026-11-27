@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-26 05:34:34.099503
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-27 05:25:25.780407
 
-**Graded: 244 | Pending: 59 | Pushes: 5**
-**Profit: -5.1u | ROI: -2.1% | Adj ROI: -2.4% | Grade: C**
+**Graded: 247 | Pending: 61 | Pushes: 5**
+**Profit: -4.3u | ROI: -1.8% | Adj ROI: -2.1% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -310,8 +310,13 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-26 05:34:34.
 | 2026-11-24 | Fredo | UCL | Real Betis: Total Goals Over 2.5 | -125 | 0.589 | LOSS |
 | 2026-11-24 | Learlocks | NCAAB | Tulsa ML vs Oral Roberts | -112 | 0.487 | PENDING |
 | 2026-11-24 | Learlocks | NCAAB | Ole Miss ML vs BYU Cougars | -105 | 0.466 | WIN |
-| 2026-11-25 | Learlocks | OTHER | Eastern Kentucky +14.5 | -110 | 0.589 | PENDING |
-| 2026-11-25 | Learlocks | OTHER | Long Beach State ML | -120 | 0.589 | PENDING |
-| 2026-11-25 | Learlocks | OTHER | South Dakota State ML | -105 | 0.487 | PENDING |
+| 2026-11-25 | Learlocks | OTHER | Eastern Kentucky +14.5 | -110 | 0.589 | WIN |
+| 2026-11-25 | Learlocks | OTHER | Long Beach State ML | -120 | 0.589 | WIN |
+| 2026-11-25 | Learlocks | OTHER | South Dakota State ML | -105 | 0.487 | LOSS |
 | 2026-11-25 | Tokyo Brandon | NHL | Boston Bruins ML vs Winnipeg Jets | -110 | 0.589 | PENDING |
 | 2026-11-25 | Tokyo Brandon | NHL | Boston Bruins Regulation ML vs Buffalo S | -110 | 0.559 | PENDING |
+| 2026-11-26 | Ben Burns | NFL | Chicago Bears ML vs Detroit Lions | -119 | 0.518 | PENDING |
+| 2026-11-26 | Bulliespicks | NFL | Chicago Bears vs Detroit Lions Under 56. | -110 | 0.559 | PENDING |
+| 2026-11-26 | Bulliespicks | NFL | Dallas Cowboys vs Philadelphia Eagles Ov | -110 | 0.518 | PENDING |
+| 2026-11-26 | Matt Severance | NFL | Kansas City Chiefs vs Buffalo Bills Unde | -108 | 0.573 | PENDING |
+| 2026-11-26 | Ricky Tran | NFL | Chicago Bears ML vs Detroit Lions | -119 | 0.518 | PENDING |
