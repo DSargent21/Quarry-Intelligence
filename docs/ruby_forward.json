@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_update": "2026-11-26 19:03 UTC",
+    "last_update": "2026-11-27 19:00 UTC",
     "start_date": "2026-08-27",
-    "days_live": 92,
+    "days_live": 93,
     "status": "OPERATIONAL",
     "policy": {
       "min_prob": 0.56,
@@ -28,18 +28,18 @@
     }
   },
   "stats": {
-    "n": 329,
-    "wins": 183,
-    "losses": 146,
-    "pending": 92,
-    "wr": 0.5562,
-    "roi": 0.0628,
-    "net": 20.67,
-    "tstat": 1.2
+    "n": 338,
+    "wins": 187,
+    "losses": 151,
+    "pending": 95,
+    "wr": 0.5533,
+    "roi": 0.0571,
+    "net": 19.29,
+    "tstat": 1.1
   },
   "baselines": {
-    "all_discord_roi": 0.0129,
-    "top_prob_roi": 0.0151
+    "all_discord_roi": 0.0027,
+    "top_prob_roi": 0.0346
   },
   "today": [],
   "by_month": [
@@ -66,13 +66,169 @@
     },
     {
       "month": "2026-11",
-      "n": 93,
-      "wr": 0.5591,
-      "roi": 0.0691,
-      "net": 6.43
+      "n": 102,
+      "wr": 0.549,
+      "roi": 0.0495,
+      "net": 5.05
     }
   ],
   "ledger": [
+    {
+      "id": "1935173",
+      "date": "2026-11-26",
+      "capper": "Lords",
+      "league": "OTHER",
+      "selection": "other \ud83c\udfc0smu +7 / other \ud83c\udfc0pitt ml / other \ud83c\udfc0jacksonville state ml",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.9042,
+      "edge": 0.3804,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1935151",
+      "date": "2026-11-26",
+      "capper": "RobotBets",
+      "league": "OTHER",
+      "selection": "tcu ml",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8864,
+      "edge": 0.3628,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1934905",
+      "date": "2026-11-26",
+      "capper": "Psp",
+      "league": "NFL",
+      "selection": "chicago bears ml vs detroit lions",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8828,
+      "edge": 0.3592,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1935149",
+      "date": "2026-11-26",
+      "capper": "Tony T",
+      "league": "NFL",
+      "selection": "bears ml pod\ud83d\ude80 vs detroit lions",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8815,
+      "edge": 0.3579,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1934870",
+      "date": "2026-11-26",
+      "capper": "Nickymarino",
+      "league": "NCAAB",
+      "selection": "1h st. louis -1.5 vs dayton",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8805,
+      "edge": 0.3569,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1935153",
+      "date": "2026-11-26",
+      "capper": "Analyticscapper",
+      "league": "OTHER",
+      "selection": "cyclones -4.5",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8795,
+      "edge": 0.3559,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1934693",
+      "date": "2026-11-25",
+      "capper": "afs",
+      "league": "UCL",
+      "selection": "psg vs roma over 3.5",
+      "odds": -112.0,
+      "dec": 1.8928571428571428,
+      "prob": 0.9053,
+      "edge": 0.3769,
+      "status": "WIN",
+      "profit": 0.89
+    },
+    {
+      "id": "1934935",
+      "date": "2026-11-25",
+      "capper": "Sportsline",
+      "league": "NFL",
+      "selection": "evan williams tackles+ast over 7.5",
+      "odds": -117.0,
+      "dec": 1.8547008547008548,
+      "prob": 0.886,
+      "edge": 0.3469,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1934951",
+      "date": "2026-11-25",
+      "capper": "Insider",
+      "league": "NHL",
+      "selection": "boston bruins vs philadelphia flyers over 6",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8829,
+      "edge": 0.3594,
+      "status": "PENDING",
+      "profit": null
+    },
+    {
+      "id": "1934920",
+      "date": "2026-11-25",
+      "capper": "Codycoverspreads",
+      "league": "NBA",
+      "selection": "josh giddey pts over 12.5",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.8807,
+      "edge": 0.3569,
+      "status": "LOSS",
+      "profit": -1.0
+    },
+    {
+      "id": "1934961",
+      "date": "2026-11-25",
+      "capper": "Sportsline",
+      "league": "NHL",
+      "selection": "detroit red wings ml vs vancouver canucks",
+      "odds": null,
+      "dec": 1.91,
+      "prob": 0.8791,
+      "edge": 0.3555,
+      "status": "WIN",
+      "profit": 0.91
+    },
+    {
+      "id": "1934923",
+      "date": "2026-11-25",
+      "capper": "Codycoverspreads",
+      "league": "NBA",
+      "selection": "jonathan kuminga pts+ast over 16.5",
+      "odds": -110.0,
+      "dec": 1.9090909090909092,
+      "prob": 0.878,
+      "edge": 0.3542,
+      "status": "LOSS",
+      "profit": -1.0
+    },
     {
       "id": "1934231",
       "date": "2026-11-24",
