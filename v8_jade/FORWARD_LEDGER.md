@@ -1,9 +1,9 @@
 # v8 JADE - Forward Test Ledger
 
-Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-27 05:25:25.780407
+Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-28 05:03:36.777513
 
-**Graded: 247 | Pending: 61 | Pushes: 5**
-**Profit: -4.3u | ROI: -1.8% | Adj ROI: -2.1% | Grade: C**
+**Graded: 249 | Pending: 63 | Pushes: 5**
+**Profit: -4.4u | ROI: -1.8% | Adj ROI: -2.1% | Grade: C**
 
 | Date | Capper | League | Pick | Odds | Prob | Result |
 |---|---|---|---|---|---|---|
@@ -316,7 +316,11 @@ Start: 2026-09-22 | Policy: v8-jade-1.1 (frozen) | Updated: 2026-11-27 05:25:25.
 | 2026-11-25 | Tokyo Brandon | NHL | Boston Bruins ML vs Winnipeg Jets | -110 | 0.589 | PENDING |
 | 2026-11-25 | Tokyo Brandon | NHL | Boston Bruins Regulation ML vs Buffalo S | -110 | 0.559 | PENDING |
 | 2026-11-26 | Ben Burns | NFL | Chicago Bears ML vs Detroit Lions | -119 | 0.518 | PENDING |
-| 2026-11-26 | Bulliespicks | NFL | Chicago Bears vs Detroit Lions Under 56. | -110 | 0.559 | PENDING |
-| 2026-11-26 | Bulliespicks | NFL | Dallas Cowboys vs Philadelphia Eagles Ov | -110 | 0.518 | PENDING |
+| 2026-11-26 | Bulliespicks | NFL | Chicago Bears vs Detroit Lions Under 56. | -110 | 0.559 | LOSS |
+| 2026-11-26 | Bulliespicks | NFL | Dallas Cowboys vs Philadelphia Eagles Ov | -110 | 0.518 | WIN |
 | 2026-11-26 | Matt Severance | NFL | Kansas City Chiefs vs Buffalo Bills Unde | -108 | 0.573 | PENDING |
 | 2026-11-26 | Ricky Tran | NFL | Chicago Bears ML vs Detroit Lions | -119 | 0.518 | PENDING |
+| 2026-11-27 | Ben Burns | OTHER | Time: 3:30 PM EST Total Over 39.5 | -118 | 0.589 | PENDING |
+| 2026-11-27 | Ben Burns | OTHER | [CFB] North Dakota State At San Jose Sta | -118 | 0.573 | PENDING |
+| 2026-11-27 | Empire | OTHER | Steelers +6 | -125 | 0.578 | PENDING |
+| 2026-11-27 | Kyle Hunter | OTHER | 4* Temple @ Memphis = Over 64 | -114 | 0.559 | PENDING |

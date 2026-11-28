@@ -2,14 +2,14 @@
   "policy_version": "v8-jade-1.1",
   "features_version": "jade-1",
   "start_date": "2026-09-22",
-  "updated_at": "2026-11-27 05:25:25.780407",
+  "updated_at": "2026-11-28 05:03:36.777513",
   "summary": {
-    "graded": 247,
-    "pending": 61,
+    "graded": 249,
+    "pending": 63,
     "pushes": 5,
-    "profit": -4.33,
-    "roi": -0.0175,
-    "adj_roi": -0.021,
+    "profit": -4.42,
+    "roi": -0.0177,
+    "adj_roi": -0.0212,
     "grade": "C"
   },
   "picks": [
@@ -3731,7 +3731,7 @@
       "prob": 0.5594,
       "shrunk_acc_lt": 0.5801,
       "added_at": "2026-11-27 05:25:25.778319",
-      "result": "PENDING"
+      "result": "LOSS"
     },
     {
       "id": "1935022",
@@ -3743,7 +3743,7 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.5801,
       "added_at": "2026-11-27 05:25:25.778362",
-      "result": "PENDING"
+      "result": "WIN"
     },
     {
       "id": "1934917",
@@ -3767,6 +3767,54 @@
       "prob": 0.5181,
       "shrunk_acc_lt": 0.577,
       "added_at": "2026-11-27 05:25:25.778440",
+      "result": "PENDING"
+    },
+    {
+      "id": "1935220",
+      "pick_date": "2026-11-27",
+      "capper": "Ben Burns",
+      "league": "OTHER",
+      "pick": "Time: 3:30 PM EST Total Over 39.5",
+      "odds_american": -118.0,
+      "prob": 0.5889,
+      "shrunk_acc_lt": 0.5705,
+      "added_at": "2026-11-28 05:03:36.774541",
+      "result": "PENDING"
+    },
+    {
+      "id": "1935192",
+      "pick_date": "2026-11-27",
+      "capper": "Empire",
+      "league": "OTHER",
+      "pick": "Steelers +6",
+      "odds_american": -125.0,
+      "prob": 0.5783,
+      "shrunk_acc_lt": 0.5583,
+      "added_at": "2026-11-28 05:03:36.774649",
+      "result": "PENDING"
+    },
+    {
+      "id": "1935188",
+      "pick_date": "2026-11-27",
+      "capper": "Ben Burns",
+      "league": "OTHER",
+      "pick": "[CFB] North Dakota State At San Jose State:Total Over 39.5",
+      "odds_american": -118.0,
+      "prob": 0.5728,
+      "shrunk_acc_lt": 0.5705,
+      "added_at": "2026-11-28 05:03:36.774735",
+      "result": "PENDING"
+    },
+    {
+      "id": "1935187",
+      "pick_date": "2026-11-27",
+      "capper": "Kyle Hunter",
+      "league": "OTHER",
+      "pick": "4* Temple @ Memphis = Over 64",
+      "odds_american": -114.0,
+      "prob": 0.5594,
+      "shrunk_acc_lt": 0.6232,
+      "added_at": "2026-11-28 05:03:36.774813",
       "result": "PENDING"
     }
   ]
